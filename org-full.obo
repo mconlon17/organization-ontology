@@ -1,0 +1,11 @@
+format-version: 1.2
+data-version: org/releases/2019-04-24/org-full.obo
+ontology: org/org-full.obo
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Organization Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license "Unspecified" xsd:string
+
+[Term]
+id: ORG:00000000
+name: root node
+
