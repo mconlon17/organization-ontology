@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/org
+
+idspace: ORG
+base_url: /obo/org
+
+products:
+- org.owl: https://raw.githubusercontent.com/mconlon17/organization-ontology/master/org.owl
+- org.obo: https://raw.githubusercontent.com/mconlon17/organization-ontology/master/org.obo
+
+term_browser: ontobee
+example_terms:
+- org_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/mconlon17/organization-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/mconlon17/organization-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/ORG?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/mconlon17/organization-ontology/master/
