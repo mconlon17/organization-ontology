@@ -1,4 +1,4 @@
-Metadata files for the OBO Library
+# Metadata files for the OBO Library
 
  * [org.yml](org.yml)
      * Determines how your purl.obolibrary.org/obo/org/ redirects will be handled
