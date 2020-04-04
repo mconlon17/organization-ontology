@@ -14,7 +14,7 @@ Ontology(<http://purl.obolibrary.org/obo/org.owl>
 
 
 Annotation(dce:title "Organization Ontology")
-Annotation(dcterms:license "Unspecified")
+Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dce:description "None")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/ORG_00000000>))
