@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: org/releases/2019-04-24/org-full.obo
-ontology: org/org-full.obo
+data-version: org/releases/2020-04-04/org-full.owl
+ontology: org/org-full
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Organization Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "Unspecified" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 
 [Term]
 id: ORG:00000000
