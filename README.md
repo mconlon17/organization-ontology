@@ -44,4 +44,4 @@ Please use this GitHub repository's
 [Issue tracker](https://github.com/mconlon17/organization-ontology/issues) to request 
 new terms/classes or report errors or specific concerns related to the ontology.
 
-Requests for new organizations should be directed to (ROR)[https://ror.org].
+Requests for new organizations should be directed to [ROR](https://ror.org).
