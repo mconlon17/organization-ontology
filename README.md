@@ -13,11 +13,11 @@ in VIVO](http://bit.ly/2EhMdPq).  The ontology here is intended to be useful to
 the [VIVO Project](http://vivoweb.org) but does not depend in any way on VIVO, its
 ontologies, nor its software.
 
-The src/ontology/templates directory contains data from ROR used to make templates 
-for the OBO robot tool, and named individuals for the ontology.
-
-The src/ontology/i18n directory contains assertions for adding definitions and 
-labels in additional languages to the Organization Ontology.
+We use a simple makefile to extract terms we wish to import from other
+ontologies (see imports folder), build terms from templates (see templates folder),
+and merge these with a header file (see org-header.ttl).  The resulting ontology
+is verified using `robot report` and various sparql queries are run on the
+ontology to provide reports and additional validation.
 
 ## Versions
 
@@ -31,17 +31,17 @@ http://purl.obolibrary.org/obo/org.owl
 
 ### Editors' version
 
-Editors of this ontology should use the edit 
-version, [src/ontology/org-edit.owl](src/ontology/org-edit.owl)
+Editors of this ontology should edit the templates in the templates folder.
+
+## Data
+
+We provide tools for converting ROR entries into ORG ontology assertions.  See the data 
+folder.
 
 ## Contact
 
 Please use this GitHub repository's 
 [Issue tracker](https://github.com/mconlon17/organization-ontology/issues) to request 
 new terms/classes or report errors or specific concerns related to the ontology.
-Requests for new organizations should be directed to ROR.
 
-## Acknowledgements
-
-This ontology repository was created using the 
-[ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+Requests for new organizations should be directed to (ROR)[https://ror.org].
