@@ -1,38 +1,39 @@
-# Simple Makefile
-all:
 	robot extract --method BOT --input imports/bfo.owl --term-file imports/bfo_terms.txt \
 	    convert --output imports/bfo_import.ttl
+	robot extract --method BOT --input imports/ro.owl --term-file imports/ro_terms.txt \
+	    convert --output imports/ro_import.ttl
 	robot extract --method BOT --input imports/iao.owl --term-file imports/iao_terms.txt \
 	    convert --output imports/iao_import.ttl
-	robot extract --method BOT --input imports/time.owl --term-file imports/time_terms.txt \
+	robot extract --method BOT --input imports/time.ttl --term-file imports/time_terms.txt \
 	    convert --output imports/time_import.ttl
 	    
 	robot template \
-  	    --template templates\annotation-properties.tsv \
+  	    --template templates/annotation-properties.tsv \
   	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
-  	    convert --output annotation-properties.ttl
+  	    convert --output templates/annotation-properties.ttl
   	robot template \
-  	    --template templates\object-properties.tsv \
+  	    --template templates/object-properties.tsv \
   	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
-  	    convert --output object-properties.ttl
+  	    convert --output templates/object-properties.ttl
   	robot template \
-  	    --template templates\datatype-properties.tsv \
+  	    --template templates/datatype-properties.tsv \
   	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
-  	    convert --output datatype-properties.ttl
+  	    convert --output templates/datatype-properties.ttl
   	robot template \
-  	    --template templates\classes.tsv \
+  	    --template templates/classes.tsv \
   	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
-  	    convert --output classes.ttl
+  	    --prefix "bfo: http://purl.obolibrary.org/obo/BFO_" \
+  	    convert --output templates/classes.ttl
   	    
 	robot merge \
 	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
 	    --input org-header.ttl \
 	    --input imports/bfo_import.ttl \
 	    --input imports/iao_import.ttl \
-	    --input templates\annotation-properties.ttl \
-	    --input templates\object-properties.ttl \
-	    --input templates\datatype-properties.ttl \
-	    --input templates\classes.ttl \
+	    --input templates/annotation-properties.ttl \
+	    --input templates/object-properties.ttl \
+	    --input templates/datatype-properties.ttl \
+	    --input templates/classes.ttl \
 	    convert --output org.ttl
 
 	robot report --input org.ttl --output org-report.tsv

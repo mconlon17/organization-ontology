@@ -1,0 +1,79 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/IAO_0000112
+<http://purl.obolibrary.org/obo/IAO_0000112> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/BFO_0000031
+<http://purl.obolibrary.org/obo/BFO_0000031> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000001
+<http://purl.obolibrary.org/obo/ORG_0000001> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "a political party, a homeowners association, a football team, a publisher, a government agency, an organized religion"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group."@en ;
+                                             rdfs:label "Organization"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000002
+<http://purl.obolibrary.org/obo/ORG_0000002> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Florida is chartered by the State of Florida, and so is a government organization.  The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no \"part of\" relationshiop here.  Each is a government organization."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An organization which is created by a government, or by a group of people to serve as a government."@en ;
+                                             rdfs:label "Government Organization"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000003
+<http://purl.obolibrary.org/obo/ORG_0000003> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "BASF, The University of Phoenix, Facebook, Elsevier"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners."@en ;
+                                             rdfs:label "Company"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000004
+<http://purl.obolibrary.org/obo/ORG_0000004> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Doctors Without Borders, Duke University, The American Medical Association"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically a mission, in which excess revenue is reinvested to serve the entity's mission"@en ;
+                                             rdfs:label "Non-profit"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000005
+<http://purl.obolibrary.org/obo/ORG_0000005> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A student club, a university committee, the VIVO Ontology Interest Group"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group."@en ;
+                                             rdfs:label "Informal"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000006
+<http://purl.obolibrary.org/obo/ORG_0000006> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The US Navy is an organizational part of the US Department of Defense.  The History Department is an organizational part of its college."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An organization which exists as part of another organization.  Implies a part_of relationship to another organization"@en ;
+                                             rdfs:label "Organization Part"@en .
+
+
+###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi
