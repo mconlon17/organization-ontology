@@ -64,7 +64,7 @@
 <http://purl.obolibrary.org/obo/ORG_0000005> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A student club, a university committee, the VIVO Ontology Interest Group"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group. Without legal standing."@en ;
                                              rdfs:label "Informal"@en .
 
 

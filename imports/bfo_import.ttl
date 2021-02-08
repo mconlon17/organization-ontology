@@ -41,7 +41,7 @@
                                              <http://purl.org/dc/elements/1.1/identifier> "001-BFO" ;
                                              rdfs:label "entity"@en ;
                                              <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) An entity is anything that exists or has existed or will exist"@en ;
-                                             <http://www.w3.org/2004/02/skos/core#example> "Julius Caesar, the Second World War, your body mass index, Verdi's Requiem. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "Julius Caesar, the Second World War, your body mass index, Verdi's Requiem."@en ;
                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "entity"@en .
 
 
@@ -51,7 +51,7 @@
                                              <http://purl.org/dc/elements/1.1/identifier> "008-BFO" ;
                                              rdfs:label "continuant"@en ;
                                              <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity"@en ;
-                                             <http://www.w3.org/2004/02/skos/core#example> "A human being, a tennis ball, a cave, a region of space, someone's temperature. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "A human being, a tennis ball, a cave, a region of space, someone's temperature."@en ;
                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "continuant"@en .
 
 
@@ -62,7 +62,7 @@
                                              rdfs:label "generically dependent continuant"@en ;
                                              <http://www.w3.org/2004/02/skos/core#altLabel> "g-dependent continuant"@en ;
                                              <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) a generically dependent continuant is an entity that exists in virtue of the fact that there is at least one of what may be multiple copies; it is the content or the pattern that the multiple copies share"@en ;
-                                             <http://www.w3.org/2004/02/skos/core#example> "The pdf file on your laptop, the pdf file that is a copy thereof on my laptop; the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule; the content that is shared by a string of dots and dashes written on a page and the transmitted Morse code signal; the content of a sentence; an engineering blueprint. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "The pdf file on your laptop, the pdf file that is a copy thereof on my laptop; the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule; the content that is shared by a string of dots and dashes written on a page and the transmitted Morse code signal; the content of a sentence; an engineering blueprint."@en ;
                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "generically dependent continuant"@en .
 
 

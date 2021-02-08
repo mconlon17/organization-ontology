@@ -91,7 +91,7 @@
   </owl:Class>
   <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
     <dc:identifier>001-BFO</dc:identifier>
-    <j.0:example xml:lang="en">Julius Caesar, the Second World War, your body mass index, Verdi's Requiem. </j.0:example>
+    <j.0:example xml:lang="en">Julius Caesar, the Second World War, your body mass index, Verdi's Requiem.</j.0:example>
     <j.0:definition xml:lang="en">(Elucidation) An entity is anything that exists or has existed or will exist</j.0:definition>
     <rdfs:label xml:lang="en">entity</rdfs:label>
     <j.0:prefLabel xml:lang="en">entity</j.0:prefLabel>
@@ -177,7 +177,7 @@
   <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
     <dc:identifier>074-BFO</dc:identifier>
     <j.0:altLabel xml:lang="en">g-dependent continuant</j.0:altLabel>
-    <j.0:example xml:lang="en">The pdf file on your laptop, the pdf file that is a copy thereof on my laptop; the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule; the content that is shared by a string of dots and dashes written on a page and the transmitted Morse code signal; the content of a sentence; an engineering blueprint. </j.0:example>
+    <j.0:example xml:lang="en">The pdf file on your laptop, the pdf file that is a copy thereof on my laptop; the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule; the content that is shared by a string of dots and dashes written on a page and the transmitted Morse code signal; the content of a sentence; an engineering blueprint.</j.0:example>
     <j.0:definition xml:lang="en">(Elucidation) a generically dependent continuant is an entity that exists in virtue of the fact that there is at least one of what may be multiple copies; it is the content or the pattern that the multiple copies share</j.0:definition>
     <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
     <j.0:prefLabel xml:lang="en">generically dependent continuant</j.0:prefLabel>
@@ -435,7 +435,7 @@
   </owl:Class>
   <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
     <dc:identifier>008-BFO</dc:identifier>
-    <j.0:example xml:lang="en">A human being, a tennis ball, a cave, a region of space, someone's temperature. </j.0:example>
+    <j.0:example xml:lang="en">A human being, a tennis ball, a cave, a region of space, someone's temperature.</j.0:example>
     <j.0:definition xml:lang="en">(Elucidation) A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity</j.0:definition>
     <rdfs:label xml:lang="en">continuant</rdfs:label>
     <j.0:prefLabel xml:lang="en">continuant</j.0:prefLabel>
