@@ -1,3 +1,3 @@
 RDF Type	ID	Parent	Label	Domain	Range	Definition	Example	Editors Note	Reference
-TYPE	ID	SP %	AL rdfs:label@en	DOMAIN	RANGE	AL IAO:0000115@en	AL IAO:0000112@en	AL IAO:0000116@en	AL IAO:0000119@en
+TYPE	ID	SP %	AL rdfs:label@en	DOMAIN	RANGE	AL iao:0000115@en	AL iao:0000112@en	AL iao:0000116@en	AL iao:0000119@en
 owl:ObjectProperty	org:2000001	owl:TopProperty	date established	org:0000001	time:Instant	Date the organizational was established.	UF date_established 1853	Won't be modeled this way.  This is a demo.	

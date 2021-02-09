@@ -1,1 +1,6 @@
-http://purl.obolibrary.org/obo/BFO_0000031
+http://purl.obolibrary.org/obo/BFO_0000031 # generic dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000035 # process boundary
+http://purl.obolibrary.org/obo/BFO_0000015 # process 
+http://purl.obolibrary.org/obo/BFO_0000038 # one-dimensional temporal region
+http://purl.obolibrary.org/obo/BFO_0000050 # part of
+http://purl.obolibrary.org/obo/BFO_0000148 # zero dimensional temporal region

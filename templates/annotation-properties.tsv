@@ -1,3 +1,3 @@
 RDF Type	ID	Parent	Label	Domain	Range	Definition	Example	Editors Note	Reference
-TYPE	ID	SP %	AL rdfs:label@en	DOMAIN	RANGE	AL IAO:0000115@en	AL IAO:0000112@en	AL IAO:0000116@en	AL IAO:0000119@en
-owl:AnnotationProperty	org:1000001	owl:TopProperty	organization annotation			This is a demo	Demo.  There is no example of an organiozation annotation.	demo.  Not a real property	
+TYPE	ID	SP %	AL rdfs:label@en	DOMAIN	RANGE	AL iao:0000115@en	AL iao:0000112@en	AL iao:0000116@en	AL iao:0000119@en
+owl:AnnotationProperty	org:1000001	owl:TopProperty	organization annotation			This is a demo	Demo.  There is no example of an organization annotation.	demo.  Not a real property	

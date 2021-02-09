@@ -1,3 +1,3 @@
 RDF Type	ID	Parent	Label	Domain	Range	Definition	Example	Editors Note	Reference
-TYPE	ID	SP %	AL rdfs:label@en	DOMAIN	RANGE	AL IAO:0000115@en	AL IAO:0000112@en	AL IAO:0000116@en	AL IAO:0000119@en
-owl:DatatypeProperty	org:3000001	owl:TopProperty	number of employees	org:0000001	xsd:nonNegativeInteger	The number of people (headcount) who receive paychecks from the organizationb for work performed	Amazon.com number_of_employees 1300000	Informal organizations do not have employees.  Create a class restriction as a domain.	
+TYPE	ID	SP %	AL rdfs:label@en	DOMAIN	RANGE	AL iao:0000115@en	AL iao:0000112@en	AL iao:0000116@en	AL iao:0000119@en
+owl:DataProperty	org:3000001	owl:TopProperty	number of employees	org:0000001	xsd:nonNegativeInteger	The number of people (headcount) who receive paychecks from the organizationb for work performed	Amazon.com number_of_employees 1300000	Informal organizations do not have employees.  Create a class restriction as a domain.	

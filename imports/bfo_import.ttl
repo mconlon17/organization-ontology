@@ -32,6 +32,10 @@
 <http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -48,11 +52,53 @@
 ###  http://purl.obolibrary.org/obo/BFO_0000002
 <http://purl.obolibrary.org/obo/BFO_0000002> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> ;
+                                             owl:disjointWith <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.org/dc/elements/1.1/identifier> "008-BFO" ;
                                              rdfs:label "continuant"@en ;
                                              <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity"@en ;
                                              <http://www.w3.org/2004/02/skos/core#example> "A human being, a tennis ball, a cave, a region of space, someone's temperature."@en ;
                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "continuant"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000003
+<http://purl.obolibrary.org/obo/BFO_0000003> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> ;
+                                             <http://purl.org/dc/elements/1.1/identifier> "077-BFO" ;
+                                             rdfs:label "occurrent"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) An occurrent is an entity that unfolds itself in time or it is the start or end of such an entity or it is a temporal or spatiotemporal region"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "As for process, history, process boundary, spatiotemporal region, zero-dimensional temporal region, one-dimensional temporal region, temporal interval, temporal instant. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "occurrent"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000008
+<http://purl.obolibrary.org/obo/BFO_0000008> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.org/dc/elements/1.1/identifier> "100-BFO" ;
+                                             rdfs:label "temporal region"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) A temporal region is an occurrent over which processes can unfold"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "As for zero-dimensional temporal region and one-dimensional temporal region. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "temporal region"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000011
+<http://purl.obolibrary.org/obo/BFO_0000011> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.org/dc/elements/1.1/identifier> "095-BFO" ;
+                                             rdfs:label "spatiotemporal region"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) A spatiotemporal region is an occurrent that is an occurrent part of spacetime"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "The spatiotemporal region occupied by the development of a cancer tumour, the spatiotemporal region occupied by an orbiting satellite. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "spatiotemporal region"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#scopeNote> "'Spacetime' here refers to the maximal instance of the universal spatiotemporal region. "@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000015
+<http://purl.obolibrary.org/obo/BFO_0000015> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.org/dc/elements/1.1/identifier> "083-BFO" ;
+                                             rdfs:label "process"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) p is a process =Def p is an occurrent that has some temporal proper part and for some time t, p has some material entity as participant"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "An act of selling, the life of an organism, a process of sleeping, a process of cell-division, a beating of the heart, a process of meiosis, the taxiing of an aircraft, the programming of a computer. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "process"@en .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000031
@@ -64,6 +110,50 @@
                                              <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) a generically dependent continuant is an entity that exists in virtue of the fact that there is at least one of what may be multiple copies; it is the content or the pattern that the multiple copies share"@en ;
                                              <http://www.w3.org/2004/02/skos/core#example> "The pdf file on your laptop, the pdf file that is a copy thereof on my laptop; the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule; the content that is shared by a string of dots and dashes written on a page and the transmitted Morse code signal; the content of a sentence; an engineering blueprint."@en ;
                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "generically dependent continuant"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000035
+<http://purl.obolibrary.org/obo/BFO_0000035> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.org/dc/elements/1.1/identifier> "084-BFO" ;
+                                             rdfs:label "process boundary"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "p is a process boundary =Def p is a temporal part of a process & p has no proper temporal parts"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "The boundary between the 2nd and 3rd year of your life. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "process boundary"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000038
+<http://purl.obolibrary.org/obo/BFO_0000038> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000008> ;
+                                             owl:disjointWith <http://purl.obolibrary.org/obo/BFO_0000148> ;
+                                             <http://purl.org/dc/elements/1.1/identifier> "103-BFO" ;
+                                             rdfs:label "one-dimensional temporal region"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) A one-dimensional temporal region is a temporal region is a whole that has a temporal interval and zero or more temporal intervals and temporal instants as parts"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "The temporal region during which a process occurs. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "one-dimensional temporal region"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000148
+<http://purl.obolibrary.org/obo/BFO_0000148> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000008> ;
+                                             <http://purl.org/dc/elements/1.1/identifier> "102-BFO" ;
+                                             rdfs:label "zero-dimensional temporal region"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) A zero-dimensional temporal region is a temporal region that is a whole consisting of one or more separated temporal instants as parts"@en ;
+                                             <http://www.w3.org/2004/02/skos/core#example> "A temporal region that is occupied by a process boundary; the moment at which a finger is detached in an industrial accident. "@en ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "zero-dimensional temporal region"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://purl.obolibrary.org/obo/BFO_0000008>
+                <http://purl.obolibrary.org/obo/BFO_0000011>
+                <http://purl.obolibrary.org/obo/BFO_0000015>
+                <http://purl.obolibrary.org/obo/BFO_0000035>
+              )
+] .
 
 
 ###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi
