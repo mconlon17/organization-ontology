@@ -1,0 +1,4 @@
+Types of Organizations
+======================
+
+Here will have information for those writing ontologies.
