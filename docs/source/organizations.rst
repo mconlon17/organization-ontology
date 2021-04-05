@@ -29,14 +29,13 @@ Overview
 
 .. _Figure 1:
 
-.. figure:: ../img/OrganizationModel.png
+.. figure:: ../img/org-overview.png
     :alt: Representation of organizations in ORG.  A complex ball and stick diagram
 
     Figure 1
     
-    Representation of organizations.  Dark blue is the organization class.  Light blue
-    are entities dependent on the existence of a particular individual organization.  Green
-    are entities which would exist if the organization is removed.
+    Representation of organizations.  The organization of interest is at the center of the
+    figure
     
 Types
 ------
@@ -57,6 +56,17 @@ not be more than one type, just as an animal cannot be more than one species.
     ORG_0000004  Informal                 An org which is not formally constituted
     ORG_0000005  Organization Part        An org which is a part of another org
     ===========  =======================  ================================================
+    
+:ref:`Figure 2` shows the classes and properties used to represent organizations in ORG.
+
+.. _Figure 2:
+
+.. figure:: ../img/org-types.png
+    :alt: Types of organizations.  A simple ball and stick diagram
+
+    Figure 2
+    
+    Subclasses of organization and subsumption hierarchy.  The subclasses are mutually exclusive.
 
 Dispositions
 ------------

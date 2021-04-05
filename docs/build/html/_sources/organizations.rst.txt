@@ -29,7 +29,7 @@ Overview
 
 .. _Figure 1:
 
-.. figure:: ../img/OrganizationModel.png
+.. figure:: ../img/org-overview.png
     :alt: Representation of organizations in ORG.  A complex ball and stick diagram
 
     Figure 1
@@ -57,6 +57,17 @@ not be more than one type, just as an animal cannot be more than one species.
     ORG_0000004  Informal                 An org which is not formally constituted
     ORG_0000005  Organization Part        An org which is a part of another org
     ===========  =======================  ================================================
+    
+:ref:`Figure 2` shows the classes and properties used to represent organizations in ORG.
+
+.. _Figure 2:
+
+.. figure:: ../img/org-types.png
+    :alt: Types of organizations.  A simple ball and stick diagram
+
+    Figure 2
+    
+    Types of organizations and subsumption hierarchy.  The types are mutually exclusive.
 
 Dispositions
 ------------
