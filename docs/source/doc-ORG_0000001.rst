@@ -1,0 +1,39 @@
+
+  .. _ORG_0000001:
+  .. _Organization:
+  .. index:: 
+     single: ORG_0000001; Organization
+     single: Organization; ORG_0000001
+
+ORG_0000001 - Organization
+====================================================================================
+
+.. topic:: Alternate name for Organization
+
+    None
+
+
+.. topic:: Definition
+
+    A group of people recognized as such by people outside the group.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    a political party, a homeowners association, a football team, a publisher, a government agency, an organized religion
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

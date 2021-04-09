@@ -1,0 +1,39 @@
+
+  .. _ORG_0000003:
+  .. _Company:
+  .. index:: 
+     single: ORG_0000003; Company
+     single: Company; ORG_0000003
+
+ORG_0000003 - Company
+====================================================================================
+
+.. topic:: Alternate name for Company
+
+    None
+
+
+.. topic:: Definition
+
+    A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    BASF, The University of Phoenix, Facebook, Elsevier
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

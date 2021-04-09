@@ -1,0 +1,43 @@
+
+  .. _IAO_0000136:
+  .. _is about:
+  .. index:: 
+     single: IAO_0000136; is about
+     single: is about; IAO_0000136
+
+IAO_0000136 - is about
+====================================================================================
+
+.. topic:: Alternate name for is about
+
+    None
+
+
+.. topic:: Definition
+
+    A (currently) primitive relation that relates an information artifact to an entity.
+
+
+.. topic:: Definition Source
+
+    Smith, Ceusters, Ruttenberg, 2000 years of philosophy
+
+
+.. topic:: Example
+
+    This document is about information artifacts and their representations
+
+
+.. topic:: Editor's Note
+
+    7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of "mentions" relation. Weaken the is_about relationship to be primitive. 
+
+We will try to build it back up by elaborating the various subproperties that are more precisely defined.
+
+Some currently missing phenomena that should be considered "about" are predications - "The only person who knows the answer is sitting beside me" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.
+
+
+.. topic:: Term Editor
+
+    person:Alan Ruttenberg
+

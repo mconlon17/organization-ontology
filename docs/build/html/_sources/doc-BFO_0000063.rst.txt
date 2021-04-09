@@ -1,0 +1,39 @@
+
+  .. _BFO_0000063:
+  .. _precedes:
+  .. index:: 
+     single: BFO_0000063; precedes
+     single: precedes; BFO_0000063
+
+BFO_0000063 - precedes
+====================================================================================
+
+.. topic:: Alternate name for precedes
+
+    None
+
+
+.. topic:: Definition
+
+    x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

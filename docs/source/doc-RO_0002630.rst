@@ -1,0 +1,39 @@
+
+  .. _RO_0002630:
+  .. _directly negatively regulates:
+  .. index:: 
+     single: RO_0002630; directly negatively regulates
+     single: directly negatively regulates; RO_0002630
+
+RO_0002630 - directly negatively regulates
+====================================================================================
+
+.. topic:: Alternate name for directly negatively regulates
+
+    None
+
+
+.. topic:: Definition
+
+    Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

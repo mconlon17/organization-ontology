@@ -1,0 +1,41 @@
+
+  .. _RO_0002448:
+  .. _directly regulates activity of:
+  .. index:: 
+     single: RO_0002448; directly regulates activity of
+     single: directly regulates activity of; RO_0002448
+
+RO_0002448 - directly regulates activity of
+====================================================================================
+
+.. topic:: Alternate name for directly regulates activity of
+
+    None
+
+
+.. topic:: Definition
+
+    The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.
+
+A and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Vasundra Touré
+

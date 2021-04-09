@@ -1,0 +1,40 @@
+
+  .. _RO_0002449:
+  .. _directly negatively regulates activity of:
+  .. index:: 
+     single: RO_0002449; directly negatively regulates activity of
+     single: directly negatively regulates activity of; RO_0002449
+
+RO_0002449 - directly negatively regulates activity of
+====================================================================================
+
+.. topic:: Alternate name for directly negatively regulates activity of
+
+    directly inhibits
+
+
+.. topic:: Definition
+
+    The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. 
+For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Vasundra Touré
+

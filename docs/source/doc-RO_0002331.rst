@@ -1,0 +1,39 @@
+
+  .. _RO_0002331:
+  .. _involved in:
+  .. index:: 
+     single: RO_0002331; involved in
+     single: involved in; RO_0002331
+
+RO_0002331 - involved in
+====================================================================================
+
+.. topic:: Alternate name for involved in
+
+    enables part of
+
+
+.. topic:: Definition
+
+    c involved_in p if and only if c enables some process p', and p' is part of p
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

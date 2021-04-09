@@ -1,0 +1,39 @@
+
+  .. _BFO_0000179:
+  .. _None:
+  .. index:: 
+     single: BFO_0000179; None
+     single: None; BFO_0000179
+
+BFO_0000179 - None
+====================================================================================
+
+.. topic:: Alternate name for None
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

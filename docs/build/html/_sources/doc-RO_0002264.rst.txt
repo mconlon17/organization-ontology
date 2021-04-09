@@ -1,0 +1,39 @@
+
+  .. _RO_0002264:
+  .. _acts upstream of or within:
+  .. index:: 
+     single: RO_0002264; acts upstream of or within
+     single: acts upstream of or within; RO_0002264
+
+RO_0002264 - acts upstream of or within
+====================================================================================
+
+.. topic:: Alternate name for acts upstream of or within
+
+    None
+
+
+.. topic:: Definition
+
+    c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    A gene product that has some activity, where that activity may be a part of a pathway or upstream of the pathway.
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

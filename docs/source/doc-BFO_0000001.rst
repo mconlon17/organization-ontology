@@ -1,0 +1,39 @@
+
+  .. _BFO_0000001:
+  .. _entity:
+  .. index:: 
+     single: BFO_0000001; entity
+     single: entity; BFO_0000001
+
+BFO_0000001 - entity
+====================================================================================
+
+.. topic:: Alternate name for entity
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    Julius Caesar
+
+
+.. topic:: Editor's Note
+
+    Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf
+
+
+.. topic:: Term Editor
+
+    None
+

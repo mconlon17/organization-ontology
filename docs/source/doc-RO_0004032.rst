@@ -1,0 +1,39 @@
+
+  .. _RO_0004032:
+  .. _acts upstream of or within, positive effect:
+  .. index:: 
+     single: RO_0004032; acts upstream of or within, positive effect
+     single: acts upstream of or within, positive effect; RO_0004032
+
+RO_0004032 - acts upstream of or within, positive effect
+====================================================================================
+
+.. topic:: Alternate name for acts upstream of or within, positive effect
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

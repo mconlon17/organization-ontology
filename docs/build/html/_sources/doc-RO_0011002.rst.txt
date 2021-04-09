@@ -1,0 +1,39 @@
+
+  .. _RO_0011002:
+  .. _regulates activity of:
+  .. index:: 
+     single: RO_0011002; regulates activity of
+     single: regulates activity of; RO_0011002
+
+RO_0011002 - regulates activity of
+====================================================================================
+
+.. topic:: Alternate name for regulates activity of
+
+    None
+
+
+.. topic:: Definition
+
+    The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Vasundra Touré
+

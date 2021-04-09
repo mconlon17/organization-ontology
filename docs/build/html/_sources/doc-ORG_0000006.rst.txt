@@ -1,0 +1,39 @@
+
+  .. _ORG_0000006:
+  .. _Organization Part:
+  .. index:: 
+     single: ORG_0000006; Organization Part
+     single: Organization Part; ORG_0000006
+
+ORG_0000006 - Organization Part
+====================================================================================
+
+.. topic:: Alternate name for Organization Part
+
+    None
+
+
+.. topic:: Definition
+
+    An organization which exists as part of another organization.  Implies a part_of relationship to another organization
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    The US Navy is an organizational part of the US Department of Defense.  The History Department is an organizational part of its college.
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

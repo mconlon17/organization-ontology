@@ -1,0 +1,39 @@
+
+  .. _RO_0004035:
+  .. _acts upstream of, negative effect:
+  .. index:: 
+     single: RO_0004035; acts upstream of, negative effect
+     single: acts upstream of, negative effect; RO_0004035
+
+RO_0004035 - acts upstream of, negative effect
+====================================================================================
+
+.. topic:: Alternate name for acts upstream of, negative effect
+
+    None
+
+
+.. topic:: Definition
+
+    c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

@@ -34,9 +34,8 @@ Overview
 
     Figure 1
     
-    Representation of organizations.  Dark blue is the organization class.  Light blue
-    are entities dependent on the existence of a particular individual organization.  Green
-    are entities which would exist if the organization is removed.
+    Representation of organizations.  The organization of interest is at the center of the
+    figure
     
 Types
 ------
@@ -67,7 +66,7 @@ not be more than one type, just as an animal cannot be more than one species.
 
     Figure 2
     
-    Types of organizations and subsumption hierarchy.  The types are mutually exclusive.
+    Subclasses of organization and subsumption hierarchy.  The subclasses are mutually exclusive.
 
 Dispositions
 ------------

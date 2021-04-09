@@ -1,0 +1,39 @@
+
+  .. _RO_0002263:
+  .. _acts upstream of:
+  .. index:: 
+     single: RO_0002263; acts upstream of
+     single: acts upstream of; RO_0002263
+
+RO_0002263 - acts upstream of
+====================================================================================
+
+.. topic:: Alternate name for acts upstream of
+
+    None
+
+
+.. topic:: Definition
+
+    c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    A faulty traffic light (material entity) whose malfunctioning (a process) is causally upstream of a traffic collision (a process): the traffic light acts upstream of the collision.
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

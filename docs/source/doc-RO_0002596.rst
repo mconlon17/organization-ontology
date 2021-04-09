@@ -1,0 +1,39 @@
+
+  .. _RO_0002596:
+  .. _capable of regulating:
+  .. index:: 
+     single: RO_0002596; capable of regulating
+     single: capable of regulating; RO_0002596
+
+RO_0002596 - capable of regulating
+====================================================================================
+
+.. topic:: Alternate name for capable of regulating
+
+    None
+
+
+.. topic:: Definition
+
+    Holds between c and p if and only if c is capable of some activity a, and a regulates p.
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    pyrethroid -> growth
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

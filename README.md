@@ -33,6 +33,11 @@ http://purl.obolibrary.org/obo/org.owl
 
 Editors of this ontology should edit the templates in the templates folder.
 
+## Documentation
+
+Documentation for the Organization Ontology is produced using ReadTheDocs, Sphinx, and
+RestructuredText.  Go to the html folder and drag the index.html file to your browser.
+
 ## Data
 
 We provide tools for converting ROR entries into ORG ontology assertions.  See the data 

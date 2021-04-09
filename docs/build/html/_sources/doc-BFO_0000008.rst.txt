@@ -1,0 +1,39 @@
+
+  .. _BFO_0000008:
+  .. _temporal region:
+  .. index:: 
+     single: BFO_0000008; temporal region
+     single: temporal region; BFO_0000008
+
+BFO_0000008 - temporal region
+====================================================================================
+
+.. topic:: Alternate name for temporal region
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

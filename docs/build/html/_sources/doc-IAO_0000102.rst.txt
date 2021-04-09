@@ -1,0 +1,39 @@
+
+  .. _IAO_0000102:
+  .. _data about an ontology part:
+  .. index:: 
+     single: IAO_0000102; data about an ontology part
+     single: data about an ontology part; IAO_0000102
+
+IAO_0000102 - data about an ontology part
+====================================================================================
+
+.. topic:: Alternate name for data about an ontology part
+
+    None
+
+
+.. topic:: Definition
+
+    Data about an ontology part is a data item about a part of an ontology, for example a term
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Person:Alan Ruttenberg
+

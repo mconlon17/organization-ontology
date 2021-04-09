@@ -1,0 +1,39 @@
+
+  .. _RO_0002405:
+  .. _immediately causally downstream of:
+  .. index:: 
+     single: RO_0002405; immediately causally downstream of
+     single: immediately causally downstream of; RO_0002405
+
+RO_0002405 - immediately causally downstream of
+====================================================================================
+
+.. topic:: Alternate name for immediately causally downstream of
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

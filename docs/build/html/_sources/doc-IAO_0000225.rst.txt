@@ -1,0 +1,39 @@
+
+  .. _IAO_0000225:
+  .. _obsolescence reason specification:
+  .. index:: 
+     single: IAO_0000225; obsolescence reason specification
+     single: obsolescence reason specification; IAO_0000225
+
+IAO_0000225 - obsolescence reason specification
+====================================================================================
+
+.. topic:: Alternate name for obsolescence reason specification
+
+    None
+
+
+.. topic:: Definition
+
+    The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    The creation of this class has been inspired in part by Werner Ceusters' paper, Applying evolutionary terminology auditing to the Gene Ontology.
+
+
+.. topic:: Term Editor
+
+    PERSON: Melanie Courtot
+

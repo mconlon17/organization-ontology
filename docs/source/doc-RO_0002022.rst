@@ -1,0 +1,39 @@
+
+  .. _RO_0002022:
+  .. _directly regulated by:
+  .. index:: 
+     single: RO_0002022; directly regulated by
+     single: directly regulated by; RO_0002022
+
+RO_0002022 - directly regulated by
+====================================================================================
+
+.. topic:: Alternate name for directly regulated by
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

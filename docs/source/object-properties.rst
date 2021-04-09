@@ -16,6 +16,8 @@ For example, if we define an object property "author_of", we might define the do
 be "Person" and the range to be "Information Content Entity". If we write x author_of y,
 we know x is a Person and y is an Information Content Entity. [#]_
 
+.. include:: toc-ObjectProperty.rst
+
 Common Object Properties
 ------------------------
 
@@ -57,6 +59,15 @@ equivalently, *entity2 output_of process; process realizes role; role inheres in
     ``RO_0002234``   has output               An occurrent has a continuant as an output
     ``RO_0002353``   output of                A continuant is the output of an occurrent
     ===============  =======================  ================================================
+
+All Object Properties
+-----------------------
+
+
+
+:ref:`Table ObjectProperty` lists all the object properties in the ORG ontology.
+ 
+.. include:: tab-ObjectProperty.rst
 
 
 

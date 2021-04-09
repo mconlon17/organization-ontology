@@ -1,0 +1,39 @@
+
+  .. _ORG_1000001:
+  .. _organization annotation:
+  .. index:: 
+     single: ORG_1000001; organization annotation
+     single: organization annotation; ORG_1000001
+
+ORG_1000001 - organization annotation
+====================================================================================
+
+.. topic:: Alternate name for organization annotation
+
+    None
+
+
+.. topic:: Definition
+
+    This is a demo
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    Demo.  There is no example of an organization annotation.
+
+
+.. topic:: Editor's Note
+
+    demo.  Not a real property
+
+
+.. topic:: Term Editor
+
+    None
+

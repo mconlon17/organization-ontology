@@ -1,0 +1,39 @@
+
+  .. _BFO_0000040:
+  .. _material entity:
+  .. index:: 
+     single: BFO_0000040; material entity
+     single: material entity; BFO_0000040
+
+BFO_0000040 - material entity
+====================================================================================
+
+.. topic:: Alternate name for material entity
+
+    None
+
+
+.. topic:: Definition
+
+    An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

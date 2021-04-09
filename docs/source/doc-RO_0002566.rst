@@ -1,0 +1,39 @@
+
+  .. _RO_0002566:
+  .. _causally influences:
+  .. index:: 
+     single: RO_0002566; causally influences
+     single: causally influences; RO_0002566
+
+RO_0002566 - causally influences
+====================================================================================
+
+.. topic:: Alternate name for causally influences
+
+    None
+
+
+.. topic:: Definition
+
+    The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size).
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Vasundra Touré
+

@@ -1,0 +1,39 @@
+
+  .. _RO_0002436:
+  .. _molecularly interacts with:
+  .. index:: 
+     single: RO_0002436; molecularly interacts with
+     single: molecularly interacts with; RO_0002436
+
+RO_0002436 - molecularly interacts with
+====================================================================================
+
+.. topic:: Alternate name for molecularly interacts with
+
+    molecularly binds with
+
+
+.. topic:: Definition
+
+    An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

@@ -1,0 +1,39 @@
+
+  .. _RO_0002584:
+  .. _has part structure that is capable of:
+  .. index:: 
+     single: RO_0002584; has part structure that is capable of
+     single: has part structure that is capable of; RO_0002584
+
+RO_0002584 - has part structure that is capable of
+====================================================================================
+
+.. topic:: Alternate name for has part structure that is capable of
+
+    None
+
+
+.. topic:: Definition
+
+    s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    gland SubClassOf 'has part structure that is capable of' some 'secretion by cell'
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

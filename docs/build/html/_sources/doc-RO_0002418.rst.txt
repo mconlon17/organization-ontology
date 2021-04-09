@@ -1,0 +1,39 @@
+
+  .. _RO_0002418:
+  .. _causally upstream of or within:
+  .. index:: 
+     single: RO_0002418; causally upstream of or within
+     single: causally upstream of or within; RO_0002418
+
+RO_0002418 - causally upstream of or within
+====================================================================================
+
+.. topic:: Alternate name for causally upstream of or within
+
+    influences (processual)
+
+
+.. topic:: Definition
+
+    p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

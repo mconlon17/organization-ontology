@@ -1,0 +1,39 @@
+
+  .. _BFO_0000035:
+  .. _process boundary:
+  .. index:: 
+     single: BFO_0000035; process boundary
+     single: process boundary; BFO_0000035
+
+BFO_0000035 - process boundary
+====================================================================================
+
+.. topic:: Alternate name for process boundary
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

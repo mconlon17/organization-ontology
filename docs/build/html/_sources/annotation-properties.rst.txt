@@ -12,6 +12,8 @@ status.  To assert that a term's metadata is complete, the assertion is:
 Alternative terms (IAO_0000118) are not common in the VIVO ontologies.  All other
 annotations are expected for all terms.  
 
+.. include:: toc-AnnotationProperty.rst
+
 .. _Table 5:
 
 .. table:: Table 5 Common Annotation Properties
@@ -25,7 +27,7 @@ annotations are expected for all terms.
     ``IAO_0000116``  editor note              An administrative note intended for the term editor
     ``IAO_0000117``  term editor              Name of the editor
     ``IAO_0000118``  alternative term         Alternative name for the term
-    ``IAO_0000119``  definition source        Defintion citation, may be a link to definition
+    ``IAO_0000119``  definition source        Definition citation, may be a link to definition
     ===============  =======================  ===================================================
     
 .. _Table 6:
@@ -55,16 +57,12 @@ corresponding term.
 ``dc:license`` is required for all ontologies.  The license should be CC0 or CC-BY, no
 other restrictions are acceptable for use in the VIVO ontologies.
 
-.. _Table 7:
+All Annotation Properties
+-------------------------
 
-.. table:: Table 7 Additional Annotation Properties
-
-    ===============  =======================  ================================================
-    Property         Label                    Notes
-    ===============  =======================  ================================================
-    ``rdfs:label``   label                    Every term must have a unique label
-    ``dc:license``   ontology license         Every ontology must have a license
-    ===============  =======================  ================================================
+:ref:`Table AnnotationProperty` lists all the Annotation properties in the ORG ontology.
+ 
+.. include:: tab-AnnotationProperty.rst
     
 
 .. We will have a script that can read the ontology and write documentation pages, one per

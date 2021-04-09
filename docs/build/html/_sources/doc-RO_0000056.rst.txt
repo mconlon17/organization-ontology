@@ -1,0 +1,39 @@
+
+  .. _RO_0000056:
+  .. _participates in:
+  .. index:: 
+     single: RO_0000056; participates in
+     single: participates in; RO_0000056
+
+RO_0000056 - participates in
+====================================================================================
+
+.. topic:: Alternate name for participates in
+
+    participates_in
+
+
+.. topic:: Definition
+
+    a relation between a continuant and a process, in which the continuant is somehow involved in the process
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    this input material (or this output material) participates in this process
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

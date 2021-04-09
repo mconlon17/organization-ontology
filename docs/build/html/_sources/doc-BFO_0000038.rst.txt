@@ -1,0 +1,39 @@
+
+  .. _BFO_0000038:
+  .. _one-dimensional temporal region:
+  .. index:: 
+     single: BFO_0000038; one-dimensional temporal region
+     single: one-dimensional temporal region; BFO_0000038
+
+BFO_0000038 - one-dimensional temporal region
+====================================================================================
+
+.. topic:: Alternate name for one-dimensional temporal region
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

@@ -1,0 +1,39 @@
+
+  .. _RO_0002595:
+  .. _causal relation between material entity and a process:
+  .. index:: 
+     single: RO_0002595; causal relation between material entity and a process
+     single: causal relation between material entity and a process; RO_0002595
+
+RO_0002595 - causal relation between material entity and a process
+====================================================================================
+
+.. topic:: Alternate name for causal relation between material entity and a process
+
+    None
+
+
+.. topic:: Definition
+
+    A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity.
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect.
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

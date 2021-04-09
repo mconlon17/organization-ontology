@@ -1,0 +1,39 @@
+
+  .. _RO_0004046:
+  .. _causally upstream of or within, negative effect:
+  .. index:: 
+     single: RO_0004046; causally upstream of or within, negative effect
+     single: causally upstream of or within, negative effect; RO_0004046
+
+RO_0004046 - causally upstream of or within, negative effect
+====================================================================================
+
+.. topic:: Alternate name for causally upstream of or within, negative effect
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

@@ -1,0 +1,39 @@
+
+  .. _RO_0002563:
+  .. _interaction relation helper property:
+  .. index:: 
+     single: RO_0002563; interaction relation helper property
+     single: interaction relation helper property; RO_0002563
+
+RO_0002563 - interaction relation helper property
+====================================================================================
+
+.. topic:: Alternate name for interaction relation helper property
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

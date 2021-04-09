@@ -1,0 +1,39 @@
+
+  .. _RO_0002304:
+  .. _causally upstream of, positive effect:
+  .. index:: 
+     single: RO_0002304; causally upstream of, positive effect
+     single: causally upstream of, positive effect; RO_0002304
+
+RO_0002304 - causally upstream of, positive effect
+====================================================================================
+
+.. topic:: Alternate name for causally upstream of, positive effect
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

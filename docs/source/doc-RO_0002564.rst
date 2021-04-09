@@ -1,0 +1,39 @@
+
+  .. _RO_0002564:
+  .. _molecular interaction relation helper property:
+  .. index:: 
+     single: RO_0002564; molecular interaction relation helper property
+     single: molecular interaction relation helper property; RO_0002564
+
+RO_0002564 - molecular interaction relation helper property
+====================================================================================
+
+.. topic:: Alternate name for molecular interaction relation helper property
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

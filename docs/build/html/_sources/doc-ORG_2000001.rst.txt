@@ -1,0 +1,39 @@
+
+  .. _ORG_2000001:
+  .. _date established:
+  .. index:: 
+     single: ORG_2000001; date established
+     single: date established; ORG_2000001
+
+ORG_2000001 - date established
+====================================================================================
+
+.. topic:: Alternate name for date established
+
+    None
+
+
+.. topic:: Definition
+
+    Date the organizational was established.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    UF date_established 1853
+
+
+.. topic:: Editor's Note
+
+    Won't be modeled this way.  This is a demo.
+
+
+.. topic:: Term Editor
+
+    None
+

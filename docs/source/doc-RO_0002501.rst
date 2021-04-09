@@ -1,0 +1,39 @@
+
+  .. _RO_0002501:
+  .. _causal relation between processes:
+  .. index:: 
+     single: RO_0002501; causal relation between processes
+     single: causal relation between processes; RO_0002501
+
+RO_0002501 - causal relation between processes
+====================================================================================
+
+.. topic:: Alternate name for causal relation between processes
+
+    None
+
+
+.. topic:: Definition
+
+    p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

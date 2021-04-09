@@ -1,0 +1,39 @@
+
+  .. _RO_0004031:
+  .. _enables subfunction:
+  .. index:: 
+     single: RO_0004031; enables subfunction
+     single: enables subfunction; RO_0004031
+
+RO_0004031 - enables subfunction
+====================================================================================
+
+.. topic:: Alternate name for enables subfunction
+
+    None
+
+
+.. topic:: Definition
+
+    Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

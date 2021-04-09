@@ -1,0 +1,39 @@
+
+  .. _BFO_0000015:
+  .. _process:
+  .. index:: 
+     single: BFO_0000015; process
+     single: process; BFO_0000015
+
+BFO_0000015 - process
+====================================================================================
+
+.. topic:: Alternate name for process
+
+    None
+
+
+.. topic:: Definition
+
+    An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

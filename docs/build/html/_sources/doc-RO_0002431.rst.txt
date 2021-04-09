@@ -1,0 +1,39 @@
+
+  .. _RO_0002431:
+  .. _involved in or involved in regulation of:
+  .. index:: 
+     single: RO_0002431; involved in or involved in regulation of
+     single: involved in or involved in regulation of; RO_0002431
+
+RO_0002431 - involved in or involved in regulation of
+====================================================================================
+
+.. topic:: Alternate name for involved in or involved in regulation of
+
+    involved in or reguates
+
+
+.. topic:: Definition
+
+    c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    OWL does not allow defining object properties via a Union
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

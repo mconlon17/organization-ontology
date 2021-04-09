@@ -1,0 +1,39 @@
+
+  .. _RO_0002180:
+  .. _has component:
+  .. index:: 
+     single: RO_0002180; has component
+     single: has component; RO_0002180
+
+RO_0002180 - has component
+====================================================================================
+
+.. topic:: Alternate name for has component
+
+    None
+
+
+.. topic:: Definition
+
+    w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    The definition of 'has component' is still under discussion. The challenge is in providing a definition that does not imply transitivity.
+
+
+.. topic:: Term Editor
+
+    None
+

@@ -1,0 +1,39 @@
+
+  .. _IAO_0000409:
+  .. _denotator type:
+  .. index:: 
+     single: IAO_0000409; denotator type
+     single: denotator type; IAO_0000409
+
+IAO_0000409 - denotator type
+====================================================================================
+
+.. topic:: Alternate name for denotator type
+
+    None
+
+
+.. topic:: Definition
+
+    A denotator type indicates how a term should be interpreted from an ontological perspective.
+
+
+.. topic:: Definition Source
+
+    Barry Smith, Werner Ceusters
+
+
+.. topic:: Example
+
+    The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are "natural kinds" and the latter arbitrary collections of entities.
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Alan Ruttenberg
+

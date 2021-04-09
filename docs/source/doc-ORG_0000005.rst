@@ -1,0 +1,39 @@
+
+  .. _ORG_0000005:
+  .. _Informal Organization:
+  .. index:: 
+     single: ORG_0000005; Informal Organization
+     single: Informal Organization; ORG_0000005
+
+ORG_0000005 - Informal Organization
+====================================================================================
+
+.. topic:: Alternate name for Informal Organization
+
+    None
+
+
+.. topic:: Definition
+
+    A group of people recognized as such by people outside the group. Without legal standing.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    A student club, a university committee, the VIVO Ontology Interest Group
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

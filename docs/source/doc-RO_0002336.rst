@@ -1,0 +1,39 @@
+
+  .. _RO_0002336:
+  .. _positively regulated by:
+  .. index:: 
+     single: RO_0002336; positively regulated by
+     single: positively regulated by; RO_0002336
+
+RO_0002336 - positively regulated by
+====================================================================================
+
+.. topic:: Alternate name for positively regulated by
+
+    None
+
+
+.. topic:: Definition
+
+    inverse of positively regulates
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

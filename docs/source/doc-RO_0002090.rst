@@ -1,0 +1,39 @@
+
+  .. _RO_0002090:
+  .. _immediately precedes:
+  .. index:: 
+     single: RO_0002090; immediately precedes
+     single: immediately precedes; RO_0002090
+
+RO_0002090 - immediately precedes
+====================================================================================
+
+.. topic:: Alternate name for immediately precedes
+
+    meets
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    David Osumi-Sutherland
+

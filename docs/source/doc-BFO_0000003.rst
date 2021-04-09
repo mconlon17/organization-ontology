@@ -1,0 +1,39 @@
+
+  .. _BFO_0000003:
+  .. _occurrent:
+  .. index:: 
+     single: BFO_0000003; occurrent
+     single: occurrent; BFO_0000003
+
+BFO_0000003 - occurrent
+====================================================================================
+
+.. topic:: Alternate name for occurrent
+
+    None
+
+
+.. topic:: Definition
+
+    An entity that has temporal parts and that happens, unfolds or develops through time.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

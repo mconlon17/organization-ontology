@@ -1,0 +1,39 @@
+
+  .. _RO_0002023:
+  .. _directly negatively regulated by:
+  .. index:: 
+     single: RO_0002023; directly negatively regulated by
+     single: directly negatively regulated by; RO_0002023
+
+RO_0002023 - directly negatively regulated by
+====================================================================================
+
+.. topic:: Alternate name for directly negatively regulated by
+
+    None
+
+
+.. topic:: Definition
+
+    Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

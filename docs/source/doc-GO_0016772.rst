@@ -1,0 +1,39 @@
+
+  .. _GO_0016772:
+  .. _transferase activity, transferring phosphorus-containing groups:
+  .. index:: 
+     single: GO_0016772; transferase activity, transferring phosphorus-containing groups
+     single: transferase activity, transferring phosphorus-containing groups; GO_0016772
+
+GO_0016772 - transferase activity, transferring phosphorus-containing groups
+====================================================================================
+
+.. topic:: Alternate name for transferase activity, transferring phosphorus-containing groups
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

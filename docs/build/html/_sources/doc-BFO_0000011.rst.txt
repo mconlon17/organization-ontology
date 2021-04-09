@@ -1,0 +1,39 @@
+
+  .. _BFO_0000011:
+  .. _spatiotemporal region:
+  .. index:: 
+     single: BFO_0000011; spatiotemporal region
+     single: spatiotemporal region; BFO_0000011
+
+BFO_0000011 - spatiotemporal region
+====================================================================================
+
+.. topic:: Alternate name for spatiotemporal region
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

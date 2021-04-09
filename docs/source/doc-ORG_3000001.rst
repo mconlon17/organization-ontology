@@ -1,0 +1,39 @@
+
+  .. _ORG_3000001:
+  .. _number of employees:
+  .. index:: 
+     single: ORG_3000001; number of employees
+     single: number of employees; ORG_3000001
+
+ORG_3000001 - number of employees
+====================================================================================
+
+.. topic:: Alternate name for number of employees
+
+    None
+
+
+.. topic:: Definition
+
+    The number of people (headcount) who receive paychecks from the organizationb for work performed
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    Amazon.com number_of_employees 1300000
+
+
+.. topic:: Editor's Note
+
+    Informal organizations do not have employees.  Create a class restriction as a domain.
+
+
+.. topic:: Term Editor
+
+    None
+

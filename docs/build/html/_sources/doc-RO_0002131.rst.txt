@@ -1,0 +1,39 @@
+
+  .. _RO_0002131:
+  .. _overlaps:
+  .. index:: 
+     single: RO_0002131; overlaps
+     single: overlaps; RO_0002131
+
+RO_0002131 - overlaps
+====================================================================================
+
+.. topic:: Alternate name for overlaps
+
+    None
+
+
+.. topic:: Definition
+
+    x overlaps y if and only if there exists some z such that x has part z and z part of y
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

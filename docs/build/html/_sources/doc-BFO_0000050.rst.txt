@@ -1,0 +1,39 @@
+
+  .. _BFO_0000050:
+  .. _part of:
+  .. index:: 
+     single: BFO_0000050; part of
+     single: part of; BFO_0000050
+
+BFO_0000050 - part of
+====================================================================================
+
+.. topic:: Alternate name for part of
+
+    part_of
+
+
+.. topic:: Definition
+
+    a core relation that holds between a part and its whole
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    my brain is part of my body (continuant parthood, two material entities)
+
+
+.. topic:: Editor's Note
+
+    Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.
+
+
+.. topic:: Term Editor
+
+    None
+

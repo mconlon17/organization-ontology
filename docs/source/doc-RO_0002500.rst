@@ -1,0 +1,39 @@
+
+  .. _RO_0002500:
+  .. _causal agent in process:
+  .. index:: 
+     single: RO_0002500; causal agent in process
+     single: causal agent in process; RO_0002500
+
+RO_0002500 - causal agent in process
+====================================================================================
+
+.. topic:: Alternate name for causal agent in process
+
+    None
+
+
+.. topic:: Definition
+
+    A relationship between a material entity and a process where the material entity has some causal role that influences the process
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

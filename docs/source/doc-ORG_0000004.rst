@@ -1,0 +1,39 @@
+
+  .. _ORG_0000004:
+  .. _Non-profit Organization:
+  .. index:: 
+     single: ORG_0000004; Non-profit Organization
+     single: Non-profit Organization; ORG_0000004
+
+ORG_0000004 - Non-profit Organization
+====================================================================================
+
+.. topic:: Alternate name for Non-profit Organization
+
+    None
+
+
+.. topic:: Definition
+
+    A legal entity of associated persons created for a specific purpose, typically a mission, in which excess revenue is reinvested to serve the entity's mission
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    Doctors Without Borders, Duke University, The American Medical Association
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

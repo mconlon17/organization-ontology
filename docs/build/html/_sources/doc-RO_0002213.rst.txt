@@ -1,0 +1,39 @@
+
+  .. _RO_0002213:
+  .. _positively regulates:
+  .. index:: 
+     single: RO_0002213; positively regulates
+     single: positively regulates; RO_0002213
+
+RO_0002213 - positively regulates
+====================================================================================
+
+.. topic:: Alternate name for positively regulates
+
+    None
+
+
+.. topic:: Definition
+
+    Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2.
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

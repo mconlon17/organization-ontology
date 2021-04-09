@@ -1,0 +1,39 @@
+
+  .. _RO_0002335:
+  .. _negatively regulated by:
+  .. index:: 
+     single: RO_0002335; negatively regulated by
+     single: negatively regulated by; RO_0002335
+
+RO_0002335 - negatively regulated by
+====================================================================================
+
+.. topic:: Alternate name for negatively regulated by
+
+    None
+
+
+.. topic:: Definition
+
+    inverse of negatively regulates
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

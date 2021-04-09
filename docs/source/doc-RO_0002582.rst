@@ -1,0 +1,39 @@
+
+  .. _RO_0002582:
+  .. _is a defining property chain axiom where second argument is reflexive:
+  .. index:: 
+     single: RO_0002582; is a defining property chain axiom where second argument is reflexive
+     single: is a defining property chain axiom where second argument is reflexive; RO_0002582
+
+RO_0002582 - is a defining property chain axiom where second argument is reflexive
+====================================================================================
+
+.. topic:: Alternate name for is a defining property chain axiom where second argument is reflexive
+
+    None
+
+
+.. topic:: Definition
+
+    If R <- P o Q is a defining property chain axiom, then (1) R -> P o Q holds and (2) Q is either reflexive or locally reflexive. A corollary of this is that P SubPropertyOf R.
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

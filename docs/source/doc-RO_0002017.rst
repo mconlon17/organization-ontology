@@ -1,0 +1,39 @@
+
+  .. _RO_0002017:
+  .. _has component activity:
+  .. index:: 
+     single: RO_0002017; has component activity
+     single: has component activity; RO_0002017
+
+RO_0002017 - has component activity
+====================================================================================
+
+.. topic:: Alternate name for has component activity
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

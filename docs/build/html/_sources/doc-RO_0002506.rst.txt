@@ -1,0 +1,39 @@
+
+  .. _RO_0002506:
+  .. _causal relation between entities:
+  .. index:: 
+     single: RO_0002506; causal relation between entities
+     single: causal relation between entities; RO_0002506
+
+RO_0002506 - causal relation between entities
+====================================================================================
+
+.. topic:: Alternate name for causal relation between entities
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    http://purl.obolibrary.org/obo/ro/docs/causal-relations
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    The intent is that the process branch of the causal property hierarchy is primary (causal relations hold between occurrents/processes), and that the material branch is defined in terms of the process branch
+
+
+.. topic:: Term Editor
+
+    Chris Mungall
+

@@ -1,0 +1,39 @@
+
+  .. _IAO_0000030:
+  .. _information content entity:
+  .. index:: 
+     single: IAO_0000030; information content entity
+     single: information content entity; IAO_0000030
+
+IAO_0000030 - information content entity
+====================================================================================
+
+.. topic:: Alternate name for information content entity
+
+    None
+
+
+.. topic:: Definition
+
+    A generically dependent continuant that is about some thing.
+
+
+.. topic:: Definition Source
+
+    OBI_0000142
+
+
+.. topic:: Example
+
+    Examples of information content entites include journal articles, data, graphical layouts, and graphs.
+
+
+.. topic:: Editor's Note
+
+    2014-03-10: The use of "thing" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).
+
+
+.. topic:: Term Editor
+
+    PERSON: Chris Stoeckert
+
