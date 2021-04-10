@@ -8,32 +8,57 @@
 Interval - Time interval
 ====================================================================================
 
-.. topic:: Alternate name for Time interval
+.. topic:: Label
 
-    None
+    Time interval
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
-    None
+    No value
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    A temporal entity with an extent or duration
 
-    None
+    Una entidad temporal con una extensión o duración.
 
+.. topic:: Definition source
+
+    No value
 
 .. topic:: Example
 
-    None
+    No value
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    http://www.w3.org/2006/time#2016
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

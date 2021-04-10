@@ -8,32 +8,55 @@
 ORG_0000001 - Organization
 ====================================================================================
 
-.. topic:: Alternate name for Organization
+.. topic:: Label
 
-    None
+    Organization
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     A group of people recognized as such by people outside the group.
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
     a political party, a homeowners association, a football team, a publisher, a government agency, an organized religion
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    No value
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

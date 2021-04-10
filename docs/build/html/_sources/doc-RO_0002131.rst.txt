@@ -8,32 +8,55 @@
 RO_0002131 - overlaps
 ====================================================================================
 
-.. topic:: Alternate name for overlaps
+.. topic:: Label
 
-    None
+    overlaps
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     X overlaps y if and only if there exists some z such that x has part z and z part of y
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
-    None
+    No value
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

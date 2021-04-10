@@ -8,32 +8,55 @@
 ORG_3000001 - number of employees
 ====================================================================================
 
-.. topic:: Alternate name for number of employees
+.. topic:: Label
 
-    None
+    number of employees
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     The number of people (headcount) who receive paychecks from the organizationb for work performed
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
     Amazon.com number_of_employees 1300000
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
+
+.. topic:: Editor's note
 
     Informal organizations do not have employees.  Create a class restriction as a domain.
 
+.. topic:: Imported From
 
-.. topic:: Term Editor
+    No value
 
-    None
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

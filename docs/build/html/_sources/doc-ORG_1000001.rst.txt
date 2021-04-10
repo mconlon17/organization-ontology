@@ -8,32 +8,55 @@
 ORG_1000001 - organization annotation
 ====================================================================================
 
-.. topic:: Alternate name for organization annotation
+.. topic:: Label
 
-    None
+    organization annotation
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     This is a demo
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
     Demo.  There is no example of an organization annotation.
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
+
+.. topic:: Editor's note
 
     demo.  Not a real property
 
+.. topic:: Imported From
 
-.. topic:: Term Editor
+    No value
 
-    None
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

@@ -8,32 +8,55 @@
 ORG_2000001 - date established
 ====================================================================================
 
-.. topic:: Alternate name for date established
+.. topic:: Label
 
-    None
+    date established
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     Date the organizational was established.
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
     UF date_established 1853
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
+
+.. topic:: Editor's note
 
     Won't be modeled this way.  This is a demo.
 
+.. topic:: Imported From
 
-.. topic:: Term Editor
+    No value
 
-    None
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

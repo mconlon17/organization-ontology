@@ -8,36 +8,59 @@
 IAO_0000136 - is about
 ====================================================================================
 
-.. topic:: Alternate name for is about
+.. topic:: Label
 
-    None
+    is about
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     A (currently) primitive relation that relates an information artifact to an entity.
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
+
+.. topic:: Definition source
 
     Smith, Ceusters, Ruttenberg, 2000 years of philosophy
-
 
 .. topic:: Example
 
     This document is about information artifacts and their representations
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
+
+.. topic:: Editor's note
 
     7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of "mentions" relation. Weaken the is_about relationship to be primitive. 
+    
+    We will try to build it back up by elaborating the various subproperties that are more precisely defined.
+    
+    Some currently missing phenomena that should be considered "about" are predications - "The only person who knows the answer is sitting beside me" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.
 
-We will try to build it back up by elaborating the various subproperties that are more precisely defined.
+.. topic:: Imported From
 
-Some currently missing phenomena that should be considered "about" are predications - "The only person who knows the answer is sitting beside me" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.
+    http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
 
-
-.. topic:: Term Editor
+.. topic:: Term editor
 
     person:Alan Ruttenberg
+
+.. topic:: See also
+
+    No value
 

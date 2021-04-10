@@ -8,32 +8,55 @@
 BFO_0000035 - process boundary
 ====================================================================================
 
-.. topic:: Alternate name for process boundary
+.. topic:: Label
 
-    None
+    process boundary
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    process boundary
+
+.. topic:: DC identifier
+
+    084-BFO
 
 .. topic:: Definition
 
-    None
+    No value
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    p is a process boundary =Def p is a temporal part of a process & p has no proper temporal parts
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
-    None
+    No value
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    The boundary between the 2nd and 3rd year of your life.
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

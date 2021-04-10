@@ -8,32 +8,55 @@
 ORG_0000002 - Government Organization
 ====================================================================================
 
-.. topic:: Alternate name for Government Organization
+.. topic:: Label
 
-    None
+    Government Organization
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     An organization which is created by a government, or by a group of people to serve as a government.
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
     The University of Florida is chartered by the State of Florida, and so is a government organization.  The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no "part of" relationshiop here.  Each is a government organization.
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    No value
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

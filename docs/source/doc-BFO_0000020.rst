@@ -8,32 +8,55 @@
 BFO_0000020 - specifically dependent continuant
 ====================================================================================
 
-.. topic:: Alternate name for specifically dependent continuant
+.. topic:: Label
 
-    None
+    specifically dependent continuant
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    specifically dependent continuant
+
+.. topic:: DC identifier
+
+    050-BFO
 
 .. topic:: Definition
 
-    None
+    No value
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    b is a specifically dependent continuant =Def b is a continuant & there is some independent continuant c which is not a spatial region & which is such that b s-depends on c
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
-    None
+    No value
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    (with one bearer) The mass of this tomato, the pink colour of a medium rare piece of grilled filet mignon at its centre, the smell of this portion of mozzarella, the disposition of this fish to decay, the role of being a doctor, the function of this heart: to pump blood, the shape of this hole; (with multiple bearers:) John's love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

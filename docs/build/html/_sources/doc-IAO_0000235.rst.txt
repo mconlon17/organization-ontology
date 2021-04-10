@@ -8,32 +8,55 @@
 IAO_0000235 - denoted by
 ====================================================================================
 
-.. topic:: Alternate name for denoted by
+.. topic:: Label
 
-    None
+    denoted by
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     Inverse of the relation 'denotes'
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
-    None
+    No value
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
+
+.. topic:: Term editor
 
     Person: Jie Zheng, Chris Stoeckert, Mike Conlon
+
+.. topic:: See also
+
+    No value
 

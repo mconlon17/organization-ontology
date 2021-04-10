@@ -1,39 +1,62 @@
 
   .. _prefLabel:
-  .. _None:
+  .. _No label:
   .. index:: 
-     single: prefLabel; None
-     single: None; prefLabel
+     single: prefLabel; No label
+     single: No label; prefLabel
 
-prefLabel - None
+prefLabel - No label
 ====================================================================================
 
-.. topic:: Alternate name for None
+.. topic:: Label
 
-    None
+    No value
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
-    None
+    No value
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
-    None
+    No value
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    No value
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

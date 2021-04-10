@@ -8,32 +8,59 @@
 IAO_0000030 - information content entity
 ====================================================================================
 
-.. topic:: Alternate name for information content entity
+.. topic:: Label
 
-    None
+    information content entity
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     A generically dependent continuant that is about some thing.
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
+
+.. topic:: Definition source
 
     OBI_0000142
-
 
 .. topic:: Example
 
     Examples of information content entites include journal articles, data, graphical layouts, and graphs.
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
+
+.. topic:: Editor's note
+
+    information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
+    
+    Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.
 
     2014-03-10: The use of "thing" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).
 
+.. topic:: Imported From
 
-.. topic:: Term Editor
+    http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
+
+.. topic:: Term editor
 
     PERSON: Chris Stoeckert
+
+.. topic:: See also
+
+    No value
 

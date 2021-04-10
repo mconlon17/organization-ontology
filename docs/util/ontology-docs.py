@@ -69,34 +69,10 @@ def write_term_page(term_uri):
 	
 	term_name_str = term_name(term_uri)[term_name(term_uri).rfind(':')+1:]
 	
-	label = "None"
+	label = "No label"
 	for rlabel in g.objects(term_uri, RDFS.label):
 		label = rlabel
-		
-	label_alt = "None"
-	for rlabel_alt in g.objects(term_uri, OBO.IAO_0000118):
-		label_alt = rlabel_alt
-		
-	definition = "None"
-	for rdefinition in g.objects(term_uri, OBO.IAO_0000115):
-		definition = rdefinition
-		
-	definition_source = "None"
-	for rdefinition_source in g.objects(term_uri, OBO.IAO_0000119):
-		definition_source = rdefinition_source
-		
-	example = "None"
-	for rexample in g.objects(term_uri, OBO.IAO_0000112):
-		example = rexample
-		
-	editors_note = "None"
-	for reditors_note in g.objects(term_uri, OBO.IAO_0000116):
-		editors_note = reditors_note
-		
-	term_editor = "None"
-	for rterm_editor in g.objects(term_uri, OBO.IAO_0000117):
-		term_editor = rterm_editor
-	
+
 	f = open('../source/doc-'+term_name_str+'.rst', "w")
 	
 	print("""
@@ -107,43 +83,38 @@ def write_term_page(term_uri):
      single: {}; {}
 
 {} - {}
-====================================================================================""".format(term_name_str, label, term_name_str, label, label, term_name_str, term_name_str, label), file=f)
+====================================================================================\n""".format(term_name_str, label, term_name_str, label, label, term_name_str, term_name_str, label), file=f)
+		
+	terms = {
+		RDFS.label : "Label",
+		OBO.IAO_0000118 : "Alternate name",
+		SKOS.prefLabel   : "SKOS Preferred Label",
+		DC.identifier   : "DC identifier",
+		OBO.IAO_0000115 : "Definition",
+		SKOS.definition : "SKOS Definition",
+		OBO.IAO_0000119 : "Definition source",
+		OBO.IAO_0000112 : "Example",
+		SKOS.example    : "SKOS Example", 
+		OBO.IAO_0000116 : "Editor's note",
+		OBO.IAO_0000412 : "Imported From", 
+		OBO.IAO_0000117 : "Term editor",
+		RDFS.seeAlso    : "See also"
+		}
 
-	print("""
-.. topic:: Alternate name for {}
-
-    {}
-""".format(label, label_alt), file =f)
-	
-	print("""
-.. topic:: Definition
-
-    {}
-""".format(definition), file =f)
-
-	print("""
-.. topic:: Definition Source
-
-    {}
-""".format(definition_source), file =f)
-
-	print("""
-.. topic:: Example
-
-    {}
-""".format(example), file =f)
-
-	print("""
-.. topic:: Editor's Note
-
-    {}
-""".format(editors_note), file =f)
-
-	print("""
-.. topic:: Term Editor
-
-    {}
-""".format(term_editor), file =f)
+	for (term, term_name_data) in terms.items():
+		term_value_list = []
+		
+		for term_value in g.objects(term_uri, term):
+			term_value = term_value.replace("\n", "\n    ")  # new lines in RDF values must generate indented values in RestructuredText
+			term_value_list.append(term_value)
+				
+		print(".. topic:: {}\n".format(term_name_data), file=f)
+		
+		if len(term_value_list) == 0:
+			print("    No value\n", file = f)
+		else:
+			for term_value in term_value_list:
+				print("    {}\n".format(term_value), file = f)
 	
 	f.close()
 	

@@ -8,32 +8,59 @@
 RO_0000053 - bearer of
 ====================================================================================
 
-.. topic:: Alternate name for bearer of
+.. topic:: Label
+
+    bearer of
+
+.. topic:: Alternate name
+
+    bearer_of
 
     is bearer of
 
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
     this vase is bearer of this fragility
 
+    this apple is bearer of this red color
 
-.. topic:: Editor's Note
+.. topic:: SKOS Example
+
+    No value
+
+.. topic:: Editor's note
 
     A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.
 
+.. topic:: Imported From
 
-.. topic:: Term Editor
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
 
-    None
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

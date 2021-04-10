@@ -8,32 +8,55 @@
 ORG_0000003 - Company
 ====================================================================================
 
-.. topic:: Alternate name for Company
+.. topic:: Label
 
-    None
+    Company
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
     A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners.
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    No value
 
-    None
+.. topic:: Definition source
 
+    No value
 
 .. topic:: Example
 
     BASF, The University of Phoenix, Facebook, Elsevier
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    No value
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 

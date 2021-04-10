@@ -8,32 +8,57 @@
 Instant - Time instant
 ====================================================================================
 
-.. topic:: Alternate name for Time instant
+.. topic:: Label
 
-    None
+    Time instant
 
+.. topic:: Alternate name
+
+    No value
+
+.. topic:: SKOS Preferred Label
+
+    No value
+
+.. topic:: DC identifier
+
+    No value
 
 .. topic:: Definition
 
-    None
+    No value
 
+.. topic:: SKOS Definition
 
-.. topic:: Definition Source
+    Una entidad temporal con una extensión o duración cero.
 
-    None
+    A temporal entity with zero extent or duration
 
+.. topic:: Definition source
+
+    No value
 
 .. topic:: Example
 
-    None
+    No value
 
+.. topic:: SKOS Example
 
-.. topic:: Editor's Note
+    No value
 
-    None
+.. topic:: Editor's note
 
+    No value
 
-.. topic:: Term Editor
+.. topic:: Imported From
 
-    None
+    http://www.w3.org/2006/time#2016
+
+.. topic:: Term editor
+
+    No value
+
+.. topic:: See also
+
+    No value
 
