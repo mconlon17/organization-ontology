@@ -1,14 +1,14 @@
 
   .. _IAO_0000111:
-  .. _None:
+  .. _editor preferred term:
   .. index:: 
-     single: IAO_0000111; None
-     single: None; IAO_0000111
+     single: IAO_0000111; editor preferred term
+     single: editor preferred term; IAO_0000111
 
-IAO_0000111 - None
+IAO_0000111 - editor preferred term
 ====================================================================================
 
-.. topic:: Alternate name for None
+.. topic:: Alternate name for editor preferred term
 
     None
 

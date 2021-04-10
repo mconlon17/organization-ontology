@@ -1,14 +1,14 @@
 
   .. _IAO_0000117:
-  .. _None:
+  .. _term editor:
   .. index:: 
-     single: IAO_0000117; None
-     single: None; IAO_0000117
+     single: IAO_0000117; term editor
+     single: term editor; IAO_0000117
 
-IAO_0000117 - None
+IAO_0000117 - term editor
 ====================================================================================
 
-.. topic:: Alternate name for None
+.. topic:: Alternate name for term editor
 
     None
 

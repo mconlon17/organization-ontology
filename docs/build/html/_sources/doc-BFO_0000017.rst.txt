@@ -1,0 +1,39 @@
+
+  .. _BFO_0000017:
+  .. _realizable entity:
+  .. index:: 
+     single: BFO_0000017; realizable entity
+     single: realizable entity; BFO_0000017
+
+BFO_0000017 - realizable entity
+====================================================================================
+
+.. topic:: Alternate name for realizable entity
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

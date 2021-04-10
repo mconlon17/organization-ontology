@@ -15,7 +15,7 @@ BFO_0000015 - process
 
 .. topic:: Definition
 
-    An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.
+    None
 
 
 .. topic:: Definition Source

@@ -15,7 +15,7 @@ BFO_0000003 - occurrent
 
 .. topic:: Definition
 
-    An entity that has temporal parts and that happens, unfolds or develops through time.
+    None
 
 
 .. topic:: Definition Source

@@ -1,14 +1,14 @@
 
   .. _IAO_0000119:
-  .. _None:
+  .. _definition source:
   .. index:: 
-     single: IAO_0000119; None
-     single: None; IAO_0000119
+     single: IAO_0000119; definition source
+     single: definition source; IAO_0000119
 
-IAO_0000119 - None
+IAO_0000119 - definition source
 ====================================================================================
 
-.. topic:: Alternate name for None
+.. topic:: Alternate name for definition source
 
     None
 

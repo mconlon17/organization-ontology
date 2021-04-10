@@ -15,7 +15,7 @@ RO_0000057 - has participant
 
 .. topic:: Definition
 
-    a relation between a process and a continuant, in which the continuant is somehow involved in the process
+    A relation between a process and a continuant, in which the continuant is somehow involved in the process
 
 
 .. topic:: Definition Source
@@ -25,7 +25,7 @@ RO_0000057 - has participant
 
 .. topic:: Example
 
-    this process has participant this input material (or this output material)
+    this investigation has participant this investigator
 
 
 .. topic:: Editor's Note

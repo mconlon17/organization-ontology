@@ -15,7 +15,7 @@ RO_0002131 - overlaps
 
 .. topic:: Definition
 
-    x overlaps y if and only if there exists some z such that x has part z and z part of y
+    X overlaps y if and only if there exists some z such that x has part z and z part of y
 
 
 .. topic:: Definition Source

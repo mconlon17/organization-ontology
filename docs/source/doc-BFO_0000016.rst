@@ -1,0 +1,39 @@
+
+  .. _BFO_0000016:
+  .. _disposition:
+  .. index:: 
+     single: BFO_0000016; disposition
+     single: disposition; BFO_0000016
+
+BFO_0000016 - disposition
+====================================================================================
+
+.. topic:: Alternate name for disposition
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

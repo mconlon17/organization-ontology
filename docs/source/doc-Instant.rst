@@ -1,14 +1,14 @@
 
   .. _Instant:
-  .. _None:
+  .. _Time instant:
   .. index:: 
-     single: Instant; None
-     single: None; Instant
+     single: Instant; Time instant
+     single: Time instant; Instant
 
-Instant - None
+Instant - Time instant
 ====================================================================================
 
-.. topic:: Alternate name for None
+.. topic:: Alternate name for Time instant
 
     None
 

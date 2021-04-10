@@ -1,0 +1,39 @@
+
+  .. _BFO_0000020:
+  .. _specifically dependent continuant:
+  .. index:: 
+     single: BFO_0000020; specifically dependent continuant
+     single: specifically dependent continuant; BFO_0000020
+
+BFO_0000020 - specifically dependent continuant
+====================================================================================
+
+.. topic:: Alternate name for specifically dependent continuant
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

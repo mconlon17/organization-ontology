@@ -1,2 +1,0 @@
-http://purl.obolibrary.org/obo/RO_0000056 # participates in
-http://purl.obolibrary.org/obo/RO_0002012 # occurrent part of

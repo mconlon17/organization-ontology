@@ -1,14 +1,14 @@
 
   .. _IAO_0000115:
-  .. _None:
+  .. _definition:
   .. index:: 
-     single: IAO_0000115; None
-     single: None; IAO_0000115
+     single: IAO_0000115; definition
+     single: definition; IAO_0000115
 
-IAO_0000115 - None
+IAO_0000115 - definition
 ====================================================================================
 
-.. topic:: Alternate name for None
+.. topic:: Alternate name for definition
 
     None
 

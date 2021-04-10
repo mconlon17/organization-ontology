@@ -1,0 +1,39 @@
+
+  .. _IAO_0000412:
+  .. _imported from:
+  .. index:: 
+     single: IAO_0000412; imported from
+     single: imported from; IAO_0000412
+
+IAO_0000412 - imported from
+====================================================================================
+
+.. topic:: Alternate name for imported from
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

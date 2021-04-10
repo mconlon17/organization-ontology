@@ -1,0 +1,39 @@
+
+  .. _IAO_0000233:
+  .. _term tracker item:
+  .. index:: 
+     single: IAO_0000233; term tracker item
+     single: term tracker item; IAO_0000233
+
+IAO_0000233 - term tracker item
+====================================================================================
+
+.. topic:: Alternate name for term tracker item
+
+    None
+
+
+.. topic:: Definition
+
+    None
+
+
+.. topic:: Definition Source
+
+    None
+
+
+.. topic:: Example
+
+    None
+
+
+.. topic:: Editor's Note
+
+    None
+
+
+.. topic:: Term Editor
+
+    None
+

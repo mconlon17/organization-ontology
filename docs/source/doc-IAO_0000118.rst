@@ -1,14 +1,14 @@
 
   .. _IAO_0000118:
-  .. _None:
+  .. _alternative term:
   .. index:: 
-     single: IAO_0000118; None
-     single: None; IAO_0000118
+     single: IAO_0000118; alternative term
+     single: alternative term; IAO_0000118
 
-IAO_0000118 - None
+IAO_0000118 - alternative term
 ====================================================================================
 
-.. topic:: Alternate name for None
+.. topic:: Alternate name for alternative term
 
     None
 
