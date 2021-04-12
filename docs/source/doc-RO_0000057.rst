@@ -38,11 +38,11 @@ RO_0000057 - has participant
 
 .. topic:: Example
 
-    this blood coagulation has participant this blood clot
+    this process has participant this input material (or this output material)
 
     this investigation has participant this investigator
 
-    this process has participant this input material (or this output material)
+    this blood coagulation has participant this blood clot
 
 .. topic:: SKOS Example
 

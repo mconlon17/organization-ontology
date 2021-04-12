@@ -98,7 +98,7 @@ def write_term_page(term_uri):
 		OBO.IAO_0000116 : "Editor's note",
 		OBO.IAO_0000412 : "Imported From", 
 		OBO.IAO_0000117 : "Term editor",
-		RDFS.seeAlso    : "See also"
+		RDFS.seeAlso    : "See also",
 		}
 
 	for (term, term_name_data) in terms.items():

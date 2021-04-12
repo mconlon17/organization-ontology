@@ -12,12 +12,8 @@
    doc-IAO_0000118
    doc-IAO_0000119
    doc-IAO_0000232
-   doc-IAO_0000233
    doc-IAO_0000412
-   doc-IAO_0000424
    doc-ORG_1000001
-   doc-RO_0001900
-   doc-RO_0040042
    doc-identifier
    doc-source
    doc-TopProperty

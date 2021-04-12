@@ -7,7 +7,7 @@ for defining terms.  :ref:`Table 5` lists the IAO properties used to annotate te
 ontologies.  :ref:`Table 6` lists the terms in the controlled vocabulary for curation
 status.  To assert that a term's metadata is complete, the assertion is:
 
-    <term> IAO:0000115 IAO_0000120
+    <term> IAO:0000114 IAO_0000120
     
 Alternative terms (IAO_0000118) are not common in the VIVO ontologies.  All other
 annotations are expected for all terms.  

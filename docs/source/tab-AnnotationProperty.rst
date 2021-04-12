@@ -15,12 +15,8 @@
     ``IAO_0000118``      alternative term          None
     ``IAO_0000119``      definition source         None
     ``IAO_0000232``      curator note              None
-    ``IAO_0000233``      term tracker item         None
     ``IAO_0000412``      imported from             None
-    ``IAO_0000424``      expand expression to      None
     ``ORG_1000001``      organization annotation   This is a demo
-    ``RO_0001900``       temporal interpretation   None
-    ``RO_0040042``       is homeomorphic for       None
     ``identifier``       None                      None
     ``source``           None                      None
     ``TopProperty``      None                      None
