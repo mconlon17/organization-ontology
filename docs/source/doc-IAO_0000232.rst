@@ -26,7 +26,7 @@ IAO_0000232 - curator note
 
 .. topic:: Definition
 
-    No value
+    An administrative note of use for a curator but of no use for a user
 
 .. topic:: SKOS Definition
 
@@ -54,7 +54,7 @@ IAO_0000232 - curator note
 
 .. topic:: Term editor
 
-    No value
+    PERSON:Alan Ruttenberg
 
 .. topic:: See also
 

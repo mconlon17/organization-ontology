@@ -1,16 +1,16 @@
 
   .. _RO_0040042:
-  .. _is homeomorphic for:
+  .. _No label:
   .. index:: 
-     single: RO_0040042; is homeomorphic for
-     single: is homeomorphic for; RO_0040042
+     single: RO_0040042; No label
+     single: No label; RO_0040042
 
-RO_0040042 - is homeomorphic for
+RO_0040042 - No label
 ====================================================================================
 
 .. topic:: Label
 
-    is homeomorphic for
+    No value
 
 .. topic:: Alternate name
 

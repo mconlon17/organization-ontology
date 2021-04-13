@@ -26,7 +26,7 @@ IAO_0000119 - definition source
 
 .. topic:: Definition
 
-    No value
+    Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007
 
 .. topic:: SKOS Definition
 
@@ -34,7 +34,9 @@ IAO_0000119 - definition source
 
 .. topic:: Definition source
 
-    No value
+    Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w
+
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
 
 .. topic:: Example
 
@@ -54,7 +56,7 @@ IAO_0000119 - definition source
 
 .. topic:: Term editor
 
-    No value
+    PERSON:Daniel Schober
 
 .. topic:: See also
 

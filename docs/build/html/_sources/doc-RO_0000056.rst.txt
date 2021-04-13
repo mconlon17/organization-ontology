@@ -38,11 +38,11 @@ RO_0000056 - participates in
 
 .. topic:: Example
 
-    this blood clot participates in this blood coagulation
-
     this input material (or this output material) participates in this process
 
     this investigator participates in this investigation
+
+    this blood clot participates in this blood coagulation
 
 .. topic:: SKOS Example
 

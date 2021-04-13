@@ -34,7 +34,7 @@ IAO_0000114 - has curation status
 
 .. topic:: Definition source
 
-    No value
+    OBI_0000281
 
 .. topic:: Example
 
@@ -54,7 +54,11 @@ IAO_0000114 - has curation status
 
 .. topic:: Term editor
 
-    No value
+    PERSON:Bill Bug
+
+    PERSON:Alan Ruttenberg
+
+    PERSON:Melanie Courtot
 
 .. topic:: See also
 

@@ -26,7 +26,7 @@ IAO_0000116 - editor note
 
 .. topic:: Definition
 
-    No value
+    An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.
 
 .. topic:: SKOS Definition
 
@@ -34,7 +34,7 @@ IAO_0000116 - editor note
 
 .. topic:: Definition source
 
-    No value
+    GROUP:OBI:<http://purl.obfoundry.org/obo/obi>
 
 .. topic:: Example
 
@@ -54,7 +54,7 @@ IAO_0000116 - editor note
 
 .. topic:: Term editor
 
-    No value
+    PERSON:Daniel Schober
 
 .. topic:: See also
 

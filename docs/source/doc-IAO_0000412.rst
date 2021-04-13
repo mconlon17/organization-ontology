@@ -26,7 +26,7 @@ IAO_0000412 - imported from
 
 .. topic:: Definition
 
-    No value
+    For external terms/classes, the ontology from which the term was imported
 
 .. topic:: SKOS Definition
 
@@ -34,7 +34,7 @@ IAO_0000412 - imported from
 
 .. topic:: Definition source
 
-    No value
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
 
 .. topic:: Example
 
@@ -54,7 +54,9 @@ IAO_0000412 - imported from
 
 .. topic:: Term editor
 
-    No value
+    PERSON:Melanie Courtot
+
+    PERSON:Alan Ruttenberg
 
 .. topic:: See also
 

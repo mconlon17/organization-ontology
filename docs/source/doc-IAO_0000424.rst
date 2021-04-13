@@ -1,16 +1,16 @@
 
   .. _IAO_0000424:
-  .. _expand expression to:
+  .. _No label:
   .. index:: 
-     single: IAO_0000424; expand expression to
-     single: expand expression to; IAO_0000424
+     single: IAO_0000424; No label
+     single: No label; IAO_0000424
 
-IAO_0000424 - expand expression to
+IAO_0000424 - No label
 ====================================================================================
 
 .. topic:: Label
 
-    expand expression to
+    No value
 
 .. topic:: Alternate name
 

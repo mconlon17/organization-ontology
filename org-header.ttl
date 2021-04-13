@@ -90,9 +90,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
-                rdfs:label "definition"@en ,
-                           "definition"^^xsd:string .
-
+                rdfs:label "definition"@en .
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
 obo:IAO_0000116 rdf:type owl:AnnotationProperty ;
@@ -132,7 +130,7 @@ obo:IAO_0000118 rdf:type owl:AnnotationProperty ;
 obo:IAO_0000119 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000111 "definition source"@en ;
                 obo:IAO_0000114 obo:IAO_0000122 ;
-                obo:IAO_0000115 "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ;
+                obo:IAO_0000115 "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ;
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"^^xsd:string ,
                                 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;

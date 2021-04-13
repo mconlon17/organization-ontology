@@ -26,7 +26,7 @@ IAO_0000111 - editor preferred term
 
 .. topic:: Definition
 
-    No value
+    The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)
 
 .. topic:: SKOS Definition
 
@@ -34,7 +34,7 @@ IAO_0000111 - editor preferred term
 
 .. topic:: Definition source
 
-    No value
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
 
 .. topic:: Example
 
@@ -54,7 +54,7 @@ IAO_0000111 - editor preferred term
 
 .. topic:: Term editor
 
-    No value
+    PERSON:Daniel Schober
 
 .. topic:: See also
 

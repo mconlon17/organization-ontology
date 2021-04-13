@@ -14,7 +14,7 @@ ORG_1000001 - organization annotation
 
 .. topic:: Alternate name
 
-    No value
+    this is a test
 
 .. topic:: SKOS Preferred Label
 
@@ -34,7 +34,7 @@ ORG_1000001 - organization annotation
 
 .. topic:: Definition source
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
@@ -54,7 +54,7 @@ ORG_1000001 - organization annotation
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: See also
 
