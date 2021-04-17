@@ -1,16 +1,16 @@
 
   .. _ORG_0000005:
-  .. _Informal Organization:
+  .. _informal organization:
   .. index:: 
-     single: ORG_0000005; Informal Organization
-     single: Informal Organization; ORG_0000005
+     single: ORG_0000005; informal organization
+     single: informal organization; ORG_0000005
 
-ORG_0000005 - Informal Organization
+ORG_0000005 - informal organization
 ====================================================================================
 
 .. topic:: Label
 
-    Informal Organization
+    informal organization
 
 .. topic:: Alternate name
 
@@ -46,7 +46,7 @@ ORG_0000005 - Informal Organization
 
 .. topic:: Editor's note
 
-    No value
+    There are many names associated with informal organizations, such as club, group, party, team, cell, task force, work group, interest group, meeting, roundtable, .  So far dispositions and qualities that would distinguish the entities with various names have not been formulated.
 
 .. topic:: Imported From
 
@@ -54,7 +54,7 @@ ORG_0000005 - Informal Organization
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8451
 
 .. topic:: See also
 

@@ -30,9 +30,9 @@ Interval - Time interval
 
 .. topic:: SKOS Definition
 
-    A temporal entity with an extent or duration
-
     Una entidad temporal con una extensión o duración.
+
+    A temporal entity with an extent or duration
 
 .. topic:: Definition source
 

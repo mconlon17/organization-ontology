@@ -19,12 +19,12 @@
     ``BFO_0000038``      one-dimensional temporal  None
     ``BFO_0000148``      zero-dimensional tempora  None
     ``IAO_0000030``      information content enti  A generically dependent continuant that is about
-    ``ORG_0000001``      Organization              A group of people recognized as such by people o
-    ``ORG_0000002``      Government Organization   An organization which is created by a government
-    ``ORG_0000003``      Company                   A legal entity of associated persons created for
-    ``ORG_0000004``      Non-profit Organization   A legal entity of associated persons created for
-    ``ORG_0000005``      Informal Organization     A group of people recognized as such by people o
-    ``ORG_0000006``      Organization Part         An organization which exists as part of another 
+    ``ORG_0000001``      organization              A group of people recognized as such by people o
+    ``ORG_0000002``      government organization   An organization which is the body of persons tha
+    ``ORG_0000003``      company                   A legal entity of associated persons created for
+    ``ORG_0000004``      non-profit organization   A legal entity of associated persons created for
+    ``ORG_0000005``      informal organization     A group of people recognized as such by people o
+    ``ORG_0000006``      organization part         An organization which exists as part of another 
     ``Instant``          Time instant              None
     ``Interval``         Time interval             None
     ===================  ========================  ================================================

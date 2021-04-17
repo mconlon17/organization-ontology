@@ -60,9 +60,13 @@ other restrictions are acceptable for use in the VIVO ontologies.
 All Annotation Properties
 -------------------------
 
-:ref:`Table AnnotationProperty` lists all the Annotation properties in the ORG ontology.
- 
+`Table AnnotationProperty`_ lists all the annotation properties in the ORG ontology.
+
 .. include:: tab-AnnotationProperty.rst
+
+
+ 
+
     
 
 .. We will have a script that can read the ontology and write documentation pages, one per

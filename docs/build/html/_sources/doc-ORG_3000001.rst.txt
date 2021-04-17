@@ -14,7 +14,7 @@ ORG_3000001 - number of employees
 
 .. topic:: Alternate name
 
-    No value
+    # of employees
 
 .. topic:: SKOS Preferred Label
 
@@ -26,7 +26,7 @@ ORG_3000001 - number of employees
 
 .. topic:: Definition
 
-    The number of people (headcount) who receive paychecks from the organizationb for work performed
+    The number of people (headcount) who receive paychecks from the organization for work performed
 
 .. topic:: SKOS Definition
 
@@ -34,7 +34,7 @@ ORG_3000001 - number of employees
 
 .. topic:: Definition source
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
@@ -54,7 +54,7 @@ ORG_3000001 - number of employees
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: See also
 

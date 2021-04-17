@@ -343,9 +343,14 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              rdfs:subPropertyOf owl:TopProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://www.w3.org/2006/time#Instant> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "date of deontic creation process boundary"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "UF date_established 1853"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizational was established."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizationan was established."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Won't be modeled this way.  This is a demo."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "date_established"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "date established"@en .
 
 
@@ -444,8 +449,11 @@ owl:TopProperty rdf:type owl:ObjectProperty .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range xsd:nonNegativeInteger ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Amazon.com number_of_employees 1300000"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The number of people (headcount) who receive paychecks from the organizationb for work performed"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The number of people (headcount) who receive paychecks from the organization for work performed"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Informal organizations do not have employees.  Create a class restriction as a domain."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "# of employees"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "number of employees"@en .
 
 
@@ -612,49 +620,68 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000001
 <http://purl.obolibrary.org/obo/ORG_0000001> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "test"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "a political party, a homeowners association, a football team, a publisher, a government agency, an organized religion"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group."@en ;
-                                             rdfs:label "Organization"@en .
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000002
 <http://purl.obolibrary.org/obo/ORG_0000002> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Florida is chartered by the State of Florida, and so is a government organization.  The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no \"part of\" relationshiop here.  Each is a government organization."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An organization which is created by a government, or by a group of people to serve as a government."@en ;
-                                             rdfs:label "Government Organization"@en .
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "government"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no \"part of\" relationship here.  Each is a government organization."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An organization which is the body of persons that constitutes the governing authority of a political unit"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "government"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/government"@en ;
+                                             rdfs:label "government organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000003
 <http://purl.obolibrary.org/obo/ORG_0000003> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "BASF, The University of Phoenix, Facebook, Elsevier"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "BASF, The University of Phoenix, Facebook, Elsevier, Apple, Google, Amazon"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners."@en ;
-                                             rdfs:label "Company"@en .
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8449"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "See https://www.merriam-webster.com/dictionary/company"@en ;
+                                             rdfs:label "company"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000004
 <http://purl.obolibrary.org/obo/ORG_0000004> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Doctors Without Borders, Duke University, The American Medical Association"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically a mission, in which excess revenue is reinvested to serve the entity's mission"@en ;
-                                             rdfs:label "Non-profit Organization"@en .
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8450"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "not for profit"@en ;
+                                             rdfs:label "non-profit organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000005
 <http://purl.obolibrary.org/obo/ORG_0000005> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A student club, a university committee, the VIVO Ontology Interest Group"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group. Without legal standing."@en ;
-                                             rdfs:label "Informal Organization"@en .
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "There are many names associated with informal organizations, such as club, group, party, team, cell, task force, work group, interest group, meeting, roundtable, .  So far dispositions and qualities that would distinguish the entities with various names have not been formulated."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8451"@en ;
+                                             rdfs:label "informal organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000006
 <http://purl.obolibrary.org/obo/ORG_0000006> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The US Navy is an organizational part of the US Department of Defense.  The History Department is an organizational part of its college."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An organization which exists as part of another organization.  Implies a part_of relationship to another organization"@en ;
-                                             rdfs:label "Organization Part"@en .
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8452"@en ;
+                                             rdfs:label "organization part"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant

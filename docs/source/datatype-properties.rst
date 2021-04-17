@@ -6,7 +6,7 @@ Datatype Properties
 All Datatype Properties
 -----------------------
 
-:ref:`Table DatatypeProperty` lists all the datatype properties in the ORG ontology.
+`Table DatatypeProperty`_ lists all the datatype properties in the ORG ontology.
  
 .. include:: tab-DatatypeProperty.rst
     

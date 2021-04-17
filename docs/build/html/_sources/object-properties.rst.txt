@@ -65,7 +65,7 @@ All Object Properties
 
 
 
-:ref:`Table ObjectProperty` lists all the object properties in the ORG ontology.
+`Table ObjectProperty`_ lists all the object properties in the ORG ontology.
  
 .. include:: tab-ObjectProperty.rst
 

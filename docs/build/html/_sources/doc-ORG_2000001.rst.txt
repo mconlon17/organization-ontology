@@ -14,7 +14,7 @@ ORG_2000001 - date established
 
 .. topic:: Alternate name
 
-    No value
+    date_established
 
 .. topic:: SKOS Preferred Label
 
@@ -26,7 +26,7 @@ ORG_2000001 - date established
 
 .. topic:: Definition
 
-    Date the organizational was established.
+    Date the organizationan was established.
 
 .. topic:: SKOS Definition
 
@@ -34,7 +34,7 @@ ORG_2000001 - date established
 
 .. topic:: Definition source
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
@@ -54,7 +54,7 @@ ORG_2000001 - date established
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: See also
 

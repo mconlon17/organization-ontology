@@ -1,16 +1,16 @@
 
   .. _ORG_0000003:
-  .. _Company:
+  .. _company:
   .. index:: 
-     single: ORG_0000003; Company
-     single: Company; ORG_0000003
+     single: ORG_0000003; company
+     single: company; ORG_0000003
 
-ORG_0000003 - Company
+ORG_0000003 - company
 ====================================================================================
 
 .. topic:: Label
 
-    Company
+    company
 
 .. topic:: Alternate name
 
@@ -34,11 +34,11 @@ ORG_0000003 - Company
 
 .. topic:: Definition source
 
-    No value
+    See https://www.merriam-webster.com/dictionary/company
 
 .. topic:: Example
 
-    BASF, The University of Phoenix, Facebook, Elsevier
+    BASF, The University of Phoenix, Facebook, Elsevier, Apple, Google, Amazon
 
 .. topic:: SKOS Example
 
@@ -54,7 +54,7 @@ ORG_0000003 - Company
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8449
 
 .. topic:: See also
 

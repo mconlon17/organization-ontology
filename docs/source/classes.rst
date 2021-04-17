@@ -16,7 +16,7 @@ cats are mammals.  Your cat is a cat, so we can infer your cat is a mammal.
 All Classes
 -----------------
 
-:ref:`Table Class` lists all the classes in the ORG ontology.
+`Table Class`_ lists all the classes in the ORG ontology.
  
 .. include:: tab-Class.rst
 

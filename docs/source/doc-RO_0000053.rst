@@ -14,9 +14,9 @@ RO_0000053 - bearer of
 
 .. topic:: Alternate name
 
-    is bearer of
-
     bearer_of
+
+    is bearer of
 
 .. topic:: SKOS Preferred Label
 

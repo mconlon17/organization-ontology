@@ -12,8 +12,16 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/IAO_0000111
+<http://purl.obolibrary.org/obo/IAO_0000111> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000112
 <http://purl.obolibrary.org/obo/IAO_0000112> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000115
@@ -22,6 +30,26 @@
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
 <http://purl.obolibrary.org/obo/IAO_0000116> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000118
+<http://purl.obolibrary.org/obo/IAO_0000118> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#anyuri
+xsd:anyuri rdf:type rdfs:Datatype .
 
 
 #################################################################
@@ -33,9 +61,14 @@
                                              rdfs:subPropertyOf owl:TopProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://www.w3.org/2006/time#Instant> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "date of deontic creation process boundary"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "UF date_established 1853"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizational was established."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizationan was established."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Won't be modeled this way.  This is a demo."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "date_established"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "date established"@en .
 
 

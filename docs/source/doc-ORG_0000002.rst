@@ -1,20 +1,20 @@
 
   .. _ORG_0000002:
-  .. _Government Organization:
+  .. _government organization:
   .. index:: 
-     single: ORG_0000002; Government Organization
-     single: Government Organization; ORG_0000002
+     single: ORG_0000002; government organization
+     single: government organization; ORG_0000002
 
-ORG_0000002 - Government Organization
+ORG_0000002 - government organization
 ====================================================================================
 
 .. topic:: Label
 
-    Government Organization
+    government organization
 
 .. topic:: Alternate name
 
-    No value
+    government
 
 .. topic:: SKOS Preferred Label
 
@@ -26,7 +26,7 @@ ORG_0000002 - Government Organization
 
 .. topic:: Definition
 
-    An organization which is created by a government, or by a group of people to serve as a government.
+    An organization which is the body of persons that constitutes the governing authority of a political unit
 
 .. topic:: SKOS Definition
 
@@ -34,11 +34,11 @@ ORG_0000002 - Government Organization
 
 .. topic:: Definition source
 
-    No value
+    https://www.merriam-webster.com/dictionary/government
 
 .. topic:: Example
 
-    The University of Florida is chartered by the State of Florida, and so is a government organization.  The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no "part of" relationshiop here.  Each is a government organization.
+    The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no "part of" relationship here.  Each is a government organization.
 
 .. topic:: SKOS Example
 
@@ -54,7 +54,7 @@ ORG_0000002 - Government Organization
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
 
 .. topic:: See also
 

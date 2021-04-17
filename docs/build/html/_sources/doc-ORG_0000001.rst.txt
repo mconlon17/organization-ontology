@@ -1,16 +1,16 @@
 
   .. _ORG_0000001:
-  .. _Organization:
+  .. _organization:
   .. index:: 
-     single: ORG_0000001; Organization
-     single: Organization; ORG_0000001
+     single: ORG_0000001; organization
+     single: organization; ORG_0000001
 
-ORG_0000001 - Organization
+ORG_0000001 - organization
 ====================================================================================
 
 .. topic:: Label
 
-    Organization
+    organization
 
 .. topic:: Alternate name
 
@@ -54,7 +54,7 @@ ORG_0000001 - Organization
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: See also
 

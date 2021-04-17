@@ -1,20 +1,20 @@
 
   .. _ORG_0000004:
-  .. _Non-profit Organization:
+  .. _non-profit organization:
   .. index:: 
-     single: ORG_0000004; Non-profit Organization
-     single: Non-profit Organization; ORG_0000004
+     single: ORG_0000004; non-profit organization
+     single: non-profit organization; ORG_0000004
 
-ORG_0000004 - Non-profit Organization
+ORG_0000004 - non-profit organization
 ====================================================================================
 
 .. topic:: Label
 
-    Non-profit Organization
+    non-profit organization
 
 .. topic:: Alternate name
 
-    No value
+    not for profit
 
 .. topic:: SKOS Preferred Label
 
@@ -54,7 +54,7 @@ ORG_0000004 - Non-profit Organization
 
 .. topic:: Term editor
 
-    No value
+    Michael Conlon https://orcid.org/0000-0002-1304-8450
 
 .. topic:: See also
 
