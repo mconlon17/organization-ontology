@@ -88,7 +88,7 @@ def write_term_page(term_uri):
 	terms = {
 		RDFS.label : "Label",
 		OBO.IAO_0000118 : "Alternate name",
-		SKOS.prefLabel   : "SKOS Preferred Label",
+		SKOS.prefLabel  : "SKOS Preferred Label",
 		DC.identifier   : "DC identifier",
 		OBO.IAO_0000115 : "Definition",
 		SKOS.definition : "SKOS Definition",
@@ -107,6 +107,9 @@ def write_term_page(term_uri):
 		for term_value in g.objects(term_uri, term):
 			term_value = term_value.replace("\n", "\n    ")  # new lines in RDF values must generate indented values in RestructuredText
 			term_value_list.append(term_value)
+			
+		if len(term_value_list) == 0:
+			continue
 				
 		print(".. topic:: {}\n".format(term_name_data), file=f)
 		

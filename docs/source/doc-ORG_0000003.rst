@@ -12,25 +12,9 @@ ORG_0000003 - company
 
     company
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners.
-
-.. topic:: SKOS Definition
-
-    No value
 
 .. topic:: Definition source
 
@@ -40,23 +24,7 @@ ORG_0000003 - company
 
     BASF, The University of Phoenix, Facebook, Elsevier, Apple, Google, Amazon
 
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8449
-
-.. topic:: See also
-
-    No value
 

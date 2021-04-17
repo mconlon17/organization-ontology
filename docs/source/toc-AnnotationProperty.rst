@@ -16,14 +16,12 @@
    doc-IAO_0000412
    doc-IAO_0000424
    doc-ORG_1000001
-   doc-RO_0001900
-   doc-RO_0040042
    doc-created
    doc-creator
-   doc-description
-   doc-identifier
    doc-source
    doc-title
+   doc-description
+   doc-issued
    doc-license
    doc-TopProperty
    doc-altLabel

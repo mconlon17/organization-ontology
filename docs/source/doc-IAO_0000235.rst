@@ -12,41 +12,9 @@ IAO_0000235 - denoted by
 
     denoted by
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     Inverse of the relation 'denotes'
-
-.. topic:: SKOS Definition
-
-    No value
-
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
 
 .. topic:: Imported From
 
@@ -55,8 +23,4 @@ IAO_0000235 - denoted by
 .. topic:: Term editor
 
     Person: Jie Zheng, Chris Stoeckert, Mike Conlon
-
-.. topic:: See also
-
-    No value
 

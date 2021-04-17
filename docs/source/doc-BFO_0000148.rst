@@ -12,51 +12,19 @@ BFO_0000148 - zero-dimensional temporal region
 
     zero-dimensional temporal region
 
-.. topic:: Alternate name
-
-    No value
-
 .. topic:: SKOS Preferred Label
 
     zero-dimensional temporal region
-
-.. topic:: DC identifier
-
-    102-BFO
-
-.. topic:: Definition
-
-    No value
 
 .. topic:: SKOS Definition
 
     (Elucidation) A zero-dimensional temporal region is a temporal region that is a whole consisting of one or more separated temporal instants as parts
 
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
 .. topic:: SKOS Example
 
     A temporal region that is occupied by a process boundary; the moment at which a finger is detached in an industrial accident.
 
-.. topic:: Editor's note
-
-    No value
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

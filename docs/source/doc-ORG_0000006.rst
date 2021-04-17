@@ -12,51 +12,15 @@ ORG_0000006 - organization part
 
     organization part
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     An organization which exists as part of another organization.  Implies a part_of relationship to another organization
-
-.. topic:: SKOS Definition
-
-    No value
-
-.. topic:: Definition source
-
-    No value
 
 .. topic:: Example
 
     The US Navy is an organizational part of the US Department of Defense.  The History Department is an organizational part of its college.
 
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8452
-
-.. topic:: See also
-
-    No value
 

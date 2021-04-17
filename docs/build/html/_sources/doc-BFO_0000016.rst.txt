@@ -12,51 +12,19 @@ BFO_0000016 - disposition
 
     disposition
 
-.. topic:: Alternate name
-
-    No value
-
 .. topic:: SKOS Preferred Label
 
     disposition
-
-.. topic:: DC identifier
-
-    062-BFO
-
-.. topic:: Definition
-
-    No value
 
 .. topic:: SKOS Definition
 
     (Elucidation) b is a disposition means:  b is a realizable entity  & b's bearer is some material entity  & b is such that if it ceases to exist, then its bearer is physically changed,  & b's realization occurs when and because this bearer is in some special physical circumstances,  & this realization occurs in virtue of the bearer's physical make-up
 
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
 .. topic:: SKOS Example
 
     An atom of element X has the disposition to decay to an atom of element Y; the cell wall is disposed to transport cellular material through endocytosis and exocytosis; certain people have a predisposition to colon cancer; children are innately disposed to categorize objects in certain ways.
 
-.. topic:: Editor's note
-
-    No value
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

@@ -1,62 +1,18 @@
 
   .. _scopeNote:
-  .. _No label:
+  .. _scope note:
   .. index:: 
-     single: scopeNote; No label
-     single: No label; scopeNote
+     single: scopeNote; scope note
+     single: scope note; scopeNote
 
-scopeNote - No label
+scopeNote - scope note
 ====================================================================================
 
 .. topic:: Label
 
-    No value
-
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
-.. topic:: Definition
-
-    No value
+    scope note
 
 .. topic:: SKOS Definition
 
-    No value
-
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
+    A note that helps to clarify the meaning and/or the use of a concept.
 

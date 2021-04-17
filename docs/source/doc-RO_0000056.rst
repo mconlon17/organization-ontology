@@ -16,25 +16,9 @@ RO_0000056 - participates in
 
     participates_in
 
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A relation between a continuant and a process, in which the continuant is somehow involved in the process
-
-.. topic:: SKOS Definition
-
-    No value
-
-.. topic:: Definition source
-
-    No value
 
 .. topic:: Example
 
@@ -44,23 +28,7 @@ RO_0000056 - participates in
 
     this blood clot participates in this blood coagulation
 
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

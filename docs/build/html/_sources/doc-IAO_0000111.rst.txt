@@ -12,51 +12,15 @@ IAO_0000111 - editor preferred term
 
     editor preferred term
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)
-
-.. topic:: SKOS Definition
-
-    No value
 
 .. topic:: Definition source
 
     GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
 
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
 .. topic:: Term editor
 
     PERSON:Daniel Schober
-
-.. topic:: See also
-
-    No value
 

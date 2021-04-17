@@ -16,47 +16,15 @@ ORG_0000004 - non-profit organization
 
     not for profit
 
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A legal entity of associated persons created for a specific purpose, typically a mission, in which excess revenue is reinvested to serve the entity's mission
-
-.. topic:: SKOS Definition
-
-    No value
-
-.. topic:: Definition source
-
-    No value
 
 .. topic:: Example
 
     Doctors Without Borders, Duke University, The American Medical Association
 
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8450
-
-.. topic:: See also
-
-    No value
 

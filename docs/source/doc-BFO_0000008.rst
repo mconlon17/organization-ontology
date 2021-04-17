@@ -12,51 +12,19 @@ BFO_0000008 - temporal region
 
     temporal region
 
-.. topic:: Alternate name
-
-    No value
-
 .. topic:: SKOS Preferred Label
 
     temporal region
-
-.. topic:: DC identifier
-
-    100-BFO
-
-.. topic:: Definition
-
-    No value
 
 .. topic:: SKOS Definition
 
     (Elucidation) A temporal region is an occurrent over which processes can unfold
 
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
 .. topic:: SKOS Example
 
     As for zero-dimensional temporal region and one-dimensional temporal region.
 
-.. topic:: Editor's note
-
-    No value
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

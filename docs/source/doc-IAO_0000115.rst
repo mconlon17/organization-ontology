@@ -12,37 +12,13 @@ IAO_0000115 - definition
 
     definition
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
 
-.. topic:: SKOS Definition
-
-    No value
-
 .. topic:: Definition source
 
     GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
-
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
 
 .. topic:: Editor's note
 
@@ -65,17 +41,9 @@ IAO_0000115 - definition
     
     Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
     
-    We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  
-
-.. topic:: Imported From
-
-    No value
+    We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.
 
 .. topic:: Term editor
 
     PERSON:Daniel Schober
-
-.. topic:: See also
-
-    No value
 

@@ -19,19 +19,17 @@
     ``IAO_0000412``      imported from             For external terms/classes, the ontology from wh
     ``IAO_0000424``      None                      None
     ``ORG_1000001``      organization annotation   This is a demo
-    ``RO_0001900``       None                      None
-    ``RO_0040042``       None                      None
-    ``created``          None                      None
-    ``creator``          None                      None
-    ``description``      None                      None
-    ``identifier``       None                      None
-    ``source``           None                      None
-    ``title``            None                      None
-    ``license``          None                      None
+    ``created``          Date Created              None
+    ``creator``          Creator                   None
+    ``source``           Source                    None
+    ``title``            Title                     None
+    ``description``      Description               None
+    ``issued``           Date Issued               None
+    ``license``          License                   None
     ``TopProperty``      None                      None
-    ``altLabel``         None                      None
-    ``definition``       None                      None
-    ``example``          None                      None
-    ``prefLabel``        None                      None
-    ``scopeNote``        None                      None
+    ``altLabel``         alternative label         None
+    ``definition``       (skos) definition         None
+    ``example``          example                   None
+    ``prefLabel``        preferred label           None
+    ``scopeNote``        scope note                None
     ===================  ========================  ================================================

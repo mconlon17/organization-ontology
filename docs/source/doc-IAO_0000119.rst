@@ -12,25 +12,9 @@ IAO_0000119 - definition source
 
     definition source
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007
-
-.. topic:: SKOS Definition
-
-    No value
 
 .. topic:: Definition source
 
@@ -38,27 +22,7 @@ IAO_0000119 - definition source
 
     Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w
 
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
 .. topic:: Term editor
 
     PERSON:Daniel Schober
-
-.. topic:: See also
-
-    No value
 

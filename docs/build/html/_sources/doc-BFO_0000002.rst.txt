@@ -12,51 +12,19 @@ BFO_0000002 - continuant
 
     continuant
 
-.. topic:: Alternate name
-
-    No value
-
 .. topic:: SKOS Preferred Label
 
     continuant
-
-.. topic:: DC identifier
-
-    008-BFO
-
-.. topic:: Definition
-
-    No value
 
 .. topic:: SKOS Definition
 
     (Elucidation) A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity
 
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
 .. topic:: SKOS Example
 
     A human being, a tennis ball, a cave, a region of space, someone's temperature.
 
-.. topic:: Editor's note
-
-    No value
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

@@ -18,35 +18,15 @@ RO_0000053 - bearer of
 
     is bearer of
 
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence
 
-.. topic:: SKOS Definition
-
-    No value
-
-.. topic:: Definition source
-
-    No value
-
 .. topic:: Example
-
-    this apple is bearer of this red color
 
     this vase is bearer of this fragility
 
-.. topic:: SKOS Example
-
-    No value
+    this apple is bearer of this red color
 
 .. topic:: Editor's note
 
@@ -55,12 +35,4 @@ RO_0000053 - bearer of
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

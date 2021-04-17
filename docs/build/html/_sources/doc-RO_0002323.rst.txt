@@ -12,41 +12,9 @@ RO_0002323 - mereotopologically related to
 
     mereotopologically related to
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A mereological relationship or a topological relationship
-
-.. topic:: SKOS Definition
-
-    No value
-
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
 
 .. topic:: Imported From
 
@@ -55,8 +23,4 @@ RO_0002323 - mereotopologically related to
 .. topic:: Term editor
 
     Chris Mungall
-
-.. topic:: See also
-
-    No value
 

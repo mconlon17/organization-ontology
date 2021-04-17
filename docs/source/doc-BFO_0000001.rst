@@ -12,51 +12,19 @@ BFO_0000001 - entity
 
     entity
 
-.. topic:: Alternate name
-
-    No value
-
 .. topic:: SKOS Preferred Label
 
     entity
-
-.. topic:: DC identifier
-
-    001-BFO
-
-.. topic:: Definition
-
-    No value
 
 .. topic:: SKOS Definition
 
     (Elucidation) An entity is anything that exists or has existed or will exist
 
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
 .. topic:: SKOS Example
 
     Julius Caesar, the Second World War, your body mass index, Verdi's Requiem.
 
-.. topic:: Editor's note
-
-    No value
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

@@ -1,62 +1,18 @@
 
   .. _example:
-  .. _No label:
+  .. _example:
   .. index:: 
-     single: example; No label
-     single: No label; example
+     single: example; example
+     single: example; example
 
-example - No label
+example - example
 ====================================================================================
 
 .. topic:: Label
 
-    No value
-
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
-.. topic:: Definition
-
-    No value
+    example
 
 .. topic:: SKOS Definition
 
-    No value
-
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
+    An example of the use of a concept.
 

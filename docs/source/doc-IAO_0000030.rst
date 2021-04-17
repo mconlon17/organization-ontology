@@ -12,25 +12,9 @@ IAO_0000030 - information content entity
 
     information content entity
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A generically dependent continuant that is about some thing.
-
-.. topic:: SKOS Definition
-
-    No value
 
 .. topic:: Definition source
 
@@ -39,10 +23,6 @@ IAO_0000030 - information content entity
 .. topic:: Example
 
     Examples of information content entites include journal articles, data, graphical layouts, and graphs.
-
-.. topic:: SKOS Example
-
-    No value
 
 .. topic:: Editor's note
 
@@ -59,8 +39,4 @@ IAO_0000030 - information content entity
 .. topic:: Term editor
 
     PERSON: Chris Stoeckert
-
-.. topic:: See also
-
-    No value
 

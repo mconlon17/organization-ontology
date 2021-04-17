@@ -12,51 +12,11 @@ RO_0002012 - occurent part of
 
     occurent part of
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A part of relation that applies only between occurents.
 
-.. topic:: SKOS Definition
-
-    No value
-
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
 

@@ -63,13 +63,19 @@ Several annotation are used to describe the ontology and are not used further.
 ``terms:license`` is required for all ontologies.  The license should be CC0 or CC-BY, no
 other restrictions are acceptable for use in the VIVO ontologies.
 
-``owl:versionIRI`` <https://purl.obolibrary.org/obo/org/releases/2021-01-30> ;
-``owl:versionInfo`` "version 0.0.1" .
-``dc:created`` "2021-01-30"^^xsd:date ;
-``dc:creator`` <http://orcid.org/0000-0002-1304-8447> ;
-``dc:description`` "A BFO-based, OBO compliant ontology of research organizations."@en ;
-``dc:title`` "Organization Ontology"@en ;
-``rdfs:comment`` "This is very early work.  The ontology is intended to be sufficient to represent entities and properties in the domain of scholarship, and data for those organizations as collected and managed by GRiD and ROR"@en ;
+``owl:versionIRI`` a URL identifying the ontology version
+
+``owl:versionInfo`` a text string identifying the ontology version
+
+``dc:created`` a date string specifying the date the ontology was originally created
+
+``dc:creator`` a text string with the name and URL of the creator of the ontology
+
+``dc:description`` a text description of the ontology, its domain, and purpose
+
+``dc:title`` the name of the ontology to be used in citations
+
+``rdfs:comment`` additional text describing the context of the ontology
 
 Term annotations
 ................
@@ -79,7 +85,7 @@ ontology.  Most of these are substitutes for the standardized annotation
 properties describe above in :ref:`Table 5`.
 
 ``skos:altLabel``
-``skos:Definition``
+``skos:definition``
 ``skos:example``
 ``skos:prefLabel``
 ``skos:scopeNote``

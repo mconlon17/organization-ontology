@@ -1,62 +1,18 @@
 
   .. _definition:
-  .. _No label:
+  .. _(skos) definition:
   .. index:: 
-     single: definition; No label
-     single: No label; definition
+     single: definition; (skos) definition
+     single: (skos) definition; definition
 
-definition - No label
+definition - (skos) definition
 ====================================================================================
 
 .. topic:: Label
 
-    No value
-
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
-.. topic:: Definition
-
-    No value
+    (skos) definition
 
 .. topic:: SKOS Definition
 
-    No value
-
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
+    A statement or formal explanation of the meaning of a concept.
 

@@ -1,62 +1,22 @@
 
   .. _altLabel:
-  .. _No label:
+  .. _alternative label:
   .. index:: 
-     single: altLabel; No label
-     single: No label; altLabel
+     single: altLabel; alternative label
+     single: alternative label; altLabel
 
-altLabel - No label
+altLabel - alternative label
 ====================================================================================
 
 .. topic:: Label
 
-    No value
-
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
-.. topic:: Definition
-
-    No value
+    alternative label
 
 .. topic:: SKOS Definition
 
-    No value
-
-.. topic:: Definition source
-
-    No value
-
-.. topic:: Example
-
-    No value
+    An alternative lexical label for a resource.
 
 .. topic:: SKOS Example
 
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
-.. topic:: Term editor
-
-    No value
-
-.. topic:: See also
-
-    No value
+    Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept. Mis-spelled terms are normally included as hidden labels (see skos:hiddenLabel).
 

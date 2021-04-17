@@ -12,51 +12,15 @@ IAO_0000116 - editor note
 
     editor note
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.
-
-.. topic:: SKOS Definition
-
-    No value
 
 .. topic:: Definition source
 
     GROUP:OBI:<http://purl.obfoundry.org/obo/obi>
 
-.. topic:: Example
-
-    No value
-
-.. topic:: SKOS Example
-
-    No value
-
-.. topic:: Editor's note
-
-    No value
-
-.. topic:: Imported From
-
-    No value
-
 .. topic:: Term editor
 
     PERSON:Daniel Schober
-
-.. topic:: See also
-
-    No value
 

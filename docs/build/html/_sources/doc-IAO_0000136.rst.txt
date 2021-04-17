@@ -12,25 +12,9 @@ IAO_0000136 - is about
 
     is about
 
-.. topic:: Alternate name
-
-    No value
-
-.. topic:: SKOS Preferred Label
-
-    No value
-
-.. topic:: DC identifier
-
-    No value
-
 .. topic:: Definition
 
     A (currently) primitive relation that relates an information artifact to an entity.
-
-.. topic:: SKOS Definition
-
-    No value
 
 .. topic:: Definition source
 
@@ -39,10 +23,6 @@ IAO_0000136 - is about
 .. topic:: Example
 
     This document is about information artifacts and their representations
-
-.. topic:: SKOS Example
-
-    No value
 
 .. topic:: Editor's note
 
@@ -59,8 +39,4 @@ IAO_0000136 - is about
 .. topic:: Term editor
 
     person:Alan Ruttenberg
-
-.. topic:: See also
-
-    No value
 
