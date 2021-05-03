@@ -1,14 +1,14 @@
 
   .. _description:
-  .. _Description:
+  .. _dublin core terms description:
   .. index:: 
-     single: description; Description
-     single: Description; description
+     single: description; dublin core terms description
+     single: dublin core terms description; description
 
-description - Description
+description - dublin core terms description
 ====================================================================================
 
 .. topic:: Label
 
-    Description
+    dublin core terms description
 

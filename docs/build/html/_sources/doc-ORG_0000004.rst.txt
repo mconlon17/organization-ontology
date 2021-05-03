@@ -20,11 +20,15 @@ ORG_0000004 - non-profit organization
 
     A legal entity of associated persons created for a specific purpose, typically a mission, in which excess revenue is reinvested to serve the entity's mission
 
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
 .. topic:: Example
 
     Doctors Without Borders, Duke University, The American Medical Association
 
 .. topic:: Term editor
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8450
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 

@@ -1,0 +1,34 @@
+
+  .. _ORG_0000010:
+  .. _service provider:
+  .. index:: 
+     single: ORG_0000010; service provider
+     single: service provider; ORG_0000010
+
+ORG_0000010 - service provider
+====================================================================================
+
+.. topic:: Label
+
+    service provider
+
+.. topic:: Definition
+
+    A disposition to provide service with or without a fee
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A hospital has a service provider disposition to provide medical services to patients
+
+.. topic:: Editor's note
+
+    We can expect to have many types of service provider dispositions
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

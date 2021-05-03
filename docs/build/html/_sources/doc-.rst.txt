@@ -1,10 +1,10 @@
 
-  .. _IAO_0000424:
+  .. _:
   .. _No label:
   .. index:: 
-     single: IAO_0000424; No label
-     single: No label; IAO_0000424
+     single: ; No label
+     single: No label; 
 
-IAO_0000424 - No label
+ - No label
 ====================================================================================
 

@@ -1,0 +1,30 @@
+
+  .. _ORG_0000019:
+  .. _museum:
+  .. index:: 
+     single: ORG_0000019; museum
+     single: museum; ORG_0000019
+
+ORG_0000019 - museum
+====================================================================================
+
+.. topic:: Label
+
+    museum
+
+.. topic:: Definition
+
+    A disposition to collect, store, and provide access to inanimate material entities in a facility
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The National Portrait Gallery is an art museum
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

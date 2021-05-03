@@ -47,15 +47,15 @@ not be more than one type, just as an animal cannot be more than one species.
 
 .. table:: Table 1 Types of Organizations
 
-    ===========  =======================  ================================================
-    Class        Label                    Notes
-    ===========  =======================  ================================================
-    ORG_0000001  Government Organization  A government of some jurisdiction
-    ORG_0000002  Company                  An org to earn money for its owners
-    ORG_0000003  Non-Profit               An org to reinvest money for its mission
-    ORG_0000004  Informal                 An org which is not formally constituted
-    ORG_0000005  Organization Part        An org which is a part of another org
-    ===========  =======================  ================================================
+    ===========  =======================  ===========================================================
+    Term ID      Label                    Notes
+    ===========  =======================  ===========================================================
+    ORG_0000002  government organization  A government of some jurisdiction
+    ORG_0000003  company                  An organization with a purpose to earn money for its owners
+    ORG_0000004  non-profit organization  An organization which reinvests net revenue for its mission
+    ORG_0000005  informal organization    An organization which is not formally constituted
+    ORG_0000006  organization part        An organization which is a part of another organization
+    ===========  =======================  ===========================================================
     
 :ref:`Figure 2` shows the classes and properties used to represent organizations in ORG.
 
@@ -73,27 +73,12 @@ Dispositions
 
 Organizations have dispositions which indicate the purposes organizations have.  An
 organization might have a disposition of *library* or *healthcare* or *military*.
-Dispositions are shown in :ref:`Table 2`  An organization may have any number of
+Dispositions are shown in :ref:`Table Dispositions`  An organization may have any number of
 dispositions.
 
-.. _Table 2:
-
-.. table:: Table 2 Dispositions of Organizations
-
-	===========  ==========  ================================================
-	Class        Label        Notes
-	===========  ==========  ================================================
-	ORG_0000021  Hospital    Provides in-patient healthcare services
-	ORG_0000022  Healthcare  Provides any of a variety of healthcare services
-	ORG_0000023  Library     Provides access to information resources
-	ORG_0000024  University  Conducts higher education activities
-	ORG_0000025  Commerce    Conducts commercial activities
-	ORG_0000026  Military    Conducts military activities
-	ORG_0000027  Education   Provides opportunties for teaching and learning
-	ORG_0000028  Research    Advance knowledge through research activities
-	ORG_0000029  Archive     Collects, curates, and preserves materials
-	ORG_0000030  Religious   Conducts religious activities
-	===========  ==========  ================================================
+`Table Dispositions`_ lists the dispositions in the ORG ontology.
+ 
+.. include:: tab-dispositions.rst
 
 Examples
 --------

@@ -30,5 +30,5 @@ ORG_0000002 - government organization
 
 .. topic:: Term editor
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8448
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 

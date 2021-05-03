@@ -1,0 +1,34 @@
+
+  .. _ORG_0000026:
+  .. _library:
+  .. index:: 
+     single: ORG_0000026; library
+     single: library; ORG_0000026
+
+ORG_0000026 - library
+====================================================================================
+
+.. topic:: Label
+
+    library
+
+.. topic:: Definition
+
+    A disposition to provide library services
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Library of Congress, the local public library, a university library allhave dispositions of library
+
+.. topic:: Editor's note
+
+    Perhaps a function
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

@@ -1,0 +1,34 @@
+
+  .. _ORG_0000008:
+  .. _association:
+  .. index:: 
+     single: ORG_0000008; association
+     single: association; ORG_0000008
+
+ORG_0000008 - association
+====================================================================================
+
+.. topic:: Label
+
+    association
+
+.. topic:: Alternate name
+
+    professional society
+
+.. topic:: Definition
+
+    A disposition to organize organizations or individuals along and industry or academic lines
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The American Medical Association; The AFL-CIO; The Institution of Railway Signal Engineers
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

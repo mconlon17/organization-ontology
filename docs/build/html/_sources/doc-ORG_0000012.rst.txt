@@ -1,0 +1,38 @@
+
+  .. _ORG_0000012:
+  .. _extension provider:
+  .. index:: 
+     single: ORG_0000012; extension provider
+     single: extension provider; ORG_0000012
+
+ORG_0000012 - extension provider
+====================================================================================
+
+.. topic:: Label
+
+    extension provider
+
+.. topic:: Alternate name
+
+    agricultural extension
+
+.. topic:: Definition
+
+    A disposition to provide extension services, typically in agriculture.  Extension provides access to university research findings and advice to agriculturalists.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    Texas A&M Agrilife Extension is a part of the university with a disposition for providing agricultural exteension services
+
+.. topic:: Editor's note
+
+    Extension is most commonly used to describe agircultural extension services.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

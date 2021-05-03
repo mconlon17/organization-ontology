@@ -6,12 +6,14 @@
     ontology-docs: from an ontology, generate docs in restructuredText suitable for
     inclusion in ontology ReadTheDocs style documentation
     
-    table of classes
-    table of annotation properties
-    table object properties
-    table of datatype properties
+    1. table of contents for term types
+    2. tables of term types and tables of dispositions
+    3. pages for each term
     
-    Pages for each term
+    TODO:  All tables made by one function
+           Table entries link to pages
+           Table column width determined by contents
+           Clarify three functions -- write pages, generate tables, generate TOC
 """
 
 from rdflib import Graph, Literal, Namespace, URIRef
@@ -33,7 +35,7 @@ header = """
 .. table:: {}
 
     ===================  ========================  ================================================
-    Property             Label                     Definition
+    Term ID              Label                     Definition
     ===================  ========================  ================================================"""
 
 trailer = "    ===================  ========================  ================================================"
@@ -122,12 +124,40 @@ def write_term_page(term_uri):
 	f.close()
 	
 	return
+	
+def term_table(file_name, term_label, predicate, object):
+
+	# Given a file name, term label, term type, predicate and object, create a table of the terms matching
+	# the predicate and object
+	
+	f = open(file_name, "w")	
+	print(header.format(term_label, term_label), file=f)
+	
+	for term_uri in sorted(g.subjects(predicate, object)):
+		
+		if str(term_uri)[0] != 'h':  # skip blank nodes
+			continue
+		
+		term_name_str = term_name(term_uri)[term_name(term_uri).rfind(':')+1:]
+			
+		label = "None"
+		for rlabel in g.objects(term_uri, RDFS.label):
+			label = rlabel
+			
+		definition = "None"
+		for rdefinition in g.objects(term_uri, OBO.IAO_0000115):
+			definition = rdefinition
+			
+		term_name_str = '``'+term_name_str+'``'
+		print('   ',term_name_str[0:19].ljust(20," "),label[0:24].ljust(25," "), definition[0:48], file=f)
+		
+	print(trailer, file=f)
+	f.close()
+	return
 
 def main():
 	g.parse("../../org.ttl", format="ttl")
 	print(len(g))
-    
-# Iterate over all terms
 
 	for term_type in [OWL.Class, OWL.AnnotationProperty, OWL.ObjectProperty, OWL.DatatypeProperty]:
 	
@@ -165,6 +195,8 @@ def main():
 		print(trailer, file=f)            
 		f.close()
 		toc.close()
+		
+	term_table("../source/tab-dispositions.rst", "Dispositions", RDFS.subClassOf, OBO.BFO_0000016) # Dispositions
 	return
 
 if __name__ == "__main__":

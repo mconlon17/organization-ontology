@@ -1,0 +1,34 @@
+
+  .. _ORG_0000016:
+  .. _health care service provider:
+  .. index:: 
+     single: ORG_0000016; health care service provider
+     single: health care service provider; ORG_0000016
+
+ORG_0000016 - health care service provider
+====================================================================================
+
+.. topic:: Label
+
+    health care service provider
+
+.. topic:: Alternate name
+
+    health care provider
+
+.. topic:: Definition
+
+    A disposition to provider health care to humans
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A nurse has a disposition to provide health care servces
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

@@ -54,12 +54,7 @@
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "this is a test"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "organization annotation"@en ;
-                                             rdfs:subPropertyOf owl:TopProperty .
-
-
-###  http://www.w3.org/2002/07/owl#TopProperty
-owl:TopProperty rdf:type owl:AnnotationProperty .
+                                             rdfs:label "organization annotation"@en .
 
 
 #################################################################

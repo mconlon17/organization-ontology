@@ -16,6 +16,10 @@ ORG_0000005 - informal organization
 
     A group of people recognized as such by people outside the group. Without legal standing.
 
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
 .. topic:: Example
 
     A student club, a university committee, the VIVO Ontology Interest Group
@@ -26,5 +30,5 @@ ORG_0000005 - informal organization
 
 .. topic:: Term editor
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8451
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 

@@ -1,0 +1,34 @@
+
+  .. _ORG_0000020:
+  .. _gallery:
+  .. index:: 
+     single: ORG_0000020; gallery
+     single: gallery; ORG_0000020
+
+ORG_0000020 - gallery
+====================================================================================
+
+.. topic:: Label
+
+    gallery
+
+.. topic:: Definition
+
+    A disposition to display collected works from an archive
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Color Factory in New York City is an art gallery
+
+.. topic:: Editor's note
+
+    The distinction between an art gallery and and art museum has to do with the temporary nature of displays in galleries, as well as the common practice in galleries to sell art on display
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

@@ -4,7 +4,7 @@
 .. table:: ObjectProperty
 
     ===================  ========================  ================================================
-    Property             Label                     Definition
+    Term ID              Label                     Definition
     ===================  ========================  ================================================
     ``BFO_0000050``      part of                   A core relation that holds between a part and it
     ``BFO_0000051``      has part                  A core relation that holds between a whole and i
@@ -19,5 +19,5 @@
     ``RO_0002012``       occurent part of          A part of relation that applies only between occ
     ``RO_0002131``       overlaps                  X overlaps y if and only if there exists some z 
     ``RO_0002323``       mereotopologically relat  A mereological relationship or a topological rel
-    ``TopProperty``      None                      None
+    ``type``             type                      None
     ===================  ========================  ================================================

@@ -1,0 +1,38 @@
+
+  .. _ORG_0000028:
+  .. _military:
+  .. index:: 
+     single: ORG_0000028; military
+     single: military; ORG_0000028
+
+ORG_0000028 - military
+====================================================================================
+
+.. topic:: Label
+
+    military
+
+.. topic:: Alternate name
+
+    armed forces
+
+.. topic:: Definition
+
+    A disposition to engage in warfare
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The US Space Force, the Chinese Navy, and the Bolivian Army are example of organizations with miltary disposition
+
+.. topic:: Editor's note
+
+    Perhaps a function
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

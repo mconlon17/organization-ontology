@@ -1,0 +1,34 @@
+
+  .. _ORG_0000015:
+  .. _funder:
+  .. index:: 
+     single: ORG_0000015; funder
+     single: funder; ORG_0000015
+
+ORG_0000015 - funder
+====================================================================================
+
+.. topic:: Label
+
+    funder
+
+.. topic:: Alternate name
+
+    grantor
+
+.. topic:: Definition
+
+    A disposition to fund proposals, often is response to a call for proposals by the entity with the funding disposition
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The National Institutes of Health (NIH) and The National Science Foundation (NSF) have funder dispositions
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

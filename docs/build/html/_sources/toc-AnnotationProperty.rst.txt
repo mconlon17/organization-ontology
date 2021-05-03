@@ -14,16 +14,18 @@
    doc-IAO_0000232
    doc-IAO_0000233
    doc-IAO_0000412
-   doc-IAO_0000424
    doc-ORG_1000001
    doc-created
    doc-creator
+   doc-description
    doc-source
    doc-title
    doc-description
    doc-issued
    doc-license
-   doc-TopProperty
+   doc-
+   doc-versionIRI
+   doc-versionInfo
    doc-altLabel
    doc-definition
    doc-example
