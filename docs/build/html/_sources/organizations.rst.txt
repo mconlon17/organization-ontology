@@ -26,6 +26,7 @@ Overview
 ----------
 
 :ref:`Figure 1` shows the classes and properties used to represent organizations in ORG.
+An overview of the classes and properties follows the figure.
 
 .. _Figure 1:
 
@@ -35,7 +36,39 @@ Overview
     Figure 1
     
     Representation of organizations.  The organization of interest is at the center of the
-    figure
+    figure.  See notes below.
+    
+At the center of the figure not that an organization has a name (rdfs:label), and may have a postal address (iao:postal_address) and/or
+an email address (iao:email address).  An organization may have one or more acronyms or abbreviated names (iao:abbreviation).
+
+An organization has a type.  In the figure, the type of the organization is org:Nonprofit.  See below for a further
+discussion of types.
+
+Now proceeding clockwise from type:
+
+- An organization may be denoted by one or more identifiers.  Identifiers are represented
+  using the Identifier Ontology (IDO).  Note that the identifier is an entity.  It exists
+  independently of the organization to denotes.
+- Orgs may be related to other orgs.  An org may be part of another organization.
+- An org may be affiliated with another organization.
+- An org may have a predecessor organization.  Organizations undergo change.  The resulting
+  organization may be a new organization of a different type, different people, different purpose.
+- An organization may be a member of another organization.
+- Organizations often have web sites.  Web sites are information content entities that are
+  about the organization.  Note that the web site is an entity that exists with or without
+  the organization it is about.
+- Organizations have one or more dispositions.  Dispositions identify the purpose of an
+  organization.  Dispositions of an organization may change over time.  See below for a 
+  further discussion of dispositions.  A disposition is dependent the entity which
+  has the disposition.  In BFO, a disposition is a specifically dependent continuant,
+  dependent on the entity which has the specific disposition.
+- An org may occupy zero or more facilities, such as an office building, or university campus. A facility
+  is typically a man-made structure attached to the ground.  As such, facilities have
+  geographical locations -- in cities, for example.  See :ref:`Facilities` for more detail.
+- Organizations may have dates associated with some occurrent related to the organization. For
+  example, an organization may have a "date established".  See :ref:`Dates and Times` for
+  a further discussion of the representation of dates and times related to organizations.
+
     
 Types
 ------
