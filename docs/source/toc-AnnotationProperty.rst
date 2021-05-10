@@ -17,6 +17,7 @@
    doc-ORG_1000001
    doc-created
    doc-creator
+   doc-date
    doc-description
    doc-source
    doc-title

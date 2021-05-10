@@ -20,6 +20,7 @@
     ``ORG_1000001``      organization annotation   This is a demo
     ``created``          Date Created              None
     ``creator``          Creator                   None
+    ``date``             Date                      None
     ``description``      dublin core elements des  None
     ``source``           Source                    None
     ``title``            Title                     None

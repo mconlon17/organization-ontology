@@ -21,6 +21,7 @@
   	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
   	    --prefix "bfo: http://purl.obolibrary.org/obo/BFO_" \
   	    --prefix "ro: http://purl.obolibrary.org/obo/RO_" \
+            --prefix "obi: http://purl.obolibrary.org/obo/OBI_" \
   	    --prefix "iao: http://purl.obolibrary.org/obo/IAO_" \
   	    --prefix "time: http://www.w3.org/2006/time#" \
   	    convert --output templates/datatype-properties.ttl

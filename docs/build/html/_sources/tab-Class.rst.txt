@@ -19,6 +19,8 @@
     ``BFO_0000038``      one-dimensional temporal  None
     ``BFO_0000148``      zero-dimensional tempora  None
     ``IAO_0000030``      information content enti  A generically dependent continuant that is about
+    ``IAO_0000422``      postal address            A textual entity that is used as directive to de
+    ``IAO_0000429``      email address             None
     ``ORG_0000001``      organization              A group of people recognized as such by people o
     ``ORG_0000002``      government organization   An organization which is the body of persons tha
     ``ORG_0000003``      company                   A legal entity of associated persons created for
@@ -48,6 +50,8 @@
     ``ORG_0000027``      commerce                  A disposition to sell things
     ``ORG_0000028``      military                  A disposition to engage in warfare
     ``ORG_0000029``      religious                 A disposition to engage in matters of spirtualit
+    ``ORG_3000003``      has postal address repre  Specifies the postal address string for a postal
+    ``ORG_3000004``      has geolocation represen  Specifies the geolocation string for a geolocati
     ``Instant``          Time instant              None
     ``Interval``         Time interval             None
     ===================  ========================  ================================================

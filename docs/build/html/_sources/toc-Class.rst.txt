@@ -16,6 +16,8 @@
    doc-BFO_0000038
    doc-BFO_0000148
    doc-IAO_0000030
+   doc-IAO_0000422
+   doc-IAO_0000429
    doc-ORG_0000001
    doc-ORG_0000002
    doc-ORG_0000003
@@ -45,5 +47,7 @@
    doc-ORG_0000027
    doc-ORG_0000028
    doc-ORG_0000029
+   doc-ORG_3000003
+   doc-ORG_3000004
    doc-Instant
    doc-Interval

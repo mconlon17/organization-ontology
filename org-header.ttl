@@ -90,7 +90,8 @@ We also have the outstanding issue of how to aim different definitions to differ
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "definition"@en .
+                rdfs:label "definition"@en ,
+                           "definition"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
@@ -152,13 +153,13 @@ obo:IAO_0000232 rdf:type owl:AnnotationProperty ;
 ###  http://purl.obolibrary.org/obo/IAO_0000233
 obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000111 "term tracker item"@en ;
-                obo:IAO_0000112 "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/";
+                obo:IAO_0000112 "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/" ;
                 obo:IAO_0000114 obo:IAO_0000125 ;
                 obo:IAO_0000115 "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                 obo:IAO_0000117 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                 obo:IAO_0000119 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
-                rdfs:comment: "The &apos;tracker item&apos; can associate a tracker with a specific ontology term.";
-                rdfs:label "term tracker item"@en .
+                rdfs:label "term tracker item"@en ;
+                rdfs:comment: "The &apos;tracker item&apos; can associate a tracker with a specific ontology term." .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000412
@@ -190,6 +191,12 @@ dc:creator rdf:type owl:AnnotationProperty ;
            rdfs:comment "An entity responsible for making the resource."@en ;
            rdfs:isDefinedBy terms: ;
            rdfs:label "Creator"@en .
+
+
+###  http://purl.org/dc/elements/1.1/date
+dc:date rdf:type owl:AnnotationProperty ;
+        rdfs:label "Date" ,
+                   "Date"@en-us .
 
 
 ###  http://purl.org/dc/elements/1.1/description
@@ -243,6 +250,14 @@ terms:license rdf:type owl:AnnotationProperty ;
               rdfs:comment "A legal document giving official permission to do something with the resource."@en ;
               rdfs:isDefinedBy terms: ;
               rdfs:label "License"@en .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdfs:label "label" .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#comment:
+rdfs:comment: rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2002/07/owl#versionIRI
@@ -487,6 +502,27 @@ rdf:type rdf:type owl:ObjectProperty ;
 
 
 #################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/OBI_0002815
+obo:OBI_0002815 rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                obo:IAO_0000111 "has representation"@en ;
+                obo:IAO_0000112 "12th arrondissement of Paris"@en ,
+                                "20g"^^xsd:string ,
+                                "I feel sick to my stomach every Tuesday"@en ;
+                obo:IAO_0000114 obo:IAO_0000122 ;
+                obo:IAO_0000115 "'has representation' is a data property that attaches between an information content entity and a value that contains linguistically or computationally coded text."@en ;
+                obo:IAO_0000116 "Further processing may enable the value to be represented in a component data structure such as an OBI value specification."@en ;
+                obo:IAO_0000117 "Damion Dooley"^^xsd:string ,
+                                "Mark Miller"^^xsd:string ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/obi/2020-08-24/obi.owl"^^xsd:string ;
+                dc:date "2019-07-14T07:05:50Z"^^xsd:dateTime ;
+                rdfs:label "has representation"@en .
+
+
+#################################################################
 #    Classes
 #################################################################
 
@@ -628,6 +664,28 @@ Previous. An information content entity is a non-realizable information entity t
                 obo:IAO_0000119 "OBI_0000142"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"^^xsd:string ;
                 rdfs:label "information content entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000422
+obo:IAO_0000422 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000030 ;
+                obo:IAO_0000114 obo:IAO_0000123 ;
+                obo:IAO_0000115 "A textual entity that is used as directive to deliver something to a person, or organization" ;
+                obo:IAO_0000116 "2010-05-24 Alan Ruttenberg. Use label for the string representation. See issue https://github.com/information-artifact-ontology/IAO/issues/59" ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"^^xsd:string ;
+                rdfs:label "postal address"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000429
+obo:IAO_0000429 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000030 ;
+                obo:IAO_0000111 "email address"@en ;
+                obo:IAO_0000114 obo:IAO_0000123 ;
+                obo:IAO_0000116 "Alan Ruttenberg 1/3/2012 - Provisional id, see issue at https://github.com/information-artifact-ontology/IAO/issues/130&thanks=130&ts=1325636583"@en ;
+                obo:IAO_0000117 "Person:Alan Ruttenberg"@en ,
+                                "Person:Chris Stoeckart"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"^^xsd:string ;
+                rdfs:label "email address"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant

@@ -12,6 +12,8 @@ IAO_0000115 - definition
 
     definition
 
+    definition
+
 .. topic:: Definition
 
     The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
