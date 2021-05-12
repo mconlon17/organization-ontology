@@ -18,9 +18,9 @@ IAO_0000119 - definition source
 
 .. topic:: Definition source
 
-    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
-
     Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w
+
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
 
 .. topic:: Term editor
 

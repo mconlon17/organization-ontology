@@ -89,6 +89,7 @@
 <li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="facilities.html">Facilities</a></li>
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addresses.html">Addresses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datetimes.html">Dates and Times</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Classes</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000001.html">BFO_0000001 - entity</a></li>
@@ -135,8 +136,11 @@
 <li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000027.html">ORG_0000027 - commerce</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000028.html">ORG_0000028 - military</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000029.html">ORG_0000029 - religious</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000003.html">ORG_3000003 - has postal address representation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000004.html">ORG_3000004 - has geolocation representation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000030.html">ORG_0000030 - governance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000031.html">ORG_0000031 - information address disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000032.html">ORG_0000032 - billing address disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000033.html">ORG_0000033 - shipping address dispositon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000034.html">ORG_0000034 - preferred address disposition</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-Instant.html">Instant - Time instant</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-Interval.html">Interval - Time interval</a></li>
 </ul>
@@ -272,8 +276,11 @@ cats are mammals.  Your cat is a cat, so we can infer your cat is a mammal.</p>
 <li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000027.html">ORG_0000027 - commerce</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000028.html">ORG_0000028 - military</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000029.html">ORG_0000029 - religious</a></li>
-<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000003.html">ORG_3000003 - has postal address representation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000004.html">ORG_3000004 - has geolocation representation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000030.html">ORG_0000030 - governance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000031.html">ORG_0000031 - information address disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000032.html">ORG_0000032 - billing address disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000033.html">ORG_0000033 - shipping address dispositon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000034.html">ORG_0000034 - preferred address disposition</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-Instant.html">Instant - Time instant</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-Interval.html">Interval - Time interval</a></li>
 </ul>
@@ -471,19 +478,31 @@ cats are mammals.  Your cat is a cat, so we can infer your cat is a mammal.</p>
 <td><p>religious</p></td>
 <td><p>A disposition to engage in matters of spirtualit</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000003</span></code></p></td>
-<td><p>has postal address repre</p></td>
-<td><p>Specifies the postal address string for a postal</p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_0000030</span></code></p></td>
+<td><p>governance</p></td>
+<td><p>A disposition to provide governance</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000004</span></code></p></td>
-<td><p>has geolocation represen</p></td>
-<td><p>Specifies the geolocation string for a geolocati</p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_0000031</span></code></p></td>
+<td><p>information address disp</p></td>
+<td><p>A dispositon of an information content entity de</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Instant</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_0000032</span></code></p></td>
+<td><p>billing address disposit</p></td>
+<td><p>A disposition of an address to be used to receiv</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_0000033</span></code></p></td>
+<td><p>shipping address disposi</p></td>
+<td><p>A disposition of an address to be used to receiv</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_0000034</span></code></p></td>
+<td><p>preferred address dispos</p></td>
+<td><p>A disposition of an address to be displayed in m</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Instant</span></code></p></td>
 <td><p>Time instant</p></td>
 <td><p>None</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Interval</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Interval</span></code></p></td>
 <td><p>Time interval</p></td>
 <td><p>None</p></td>
 </tr>

@@ -1,10 +1,10 @@
 
-  .. _:
+  .. _OBI_00002815:
   .. _No label:
   .. index:: 
-     single: ; No label
-     single: No label; 
+     single: OBI_00002815; No label
+     single: No label; OBI_00002815
 
- - No label
+OBI_00002815 - No label
 ====================================================================================
 

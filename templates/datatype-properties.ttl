@@ -40,8 +40,8 @@
 #    Data properties
 #################################################################
 
-###  http://purl.obolibrary.org/obo/OBI_00002815
-<http://purl.obolibrary.org/obo/OBI_00002815> rdf:type owl:DatatypeProperty .
+###  http://purl.obolibrary.org/obo/OBI_0002815
+<http://purl.obolibrary.org/obo/OBI_0002815> rdf:type owl:DatatypeProperty .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_3000001
@@ -60,7 +60,7 @@
 
 ###  http://purl.obolibrary.org/obo/ORG_3000002
 <http://purl.obolibrary.org/obo/ORG_3000002> rdf:type owl:DatatypeProperty ;
-                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_00002815> ;
+                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "info@metabolomics.info"@en ;
@@ -74,7 +74,7 @@
 
 ###  http://purl.obolibrary.org/obo/ORG_3000003
 <http://purl.obolibrary.org/obo/ORG_3000003> rdf:type owl:DatatypeProperty ;
-                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_00002815> ;
+                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "1210 NW 14th Ave; ;Gainesville; Fl; USA; 32601"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the postal address string for a postal address"@en ;
@@ -87,7 +87,7 @@
 
 ###  http://purl.obolibrary.org/obo/ORG_3000004
 <http://purl.obolibrary.org/obo/ORG_3000004> rdf:type owl:DatatypeProperty ;
-                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_00002815> ;
+                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "29.6651224,-82.3396949"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the geolocation string for a geolocation"@en ;

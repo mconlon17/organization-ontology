@@ -22,7 +22,7 @@ ORG_0000024 - training
 
 .. topic:: Example
 
-    a military training program, a flight school training program, a CPR training program all have dispositions to train
+    A military training program, a flight school training program, a CPR training program all have dispositions to train
 
 .. topic:: Term editor
 

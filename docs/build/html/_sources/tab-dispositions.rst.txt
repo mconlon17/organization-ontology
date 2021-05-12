@@ -29,4 +29,9 @@
     ``ORG_0000027``      commerce                  A disposition to sell things
     ``ORG_0000028``      military                  A disposition to engage in warfare
     ``ORG_0000029``      religious                 A disposition to engage in matters of spirtualit
+    ``ORG_0000030``      governance                A disposition to provide governance
+    ``ORG_0000031``      information address disp  A dispositon of an information content entity de
+    ``ORG_0000032``      billing address disposit  A disposition of an address to be used to receiv
+    ``ORG_0000033``      shipping address disposi  A disposition of an address to be used to receiv
+    ``ORG_0000034``      preferred address dispos  A disposition of an address to be displayed in m
     ===================  ========================  ================================================

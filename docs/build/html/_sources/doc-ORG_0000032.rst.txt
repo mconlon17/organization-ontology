@@ -1,0 +1,30 @@
+
+  .. _ORG_0000032:
+  .. _billing address disposition:
+  .. index:: 
+     single: ORG_0000032; billing address disposition
+     single: billing address disposition; ORG_0000032
+
+ORG_0000032 - billing address disposition
+====================================================================================
+
+.. topic:: Label
+
+    billing address disposition
+
+.. topic:: Definition
+
+    A disposition of an address to be used to receive bills
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    Bills may be sent to Attn: Name at
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
