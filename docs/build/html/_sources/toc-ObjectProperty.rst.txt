@@ -10,6 +10,7 @@
    doc-IAO_0000235
    doc-ORG_2000001
    doc-ORG_2000002
+   doc-ORG_2000003
    doc-RO_0000053
    doc-RO_0000056
    doc-RO_0000057
@@ -18,5 +19,7 @@
    doc-RO_0001025
    doc-RO_0002012
    doc-RO_0002131
+   doc-RO_0002234
    doc-RO_0002323
+   doc-RO_0002353
    doc-type

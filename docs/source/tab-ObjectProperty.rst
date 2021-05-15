@@ -13,6 +13,7 @@
     ``IAO_0000235``      denoted by                Inverse of the relation 'denotes'
     ``ORG_2000001``      date established          Date the organizationan was established.
     ``ORG_2000002``      occupies                  An organization occupies a geographical location
+    ``ORG_2000003``      has occurent part         A has part relation that applies only to occuren
     ``RO_0000053``       bearer of                 A relation between an independent continuant (th
     ``RO_0000056``       participates in           A relation between a continuant and a process, i
     ``RO_0000057``       has participant           A relation between a process and a continuant, i
@@ -21,6 +22,8 @@
     ``RO_0001025``       located in                a relation between two independent continuants, 
     ``RO_0002012``       occurent part of          A part of relation that applies only between occ
     ``RO_0002131``       overlaps                  X overlaps y if and only if there exists some z 
+    ``RO_0002234``       has output                p has output c iff c is a participant in p, c is
     ``RO_0002323``       mereotopologically relat  A mereological relationship or a topological rel
+    ``RO_0002353``       output of                 inverse of has output
     ``type``             type                      None
     ===================  ========================  ================================================

@@ -45,7 +45,7 @@ a time precision.
 
     Figure 3
     
-    General time pattern
+    General time pattern.  An organization is the output of a founding process
     
 *Implementation note:*  The colors in the figure represent dependency of entities.  The 
 dark blue organization is the
@@ -110,14 +110,14 @@ might be appear as "1853-01-01T00:00:01+00:00" for example.
     :doc:`doc-RO_0002234`     has output
     :doc:`doc-BFO_0000015`    process
     :doc:`doc-ORG_0000040`    founding process
-    :doc:`doc-RO_xxxxxxx`     has occurent part
+    :doc:`doc-ORG_2000003`    has occurent part
     :doc:`doc-RO_0002012`     occurent part of
     :doc:`doc-BFO_0000035`    process boundary
     :doc:`doc-ORG_0000041`    founding process boundary
     :doc:`doc-ORG_0000042`    dissolution process
     :doc:`doc-ORG_0000043`    dissolution process boundary
     :doc:`doc-ORG_xxxxxxx`    has instant
-    :doc:`doc-Instant    `    Instant
+    :doc:`doc-Instant`        Instant
     :doc:`doc-ORG_xxxxxxx`    has datetime representation
     :doc:`doc-ORG_xxxxxxx`    has datetime precision
     :doc:`doc-ORG_xxxxxxx`    year precision

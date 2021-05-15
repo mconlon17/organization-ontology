@@ -64,6 +64,10 @@
     ``ORG_0000037``      building                  A permanent walled and roofed construction
     ``ORG_0000038``      geographical location     A place on the earth
     ``ORG_0000039``      geographical point        A point located on the earth
+    ``ORG_0000040``      founding process          The process by which the organization was founde
+    ``ORG_0000041``      founding process boundar  The process boundary which defines the moment of
+    ``ORG_0000042``      dissolution process       The process by which an organization no longer e
+    ``ORG_0000043``      dissolution process boun  The process boundary which marks the moment at w
     ``Instant``          Time instant              None
     ``Interval``         Time interval             None
     ===================  ========================  ================================================

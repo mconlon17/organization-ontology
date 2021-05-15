@@ -465,7 +465,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              rdfs:range <http://www.w3.org/2006/time#Instant> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "date of deontic creation process boundary"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "UF date_established 1853"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizationan was established."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Won't be modeled this way.  This is a demo."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -480,11 +480,25 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000038> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "occupies"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000003
+<http://purl.obolibrary.org/obo/ORG_2000003> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000051> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The project to put a man on the man achieved success on July 20, 1969"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A has part relation that applies only to occurents"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be define in RO.  Defined here for convenience since it is missing from RO."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "has occurent part"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000053
@@ -569,9 +583,11 @@ every c that is a concretization of g specifically denotes r"""@en ;
 
 ###  http://purl.obolibrary.org/obo/RO_0002012
 <http://purl.obolibrary.org/obo/RO_0002012> rdf:type owl:ObjectProperty ;
-                                            rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                            rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000050> ,
+                                                               owl:topObjectProperty ;
                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A part of relation that applies only between occurents." ;
-                                            <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ,
+                                                                                         "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
                                             rdfs:label "occurent part of" .
 
 
@@ -584,6 +600,17 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                             rdfs:label "overlaps"@en .
 
 
+###  http://purl.obolibrary.org/obo/RO_0002234
+<http://purl.obolibrary.org/obo/RO_0002234> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000117> "Chris Mungall" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000118> "produces" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                                            rdfs:label "has output"@en .
+
+
 ###  http://purl.obolibrary.org/obo/RO_0002323
 <http://purl.obolibrary.org/obo/RO_0002323> rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf owl:topObjectProperty ;
@@ -592,6 +619,15 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                             <http://purl.obolibrary.org/obo/IAO_0000232> "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" ;
                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
                                             rdfs:label "mereotopologically related to"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002353
+<http://purl.obolibrary.org/obo/RO_0002353> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "inverse of has output" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000117> "Chris Mungall" ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                                            rdfs:label "output of"@en .
 
 
 ###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
@@ -1436,6 +1472,55 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "latlong"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "geographical point"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000040
+<http://purl.obolibrary.org/obo/ORG_0000040> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process by which the organization was founded"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The founding process might by a subproperty of a generic creation process if such a process ever appears at a higher level in the ontologies"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "founding process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000041
+<http://purl.obolibrary.org/obo/ORG_0000041> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Bologna was founded in 1088.  Facebook was founded in 2004."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process boundary which defines the moment of creation of an orgnization.  Before the moment  the organization does not exist.  After the moment, the organization exists."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "founding"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "founding process boundary"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000042
+<http://purl.obolibrary.org/obo/ORG_0000042> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The German Democratic Republic (aka East Germany) ended in 1990."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process by which an organization no longer exists."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "There are many dissolution processes (merger, acquisition, discontinuation).  These can be added at a later date if needed."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "dissolution process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000043
+<http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Duraspace ceased to exist on July 1, 2019"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process boundary which marks the moment at which the organization no longer exists"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The dissolution process may have many steps and boundaries, such as ceasing operations, transfer of funds, dissolution of board.  These can be added at a later date if needed."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "dissolution"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "dissolution process boundary"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant

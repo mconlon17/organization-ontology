@@ -56,6 +56,10 @@ xsd:anyuri rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
+###  http://purl.obolibrary.org/obo/BFO_0000015
+<http://purl.obolibrary.org/obo/BFO_0000015> rdf:type owl:Class .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000016
 <http://purl.obolibrary.org/obo/BFO_0000016> rdf:type owl:Class .
 
@@ -66,6 +70,10 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/BFO_0000031
 <http://purl.obolibrary.org/obo/BFO_0000031> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000035
+<http://purl.obolibrary.org/obo/BFO_0000035> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000040
@@ -562,6 +570,55 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "latlong"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "geographical point"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000040
+<http://purl.obolibrary.org/obo/ORG_0000040> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process by which the organization was founded"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The founding process might by a subproperty of a generic creation process if such a process ever appears at a higher level in the ontologies"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "founding process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000041
+<http://purl.obolibrary.org/obo/ORG_0000041> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Bologna was founded in 1088.  Facebook was founded in 2004."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process boundary which defines the moment of creation of an orgnization.  Before the moment  the organization does not exist.  After the moment, the organization exists."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "founding"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "founding process boundary"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000042
+<http://purl.obolibrary.org/obo/ORG_0000042> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The German Democratic Republic (aka East Germany) ended in 1990."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process by which an organization no longer exists."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "There are many dissolution processes (merger, acquisition, discontinuation).  These can be added at a later date if needed."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "dissolution process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000043
+<http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Duraspace ceased to exist on July 1, 2019"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process boundary which marks the moment at which the organization no longer exists"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The dissolution process may have many steps and boundaries, such as ceasing operations, transfer of funds, dissolution of board.  These can be added at a later date if needed."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "dissolution"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "dissolution process boundary"@en .
 
 
 ###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi

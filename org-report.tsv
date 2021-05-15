@@ -58,3 +58,5 @@ INFO	lowercase_definition	BFO:0000029	IAO:0000600	b is a site means: b is a thre
 INFO	lowercase_definition	OBI:0002815	IAO:0000115	'has representation' is a data property that attaches between an information content entity and a value that contains linguistically or computationally coded text.@en	
 INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en	
 INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en	
+INFO	lowercase_definition	RO:0002234	IAO:0000115	p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.	
+INFO	lowercase_definition	RO:0002353	IAO:0000115	inverse of has output	

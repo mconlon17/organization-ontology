@@ -61,5 +61,9 @@
    doc-ORG_0000037
    doc-ORG_0000038
    doc-ORG_0000039
+   doc-ORG_0000040
+   doc-ORG_0000041
+   doc-ORG_0000042
+   doc-ORG_0000043
    doc-Instant
    doc-Interval

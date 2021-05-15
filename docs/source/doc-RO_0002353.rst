@@ -1,0 +1,26 @@
+
+  .. _RO_0002353:
+  .. _output of:
+  .. index:: 
+     single: RO_0002353; output of
+     single: output of; RO_0002353
+
+RO_0002353 - output of
+====================================================================================
+
+.. topic:: Label
+
+    output of
+
+.. topic:: Definition
+
+    inverse of has output
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+
+.. topic:: Term editor
+
+    Chris Mungall
+

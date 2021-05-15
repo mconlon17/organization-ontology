@@ -1,0 +1,34 @@
+
+  .. _ORG_0000042:
+  .. _dissolution process:
+  .. index:: 
+     single: ORG_0000042; dissolution process
+     single: dissolution process; ORG_0000042
+
+ORG_0000042 - dissolution process
+====================================================================================
+
+.. topic:: Label
+
+    dissolution process
+
+.. topic:: Definition
+
+    The process by which an organization no longer exists.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The German Democratic Republic (aka East Germany) ended in 1990.
+
+.. topic:: Editor's note
+
+    There are many dissolution processes (merger, acquisition, discontinuation).  These can be added at a later date if needed.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

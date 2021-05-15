@@ -171,8 +171,8 @@ obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000115 "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                 obo:IAO_0000117 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                 obo:IAO_0000119 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
-                rdfs:label "term tracker item"@en ;
-                rdfs:comment "The &apos;tracker item&apos; can associate a tracker with a specific ontology term." .
+                rdfs:comment "The &apos;tracker item&apos; can associate a tracker with a specific ontology term." ;
+                rdfs:label "term tracker item"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000412
@@ -289,6 +289,12 @@ terms:license rdf:type owl:AnnotationProperty ;
               rdfs:isDefinedBy terms: ;
               rdfs:label "License"@en .
 
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty ;
+             rdfs:label "comment"@en .
+
+
 ###  http://www.w3.org/2002/07/owl#versionIRI
 owl:versionIRI rdf:type owl:AnnotationProperty ;
                rdfs:comment "The property that identifies the version IRI of an ontology." ;
@@ -305,9 +311,6 @@ owl:versionInfo rdf:type owl:AnnotationProperty ;
                 rdfs:label "versionInfo" ;
                 rdfs:range rdfs:Resource ;
                 rdfs:domain rdfs:Resource .
-                
-rdfs:comment  rdf:type owl:AnnotationProperty ;
-                rdfs:label "comment"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
@@ -496,6 +499,7 @@ obo:RO_0000091 rdf:type owl:ObjectProperty ;
                obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
                rdfs:label "has disposition"@en .
 
+
 ###  http://purl.obolibrary.org/obo/RO_0001015
 obo:RO_0001015 rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
@@ -528,9 +532,11 @@ obo:RO_0001025 rdf:type owl:ObjectProperty ;
 
 ###  http://purl.obolibrary.org/obo/RO_0002012
 obo:RO_0002012 rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf obo:BFO_0000050 ;
+               rdfs:subPropertyOf obo:BFO_0000050 ,
+                                  owl:topObjectProperty ;
                obo:IAO_0000115 "A part of relation that applies only between occurents." ;
-               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ,
+                               "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
                rdfs:label "occurent part of" .
 
 
@@ -543,6 +549,17 @@ obo:RO_0002131 rdf:type owl:ObjectProperty ;
                rdfs:label "overlaps"@en .
 
 
+###  http://purl.obolibrary.org/obo/RO_0002234
+obo:RO_0002234 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               obo:IAO_0000114 obo:IAO_0000125 ;
+               obo:IAO_0000115 "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." ;
+               obo:IAO_0000117 "Chris Mungall" ;
+               obo:IAO_0000118 "produces" ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+               rdfs:label "has output"@en .
+
+
 ###  http://purl.obolibrary.org/obo/RO_0002323
 obo:RO_0002323 rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
@@ -551,6 +568,15 @@ obo:RO_0002323 rdf:type owl:ObjectProperty ;
                obo:IAO_0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" ;
                obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
                rdfs:label "mereotopologically related to"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002353
+obo:RO_0002353 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               obo:IAO_0000115 "inverse of has output" ;
+               obo:IAO_0000117 "Chris Mungall" ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+               rdfs:label "output of"@en .
 
 
 ###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type

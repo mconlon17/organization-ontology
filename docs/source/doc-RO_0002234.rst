@@ -1,0 +1,30 @@
+
+  .. _RO_0002234:
+  .. _has output:
+  .. index:: 
+     single: RO_0002234; has output
+     single: has output; RO_0002234
+
+RO_0002234 - has output
+====================================================================================
+
+.. topic:: Label
+
+    has output
+
+.. topic:: Alternate name
+
+    produces
+
+.. topic:: Definition
+
+    p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+
+.. topic:: Term editor
+
+    Chris Mungall
+

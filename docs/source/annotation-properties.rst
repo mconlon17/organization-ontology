@@ -43,6 +43,7 @@ annotations are expected for all terms.
     ``IAO_0000123``  metadata incomplete      Term is under development
     ``IAO_0000124``  uncurated                Name and class ID, little else
     ``IAO_0000125``  pending final vetting    Complete, awaiting final review
+    ``IAO_0000423``  to be replaced with ext  The term is a placeholder and belongs elsewhere
     ===============  =======================  ================================================
     
 Non IAO Annotation Properties
