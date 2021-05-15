@@ -1,0 +1,14 @@
+
+  .. _RO_0001900:
+  .. _temporal interpretation:
+  .. index:: 
+     single: RO_0001900; temporal interpretation
+     single: temporal interpretation; RO_0001900
+
+RO_0001900 - temporal interpretation
+====================================================================================
+
+.. topic:: Label
+
+    temporal interpretation
+

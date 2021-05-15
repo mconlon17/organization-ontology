@@ -1,0 +1,50 @@
+
+  .. _BFO_0000029:
+  .. _site:
+  .. index:: 
+     single: BFO_0000029; site
+     single: site; BFO_0000029
+
+BFO_0000029 - site
+====================================================================================
+
+.. topic:: Label
+
+    site
+
+.. topic:: Example
+
+    a hole in the interior of a portion of cheese
+
+    the interior of a kangaroo pouch
+
+    the interior of your bedroom
+
+    an air traffic control region defined in the airspace above an airport
+
+    the hold of a ship
+
+    the interior of the trunk of your car
+
+    Manhattan Canyon)
+
+    your left nostril (a fiat part – the opening – of your left nasal cavity)
+
+    the Grand Canyon
+
+    the cockpit of an aircraft
+
+    the lumen of your gut
+
+    the interior of your refrigerator
+
+    the interior of your office
+
+    a rabbit hole
+
+    the Piazza San Marco
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl
+

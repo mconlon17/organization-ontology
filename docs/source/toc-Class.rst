@@ -6,14 +6,18 @@
    doc-BFO_0000001
    doc-BFO_0000002
    doc-BFO_0000003
+   doc-BFO_0000004
    doc-BFO_0000008
    doc-BFO_0000015
    doc-BFO_0000016
    doc-BFO_0000017
    doc-BFO_0000020
+   doc-BFO_0000029
    doc-BFO_0000031
    doc-BFO_0000035
    doc-BFO_0000038
+   doc-BFO_0000040
+   doc-BFO_0000141
    doc-BFO_0000148
    doc-IAO_0000030
    doc-IAO_0000422
@@ -52,5 +56,10 @@
    doc-ORG_0000032
    doc-ORG_0000033
    doc-ORG_0000034
+   doc-ORG_0000035
+   doc-ORG_0000036
+   doc-ORG_0000037
+   doc-ORG_0000038
+   doc-ORG_0000039
    doc-Instant
    doc-Interval

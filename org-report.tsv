@@ -1,8 +1,19 @@
 Level	Rule Name	Subject	Property	Value
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition	
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en	
+ERROR	multiple_labels	IAO:0000115	rdfs:label	textual definition	
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor	
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor@en	
+ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor@en	
 ERROR	multiple_labels	dc11:date	rdfs:label	Date	
 ERROR	multiple_labels	dc11:date	rdfs:label	Date@en-us	
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 	
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 	
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 	
+WARN	annotation_whitespace	BFO:0000029	IAO:0000602	(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] 	
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 	
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 	
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 	
 WARN	missing_definition	BFO:0000001	IAO:0000115		
 WARN	missing_definition	BFO:0000002	IAO:0000115		
 WARN	missing_definition	BFO:0000003	IAO:0000115		
@@ -14,9 +25,17 @@ WARN	missing_definition	BFO:0000020	IAO:0000115
 WARN	missing_definition	BFO:0000031	IAO:0000115		
 WARN	missing_definition	BFO:0000035	IAO:0000115		
 WARN	missing_definition	BFO:0000038	IAO:0000115		
+WARN	missing_definition	BFO:0000141	IAO:0000115		
 WARN	missing_definition	BFO:0000148	IAO:0000115		
+WARN	missing_definition	BFO:0000179	IAO:0000115		
+WARN	missing_definition	BFO:0000180	IAO:0000115		
 WARN	missing_definition	IAO:0000114	IAO:0000115		
 WARN	missing_definition	IAO:0000429	IAO:0000115		
+WARN	missing_definition	IAO:0000600	IAO:0000115		
+WARN	missing_definition	IAO:0000601	IAO:0000115		
+WARN	missing_definition	IAO:0000602	IAO:0000115		
+WARN	missing_definition	IAO:0010000	IAO:0000115		
+WARN	missing_definition	RO:0001900	IAO:0000115		
 WARN	missing_definition	dc11:created	IAO:0000115		
 WARN	missing_definition	dc11:creator	IAO:0000115		
 WARN	missing_definition	dc11:date	IAO:0000115		
@@ -34,4 +53,8 @@ WARN	missing_definition	skos:prefLabel	IAO:0000115
 WARN	missing_definition	skos:scopeNote	IAO:0000115		
 WARN	missing_definition	http://www.w3.org/2006/time#Instant	IAO:0000115		
 WARN	missing_definition	http://www.w3.org/2006/time#Interval	IAO:0000115		
+INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
+INFO	lowercase_definition	BFO:0000029	IAO:0000600	b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])@en	
 INFO	lowercase_definition	OBI:0002815	IAO:0000115	'has representation' is a data property that attaches between an information content entity and a value that contains linguistically or computationally coded text.@en	
+INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en	
+INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en	

@@ -63,7 +63,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://www.w3.org/2006/time#Instant> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "date of deontic creation process boundary"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "UF date_established 1853"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizationan was established."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Won't be modeled this way.  This is a demo."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -72,12 +72,29 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "date established"@en .
 
 
+###  http://purl.obolibrary.org/obo/ORG_2000002
+<http://purl.obolibrary.org/obo/ORG_2000002> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000038> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "occupies"@en .
+
+
 #################################################################
 #    Classes
 #################################################################
 
 ###  http://purl.obolibrary.org/obo/ORG_0000001
 <http://purl.obolibrary.org/obo/ORG_0000001> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000038
+<http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2006/time#Instant

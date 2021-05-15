@@ -1,0 +1,38 @@
+
+  .. _ORG_0000038:
+  .. _geographical location:
+  .. index:: 
+     single: ORG_0000038; geographical location
+     single: geographical location; ORG_0000038
+
+ORG_0000038 - geographical location
+====================================================================================
+
+.. topic:: Label
+
+    geographical location
+
+.. topic:: Definition
+
+    A place on the earth
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Indian Ocean, Africa, Metropolitan France, West 57th Street
+
+.. topic:: Editor's note
+
+    1. Geographical locations are often confused with the entities that are located in those places.  For example, France is a country with several discontiguous geographical loctions.  Metropolitan France is a geographical location in Europe.  2. Unlike the GAZ term, this term is not a reference to a place on the earth, rather it is a place on the earth.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: See also
+
+    http://purl.obolibrary.org/obo/GAZ_00000448
+

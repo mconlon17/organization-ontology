@@ -21,6 +21,16 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/BFO_0000179
+<http://purl.obolibrary.org/obo/BFO_0000179> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "BFO OWL specification label"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000180
+<http://purl.obolibrary.org/obo/BFO_0000180> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "BFO CLIF specification label"@en .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000111
 <http://purl.obolibrary.org/obo/IAO_0000111> rdf:type owl:AnnotationProperty ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term"@en ;
@@ -82,7 +92,8 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                                              rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
                                              rdfs:label "definition"@en ,
-                                                        "definition"^^xsd:string .
+                                                        "definition"^^xsd:string ,
+                                                        "textual definition" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
@@ -105,7 +116,9 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON:Daniel Schober"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                                              rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
-                                             rdfs:label "term editor"@en .
+                                             rdfs:label "definition editor" ,
+                                                        "definition editor"@en ,
+                                                        "term editor"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000118
@@ -149,8 +162,8 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
-                                             rdfs:label "term tracker item"@en ;
-                                             rdfs: "The &apos;tracker item&apos; can associate a tracker with a specific ontology term." .
+                                             rdfs:comment "The &apos;tracker item&apos; can associate a tracker with a specific ontology term." ;
+                                             rdfs:label "term tracker item"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000412
@@ -165,6 +178,26 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              rdfs:label "imported from"@en .
 
 
+###  http://purl.obolibrary.org/obo/IAO_0000600
+<http://purl.obolibrary.org/obo/IAO_0000600> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "elucidation"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000601
+<http://purl.obolibrary.org/obo/IAO_0000601> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "has associated axiom(nl)"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000602
+<http://purl.obolibrary.org/obo/IAO_0000602> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "has associated axiom(fol)"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0010000
+<http://purl.obolibrary.org/obo/IAO_0010000> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "has axiom label"@en .
+
+
 ###  http://purl.obolibrary.org/obo/ORG_1000001
 <http://purl.obolibrary.org/obo/ORG_1000001> rdf:type owl:AnnotationProperty ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "test"@en ;
@@ -176,6 +209,11 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "this is a test"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "organization annotation"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001900
+<http://purl.obolibrary.org/obo/RO_0001900> rdf:type owl:AnnotationProperty ;
+                                            rdfs:label "temporal interpretation"@en .
 
 
 ###  http://purl.org/dc/elements/1.1/created
@@ -256,12 +294,9 @@ We also have the outstanding issue of how to aim different definitions to differ
                                    rdfs:label "License"@en .
 
 
-###  http://www.w3.org/2000/01/rdf-schema#label
-rdfs:label rdfs:label "label" .
-
-
-###  http://www.w3.org/2000/01/rdf-schema#comment:
-rdfs: rdf:type owl:AnnotationProperty .
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty ;
+             rdfs:label "comment"@en .
 
 
 ###  http://www.w3.org/2002/07/owl#versionIRI
@@ -430,13 +465,26 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              rdfs:range <http://www.w3.org/2006/time#Instant> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "date of deontic creation process boundary"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "UF date_established 1853"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizationan was established."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Won't be modeled this way.  This is a demo."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "date_established"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "date established"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000002
+<http://purl.obolibrary.org/obo/ORG_2000002> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000038> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "occupies"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000053
@@ -487,6 +535,36 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"@en ;
                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
                                             rdfs:label "has disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001015
+<http://purl.obolibrary.org/obo/RO_0001015> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000111> "is location of"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000112> "my head is the location of my brain"@en ,
+                                                                                         "this cage is the location of this rat"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between two independent continuants, the location and the target, in which the target is entirely within the location"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000116> "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000118> "location_of"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                                            <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> ;
+                                            rdfs:label "location of"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001025
+<http://purl.obolibrary.org/obo/RO_0001025> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000111> "located in"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000112> "my brain is located in my head"@en ,
+                                                                                         "this rat is located in this cage"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "a relation between two independent continuants, the target and the location, in which the target is entirely within the location"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000116> "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus"@en ,
+                                                                                         "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000118> "located_in"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                                            <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> ;
+                                            <http://purl.org/dc/elements/1.1/source> "http://www.obofoundry.org/ro/#OBO_REL:located_in" ;
+                                            rdfs:label "located in"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002012
@@ -634,6 +712,35 @@ rdf:type rdf:type owl:ObjectProperty ;
                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "occurrent"@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000004
+<http://purl.obolibrary.org/obo/BFO_0000004> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000002> ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000179> "ic" ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000180> "IndependentContinuant" ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "a chair"@en ,
+                                                                                          "a heart"@en ,
+                                                                                          "a leg"@en ,
+                                                                                          "a molecule"@en ,
+                                                                                          "a spatial region"@en ,
+                                                                                          "an atom"@en ,
+                                                                                          "an orchestra."@en ,
+                                                                                          "an organism"@en ,
+                                                                                          "the bottom right portion of a human torso"@en ,
+                                                                                          "the interior of your mouth"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000601> "For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])"@en ,
+                                                                                          "For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000602> "(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] " ,
+                                                                                          "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] " ,
+                                                                                          "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] " ;
+                                             <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/017-002> ,
+                                                                                          <http://purl.obolibrary.org/obo/bfo/axiom/018-002> ,
+                                                                                          <http://purl.obolibrary.org/obo/bfo/axiom/134-001> ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "independent continuant"@en .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000008
 <http://purl.obolibrary.org/obo/BFO_0000008> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
@@ -686,6 +793,34 @@ rdf:type rdf:type owl:ObjectProperty ;
                                              <http://www.w3.org/2004/02/skos/core#scopeNote> "On the multiple bearers case, see relational quality."@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000029
+<http://purl.obolibrary.org/obo/BFO_0000029> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000141> ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000179> "site" ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000180> "Site" ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Manhattan Canyon)"@en ,
+                                                                                          "a hole in the interior of a portion of cheese"@en ,
+                                                                                          "a rabbit hole"@en ,
+                                                                                          "an air traffic control region defined in the airspace above an airport"@en ,
+                                                                                          "the Grand Canyon"@en ,
+                                                                                          "the Piazza San Marco"@en ,
+                                                                                          "the cockpit of an aircraft"@en ,
+                                                                                          "the hold of a ship"@en ,
+                                                                                          "the interior of a kangaroo pouch"@en ,
+                                                                                          "the interior of the trunk of your car"@en ,
+                                                                                          "the interior of your bedroom"@en ,
+                                                                                          "the interior of your office"@en ,
+                                                                                          "the interior of your refrigerator"@en ,
+                                                                                          "the lumen of your gut"@en ,
+                                                                                          "your left nostril (a fiat part – the opening – of your left nasal cavity)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000600> "b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000602> "(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] " ;
+                                             <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/034-002> ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "site"@en .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000031
 <http://purl.obolibrary.org/obo/BFO_0000031> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000002> ;
@@ -715,6 +850,51 @@ rdf:type rdf:type owl:ObjectProperty ;
                                              <http://www.w3.org/2004/02/skos/core#definition> "(Elucidation) A one-dimensional temporal region is a temporal region is a whole that has a temporal interval and zero or more temporal intervals and temporal instants as parts"@en ;
                                              <http://www.w3.org/2004/02/skos/core#example> "The temporal region during which a process occurs."@en ;
                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "one-dimensional temporal region"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000040
+<http://purl.obolibrary.org/obo/BFO_0000040> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000004> ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000179> "material" ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000180> "MaterialEntity" ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "a flame"@en ,
+                                                                                          "a forest fire"@en ,
+                                                                                          "a human being"@en ,
+                                                                                          "a hurricane"@en ,
+                                                                                          "a photon"@en ,
+                                                                                          "a puff of smoke"@en ,
+                                                                                          "a sea wave"@en ,
+                                                                                          "a tornado"@en ,
+                                                                                          "an aggregate of human beings."@en ,
+                                                                                          "an energy wave"@en ,
+                                                                                          "an epidemic"@en ,
+                                                                                          "the undetached arm of a human being"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en ,
+                                                                                          "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en ,
+                                                                                          "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000600> "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000601> "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en ,
+                                                                                          "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000602> "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] " ,
+                                                                                          "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] " ,
+                                                                                          "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] " ;
+                                             <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/019-002> ,
+                                                                                          <http://purl.obolibrary.org/obo/bfo/axiom/020-002> ,
+                                                                                          <http://purl.obolibrary.org/obo/bfo/axiom/021-002> ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "material entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000141
+<http://purl.obolibrary.org/obo/BFO_0000141> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000004> ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000179> "immaterial" ;
+                                             <http://purl.obolibrary.org/obo/BFO_0000180> "ImmaterialEntity" ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: Immaterial entities are divided into two subgroups:boundaries and sites, which bound, or are demarcated in relation, to material entities, and which can thus change location, shape and size and as their material hosts move or change shape or size (for example: your nasal passage; the hold of a ship; the boundary of Wales (which moves with the rotation of the Earth) [38, 7, 10"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "immaterial entity"@en .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000148
@@ -771,7 +951,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "test"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "a political party, a homeowners association, a football team, a publisher, a government agency, an organized religion"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -783,7 +963,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "government"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no \"part of\" relationship here.  Each is a government organization."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An organization which is the body of persons that constitutes the governing authority of a political unit"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "government"@en ;
@@ -795,7 +975,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000003> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "BASF, The University of Phoenix, Facebook, Elsevier, Apple, Google, Amazon"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "See https://www.merriam-webster.com/dictionary/company"@en ;
@@ -806,7 +986,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000004> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Doctors Without Borders, Duke University, The American Medical Association"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically a mission, in which excess revenue is reinvested to serve the entity's mission"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "not for profit"@en ;
@@ -818,7 +998,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000005> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A student club, a university committee, the VIVO Ontology Interest Group"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group. Without legal standing."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "There are many names associated with informal organizations, such as club, group, party, team, cell, task force, work group, interest group, meeting, roundtable, .  So far dispositions and qualities that would distinguish the entities with various names have not been formulated."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -830,7 +1010,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000006> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The US Navy is an organizational part of the US Department of Defense.  The History Department is an organizational part of its college"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An organization which exists as part of another organization.  Implies a part_of relationship to another organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -842,7 +1022,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "university disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Bologna is an organization that has a university disposition"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to award academic degrees and conduct research in a variety of academic disciplines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Some dispositions may well be functions -- the organization does not exist without it."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -855,7 +1035,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "association disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The American Medical Association; The AFL-CIO; The Institution of Railway Signal Engineers"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to organize organizations or individuals along and industry or academic lines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "professional society"@en ;
@@ -868,7 +1048,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "consortium disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Association of Research Libraries; The NIH Common Fund Metabolomics Consortium"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to organize organizations along industry or academic lines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The word \"association\" in english may mean many diffierent things.  Often consortiums have the word \"association\" in their title."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -881,7 +1061,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "service provider disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A hospital has a service provider disposition to provide medical services to patients"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide service with or without a fee"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "We can expect to have many types of service provider dispositions"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -894,7 +1074,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "laboratory service provider disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Interdisciplinary Center for Biotechnology Rsearch is a part of the university with a disposition to offer laboratory services to others"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide laboratory services.  In the US, organization parts in universities that have a disposition to provide laboratory services to others are called core laboratories"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The word \"core laboratory\" may indicate that an organization has a disposition of laboratory services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -907,7 +1087,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "extension provider disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Texas A&M Agrilife Extension is a part of the university with a disposition for providing agricultural exteension services"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide extension services, typically in agriculture.  Extension provides access to university research findings and advice to agriculturalists."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Extension is most commonly used to describe agircultural extension services."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -921,7 +1101,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "technology transfer disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Duke Office of Licensing and Ventures has a technology transfer disposition"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to create licenses for intellectual property for use by these beyond the creators"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "technology licensing"@en ;
@@ -934,7 +1114,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "philanthropy disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Wellcome Trust, The Bill and Melinda Gates Foundation, The Sierra Club have dispositions of philanthropy"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to donate charitable causes, sometimes in the form of grants involving contracts regarding the use of the donated funds or effort."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "philanthropic"@en ;
@@ -947,7 +1127,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "funding disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The National Institutes of Health (NIH) and The National Science Foundation (NSF) have funder dispositions"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to fund proposals, often is response to a call for proposals by the entity with the funding disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "grantor"@en ;
@@ -960,7 +1140,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "health care service provider disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A nurse has a disposition to provide health care servces"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provider health care to humans"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "health care provider"@en ;
@@ -973,7 +1153,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "hospital service provider disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Mt. Sinai Hospital in New York has a disposition to provide hospital services"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide hospital-based health care services to humans"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "hospital"@en ;
@@ -986,7 +1166,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "archive disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The British Museum has a disposition to archive, particularly works of the United Kingdom"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to collect, store, and provide access to inanimate material entities, and/or information content entitites"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "We might expect to have refinements of this disposition as special cases"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1000,7 +1180,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "museum disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The National Portrait Gallery is an art museum"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to collect, store, and provide access to inanimate material entities in a facility"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1012,7 +1192,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "gallery disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Color Factory in New York City is an art gallery"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to display collected works from an archive"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The distinction between an art gallery and and art museum has to do with the temporary nature of displays in galleries, as well as the common practice in galleries to sell art on display"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1025,7 +1205,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "publishing disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Random House, Taylor and Francis, The American Pyschological Association, The University of California Berkeley has a disposition to publish"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to publish information content entities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1037,7 +1217,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "research disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Max Plank Institute, Northwestern University, CERN (the European Organization for Nuclear Research) have have a disposition to conduct research"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to conduct research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1049,7 +1229,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "education disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "a pre-school education program, a post-graduate education program, adult education programs all have education dispositions"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to teach, and provide experiential opprtunities for students"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "teaching"@en ;
@@ -1062,7 +1242,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "training disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A military training program, a flight school training program, a CPR training program all have dispositions to train"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to train, and provide experiential opportunities for trainees"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1074,7 +1254,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "research administration disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Office of Research at a university typically does not conduct research, it has a disposition to administer research"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide resources and oversight for those conducting research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1086,7 +1266,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "library disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Library of Congress, the local public library, a university library allhave dispositions of library"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide library services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps a function"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1099,7 +1279,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "commerce disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Google, Tesla, General Electric, BASF, AstraZeneca all have a disposition to sell things"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to sell things"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "business"@en ;
@@ -1112,7 +1292,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "military disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The US Space Force, the Chinese Navy, and the Bolivian Army are example of organizations with miltary disposition"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to engage in warfare"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps a function"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1126,7 +1306,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "religious disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Catholic Church, a local synagogue, a mosque, a buudhist monestary have a relgisious disposition"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to engage in matters of spirtuality and faith"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps a function."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1140,7 +1320,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "governing disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A Board of Trustees, A Board of Directors, the Senate of the United States all have governing dispositions"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide governance"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1151,7 +1331,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000031> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Email addresses that begin help@ info@ contact@ often have information address address disposition"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A dispositon of an information content entity denoted by an address which has the purpose of responding to information inquiries"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1162,7 +1342,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000032> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Bills may be sent to Attn: Name at"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an address to be used to receive bills"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1173,7 +1353,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000033> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The loading dock address for central receiving of an organization"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an address to be used to receive shipped goods"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1184,11 +1364,78 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000034> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The address the organization displays most prominently in promotional materials"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an address to be displayed in most settings"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "preferred address disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000035
+<http://purl.obolibrary.org/obo/ORG_0000035> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Yankee Stadium, Stonehenge, The Shard, The Large Hadron Collider. The Great Wall of China"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A material entity that is a human made strcuture with firm connection between its foundation and the ground."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps identical to the term in OMRSE"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "bauwerk"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "http://purl.obolibrary.org/obo/OMRSE_00000061"@en ;
+                                             rdfs:label "architectural structure"@en ;
+                                             rdfs:seeAlso "http://purl.obolibrary.org/obo/OMRSE_00000061"^^xsd:anyuri .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000036
+<http://purl.obolibrary.org/obo/ORG_0000036> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Walt Disney World, Kennedy Space Center, Golden Gate Bridge"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An architectural structure that bears some function."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps identical to the term in OMRSE"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "http://purl.obolibrary.org/obo/OMRSE_00000062"@en ;
+                                             rdfs:label "facility"@en ;
+                                             rdfs:seeAlso "http://purl.obolibrary.org/obo/OMRSE_00000062"^^xsd:anyuri .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000037
+<http://purl.obolibrary.org/obo/ORG_0000037> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A permanent walled and roofed construction"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Similar to the term in ENVRO, but based on 'architectural structure' in OMRSE"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Building"@en ;
+                                             rdfs:label "building"@en ;
+                                             rdfs:seeAlso "http://purl.obolibrary.org/obo/ENVO_00000073"^^xsd:anyuri .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000038
+<http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Indian Ocean, Africa, Metropolitan France, West 57th Street"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A place on the earth"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "1. Geographical locations are often confused with the entities that are located in those places.  For example, France is a country with several discontiguous geographical loctions.  Metropolitan France is a geographical location in Europe.  2. Unlike the GAZ term, this term is not a reference to a place on the earth, rather it is a place on the earth."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "geographical location"@en ;
+                                             rdfs:seeAlso "http://purl.obolibrary.org/obo/GAZ_00000448"^^xsd:anyuri .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000039
+<http://purl.obolibrary.org/obo/ORG_0000039> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000038> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "zero-dimensional geographical location"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The point with latitude 27.9881199 and longitude 86.9161989"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A point located on the earth"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "1. Since a point is smaller than a building, we say the point is located in a building.  The building is the location of the point.  2. Typically use ORG_0000004 to provide a lat/long value for the point."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "latlong"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "geographical point"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant

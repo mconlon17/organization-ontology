@@ -1,0 +1,52 @@
+
+  .. _BFO_0000040:
+  .. _material entity:
+  .. index:: 
+     single: BFO_0000040; material entity
+     single: material entity; BFO_0000040
+
+BFO_0000040 - material entity
+====================================================================================
+
+.. topic:: Label
+
+    material entity
+
+.. topic:: Example
+
+    a photon
+
+    a sea wave
+
+    an aggregate of human beings.
+
+    a human being
+
+    an epidemic
+
+    a tornado
+
+    an energy wave
+
+    a hurricane
+
+    the undetached arm of a human being
+
+    a forest fire
+
+    a puff of smoke
+
+    a flame
+
+.. topic:: Editor's note
+
+    BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.
+
+    BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.
+
+    BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl
+

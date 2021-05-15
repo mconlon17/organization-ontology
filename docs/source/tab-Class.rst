@@ -9,14 +9,18 @@
     ``BFO_0000001``      entity                    None
     ``BFO_0000002``      continuant                None
     ``BFO_0000003``      occurrent                 None
+    ``BFO_0000004``      independent continuant    b is an independent continuant = Def. b is a con
     ``BFO_0000008``      temporal region           None
     ``BFO_0000015``      process                   None
     ``BFO_0000016``      disposition               None
     ``BFO_0000017``      realizable entity         None
     ``BFO_0000020``      specifically dependent c  None
+    ``BFO_0000029``      site                      None
     ``BFO_0000031``      generically dependent co  None
     ``BFO_0000035``      process boundary          None
     ``BFO_0000038``      one-dimensional temporal  None
+    ``BFO_0000040``      material entity           None
+    ``BFO_0000141``      immaterial entity         None
     ``BFO_0000148``      zero-dimensional tempora  None
     ``IAO_0000030``      information content enti  A generically dependent continuant that is about
     ``IAO_0000422``      postal address            A textual entity that is used as directive to de
@@ -55,6 +59,11 @@
     ``ORG_0000032``      billing address disposit  A disposition of an address to be used to receiv
     ``ORG_0000033``      shipping address disposi  A disposition of an address to be used to receiv
     ``ORG_0000034``      preferred address dispos  A disposition of an address to be displayed in m
+    ``ORG_0000035``      architectural structure   A material entity that is a human made strcuture
+    ``ORG_0000036``      facility                  An architectural structure that bears some funct
+    ``ORG_0000037``      building                  A permanent walled and roofed construction
+    ``ORG_0000038``      geographical location     A place on the earth
+    ``ORG_0000039``      geographical point        A point located on the earth
     ``Instant``          Time instant              None
     ``Interval``         Time interval             None
     ===================  ========================  ================================================

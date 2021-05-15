@@ -1,0 +1,14 @@
+
+  .. _IAO_0000601:
+  .. _has associated axiom(nl):
+  .. index:: 
+     single: IAO_0000601; has associated axiom(nl)
+     single: has associated axiom(nl); IAO_0000601
+
+IAO_0000601 - has associated axiom(nl)
+====================================================================================
+
+.. topic:: Label
+
+    has associated axiom(nl)
+

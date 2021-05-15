@@ -1,0 +1,14 @@
+
+  .. _BFO_0000180:
+  .. _BFO CLIF specification label:
+  .. index:: 
+     single: BFO_0000180; BFO CLIF specification label
+     single: BFO CLIF specification label; BFO_0000180
+
+BFO_0000180 - BFO CLIF specification label
+====================================================================================
+
+.. topic:: Label
+
+    BFO CLIF specification label
+

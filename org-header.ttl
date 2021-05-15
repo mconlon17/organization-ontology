@@ -30,6 +30,16 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/BFO_0000179
+obo:BFO_0000179 rdf:type owl:AnnotationProperty ;
+                rdfs:label "BFO OWL specification label"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000180
+obo:BFO_0000180 rdf:type owl:AnnotationProperty ;
+                rdfs:label "BFO CLIF specification label"@en .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000111
 obo:IAO_0000111 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000111 "editor preferred term"@en ;
@@ -91,7 +101,8 @@ We also have the outstanding issue of how to aim different definitions to differ
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
                 rdfs:label "definition"@en ,
-                           "definition"^^xsd:string .
+                           "definition"^^xsd:string ,
+                           "textual definition" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
@@ -114,7 +125,9 @@ obo:IAO_0000117 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "term editor"@en .
+                rdfs:label "definition editor" ,
+                           "definition editor"@en ,
+                           "term editor"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000118
@@ -159,7 +172,7 @@ obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000117 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                 obo:IAO_0000119 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                 rdfs:label "term tracker item"@en ;
-                rdfs:comment: "The &apos;tracker item&apos; can associate a tracker with a specific ontology term." .
+                rdfs:comment "The &apos;tracker item&apos; can associate a tracker with a specific ontology term." .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000412
@@ -172,6 +185,31 @@ obo:IAO_0000412 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
                 rdfs:label "imported from"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000600
+obo:IAO_0000600 rdf:type owl:AnnotationProperty ;
+                rdfs:label "elucidation"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000601
+obo:IAO_0000601 rdf:type owl:AnnotationProperty ;
+                rdfs:label "has associated axiom(nl)"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000602
+obo:IAO_0000602 rdf:type owl:AnnotationProperty ;
+                rdfs:label "has associated axiom(fol)"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0010000
+obo:IAO_0010000 rdf:type owl:AnnotationProperty ;
+                rdfs:label "has axiom label"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001900
+obo:RO_0001900 rdf:type owl:AnnotationProperty ;
+               rdfs:label "temporal interpretation"@en .
 
 
 ###  http://purl.org/dc/elements/1.1/created
@@ -251,15 +289,6 @@ terms:license rdf:type owl:AnnotationProperty ;
               rdfs:isDefinedBy terms: ;
               rdfs:label "License"@en .
 
-
-###  http://www.w3.org/2000/01/rdf-schema#label
-rdfs:label rdfs:label "label" .
-
-
-###  http://www.w3.org/2000/01/rdf-schema#comment:
-rdfs:comment: rdf:type owl:AnnotationProperty .
-
-
 ###  http://www.w3.org/2002/07/owl#versionIRI
 owl:versionIRI rdf:type owl:AnnotationProperty ;
                rdfs:comment "The property that identifies the version IRI of an ontology." ;
@@ -276,6 +305,9 @@ owl:versionInfo rdf:type owl:AnnotationProperty ;
                 rdfs:label "versionInfo" ;
                 rdfs:range rdfs:Resource ;
                 rdfs:domain rdfs:Resource .
+                
+rdfs:comment  rdf:type owl:AnnotationProperty ;
+                rdfs:label "comment"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
@@ -464,6 +496,35 @@ obo:RO_0000091 rdf:type owl:ObjectProperty ;
                obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
                rdfs:label "has disposition"@en .
 
+###  http://purl.obolibrary.org/obo/RO_0001015
+obo:RO_0001015 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               obo:IAO_0000111 "is location of"@en ;
+               obo:IAO_0000112 "my head is the location of my brain"@en ,
+                               "this cage is the location of this rat"@en ;
+               obo:IAO_0000115 "a relation between two independent continuants, the location and the target, in which the target is entirely within the location"@en ;
+               obo:IAO_0000116 "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime"@en ;
+               obo:IAO_0000118 "location_of"@en ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+               obo:RO_0001900 obo:RO_0001901 ;
+               rdfs:label "location of"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0001025
+obo:RO_0001025 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               obo:IAO_0000111 "located in"@en ;
+               obo:IAO_0000112 "my brain is located in my head"@en ,
+                               "this rat is located in this cage"@en ;
+               obo:IAO_0000115 "a relation between two independent continuants, the target and the location, in which the target is entirely within the location"@en ;
+               obo:IAO_0000116 "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus"@en ,
+                               "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime"@en ;
+               obo:IAO_0000118 "located_in"@en ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+               obo:RO_0001900 obo:RO_0001901 ;
+               dc:source "http://www.obofoundry.org/ro/#OBO_REL:located_in" ;
+               rdfs:label "located in"@en .
+
 
 ###  http://purl.obolibrary.org/obo/RO_0002012
 obo:RO_0002012 rdf:type owl:ObjectProperty ;
@@ -556,6 +617,35 @@ obo:BFO_0000003 rdf:type owl:Class ;
                 skos:prefLabel "occurrent"@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000004
+obo:BFO_0000004 rdf:type owl:Class ;
+                rdfs:subClassOf obo:BFO_0000002 ;
+                obo:BFO_0000179 "ic" ;
+                obo:BFO_0000180 "IndependentContinuant" ;
+                obo:IAO_0000112 "a chair"@en ,
+                                "a heart"@en ,
+                                "a leg"@en ,
+                                "a molecule"@en ,
+                                "a spatial region"@en ,
+                                "an atom"@en ,
+                                "an orchestra."@en ,
+                                "an organism"@en ,
+                                "the bottom right portion of a human torso"@en ,
+                                "the interior of your mouth"@en ;
+                obo:IAO_0000115 "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                obo:IAO_0000601 "For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])"@en ,
+                                "For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])"@en ;
+                obo:IAO_0000602 "(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] " ,
+                                "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] " ,
+                                "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] " ;
+                obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/017-002> ,
+                                <http://purl.obolibrary.org/obo/bfo/axiom/018-002> ,
+                                <http://purl.obolibrary.org/obo/bfo/axiom/134-001> ;
+                rdfs:isDefinedBy obo:bfo.owl ;
+                rdfs:label "independent continuant"@en .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000008
 obo:BFO_0000008 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000003 ;
@@ -608,6 +698,34 @@ obo:BFO_0000020 rdf:type owl:Class ;
                 skos:scopeNote "On the multiple bearers case, see relational quality."@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000029
+obo:BFO_0000029 rdf:type owl:Class ;
+                rdfs:subClassOf obo:BFO_0000141 ;
+                obo:BFO_0000179 "site" ;
+                obo:BFO_0000180 "Site" ;
+                obo:IAO_0000112 "Manhattan Canyon)"@en ,
+                                "a hole in the interior of a portion of cheese"@en ,
+                                "a rabbit hole"@en ,
+                                "an air traffic control region defined in the airspace above an airport"@en ,
+                                "the Grand Canyon"@en ,
+                                "the Piazza San Marco"@en ,
+                                "the cockpit of an aircraft"@en ,
+                                "the hold of a ship"@en ,
+                                "the interior of a kangaroo pouch"@en ,
+                                "the interior of the trunk of your car"@en ,
+                                "the interior of your bedroom"@en ,
+                                "the interior of your office"@en ,
+                                "the interior of your refrigerator"@en ,
+                                "the lumen of your gut"@en ,
+                                "your left nostril (a fiat part – the opening – of your left nasal cavity)"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                obo:IAO_0000600 "b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])"@en ;
+                obo:IAO_0000602 "(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] " ;
+                obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/034-002> ;
+                rdfs:isDefinedBy obo:bfo.owl ;
+                rdfs:label "site"@en .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000031
 obo:BFO_0000031 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000002 ;
@@ -637,6 +755,51 @@ obo:BFO_0000038 rdf:type owl:Class ;
                 skos:definition "(Elucidation) A one-dimensional temporal region is a temporal region is a whole that has a temporal interval and zero or more temporal intervals and temporal instants as parts"@en ;
                 skos:example "The temporal region during which a process occurs."@en ;
                 skos:prefLabel "one-dimensional temporal region"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000040
+obo:BFO_0000040 rdf:type owl:Class ;
+                rdfs:subClassOf obo:BFO_0000004 ;
+                obo:BFO_0000179 "material" ;
+                obo:BFO_0000180 "MaterialEntity" ;
+                obo:IAO_0000112 "a flame"@en ,
+                                "a forest fire"@en ,
+                                "a human being"@en ,
+                                "a hurricane"@en ,
+                                "a photon"@en ,
+                                "a puff of smoke"@en ,
+                                "a sea wave"@en ,
+                                "a tornado"@en ,
+                                "an aggregate of human beings."@en ,
+                                "an energy wave"@en ,
+                                "an epidemic"@en ,
+                                "the undetached arm of a human being"@en ;
+                obo:IAO_0000116 "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en ,
+                                "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en ,
+                                "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                obo:IAO_0000600 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en ;
+                obo:IAO_0000601 "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en ,
+                                "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"@en ;
+                obo:IAO_0000602 "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] " ,
+                                "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] " ,
+                                "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] " ;
+                obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/019-002> ,
+                                <http://purl.obolibrary.org/obo/bfo/axiom/020-002> ,
+                                <http://purl.obolibrary.org/obo/bfo/axiom/021-002> ;
+                rdfs:isDefinedBy obo:bfo.owl ;
+                rdfs:label "material entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000141
+obo:BFO_0000141 rdf:type owl:Class ;
+                rdfs:subClassOf obo:BFO_0000004 ;
+                obo:BFO_0000179 "immaterial" ;
+                obo:BFO_0000180 "ImmaterialEntity" ;
+                obo:IAO_0000116 "BFO 2 Reference: Immaterial entities are divided into two subgroups:boundaries and sites, which bound, or are demarcated in relation, to material entities, and which can thus change location, shape and size and as their material hosts move or change shape or size (for example: your nasal passage; the hold of a ship; the boundary of Wales (which moves with the rotation of the Earth) [38, 7, 10"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                rdfs:isDefinedBy obo:bfo.owl ;
+                rdfs:label "immaterial entity"@en .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000148

@@ -10,6 +10,8 @@ IAO_0000115 - definition
 
 .. topic:: Label
 
+    textual definition
+
     definition
 
     definition

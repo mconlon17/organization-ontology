@@ -15,13 +15,12 @@ entities have locations:
   case of the United Kingdom.
 - populated places, which may be cities [2]_.  These need not be legally recognized,
   merely recognized by people outside the populated place.
-- :ref:`Facilities`
+- :doc:`facilities`
 
-   
 Properties of Locations
 -----------------------
 
--- located in.  Paris is located in France.  France is located in Europe.
+-- located in.  The Louvre is located in Paris.  Paris is located in France.  Metropolitan France is located in Europe.
 -- has geographic representation -- a text string of latitude and longitude of (hopefully)
    the centroid of the location.  For example, Paris has geographical representation
    "48.864716,2.349014"  Note there are no compass designations (E, W, N. S) in the 
@@ -32,7 +31,48 @@ Properties of Locations
 Relations of Locations to Organizations and Facilities
 ------------------------------------------------------
 
-:ref:`Organizations` do not have locations.  :ref:`Facilities` have locations.
+Organizations occupy locations.  They are not "located in" locations for two reasons:
+
+1.  Organizations are not material.  Only material things have locations.
+2.  "located in" means all of something located wholly within something else.
+
+Organizations occupy locations.  This means they have some legal right to the location (own, lease, title, other) or 
+they have one or more persons affiliated with the organization who is at the location (all or some of the time). While
+occupation may involve disputes, most do not.
+
+We can then say
+
+.. code_block::
+
+  The University of Florida occupies The University of Florida Gainesville campus
+  The University of Florida Gainesville campus is located in Gainesville
+  The University of Florida Gainesville campus has geolocation representation "29.6436325,-82.3571242" 
+  
+Note that "located in" is transitive.  Gainesville is located in Florida.  Florida is 
+located in the United States.  We can infer that the University of Florida campus is 
+located in the United States.
+
+:ref:`Organizations` do not have locations.  :ref:`Facilities` and buildings have locations.
+
+:ref:`Table 3` lists terms used in the representation of locations
+
+.. _Table 3:
+
+.. table:: Table 3 Terms used to represent locations
+
+    ======================    ===========================================================
+    Term                      Notes
+    ======================    ===========================================================
+    :doc:`doc-ORG_0000035`    A man-made construction attached to the ground, a bauwerk
+    :doc:`doc-ORG_0000036`    An architectural structure with a function
+    :doc:`doc-ORG_0000037`    A permanent walled and roofed construction
+    :doc:`doc-ORG_2000002`    The relation indicating an organization occupies a location
+    :doc:`doc-RO_0001015`     Location of
+    :doc:`doc-RO_0001025`     Located in
+    :doc:`doc-ORG_0000038`    A geographical location on the earth
+    :doc:`doc-ORG_0000039`    A point on the earth
+    :doc:`doc-ORG_3000004`    A geolocation representation as lat,long
+    ======================    ===========================================================
 
 .. rubric:: Footnotes
   

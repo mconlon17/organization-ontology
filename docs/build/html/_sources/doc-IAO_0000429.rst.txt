@@ -22,7 +22,7 @@ IAO_0000429 - email address
 
 .. topic:: Term editor
 
-    Person:Alan Ruttenberg
-
     Person:Chris Stoeckart
+
+    Person:Alan Ruttenberg
 

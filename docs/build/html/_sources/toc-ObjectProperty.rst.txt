@@ -9,10 +9,13 @@
    doc-IAO_0000219
    doc-IAO_0000235
    doc-ORG_2000001
+   doc-ORG_2000002
    doc-RO_0000053
    doc-RO_0000056
    doc-RO_0000057
    doc-RO_0000091
+   doc-RO_0001015
+   doc-RO_0001025
    doc-RO_0002012
    doc-RO_0002131
    doc-RO_0002323
