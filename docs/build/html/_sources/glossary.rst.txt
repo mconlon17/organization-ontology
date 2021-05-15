@@ -14,7 +14,7 @@ Glossary
     can be freely used in any manner without attribution.
     
   Domain  
-    A part of the world consisting of related entities.  
+    A part of the world consisting of related entities.
 
   Entity
     A thing, as defined in an ontology.

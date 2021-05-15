@@ -43,9 +43,9 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    :caption: Contents
    
    organizations
+   addresses
    facilities
    locations
-   addresses
    datetimes
    classes
    object-properties
