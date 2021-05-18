@@ -39,7 +39,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="BFO_0000050 - part of" href="doc-BFO_0000050.html" />
-    <link rel="prev" title="Interval - Time interval" href="doc-Interval.html" /> 
+    <link rel="prev" title="TemporalUnit - temporal unit" href="doc-TemporalUnit.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -98,9 +98,9 @@
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000136.html">IAO_0000136 - is about</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000219.html">IAO_0000219 - denotes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000235.html">IAO_0000235 - denoted by</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000001.html">ORG_2000001 - date established</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000002.html">ORG_2000002 - occupies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000003.html">ORG_2000003 - has occurent part</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000001.html">ORG_2000001 - occupies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000002.html">ORG_2000002 - has occurent part</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000003.html">ORG_2000003 - has time instant</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000053.html">RO_0000053 - bearer of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000056.html">RO_0000056 - participates in</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000057.html">RO_0000057 - has participant</a></li>
@@ -113,6 +113,7 @@
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0002323.html">RO_0002323 - mereotopologically related to</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0002353.html">RO_0002353 - output of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-type.html">type - type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-unitType.html">unitType - temporal unit type</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
@@ -208,9 +209,9 @@ we know x is a Person and y is an Information Content Entity. <a class="footnote
 <li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000136.html">IAO_0000136 - is about</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000219.html">IAO_0000219 - denotes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000235.html">IAO_0000235 - denoted by</a></li>
-<li class="toctree-l1"><a class="reference internal" href="doc-ORG_2000001.html">ORG_2000001 - date established</a></li>
-<li class="toctree-l1"><a class="reference internal" href="doc-ORG_2000002.html">ORG_2000002 - occupies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="doc-ORG_2000003.html">ORG_2000003 - has occurent part</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_2000001.html">ORG_2000001 - occupies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_2000002.html">ORG_2000002 - has occurent part</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_2000003.html">ORG_2000003 - has time instant</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000053.html">RO_0000053 - bearer of</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000056.html">RO_0000056 - participates in</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000057.html">RO_0000057 - has participant</a></li>
@@ -223,6 +224,7 @@ we know x is a Person and y is an Information Content Entity. <a class="footnote
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0002323.html">RO_0002323 - mereotopologically related to</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0002353.html">RO_0002353 - output of</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-type.html">type - type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-unitType.html">unitType - temporal unit type</a></li>
 </ul>
 </div>
 <div class="section" id="common-object-properties">
@@ -341,16 +343,16 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <td><p>Inverse of the relation ‘denotes’</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000001</span></code></p></td>
-<td><p>date established</p></td>
-<td><p>Date the organizationan was established.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000002</span></code></p></td>
 <td><p>occupies</p></td>
 <td><p>An organization occupies a geographical location</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000003</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000002</span></code></p></td>
 <td><p>has occurent part</p></td>
 <td><p>A has part relation that applies only to occuren</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000003</span></code></p></td>
+<td><p>has time instant</p></td>
+<td><p>The property that associates a process boundary</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000053</span></code></p></td>
 <td><p>bearer of</p></td>
@@ -400,6 +402,10 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <td><p>type</p></td>
 <td><p>None</p></td>
 </tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">unitType</span></code></p></td>
+<td><p>temporal unit type</p></td>
+<td><p>None</p></td>
+</tr>
 </tbody>
 </table>
 <dl class="citation">
@@ -424,7 +430,7 @@ blog post, <a class="reference external" href="https://henrietteharmse.com/2018/
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="doc-BFO_0000050.html" class="btn btn-neutral float-right" title="BFO_0000050 - part of" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="doc-Interval.html" class="btn btn-neutral float-left" title="Interval - Time interval" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="doc-TemporalUnit.html" class="btn btn-neutral float-left" title="TemporalUnit - temporal unit" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

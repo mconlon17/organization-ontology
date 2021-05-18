@@ -1,34 +1,34 @@
 
   .. _ORG_2000003:
-  .. _has occurent part:
+  .. _has time instant:
   .. index:: 
-     single: ORG_2000003; has occurent part
-     single: has occurent part; ORG_2000003
+     single: ORG_2000003; has time instant
+     single: has time instant; ORG_2000003
 
-ORG_2000003 - has occurent part
+ORG_2000003 - has time instant
 ====================================================================================
 
 .. topic:: Label
 
-    has occurent part
+    has time instant
 
 .. topic:: Definition
 
-    A has part relation that applies only to occurents
+    The property that associates a process boundary with the time instant at which the process boundary occurs
 
 .. topic:: Definition source
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8447
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
 
 .. topic:: Example
 
-    The project to put a man on the man achieved success on July 20, 1969
+    Duraspace was dissolved (a process boundary) in 2019 (a time instant with an XSDdatetimestamp and a year precision)
 
 .. topic:: Editor's note
 
-    The inverse of RO_2012 and should be define in RO.  Defined here for convenience since it is missing from RO.
+    This provides a bidge between BFO ontologies and the W3C time ontology
 
 .. topic:: Term editor
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8447
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
 

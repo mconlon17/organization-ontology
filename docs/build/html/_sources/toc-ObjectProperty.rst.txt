@@ -23,3 +23,4 @@
    doc-RO_0002323
    doc-RO_0002353
    doc-type
+   doc-unitType

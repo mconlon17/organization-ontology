@@ -22,9 +22,9 @@ RO_0001025 - located in
 
 .. topic:: Example
 
-    this rat is located in this cage
-
     my brain is located in my head
+
+    this rat is located in this cage
 
 .. topic:: Editor's note
 

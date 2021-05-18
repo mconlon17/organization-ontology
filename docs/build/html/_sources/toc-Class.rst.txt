@@ -65,5 +65,7 @@
    doc-ORG_0000041
    doc-ORG_0000042
    doc-ORG_0000043
+   doc-Duration
+   doc-GeneralDateTimeDescription
    doc-Instant
-   doc-Interval
+   doc-TemporalUnit

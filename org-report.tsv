@@ -51,8 +51,19 @@ WARN	missing_definition	skos:definition	IAO:0000115
 WARN	missing_definition	skos:example	IAO:0000115		
 WARN	missing_definition	skos:prefLabel	IAO:0000115		
 WARN	missing_definition	skos:scopeNote	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#Duration	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#GeneralDateTimeDescription	IAO:0000115		
 WARN	missing_definition	http://www.w3.org/2006/time#Instant	IAO:0000115		
-WARN	missing_definition	http://www.w3.org/2006/time#Interval	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#TemporalUnit	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#days	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#hours	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#inXSDDateTimeStamp	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#minutes	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#months	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#seconds	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#unitType	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#weeks	IAO:0000115		
+WARN	missing_definition	http://www.w3.org/2006/time#years	IAO:0000115		
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
 INFO	lowercase_definition	BFO:0000029	IAO:0000600	b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])@en	
 INFO	lowercase_definition	OBI:0002815	IAO:0000115	'has representation' is a data property that attaches between an information content entity and a value that contains linguistically or computationally coded text.@en	
@@ -60,3 +71,6 @@ INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independ
 INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en	
 INFO	lowercase_definition	RO:0002234	IAO:0000115	p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.	
 INFO	lowercase_definition	RO:0002353	IAO:0000115	inverse of has output	
+INFO	missing_superclass	http://www.w3.org/2006/time#Duration	rdfs:subClassOf		
+INFO	missing_superclass	http://www.w3.org/2006/time#GeneralDateTimeDescription	rdfs:subClassOf		
+INFO	missing_superclass	http://www.w3.org/2006/time#TemporalUnit	rdfs:subClassOf		

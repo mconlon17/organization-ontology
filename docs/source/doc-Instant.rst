@@ -14,9 +14,9 @@ Instant - Time instant
 
 .. topic:: SKOS Definition
 
-    Una entidad temporal con una extensión o duración cero.
-
     A temporal entity with zero extent or duration
+
+    Una entidad temporal con una extensión o duración cero.
 
 .. topic:: Imported From
 

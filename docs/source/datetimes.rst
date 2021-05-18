@@ -83,8 +83,8 @@ To assert that an organization x was founded in the year 1853, we would say:
   z a founding_process_boundary
   z has_instant t
   t a instant
-  t has_time_representation "1853"
-  t has_time_precision year_precision
+  t unit_type unit_year
+  t has_xsd_datetme_stamp "1853"
   
 *Implementation note 1:*  Some data systems may be pre-populated with instants
 of year precision for years of interest.  In such a case the above example would
@@ -92,7 +92,7 @@ end with z has_instant t, where t is the pre-existing instant representing 1853 
 year precision.
   
 *Implementation note 2:*  Some data system may require that time representations
-be formatted in  a particular way, for example W3C datetime standard, with a time zone,
+be formatted in a particular way, for example W3C datetime standard, with a time zone,
 even if the time precision is year only.  Elements of the time representation other
 than the year would be ignored by the data system.  In such cases, the time representation
 might be appear as "1853-01-01T00:00:01+00:00" for example.
@@ -103,27 +103,29 @@ might be appear as "1853-01-01T00:00:01+00:00" for example.
 
 .. table:: Table 4 Terms used to represent dates and times
 
-    ======================    ===========================================================
-    Term                      Notes
-    ======================    ===========================================================
-    :doc:`doc-RO_0002353`     output of
-    :doc:`doc-RO_0002234`     has output
-    :doc:`doc-BFO_0000015`    process
-    :doc:`doc-ORG_0000040`    founding process
-    :doc:`doc-ORG_2000003`    has occurent part
-    :doc:`doc-RO_0002012`     occurent part of
-    :doc:`doc-BFO_0000035`    process boundary
-    :doc:`doc-ORG_0000041`    founding process boundary
-    :doc:`doc-ORG_0000042`    dissolution process
-    :doc:`doc-ORG_0000043`    dissolution process boundary
-    :doc:`doc-ORG_xxxxxxx`    has instant
-    :doc:`doc-Instant`        Instant
-    :doc:`doc-ORG_xxxxxxx`    has datetime representation
-    :doc:`doc-ORG_xxxxxxx`    has datetime precision
-    :doc:`doc-ORG_xxxxxxx`    year precision
-    :doc:`doc-ORG_xxxxxxx`    month precision
-    :doc:`doc-ORG_xxxxxxx`    day precision
-    ======================    ===========================================================
+    ======================        ===========================================================
+    Term                          Notes
+    ======================        ===========================================================
+    :doc:`doc-RO_0002353`         output of
+    :doc:`doc-RO_0002234`         has output
+    :doc:`doc-BFO_0000015`        process
+    :doc:`doc-ORG_0000040`        founding process
+    :doc:`doc-ORG_2000003`        has occurent part
+    :doc:`doc-RO_0002012`         occurent part of
+    :doc:`doc-BFO_0000035`        process boundary
+    :doc:`doc-ORG_0000041`        founding process boundary
+    :doc:`doc-ORG_0000042`        dissolution process
+    :doc:`doc-ORG_0000043`        dissolution process boundary
+    :doc:`doc-ORG_2000003`        has instant.  Process boundaries have instants.
+    :doc:`doc-Instant`            Instant
+    :doc:`doc-inXSDDateTimeStamp` An xsd:datetimestamp string associated with an Instant
+    :doc:`doc-unitType`           has datetime precision
+    :doc:`doc-unitYear`           year precision
+    :doc:`doc-unitMonth`          month precision
+    :doc:`doc-unitDay`            day precision
+    :doc:`doc-unitHour`           hour precision
+    :doc:`doc-unitMinute`         minute precision 
+    ======================        ===========================================================
 
 .. rubric:: Footnotes
 

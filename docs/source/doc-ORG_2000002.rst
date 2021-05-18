@@ -1,20 +1,20 @@
 
   .. _ORG_2000002:
-  .. _occupies:
+  .. _has occurent part:
   .. index:: 
-     single: ORG_2000002; occupies
-     single: occupies; ORG_2000002
+     single: ORG_2000002; has occurent part
+     single: has occurent part; ORG_2000002
 
-ORG_2000002 - occupies
+ORG_2000002 - has occurent part
 ====================================================================================
 
 .. topic:: Label
 
-    occupies
+    has occurent part
 
 .. topic:: Definition
 
-    An organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location
+    A has part relation that applies only to occurents
 
 .. topic:: Definition source
 
@@ -22,7 +22,11 @@ ORG_2000002 - occupies
 
 .. topic:: Example
 
-    The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the
+    The project to put a man on the man achieved success on July 20, 1969
+
+.. topic:: Editor's note
+
+    The inverse of RO_2012 and should be define in RO.  Defined here for convenience since it is missing from RO.
 
 .. topic:: Term editor
 

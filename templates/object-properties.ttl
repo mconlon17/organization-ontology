@@ -12,10 +12,6 @@
 #    Annotation properties
 #################################################################
 
-###  http://purl.obolibrary.org/obo/IAO_0000111
-<http://purl.obolibrary.org/obo/IAO_0000111> rdf:type owl:AnnotationProperty .
-
-
 ###  http://purl.obolibrary.org/obo/IAO_0000112
 <http://purl.obolibrary.org/obo/IAO_0000112> rdf:type owl:AnnotationProperty .
 
@@ -34,10 +30,6 @@
 
 ###  http://purl.obolibrary.org/obo/IAO_0000117
 <http://purl.obolibrary.org/obo/IAO_0000117> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.obolibrary.org/obo/IAO_0000118
-<http://purl.obolibrary.org/obo/IAO_0000118> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000119
@@ -64,22 +56,6 @@ xsd:anyuri rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_2000001> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range <http://www.w3.org/2006/time#Instant> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "date of deontic creation process boundary"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "UF date_established 1853"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Date the organizationan was established."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Won't be modeled this way.  This is a demo."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000118> "date_established"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "date established"@en .
-
-
-###  http://purl.obolibrary.org/obo/ORG_2000002
-<http://purl.obolibrary.org/obo/ORG_2000002> rdf:type owl:ObjectProperty ;
-                                             rdfs:subPropertyOf owl:topObjectProperty ;
-                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000038> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
@@ -89,8 +65,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "occupies"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_2000003
-<http://purl.obolibrary.org/obo/ORG_2000003> rdf:type owl:ObjectProperty ;
+###  http://purl.obolibrary.org/obo/ORG_2000002
+<http://purl.obolibrary.org/obo/ORG_2000002> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000051> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/BFO_0000003> ;
@@ -103,12 +79,30 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "has occurent part"@en .
 
 
+###  http://purl.obolibrary.org/obo/ORG_2000003
+<http://purl.obolibrary.org/obo/ORG_2000003> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000035> ;
+                                             rdfs:range <http://www.w3.org/2006/time#Instant> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Duraspace was dissolved (a process boundary) in 2019 (a time instant with an XSDdatetimestamp and a year precision)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a process boundary with the time instant at which the process boundary occurs"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This provides a bidge between BFO ontologies and the W3C time ontology"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has time instant"@en .
+
+
 #################################################################
 #    Classes
 #################################################################
 
 ###  http://purl.obolibrary.org/obo/BFO_0000003
 <http://purl.obolibrary.org/obo/BFO_0000003> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000035
+<http://purl.obolibrary.org/obo/BFO_0000035> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000001

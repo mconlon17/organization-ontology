@@ -1,24 +1,20 @@
 
   .. _ORG_2000001:
-  .. _date established:
+  .. _occupies:
   .. index:: 
-     single: ORG_2000001; date established
-     single: date established; ORG_2000001
+     single: ORG_2000001; occupies
+     single: occupies; ORG_2000001
 
-ORG_2000001 - date established
+ORG_2000001 - occupies
 ====================================================================================
 
 .. topic:: Label
 
-    date established
-
-.. topic:: Alternate name
-
-    date_established
+    occupies
 
 .. topic:: Definition
 
-    Date the organizationan was established.
+    An organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location
 
 .. topic:: Definition source
 
@@ -26,11 +22,7 @@ ORG_2000001 - date established
 
 .. topic:: Example
 
-    UF date_established 1853
-
-.. topic:: Editor's note
-
-    Won't be modeled this way.  This is a demo.
+    The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the
 
 .. topic:: Term editor
 

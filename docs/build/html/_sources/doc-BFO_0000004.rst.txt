@@ -18,25 +18,25 @@ BFO_0000004 - independent continuant
 
 .. topic:: Example
 
-    a heart
-
-    an organism
-
-    the bottom right portion of a human torso
-
-    an orchestra.
-
-    the interior of your mouth
-
     a leg
 
-    a chair
+    a heart
 
     a molecule
 
-    a spatial region
+    the interior of your mouth
 
     an atom
+
+    a chair
+
+    an orchestra.
+
+    a spatial region
+
+    the bottom right portion of a human torso
+
+    an organism
 
 .. topic:: Imported From
 

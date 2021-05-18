@@ -10,9 +10,9 @@ IAO_0000117 - definition editor
 
 .. topic:: Label
 
-    term editor
-
     definition editor
+
+    term editor
 
     definition editor
 
