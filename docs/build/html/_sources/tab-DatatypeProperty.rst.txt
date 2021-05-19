@@ -11,12 +11,5 @@
     ``ORG_3000002``      has email representation  Specifies the email address string for an email 
     ``ORG_3000003``      has postal address repre  Specifies the postal address string for a postal
     ``ORG_3000004``      has geolocation represen  Specifies the geolocation string for a geolocati
-    ``days``             days in a time unit       None
-    ``hours``            hours in a time unit      None
     ``inXSDDateTimeStam  in XSD Date-Time-Stamp    None
-    ``minutes``          minutes in a time unit    None
-    ``months``           months in a time unit     None
-    ``seconds``          seconds in a time unit    None
-    ``weeks``            weeks in a time unit      None
-    ``years``            years in a time unit      None
     ===================  ========================  ================================================

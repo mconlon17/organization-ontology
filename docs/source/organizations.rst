@@ -38,11 +38,10 @@ An overview of the classes and properties follows the figure.
     Representation of organizations.  The organization of interest is at the center of the
     figure.  See notes below.
     
-At the center of the figure not that an organization has a name (rdfs:label), and may have a postal address (iao:postal_address) and/or
-an email address (iao:email address).  An organization may have one or more acronyms or abbreviated names (iao:abbreviation).
+At the center of the figure note that an organization has a name (rdfs:label).
 
-An organization has a type.  In the figure, the type of the organization is org:Nonprofit.  See below for a further
-discussion of types.
+An organization has a type.  In the figure, the type of the organization is 
+org:non-profit.  See below for a further discussion of types.
 
 Now proceeding clockwise from type:
 
@@ -51,8 +50,13 @@ Now proceeding clockwise from type:
   independently of the organization to denotes.
 - Orgs may be related to other orgs.  An org may be part of another organization.
 - An org may be affiliated with another organization.
-- An org may have a predecessor organization.  Organizations undergo change.  The resulting
-  organization may be a new organization of a different type, different people, different purpose.
+- An org may be denoted by a postal address.  See :doc:`Addresses <addresses>` for 
+  details.  Addresses have
+  properties that indicate how they are to be used.
+- An org may have a predecessor organization.  Organizations undergo change.  The 
+  resulting
+  organization may be a new organization of a different type, different people, different 
+  purpose.
 - An organization may be a member of another organization.
 - Organizations often have web sites.  Web sites are information content entities that are
   about the organization.  Note that the web site is an entity that exists with or without
@@ -62,18 +66,24 @@ Now proceeding clockwise from type:
   further discussion of dispositions.  A disposition is dependent the entity which
   has the disposition.  In BFO, a disposition is a specifically dependent continuant,
   dependent on the entity which has the specific disposition.
-- An org may occupy zero or more facilities, such as an office building, or university campus. A facility
+- An org may occupy zero or more facilities, such as an office building, or university 
+  campus. A facility
   is typically a man-made structure attached to the ground.  As such, facilities have
-  geographical locations -- in cities, for example.  See :ref:`Facilities` for more detail.
-- Organizations may have dates associated with some occurrent related to the organization. For
-  example, an organization may have a "date established".  See :ref:`Dates and Times` for
+  geographical locations -- in cities, for example.  See :doc:`Facilities <facilities>` 
+  for more detail.
+- Organizations come into being as the result of founding processes which have associated 
+  dates.  See :doc:`Dates and Times <datetimes>` for
   a further discussion of the representation of dates and times related to organizations.
+- Organizations may be denoted by one or more email addresses.  See :doc:`Addresses 
+  <addresses>` for details.  As with postal addresses, email addresses may have 
+  properties describing their purpose.
 
     
 Types
 ------
 
-Organizations have one of five types. See :ref:`Table 1`. These are mutually exclusive.  An organization can
+Organizations have one of five types. See :ref:`Table 1`. These are mutually exclusive.  
+An organization can
 not be more than one type, just as an animal cannot be more than one species.
 
 .. _Table 1:
@@ -99,15 +109,16 @@ not be more than one type, just as an animal cannot be more than one species.
 
     Figure 2
     
-    Subclasses of organization and subsumption hierarchy.  The subclasses are mutually exclusive.
+    Subclasses of organization and subsumption hierarchy.  The subclasses are mutually 
+    exclusive.
 
 Dispositions
 ------------
 
 Organizations have dispositions which indicate the purposes organizations have.  An
 organization might have a disposition of *library* or *healthcare* or *military*.
-Dispositions are shown in :ref:`Table Dispositions`  An organization may have any number of
-dispositions.
+Dispositions are shown in :ref:`Table Dispositions`  An organization may have any number 
+of dispositions.
 
 `Table Dispositions`_ lists the dispositions in the ORG ontology.
  
@@ -126,7 +137,8 @@ Examples
     
 .. topic:: United States Navy
 
-    The United States Navy is an organizational part with disposition of military.
+    The United States Navy is an organization part of the US Department of Defense 
+    with disposition of military.
     
 .. topic:: BASF
 
@@ -138,7 +150,8 @@ Examples
    |OBOP|_.
 
 .. [#] The OBO community is having an on-going conversation about the subsumption of
-   organization.  OBI defines organization as a material entity.  The VIVO Project disagrees with this
+   organization.  OBI defines organization as a material entity.  The VIVO Project 
+   disagrees with this
    assertion, as organizations can not be weighed, put in a box, or otherwise measured as
    material entities.  Their generic reliance on people *and* documents/understandings of 
    purpose seems to indicate that they are generically dependent on these components.

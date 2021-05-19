@@ -96,16 +96,19 @@ be formatted in a particular way, for example W3C datetime standard, with a time
 even if the time precision is year only.  Elements of the time representation other
 than the year would be ignored by the data system.  In such cases, the time representation
 might be appear as "1853-01-01T00:00:01+00:00" for example.
+
+Terms used to represent dates and times
+---------------------------------------
   
-:ref:`Table 4` lists terms used in the representation of dates and times
+:ref:`Table 4` lists terms used to represent dates and times
 
 .. _Table 4:
 
 .. table:: Table 4 Terms used to represent dates and times
 
-    ======================        ===========================================================
+    ============================= ===========================================================
     Term                          Notes
-    ======================        ===========================================================
+    ============================= ===========================================================
     :doc:`doc-RO_0002353`         output of
     :doc:`doc-RO_0002234`         has output
     :doc:`doc-BFO_0000015`        process
@@ -125,7 +128,8 @@ might be appear as "1853-01-01T00:00:01+00:00" for example.
     :doc:`doc-unitDay`            day precision
     :doc:`doc-unitHour`           hour precision
     :doc:`doc-unitMinute`         minute precision 
-    ======================        ===========================================================
+    :doc:`doc-unitSecond`         second precision 
+    ============================= ===========================================================
 
 .. rubric:: Footnotes
 

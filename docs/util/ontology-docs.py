@@ -159,7 +159,8 @@ def main():
 	g.parse("../../org.ttl", format="ttl")
 	print(len(g))
 
-	for term_type in [OWL.Class, OWL.AnnotationProperty, OWL.ObjectProperty, OWL.DatatypeProperty]:
+	for term_type in [OWL.Class, OWL.AnnotationProperty, OWL.ObjectProperty, 
+	    OWL.DatatypeProperty, OWL.NamedIndividual]:
 	
 		term_name_str = term_name(term_type)[term_name(term_type).rfind(':')+1:]
     

@@ -1,20 +1,20 @@
 
   .. _IAO_0000115:
-  .. _textual definition:
+  .. _definition:
   .. index:: 
-     single: IAO_0000115; textual definition
-     single: textual definition; IAO_0000115
+     single: IAO_0000115; definition
+     single: definition; IAO_0000115
 
-IAO_0000115 - textual definition
+IAO_0000115 - definition
 ====================================================================================
 
 .. topic:: Label
 
-    definition
-
-    definition
-
     textual definition
+
+    definition
+
+    definition
 
 .. topic:: Definition
 

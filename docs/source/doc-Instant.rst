@@ -16,8 +16,6 @@ Instant - Time instant
 
     A temporal entity with zero extent or duration
 
-    Una entidad temporal con una extensión o duración cero.
-
 .. topic:: Imported From
 
     http://www.w3.org/2006/time#2016

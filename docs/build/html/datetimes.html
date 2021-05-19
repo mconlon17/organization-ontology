@@ -95,6 +95,7 @@
 <li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
@@ -246,7 +247,84 @@ be formatted in a particular way, for example W3C datetime standard, with a time
 even if the time precision is year only.  Elements of the time representation other
 than the year would be ignored by the data system.  In such cases, the time representation
 might be appear as “1853-01-01T00:00:01+00:00” for example.</p>
-<p><span class="xref std std-ref">Table 4</span> lists terms used in the representation of dates and times</p>
+</div>
+<div class="section" id="terms-used-to-represent-dates-and-times">
+<h2>Terms used to represent dates and times<a class="headerlink" href="#terms-used-to-represent-dates-and-times" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="#table-4"><span class="std std-ref">Table 4 Terms used to represent dates and times</span></a> lists terms used to represent dates and times</p>
+<span id="table-4"></span><table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Table 4 Terms used to represent dates and times</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Term</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0002353.html"><span class="doc">RO_0002353 - output of</span></a></p></td>
+<td><p>output of</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002234.html"><span class="doc">RO_0002234 - has output</span></a></p></td>
+<td><p>has output</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000015.html"><span class="doc">BFO_0000015 - process</span></a></p></td>
+<td><p>process</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000040.html"><span class="doc">ORG_0000040 - founding process</span></a></p></td>
+<td><p>founding process</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_2000003.html"><span class="doc">ORG_2000003 - has time instant</span></a></p></td>
+<td><p>has occurent part</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002012.html"><span class="doc">RO_0002012 - occurent part of</span></a></p></td>
+<td><p>occurent part of</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000035.html"><span class="doc">BFO_0000035 - process boundary</span></a></p></td>
+<td><p>process boundary</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000041.html"><span class="doc">ORG_0000041 - founding process boundary</span></a></p></td>
+<td><p>founding process boundary</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000042.html"><span class="doc">ORG_0000042 - dissolution process</span></a></p></td>
+<td><p>dissolution process</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000043.html"><span class="doc">ORG_0000043 - dissolution process boundary</span></a></p></td>
+<td><p>dissolution process boundary</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_2000003.html"><span class="doc">ORG_2000003 - has time instant</span></a></p></td>
+<td><p>has instant.  Process boundaries have instants.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-Instant.html"><span class="doc">Instant - Time instant</span></a></p></td>
+<td><p>Instant</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-inXSDDateTimeStamp.html"><span class="doc">inXSDDateTimeStamp - in XSD Date-Time-Stamp</span></a></p></td>
+<td><p>An xsd:datetimestamp string associated with an Instant</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitType.html"><span class="doc">unitType - temporal unit type</span></a></p></td>
+<td><p>has datetime precision</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-unitYear.html"><span class="doc">unitYear - Year (unit of temporal duration)</span></a></p></td>
+<td><p>year precision</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitMonth.html"><span class="doc">unitMonth - Month (unit of temporal duration)</span></a></p></td>
+<td><p>month precision</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-unitDay.html"><span class="doc">unitDay - Day (unit of temporal duration)</span></a></p></td>
+<td><p>day precision</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitHour.html"><span class="doc">unitHour - Hour (unit of temporal duration)</span></a></p></td>
+<td><p>hour precision</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-unitMinute.html"><span class="doc">unitMinute - Minute (unit of temporal duration)</span></a></p></td>
+<td><p>minute precision</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitSecond.html"><span class="doc">unitSecond - Second (unit of temporal duration)</span></a></p></td>
+<td><p>second precision</p></td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
 <dt class="label" id="id2"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>

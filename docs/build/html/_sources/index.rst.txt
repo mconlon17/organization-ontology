@@ -51,9 +51,29 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    object-properties
    datatype-properties
    annotation-properties
+   named-individuals
+   notes-and-sources
    ontology-authors
    documentation-authors
    glossary
+   
+List of Tables
+--------------
+
+- :ref:`Table 1`
+- :ref:`Table 2`
+- :ref:`Table 3`
+- :ref:`Table 4`
+- :ref:`Table 5`
+- :ref:`Table 6`
+- :ref:`Table 7`
+
+List of Figures
+---------------
+
+- :ref:`Figure 1`
+- :ref:`Figure 2`
+- :ref:`Figure 3`
    
 Glossary and Index
 ------------------

@@ -95,6 +95,7 @@
 <li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
@@ -177,38 +178,47 @@ jurisdiction, such as territory, state, region, province, or even “kingdom” 
 case of the United Kingdom.</p></li>
 <li><p>populated places, which may be cities <a class="footnote-reference brackets" href="#id5" id="id3">2</a>.  These need not be legally recognized,
 merely recognized by people outside the populated place.</p></li>
-<li><p><a class="reference internal" href="facilities.html"><span class="doc">Facilities</span></a></p></li>
+<li><p><a class="reference internal" href="facilities.html"><span class="doc">facilities</span></a></p></li>
 </ul>
 <div class="section" id="properties-of-locations">
 <h2>Properties of Locations<a class="headerlink" href="#properties-of-locations" title="Permalink to this headline">¶</a></h2>
-<p>– located in.  The Louvre is located in Paris.  Paris is located in France.  Metropolitan France is located in Europe.
-– has geographic representation – a text string of latitude and longitude of (hopefully)</p>
-<blockquote>
-<div><p>the centroid of the location.  For example, Paris has geographical representation
+<ul class="simple">
+<li><p>located in.  The Louvre is located in Paris.  Paris is located in France.  Metropolitan
+France is located in Europe.</p></li>
+<li><p>has geographic representation – a text string of latitude and longitude of (hopefully)
+the centroid of the location.  For example, Paris has geographical representation
 “48.864716,2.349014”  Note there are no compass designations (E, W, N. S) in the
 representation. A negative latitude is south of the equator, a positive latitude is
 north of the equator.  A negative longitude is east of the prime meridian,a positive
-longitude is west of the prime meridian.</p>
-</div></blockquote>
+longitude is west of the prime meridian.</p></li>
+</ul>
 </div>
 <div class="section" id="relations-of-locations-to-organizations-and-facilities">
 <h2>Relations of Locations to Organizations and Facilities<a class="headerlink" href="#relations-of-locations-to-organizations-and-facilities" title="Permalink to this headline">¶</a></h2>
 <p>Organizations occupy locations.  They are not “located in” locations for two reasons:</p>
 <ol class="arabic simple">
-<li><p>Organizations are not material.  Only material things have locations.</p></li>
+<li><p>Organizations are not material.  Only material things have locations.  An Organization
+such as a chess club may meet in a variety of locations, but they are not located
+in a location.  An organization such as Amazon has a presence in many locations.</p></li>
 <li><p>“located in” means all of something located wholly within something else.</p></li>
 </ol>
 <p>Organizations occupy locations.  This means they have some legal right to the location (own, lease, title, other) or
 they have one or more persons affiliated with the organization who is at the location (all or some of the time). While
 occupation may involve disputes, most do not.</p>
 <p>We can then say</p>
-<p>Note that “located in” is transitive.  Gainesville is located in Florida.  Florida is
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="s1">&#39;occupies&#39;</span> <span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="n">Gainesville</span> <span class="n">campus</span>
+<span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="n">Gainesville</span> <span class="n">campus</span> <span class="s1">&#39;is located in&#39;</span> <span class="n">Gainesville</span>
+<span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="n">Gainesville</span> <span class="n">campus</span> <span class="s1">&#39;has geolocation representation&#39;</span> <span class="s2">&quot;29.6436325,-82.3571242&quot;</span>
+</pre></div>
+</div>
+<p>Note that ‘located in’ is transitive.  Gainesville is located in Florida.  Florida is
 located in the United States.  We can infer that the University of Florida campus is
 located in the United States.</p>
-<p><a class="reference internal" href="organizations.html#organizations"><span class="std std-ref">Organizations</span></a> do not have locations.  <span class="xref std std-ref">Facilities</span> and buildings have locations.</p>
-<p><a class="reference internal" href="object-properties.html#table-3"><span class="std std-ref">Table 3 Common Object Properties</span></a> lists terms used in the representation of locations</p>
-<span id="table-3"></span><table class="docutils align-default" id="id6">
-<caption><span class="caption-text">Table 3 Terms used to represent locations</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<p><a class="reference internal" href="organizations.html"><span class="doc">Organizations</span></a> do not have locations.  Facilities, and buildings have locations.
+Campuses are locations.</p>
+<p><a class="reference internal" href="#table-7"><span class="std std-ref">Table 7 Terms used to represent locations</span></a> lists terms used in the representation of locations</p>
+<span id="table-7"></span><table class="docutils align-default" id="id6">
+<caption><span class="caption-text">Table 7 Terms used to represent locations</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 27%" />
 <col style="width: 73%" />
@@ -228,22 +238,25 @@ located in the United States.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000037.html"><span class="doc">ORG_0000037 - building</span></a></p></td>
 <td><p>A permanent walled and roofed construction</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_2000002.html"><span class="doc">ORG_2000002 - occupies</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000044.html"><span class="doc">ORG_0000044 - campus</span></a></p></td>
+<td><p>The grounds of a business, university, or other</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_2000002.html"><span class="doc">ORG_2000002 - has occurent part</span></a></p></td>
 <td><p>The relation indicating an organization occupies a location</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0001015.html"><span class="doc">RO_0001015 - location of</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0001015.html"><span class="doc">RO_0001015 - location of</span></a></p></td>
 <td><p>Location of</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0001025.html"><span class="doc">RO_0001025 - located in</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0001025.html"><span class="doc">RO_0001025 - located in</span></a></p></td>
 <td><p>Located in</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000038.html"><span class="doc">ORG_0000038 - geographical location</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000038.html"><span class="doc">ORG_0000038 - geographical location</span></a></p></td>
 <td><p>A geographical location on the earth</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000039.html"><span class="doc">ORG_0000039 - geographical point</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000039.html"><span class="doc">ORG_0000039 - geographical point</span></a></p></td>
 <td><p>A point on the earth</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_3000004.html"><span class="doc">ORG_3000004 - has geolocation representation</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_3000004.html"><span class="doc">ORG_3000004 - has geolocation representation</span></a></p></td>
 <td><p>A geolocation representation as lat,long</p></td>
 </tr>
 </tbody>

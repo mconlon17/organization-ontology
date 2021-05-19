@@ -35,7 +35,9 @@
    doc-versionIRI
    doc-versionInfo
    doc-altLabel
+   doc-changeNote
    doc-definition
    doc-example
+   doc-note
    doc-prefLabel
    doc-scopeNote

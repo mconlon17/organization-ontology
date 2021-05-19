@@ -95,6 +95,7 @@
 <li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
@@ -195,10 +196,9 @@ An overview of the classes and properties follows the figure.</p>
 figure.  See notes below.</p>
 </div>
 </div>
-<p>At the center of the figure not that an organization has a name (rdfs:label), and may have a postal address (iao:postal_address) and/or
-an email address (iao:email address).  An organization may have one or more acronyms or abbreviated names (iao:abbreviation).</p>
-<p>An organization has a type.  In the figure, the type of the organization is org:Nonprofit.  See below for a further
-discussion of types.</p>
+<p>At the center of the figure note that an organization has a name (rdfs:label).</p>
+<p>An organization has a type.  In the figure, the type of the organization is
+org:non-profit.  See below for a further discussion of types.</p>
 <p>Now proceeding clockwise from type:</p>
 <ul class="simple">
 <li><p>An organization may be denoted by one or more identifiers.  Identifiers are represented
@@ -206,8 +206,13 @@ using the Identifier Ontology (IDO).  Note that the identifier is an entity.  It
 independently of the organization to denotes.</p></li>
 <li><p>Orgs may be related to other orgs.  An org may be part of another organization.</p></li>
 <li><p>An org may be affiliated with another organization.</p></li>
-<li><p>An org may have a predecessor organization.  Organizations undergo change.  The resulting
-organization may be a new organization of a different type, different people, different purpose.</p></li>
+<li><p>An org may be denoted by a postal address.  See <a class="reference internal" href="addresses.html"><span class="doc">Addresses</span></a> for
+details.  Addresses have
+properties that indicate how they are to be used.</p></li>
+<li><p>An org may have a predecessor organization.  Organizations undergo change.  The
+resulting
+organization may be a new organization of a different type, different people, different
+purpose.</p></li>
 <li><p>An organization may be a member of another organization.</p></li>
 <li><p>Organizations often have web sites.  Web sites are information content entities that are
 about the organization.  Note that the web site is an entity that exists with or without
@@ -217,17 +222,22 @@ organization.  Dispositions of an organization may change over time.  See below 
 further discussion of dispositions.  A disposition is dependent the entity which
 has the disposition.  In BFO, a disposition is a specifically dependent continuant,
 dependent on the entity which has the specific disposition.</p></li>
-<li><p>An org may occupy zero or more facilities, such as an office building, or university campus. A facility
+<li><p>An org may occupy zero or more facilities, such as an office building, or university
+campus. A facility
 is typically a man-made structure attached to the ground.  As such, facilities have
-geographical locations – in cities, for example.  See <span class="xref std std-ref">Facilities</span> for more detail.</p></li>
-<li><p>Organizations may have dates associated with some occurrent related to the organization. For
-example, an organization may have a “date established”.  See <span class="xref std std-ref">Dates and Times</span> for
+geographical locations – in cities, for example.  See <a class="reference internal" href="facilities.html"><span class="doc">Facilities</span></a>
+for more detail.</p></li>
+<li><p>Organizations come into being as the result of founding processes which have associated
+dates.  See <a class="reference internal" href="datetimes.html"><span class="doc">Dates and Times</span></a> for
 a further discussion of the representation of dates and times related to organizations.</p></li>
+<li><p>Organizations may be denoted by one or more email addresses.  See <a class="reference internal" href="addresses.html"><span class="doc">Addresses</span></a> for details.  As with postal addresses, email addresses may have
+properties describing their purpose.</p></li>
 </ul>
 </div>
 <div class="section" id="types">
 <h2>Types<a class="headerlink" href="#types" title="Permalink to this headline">¶</a></h2>
-<p>Organizations have one of five types. See <a class="reference internal" href="#table-1"><span class="std std-ref">Table 1 Types of Organizations</span></a>. These are mutually exclusive.  An organization can
+<p>Organizations have one of five types. See <a class="reference internal" href="#table-1"><span class="std std-ref">Table 1 Types of Organizations</span></a>. These are mutually exclusive.
+An organization can
 not be more than one type, just as an animal cannot be more than one species.</p>
 <span id="table-1"></span><table class="docutils align-default" id="id7">
 <caption><span class="caption-text">Table 1 Types of Organizations</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
@@ -270,7 +280,8 @@ not be more than one type, just as an animal cannot be more than one species.</p
 <span id="figure-2"></span><img alt="Types of organizations.  A simple ball and stick diagram" src="_images/org-types.png" />
 <p class="caption"><span class="caption-text">Figure 2</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 <div class="legend">
-<p>Subclasses of organization and subsumption hierarchy.  The subclasses are mutually exclusive.</p>
+<p>Subclasses of organization and subsumption hierarchy.  The subclasses are mutually
+exclusive.</p>
 </div>
 </div>
 </div>
@@ -278,8 +289,8 @@ not be more than one type, just as an animal cannot be more than one species.</p
 <h2>Dispositions<a class="headerlink" href="#dispositions" title="Permalink to this headline">¶</a></h2>
 <p>Organizations have dispositions which indicate the purposes organizations have.  An
 organization might have a disposition of <em>library</em> or <em>healthcare</em> or <em>military</em>.
-Dispositions are shown in <a class="reference internal" href="tab-dispositions.html#table-dispositions"><span class="std std-ref">Dispositions</span></a>  An organization may have any number of
-dispositions.</p>
+Dispositions are shown in <a class="reference internal" href="tab-dispositions.html#table-dispositions"><span class="std std-ref">Dispositions</span></a>  An organization may have any number
+of dispositions.</p>
 <p><a class="reference internal" href="#table-dispositions">Table Dispositions</a> lists the dispositions in the ORG ontology.</p>
 <span id="table-dispositions"></span><table class="docutils align-default" id="id9">
 <caption><span class="caption-text">Dispositions</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
@@ -421,7 +432,8 @@ which has a disposition of hospital.</p>
 </div>
 <div class="topic">
 <p class="topic-title">United States Navy</p>
-<p>The United States Navy is an organizational part with disposition of military.</p>
+<p>The United States Navy is an organization part of the US Department of Defense
+with disposition of military.</p>
 </div>
 <div class="topic">
 <p class="topic-title">BASF</p>
@@ -435,7 +447,8 @@ which has a disposition of hospital.</p>
 </dd>
 <dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
 <dd><p>The OBO community is having an on-going conversation about the subsumption of
-organization.  OBI defines organization as a material entity.  The VIVO Project disagrees with this
+organization.  OBI defines organization as a material entity.  The VIVO Project
+disagrees with this
 assertion, as organizations can not be weighed, put in a box, or otherwise measured as
 material entities.  Their generic reliance on people <em>and</em> documents/understandings of
 purpose seems to indicate that they are generically dependent on these components.</p>

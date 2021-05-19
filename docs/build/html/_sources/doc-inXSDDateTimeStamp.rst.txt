@@ -16,3 +16,7 @@ inXSDDateTimeStamp - in XSD Date-Time-Stamp
 
     Position of an instant, expressed using xsd:dateTimeStamp
 
+.. topic:: Imported From
+
+    http://www.w3.org/2006/time#2016
+

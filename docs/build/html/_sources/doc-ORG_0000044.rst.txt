@@ -1,0 +1,26 @@
+
+  .. _ORG_0000044:
+  .. _campus:
+  .. index:: 
+     single: ORG_0000044; campus
+     single: campus; ORG_0000044
+
+ORG_0000044 - campus
+====================================================================================
+
+.. topic:: Label
+
+    campus
+
+.. topic:: Definition
+
+    The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.
+
+.. topic:: Definition source
+
+    https://en.wiktionary.org/wiki/campus
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

@@ -323,6 +323,10 @@ skos:altLabel rdf:type owl:AnnotationProperty ;
               skos:example "Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept. Mis-spelled terms are normally included as hidden labels (see skos:hiddenLabel)."@en .
 
 
+###  http://www.w3.org/2004/02/skos/core#changeNote
+skos:changeNote rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#definition
 skos:definition rdf:type owl:AnnotationProperty ;
                 rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
@@ -335,6 +339,10 @@ skos:example rdf:type owl:AnnotationProperty ;
              rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
              rdfs:label "example"@en ;
              skos:definition "An example of the use of a concept."@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+skos:note rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#prefLabel
@@ -586,20 +594,14 @@ rdf:type rdf:type owl:ObjectProperty ;
          rdfs:comment "The subject is an instance of a class." ;
          rdfs:isDefinedBy rdf: ;
          rdfs:label "type" .
-         
-time:unitType
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment "The temporal unit which provides the precision of a date-time value or scale of a temporal extent"@en ;
-  rdfs:domain [
-      rdf:type owl:Class ;
-      owl:unionOf (
-          time:GeneralDateTimeDescription
-          time:Duration
-        ) ;
-    ] ;
-  rdfs:label "temporal unit type"@en ;
-  rdfs:range time:TemporalUnit ;
-.
+
+
+###  http://www.w3.org/2006/time#unitType
+time:unitType rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              obo:IAO_0000412 "http://www.w3.org/2006/time#2016"^^xsd:string ;
+              rdfs:comment "The temporal unit which provides the precision of a date-time value or scale of a temporal extent"@en ;
+              rdfs:label "temporal unit type"@en .
 
 
 #################################################################
@@ -621,43 +623,15 @@ obo:OBI_0002815 rdf:type owl:DatatypeProperty ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/obi/2020-08-24/obi.owl"^^xsd:string ;
                 dc:date "2019-07-14T07:05:50Z"^^xsd:dateTime ;
                 rdfs:label "has representation"@en .
-                
-time:inXSDDateTimeStamp
-  rdf:type owl:DatatypeProperty ;
-  rdfs:comment "Position of an instant, expressed using xsd:dateTimeStamp"@en ;
-  rdfs:domain time:Instant ;
-  rdfs:label "in XSD Date-Time-Stamp"@en ;
-  rdfs:range xsd:dateTimeStamp ;
-  skos:definition "Position of an instant, expressed using xsd:dateTimeStamp"@en ;
-.
 
-time:years
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "years in a time unit" .
-  
-time:months
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "months in a time unit" .
-  
-time:days
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "days in a time unit" .
-  
-time:hours
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "hours in a time unit" .
-  
-time:minutes
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "minutes in a time unit" .
-  
-time:weeks
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "weeks in a time unit" .
-  
-time:seconds
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "seconds in a time unit" .
+
+###  http://www.w3.org/2006/time#inXSDDateTimeStamp
+time:inXSDDateTimeStamp rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf owl:topDataProperty ;
+                        obo:IAO_0000412 "http://www.w3.org/2006/time#2016"^^xsd:string ;
+                        rdfs:comment "Position of an instant, expressed using xsd:dateTimeStamp"@en ;
+                        rdfs:label "in XSD Date-Time-Stamp"@en ;
+                        skos:definition "Position of an instant, expressed using xsd:dateTimeStamp"@en .
 
 
 #################################################################
@@ -932,74 +906,33 @@ obo:IAO_0000429 rdf:type owl:Class ;
 time:Instant rdf:type owl:Class ;
              rdfs:subClassOf obo:BFO_0000148 ;
              obo:IAO_0000412 "http://www.w3.org/2006/time#2016"^^xsd:string ;
-             rdfs:comment "A temporal entity with zero extent or duration"@en ,
-                          "Una entidad temporal con una extensión o duración cero."@es ;
+             rdfs:comment "A temporal entity with zero extent or duration"@en ;
              rdfs:label "Time instant"@en ;
-             skos:definition "A temporal entity with zero extent or duration"@en ,
-                             "Una entidad temporal con una extensión o duración cero."@es .
-                             
-time:TemporalUnit
-  rdf:type owl:Class;
-  rdfs:label "temporal unit"@en .
-  
-time:Duration
-  rdf:type owl:Class;
-  rdfs:label "temporal class"@en .
-  
-time:GeneralDateTimeDescription
-  rdf:type owl:Class ;
-  rdfs:label "general date time description"@en .
-  
+             skos:definition "A temporal entity with zero extent or duration"@en .
 
-                             
-time:unitYear
-  rdf:type time:TemporalUnit ;
-  rdfs:label "Year (unit of temporal duration)"@en ;
-  skos:prefLabel "1 년"@kr ;
-  skos:prefLabel "1年"@jp ;
-  skos:prefLabel "Jahr"@de ;
-  skos:prefLabel "Rok"@pl ;
-  skos:prefLabel "an"@fr ;
-  skos:prefLabel "anno"@it ;
-  skos:prefLabel "ano"@pt ;
-  skos:prefLabel "jaar"@nl ;
-  skos:prefLabel "un año"@es ;
-  skos:prefLabel "year"@en ;
-  skos:prefLabel "один год"@ru ;
-  skos:prefLabel "سنة واحدة"@ar ;
-  skos:prefLabel "一年"@zh ;
-  time:days "0"^^xsd:decimal ;
-  time:hours "0"^^xsd:decimal ;
-  time:minutes "0"^^xsd:decimal ;
-  time:months "0"^^xsd:decimal ;
-  time:seconds "0"^^xsd:decimal ;
-  time:weeks "0"^^xsd:decimal ;
-  time:years "1"^^xsd:decimal ;
-.
 
-time:unitMonth
-  rdf:type time:TemporalUnit ;
-  rdfs:label "Month (unit of temporal duration)"@en ;
-  skos:prefLabel "maand"@nl ;
-  skos:prefLabel "mes"@es ;
-  skos:prefLabel "mese"@it ;
-  skos:prefLabel "miesiąc"@pl ;
-  skos:prefLabel "mois"@fr ;
-  skos:prefLabel "monat"@de ;
-  skos:prefLabel "month"@en ;
-  skos:prefLabel "один месяц"@ru ;
-  skos:prefLabel "شهر واحد"@ar ;
-  skos:prefLabel "一か月"@jp ;
-  skos:prefLabel "一個月"@zh ;
-  skos:prefLabel "한달"@kr ;
-  time:days "0"^^xsd:decimal ;
-  time:hours "0"^^xsd:decimal ;
-  time:minutes "0"^^xsd:decimal ;
-  time:months "1"^^xsd:decimal ;
-  time:seconds "0"^^xsd:decimal ;
-  time:weeks "0"^^xsd:decimal ;
-  time:years "0"^^xsd:decimal ;
-.
+###  http://www.w3.org/2006/time#TemporalUnit
+time:TemporalUnit rdf:type owl:Class ;
+                  rdfs:subClassOf obo:BFO_0000038 ;
+                  obo:IAO_0000412 "http://www.w3.org/2006/time#2016"^^xsd:string ;
+                  rdfs:comment "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position."@en ;
+                  rdfs:label "Temporal unit"@en ;
+                  skos:changeNote """Remove enumeration from definition, in order to allow other units to be used when required in other coordinate systems. 
+NOTE: existing units are still present as members of the class, but the class membership is now open. 
+
+In the original OWL-Time the following constraint appeared: 
+  owl:oneOf (
+      time:unitSecond
+      time:unitMinute
+      time:unitHour
+      time:unitDay
+      time:unitWeek
+      time:unitMonth
+      time:unitYear
+    ) ;"""@en ;
+                  skos:definition "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position."@en ;
+                  skos:note "Membership of the class TemporalUnit is open, to allow for other temporal units used in some technical applications (e.g. millions of years, Baha'i month)."@en .
+                  
 time:unitDay
   rdf:type time:TemporalUnit ;
   rdfs:label "Day (unit of temporal duration)"@en ;
@@ -1015,13 +948,7 @@ time:unitDay
   skos:prefLabel "ある日"@jp ;
   skos:prefLabel "一天"@zh ;
   skos:prefLabel "언젠가"@kr ;
-  time:days "1"^^xsd:decimal ;
-  time:hours "0"^^xsd:decimal ;
-  time:minutes "0"^^xsd:decimal ;
-  time:months "0"^^xsd:decimal ;
-  time:seconds "0"^^xsd:decimal ;
-  time:weeks "0"^^xsd:decimal ;
-  time:years "0"^^xsd:decimal ;
+
 .
 time:unitHour
   rdf:type time:TemporalUnit ;
@@ -1039,13 +966,7 @@ time:unitHour
   skos:prefLabel "一小時"@zh ;
   skos:prefLabel "一時間"@jp ;
   skos:prefLabel "한 시간"@kr ;
-  time:days "0"^^xsd:decimal ;
-  time:hours "1"^^xsd:decimal ;
-  time:minutes "0"^^xsd:decimal ;
-  time:months "0"^^xsd:decimal ;
-  time:seconds "0"^^xsd:decimal ;
-  time:weeks "0"^^xsd:decimal ;
-  time:years "0"^^xsd:decimal ;
+ 
 .
 time:unitMinute
   rdf:type time:TemporalUnit ;
@@ -1063,13 +984,78 @@ time:unitMinute
   skos:prefLabel "一分"@jp ;
   skos:prefLabel "等一下"@zh ;
   skos:prefLabel "분"@kr ;
-  time:days "0"^^xsd:decimal ;
-  time:hours "0"^^xsd:decimal ;
-  time:minutes "1"^^xsd:decimal ;
-  time:months "0"^^xsd:decimal ;
-  time:seconds "0"^^xsd:decimal ;
-  time:weeks "0"^^xsd:decimal ;
-  time:years "0"^^xsd:decimal ;
+
+.
+time:unitMonth
+  rdf:type time:TemporalUnit ;
+  rdfs:label "Month (unit of temporal duration)"@en ;
+  skos:prefLabel "maand"@nl ;
+  skos:prefLabel "mes"@es ;
+  skos:prefLabel "mese"@it ;
+  skos:prefLabel "miesiąc"@pl ;
+  skos:prefLabel "mois"@fr ;
+  skos:prefLabel "monat"@de ;
+  skos:prefLabel "month"@en ;
+  skos:prefLabel "один месяц"@ru ;
+  skos:prefLabel "شهر واحد"@ar ;
+  skos:prefLabel "一か月"@jp ;
+  skos:prefLabel "一個月"@zh ;
+  skos:prefLabel "한달"@kr ;
+
+.
+time:unitSecond
+  rdf:type time:TemporalUnit ;
+  rdfs:label "Second (unit of temporal duration)"@en ;
+  skos:prefLabel "Sekunde"@de ;
+  skos:prefLabel "Sekundę"@pl ;
+  skos:prefLabel "second"@en ;
+  skos:prefLabel "seconde"@fr ;
+  skos:prefLabel "seconde"@nl ;
+  skos:prefLabel "secondo"@it ;
+  skos:prefLabel "segundo"@es ;
+  skos:prefLabel "segundo"@pt ;
+  skos:prefLabel "ثانية واحدة"@ar ;
+  skos:prefLabel "一秒"@jp ;
+  skos:prefLabel "一秒"@zh ;
+  skos:prefLabel "일초"@kr ;
+
+.
+
+time:unitWeek
+  rdf:type time:TemporalUnit ;
+  rdfs:label "Week (unit of temporal duration)"@en ;
+  skos:prefLabel "Woche"@de ;
+  skos:prefLabel "semaine"@fr ;
+  skos:prefLabel "semana"@es ;
+  skos:prefLabel "semana"@pt ;
+  skos:prefLabel "settimana"@it ;
+  skos:prefLabel "tydzień"@pl ;
+  skos:prefLabel "week"@en ;
+  skos:prefLabel "week"@nl ;
+  skos:prefLabel "одна неделя"@ru ;
+  skos:prefLabel "سبوع واحد"@ar ;
+  skos:prefLabel "一周"@zh ;
+  skos:prefLabel "一週間"@jp ;
+  skos:prefLabel "일주일"@kr ;
+
+.
+time:unitYear
+  rdf:type time:TemporalUnit ;
+  rdfs:label "Year (unit of temporal duration)"@en ;
+  skos:prefLabel "1 년"@kr ;
+  skos:prefLabel "1年"@jp ;
+  skos:prefLabel "Jahr"@de ;
+  skos:prefLabel "Rok"@pl ;
+  skos:prefLabel "an"@fr ;
+  skos:prefLabel "anno"@it ;
+  skos:prefLabel "ano"@pt ;
+  skos:prefLabel "jaar"@nl ;
+  skos:prefLabel "un año"@es ;
+  skos:prefLabel "year"@en ;
+  skos:prefLabel "один год"@ru ;
+  skos:prefLabel "سنة واحدة"@ar ;
+  skos:prefLabel "一年"@zh ;
+
 .
 
 

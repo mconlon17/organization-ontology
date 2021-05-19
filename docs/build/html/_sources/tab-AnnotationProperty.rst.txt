@@ -11,7 +11,7 @@
     ``IAO_0000111``      editor preferred term     The concise, meaningful, and human-friendly name
     ``IAO_0000112``      example of usage          A phrase describing how a term should be used an
     ``IAO_0000114``      has curation status       None
-    ``IAO_0000115``      textual definition        The official definition, explaining the meaning 
+    ``IAO_0000115``      definition                The official definition, explaining the meaning 
     ``IAO_0000116``      editor note               An administrative note intended for its editor. 
     ``IAO_0000117``      definition editor         Name of editor entering the term in the file. Th
     ``IAO_0000118``      alternative term          An alternative name for a class or property whic
@@ -38,8 +38,10 @@
     ``versionIRI``       versionIRI                None
     ``versionInfo``      versionInfo               None
     ``altLabel``         alternative label         None
+    ``changeNote``       None                      None
     ``definition``       (skos) definition         None
     ``example``          example                   None
+    ``note``             None                      None
     ``prefLabel``        preferred label           None
     ``scopeNote``        scope note                None
     ===================  ========================  ================================================

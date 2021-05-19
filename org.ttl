@@ -327,6 +327,10 @@ owl:versionInfo rdf:type owl:AnnotationProperty ;
                                                <http://www.w3.org/2004/02/skos/core#example> "Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept. Mis-spelled terms are normally included as hidden labels (see skos:hiddenLabel)."@en .
 
 
+###  http://www.w3.org/2004/02/skos/core#changeNote
+<http://www.w3.org/2004/02/skos/core#changeNote> rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty ;
                                                  rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
@@ -339,6 +343,10 @@ owl:versionInfo rdf:type owl:AnnotationProperty ;
                                               rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> ;
                                               rdfs:label "example"@en ;
                                               <http://www.w3.org/2004/02/skos/core#definition> "An example of the use of a concept."@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#prefLabel
@@ -639,12 +647,8 @@ rdf:type rdf:type owl:ObjectProperty ;
 
 ###  http://www.w3.org/2006/time#unitType
 <http://www.w3.org/2006/time#unitType> rdf:type owl:ObjectProperty ;
-                                       rdfs:domain [ rdf:type owl:Class ;
-                                                     owl:unionOf ( <http://www.w3.org/2006/time#Duration>
-                                                                   <http://www.w3.org/2006/time#GeneralDateTimeDescription>
-                                                                 )
-                                                   ] ;
-                                       rdfs:range <http://www.w3.org/2006/time#TemporalUnit> ;
+                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                       <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                        rdfs:comment "The temporal unit which provides the precision of a date-time value or scale of a temporal extent"@en ;
                                        rdfs:label "temporal unit type"@en .
 
@@ -724,48 +728,13 @@ rdf:type rdf:type owl:ObjectProperty ;
                                              rdfs:label "has geolocation representation"@en .
 
 
-###  http://www.w3.org/2006/time#days
-<http://www.w3.org/2006/time#days> rdf:type owl:DatatypeProperty ;
-                                   rdfs:label "days in a time unit" .
-
-
-###  http://www.w3.org/2006/time#hours
-<http://www.w3.org/2006/time#hours> rdf:type owl:DatatypeProperty ;
-                                    rdfs:label "hours in a time unit" .
-
-
 ###  http://www.w3.org/2006/time#inXSDDateTimeStamp
 <http://www.w3.org/2006/time#inXSDDateTimeStamp> rdf:type owl:DatatypeProperty ;
-                                                 rdfs:domain <http://www.w3.org/2006/time#Instant> ;
-                                                 rdfs:range xsd:dateTimeStamp ;
+                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                 <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                                  rdfs:comment "Position of an instant, expressed using xsd:dateTimeStamp"@en ;
                                                  rdfs:label "in XSD Date-Time-Stamp"@en ;
                                                  <http://www.w3.org/2004/02/skos/core#definition> "Position of an instant, expressed using xsd:dateTimeStamp"@en .
-
-
-###  http://www.w3.org/2006/time#minutes
-<http://www.w3.org/2006/time#minutes> rdf:type owl:DatatypeProperty ;
-                                      rdfs:label "minutes in a time unit" .
-
-
-###  http://www.w3.org/2006/time#months
-<http://www.w3.org/2006/time#months> rdf:type owl:DatatypeProperty ;
-                                     rdfs:label "months in a time unit" .
-
-
-###  http://www.w3.org/2006/time#seconds
-<http://www.w3.org/2006/time#seconds> rdf:type owl:DatatypeProperty ;
-                                      rdfs:label "seconds in a time unit" .
-
-
-###  http://www.w3.org/2006/time#weeks
-<http://www.w3.org/2006/time#weeks> rdf:type owl:DatatypeProperty ;
-                                    rdfs:label "weeks in a time unit" .
-
-
-###  http://www.w3.org/2006/time#years
-<http://www.w3.org/2006/time#years> rdf:type owl:DatatypeProperty ;
-                                    rdfs:label "years in a time unit" .
 
 
 #################################################################
@@ -1577,30 +1546,46 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "dissolution process boundary"@en .
 
 
-###  http://www.w3.org/2006/time#Duration
-<http://www.w3.org/2006/time#Duration> rdf:type owl:Class ;
-                                       rdfs:label "temporal class"@en .
-
-
-###  http://www.w3.org/2006/time#GeneralDateTimeDescription
-<http://www.w3.org/2006/time#GeneralDateTimeDescription> rdf:type owl:Class ;
-                                                         rdfs:label "general date time description"@en .
+###  http://purl.obolibrary.org/obo/ORG_0000044
+<http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000038> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wiktionary.org/wiki/campus"@en ;
+                                             rdfs:label "campus"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant
 <http://www.w3.org/2006/time#Instant> rdf:type owl:Class ;
                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000148> ;
                                       <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
-                                      rdfs:comment "A temporal entity with zero extent or duration"@en ,
-                                                   "Una entidad temporal con una extensión o duración cero."@es ;
+                                      rdfs:comment "A temporal entity with zero extent or duration"@en ;
                                       rdfs:label "Time instant"@en ;
-                                      <http://www.w3.org/2004/02/skos/core#definition> "A temporal entity with zero extent or duration"@en ,
-                                                                                       "Una entidad temporal con una extensión o duración cero."@es .
+                                      <http://www.w3.org/2004/02/skos/core#definition> "A temporal entity with zero extent or duration"@en .
 
 
 ###  http://www.w3.org/2006/time#TemporalUnit
 <http://www.w3.org/2006/time#TemporalUnit> rdf:type owl:Class ;
-                                           rdfs:label "temporal unit"@en .
+                                           rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000038> ;
+                                           <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
+                                           rdfs:comment "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position."@en ;
+                                           rdfs:label "Temporal unit"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#changeNote> """Remove enumeration from definition, in order to allow other units to be used when required in other coordinate systems. 
+NOTE: existing units are still present as members of the class, but the class membership is now open. 
+
+In the original OWL-Time the following constraint appeared: 
+  owl:oneOf (
+      time:unitSecond
+      time:unitMinute
+      time:unitHour
+      time:unitDay
+      time:unitWeek
+      time:unitMonth
+      time:unitYear
+    ) ;"""@en ;
+                                           <http://www.w3.org/2004/02/skos/core#definition> "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position."@en ;
+                                           <http://www.w3.org/2004/02/skos/core#note> "Membership of the class TemporalUnit is open, to allow for other temporal units used in some technical applications (e.g. millions of years, Baha'i month)."@en .
 
 
 #################################################################
@@ -1610,13 +1595,6 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://www.w3.org/2006/time#unitDay
 <http://www.w3.org/2006/time#unitDay> rdf:type owl:NamedIndividual ,
                                                <http://www.w3.org/2006/time#TemporalUnit> ;
-                                      <http://www.w3.org/2006/time#days> 1 ;
-                                      <http://www.w3.org/2006/time#hours> 0 ;
-                                      <http://www.w3.org/2006/time#minutes> 0 ;
-                                      <http://www.w3.org/2006/time#months> 0 ;
-                                      <http://www.w3.org/2006/time#seconds> 0 ;
-                                      <http://www.w3.org/2006/time#weeks> 0 ;
-                                      <http://www.w3.org/2006/time#years> 0 ;
                                       rdfs:label "Day (unit of temporal duration)"@en ;
                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Tag"@de ,
                                                                                       "dag"@nl ,
@@ -1635,13 +1613,6 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://www.w3.org/2006/time#unitHour
 <http://www.w3.org/2006/time#unitHour> rdf:type owl:NamedIndividual ,
                                                 <http://www.w3.org/2006/time#TemporalUnit> ;
-                                       <http://www.w3.org/2006/time#days> 0 ;
-                                       <http://www.w3.org/2006/time#hours> 1 ;
-                                       <http://www.w3.org/2006/time#minutes> 0 ;
-                                       <http://www.w3.org/2006/time#months> 0 ;
-                                       <http://www.w3.org/2006/time#seconds> 0 ;
-                                       <http://www.w3.org/2006/time#weeks> 0 ;
-                                       <http://www.w3.org/2006/time#years> 0 ;
                                        rdfs:label "Hour (unit of temporal duration)"@en ;
                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Stunde"@de ,
                                                                                        "godzina"@pl ,
@@ -1661,13 +1632,6 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://www.w3.org/2006/time#unitMinute
 <http://www.w3.org/2006/time#unitMinute> rdf:type owl:NamedIndividual ,
                                                   <http://www.w3.org/2006/time#TemporalUnit> ;
-                                         <http://www.w3.org/2006/time#days> 0 ;
-                                         <http://www.w3.org/2006/time#hours> 0 ;
-                                         <http://www.w3.org/2006/time#minutes> 1 ;
-                                         <http://www.w3.org/2006/time#months> 0 ;
-                                         <http://www.w3.org/2006/time#seconds> 0 ;
-                                         <http://www.w3.org/2006/time#weeks> 0 ;
-                                         <http://www.w3.org/2006/time#years> 0 ;
                                          rdfs:label "Minute (unit of temporal duration)"@en ;
                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Minute"@de ,
                                                                                          "minuta"@pl ,
@@ -1687,13 +1651,6 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://www.w3.org/2006/time#unitMonth
 <http://www.w3.org/2006/time#unitMonth> rdf:type owl:NamedIndividual ,
                                                  <http://www.w3.org/2006/time#TemporalUnit> ;
-                                        <http://www.w3.org/2006/time#days> 0 ;
-                                        <http://www.w3.org/2006/time#hours> 0 ;
-                                        <http://www.w3.org/2006/time#minutes> 0 ;
-                                        <http://www.w3.org/2006/time#months> 1 ;
-                                        <http://www.w3.org/2006/time#seconds> 0 ;
-                                        <http://www.w3.org/2006/time#weeks> 0 ;
-                                        <http://www.w3.org/2006/time#years> 0 ;
                                         rdfs:label "Month (unit of temporal duration)"@en ;
                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "maand"@nl ,
                                                                                         "mes"@es ,
@@ -1709,16 +1666,46 @@ Previous. An information content entity is a non-realizable information entity t
                                                                                         "한달"@kr .
 
 
+###  http://www.w3.org/2006/time#unitSecond
+<http://www.w3.org/2006/time#unitSecond> rdf:type owl:NamedIndividual ,
+                                                  <http://www.w3.org/2006/time#TemporalUnit> ;
+                                         rdfs:label "Second (unit of temporal duration)"@en ;
+                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Sekunde"@de ,
+                                                                                         "Sekundę"@pl ,
+                                                                                         "second"@en ,
+                                                                                         "seconde"@fr ,
+                                                                                         "seconde"@nl ,
+                                                                                         "secondo"@it ,
+                                                                                         "segundo"@es ,
+                                                                                         "segundo"@pt ,
+                                                                                         "ثانية واحدة"@ar ,
+                                                                                         "一秒"@jp ,
+                                                                                         "一秒"@zh ,
+                                                                                         "일초"@kr .
+
+
+###  http://www.w3.org/2006/time#unitWeek
+<http://www.w3.org/2006/time#unitWeek> rdf:type owl:NamedIndividual ,
+                                                <http://www.w3.org/2006/time#TemporalUnit> ;
+                                       rdfs:label "Week (unit of temporal duration)"@en ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Woche"@de ,
+                                                                                       "semaine"@fr ,
+                                                                                       "semana"@es ,
+                                                                                       "semana"@pt ,
+                                                                                       "settimana"@it ,
+                                                                                       "tydzień"@pl ,
+                                                                                       "week"@en ,
+                                                                                       "week"@nl ,
+                                                                                       "одна неделя"@ru ,
+                                                                                       "سبوع واحد"@ar ,
+                                                                                       "一周"@zh ,
+                                                                                       "一週間"@jp ,
+                                                                                       "일주일"@kr .
+
+
 ###  http://www.w3.org/2006/time#unitYear
 <http://www.w3.org/2006/time#unitYear> rdf:type owl:NamedIndividual ,
                                                 <http://www.w3.org/2006/time#TemporalUnit> ;
-                                       <http://www.w3.org/2006/time#days> 0 ;
-                                       <http://www.w3.org/2006/time#hours> 0 ;
-                                       <http://www.w3.org/2006/time#minutes> 0 ;
-                                       <http://www.w3.org/2006/time#months> 0 ;
-                                       <http://www.w3.org/2006/time#seconds> 0 ;
-                                       <http://www.w3.org/2006/time#weeks> 0 ;
-                                       <http://www.w3.org/2006/time#years> 1 ;
                                        rdfs:label "Year (unit of temporal duration)"@en ;
                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "1 년"@kr ,
                                                                                        "1年"@jp ,

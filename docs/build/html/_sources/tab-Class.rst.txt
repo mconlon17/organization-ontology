@@ -68,8 +68,7 @@
     ``ORG_0000041``      founding process boundar  The process boundary which defines the moment of
     ``ORG_0000042``      dissolution process       The process by which an organization no longer e
     ``ORG_0000043``      dissolution process boun  The process boundary which marks the moment at w
-    ``Duration``         temporal class            None
-    ``GeneralDateTimeDe  general date time descri  None
+    ``ORG_0000044``      campus                    The geographic location consisting of the  groun
     ``Instant``          Time instant              None
-    ``TemporalUnit``     temporal unit             None
+    ``TemporalUnit``     Temporal unit             None
     ===================  ========================  ================================================
