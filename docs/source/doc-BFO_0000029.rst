@@ -14,7 +14,13 @@ BFO_0000029 - site
 
 .. topic:: Example
 
-    Manhattan Canyon)
+    the Piazza San Marco
+
+    the interior of the trunk of your car
+
+    the interior of your refrigerator
+
+    the Grand Canyon
 
     your left nostril (a fiat part – the opening – of your left nasal cavity)
 
@@ -22,27 +28,21 @@ BFO_0000029 - site
 
     the cockpit of an aircraft
 
-    the Piazza San Marco
-
-    a hole in the interior of a portion of cheese
-
-    the interior of the trunk of your car
-
     the interior of your office
-
-    the interior of your refrigerator
-
-    a rabbit hole
-
-    the Grand Canyon
-
-    the interior of a kangaroo pouch
 
     the lumen of your gut
 
     the interior of your bedroom
 
+    the interior of a kangaroo pouch
+
     an air traffic control region defined in the airspace above an airport
+
+    Manhattan Canyon)
+
+    a rabbit hole
+
+    a hole in the interior of a portion of cheese
 
 .. topic:: Imported From
 

@@ -34,7 +34,7 @@ Types of Facilities
  - building
  - campus
  
-Perhaps we do do not need more than these to start.
+Perhaps we do not need more than these to start.
 
 Properties of Facilities
 ------------------------

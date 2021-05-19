@@ -12,18 +12,6 @@ BFO_0000031 - generically dependent continuant
 
     generically dependent continuant
 
-.. topic:: SKOS Preferred Label
-
-    generically dependent continuant
-
-.. topic:: SKOS Definition
-
-    (Elucidation) a generically dependent continuant is an entity that exists in virtue of the fact that there is at least one of what may be multiple copies; it is the content or the pattern that the multiple copies share
-
-.. topic:: SKOS Example
-
-    The pdf file on your laptop, the pdf file that is a copy thereof on my laptop; the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule; the content that is shared by a string of dots and dashes written on a page and the transmitted Morse code signal; the content of a sentence; an engineering blueprint.
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

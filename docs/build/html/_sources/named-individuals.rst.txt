@@ -6,7 +6,7 @@ non-profit, a government agency, a date, and a role in a project are all named i
 .. include:: toc-NamedIndividual.rst
 
 All Named Individuals
------------------
+---------------------
 
 `Table NamedIndividual`_ lists all the named individuals in the ORG ontology.
  

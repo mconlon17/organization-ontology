@@ -1,20 +1,20 @@
 
   .. _IAO_0000117:
-  .. _definition editor:
+  .. _term editor:
   .. index:: 
-     single: IAO_0000117; definition editor
-     single: definition editor; IAO_0000117
+     single: IAO_0000117; term editor
+     single: term editor; IAO_0000117
 
-IAO_0000117 - definition editor
+IAO_0000117 - term editor
 ====================================================================================
 
 .. topic:: Label
 
     definition editor
 
-    term editor
-
     definition editor
+
+    term editor
 
 .. topic:: Definition
 

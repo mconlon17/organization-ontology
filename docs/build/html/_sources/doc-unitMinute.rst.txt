@@ -12,31 +12,3 @@ unitMinute - Minute (unit of temporal duration)
 
     Minute (unit of temporal duration)
 
-.. topic:: SKOS Preferred Label
-
-    minuta
-
-    minuto
-
-    minuto
-
-    一分
-
-    minuto
-
-    دقيقة واحدة
-
-    분
-
-    minuut
-
-    等一下
-
-    одна минута
-
-    Minute
-
-    minute
-
-    minute
-

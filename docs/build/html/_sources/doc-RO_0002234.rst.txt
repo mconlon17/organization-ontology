@@ -12,10 +12,6 @@ RO_0002234 - has output
 
     has output
 
-.. topic:: Alternate name
-
-    produces
-
 .. topic:: Definition
 
     p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.

@@ -12,12 +12,6 @@ RO_0000053 - bearer of
 
     bearer of
 
-.. topic:: Alternate name
-
-    is bearer of
-
-    bearer_of
-
 .. topic:: Definition
 
     A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence

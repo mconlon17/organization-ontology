@@ -12,18 +12,6 @@ BFO_0000002 - continuant
 
     continuant
 
-.. topic:: SKOS Preferred Label
-
-    continuant
-
-.. topic:: SKOS Definition
-
-    (Elucidation) A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity
-
-.. topic:: SKOS Example
-
-    A human being, a tennis ball, a cave, a region of space, someone's temperature.
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

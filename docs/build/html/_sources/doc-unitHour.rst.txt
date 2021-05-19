@@ -12,31 +12,3 @@ unitHour - Hour (unit of temporal duration)
 
     Hour (unit of temporal duration)
 
-.. topic:: SKOS Preferred Label
-
-    uur
-
-    한 시간
-
-    ساعة واحدة
-
-    hour
-
-    一時間
-
-    Stunde
-
-    一小時
-
-    hora
-
-    heure
-
-    ora
-
-    hora
-
-    один час"@ru
-
-    godzina
-

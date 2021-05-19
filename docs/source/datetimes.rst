@@ -43,9 +43,7 @@ a time precision.
 .. figure:: ../img/general-time-pattern.png
     :alt: General time pattern  Organization -> Process -> Process Boundary -> Instant -> Instant Representation
 
-    Figure 3
-    
-    General time pattern.  An organization is the output of a founding process
+    Figure 3.  General time pattern.  An organization is the output of a founding process.
     
 *Implementation note:*  The colors in the figure represent dependency of entities.  The 
 dark blue organization is the

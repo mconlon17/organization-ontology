@@ -12,10 +12,6 @@ inXSDDateTimeStamp - in XSD Date-Time-Stamp
 
     in XSD Date-Time-Stamp
 
-.. topic:: SKOS Definition
-
-    Position of an instant, expressed using xsd:dateTimeStamp
-
 .. topic:: Imported From
 
     http://www.w3.org/2006/time#2016

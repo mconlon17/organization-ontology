@@ -12,18 +12,6 @@ BFO_0000008 - temporal region
 
     temporal region
 
-.. topic:: SKOS Preferred Label
-
-    temporal region
-
-.. topic:: SKOS Definition
-
-    (Elucidation) A temporal region is an occurrent over which processes can unfold
-
-.. topic:: SKOS Example
-
-    As for zero-dimensional temporal region and one-dimensional temporal region.
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

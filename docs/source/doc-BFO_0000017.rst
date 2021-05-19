@@ -12,18 +12,6 @@ BFO_0000017 - realizable entity
 
     realizable entity
 
-.. topic:: SKOS Preferred Label
-
-    realizable entity
-
-.. topic:: SKOS Definition
-
-    (Elucidation) b is a realizable entity means: b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type some instances of which are realized in processes of a correlated type
-
-.. topic:: SKOS Example
-
-    The role of being a doctor, the role of this boundary to delineate where Utah and Colorado meet, the function of your reproductive organs, the disposition of your blood to coagulate, the disposition of this piece of metal to conduct electricity.
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

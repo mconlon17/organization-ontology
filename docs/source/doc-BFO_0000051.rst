@@ -12,19 +12,15 @@ BFO_0000051 - has part
 
     has part
 
-.. topic:: Alternate name
-
-    has_part
-
 .. topic:: Definition
 
     A core relation that holds between a whole and its part
 
 .. topic:: Example
 
-    my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)
-
     this year has part this day (occurrent parthood)
+
+    my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)
 
     my body has part my brain (continuant parthood, two material entities)
 

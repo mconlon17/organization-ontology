@@ -12,31 +12,3 @@ unitYear - Year (unit of temporal duration)
 
     Year (unit of temporal duration)
 
-.. topic:: SKOS Preferred Label
-
-    سنة واحدة
-
-    anno
-
-    Jahr
-
-    1 년
-
-    jaar
-
-    Rok
-
-    year
-
-    un año
-
-    1年
-
-    an
-
-    один год
-
-    ano
-
-    一年
-

@@ -12,29 +12,3 @@ unitMonth - Month (unit of temporal duration)
 
     Month (unit of temporal duration)
 
-.. topic:: SKOS Preferred Label
-
-    miesiąc
-
-    один месяц
-
-    mois
-
-    monat
-
-    mes
-
-    mese
-
-    한달
-
-    maand
-
-    一個月
-
-    month
-
-    一か月
-
-    شهر واحد
-

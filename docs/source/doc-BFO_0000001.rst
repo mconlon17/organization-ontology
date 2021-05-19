@@ -12,18 +12,6 @@ BFO_0000001 - entity
 
     entity
 
-.. topic:: SKOS Preferred Label
-
-    entity
-
-.. topic:: SKOS Definition
-
-    (Elucidation) An entity is anything that exists or has existed or will exist
-
-.. topic:: SKOS Example
-
-    Julius Caesar, the Second World War, your body mass index, Verdi's Requiem.
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

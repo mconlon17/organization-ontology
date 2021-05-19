@@ -29,7 +29,7 @@ Research Organization Registry (ROR) Data
 -----------------------------------------
 
 The Organization Ontology is designed to insure it can represent 
-the `Research Organization Registry <http://ror.org>`_ data. ROR is a curated, CC0 
+ `Research Organization Registry <http://ror.org>`_ data. ROR is a curated, CC0 
 collection of facts regarding over 90,000 research organizations in the world. The
 Organization Ontology can represent these facts for use in graph-based systems such
 as VIVO.
@@ -71,9 +71,9 @@ List of Tables
 List of Figures
 ---------------
 
-- :ref:`Figure 1`
-- :ref:`Figure 2`
-- :ref:`Figure 3`
+- :ref:`Figure 1 Representation of organizations <Figure 1>`
+- :ref:`Figure 2 Types of Organizations <Figure 2>`
+- :ref:`Figure 3 Representation of dates and times <Figure 3>`
    
 Glossary and Index
 ------------------

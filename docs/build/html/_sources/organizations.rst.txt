@@ -33,10 +33,8 @@ An overview of the classes and properties follows the figure.
 .. figure:: ../img/org-overview.png
     :alt: Representation of organizations in ORG.  A complex ball and stick diagram
 
-    Figure 1
-    
-    Representation of organizations.  The organization of interest is at the center of the
-    figure.  See notes below.
+    Figure 1.  Representation of organizations.  The organization of interest is at the 
+    center of the figure.  See notes below.
     
 At the center of the figure note that an organization has a name (rdfs:label).
 
@@ -100,17 +98,15 @@ not be more than one type, just as an animal cannot be more than one species.
     ORG_0000006  organization part        An organization which is a part of another organization
     ===========  =======================  ===========================================================
     
-:ref:`Figure 2` shows the classes and properties used to represent organizations in ORG.
+:ref:`Figure 2` shows the subsumption hierarchy for organization and its subclasses.
 
 .. _Figure 2:
 
 .. figure:: ../img/org-types.png
     :alt: Types of organizations.  A simple ball and stick diagram
 
-    Figure 2
-    
-    Subclasses of organization and subsumption hierarchy.  The subclasses are mutually 
-    exclusive.
+    Figure 2.  Subclasses of organization and subsumption hierarchy.  The subclasses are 
+    mutually exclusive.
 
 Dispositions
 ------------

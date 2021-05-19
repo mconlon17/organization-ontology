@@ -12,29 +12,3 @@ unitSecond - Second (unit of temporal duration)
 
     Second (unit of temporal duration)
 
-.. topic:: SKOS Preferred Label
-
-    seconde
-
-    secondo
-
-    Sekundę
-
-    second
-
-    ثانية واحدة
-
-    一秒
-
-    segundo
-
-    一秒
-
-    seconde
-
-    Sekunde
-
-    일초
-
-    segundo
-

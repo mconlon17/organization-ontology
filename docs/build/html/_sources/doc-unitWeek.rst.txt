@@ -12,31 +12,3 @@ unitWeek - Week (unit of temporal duration)
 
     Week (unit of temporal duration)
 
-.. topic:: SKOS Preferred Label
-
-    一週間
-
-    settimana
-
-    Woche
-
-    一周
-
-    tydzień
-
-    одна неделя
-
-    week
-
-    semaine
-
-    일주일
-
-    semana
-
-    سبوع واحد
-
-    week
-
-    semana
-

@@ -12,18 +12,6 @@ BFO_0000003 - occurrent
 
     occurrent
 
-.. topic:: SKOS Preferred Label
-
-    occurrent
-
-.. topic:: SKOS Definition
-
-    (Elucidation) An occurrent is an entity that unfolds itself in time or it is the start or end of such an entity or it is a temporal or spatiotemporal region
-
-.. topic:: SKOS Example
-
-    As for process, history, process boundary, spatiotemporal region, zero-dimensional temporal region, one-dimensional temporal region, temporal interval, temporal instant.
-
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

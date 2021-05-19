@@ -12,10 +12,6 @@ RO_0001015 - location of
 
     location of
 
-.. topic:: Alternate name
-
-    location_of
-
 .. topic:: Definition
 
     a relation between two independent continuants, the location and the target, in which the target is entirely within the location

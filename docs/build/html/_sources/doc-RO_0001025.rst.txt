@@ -12,19 +12,15 @@ RO_0001025 - located in
 
     located in
 
-.. topic:: Alternate name
-
-    located_in
-
 .. topic:: Definition
 
     a relation between two independent continuants, the target and the location, in which the target is entirely within the location
 
 .. topic:: Example
 
-    my brain is located in my head
-
     this rat is located in this cage
+
+    my brain is located in my head
 
 .. topic:: Editor's note
 

@@ -12,29 +12,3 @@ unitDay - Day (unit of temporal duration)
 
     Day (unit of temporal duration)
 
-.. topic:: SKOS Preferred Label
-
-    Tag
-
-    jour
-
-    언젠가
-
-    一天
-
-    يوماً ما
-
-    ある日
-
-    día
-
-    dag
-
-    giorno
-
-    dia
-
-    doba
-
-    day
-

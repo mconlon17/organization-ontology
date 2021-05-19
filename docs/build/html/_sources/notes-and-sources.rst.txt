@@ -35,7 +35,7 @@ References
    Jan 4;45(D1):D347-D352. PMID: 27733503. PMCID: PMC5210626.
 
 .. [VOIG2021] VIVO Ontology Interest Group (2021) Early Thoughts on the representation
-   of organzations in VIVO.  on-line.  http://bit.ly/2EhMdPq
+   of organizations in VIVO.  on-line.  http://bit.ly/2EhMdPq
    
 .. [Musen2015] Musen, M.A. The Protégé project: A look back and a look forward. AI Matters. 
    Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 

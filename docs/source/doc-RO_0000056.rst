@@ -12,19 +12,15 @@ RO_0000056 - participates in
 
     participates in
 
-.. topic:: Alternate name
-
-    participates_in
-
 .. topic:: Definition
 
     A relation between a continuant and a process, in which the continuant is somehow involved in the process
 
 .. topic:: Example
 
-    this investigator participates in this investigation
-
     this blood clot participates in this blood coagulation
+
+    this investigator participates in this investigation
 
     this input material (or this output material) participates in this process
 
