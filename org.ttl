@@ -529,6 +529,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000001
 <http://purl.obolibrary.org/obo/BFO_0000001> rdf:type owl:Class ;
                                              rdfs:subClassOf owl:Thing ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The fundamental thing that has existence. All things that exist are entities."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "entity"@en .
 
@@ -536,6 +537,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000002
 <http://purl.obolibrary.org/obo/BFO_0000002> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An entity which has existence in time"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "continuant"@en .
 
@@ -543,6 +545,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000003
 <http://purl.obolibrary.org/obo/BFO_0000003> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An entity which occurs in time"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "occurrent"@en .
 
@@ -569,6 +572,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000008
 <http://purl.obolibrary.org/obo/BFO_0000008> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An occurent which is some part of time"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "temporal region"@en .
 
@@ -576,6 +580,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000015
 <http://purl.obolibrary.org/obo/BFO_0000015> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "P is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/083-003]"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "process"@en .
 
@@ -583,6 +588,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000016
 <http://purl.obolibrary.org/obo/BFO_0000016> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000017> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A realizable entity that presents in a continuant"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "disposition"@en .
 
@@ -590,6 +596,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000017
 <http://purl.obolibrary.org/obo/BFO_0000017> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "realizable entity"@en .
 
@@ -597,6 +604,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000020
 <http://purl.obolibrary.org/obo/BFO_0000020> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000002> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "B is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/050-003]"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "specifically dependent continuant"@en .
 
@@ -619,6 +627,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                                                                           "the interior of your refrigerator"@en ,
                                                                                           "the lumen of your gut"@en ,
                                                                                           "your left nostril (a fiat part – the opening – of your left nasal cavity)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "B is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
                                              rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
                                              rdfs:label "site"@en .
@@ -627,6 +636,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000031
 <http://purl.obolibrary.org/obo/BFO_0000031> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000002> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "B is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/074-001]"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "generically dependent continuant"@en .
 
@@ -634,6 +644,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000035
 <http://purl.obolibrary.org/obo/BFO_0000035> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "P is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/084-001]"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "process boundary"@en .
 
@@ -641,6 +652,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/BFO_0000038
 <http://purl.obolibrary.org/obo/BFO_0000038> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000008> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A one-dimensional temporal region is a temporal region that is extended. (axiom label in BFO2 Reference: [103-001])"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "one-dimensional temporal region"@en .
 
@@ -660,6 +672,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                                                                           "an energy wave"@en ,
                                                                                           "an epidemic"@en ,
                                                                                           "the undetached arm of a human being"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en ,
                                                                                           "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en ,
                                                                                           "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en ;
