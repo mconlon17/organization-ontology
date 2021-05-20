@@ -12,6 +12,10 @@ BFO_0000148 - zero-dimensional temporal region
 
     zero-dimensional temporal region
 
+.. topic:: Definition
+
+    A temporal region of no duration.
+
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

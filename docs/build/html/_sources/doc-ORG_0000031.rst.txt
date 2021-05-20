@@ -14,7 +14,7 @@ ORG_0000031 - information address disposition
 
 .. topic:: Definition
 
-    A dispositon of an information content entity denoted by an address which has the purpose of responding to information inquiries
+    A disposition of an information content entity denoted by an address which has the purpose of responding to information inquiries
 
 .. topic:: Definition source
 

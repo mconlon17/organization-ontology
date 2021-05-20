@@ -12,6 +12,10 @@ BFO_0000002 - continuant
 
     continuant
 
+.. topic:: Definition
+
+    An entity which has existence in time
+
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

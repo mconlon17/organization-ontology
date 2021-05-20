@@ -12,6 +12,10 @@ BFO_0000003 - occurrent
 
     occurrent
 
+.. topic:: Definition
+
+    An entity which occurs in time
+
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

@@ -470,7 +470,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Email addresses that begin help@ info@ contact@ often have information address address disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A dispositon of an information content entity denoted by an address which has the purpose of responding to information inquiries"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an information content entity denoted by an address which has the purpose of responding to information inquiries"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "information address disposition"@en .
@@ -628,6 +628,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000044
 <http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000038> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The campus of Oxford University, the campus of Microsoft in Redmonda, Washington, the NIH campus in Bethesda, Maryland."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;

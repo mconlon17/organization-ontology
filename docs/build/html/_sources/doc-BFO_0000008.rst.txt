@@ -12,6 +12,10 @@ BFO_0000008 - temporal region
 
     temporal region
 
+.. topic:: Definition
+
+    An occurent which is some part of time
+
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

@@ -12,6 +12,10 @@ BFO_0000016 - disposition
 
     disposition
 
+.. topic:: Definition
+
+    A realizable entity that presents in a continuant
+
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

@@ -10,9 +10,30 @@ status.  To assert that a term's metadata is complete, the assertion is:
     <term> IAO:0000114 IAO_0000120
     
 Alternative terms (IAO_0000118) are not common in the VIVO ontologies.  All other
-annotations are expected for all terms.  
+annotations are expected for all terms.
 
-.. include:: toc-AnnotationProperty.rst
+.. include:: toc-AnnotationProperty.txt
+
+.. _Table 8:
+
+.. table:: Table 8 All Annotation Properties
+
+    ===================  ========================  ================================================
+    Term ID              Label                     Definition
+    ===================  ========================  ================================================
+    ``IAO_0000111``      editor preferred term     The concise, meaningful, and human-friendly name
+    ``IAO_0000112``      example of usage          A phrase describing how a term should be used an
+    ``IAO_0000114``      has curation status       A specification of the state of the metadata for
+    ``IAO_0000115``      definition                The official definition, explaining the meaning 
+    ``IAO_0000116``      editor note               An administrative note intended for its editor. 
+    ``IAO_0000117``      term editor               Name of editor entering the term in the file. Th
+    ``IAO_0000118``      alternative term          An alternative name for a class or property whic
+    ``IAO_0000119``      definition source         Formal citation, e.g. identifier in external dat
+    ``IAO_0000232``      curator note              An administrative note of use for a curator but 
+    ``IAO_0000233``      term tracker item         An IRI or similar locator for a request or discu
+    ``IAO_0000412``      imported from             For external terms/classes, the ontology from wh
+    ``ORG_1000001``      organization annotation   This is a demo
+    ===================  ========================  ================================================
 
 .. _Table 5:
 
@@ -90,11 +111,3 @@ properties describe above in :ref:`Table 5`.
 ``skos:example``
 ``skos:prefLabel``
 ``skos:scopeNote``
-
-
-All Annotation Properties
--------------------------
-
-`Table AnnotationProperty`_ lists all the annotation properties in the ORG ontology.
-
-.. include:: tab-AnnotationProperty.rst

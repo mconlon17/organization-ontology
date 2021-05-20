@@ -14,15 +14,15 @@ OBI_0002815 - has representation
 
 .. topic:: Definition
 
-    'has representation' is a data property that attaches between an information content entity and a value that contains linguistically or computationally coded text.
+    Define 'has representation' is a data property that attaches between an information content entity and a value that contains linguistically or computationally coded text.
 
 .. topic:: Example
 
     I feel sick to my stomach every Tuesday
 
-    12th arrondissement of Paris
-
     20g
+
+    12th arrondissement of Paris
 
 .. topic:: Editor's note
 

@@ -12,15 +12,19 @@ IAO_0000114 - has curation status
 
     has curation status
 
+.. topic:: Definition
+
+    A specification of the state of the metadata for a term
+
 .. topic:: Definition source
 
     OBI_0000281
 
 .. topic:: Term editor
 
+    PERSON:Alan Ruttenberg
+
     PERSON:Bill Bug
 
     PERSON:Melanie Courtot
-
-    PERSON:Alan Ruttenberg
 

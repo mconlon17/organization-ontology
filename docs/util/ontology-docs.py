@@ -10,10 +10,8 @@
     2. tables of term types and tables of dispositions
     3. pages for each term
     
-    TODO:  All tables made by one function
-           Table entries link to pages
+    TODO:  Table entries link to pages
            Table column width determined by contents
-           Clarify three functions -- write pages, generate tables, generate TOC
 """
 
 from rdflib import Graph, Literal, Namespace, URIRef
@@ -30,15 +28,11 @@ OWL = Namespace('http://www.w3.org/2002/07/owl#')
 g = Graph()
 
 header = """
-.. _Table {}:
+    ======================  ========================  ================================================
+    Term ID                 Label                     Definition
+    ======================  ========================  ================================================"""
 
-.. table:: {}
-
-    ===================  ========================  ================================================
-    Term ID              Label                     Definition
-    ===================  ========================  ================================================"""
-
-trailer = "    ===================  ========================  ================================================"
+trailer = "    ======================  ========================  ================================================"
 
 toc_header ="""
 .. toctree::
@@ -131,7 +125,7 @@ def term_table(file_name, term_label, predicate, object):
 	# the predicate and object
 	
 	f = open(file_name, "w")	
-	print(header.format(term_label, term_label), file=f)
+	print(header, file=f)
 	
 	for term_uri in sorted(g.subjects(predicate, object)):
 		
@@ -149,29 +143,38 @@ def term_table(file_name, term_label, predicate, object):
 			definition = rdefinition
 			
 		term_name_str = '``'+term_name_str+'``'
-		print('   ',term_name_str[0:19].ljust(20," "),label[0:24].ljust(25," "), definition[0:48], file=f)
+		print('   ',term_name_str[0:22].ljust(23," "),label[0:24].ljust(25," "), definition[0:48], file=f)
 		
 	print(trailer, file=f)
 	f.close()
 	return
+	
+def toc_table(term_type):
+
+	# Given term type, write a toc file of all the terms of the given type
+	
+	term_name_str = term_name(term_type)[term_name(term_type).rfind(':')+1:]		
+	toc = open('../source/toc-' + term_name_str + '.txt', 'w')		
+	print(toc_header, file=toc)
+	
+	for term_uri in sorted(g.subjects(RDF.type, term_type)):
+		if str(term_uri)[0] != 'h':  # skip blank nodes
+			continue
+		term_name_str = term_name(term_uri)[term_name(term_uri).rfind(':')+1:]
+		print('   doc-' + term_name_str, file=toc)
+		       		
+	toc.close()
 
 def main():
-	g.parse("../../org.ttl", format="ttl")
-	print(len(g))
+	ontology_path = "../../org.ttl"
+	g.parse(ontology_path, format="ttl")
+	print(len(g), 'triples in', ontology_path)
+	
+	# Write term pages
 
 	for term_type in [OWL.Class, OWL.AnnotationProperty, OWL.ObjectProperty, 
 	    OWL.DatatypeProperty, OWL.NamedIndividual]:
-	
-		term_name_str = term_name(term_type)[term_name(term_type).rfind(':')+1:]
-    
-		f = open('../source/tab-' + term_name_str+'.rst', "w")
-		
-		toc = open('../source/toc-' + term_name_str + '.rst', 'w')
-    	    
-		print(header.format(term_name_str, term_name_str), file=f)
-		
-		print(toc_header, file=toc)
-        
+	    
 		for term_uri in sorted(g.subjects(RDF.type, term_type)):
 			
 			if str(term_uri)[0] != 'h':  # skip blank nodes
@@ -179,25 +182,23 @@ def main():
 				
 			write_term_page(term_uri)
 			
-			term_name_str = term_name(term_uri)[term_name(term_uri).rfind(':')+1:]
-			print('   doc-' + term_name_str, file=toc)
-				
-			label = "None"
-			for rlabel in g.objects(term_uri, RDFS.label):
-				label = rlabel
-				
-			definition = "None"
-			for rdefinition in g.objects(term_uri, OBO.IAO_0000115):
-				definition = rdefinition
-				
-			term_name_str = '``'+term_name_str+'``'
-			print('   ',term_name_str[0:19].ljust(20," "),label[0:24].ljust(25," "), definition[0:48], file=f)
-			
-		print(trailer, file=f)            
-		f.close()
-		toc.close()
+	# Write tables of contents
+	
+	toc_table(OWL.Class)
+	toc_table(OWL.AnnotationProperty)
+	toc_table(OWL.ObjectProperty)
+	toc_table(OWL.DatatypeProperty)
+	toc_table(OWL.NamedIndividual)
+	
+	# Write term tables
 		
-	term_table("../source/tab-dispositions.rst", "Dispositions", RDFS.subClassOf, OBO.BFO_0000016) # Dispositions
+	term_table("../source/tab-all-dispositions.txt", "Dispositions", RDFS.subClassOf, OBO.BFO_0000016) # Dispositions
+	term_table("../source/tab-all-classes.txt", "Classes", RDF.type, OWL.Class)
+	term_table("../source/tab-all-annotation-properties.txt", "Annotation Properties", RDF.type, OWL.AnnotationProperty)
+	term_table("../source/tab-all-object-properties.txt", "Object Properties", RDF.type, OWL.ObjectProperty)
+	term_table("../source/tab-all-datatype-properties.txt", "Datatype Properties", RDF.type, OWL.DatatypeProperty)
+	term_table("../source/tab-all-named-individuals.txt", "Named Individuals", RDF.type, OWL.NamedIndividual)
+	
 	return
 
 if __name__ == "__main__":

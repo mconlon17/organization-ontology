@@ -20,6 +20,10 @@ ORG_0000044 - campus
 
     https://en.wiktionary.org/wiki/campus
 
+.. topic:: Example
+
+    The campus of Oxford University, the campus of Microsoft in Redmonda, Washington, the NIH campus in Bethesda, Maryland.
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

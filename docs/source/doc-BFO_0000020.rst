@@ -12,6 +12,10 @@ BFO_0000020 - specifically dependent continuant
 
     specifically dependent continuant
 
+.. topic:: Definition
+
+    B is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/050-003]
+
 .. topic:: Imported From
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl

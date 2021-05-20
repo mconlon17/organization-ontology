@@ -12,6 +12,10 @@ inXSDDateTimeStamp - in XSD Date-Time-Stamp
 
     in XSD Date-Time-Stamp
 
+.. topic:: Definition
+
+    A datatype property to contain the representation of a time instant as an xsd datetimestamp
+
 .. topic:: Imported From
 
     http://www.w3.org/2006/time#2016

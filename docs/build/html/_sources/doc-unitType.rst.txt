@@ -12,6 +12,10 @@ unitType - temporal unit type
 
     temporal unit type
 
+.. topic:: Definition
+
+    An indicator of the temporal precision of a time instant
+
 .. topic:: Imported From
 
     http://www.w3.org/2006/time#2016

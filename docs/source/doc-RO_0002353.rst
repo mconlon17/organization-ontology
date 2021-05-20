@@ -14,7 +14,7 @@ RO_0002353 - output of
 
 .. topic:: Definition
 
-    inverse of has output
+    Inverse of has output
 
 .. topic:: Imported From
 

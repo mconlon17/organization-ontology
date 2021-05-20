@@ -14,29 +14,29 @@ BFO_0000004 - independent continuant
 
 .. topic:: Definition
 
-    b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])
+    B is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])
 
 .. topic:: Example
 
-    a chair
+    an atom
 
-    a spatial region
+    an orchestra.
 
     a molecule
 
-    the interior of your mouth
-
-    an atom
-
-    the bottom right portion of a human torso
-
-    a leg
-
-    an organism
+    a chair
 
     a heart
 
-    an orchestra.
+    a leg
+
+    the bottom right portion of a human torso
+
+    the interior of your mouth
+
+    a spatial region
+
+    an organism
 
 .. topic:: Imported From
 
