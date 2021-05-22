@@ -1,47 +1,88 @@
 To be added
-
-1. Annotation property for cross reference back to VIVO
-
-2. subOrganizationOf / has subOrganization
-	when Ontobee is around
-	has part/ part of
-	specification of invers in template
-	check VIVO Ontology, crossref back
 	
-3. Add property "interests" with skos:Concept as Range
+1. Add property "interests" with skos:Concept as Range
 
-4. Add properties to specify relationships between organizations
+2. Add properties to specify relationships between organizations
+
+    subOrganizationOf / hasSubOrganization
+    	when Ontobee is around
+	    has part/ part of
+	    specification of invers in template
+	    check VIVO Ontology, crossref back
 	affiliated with
-	member of / has member
+	member of / has member (and role-based version)
 	owns / owned by
 	spin-off of / has spin-off
 	successor of / has successor
 	
 	check VIVO ontology for other properties
 	
-5. Properties to associate people and organizations
+    
+3.  More dispositions
+  
+     schema.org
+     ROR
+     GRiD
+	
+4. Properties to associate people and organizations
 
 	head of / has head
 	employee of / has employee
 	
-6. Membership modeling
-
-	See Early Thoughts on Roles
-	Check VIVO ontology, but likely subsumed
-	
-7. Position modeling
-
 	See Early Thoughts on roles
 	Analogous to membership modeling
 	W3C "posts" may be more general, not just employee, but appointee and other.
 	
-8.  Reports To
+5.  Reports To
 
 	Ah, this is something.  Independent of org chart or postions.  Might
 	get complex as W3C simply unions Agent and Post (argh!)
 	
-9. Qualties of sites (?)
+6. Qualities of sites (?)
 
    W3C has primarySite and RegisteredSite (legal)
+   Student Organization
+   Woman owned
+   Minority owned
    
-10. Add disjoint property to types of organzations
+7.  Add identifier semantics
+
+8.  Cover OpenVIVO semantics
+   
+9. Add disjoint class expression to types of organizations
+
+10. Add Team as subset of Informal
+
+11. Add manufacturer disposition
+
+12. Properties to associate organizations to occurents
+
+    performed by
+    performed
+    
+13. Build out location options
+
+    has official name
+    has common name
+    has abbreviated name
+    
+    room
+    facility
+      building
+    campus
+
+    populated place
+    region
+    country
+    continent
+    
+14.  Create data for years
+
+15.  Add VIVO cross references to terms
+
+16.  Add a table of cross references to the conversion chapter
+
+18.  Update VIVO-ETL script.   Add to data folder
+
+    
+    

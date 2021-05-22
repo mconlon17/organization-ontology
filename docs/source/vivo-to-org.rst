@@ -14,7 +14,7 @@ what the organization "is" (company, organization part, etc) from what the
 organization "does" (hospital, library, etc).  In many cases, the VIVO Ontology
 combined these and information about one or the other ("is", "does") is missing.
 
-For example, consider vivo:Museum.  This assertions of type is actually an
+For example, consider vivo:Museum.  This assertion of type is actually an
 assertion of purpose.  The type of organization (organization part, non-profit) is
 missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a

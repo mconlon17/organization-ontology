@@ -28,10 +28,6 @@
 <http://purl.obolibrary.org/obo/IAO_0000115> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.obolibrary.org/obo/IAO_0000116
-<http://purl.obolibrary.org/obo/IAO_0000116> rdf:type owl:AnnotationProperty .
-
-
 ###  http://purl.obolibrary.org/obo/IAO_0000117
 <http://purl.obolibrary.org/obo/IAO_0000117> rdf:type owl:AnnotationProperty .
 
@@ -46,15 +42,15 @@
 
 ###  http://purl.obolibrary.org/obo/ORG_1000001
 <http://purl.obolibrary.org/obo/ORG_1000001> rdf:type owl:AnnotationProperty ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "test"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Demo.  There is no example of an organization annotation."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000124"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "This is a demo"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "demo.  Not a real property"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "see vivo 1"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Organization in the original VIVO ontology is most like organization in the VIVO Organization Ontology.  They have different superclasses, so they are not the same."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The term in the original VIVO ontology that is most like the annotated term."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000118> "this is a test"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "in vivo 1"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "organization annotation"@en .
+                                             rdfs:label "vivo 1 ontology reference"@en ;
+                                             rdfs:range xsd:anyuri .
 
 
 #################################################################
