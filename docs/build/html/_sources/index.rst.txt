@@ -52,6 +52,7 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    datatype-properties
    annotation-properties
    named-individuals
+   vivo-to-org
    notes-and-sources
    ontology-authors
    documentation-authors
@@ -73,6 +74,7 @@ List of Tables
 - :ref:`Table 11`
 - :ref:`Table 12`
 - :ref:`Table 13`
+- :ref:`Table 14`
 
 List of Figures
 ---------------

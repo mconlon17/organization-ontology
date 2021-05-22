@@ -1,0 +1,47 @@
+To be added
+
+1. Annotation property for cross reference back to VIVO
+
+2. subOrganizationOf / has subOrganization
+	when Ontobee is around
+	has part/ part of
+	specification of invers in template
+	check VIVO Ontology, crossref back
+	
+3. Add property "interests" with skos:Concept as Range
+
+4. Add properties to specify relationships between organizations
+	affiliated with
+	member of / has member
+	owns / owned by
+	spin-off of / has spin-off
+	successor of / has successor
+	
+	check VIVO ontology for other properties
+	
+5. Properties to associate people and organizations
+
+	head of / has head
+	employee of / has employee
+	
+6. Membership modeling
+
+	See Early Thoughts on Roles
+	Check VIVO ontology, but likely subsumed
+	
+7. Position modeling
+
+	See Early Thoughts on roles
+	Analogous to membership modeling
+	W3C "posts" may be more general, not just employee, but appointee and other.
+	
+8.  Reports To
+
+	Ah, this is something.  Independent of org chart or postions.  Might
+	get complex as W3C simply unions Agent and Post (argh!)
+	
+9. Qualties of sites (?)
+
+   W3C has primarySite and RegisteredSite (legal)
+   
+10. Add disjoint property to types of organzations

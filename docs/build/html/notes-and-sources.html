@@ -39,7 +39,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="For Ontology Authors" href="ontology-authors.html" />
-    <link rel="prev" title="unitYear - Year (unit of temporal duration)" href="doc-unitYear.html" /> 
+    <link rel="prev" title="Translating from VIVO to the VIVO Organization Ontology" href="vivo-to-org.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -96,6 +96,8 @@
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html#translating-types">Translating Types</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
@@ -184,6 +186,44 @@ Protege <a class="reference internal" href="#mireot" id="id7"><span>[mireot]</sp
 adding terms from other ontologies to <code class="docutils literal notranslate"><span class="pre">org-header.ttl</span></code>  We use robot <a class="reference internal" href="#robot" id="id8"><span>[robot]</span></a> for
 processing templates of properties, merging them and <code class="docutils literal notranslate"><span class="pre">org-header.ttl</span></code> together to
 produce <code class="docutils literal notranslate"><span class="pre">org.ttl</span></code> and then to run reports against <code class="docutils literal notranslate"><span class="pre">org.ttl</span></code> for validation.</p>
+<p>We have tried to represent organizations in a manner that is inclusive of ideas
+regarding organizations that have been represented elsewhere.  The VIVO
+Ontology <a class="reference internal" href="#vivo2013" id="id9"><span>[vivo2013]</span></a>
+provides organizational representation, but is not BFO or OBO conformant.  We
+hope we have represented here what is represented in the VIVO Ontology.  The WC
+Organization Ontology <a class="reference internal" href="#reynolds2014" id="id10"><span>[Reynolds2014]</span></a> has been a second source for terms and
+concepts that might be included in a BFO/OBO conformant ontology.</p>
+<div class="section" id="regarding-the-w3c-organization-ontology">
+<h2>Regarding the W3C Organization Ontology<a class="headerlink" href="#regarding-the-w3c-organization-ontology" title="Permalink to this headline">¶</a></h2>
+<p>The W3C Organization Ontology provides a set of useful terms for representing
+organizations.  Many terms there are represented in this work.  Our work
+uses BFO as an upper level ontology – everything in the Organization Ontology
+fits in the BFO subsumption hierarchy.  cross-walking the W3C Organization
+Ontology and the VIVO Organization Ontology is straightforward.  Below are
+comments related to mapping.</p>
+<ul class="simple">
+<li><p>Purpose in W3CO is open-ended text.  In VORG, purpose is represented by dispositions</p></li>
+<li><p>Classification in W3CO are interests in VORG.</p></li>
+<li><p>Identifiers in VORG are handled using IDO</p></li>
+<li><p>Linked to in W3CO is replaced by semantic object properties indicating the
+relationship between
+organizations</p></li>
+<li><p>Formal Organization in W3CO is any organization that is not an Informal Organization
+in VORG.</p></li>
+<li><p>OrganizationUnit in W3CO is Organization Part in VORG.</p></li>
+<li><p>Membership in VORG is modeled using standard BFO roles and occurent part representation</p></li>
+<li><p>Posts in W3CO are modeled as positions in VORG in a manner analogous to memberships
+(same conceptual model, different roles and entities)</p></li>
+<li><p>Reports to in W3CO is deconstructed.  Personnel relationships are distinct from org
+relationships in VORG.</p></li>
+<li><p>Locations in VORG are modeled as BFO sites.  See <cite>Locations &lt;locations&gt;</cite></p></li>
+<li><p>Addresses in VORG are modeled as IAO entities.  See <cite>Addresses &lt;addresses&gt;</cite></p></li>
+<li><p><em>based at</em> is a property of a person and is out of scope for VORG.</p></li>
+<li><p>OrganizationCollaboration is a project and is modeled using standard BFO constructs.
+Organizations have <em>participant in</em> projects</p></li>
+<li><p>Change event is a BFO process boundary</p></li>
+</ul>
+</div>
 <div class="section" id="references">
 <h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
 <dl class="citation">
@@ -215,6 +255,12 @@ Association of Computing Machinery Specific Interest Group in Artificial Intelli
 <dd></dd>
 <dt class="label" id="robot"><span class="brackets"><a class="fn-backref" href="#id8">robot</a></span></dt>
 <dd></dd>
+<dt class="label" id="vivo2013"><span class="brackets"><a class="fn-backref" href="#id9">vivo2013</a></span></dt>
+<dd></dd>
+<dt class="label" id="reynolds2014"><span class="brackets"><a class="fn-backref" href="#id10">Reynolds2014</a></span></dt>
+<dd><p>Reynolds, Dave (ed) (2014) The Organization Ontology.
+W3C.  <a class="reference external" href="https://www.w3.org/TR/vocab-org/">https://www.w3.org/TR/vocab-org/</a></p>
+</dd>
 </dl>
 </div>
 </div>
@@ -226,7 +272,7 @@ Association of Computing Machinery Specific Interest Group in Artificial Intelli
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="ontology-authors.html" class="btn btn-neutral float-right" title="For Ontology Authors" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="doc-unitYear.html" class="btn btn-neutral float-left" title="unitYear - Year (unit of temporal duration)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="vivo-to-org.html" class="btn btn-neutral float-left" title="Translating from VIVO to the VIVO Organization Ontology" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

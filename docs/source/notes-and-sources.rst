@@ -20,6 +20,45 @@ adding terms from other ontologies to ``org-header.ttl``  We use robot [robot]_ 
 processing templates of properties, merging them and ``org-header.ttl`` together to
 produce ``org.ttl`` and then to run reports against ``org.ttl`` for validation.
 
+We have tried to represent organizations in a manner that is inclusive of ideas
+regarding organizations that have been represented elsewhere.  The VIVO 
+Ontology [vivo2013]_
+provides organizational representation, but is not BFO or OBO conformant.  We
+hope we have represented here what is represented in the VIVO Ontology.  The WC
+Organization Ontology [Reynolds2014]_ has been a second source for terms and
+concepts that might be included in a BFO/OBO conformant ontology.
+
+Regarding the W3C Organization Ontology
+---------------------------------------
+
+The W3C Organization Ontology provides a set of useful terms for representing
+organizations.  Many terms there are represented in this work.  Our work
+uses BFO as an upper level ontology -- everything in the Organization Ontology
+fits in the BFO subsumption hierarchy.  cross-walking the W3C Organization
+Ontology and the VIVO Organization Ontology is straightforward.  Below are
+comments related to mapping.
+
+- Purpose in W3CO is open-ended text.  In VORG, purpose is represented by dispositions
+- Classification in W3CO are interests in VORG.
+- Identifiers in VORG are handled using IDO
+- Linked to in W3CO is replaced by semantic object properties indicating the 
+  relationship between
+  organizations 
+- Formal Organization in W3CO is any organization that is not an Informal Organization
+  in VORG.
+- OrganizationUnit in W3CO is Organization Part in VORG.
+- Membership in VORG is modeled using standard BFO roles and occurent part representation
+- Posts in W3CO are modeled as positions in VORG in a manner analogous to memberships
+  (same conceptual model, different roles and entities)
+- Reports to in W3CO is deconstructed.  Personnel relationships are distinct from org
+  relationships in VORG.
+- Locations in VORG are modeled as BFO sites.  See `Locations <locations>`
+- Addresses in VORG are modeled as IAO entities.  See `Addresses <addresses>`
+- *based at* is a property of a person and is out of scope for VORG.
+- OrganizationCollaboration is a project and is modeled using standard BFO constructs.
+  Organizations have *participant in* projects
+- Change event is a BFO process boundary
+  
 References
 ----------
 
@@ -44,3 +83,8 @@ References
 .. [mireot]
    
 .. [robot]
+
+.. [vivo2013]
+
+.. [Reynolds2014] Reynolds, Dave (ed) (2014) The Organization Ontology.  
+   W3C.  https://www.w3.org/TR/vocab-org/
