@@ -1,7 +1,8 @@
 Object Properties
 ==================
 
-Object properties relate one entity to another (not one class to another) [Harmse2018]_. For example, an organization may be 
+Object properties relate one entity to another (not one class to another) [Harmse2018]_. 
+For example, an organization may be 
 "part of" another organization.  "part of" is an object property that describes the 
 relations between the two individual organizations.
 
