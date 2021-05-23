@@ -13,5 +13,6 @@
     ``IAO_0000232``         curator note              An administrative note of use for a curator but 
     ``IAO_0000233``         term tracker item         An IRI or similar locator for a request or discu
     ``IAO_0000412``         imported from             For external terms/classes, the ontology from wh
-    ``ORG_1000001``         organization annotation   This is a demo
+    ``ORG_1000001``         vivo 1 ontology referenc  The term in the original VIVO ontology that is m
+    ``inverseOf``           None                      None
     ======================  ========================  ================================================

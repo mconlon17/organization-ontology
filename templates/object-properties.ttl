@@ -12,6 +12,10 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/IAO_0000111
+<http://purl.obolibrary.org/obo/IAO_0000111> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000112
 <http://purl.obolibrary.org/obo/IAO_0000112> rdf:type owl:AnnotationProperty .
 
@@ -32,8 +36,20 @@
 <http://purl.obolibrary.org/obo/IAO_0000117> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.obolibrary.org/obo/IAO_0000118
+<http://purl.obolibrary.org/obo/IAO_0000118> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000119
 <http://purl.obolibrary.org/obo/IAO_0000119> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/ORG_1000001
+<http://purl.obolibrary.org/obo/ORG_1000001> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#inverseOf
+owl:inverseOf rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -73,10 +89,11 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The project to put a man on the man achieved success on July 20, 1969"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A has part relation that applies only to occurents"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be define in RO.  Defined here for convenience since it is missing from RO."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be defined in RO.  Defined here for convenience since it is missing from RO."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "has occurent part"@en .
+                                             rdfs:label "has occurent part"@en ;
+                                             owl:inverseOf "obo:RO_0002012"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000003
@@ -90,7 +107,25 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "This provides a bidge between BFO ontologies and the W3C time ontology"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#dateTimeValue"^^xsd:anyURI ;
                                              rdfs:label "has time instant"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000004
+<http://purl.obolibrary.org/obo/ORG_2000004> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has interest"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has organizational interest open source software.  The New York Yankees Baseball Club has organizational interest baseball.  The Gettysburg Foundation has organizational interest The Battle of Gettysburg."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a concept that the organization manifests in its work."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Additional subproperties could provide insight regarding the nature of the interest such as research interest, commercial interest, and so on"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "interested in"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#hasResearchArea"^^xsd:anyURI ;
+                                             rdfs:label "has organizational interest"@en .
 
 
 #################################################################
@@ -111,6 +146,10 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/ORG_0000038
 <http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2006/time#Instant

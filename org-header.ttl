@@ -634,7 +634,17 @@ obo:IAO_0000429 rdf:type owl:Class ;
                                 "Person:Chris Stoeckart"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"^^xsd:string ;
                 rdfs:label "email address"@en .
+                
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class;
+             rdfs:subClassOf obo:BFO_0000031;
+             obo:IAO_0000115 "An idea or notion, a unit of thought"@en;
+             obo:IAO_0000116 "Minor hijack here.  We added the subClassOf assertion to tie in to the BFO subsumption hierarchy rather than adding a new term for 'concept'\nConcept as a generic dependent continuant seems right -- the concept is dependent on the collective of humans.  Thought is in human brains.\nWe also edited the label addding (skos) to insure unique labels as required by the OBO Principles. MC."@en;
+             rdfs:isDefinedBy "http://www.w3.org/2004/02/skos/core"^^xsd:anyURI;
+             rdfs:label "(skos) concept"@en .
+                
 
+###  http://purl.obolibrary.org/obo/IAO_0000429
 
 ###  http://www.w3.org/2006/time#Instant
 time:Instant rdf:type owl:Class ;

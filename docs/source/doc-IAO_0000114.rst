@@ -22,9 +22,9 @@ IAO_0000114 - has curation status
 
 .. topic:: Term editor
 
+    PERSON:Melanie Courtot
+
     PERSON:Alan Ruttenberg
 
     PERSON:Bill Bug
-
-    PERSON:Melanie Courtot
 

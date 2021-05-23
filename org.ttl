@@ -167,7 +167,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 ###  http://purl.obolibrary.org/obo/ORG_1000001
 <http://purl.obolibrary.org/obo/ORG_1000001> rdf:type owl:AnnotationProperty ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "see vivo 1"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Organization in the original VIVO ontology is most like organization in the VIVO Organization Ontology.  They have different superclasses, so they are not the same."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The organization class in the original VIVO ontology is most like the organization class in the VIVO Organization Ontology.  They have different superclasses, so they are not the same."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The term in the original VIVO ontology that is most like the annotated term."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -175,6 +175,10 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "vivo 1 ontology reference"@en ;
                                              rdfs:range xsd:anyuri .
+
+
+###  http://www.w3.org/2002/07/owl#inverseOf
+owl:inverseOf rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -294,10 +298,11 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The project to put a man on the man achieved success on July 20, 1969"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A has part relation that applies only to occurents"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be define in RO.  Defined here for convenience since it is missing from RO."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be defined in RO.  Defined here for convenience since it is missing from RO."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "has occurent part"@en .
+                                             rdfs:label "has occurent part"@en ;
+                                             owl:inverseOf "obo:RO_0002012"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000003
@@ -311,7 +316,25 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "This provides a bidge between BFO ontologies and the W3C time ontology"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#dateTimeValue"^^xsd:anyURI ;
                                              rdfs:label "has time instant"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000004
+<http://purl.obolibrary.org/obo/ORG_2000004> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has interest"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has organizational interest open source software.  The New York Yankees Baseball Club has organizational interest baseball.  The Gettysburg Foundation has organizational interest The Battle of Gettysburg."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a concept that the organization manifests in its work."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Additional subproperties could provide insight regarding the nature of the interest such as research interest, commercial interest, and so on"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "interested in"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#hasResearchArea"^^xsd:anyURI ;
+                                             rdfs:label "has organizational interest"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000053
@@ -1285,13 +1308,25 @@ Previous. An information content entity is a non-realizable information entity t
 
 ###  http://purl.obolibrary.org/obo/ORG_0000044
 <http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000038> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000038> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The campus of Oxford University, the campus of Microsoft in Redmonda, Washington, the NIH campus in Bethesda, Maryland."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wiktionary.org/wiki/campus"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Campus"^^xsd:anyuri ;
                                              rdfs:label "campus"@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An idea or notion, a unit of thought"@en ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000116> """Minor hijack here.  We added the subClassOf assertion to tie in to the BFO subsumption hierarchy rather than adding a new term for 'concept'
+Concept as a generic dependent continuant seems right -- the concept is dependent on the collective of humans.  Thought is in human brains.
+We also edited the label addding (skos) to insure unique labels as required by the OBO Principles. MC."""@en ;
+                                              rdfs:isDefinedBy "http://www.w3.org/2004/02/skos/core"^^xsd:anyURI ;
+                                              rdfs:label "(skos) concept"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant

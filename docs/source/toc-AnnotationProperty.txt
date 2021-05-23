@@ -15,3 +15,4 @@
    doc-IAO_0000233
    doc-IAO_0000412
    doc-ORG_1000001
+   doc-inverseOf

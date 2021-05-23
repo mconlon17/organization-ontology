@@ -1,24 +1,24 @@
 
   .. _ORG_1000001:
-  .. _organization annotation:
+  .. _vivo 1 ontology reference:
   .. index:: 
-     single: ORG_1000001; organization annotation
-     single: organization annotation; ORG_1000001
+     single: ORG_1000001; vivo 1 ontology reference
+     single: vivo 1 ontology reference; ORG_1000001
 
-ORG_1000001 - organization annotation
+ORG_1000001 - vivo 1 ontology reference
 ====================================================================================
 
 .. topic:: Label
 
-    organization annotation
+    vivo 1 ontology reference
 
 .. topic:: Alternate name
 
-    this is a test
+    in vivo 1
 
 .. topic:: Definition
 
-    This is a demo
+    The term in the original VIVO ontology that is most like the annotated term.
 
 .. topic:: Definition source
 
@@ -26,11 +26,7 @@ ORG_1000001 - organization annotation
 
 .. topic:: Example
 
-    Demo.  There is no example of an organization annotation.
-
-.. topic:: Editor's note
-
-    demo.  Not a real property
+    The organization class in the original VIVO ontology is most like the organization class in the VIVO Organization Ontology.  They have different superclasses, so they are not the same.
 
 .. topic:: Term editor
 

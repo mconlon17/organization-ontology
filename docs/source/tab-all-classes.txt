@@ -65,6 +65,7 @@
     ``ORG_0000042``         dissolution process       The process by which an organization no longer e
     ``ORG_0000043``         dissolution process boun  The process boundary which marks the moment at w
     ``ORG_0000044``         campus                    The geographic location consisting of the  groun
+    ``Concept``             (skos) concept            An idea or notion, a unit of thought
     ``Instant``             Time instant              A zero-dimensional part of time.  Precision may 
     ``TemporalUnit``        Temporal unit             A specification of a time duration.  Used to spe
     ======================  ========================  ================================================

@@ -66,5 +66,6 @@
    doc-ORG_0000042
    doc-ORG_0000043
    doc-ORG_0000044
+   doc-Concept
    doc-Instant
    doc-TemporalUnit

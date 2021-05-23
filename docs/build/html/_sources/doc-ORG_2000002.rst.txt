@@ -26,7 +26,7 @@ ORG_2000002 - has occurent part
 
 .. topic:: Editor's note
 
-    The inverse of RO_2012 and should be define in RO.  Defined here for convenience since it is missing from RO.
+    The inverse of RO_2012 and should be defined in RO.  Defined here for convenience since it is missing from RO.
 
 .. topic:: Term editor
 
