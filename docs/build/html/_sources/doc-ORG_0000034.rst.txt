@@ -1,20 +1,20 @@
 
   .. _ORG_0000034:
-  .. _preferred address disposition:
+  .. _shipping address dispositon:
   .. index:: 
-     single: ORG_0000034; preferred address disposition
-     single: preferred address disposition; ORG_0000034
+     single: ORG_0000034; shipping address dispositon
+     single: shipping address dispositon; ORG_0000034
 
-ORG_0000034 - preferred address disposition
+ORG_0000034 - shipping address dispositon
 ====================================================================================
 
 .. topic:: Label
 
-    preferred address disposition
+    shipping address dispositon
 
 .. topic:: Definition
 
-    A disposition of an address to be displayed in most settings
+    A disposition of an address to be used to receive shipped goods
 
 .. topic:: Definition source
 
@@ -22,7 +22,7 @@ ORG_0000034 - preferred address disposition
 
 .. topic:: Example
 
-    The address the organization displays most prominently in promotional materials
+    The loading dock address for central receiving of an organization
 
 .. topic:: Term editor
 

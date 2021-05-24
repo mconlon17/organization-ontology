@@ -39,6 +39,10 @@ rst_prolog = """
 .. _BFO: http://www.ontobee.org/ontology/BFO
 .. |IAO| replace:: Information Artifact Ontology (IAO)
 .. _IAO: http://www.ontobee.org/ontology/IAO
+.. |SKOS| replace:: Simple Knowledge Organization System (SKOS)
+.. _SKOS: https://www.w3.org/2004/02/skos/
+.. |Time| replace:: W3C Time Ontology (Time)
+.. _Time: https://www.w3.org/TR/owl-time/
 .. |OBOP| replace:: Open Biomedical Ontologies (OBO) Principles
 .. _OBOP: http://www.obofoundry.org/principles/fp-000-summary.html
 """

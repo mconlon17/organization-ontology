@@ -1,24 +1,20 @@
 
   .. _ORG_0000043:
-  .. _dissolution process boundary:
+  .. _dissolution process:
   .. index:: 
-     single: ORG_0000043; dissolution process boundary
-     single: dissolution process boundary; ORG_0000043
+     single: ORG_0000043; dissolution process
+     single: dissolution process; ORG_0000043
 
-ORG_0000043 - dissolution process boundary
+ORG_0000043 - dissolution process
 ====================================================================================
 
 .. topic:: Label
 
-    dissolution process boundary
-
-.. topic:: Alternate name
-
-    dissolution
+    dissolution process
 
 .. topic:: Definition
 
-    The process boundary which marks the moment at which the organization no longer exists
+    The process by which an organization no longer exists.
 
 .. topic:: Definition source
 
@@ -26,11 +22,11 @@ ORG_0000043 - dissolution process boundary
 
 .. topic:: Example
 
-    Duraspace ceased to exist on July 1, 2019
+    The German Democratic Republic (aka East Germany) ended in 1990.
 
 .. topic:: Editor's note
 
-    The dissolution process may have many steps and boundaries, such as ceasing operations, transfer of funds, dissolution of board.  These can be added at a later date if needed.
+    There are many dissolution processes (merger, acquisition, discontinuation).  These can be added at a later date if needed.
 
 .. topic:: Term editor
 

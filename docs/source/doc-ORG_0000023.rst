@@ -26,7 +26,7 @@ ORG_0000023 - education
 
 .. topic:: Example
 
-    a pre-school education program, a post-graduate education program, adult education programs all have education dispositions
+    A pre-school education program, a post-graduate education program, adult education programs all have education dispositions
 
 .. topic:: Term editor
 

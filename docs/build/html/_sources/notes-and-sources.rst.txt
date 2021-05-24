@@ -31,11 +31,11 @@ concepts that might be included in a BFO/OBO conformant ontology.
 Regarding the W3C Organization Ontology
 ---------------------------------------
 
-The W3C Organization Ontology provides a set of useful terms for representing
+The W3C Organization Ontology (W3CO) provides a set of useful terms for representing
 organizations.  Many terms there are represented in this work.  Our work
 uses BFO as an upper level ontology -- everything in the Organization Ontology
 fits in the BFO subsumption hierarchy.  cross-walking the W3C Organization
-Ontology and the VIVO Organization Ontology is straightforward.  Below are
+Ontology and the VIVO Organization Ontology (VORG) is straightforward.  Below are
 comments related to mapping.
 
 - Purpose in W3CO is open-ended text.  In VORG, purpose is represented by dispositions
@@ -51,7 +51,7 @@ comments related to mapping.
 - Posts in W3CO are modeled as positions in VORG in a manner analogous to memberships
   (same conceptual model, different roles and entities)
 - Reports to in W3CO is deconstructed.  Personnel relationships are distinct from org
-  relationships in VORG.
+  relationships in VORG.  Person to person relationships are out of scope for VORG.
 - Locations in VORG are modeled as BFO sites.  See `Locations <locations>`
 - Addresses in VORG are modeled as IAO entities.  See `Addresses <addresses>`
 - *based at* is a property of a person and is out of scope for VORG.

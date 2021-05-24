@@ -88,7 +88,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_0000001> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "test"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "a political party, a homeowners association, a football team, a publisher, a government agency, an organized religion"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A political party, a homeowners association, a football team, a publisher, a government agency, an organized religion"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -369,7 +369,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_0000023> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "education disposition"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "a pre-school education program, a post-graduate education program, adult education programs all have education dispositions"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A pre-school education program, a post-graduate education program, adult education programs all have education dispositions"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to teach, and provide experiential opprtunities for students"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -471,6 +471,20 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000031
 <http://purl.obolibrary.org/obo/ORG_0000031> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "manufacturing disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Volkswagon, Apple, Pfizer, Airbus, BASF, Nestle, and General Electric all have manufacturing dispositions"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A dispositon to construct material entities"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000034"^^xsd:anyuri ;
+                                             rdfs:label "manufacturer"@en ;
+                                             rdfs:seeAlso "http://purl.obolibrary.org/obo/OBI_0000835"^^xsd:anyuri .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000032
+<http://purl.obolibrary.org/obo/ORG_0000032> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Email addresses that begin help@ info@ contact@ often have information address address disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an information content entity denoted by an address which has the purpose of responding to information inquiries"@en ;
@@ -479,8 +493,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "information address disposition"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000032
-<http://purl.obolibrary.org/obo/ORG_0000032> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000033
+<http://purl.obolibrary.org/obo/ORG_0000033> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Bills may be sent to Attn: Name at"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -490,8 +504,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "billing address disposition"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000033
-<http://purl.obolibrary.org/obo/ORG_0000033> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000034
+<http://purl.obolibrary.org/obo/ORG_0000034> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The loading dock address for central receiving of an organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -501,8 +515,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "shipping address dispositon"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000034
-<http://purl.obolibrary.org/obo/ORG_0000034> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000035
+<http://purl.obolibrary.org/obo/ORG_0000035> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The address the organization displays most prominently in promotional materials"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -512,8 +526,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "preferred address disposition"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000035
-<http://purl.obolibrary.org/obo/ORG_0000035> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000036
+<http://purl.obolibrary.org/obo/ORG_0000036> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Yankee Stadium, Stonehenge, The Shard, The Large Hadron Collider. The Great Wall of China"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -526,8 +540,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/OMRSE_00000061"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000036
-<http://purl.obolibrary.org/obo/ORG_0000036> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000037
+<http://purl.obolibrary.org/obo/ORG_0000037> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Walt Disney World, Kennedy Space Center, Golden Gate Bridge"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -539,8 +553,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/OMRSE_00000062"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000037
-<http://purl.obolibrary.org/obo/ORG_0000037> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000038
+<http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -552,8 +566,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/ENVO_00000073"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000038
-<http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000039
+<http://purl.obolibrary.org/obo/ORG_0000039> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Indian Ocean, Africa, Metropolitan France, West 57th Street"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -565,8 +579,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/GAZ_00000448"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000039
-<http://purl.obolibrary.org/obo/ORG_0000039> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000040
+<http://purl.obolibrary.org/obo/ORG_0000040> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000038> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "zero-dimensional geographical location"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The point with latitude 27.9881199 and longitude 86.9161989"@en ;
@@ -579,8 +593,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "geographical point"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000040
-<http://purl.obolibrary.org/obo/ORG_0000040> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000041
+<http://purl.obolibrary.org/obo/ORG_0000041> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -591,8 +605,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "founding process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000041
-<http://purl.obolibrary.org/obo/ORG_0000041> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000042
+<http://purl.obolibrary.org/obo/ORG_0000042> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Bologna was founded in 1088.  Facebook was founded in 2004."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -603,8 +617,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "founding process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000042
-<http://purl.obolibrary.org/obo/ORG_0000042> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000043
+<http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The German Democratic Republic (aka East Germany) ended in 1990."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -615,8 +629,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "dissolution process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000043
-<http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000044
+<http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Duraspace ceased to exist on July 1, 2019"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -628,10 +642,10 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "dissolution process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000044
-<http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000038> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The campus of Oxford University, the campus of Microsoft in Redmonda, Washington, the NIH campus in Bethesda, Maryland."@en ;
+###  http://purl.obolibrary.org/obo/ORG_0000045
+<http://purl.obolibrary.org/obo/ORG_0000045> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000039> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;

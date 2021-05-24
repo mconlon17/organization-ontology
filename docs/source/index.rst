@@ -51,6 +51,7 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    object-properties
    datatype-properties
    annotation-properties
+   out-of-scope
    named-individuals
    vivo-to-org
    notes-and-sources

@@ -1,32 +1,32 @@
 
   .. _ORG_0000038:
-  .. _geographical location:
+  .. _building:
   .. index:: 
-     single: ORG_0000038; geographical location
-     single: geographical location; ORG_0000038
+     single: ORG_0000038; building
+     single: building; ORG_0000038
 
-ORG_0000038 - geographical location
+ORG_0000038 - building
 ====================================================================================
 
 .. topic:: Label
 
-    geographical location
+    building
 
 .. topic:: Definition
 
-    A place on the earth
+    A permanent walled and roofed construction
 
 .. topic:: Definition source
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8447
+    https://en.wikipedia.org/wiki/Building
 
 .. topic:: Example
 
-    The Indian Ocean, Africa, Metropolitan France, West 57th Street
+    The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum
 
 .. topic:: Editor's note
 
-    1. Geographical locations are often confused with the entities that are located in those places.  For example, France is a country with several discontiguous geographical loctions.  Metropolitan France is a geographical location in Europe.  2. Unlike the GAZ term, this term is not a reference to a place on the earth, rather it is a place on the earth.
+    Similar to the term in ENVRO, but based on 'architectural structure' in OMRSE
 
 .. topic:: Term editor
 
@@ -34,5 +34,5 @@ ORG_0000038 - geographical location
 
 .. topic:: See also
 
-    http://purl.obolibrary.org/obo/GAZ_00000448
+    http://purl.obolibrary.org/obo/ENVO_00000073
 

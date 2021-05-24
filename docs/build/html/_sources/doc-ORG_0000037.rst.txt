@@ -1,32 +1,32 @@
 
   .. _ORG_0000037:
-  .. _building:
+  .. _facility:
   .. index:: 
-     single: ORG_0000037; building
-     single: building; ORG_0000037
+     single: ORG_0000037; facility
+     single: facility; ORG_0000037
 
-ORG_0000037 - building
+ORG_0000037 - facility
 ====================================================================================
 
 .. topic:: Label
 
-    building
+    facility
 
 .. topic:: Definition
 
-    A permanent walled and roofed construction
+    An architectural structure that bears some function.
 
 .. topic:: Definition source
 
-    https://en.wikipedia.org/wiki/Building
+    http://purl.obolibrary.org/obo/OMRSE_00000062
 
 .. topic:: Example
 
-    The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum
+    Walt Disney World, Kennedy Space Center, Golden Gate Bridge
 
 .. topic:: Editor's note
 
-    Similar to the term in ENVRO, but based on 'architectural structure' in OMRSE
+    Perhaps identical to the term in OMRSE
 
 .. topic:: Term editor
 
@@ -34,5 +34,5 @@ ORG_0000037 - building
 
 .. topic:: See also
 
-    http://purl.obolibrary.org/obo/ENVO_00000073
+    http://purl.obolibrary.org/obo/OMRSE_00000062
 

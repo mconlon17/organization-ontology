@@ -1,20 +1,20 @@
 
   .. _ORG_0000032:
-  .. _billing address disposition:
+  .. _information address disposition:
   .. index:: 
-     single: ORG_0000032; billing address disposition
-     single: billing address disposition; ORG_0000032
+     single: ORG_0000032; information address disposition
+     single: information address disposition; ORG_0000032
 
-ORG_0000032 - billing address disposition
+ORG_0000032 - information address disposition
 ====================================================================================
 
 .. topic:: Label
 
-    billing address disposition
+    information address disposition
 
 .. topic:: Definition
 
-    A disposition of an address to be used to receive bills
+    A disposition of an information content entity denoted by an address which has the purpose of responding to information inquiries
 
 .. topic:: Definition source
 
@@ -22,7 +22,7 @@ ORG_0000032 - billing address disposition
 
 .. topic:: Example
 
-    Bills may be sent to Attn: Name at
+    Email addresses that begin help@ info@ contact@ often have information address address disposition
 
 .. topic:: Term editor
 

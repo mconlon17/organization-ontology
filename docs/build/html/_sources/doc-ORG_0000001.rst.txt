@@ -22,7 +22,7 @@ ORG_0000001 - organization
 
 .. topic:: Example
 
-    a political party, a homeowners association, a football team, a publisher, a government agency, an organized religion
+    A political party, a homeowners association, a football team, a publisher, a government agency, an organized religion
 
 .. topic:: Term editor
 

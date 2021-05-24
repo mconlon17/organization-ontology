@@ -26,8 +26,9 @@
     ``ORG_0000028``         military                  A disposition to engage in warfare
     ``ORG_0000029``         religious                 A disposition to engage in matters of spirtualit
     ``ORG_0000030``         governance                A disposition to provide governance
-    ``ORG_0000031``         information address disp  A disposition of an information content entity d
-    ``ORG_0000032``         billing address disposit  A disposition of an address to be used to receiv
-    ``ORG_0000033``         shipping address disposi  A disposition of an address to be used to receiv
-    ``ORG_0000034``         preferred address dispos  A disposition of an address to be displayed in m
+    ``ORG_0000031``         manufacturer              A dispositon to construct material entities
+    ``ORG_0000032``         information address disp  A disposition of an information content entity d
+    ``ORG_0000033``         billing address disposit  A disposition of an address to be used to receiv
+    ``ORG_0000034``         shipping address disposi  A disposition of an address to be used to receiv
+    ``ORG_0000035``         preferred address dispos  A disposition of an address to be displayed in m
     ======================  ========================  ================================================
