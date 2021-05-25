@@ -1,38 +1,30 @@
 
   .. _ORG_0000037:
-  .. _facility:
+  .. _preferred address disposition:
   .. index:: 
-     single: ORG_0000037; facility
-     single: facility; ORG_0000037
+     single: ORG_0000037; preferred address disposition
+     single: preferred address disposition; ORG_0000037
 
-ORG_0000037 - facility
+ORG_0000037 - preferred address disposition
 ====================================================================================
 
 .. topic:: Label
 
-    facility
+    preferred address disposition
 
 .. topic:: Definition
 
-    An architectural structure that bears some function.
+    A disposition of an address to be displayed in most settings
 
 .. topic:: Definition source
 
-    http://purl.obolibrary.org/obo/OMRSE_00000062
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
-    Walt Disney World, Kennedy Space Center, Golden Gate Bridge
-
-.. topic:: Editor's note
-
-    Perhaps identical to the term in OMRSE
+    The address the organization displays most prominently in promotional materials
 
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
-
-.. topic:: See also
-
-    http://purl.obolibrary.org/obo/OMRSE_00000062
 

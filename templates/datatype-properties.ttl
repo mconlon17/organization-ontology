@@ -12,8 +12,16 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/IAO_0000111
+<http://purl.obolibrary.org/obo/IAO_0000111> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000112
 <http://purl.obolibrary.org/obo/IAO_0000112> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000115
@@ -37,6 +45,18 @@
 
 
 #################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#anyuri
+xsd:anyuri rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#langString
+xsd:langString rdf:type rdfs:Datatype .
+
+
+#################################################################
 #    Data properties
 #################################################################
 
@@ -50,6 +70,7 @@
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range xsd:nonNegativeInteger ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Amazon.com number_of_employees 1300000"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The number of people (headcount) who receive paychecks from the organization for work performed"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Informal organizations do not have employees.  Create a class restriction as a domain."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -61,49 +82,113 @@
 ###  http://purl.obolibrary.org/obo/ORG_3000002
 <http://purl.obolibrary.org/obo/ORG_3000002> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
-                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000429> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "info@metabolomics.info"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the email address string for an email address"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Regex pattern restriction for RFC ??? Email addresses"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "has email value"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "has email representation"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_3000003
 <http://purl.obolibrary.org/obo/ORG_3000003> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/IAO_0000422> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "1210 NW 14th Ave; ;Gainesville; Fl; USA; 32601"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the postal address string for a postal address"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Regex pattern restriction for UPC email addresses"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8449"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "has address value"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8449"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "has postal address representation"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_3000004
 <http://purl.obolibrary.org/obo/ORG_3000004> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000043> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "29.6651224,-82.3396949"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the geolocation string for a geolocation"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Regex pattern restriction to +/-lat;+/-long"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8450"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "has geolocation"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8450"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "has geolocation representation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_3000005
+<http://purl.obolibrary.org/obo/ORG_3000005> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000048> ;
+                                             rdfs:range xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has URL"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The URL of the United Nations home page is http://un.org"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A URI that represents the address of a web site on the world wide web"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Replace with terms from IDO?"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "has uniform resource locator"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "has URL representation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_3000006
+<http://purl.obolibrary.org/obo/ORG_3000006> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range xsd:langString ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The official name of the united states is The United States of America."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The name of the organization which appears in the current documents authorizing its existence"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "has official organization name"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_3000007
+<http://purl.obolibrary.org/obo/ORG_3000007> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range xsd:langString ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has name"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Names of The United States of America incude: USA, US, United States, America."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A name of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "has organization name"@en .
 
 
 #################################################################
 #    Classes
 #################################################################
 
+###  http://purl.obolibrary.org/obo/IAO_0000422
+<http://purl.obolibrary.org/obo/IAO_0000422> rdf:type owl:Class .
+
+
 ###  http://purl.obolibrary.org/obo/ORG_0000001
 <http://purl.obolibrary.org/obo/ORG_0000001> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000043
+<http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000048
+<http://purl.obolibrary.org/obo/ORG_0000048> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000429
+<http://purl.obolibrary.org/obo/ORG_0000429> rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi

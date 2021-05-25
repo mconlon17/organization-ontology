@@ -1,0 +1,34 @@
+
+  .. _ORG_0000046:
+  .. _founding process boundary:
+  .. index:: 
+     single: ORG_0000046; founding process boundary
+     single: founding process boundary; ORG_0000046
+
+ORG_0000046 - founding process boundary
+====================================================================================
+
+.. topic:: Label
+
+    founding process boundary
+
+.. topic:: Alternate name
+
+    founding
+
+.. topic:: Definition
+
+    The process boundary which defines the moment of creation of an orgnization.  Before the moment  the organization does not exist.  After the moment, the organization exists.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The University of Bologna was founded in 1088.  Facebook was founded in 2004.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

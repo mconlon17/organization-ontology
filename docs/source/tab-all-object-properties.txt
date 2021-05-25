@@ -11,6 +11,10 @@
     ``ORG_2000002``         has occurent part         A has part relation that applies only to occuren
     ``ORG_2000003``         has time instant          The property that associates a process boundary 
     ``ORG_2000004``         has organizational inter  The property that associates an organization wit
+    ``ORG_2000005``         has website               The property that associates an organization wit
+    ``ORG_2000006``         website of                The property that associates a website with its 
+    ``ORG_2000007``         has successor organizati  The property that associates an organization wit
+    ``ORG_2000008``         successor organization o  The property that associates an on organization 
     ``RO_0000053``          bearer of                 A relation between an independent continuant (th
     ``RO_0000056``          participates in           A relation between a continuant and a process, i
     ``RO_0000057``          has participant           A relation between a process and a continuant, i

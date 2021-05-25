@@ -12,6 +12,10 @@
    doc-ORG_2000002
    doc-ORG_2000003
    doc-ORG_2000004
+   doc-ORG_2000005
+   doc-ORG_2000006
+   doc-ORG_2000007
+   doc-ORG_2000008
    doc-RO_0000053
    doc-RO_0000056
    doc-RO_0000057

@@ -27,107 +27,110 @@ in the VIVO Organization Ontology.
 
 .. table:: Table 14 Translating VIVO types to VIVO Organizational assertions
 
-	========================== ============================
-	VIVO Type                  VIVO Organization Assertions
-	========================== ============================
-	Association                Unknown type.  Assert Organization only.
-	
-	                           Type is often non-profit.
-	                           	
-	                           Disposition is association.
-	Center                     Unknown type.  Assert organization only.
-	  
-	                           Type is often an organization part. 
-	                           							                              
-	                           Unknown dispositions.  Often research.				   
-	College                    Unknown type.  Assert organization only.
-	
-	                           At a US university, an organizational part.
-	   						   
-	                           At a US university, dispositions of education, service, research
-	Company                    Type is Company
-	
-	                           Disposition is often commerce
-	Consortium                 Unknown type.  Assert Organization only.
-	
-	                           Type is often non-profit
-	                           
-	                           Disposition is often association
-	CoreLaboratory             Type is organization part
-	
-	                           Dispositions are laboratory and service provider
-	Department                 Type is organizational part
-	
-	                           Unknown dispositions
-	Division                   Type is organizational part
-	
-	                           Unknown dispositions
-	ExtensionUnit              Type is organizational part
-	
-	                           Disposition is agricultural extension
-	ERO_00000565               Type is organizational part
-	
-	                           Disposition is technology transfer
-	Foundation                 Type may be non-profit
-	
-	                           Type may be organizational part
-	                           
-	                           May be affiliated with another organization
-	                           
-	                           Disposition is philanthropy
-	
-	                           Disposition may be funder                        
-	FundingOrganization        Unknown type.  Assert organization only.
-	
-	                           Disposition is funder
-	GovernmentAgency           Type is government organization or organizational part
-	
-	                           Disposition is unknown
-	Hospital                   Unknown type.  Assert organization only.
-	
-	                           Disposition is hospital.
-	Institute                  Unknown type.  Assert organization only.
-	
-	                           Disposition is unknown.  Often research.
-	Laboratory                 Unknown type.  Assert organization only.
-	
-	                           Disposition is laboratory.
-	Library                    Unknown type.  Assert organization only.
-	
-	                           Disposition is library.
-	Museum                     Unknown type.  Assert organization only.
-	
-	                           Disposition is library.
-	Program                    Type is organizational part.
-	
-	                           Disposition is unknown.
-	Publisher                  Type is unknown.  Assert organization only.
-	
-	                           Often type is company.  But all others possible.
-	
-	                           Disposition is publisher.
-	ResearchOrganization       Unknown type.  Assert organization only.
-	
-	                           Disposition is research.
-	School                     Type is unknown.  Assert organization only.
-	
-	                           At US university, an organizational part.
-	                           
-	                           Disposition is often education.                         
-	ServiceProvidingLaboratory Type is unknown.  Assert organization only.
-	
-	                           Dispositions are laboratory and service provider.
-	StudentOrganization        Type is organizational part
-	
-	                           Disposition is unknown
+    ========================== ============================
+    VIVO Type                  VIVO Organization Assertions
+    ========================== ============================
+    Association                Unknown type.  Assert Organization only.
+    
+                               Type is often non-profit.
+                                
+                               Disposition is association.
+    Center                     Unknown type.  Assert organization only.
+      
+                               Type is often an organization part. 
+                                                                                      
+                               Unknown dispositions.  Often research.                  
+    College                    Unknown type.  Assert organization only.
+    
+                               At a US university, an organizational part.
                                
-	                           Quality is student led [#]_
-	University                 Type is unknown.  Assert organization only.
-	
-	                           Disposition is university
-	
-	                           Dispositions are typically education, research, service
-	========================== ============================
+                               At a US university, dispositions of education, service, research
+    Company                    Type is Company
+    
+                               Disposition is often commerce
+    Consortium                 Unknown type.  Assert Organization only.
+    
+                               Type is often non-profit
+                               
+                               Disposition is often association
+    CoreLaboratory             Type is organization part
+    
+                               Dispositions are laboratory and service provider
+    Department                 Type is organizational part
+    
+                               Unknown dispositions
+    Division                   Type is organizational part
+    
+                               Unknown dispositions
+    ExtensionUnit              Type is organizational part
+    
+                               Disposition is agricultural extension
+    ERO_00000565               Type is organizational part
+    
+                               Disposition is technology transfer
+    Foundation                 Type may be non-profit
+    
+                               Type may be organizational part
+                               
+                               May be affiliated with another organization
+                               
+                               Disposition is philanthropy
+    
+                               Disposition may be funder                        
+    FundingOrganization        Unknown type.  Assert organization only.
+    
+                               Disposition is funder
+    GovernmentAgency           Type is government organization or organizational part
+    
+                               Disposition is unknown
+    Hospital                   Unknown type.  Assert organization only.
+    
+                               Disposition is hospital.
+    Institute                  Unknown type.  Assert organization only.
+    
+                               Disposition is unknown.  Often research.
+    Laboratory                 Unknown type.  Assert organization only.
+    
+                               Disposition is laboratory.
+    Library                    Unknown type.  Assert organization only.
+    
+                               Disposition is library.
+    Museum                     Unknown type.  Assert organization only.
+    
+                               Disposition is library.
+    Program                    Type is organizational part.
+    
+                               Disposition is unknown.
+    Publisher                  Type is unknown.  Assert organization only.
+    
+                               Often type is company.  But all others possible.
+    
+                               Disposition is publisher.
+    ResearchOrganization       Unknown type.  Assert organization only.
+    
+                               Disposition is research.
+    School                     Type is unknown.  Assert organization only.
+    
+                               At US university, an organizational part.
+                               
+                               Disposition is often education.                         
+    ServiceProvidingLaboratory Type is unknown.  Assert organization only.
+    
+                               Dispositions are laboratory and service provider.
+    StudentOrganization        Type is organizational part
+    
+                               Disposition is unknown
+                               
+                               Quality is student led [#]_. 
+    Team                       Type is unknown.  Assert organization only.
+    
+                               Disposition is unknown [#]_
+    University                 Type is unknown.  Assert organization only.
+    
+                               Disposition is university
+    
+                               Dispositions are typically education, research, service
+    ========================== ============================
 
 .. rubric:: Footnotes
 
@@ -144,4 +147,9 @@ in the VIVO Organization Ontology.
    Ontology, the first would be asserted to be non-profit, the second organization
    part.  Both would be asserted to have disposition museum.
    
-.. [#] To be determined.  
+.. [#] To be determined.
+
+.. [#] Team may mean "sports team" or "project team" or other.  A sports team may
+   be formal, such as Manchester United Football Club, or informal as in "my weekly
+   bowling team."  A project team may be considered part of an organization, or
+   informally organized to move work forward. 

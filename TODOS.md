@@ -11,9 +11,6 @@
 	member of / has member (and role-based version)
 	owns / owned by
 	spin-off of / has spin-off
-	successor of / has successor
-	
-	check VIVO ontology for other properties	
     
 1.  More dispositions / properties
   
@@ -30,27 +27,16 @@
 	Analogous to membership modeling
 	W3C "posts" may be more general, not just employee, but appointee and other.
 	
-1.  Reports To
-
-	Ah, this is something.  Independent of org chart or postions.  Might
-	get complex as W3C simply unions Agent and Post (argh!)
-	
-1. Qualities of sites (?)
+1. Qualities
 
    W3C has primarySite and RegisteredSite (legal)
    Student Organization
    Woman owned
    Minority owned
    
-1.  Add identifier semantics
-
-1.  Cover OpenVIVO semantics
+1. Add identifier semantics
    
 1. Add disjoint class expression to types of organizations
-
-1. Add Team as subset of Informal
-
-1. Add manufacturer disposition
 
 1. Properties to associate organizations to occurents
 
@@ -58,10 +44,6 @@
     performed
     
 1. Build out location options
-
-    has official name
-    has common name
-    has abbreviated name
     
     room
     facility
@@ -72,6 +54,8 @@
     region
     country
     continent
+    
+---
     
 1.  Create data for years
 

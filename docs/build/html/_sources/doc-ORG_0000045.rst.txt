@@ -1,28 +1,32 @@
 
   .. _ORG_0000045:
-  .. _campus:
+  .. _founding process:
   .. index:: 
-     single: ORG_0000045; campus
-     single: campus; ORG_0000045
+     single: ORG_0000045; founding process
+     single: founding process; ORG_0000045
 
-ORG_0000045 - campus
+ORG_0000045 - founding process
 ====================================================================================
 
 .. topic:: Label
 
-    campus
+    founding process
 
 .. topic:: Definition
 
-    The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.
+    The process by which the organization was founded
 
 .. topic:: Definition source
 
-    https://en.wiktionary.org/wiki/campus
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
-    The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland.
+    The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790
+
+.. topic:: Editor's note
+
+    The founding process might by a subproperty of a generic creation process if such a process ever appears at a higher level in the ontologies
 
 .. topic:: Term editor
 

@@ -1,38 +1,30 @@
 
   .. _ORG_0000038:
-  .. _building:
+  .. _homepage disposition:
   .. index:: 
-     single: ORG_0000038; building
-     single: building; ORG_0000038
+     single: ORG_0000038; homepage disposition
+     single: homepage disposition; ORG_0000038
 
-ORG_0000038 - building
+ORG_0000038 - homepage disposition
 ====================================================================================
 
 .. topic:: Label
 
-    building
+    homepage disposition
 
 .. topic:: Definition
 
-    A permanent walled and roofed construction
+    A dispsition to be the primary website for an entity.
 
 .. topic:: Definition source
 
-    https://en.wikipedia.org/wiki/Building
-
-.. topic:: Example
-
-    The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Editor's note
 
-    Similar to the term in ENVRO, but based on 'architectural structure' in OMRSE
+    Skeptical about this.  Is it a quality? A type of web page?
 
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
-
-.. topic:: See also
-
-    http://purl.obolibrary.org/obo/ENVO_00000073
 

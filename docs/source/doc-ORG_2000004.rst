@@ -32,6 +32,10 @@ ORG_2000004 - has organizational interest
 
     Additional subproperties could provide insight regarding the nature of the interest such as research interest, commercial interest, and so on
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#hasResearchArea
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448

@@ -1,0 +1,30 @@
+
+  .. _ORG_0000050:
+  .. _succession process boundary:
+  .. index:: 
+     single: ORG_0000050; succession process boundary
+     single: succession process boundary; ORG_0000050
+
+ORG_0000050 - succession process boundary
+====================================================================================
+
+.. topic:: Label
+
+    succession process boundary
+
+.. topic:: Definition
+
+    A process boundary within a succession process.  Complex succesion processes may have many boundaries.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    East Timor became a formally independent country on 20 May 2002
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

@@ -92,6 +92,7 @@ def write_term_page(term_uri):
 		OBO.IAO_0000112 : "Example",
 		SKOS.example    : "SKOS Example", 
 		OBO.IAO_0000116 : "Editor's note",
+		OBO.ORG_1000001 : "Similar term in VIVO 1 Ontology",
 		OBO.IAO_0000412 : "Imported From", 
 		OBO.IAO_0000117 : "Term editor",
 		RDFS.seeAlso    : "See also",

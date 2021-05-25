@@ -1,24 +1,24 @@
 
   .. _ORG_0000044:
-  .. _dissolution process boundary:
+  .. _geographical point:
   .. index:: 
-     single: ORG_0000044; dissolution process boundary
-     single: dissolution process boundary; ORG_0000044
+     single: ORG_0000044; geographical point
+     single: geographical point; ORG_0000044
 
-ORG_0000044 - dissolution process boundary
+ORG_0000044 - geographical point
 ====================================================================================
 
 .. topic:: Label
 
-    dissolution process boundary
+    geographical point
 
 .. topic:: Alternate name
 
-    dissolution
+    latlong
 
 .. topic:: Definition
 
-    The process boundary which marks the moment at which the organization no longer exists
+    A point located on the earth
 
 .. topic:: Definition source
 
@@ -26,11 +26,11 @@ ORG_0000044 - dissolution process boundary
 
 .. topic:: Example
 
-    Duraspace ceased to exist on July 1, 2019
+    The point with latitude 27.9881199 and longitude 86.9161989
 
 .. topic:: Editor's note
 
-    The dissolution process may have many steps and boundaries, such as ceasing operations, transfer of funds, dissolution of board.  These can be added at a later date if needed.
+    1. Since a point is smaller than a building, we say the point is located in a building.  The building is the location of the point.  2. Typically use ORG_0000004 to provide a lat/long value for the point.
 
 .. topic:: Term editor
 

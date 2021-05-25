@@ -28,6 +28,10 @@ ORG_2000003 - has time instant
 
     This provides a bidge between BFO ontologies and the W3C time ontology
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#dateTimeValue
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448

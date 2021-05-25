@@ -1,42 +1,30 @@
 
   .. _ORG_0000036:
-  .. _architectural structure:
+  .. _shipping address dispositon:
   .. index:: 
-     single: ORG_0000036; architectural structure
-     single: architectural structure; ORG_0000036
+     single: ORG_0000036; shipping address dispositon
+     single: shipping address dispositon; ORG_0000036
 
-ORG_0000036 - architectural structure
+ORG_0000036 - shipping address dispositon
 ====================================================================================
 
 .. topic:: Label
 
-    architectural structure
-
-.. topic:: Alternate name
-
-    bauwerk
+    shipping address dispositon
 
 .. topic:: Definition
 
-    A material entity that is a human made strcuture with firm connection between its foundation and the ground.
+    A disposition of an address to be used to receive shipped goods
 
 .. topic:: Definition source
 
-    http://purl.obolibrary.org/obo/OMRSE_00000061
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
-    Yankee Stadium, Stonehenge, The Shard, The Large Hadron Collider. The Great Wall of China
-
-.. topic:: Editor's note
-
-    Perhaps identical to the term in OMRSE
+    The loading dock address for central receiving of an organization
 
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
-
-.. topic:: See also
-
-    http://purl.obolibrary.org/obo/OMRSE_00000061
 

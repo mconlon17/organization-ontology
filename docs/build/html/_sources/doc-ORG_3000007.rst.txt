@@ -1,0 +1,30 @@
+
+  .. _ORG_3000007:
+  .. _has organization name:
+  .. index:: 
+     single: ORG_3000007; has organization name
+     single: has organization name; ORG_3000007
+
+ORG_3000007 - has organization name
+====================================================================================
+
+.. topic:: Label
+
+    has organization name
+
+.. topic:: Definition
+
+    A name of an organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    Names of The United States of America incude: USA, US, United States, America.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

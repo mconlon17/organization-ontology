@@ -1,20 +1,20 @@
 
   .. _ORG_0000033:
-  .. _billing address disposition:
+  .. _sports:
   .. index:: 
-     single: ORG_0000033; billing address disposition
-     single: billing address disposition; ORG_0000033
+     single: ORG_0000033; sports
+     single: sports; ORG_0000033
 
-ORG_0000033 - billing address disposition
+ORG_0000033 - sports
 ====================================================================================
 
 .. topic:: Label
 
-    billing address disposition
+    sports
 
 .. topic:: Definition
 
-    A disposition of an address to be used to receive bills
+    A disposition to engage in sports activites, typically competitive.
 
 .. topic:: Definition source
 
@@ -22,7 +22,11 @@ ORG_0000033 - billing address disposition
 
 .. topic:: Example
 
-    Bills may be sent to Attn: Name at
+    The University of Alabama mens football team, Manchester United, the Mumbai Indians Cricket Team are all organizations with a disposition of sports
+
+.. topic:: Editor's note
+
+    Perhaps a function
 
 .. topic:: Term editor
 

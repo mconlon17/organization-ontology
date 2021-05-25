@@ -24,6 +24,10 @@ ORG_0000003 - company
 
     BASF, The University of Phoenix, Facebook, Elsevier, Apple, Google, Amazon
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Company
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

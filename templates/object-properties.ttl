@@ -128,6 +128,64 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "has organizational interest"@en .
 
 
+###  http://purl.obolibrary.org/obo/ORG_2000005
+<http://purl.obolibrary.org/obo/ORG_2000005> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000050> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has website https://lyrasis.org.  Moscow State University has website https://msu.ru"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with its website"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has website"@en ;
+                                             owl:inverseOf "org:20000006"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000006
+<http://purl.obolibrary.org/obo/ORG_2000006> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000050> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The website https://vivoweb.org website of The VIVO Project"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a website with its organization."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "website of"@en ;
+                                             owl:inverseOf "org:20000005"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000007
+<http://purl.obolibrary.org/obo/ORG_2000007> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has successor"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The United Colonies has successor organization The United States of America"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has successor organization"@en ;
+                                             owl:inverseOf "org:20000008"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000008
+<http://purl.obolibrary.org/obo/ORG_2000008> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "successor of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The United Nations is the successor of the The League of Nations."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an on organization with the organization that preceeded it."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "successor organization of"@en ;
+                                             owl:inverseOf "org:20000007"^^xsd:anyURI .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -146,6 +204,10 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/ORG_0000038
 <http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000050
+<http://purl.obolibrary.org/obo/ORG_0000050> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

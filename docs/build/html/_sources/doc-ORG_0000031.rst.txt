@@ -24,6 +24,10 @@ ORG_0000031 - manufacturer
 
     Volkswagon, Apple, Pfizer, Airbus, BASF, Nestle, and General Electric all have manufacturing dispositions
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://purl.obolibrary.org/obo/ERO_0000034
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

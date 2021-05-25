@@ -22,7 +22,7 @@ ORG_3000003 - has postal address representation
 
 .. topic:: Definition source
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8449
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
@@ -34,5 +34,5 @@ ORG_3000003 - has postal address representation
 
 .. topic:: Term editor
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8449
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 

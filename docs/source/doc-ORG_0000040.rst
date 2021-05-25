@@ -1,38 +1,42 @@
 
   .. _ORG_0000040:
-  .. _geographical point:
+  .. _architectural structure:
   .. index:: 
-     single: ORG_0000040; geographical point
-     single: geographical point; ORG_0000040
+     single: ORG_0000040; architectural structure
+     single: architectural structure; ORG_0000040
 
-ORG_0000040 - geographical point
+ORG_0000040 - architectural structure
 ====================================================================================
 
 .. topic:: Label
 
-    geographical point
+    architectural structure
 
 .. topic:: Alternate name
 
-    latlong
+    bauwerk
 
 .. topic:: Definition
 
-    A point located on the earth
+    A material entity that is a human made strcuture with firm connection between its foundation and the ground.
 
 .. topic:: Definition source
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8447
+    http://purl.obolibrary.org/obo/OMRSE_00000061
 
 .. topic:: Example
 
-    The point with latitude 27.9881199 and longitude 86.9161989
+    Yankee Stadium, Stonehenge, The Shard, The Large Hadron Collider. The Great Wall of China
 
 .. topic:: Editor's note
 
-    1. Since a point is smaller than a building, we say the point is located in a building.  The building is the location of the point.  2. Typically use ORG_0000004 to provide a lat/long value for the point.
+    Perhaps identical to the term in OMRSE
 
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: See also
+
+    http://purl.obolibrary.org/obo/OMRSE_00000061
 

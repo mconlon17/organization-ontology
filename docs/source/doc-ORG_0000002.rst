@@ -28,6 +28,10 @@ ORG_0000002 - government organization
 
     The State of Florida is recognized as a government organization by the United States.  The government of the United States is recognized by other governments.  Note there is no "part of" relationship here.  Each is a government organization.
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#GovernmentAgency
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

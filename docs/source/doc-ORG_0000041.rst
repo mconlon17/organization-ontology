@@ -1,34 +1,38 @@
 
   .. _ORG_0000041:
-  .. _founding process:
+  .. _facility:
   .. index:: 
-     single: ORG_0000041; founding process
-     single: founding process; ORG_0000041
+     single: ORG_0000041; facility
+     single: facility; ORG_0000041
 
-ORG_0000041 - founding process
+ORG_0000041 - facility
 ====================================================================================
 
 .. topic:: Label
 
-    founding process
+    facility
 
 .. topic:: Definition
 
-    The process by which the organization was founded
+    An architectural structure that bears some function.
 
 .. topic:: Definition source
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8447
+    http://purl.obolibrary.org/obo/OMRSE_00000062
 
 .. topic:: Example
 
-    The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790
+    Walt Disney World, Kennedy Space Center, Golden Gate Bridge
 
 .. topic:: Editor's note
 
-    The founding process might by a subproperty of a generic creation process if such a process ever appears at a higher level in the ontologies
+    Perhaps identical to the term in OMRSE
 
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: See also
+
+    http://purl.obolibrary.org/obo/OMRSE_00000062
 

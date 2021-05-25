@@ -24,6 +24,10 @@ ORG_0000001 - organization
 
     A political party, a homeowners association, a football team, a publisher, a government agency, an organized religion
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://xmlns.com/foaf/0.1/Organization
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

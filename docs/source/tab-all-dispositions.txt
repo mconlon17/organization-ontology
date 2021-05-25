@@ -27,8 +27,12 @@
     ``ORG_0000029``         religious                 A disposition to engage in matters of spirtualit
     ``ORG_0000030``         governance                A disposition to provide governance
     ``ORG_0000031``         manufacturer              A dispositon to construct material entities
-    ``ORG_0000032``         information address disp  A disposition of an information content entity d
-    ``ORG_0000033``         billing address disposit  A disposition of an address to be used to receiv
-    ``ORG_0000034``         shipping address disposi  A disposition of an address to be used to receiv
-    ``ORG_0000035``         preferred address dispos  A disposition of an address to be displayed in m
+    ``ORG_0000032``         project team              A disposition to execute and finish a project.
+    ``ORG_0000033``         sports                    A disposition to engage in sports activites, typ
+    ``ORG_0000034``         information address disp  A disposition of an information content entity d
+    ``ORG_0000035``         billing address disposit  A disposition of an address to be used to receiv
+    ``ORG_0000036``         shipping address disposi  A disposition of an address to be used to receiv
+    ``ORG_0000037``         preferred address dispos  A disposition of an address to be displayed in m
+    ``ORG_0000038``         homepage disposition      A dispsition to be the primary website for an en
+    ``ORG_0000039``         wikipedia disposition     A disposition to be the webpage within WikiPedia
     ======================  ========================  ================================================

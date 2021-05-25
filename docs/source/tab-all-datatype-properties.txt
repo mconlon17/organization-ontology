@@ -7,5 +7,8 @@
     ``ORG_3000002``         has email representation  Specifies the email address string for an email 
     ``ORG_3000003``         has postal address repre  Specifies the postal address string for a postal
     ``ORG_3000004``         has geolocation represen  Specifies the geolocation string for a geolocati
+    ``ORG_3000005``         has URL representation    A URI that represents the address of a web site 
+    ``ORG_3000006``         has official organizatio  The name of the organization which appears in th
+    ``ORG_3000007``         has organization name     A name of an organization
     ``inXSDDateTimeStamp``  in XSD Date-Time-Stamp    A datatype property to contain the representatio
     ======================  ========================  ================================================

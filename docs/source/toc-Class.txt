@@ -67,6 +67,14 @@
    doc-ORG_0000043
    doc-ORG_0000044
    doc-ORG_0000045
+   doc-ORG_0000046
+   doc-ORG_0000047
+   doc-ORG_0000048
+   doc-ORG_0000049
+   doc-ORG_0000050
+   doc-ORG_0000051
+   doc-ORG_0000052
+   doc-ORG_0000429
    doc-Concept
    doc-Instant
    doc-TemporalUnit
