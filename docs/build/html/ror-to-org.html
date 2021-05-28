@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Search &mdash; The Organization Ontology  documentation</title>
+  <title>Translating from ROR to the Organization Ontology &mdash; The Organization Ontology  documentation</title>
   
 
   
@@ -23,7 +23,6 @@
   
 
   
-    
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -37,10 +36,8 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-    <script type="text/javascript" src="_static/searchtools.js"></script>
-    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -67,7 +64,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -99,7 +96,6 @@
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
@@ -152,10 +148,14 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Search</li>
+      <li>Translating from ROR to the Organization Ontology</li>
     
     
       <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ror-to-org.rst.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -167,18 +167,76 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="translating-from-ror-to-the-organization-ontology">
+<h1>Translating from ROR to the Organization Ontology<a class="headerlink" href="#translating-from-ror-to-the-organization-ontology" title="Permalink to this headline">¶</a></h1>
+<p>Research Organization Registry (ROR) provides data on over 95,000 research organizations in the world.  ROR data
+is available CC0, curated, and via an open API.</p>
+<div class="section" id="translating-types">
+<h2>Translating Types<a class="headerlink" href="#translating-types" title="Permalink to this headline">¶</a></h2>
+<p>The ROR Organization types are listed in <a class="reference internal" href="#table-15">Table 15</a>  ROR types are high-level and can
+be multi-valued, much as Organization Ontology dispositions are multi-valued.</p>
+<p>Organizations without research disposition are out of scope for ROR.  All organizations in
+ROR can be asserted to have research disposition.</p>
+<p><a class="reference internal" href="#table-15">Table 15</a> provides a guide for translating VIVO organizational types to assertions
+in the VIVO Organization Ontology.</p>
+<span id="table-15"></span><table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Table 15 Translating VIVO types to VIVO Organizational assertions</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ROR Type</p></th>
+<th class="head"><p>VIVO Organization Ontology Assertions</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Education</p></td>
+<td><p>Unknown type.  Assert Organization only.</p>
+<p>Disposition is education, research</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Healthcare</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is healthcare, research.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Company</p></td>
+<td><p>Type is company.</p>
+<p>Disposition is research.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Archive</p></td>
+<td><p>Type is unknown.  Assert Organization only.</p>
+<p>Disposition is archive, research.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Nonprofit</p></td>
+<td><p>Type is nonprofit</p>
+<p>Disposition is research.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Government</p></td>
+<td><p>Type is government organization</p>
+<p>Disposition is research.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Facility</p></td>
+<td><p>Type is unknown.  Organization only.</p>
+<p>Disposition is research.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Other</p></td>
+<td><p>Type is unknown.</p>
+<p>Disposition is research.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Footnotes</p>
+</div>
+</div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
            
@@ -220,14 +278,7 @@
   
   
     
-  
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
    
-
 
 </body>
 </html>

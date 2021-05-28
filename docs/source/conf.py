@@ -39,6 +39,8 @@ rst_prolog = """
 .. _BFO: http://www.ontobee.org/ontology/BFO
 .. |IAO| replace:: Information Artifact Ontology (IAO)
 .. _IAO: http://www.ontobee.org/ontology/IAO
+.. |ROR| replace:: Research Organization Registry (ROR)
+.. _ROR: http://ror.org
 .. |SKOS| replace:: Simple Knowledge Organization System (SKOS)
 .. _SKOS: https://www.w3.org/2004/02/skos/
 .. |Time| replace:: W3C Time Ontology (Time)

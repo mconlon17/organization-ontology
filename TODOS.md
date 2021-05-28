@@ -42,14 +42,7 @@
 
     performed by
     performed
-    
-1. Build out location options
 
-    populated place
-    region
-    country
-    continent
-    
 ---
     
 1.  Create data for years
