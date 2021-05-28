@@ -1,0 +1,17 @@
+
+
+See `Table 1`_.
+
+.. _Table 1:
+
+.. table:: Table 1 Types of Organizations
+
+    ======================  ========================  ================================================
+    Term ID                 Label                     Definition
+    ======================  ========================  ================================================
+    ``ORG_0000002``         government organization   An organization which is the body of persons tha
+    ``ORG_0000003``         company                   A legal entity of associated persons created for
+    ``ORG_0000004``         non-profit organization   A legal entity of associated persons created for
+    ``ORG_0000005``         informal organization     A group of people recognized as such by people o
+    ``ORG_0000006``         organization part         An organization which exists as part of another 
+    ======================  ========================  ================================================

@@ -1,20 +1,24 @@
 
   .. _ORG_0000045:
-  .. _founding process:
+  .. _geographical point:
   .. index:: 
-     single: ORG_0000045; founding process
-     single: founding process; ORG_0000045
+     single: ORG_0000045; geographical point
+     single: geographical point; ORG_0000045
 
-ORG_0000045 - founding process
+ORG_0000045 - geographical point
 ====================================================================================
 
 .. topic:: Label
 
-    founding process
+    geographical point
+
+.. topic:: Alternate name
+
+    latlong
 
 .. topic:: Definition
 
-    The process by which the organization was founded
+    A point located on the earth
 
 .. topic:: Definition source
 
@@ -22,11 +26,11 @@ ORG_0000045 - founding process
 
 .. topic:: Example
 
-    The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790
+    The point with latitude 27.9881199 and longitude 86.9161989
 
 .. topic:: Editor's note
 
-    The founding process might by a subproperty of a generic creation process if such a process ever appears at a higher level in the ontologies
+    1. Since a point is smaller than a building, we say the point is located in a building.  The building is the location of the point.  2. Typically use ORG_0000004 to provide a lat/long value for the point.
 
 .. topic:: Term editor
 

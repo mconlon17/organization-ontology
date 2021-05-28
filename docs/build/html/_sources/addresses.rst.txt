@@ -60,11 +60,11 @@ To say org y has a billing postal address, we can assert:
 Terms used to represent Addresses
 ---------------------------------
 
-:ref:`Table 2` lists term ids used in the representation of addresses
+:ref:`Table 8` lists term ids used in the representation of addresses
 
-.. _Table 2:
+.. _Table 8:
 
-.. table:: Table 2 Terms used to represent addresses
+.. table:: Table 8 Terms used to represent addresses
 
     ======================  ===========================================================
     Term                    Notes

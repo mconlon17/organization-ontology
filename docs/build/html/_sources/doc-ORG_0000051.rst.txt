@@ -1,32 +1,28 @@
 
   .. _ORG_0000051:
-  .. _campus:
+  .. _succession process boundary:
   .. index:: 
-     single: ORG_0000051; campus
-     single: campus; ORG_0000051
+     single: ORG_0000051; succession process boundary
+     single: succession process boundary; ORG_0000051
 
-ORG_0000051 - campus
+ORG_0000051 - succession process boundary
 ====================================================================================
 
 .. topic:: Label
 
-    campus
+    succession process boundary
 
 .. topic:: Definition
 
-    The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.
+    A process boundary within a succession process.  Complex succesion processes may have many boundaries.
 
 .. topic:: Definition source
 
-    https://en.wiktionary.org/wiki/campus
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
-    The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland.
-
-.. topic:: Similar term in VIVO 1 Ontology
-
-    http://vivoweb.org/ontology/core#Campus
+    East Timor became a formally independent country on 20 May 2002
 
 .. topic:: Term editor
 

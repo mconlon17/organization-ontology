@@ -34,7 +34,7 @@ OBI_0002815 - has representation
 
 .. topic:: Term editor
 
-    Mark Miller
-
     Damion Dooley
+
+    Mark Miller
 

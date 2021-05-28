@@ -18,35 +18,35 @@ BFO_0000029 - site
 
 .. topic:: Example
 
-    the interior of a kangaroo pouch
-
-    a rabbit hole
-
     the cockpit of an aircraft
-
-    your left nostril (a fiat part – the opening – of your left nasal cavity)
-
-    an air traffic control region defined in the airspace above an airport
-
-    the lumen of your gut
-
-    the interior of the trunk of your car
-
-    the interior of your office
-
-    the Grand Canyon
-
-    the hold of a ship
-
-    a hole in the interior of a portion of cheese
-
-    the interior of your bedroom
-
-    the interior of your refrigerator
 
     the Piazza San Marco
 
+    the hold of a ship
+
+    your left nostril (a fiat part – the opening – of your left nasal cavity)
+
+    the interior of the trunk of your car
+
+    the interior of your bedroom
+
+    the interior of a kangaroo pouch
+
+    the interior of your refrigerator
+
     Manhattan Canyon)
+
+    the lumen of your gut
+
+    the Grand Canyon
+
+    the interior of your office
+
+    a hole in the interior of a portion of cheese
+
+    a rabbit hole
+
+    an air traffic control region defined in the airspace above an airport
 
 .. topic:: Imported From
 

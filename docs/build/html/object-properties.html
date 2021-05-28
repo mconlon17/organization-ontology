@@ -122,8 +122,8 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
-<li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
@@ -257,12 +257,12 @@ We could write the above as:</p>
 <span class="n">y</span> <span class="n">denotes</span> <span class="n">x</span>
 </pre></div>
 </div>
-<p>See <a class="reference internal" href="#table-3"><span class="std std-ref">Table 3 Common Object Properties</span></a>. The pattern <em>entity1 bearer_of role; role realized_in process; process
+<p>See <a class="reference internal" href="#table-13"><span class="std std-ref">Table 13 Common Object Properties</span></a>. The pattern <em>entity1 bearer_of role; role realized_in process; process
 has_output entity2</em> is quite common and describes the role entity1 had through a process in
 the creation of entity2. Each of these properties has an inverse, so we could assert
 equivalently, <em>entity2 output_of process; process realizes role; role inheres in entity1</em>.</p>
-<span id="table-3"></span><table class="docutils align-default" id="id4">
-<caption><span class="caption-text">Table 3 Common Object Properties</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<span id="table-13"></span><table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Table 13 Common Object Properties</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 17%" />
 <col style="width: 27%" />
@@ -320,9 +320,9 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 </div>
 <div class="section" id="all-object-properties">
 <h2>All Object Properties<a class="headerlink" href="#all-object-properties" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference internal" href="#table-12">Table 12</a> lists all the object properties in the ORG ontology.</p>
-<span id="table-12"></span><table class="docutils align-default" id="id5">
-<caption><span class="caption-text">Table 12 All Object Properties</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<p>See <a class="reference internal" href="#table-5">Table 5</a>.</p>
+<span id="table-5"></span><table class="docutils align-default" id="id5">
+<caption><span class="caption-text">Table 5 Object Properties</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 23%" />
 <col style="width: 26%" />
@@ -367,51 +367,71 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <td><p>has time instant</p></td>
 <td><p>The property that associates a process boundary</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000053</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000004</span></code></p></td>
+<td><p>has organizational inter</p></td>
+<td><p>The property that associates an organization wit</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000005</span></code></p></td>
+<td><p>has website</p></td>
+<td><p>The property that associates an organization wit</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000006</span></code></p></td>
+<td><p>website of</p></td>
+<td><p>The property that associates a website with its</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000007</span></code></p></td>
+<td><p>has successor organizati</p></td>
+<td><p>The property that associates an organization wit</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_2000008</span></code></p></td>
+<td><p>successor organization o</p></td>
+<td><p>The property that associates an on organization</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000053</span></code></p></td>
 <td><p>bearer of</p></td>
 <td><p>A relation between an independent continuant (th</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000056</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000056</span></code></p></td>
 <td><p>participates in</p></td>
 <td><p>A relation between a continuant and a process, i</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000057</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000057</span></code></p></td>
 <td><p>has participant</p></td>
 <td><p>A relation between a process and a continuant, i</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000091</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000091</span></code></p></td>
 <td><p>has disposition</p></td>
 <td><p>A relation between an independent continuant (th</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0001015</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0001015</span></code></p></td>
 <td><p>location of</p></td>
 <td><p>A relation between two independent continuants,</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0001025</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0001025</span></code></p></td>
 <td><p>located in</p></td>
 <td><p>A relation between two independent continuants,</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002012</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002012</span></code></p></td>
 <td><p>occurent part of</p></td>
 <td><p>A part of relation that applies only between occ</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002131</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002131</span></code></p></td>
 <td><p>overlaps</p></td>
 <td><p>X overlaps y if and only if there exists some z</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002234</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002234</span></code></p></td>
 <td><p>has output</p></td>
 <td><p>P has output c iff c is a participant in p, c is</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002323</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002323</span></code></p></td>
 <td><p>mereotopologically relat</p></td>
 <td><p>A mereological relationship or a topological rel</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002353</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0002353</span></code></p></td>
 <td><p>output of</p></td>
 <td><p>Inverse of has output</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">unitType</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">unitType</span></code></p></td>
 <td><p>temporal unit type</p></td>
 <td><p>An indicator of the temporal precision of a time</p></td>
 </tr>

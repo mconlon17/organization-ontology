@@ -39,8 +39,9 @@ Organizations occupy locations.  They are not "located in" locations for two rea
     in a location.  An organization such as Amazon has a presence in many locations.
 2.  "located in" means all of something located wholly within something else.
 
-Organizations occupy locations.  This means they have some legal right to the location (own, lease, title, other) or 
-they have one or more persons affiliated with the organization who is at the location (all or some of the time). While
+Organizations occupy locations.  This means they have some legal right to the location 
+(own, lease, title, other) or they have one or more persons affiliated with the 
+organization who is at the location (all or some of the time). While
 occupation may involve disputes, most do not.
 
 We can then say
@@ -55,27 +56,28 @@ Note that 'located in' is transitive.  Gainesville is located in Florida.  Flori
 located in the United States.  We can infer that the University of Florida campus is 
 located in the United States.
 
-:doc:`Organizations <organizations>` do not have locations.  Facilities, and buildings have locations.
-Campuses are locations.
+:doc:`Organizations <organizations>` do not have locations.  Facilities, and buildings 
+have locations. Campuses have locations.
 
-:ref:`Table 7` lists terms used in the representation of locations
+:ref:`Table 12` lists terms used in the representation of locations
 
-.. _Table 7:
+.. _Table 12:
 
-.. table:: Table 7 Terms used to represent locations
+.. table:: Table 12 Terms used to represent locations
 
     ======================    ===========================================================
     Term                      Notes
     ======================    ===========================================================
-    :doc:`doc-ORG_0000035`    A man-made construction attached to the ground, a bauwerk
-    :doc:`doc-ORG_0000036`    An architectural structure with a function
-    :doc:`doc-ORG_0000037`    A permanent walled and roofed construction
-    :doc:`doc-ORG_0000044`    The grounds of a business, university, or other
+    :doc:`doc-ORG_0000040`    A man-made construction attached to the ground, a bauwerk
+    :doc:`doc-ORG_0000041`    An architectural structure with a function
+    :doc:`doc-ORG_0000042`    A permanent walled and roofed construction
+    :doc:`doc-ORG_0000043`    A space delineated by partitions in a building
+    :doc:`doc-ORG_0000052`    The grounds of a business, university, or other
     :doc:`doc-ORG_2000002`    The relation indicating an organization occupies a location
     :doc:`doc-RO_0001015`     Location of
     :doc:`doc-RO_0001025`     Located in
-    :doc:`doc-ORG_0000038`    A geographical location on the earth
-    :doc:`doc-ORG_0000039`    A point on the earth
+    :doc:`doc-ORG_0000044`    A geographical location on the earth
+    :doc:`doc-ORG_0000045`    A point on the earth
     :doc:`doc-ORG_3000004`    A geolocation representation as lat,long
     ======================    ===========================================================
 

@@ -22,12 +22,21 @@ __copyright__ = "Copyright (c) 2021 Michael Conlon"
 __license__ = "Apache-2"
 __version__ = "0.0.1"
 
-OBO= Namespace('http://purl.obolibrary.org/obo/')
+OBO = Namespace('http://purl.obolibrary.org/obo/')
 OWL = Namespace('http://www.w3.org/2002/07/owl#')
+
+table_number = 0
 
 g = Graph()
 
 header = """
+
+See `Table {}`_.
+
+.. _Table {}:
+
+.. table:: Table {} {}
+
     ======================  ========================  ================================================
     Term ID                 Label                     Definition
     ======================  ========================  ================================================"""
@@ -125,8 +134,11 @@ def term_table(file_name, term_label, predicate, object):
 	# Given a file name, term label, term type, predicate and object, create a table of the terms matching
 	# the predicate and object
 	
-	f = open(file_name, "w")	
-	print(header, file=f)
+	global table_number
+	
+	f = open(file_name, "w")
+	table_number += 1	
+	print(header.format(table_number, table_number, table_number, term_label), file=f)
 	
 	for term_uri in sorted(g.subjects(predicate, object)):
 		
@@ -193,12 +205,14 @@ def main():
 	
 	# Write term tables
 		
+	term_table("../source/tab-all-types.txt", "Types of Organizations", RDFS.subClassOf, OBO.ORG_0000001)
 	term_table("../source/tab-all-dispositions.txt", "Dispositions", RDFS.subClassOf, OBO.BFO_0000016) # Dispositions
 	term_table("../source/tab-all-classes.txt", "Classes", RDF.type, OWL.Class)
 	term_table("../source/tab-all-annotation-properties.txt", "Annotation Properties", RDF.type, OWL.AnnotationProperty)
 	term_table("../source/tab-all-object-properties.txt", "Object Properties", RDF.type, OWL.ObjectProperty)
 	term_table("../source/tab-all-datatype-properties.txt", "Datatype Properties", RDF.type, OWL.DatatypeProperty)
 	term_table("../source/tab-all-named-individuals.txt", "Named Individuals", RDF.type, OWL.NamedIndividual)
+	print(table_number, "tables written")
 	
 	return
 

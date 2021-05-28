@@ -49,7 +49,7 @@ An organization ontology should reuse terms it needs from other ontologies.
    
 .. topic:: Identifiers
 
-   `The Identifier Ontology <https://github.com/mconlon17/identifier-ontology>` [#]_ 
+   `The Identifier Ontology <https://github.com/mconlon17/identifier-ontology>`_ [#]_ 
    defines identifiers and semantics for using
    identifiers to identify organizations, people, and scholarly works.
    
@@ -101,9 +101,10 @@ Out of Scope and Not Included Here
 
 .. rubric:: Footnotes
 
+.. [#] The Identifier Ontology is underdevelopment as a planned expansion of |IAO|_
+
 .. [#] We follow in the footsteps of :ref:`VIVO 1 <glossary>`, including terms that have 
    shown their value over a decade of use.
    
 .. [#] Same as the comment on locations.
 
-.. [#] The Identifier Ontology is underdeveloped as a planned expansion of |IAO|_

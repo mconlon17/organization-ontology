@@ -1,24 +1,20 @@
 
   .. _ORG_0000046:
-  .. _founding process boundary:
+  .. _founding process:
   .. index:: 
-     single: ORG_0000046; founding process boundary
-     single: founding process boundary; ORG_0000046
+     single: ORG_0000046; founding process
+     single: founding process; ORG_0000046
 
-ORG_0000046 - founding process boundary
+ORG_0000046 - founding process
 ====================================================================================
 
 .. topic:: Label
 
-    founding process boundary
-
-.. topic:: Alternate name
-
-    founding
+    founding process
 
 .. topic:: Definition
 
-    The process boundary which defines the moment of creation of an orgnization.  Before the moment  the organization does not exist.  After the moment, the organization exists.
+    The process by which the organization was founded
 
 .. topic:: Definition source
 
@@ -26,7 +22,11 @@ ORG_0000046 - founding process boundary
 
 .. topic:: Example
 
-    The University of Bologna was founded in 1088.  Facebook was founded in 2004.
+    The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790
+
+.. topic:: Editor's note
+
+    The founding process might by a subproperty of a generic creation process if such a process ever appears at a higher level in the ontologies
 
 .. topic:: Term editor
 

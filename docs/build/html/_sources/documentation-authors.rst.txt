@@ -24,8 +24,8 @@ Some things we should be able to do:
    
 #. No need to write about the tools.  Each tool has outstanding documentation.
 
-#. Use `Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_ to build
-   the documentation.
+#. See `Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_ to get
+   started with the documentation.
 
 #. Use `RestructuredText <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`_ to 
    write the documentation.  RestructuredText is a mark-up language originally developed to document python.

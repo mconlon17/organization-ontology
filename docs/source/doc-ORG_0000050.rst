@@ -1,20 +1,20 @@
 
   .. _ORG_0000050:
-  .. _succession process boundary:
+  .. _succession process:
   .. index:: 
-     single: ORG_0000050; succession process boundary
-     single: succession process boundary; ORG_0000050
+     single: ORG_0000050; succession process
+     single: succession process; ORG_0000050
 
-ORG_0000050 - succession process boundary
+ORG_0000050 - succession process
 ====================================================================================
 
 .. topic:: Label
 
-    succession process boundary
+    succession process
 
 .. topic:: Definition
 
-    A process boundary within a succession process.  Complex succesion processes may have many boundaries.
+    The process by which one organization gores out of existence and is succeeded by a new organization
 
 .. topic:: Definition source
 
@@ -22,7 +22,11 @@ ORG_0000050 - succession process boundary
 
 .. topic:: Example
 
-    East Timor became a formally independent country on 20 May 2002
+    The Central People's Government of the People's Republic of China was proclaimed by Mao Zedong on October 1, 1949 at 3PM replacing the government of the Republic of China.
+
+.. topic:: Editor's note
+
+    The succession process typically has founding and dissolution processes as occurent parts
 
 .. topic:: Term editor
 

@@ -9,7 +9,8 @@ Glossary
     Basic Formal Ontology.  An upper level ontology used to represent things that exist.
     
   CC0
-    `Creative Commons 0 license <https://creativecommons.org/share-your-work/public-domain/cc0/>`_, 
+    `Creative Commons 0 license 
+    <https://creativecommons.org/share-your-work/public-domain/cc0/>`_, 
     a license asserting no rights by anyone, that is "no rights reserved".  CC0 material
     can be freely used in any manner without attribution.
     
@@ -49,7 +50,8 @@ Glossary
     of properties in RO.
     
   ROR
-    Research Organization registry.  An open (CC0), curated, collection of facts about the
+    `Research Organization Registry <http://ror.org>`_.  An open (CC0), curated, 
+    collection of facts about the
     research organizations of the world.
 
   Term
@@ -57,8 +59,9 @@ Glossary
     an object property, or a datatype property.
     
   VIVO
-    Software, ontlogies, and community for representing scholarship.
+    Software, ontologies, and community for representing scholarship.
     
   VIVO 1
-    The `VIVO Ontology <https://github.com/vivo-ontologies/vivo-ontology>`_ as implemented in VIVO beginning with VIVO version 1.6.
+    The `VIVO Ontology <https://github.com/vivo-ontologies/vivo-ontology>`_ as 
+    implemented in VIVO beginning with VIVO version 1.6.
 

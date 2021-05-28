@@ -1,20 +1,24 @@
 
   .. _ORG_0000049:
-  .. _succession process:
+  .. _dissolution process boundary:
   .. index:: 
-     single: ORG_0000049; succession process
-     single: succession process; ORG_0000049
+     single: ORG_0000049; dissolution process boundary
+     single: dissolution process boundary; ORG_0000049
 
-ORG_0000049 - succession process
+ORG_0000049 - dissolution process boundary
 ====================================================================================
 
 .. topic:: Label
 
-    succession process
+    dissolution process boundary
+
+.. topic:: Alternate name
+
+    dissolution
 
 .. topic:: Definition
 
-    The process by which one organization gores out of existence and is succeeded by a new organization
+    The process boundary which marks the moment at which the organization no longer exists
 
 .. topic:: Definition source
 
@@ -22,11 +26,11 @@ ORG_0000049 - succession process
 
 .. topic:: Example
 
-    The Central People's Government of the People's Republic of China was proclaimed by Mao Zedong on October 1, 1949 at 3PM replacing the government of the Republic of China.
+    Duraspace ceased to exist on July 1, 2019
 
 .. topic:: Editor's note
 
-    The succession process typically has founding and dissolution processes as occurent parts
+    The dissolution process may have many steps and boundaries, such as ceasing operations, transfer of funds, dissolution of board.  These can be added at a later date if needed.
 
 .. topic:: Term editor
 

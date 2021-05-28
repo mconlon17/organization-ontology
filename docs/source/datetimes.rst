@@ -98,11 +98,11 @@ might be appear as "1853-01-01T00:00:01+00:00" for example.
 Terms used to represent dates and times
 ---------------------------------------
   
-:ref:`Table 4` lists terms used to represent dates and times
+:ref:`Table 11` lists terms used to represent dates and times
 
-.. _Table 4:
+.. _Table 11:
 
-.. table:: Table 4 Terms used to represent dates and times
+.. table:: Table 11 Terms used to represent dates and times
 
     ============================= ===========================================================
     Term                          Notes

@@ -563,7 +563,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/ORG_3000002
 <http://purl.obolibrary.org/obo/ORG_3000002> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
-                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000429> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/IAO_0000429> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "info@metabolomics.info"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
@@ -593,7 +593,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/ORG_3000004
 <http://purl.obolibrary.org/obo/ORG_3000004> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
-                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000043> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000044> ;
                                              rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "29.6651224,-82.3396949"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
@@ -608,7 +608,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/ORG_3000005
 <http://purl.obolibrary.org/obo/ORG_3000005> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
-                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000048> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000053> ;
                                              rdfs:range xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has URL"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The URL of the United Nations home page is http://un.org"@en ;
@@ -1369,7 +1369,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000040> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Yankee Stadium, Stonehenge, The Shard, The Large Hadron Collider. The Great Wall of China"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A material entity that is a human made strcuture with firm connection between its foundation and the ground."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps identical to the term in OMRSE"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1381,9 +1381,9 @@ Previous. An information content entity is a non-realizable information entity t
 
 ###  http://purl.obolibrary.org/obo/ORG_0000041
 <http://purl.obolibrary.org/obo/ORG_0000041> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000035> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000040> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Walt Disney World, Kennedy Space Center, Golden Gate Bridge"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An architectural structure that bears some function."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps identical to the term in OMRSE"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1396,7 +1396,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000042> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A permanent walled and roofed construction"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Similar to the term in ENVRO, but based on 'architectural structure' in OMRSE"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1408,8 +1408,21 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000043
 <http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Oval Office is a room in the White House.  A classroom, a locker room, a bedroom, a kitchen are all rooms."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A space contained by a partitioned part of the inside of a building.  Often has an identifier."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "A room is not a structure.  It is a space inside a structure."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/room"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Room"^^xsd:anyuri ;
+                                             rdfs:label "room"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000044
+<http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Indian Ocean, Africa, Metropolitan France, West 57th Street"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A place on the earth"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "1. Geographical locations are often confused with the entities that are located in those places.  For example, France is a country with several discontiguous geographical loctions.  Metropolitan France is a geographical location in Europe.  2. Unlike the GAZ term, this term is not a reference to a place on the earth, rather it is a place on the earth."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1418,12 +1431,12 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/GAZ_00000448"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000044
-<http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000038> ;
+###  http://purl.obolibrary.org/obo/ORG_0000045
+<http://purl.obolibrary.org/obo/ORG_0000045> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000044> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "zero-dimensional geographical location"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The point with latitude 27.9881199 and longitude 86.9161989"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A point located on the earth"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "1. Since a point is smaller than a building, we say the point is located in a building.  The building is the location of the point.  2. Typically use ORG_0000004 to provide a lat/long value for the point."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1432,8 +1445,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "geographical point"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000045
-<http://purl.obolibrary.org/obo/ORG_0000045> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000046
+<http://purl.obolibrary.org/obo/ORG_0000046> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -1444,8 +1457,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "founding process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000046
-<http://purl.obolibrary.org/obo/ORG_0000046> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000047
+<http://purl.obolibrary.org/obo/ORG_0000047> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Bologna was founded in 1088.  Facebook was founded in 2004."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -1456,8 +1469,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "founding process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000047
-<http://purl.obolibrary.org/obo/ORG_0000047> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000048
+<http://purl.obolibrary.org/obo/ORG_0000048> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The German Democratic Republic (aka East Germany) ended in 1990."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -1468,8 +1481,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "dissolution process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000048
-<http://purl.obolibrary.org/obo/ORG_0000048> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000049
+<http://purl.obolibrary.org/obo/ORG_0000049> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Duraspace ceased to exist on July 1, 2019"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -1481,8 +1494,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "dissolution process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000049
-<http://purl.obolibrary.org/obo/ORG_0000049> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000050
+<http://purl.obolibrary.org/obo/ORG_0000050> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Central People's Government of the People's Republic of China was proclaimed by Mao Zedong on October 1, 1949 at 3PM replacing the government of the Republic of China."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -1493,8 +1506,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "succession process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000050
-<http://purl.obolibrary.org/obo/ORG_0000050> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000051
+<http://purl.obolibrary.org/obo/ORG_0000051> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "East Timor became a formally independent country on 20 May 2002"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -1504,9 +1517,9 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "succession process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000051
-<http://purl.obolibrary.org/obo/ORG_0000051> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000039> ;
+###  http://purl.obolibrary.org/obo/ORG_0000052
+<http://purl.obolibrary.org/obo/ORG_0000052> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000040> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."@en ;
@@ -1516,8 +1529,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "campus"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000052
-<http://purl.obolibrary.org/obo/ORG_0000052> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000053
+<http://purl.obolibrary.org/obo/ORG_0000053> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000030> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Facebook and Google have prominent web sites."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
@@ -1526,10 +1539,6 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/website"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://www.w3.org/2006/vcard/ns#URL"^^xsd:anyuri ;
                                              rdfs:label "web site"@en .
-
-
-###  http://purl.obolibrary.org/obo/ORG_0000429
-<http://purl.obolibrary.org/obo/ORG_0000429> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

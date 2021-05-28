@@ -1,32 +1,32 @@
 
   .. _ORG_0000052:
-  .. _web site:
+  .. _campus:
   .. index:: 
-     single: ORG_0000052; web site
-     single: web site; ORG_0000052
+     single: ORG_0000052; campus
+     single: campus; ORG_0000052
 
-ORG_0000052 - web site
+ORG_0000052 - campus
 ====================================================================================
 
 .. topic:: Label
 
-    web site
+    campus
 
 .. topic:: Definition
 
-    An information content entity consisting of a group of World Wide Web pages usually containing hyperlinks to each other and made available online by an individual, company, educational institution, government, or organization
+    The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.
 
 .. topic:: Definition source
 
-    https://www.merriam-webster.com/dictionary/website
+    https://en.wiktionary.org/wiki/campus
 
 .. topic:: Example
 
-    Facebook and Google have prominent web sites.
+    The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland.
 
 .. topic:: Similar term in VIVO 1 Ontology
 
-    http://www.w3.org/2006/vcard/ns#URL
+    http://vivoweb.org/ontology/core#Campus
 
 .. topic:: Term editor
 
