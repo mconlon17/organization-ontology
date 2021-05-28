@@ -1,20 +1,20 @@
 
   .. _ORG_0000048:
-  .. _dissolution process:
+  .. _country:
   .. index:: 
-     single: ORG_0000048; dissolution process
-     single: dissolution process; ORG_0000048
+     single: ORG_0000048; country
+     single: country; ORG_0000048
 
-ORG_0000048 - dissolution process
+ORG_0000048 - country
 ====================================================================================
 
 .. topic:: Label
 
-    dissolution process
+    country
 
 .. topic:: Definition
 
-    The process by which an organization no longer exists.
+    The territory governed by a sovereign state.
 
 .. topic:: Definition source
 
@@ -22,11 +22,11 @@ ORG_0000048 - dissolution process
 
 .. topic:: Example
 
-    The German Democratic Republic (aka East Germany) ended in 1990.
+    Canada, Ecuador, Slovakia, Namibia, Pakistan, New Zealand are all countries
 
 .. topic:: Editor's note
 
-    There are many dissolution processes (merger, acquisition, discontinuation).  These can be added at a later date if needed.
+    This term is about the territory, not the geopolitical entity of the same name.
 
 .. topic:: Term editor
 

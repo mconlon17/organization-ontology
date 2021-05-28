@@ -18,7 +18,7 @@ RO_0002012 - occurent part of
 
 .. topic:: Imported From
 
-    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
-
     http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

@@ -1,20 +1,20 @@
 
   .. _ORG_0000050:
-  .. _succession process:
+  .. _populated place:
   .. index:: 
-     single: ORG_0000050; succession process
-     single: succession process; ORG_0000050
+     single: ORG_0000050; populated place
+     single: populated place; ORG_0000050
 
-ORG_0000050 - succession process
+ORG_0000050 - populated place
 ====================================================================================
 
 .. topic:: Label
 
-    succession process
+    populated place
 
 .. topic:: Definition
 
-    The process by which one organization gores out of existence and is succeeded by a new organization
+    A named place on the earth occupied by people
 
 .. topic:: Definition source
 
@@ -22,11 +22,15 @@ ORG_0000050 - succession process
 
 .. topic:: Example
 
-    The Central People's Government of the People's Republic of China was proclaimed by Mao Zedong on October 1, 1949 at 3PM replacing the government of the Republic of China.
+    Tokyo Japan, Eustis Florida, Podgorica Montenegro, and Stevenage United Kingdom are all populated places.
 
 .. topic:: Editor's note
 
-    The succession process typically has founding and dissolution processes as occurent parts
+    There is wide variation in the applicaton of this term.
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#PopulatedPlace
 
 .. topic:: Term editor
 

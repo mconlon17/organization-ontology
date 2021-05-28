@@ -1,24 +1,20 @@
 
   .. _ORG_0000049:
-  .. _dissolution process boundary:
+  .. _region:
   .. index:: 
-     single: ORG_0000049; dissolution process boundary
-     single: dissolution process boundary; ORG_0000049
+     single: ORG_0000049; region
+     single: region; ORG_0000049
 
-ORG_0000049 - dissolution process boundary
+ORG_0000049 - region
 ====================================================================================
 
 .. topic:: Label
 
-    dissolution process boundary
-
-.. topic:: Alternate name
-
-    dissolution
+    region
 
 .. topic:: Definition
 
-    The process boundary which marks the moment at which the organization no longer exists
+    A subdivision of the territory of a country
 
 .. topic:: Definition source
 
@@ -26,11 +22,11 @@ ORG_0000049 - dissolution process boundary
 
 .. topic:: Example
 
-    Duraspace ceased to exist on July 1, 2019
+    US states, counties, Candian Provinces, US Zip codes, US SMSAs, US time zone territories are all examples of regions.
 
 .. topic:: Editor's note
 
-    The dissolution process may have many steps and boundaries, such as ceasing operations, transfer of funds, dissolution of board.  These can be added at a later date if needed.
+    This term is about the territory, not its governance.  It could be subclassed to define verious types of regions -- census tracts, zip codes, and others.
 
 .. topic:: Term editor
 

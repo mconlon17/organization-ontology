@@ -1,32 +1,32 @@
 
   .. _ORG_0000053:
-  .. _web site:
+  .. _dissolution process:
   .. index:: 
-     single: ORG_0000053; web site
-     single: web site; ORG_0000053
+     single: ORG_0000053; dissolution process
+     single: dissolution process; ORG_0000053
 
-ORG_0000053 - web site
+ORG_0000053 - dissolution process
 ====================================================================================
 
 .. topic:: Label
 
-    web site
+    dissolution process
 
 .. topic:: Definition
 
-    An information content entity consisting of a group of World Wide Web pages usually containing hyperlinks to each other and made available online by an individual, company, educational institution, government, or organization
+    The process by which an organization no longer exists.
 
 .. topic:: Definition source
 
-    https://www.merriam-webster.com/dictionary/website
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
 
 .. topic:: Example
 
-    Facebook and Google have prominent web sites.
+    The German Democratic Republic (aka East Germany) ended in 1990.
 
-.. topic:: Similar term in VIVO 1 Ontology
+.. topic:: Editor's note
 
-    http://www.w3.org/2006/vcard/ns#URL
+    There are many dissolution processes (merger, acquisition, discontinuation).  These can be added at a later date if needed.
 
 .. topic:: Term editor
 

@@ -1,38 +1,38 @@
 
   .. _ORG_0000044:
-  .. _geographical location:
+  .. _room:
   .. index:: 
-     single: ORG_0000044; geographical location
-     single: geographical location; ORG_0000044
+     single: ORG_0000044; room
+     single: room; ORG_0000044
 
-ORG_0000044 - geographical location
+ORG_0000044 - room
 ====================================================================================
 
 .. topic:: Label
 
-    geographical location
+    room
 
 .. topic:: Definition
 
-    A place on the earth
+    A space contained by a partitioned part of the inside of a building.  Often has an identifier.
 
 .. topic:: Definition source
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8447
+    https://www.merriam-webster.com/dictionary/room
 
 .. topic:: Example
 
-    The Indian Ocean, Africa, Metropolitan France, West 57th Street
+    The Oval Office is a room in the White House.  A classroom, a locker room, a bedroom, a kitchen are all rooms.
 
 .. topic:: Editor's note
 
-    1. Geographical locations are often confused with the entities that are located in those places.  For example, France is a country with several discontiguous geographical loctions.  Metropolitan France is a geographical location in Europe.  2. Unlike the GAZ term, this term is not a reference to a place on the earth, rather it is a place on the earth.
+    A room is not a structure.  It is a space inside a structure.
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Room
 
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
-
-.. topic:: See also
-
-    http://purl.obolibrary.org/obo/GAZ_00000448
 

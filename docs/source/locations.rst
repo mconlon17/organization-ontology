@@ -69,15 +69,19 @@ have locations. Campuses have locations.
     Term                      Notes
     ======================    ===========================================================
     :doc:`doc-ORG_0000040`    A man-made construction attached to the ground, a bauwerk
-    :doc:`doc-ORG_0000041`    An architectural structure with a function
-    :doc:`doc-ORG_0000042`    A permanent walled and roofed construction
-    :doc:`doc-ORG_0000043`    A space delineated by partitions in a building
-    :doc:`doc-ORG_0000052`    The grounds of a business, university, or other
+    :doc:`doc-ORG_0000041`    The grounds of a business, university, or other
+    :doc:`doc-ORG_0000042`    An architectural structure with a function
+    :doc:`doc-ORG_0000043`    A permanent walled and roofed construction
+    :doc:`doc-ORG_0000044`    A space delineated by partitions in a building
+    :doc:`doc-ORG_0000047`    One of the seven major land masses of the earth
+    :doc:`doc-ORG_0000048`    The territory occupied by a sovereign state
+    :doc:`doc-ORG_0000049`    Any subdivision of the territory of a country
+    :doc:`doc-ORG_0000050`    Any named place on the earth occupied by people
     :doc:`doc-ORG_2000002`    The relation indicating an organization occupies a location
     :doc:`doc-RO_0001015`     Location of
     :doc:`doc-RO_0001025`     Located in
-    :doc:`doc-ORG_0000044`    A geographical location on the earth
-    :doc:`doc-ORG_0000045`    A point on the earth
+    :doc:`doc-ORG_0000045`    A geographical location on the earth
+    :doc:`doc-ORG_0000046`    A point on the earth
     :doc:`doc-ORG_3000004`    A geolocation representation as lat,long
     ======================    ===========================================================
 

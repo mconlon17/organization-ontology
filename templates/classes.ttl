@@ -597,6 +597,18 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000041
 <http://purl.obolibrary.org/obo/ORG_0000041> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000040> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wiktionary.org/wiki/campus"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Campus"^^xsd:anyuri ;
+                                             rdfs:label "campus"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000042
+<http://purl.obolibrary.org/obo/ORG_0000042> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000040> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Walt Disney World, Kennedy Space Center, Golden Gate Bridge"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An architectural structure that bears some function."@en ;
@@ -607,8 +619,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/OMRSE_00000062"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000042
-<http://purl.obolibrary.org/obo/ORG_0000042> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000043
+<http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
@@ -620,8 +632,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/ENVO_00000073"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000043
-<http://purl.obolibrary.org/obo/ORG_0000043> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000044
+<http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Oval Office is a room in the White House.  A classroom, a locker room, a bedroom, a kitchen are all rooms."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
@@ -633,22 +645,23 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "room"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000044
-<http://purl.obolibrary.org/obo/ORG_0000044> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000045
+<http://purl.obolibrary.org/obo/ORG_0000045> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Indian Ocean, Africa, Metropolitan France, West 57th Street"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A place on the earth"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A place on the earth.  Not necessarily contiguous"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "1. Geographical locations are often confused with the entities that are located in those places.  For example, France is a country with several discontiguous geographical loctions.  Metropolitan France is a geographical location in Europe.  2. Unlike the GAZ term, this term is not a reference to a place on the earth, rather it is a place on the earth."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "geographical location"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#GeographicRegion"^^xsd:anyuri ;
+                                             rdfs:label "geographic region"@en ;
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/GAZ_00000448"^^xsd:anyuri .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000045
-<http://purl.obolibrary.org/obo/ORG_0000045> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000044> ;
+###  http://purl.obolibrary.org/obo/ORG_0000046
+<http://purl.obolibrary.org/obo/ORG_0000046> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000045> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "zero-dimensional geographical location"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The point with latitude 27.9881199 and longitude 86.9161989"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
@@ -657,11 +670,60 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "latlong"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "geographical point"@en .
+                                             rdfs:label "geographic point"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000046
-<http://purl.obolibrary.org/obo/ORG_0000046> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000047
+<http://purl.obolibrary.org/obo/ORG_0000047> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000045> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "One of the main landmasses of the globe, usually reckoned as seven in number (Europe, Asia, Africa, North America, South America, Australia, and Antarctica)."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Should define 7 named individuals and then this class is explicitly defined"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.dictionary.com/browse/continent"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Continent"^^xsd:anyuri ;
+                                             rdfs:label "continent"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000048
+<http://purl.obolibrary.org/obo/ORG_0000048> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000045> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Canada, Ecuador, Slovakia, Namibia, Pakistan, New Zealand are all countries"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The territory governed by a sovereign state."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This term is about the territory, not the geopolitical entity of the same name."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "country"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000049
+<http://purl.obolibrary.org/obo/ORG_0000049> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000045> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "US states, counties, Candian Provinces, US Zip codes, US SMSAs, US time zone territories are all examples of regions."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A subdivision of the territory of a country"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This term is about the territory, not its governance.  It could be subclassed to define verious types of regions -- census tracts, zip codes, and others."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "region"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000050
+<http://purl.obolibrary.org/obo/ORG_0000050> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000045> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Tokyo Japan, Eustis Florida, Podgorica Montenegro, and Stevenage United Kingdom are all populated places."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A named place on the earth occupied by people"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "There is wide variation in the applicaton of this term."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#PopulatedPlace"^^xsd:anyuri ;
+                                             rdfs:label "populated place"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000051
+<http://purl.obolibrary.org/obo/ORG_0000051> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The United States government was founded by the constitutional convention process of 1787 resulting in a ratified constitution in 1790"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -672,8 +734,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "founding process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000047
-<http://purl.obolibrary.org/obo/ORG_0000047> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000052
+<http://purl.obolibrary.org/obo/ORG_0000052> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Bologna was founded in 1088.  Facebook was founded in 2004."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -684,8 +746,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "founding process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000048
-<http://purl.obolibrary.org/obo/ORG_0000048> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000053
+<http://purl.obolibrary.org/obo/ORG_0000053> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The German Democratic Republic (aka East Germany) ended in 1990."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -696,8 +758,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "dissolution process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000049
-<http://purl.obolibrary.org/obo/ORG_0000049> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000054
+<http://purl.obolibrary.org/obo/ORG_0000054> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Duraspace ceased to exist on July 1, 2019"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -709,8 +771,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "dissolution process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000050
-<http://purl.obolibrary.org/obo/ORG_0000050> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000055
+<http://purl.obolibrary.org/obo/ORG_0000055> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Central People's Government of the People's Republic of China was proclaimed by Mao Zedong on October 1, 1949 at 3PM replacing the government of the Republic of China."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -721,8 +783,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "succession process"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000051
-<http://purl.obolibrary.org/obo/ORG_0000051> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000056
+<http://purl.obolibrary.org/obo/ORG_0000056> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "East Timor became a formally independent country on 20 May 2002"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
@@ -732,20 +794,8 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "succession process boundary"@en .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000052
-<http://purl.obolibrary.org/obo/ORG_0000052> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000040> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wiktionary.org/wiki/campus"@en ;
-                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Campus"^^xsd:anyuri ;
-                                             rdfs:label "campus"@en .
-
-
-###  http://purl.obolibrary.org/obo/ORG_0000053
-<http://purl.obolibrary.org/obo/ORG_0000053> rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/ORG_0000057
+<http://purl.obolibrary.org/obo/ORG_0000057> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000030> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Facebook and Google have prominent web sites."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;

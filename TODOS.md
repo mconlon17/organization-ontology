@@ -44,11 +44,6 @@
     performed
     
 1. Build out location options
-    
-    room
-    facility
-      building
-    campus
 
     populated place
     region

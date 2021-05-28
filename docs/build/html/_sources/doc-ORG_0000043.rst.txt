@@ -1,38 +1,38 @@
 
   .. _ORG_0000043:
-  .. _room:
+  .. _building:
   .. index:: 
-     single: ORG_0000043; room
-     single: room; ORG_0000043
+     single: ORG_0000043; building
+     single: building; ORG_0000043
 
-ORG_0000043 - room
+ORG_0000043 - building
 ====================================================================================
 
 .. topic:: Label
 
-    room
+    building
 
 .. topic:: Definition
 
-    A space contained by a partitioned part of the inside of a building.  Often has an identifier.
+    A permanent walled and roofed construction
 
 .. topic:: Definition source
 
-    https://www.merriam-webster.com/dictionary/room
+    https://en.wikipedia.org/wiki/Building
 
 .. topic:: Example
 
-    The Oval Office is a room in the White House.  A classroom, a locker room, a bedroom, a kitchen are all rooms.
+    The Pentagon, The Leaning Tower of Pisa, The Gherkin, The Coliseum
 
 .. topic:: Editor's note
 
-    A room is not a structure.  It is a space inside a structure.
-
-.. topic:: Similar term in VIVO 1 Ontology
-
-    http://vivoweb.org/ontology/core#Room
+    Similar to the term in ENVRO, but based on 'architectural structure' in OMRSE
 
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: See also
+
+    http://purl.obolibrary.org/obo/ENVO_00000073
 

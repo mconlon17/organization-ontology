@@ -68,19 +68,23 @@ See `Table 3`_.
     ``ORG_0000038``         homepage disposition      A dispsition to be the primary website for an en
     ``ORG_0000039``         wikipedia disposition     A disposition to be the webpage within WikiPedia
     ``ORG_0000040``         architectural structure   A material entity that is a human made strcuture
-    ``ORG_0000041``         facility                  An architectural structure that bears some funct
-    ``ORG_0000042``         building                  A permanent walled and roofed construction
-    ``ORG_0000043``         room                      A space contained by a partitioned part of the i
-    ``ORG_0000044``         geographical location     A place on the earth
-    ``ORG_0000045``         geographical point        A point located on the earth
-    ``ORG_0000046``         founding process          The process by which the organization was founde
-    ``ORG_0000047``         founding process boundar  The process boundary which defines the moment of
-    ``ORG_0000048``         dissolution process       The process by which an organization no longer e
-    ``ORG_0000049``         dissolution process boun  The process boundary which marks the moment at w
-    ``ORG_0000050``         succession process        The process by which one organization gores out 
-    ``ORG_0000051``         succession process bound  A process boundary within a succession process. 
-    ``ORG_0000052``         campus                    The geographic location consisting of the  groun
-    ``ORG_0000053``         web site                  An information content entity consisting of a gr
+    ``ORG_0000041``         campus                    The geographic location consisting of the  groun
+    ``ORG_0000042``         facility                  An architectural structure that bears some funct
+    ``ORG_0000043``         building                  A permanent walled and roofed construction
+    ``ORG_0000044``         room                      A space contained by a partitioned part of the i
+    ``ORG_0000045``         geographic region         A place on the earth.  Not necessarily contiguou
+    ``ORG_0000046``         geographic point          A point located on the earth
+    ``ORG_0000047``         continent                 One of the main landmasses of the globe, usually
+    ``ORG_0000048``         country                   The territory governed by a sovereign state.
+    ``ORG_0000049``         region                    A subdivision of the territory of a country
+    ``ORG_0000050``         populated place           A named place on the earth occupied by people
+    ``ORG_0000051``         founding process          The process by which the organization was founde
+    ``ORG_0000052``         founding process boundar  The process boundary which defines the moment of
+    ``ORG_0000053``         dissolution process       The process by which an organization no longer e
+    ``ORG_0000054``         dissolution process boun  The process boundary which marks the moment at w
+    ``ORG_0000055``         succession process        The process by which one organization gores out 
+    ``ORG_0000056``         succession process bound  A process boundary within a succession process. 
+    ``ORG_0000057``         web site                  An information content entity consisting of a gr
     ``Concept``             (skos) concept            An idea or notion, a unit of thought
     ``Instant``             Time instant              A zero-dimensional part of time.  Precision may 
     ``TemporalUnit``        Temporal unit             A specification of a time duration.  Used to spe
