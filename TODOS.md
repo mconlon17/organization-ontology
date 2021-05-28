@@ -15,7 +15,6 @@
 1.  More dispositions / properties
   
      schema.org
-     ROR
      GRiD
 	
 1. Properties to associate people and organizations

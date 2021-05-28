@@ -18,7 +18,7 @@ in the VIVO Organization Ontology.
 
 .. _Table 15:
 
-.. table:: Table 15 Translating VIVO types to VIVO Organizational assertions
+.. table:: Table 15 Translating ROR types to VIVO Organizational assertions
 
     ========================== ======================================
     ROR Type                   VIVO Organization Ontology Assertions
