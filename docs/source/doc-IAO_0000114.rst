@@ -24,7 +24,7 @@ IAO_0000114 - has curation status
 
     PERSON:Bill Bug
 
-    PERSON:Alan Ruttenberg
-
     PERSON:Melanie Courtot
+
+    PERSON:Alan Ruttenberg
 

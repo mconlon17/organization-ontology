@@ -1,0 +1,34 @@
+
+  .. _ORG_2000009:
+  .. _has organizational part:
+  .. index:: 
+     single: ORG_2000009; has organizational part
+     single: has organizational part; ORG_2000009
+
+ORG_2000009 - has organizational part
+====================================================================================
+
+.. topic:: Label
+
+    has organizational part
+
+.. topic:: Alternate name
+
+    parent of
+
+.. topic:: Definition
+
+    The property that asserts an organization has an organization part
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    The University of Florida has organizational part College of Medicine; The College of Medicine has organizational part Department of Anesthesiology
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

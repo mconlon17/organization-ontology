@@ -12,6 +12,7 @@
    doc-BFO_0000016
    doc-BFO_0000017
    doc-BFO_0000020
+   doc-BFO_0000023
    doc-BFO_0000029
    doc-BFO_0000031
    doc-BFO_0000035
@@ -79,6 +80,11 @@
    doc-ORG_0000055
    doc-ORG_0000056
    doc-ORG_0000057
+   doc-ORG_0000058
+   doc-ORG_0000059
+   doc-ORG_0000060
+   doc-ORG_0000061
+   doc-ORG_0000062
    doc-Concept
    doc-Instant
    doc-TemporalUnit

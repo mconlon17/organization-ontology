@@ -17,14 +17,14 @@
 
 <http://purl.obolibrary.org/obo/org.owl> rdf:type owl:Ontology ;
                                           owl:versionIRI <https://purl.obolibrary.org/obo/org/releases/2021-01-30> ;
-                                          dc:created "2021-01-30"^^xsd:date ;
-                                          dc:creator <http://orcid.org/0000-0002-1304-8447> ;
-                                          dc:description "A BFO-based, OBO compliant ontology of research organizations."@en ;
-                                          dc:title "Organization Ontology"@en ;
-                                          terms:license <https://creativecommons.org/share-your-work/public-domain/cc0/> ;
                                           rdfs:comment "This is very early work.  The ontology is intended to be sufficient to represent entities and properties in the domain of scholarship, and data for those organizations as collected and managed by GRiD and ROR"@en ;
+                                          terms:license <https://creativecommons.org/share-your-work/public-domain/cc0/> ;
+                                          dc:description "A BFO-based, OBO compliant ontology of research organizations."@en ;
+                                          owl:versionInfo "version 0.0.1" ;
+                                          dc:creator <http://orcid.org/0000-0002-1304-8447> ;
                                           rdfs:label "Organization Ontology"@en ;
-                                          owl:versionInfo "version 0.0.1" .
+                                          dc:title "Organization Ontology"@en ;
+                                          dc:created "2021-01-30"^^xsd:date .
 
 #################################################################
 #    Annotation properties
@@ -55,7 +55,7 @@ obo:IAO_0000112 rdf:type owl:AnnotationProperty ;
 ###  http://purl.obolibrary.org/obo/IAO_0000114
 obo:IAO_0000114 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000111 "has curation status"@en ;
-                obo:IAO_0000115 "A specification of the state of the metadata for a term"@en;
+                obo:IAO_0000115 "A specification of the state of the metadata for a term"@en ;
                 obo:IAO_0000117 "PERSON:Alan Ruttenberg"@en ,
                                 "PERSON:Bill Bug"@en ,
                                 "PERSON:Melanie Courtot"@en ;
@@ -93,7 +93,6 @@ We also have the outstanding issue of how to aim different definitions to differ
                 rdfs:isDefinedBy obo:iao.owl ;
                 rdfs:label "definition"@en .
 
-
 ###  http://purl.obolibrary.org/obo/IAO_0000116
 obo:IAO_0000116 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000111 "editor note"@en ;
@@ -115,7 +114,7 @@ obo:IAO_0000117 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
                 rdfs:label "term editor"@en .
-                           
+
 
 ###  http://purl.obolibrary.org/obo/IAO_0000118
 obo:IAO_0000118 rdf:type owl:AnnotationProperty ;
@@ -222,6 +221,36 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
                 rdfs:label "has part"@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000054
+obo:BFO_0000054 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                obo:IAO_0000111 "realized in"@en ;
+                obo:IAO_0000112 "this disease is realized in this disease course"@en ,
+                                "this fragility is realized in this shattering"@en ,
+                                "this investigator role is realized in this investigation"@en ;
+                obo:IAO_0000115 "A relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en;
+                obo:IAO_0000118 "is realized by"@en ,
+                                "realized_in"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                rdfs:comment "Paraphrase of elucidation: a relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process" ;
+                rdfs:isDefinedBy obo:bfo.owl ;
+                rdfs:label "realized in"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000055
+obo:BFO_0000055 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                obo:IAO_0000111 "realizes"@en ;
+                obo:IAO_0000112 "this disease course realizes this disease"@en ,
+                                "this investigation realizes this investigator role"@en ,
+                                "this shattering realizes this fragility"@en ;
+                obo:IAO_0000115 "A relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                rdfs:comment "Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process" ;
+                rdfs:isDefinedBy obo:iao.owl ;
+                rdfs:label "realizes"@en .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000136
 obo:IAO_0000136 rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
@@ -263,6 +292,19 @@ obo:IAO_0000235 rdf:type owl:ObjectProperty ;
                 obo:IAO_0000233 <https://github.com/information-artifact-ontology/IAO/issues/206> ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"^^xsd:string ;
                 rdfs:label "denoted by"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000052
+obo:RO_0000052 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               obo:IAO_0000111 "inheres in"@en ;
+               obo:IAO_0000112 "this fragility inheres in this vase"@en ,
+                               "this red color inheres in this apple"@en ;
+               obo:IAO_0000115 "A relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence"@en ;
+               obo:IAO_0000116 "A dependent inheres in its bearer at all times for which the dependent exists."@en ;
+               obo:IAO_0000118 "inheres_in"@en ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+               rdfs:label "inheres in"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000053
@@ -414,8 +456,8 @@ obo:OBI_0002815 rdf:type owl:DatatypeProperty ;
 ###  http://www.w3.org/2006/time#inXSDDateTimeStamp
 time:inXSDDateTimeStamp rdf:type owl:DatatypeProperty ;
                         rdfs:subPropertyOf owl:topDataProperty ;
+                        obo:IAO_0000115 "A datatype property to contain the representation of a time instant as an xsd datetimestamp" ;
                         obo:IAO_0000412 "http://www.w3.org/2006/time#2016"^^xsd:string ;
-                        obo:IAO_0000115 "A datatype property to contain the representation of a time instant as an xsd datetimestamp";
                         rdfs:label "in XSD Date-Time-Stamp"@en .
 
 
@@ -433,8 +475,8 @@ obo:BFO_0000001 rdf:type owl:Class ;
 
 ###  http://purl.obolibrary.org/obo/BFO_0000002
 obo:BFO_0000002 rdf:type owl:Class ;
-                obo:IAO_0000115 "An entity which has existence in time"@en;
                 rdfs:subClassOf obo:BFO_0000001 ;
+                obo:IAO_0000115 "An entity which has existence in time"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "continuant"@en .
 
@@ -442,7 +484,7 @@ obo:BFO_0000002 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000003
 obo:BFO_0000003 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000001 ;
-                obo:IAO_0000115 "An entity which occurs in time"@en;
+                obo:IAO_0000115 "An entity which occurs in time"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "occurrent"@en .
 
@@ -469,8 +511,8 @@ obo:BFO_0000004 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000008
 obo:BFO_0000008 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000003 ;
-                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 obo:IAO_0000115 "An occurent which is some part of time"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "temporal region"@en .
 
 
@@ -501,15 +543,31 @@ obo:BFO_0000017 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000020
 obo:BFO_0000020 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000002 ;
-                obo:IAO_0000115 "B is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/050-003]"@en;
+                obo:IAO_0000115 "B is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/050-003]"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "specifically dependent continuant"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000023
+obo:BFO_0000023 rdf:type owl:Class ;
+                rdfs:subClassOf obo:BFO_0000017 ;
+                obo:IAO_0000112 "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married."@en ,
+                                "the priest role"@en ,
+                                "the role of a boundary to demarcate two neighboring administrative territories"@en ,
+                                "the role of a building in serving as a military target"@en ,
+                                "the role of a stone in marking a property boundary"@en ,
+                                "the role of subject in a clinical trial"@en ,
+                                "the student role"@en ;
+                obo:IAO_0000115 "B is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed."@en;
+                obo:IAO_0000116 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                rdfs:isDefinedBy obo:bfo.owl ;
+                rdfs:label "role"@en .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000029
 obo:BFO_0000029 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000141 ;
-                obo:IAO_0000115 "B is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])"@en;
                 obo:IAO_0000112 "Manhattan Canyon)"@en ,
                                 "a hole in the interior of a portion of cheese"@en ,
                                 "a rabbit hole"@en ,
@@ -525,6 +583,7 @@ obo:BFO_0000029 rdf:type owl:Class ;
                                 "the interior of your refrigerator"@en ,
                                 "the lumen of your gut"@en ,
                                 "your left nostril (a fiat part – the opening – of your left nasal cavity)"@en ;
+                obo:IAO_0000115 "B is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
                 rdfs:isDefinedBy obo:bfo.owl ;
                 rdfs:label "site"@en .
@@ -533,7 +592,7 @@ obo:BFO_0000029 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000031
 obo:BFO_0000031 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000002 ;
-                obo:IAO_0000115 "B is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/074-001]"@en;
+                obo:IAO_0000115 "B is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/074-001]"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "generically dependent continuant"@en .
 
@@ -541,7 +600,7 @@ obo:BFO_0000031 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000035
 obo:BFO_0000035 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000003 ;
-                obo:IAO_0000115 "P is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/084-001]"@en;                
+                obo:IAO_0000115 "P is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/084-001]"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "process boundary"@en .
 
@@ -549,7 +608,7 @@ obo:BFO_0000035 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000038
 obo:BFO_0000038 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000008 ;
-                obo:IAO_0000115 "A one-dimensional temporal region is a temporal region that is extended. (axiom label in BFO2 Reference: [103-001])"@en;
+                obo:IAO_0000115 "A one-dimensional temporal region is a temporal region that is extended. (axiom label in BFO2 Reference: [103-001])"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "one-dimensional temporal region"@en .
 
@@ -557,7 +616,6 @@ obo:BFO_0000038 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000040
 obo:BFO_0000040 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000004 ;
-                obo:IAO_0000115 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en;
                 obo:IAO_0000112 "a flame"@en ,
                                 "a forest fire"@en ,
                                 "a human being"@en ,
@@ -570,6 +628,7 @@ obo:BFO_0000040 rdf:type owl:Class ;
                                 "an energy wave"@en ,
                                 "an epidemic"@en ,
                                 "the undetached arm of a human being"@en ;
+                obo:IAO_0000115 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en ;
                 obo:IAO_0000116 "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en ,
                                 "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en ,
                                 "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en ;
@@ -581,7 +640,7 @@ obo:BFO_0000040 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000141
 obo:BFO_0000141 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000004 ;
-                obo:IAO_0000115 "An immaterial entity is the boundary or interior of a material entity"@en;
+                obo:IAO_0000115 "An immaterial entity is the boundary or interior of a material entity"@en ;
                 obo:IAO_0000116 "BFO 2 Reference: Immaterial entities are divided into two subgroups:boundaries and sites, which bound, or are demarcated in relation, to material entities, and which can thus change location, shape and size and as their material hosts move or change shape or size (for example: your nasal passage; the hold of a ship; the boundary of Wales (which moves with the rotation of the Earth) [38, 7, 10"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
                 rdfs:isDefinedBy obo:bfo.owl ;
@@ -591,7 +650,7 @@ obo:BFO_0000141 rdf:type owl:Class ;
 ###  http://purl.obolibrary.org/obo/BFO_0000148
 obo:BFO_0000148 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000008 ;
-                obo:IAO_0000115 "A temporal region of no duration."@en;
+                obo:IAO_0000115 "A temporal region of no duration."@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                 rdfs:label "zero-dimensional temporal region"@en .
 
@@ -628,23 +687,24 @@ obo:IAO_0000429 rdf:type owl:Class ;
                 rdfs:subClassOf obo:IAO_0000030 ;
                 obo:IAO_0000111 "email address"@en ;
                 obo:IAO_0000114 obo:IAO_0000123 ;
-                obo:IAO_0000115 "A designation used to deliver email to a recipient.  Typically has an associated email representation"@en;
+                obo:IAO_0000115 "A designation used to deliver email to a recipient.  Typically has an associated email representation"@en ;
                 obo:IAO_0000116 "Alan Ruttenberg 1/3/2012 - Provisional id, see issue at https://github.com/information-artifact-ontology/IAO/issues/130&thanks=130&ts=1325636583"@en ;
                 obo:IAO_0000117 "Person:Alan Ruttenberg"@en ,
                                 "Person:Chris Stoeckart"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"^^xsd:string ;
                 rdfs:label "email address"@en .
-                
-###  http://www.w3.org/2004/02/skos/core#Concept
-skos:Concept rdf:type owl:Class;
-             rdfs:subClassOf obo:BFO_0000031;
-             obo:IAO_0000115 "An idea or notion, a unit of thought"@en;
-             obo:IAO_0000116 "Minor hijack here.  We added the subClassOf assertion to tie in to the BFO subsumption hierarchy rather than adding a new term for 'concept'\nConcept as a generic dependent continuant seems right -- the concept is dependent on the collective of humans.  Thought is in human brains.\nWe also edited the label addding (skos) to insure unique labels as required by the OBO Principles. MC."@en;
-             rdfs:isDefinedBy "http://www.w3.org/2004/02/skos/core"^^xsd:anyURI;
-             rdfs:label "(skos) concept"@en .
-                
 
-###  http://purl.obolibrary.org/obo/IAO_0000429
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class ;
+             rdfs:subClassOf obo:BFO_0000031 ;
+             obo:IAO_0000115 "An idea or notion, a unit of thought"@en ;
+             obo:IAO_0000116 """Minor hijack here.  We added the subClassOf assertion to tie in to the BFO subsumption hierarchy rather than adding a new term for 'concept'
+Concept as a generic dependent continuant seems right -- the concept is dependent on the collective of humans.  Thought is in human brains.
+We also edited the label addding (skos) to insure unique labels as required by the OBO Principles. MC."""@en ;
+             rdfs:isDefinedBy "http://www.w3.org/2004/02/skos/core"^^xsd:anyURI ;
+             rdfs:label "(skos) concept"@en .
+
 
 ###  http://www.w3.org/2006/time#Instant
 time:Instant rdf:type owl:Class ;
@@ -657,10 +717,11 @@ time:Instant rdf:type owl:Class ;
 ###  http://www.w3.org/2006/time#TemporalUnit
 time:TemporalUnit rdf:type owl:Class ;
                   rdfs:subClassOf obo:BFO_0000038 ;
-                  obo:IAO_0000115 "A specification of a time duration.  Used to specify precision of time instants"@en;
+                  obo:IAO_0000115 "A specification of a time duration.  Used to specify precision of time instants"@en ;
                   obo:IAO_0000412 "http://www.w3.org/2006/time#2016"^^xsd:string ;
                   rdfs:label "Temporal unit"@en .
-                  
+
+
 #################################################################
 #    Individuals
 #################################################################
@@ -707,4 +768,4 @@ time:unitYear rdf:type owl:NamedIndividual ,
               rdfs:label "Year (unit of temporal duration)"@en .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

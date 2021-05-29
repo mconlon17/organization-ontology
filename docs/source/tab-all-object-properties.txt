@@ -11,6 +11,8 @@ See `Table 5`_.
     ======================  ========================  ================================================
     ``BFO_0000050``         part of                   A core relation that holds between a part and it
     ``BFO_0000051``         has part                  A core relation that holds between a whole and i
+    ``BFO_0000054``         realized in               A relation between a realizable entity and a pro
+    ``BFO_0000055``         realizes                  A relation between a process and a realizable en
     ``IAO_0000136``         is about                  A (currently) primitive relation that relates an
     ``IAO_0000219``         denotes                   A primitive, instance-level, relation obtaining 
     ``IAO_0000235``         denoted by                Inverse of the relation 'denotes'
@@ -22,6 +24,14 @@ See `Table 5`_.
     ``ORG_2000006``         website of                The property that associates a website with its 
     ``ORG_2000007``         has successor organizati  The property that associates an organization wit
     ``ORG_2000008``         successor organization o  The property that associates an on organization 
+    ``ORG_2000009``         has organizational part   The property that asserts an organization has an
+    ``ORG_2000010``         organizational part of    The property that an organization part is part o
+    ``ORG_2000011``         affiliated with           The property that associates an organization wit
+    ``ORG_2000012``         has spin-off organizatio  The property that associates an organization wit
+    ``ORG_2000013``         spin-off organization of  The property that associates an organization wit
+    ``ORG_2000014``         has organizational membe  The property that associates an organization wit
+    ``ORG_2000015``         organizational member of  The property that associates a member organizait
+    ``RO_0000052``          inheres in                A relation between a specifically dependent cont
     ``RO_0000053``          bearer of                 A relation between an independent continuant (th
     ``RO_0000056``          participates in           A relation between a continuant and a process, i
     ``RO_0000057``          has participant           A relation between a process and a continuant, i

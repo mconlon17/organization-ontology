@@ -18,6 +18,7 @@ See `Table 3`_.
     ``BFO_0000016``         disposition               A realizable entity that presents in a continuan
     ``BFO_0000017``         realizable entity         To say that b is a realizable entity is to say t
     ``BFO_0000020``         specifically dependent c  B is a specifically dependent continuant = Def. 
+    ``BFO_0000023``         role                      B is a role means: b is a realizable entity & b 
     ``BFO_0000029``         site                      B is a site means: b is a three-dimensional imma
     ``BFO_0000031``         generically dependent co  B is a generically dependent continuant = Def. b
     ``BFO_0000035``         process boundary          P is a process boundary =Def. p is a temporal pa
@@ -85,6 +86,11 @@ See `Table 3`_.
     ``ORG_0000055``         succession process        The process by which one organization gores out 
     ``ORG_0000056``         succession process bound  A process boundary within a succession process. 
     ``ORG_0000057``         web site                  An information content entity consisting of a gr
+    ``ORG_0000058``         spin-off process          The process by which one organization spins off 
+    ``ORG_0000059``         spin-off process boundar  A boundary in a spin-off process
+    ``ORG_0000060``         organizational membershi  An asymmetric relationship involving two organiz
+    ``ORG_0000061``         organizational member ro  A role of an organization in being a member of a
+    ``ORG_0000062``         organizational member gr  A role of an organization in granting a member r
     ``Concept``             (skos) concept            An idea or notion, a unit of thought
     ``Instant``             Time instant              A zero-dimensional part of time.  Precision may 
     ``TemporalUnit``        Temporal unit             A specification of a time duration.  Used to spe

@@ -1,0 +1,38 @@
+
+  .. _ORG_2000012:
+  .. _has spin-off organization:
+  .. index:: 
+     single: ORG_2000012; has spin-off organization
+     single: has spin-off organization; ORG_2000012
+
+ORG_2000012 - has spin-off organization
+====================================================================================
+
+.. topic:: Label
+
+    has spin-off organization
+
+.. topic:: Alternate name
+
+    has spinout
+
+.. topic:: Definition
+
+    The property that associates an organization with a part that is now independent
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    Google is a spin-off company of Stanford University; AGTC is a spin-off company of the University of Florida
+
+.. topic:: Editor's note
+
+    To say that a is a spin-off of b implies there is a spin-off process and that a is the output of that spin-off process
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

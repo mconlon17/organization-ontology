@@ -186,6 +186,111 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              owl:inverseOf "org:20000007"^^xsd:anyURI .
 
 
+###  http://purl.obolibrary.org/obo/ORG_2000009
+<http://purl.obolibrary.org/obo/ORG_2000009> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000005> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Florida has organizational part College of Medicine; The College of Medicine has organizational part Department of Anesthesiology"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that asserts an organization has an organization part"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "parent of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has organizational part"@en ;
+                                             owl:inverseOf "org:20000010"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000010
+<http://purl.obolibrary.org/obo/ORG_2000010> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000005> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The College of Medicine at UF organizational part of UF; Department of Anethesiology at UF organizational part of College of Medicine at UF"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that an organization part is part of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "child of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "organizational part of"@en ;
+                                             owl:inverseOf "org:20000009"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000011
+<http://purl.obolibrary.org/obo/ORG_2000011> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdf:type owl:SymmetricProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Theatre Library Association is an affiliate of the American Library Association"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with another organization that is not an organizational part associatiion"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Affiliate relationships exist in many different types of configurations across all sorts of industries.  This term has very broad semantics."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "linked to"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#affiliatedOrganization"^^xsd:anyURI ;
+                                             rdfs:label "affiliated with"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000012
+<http://purl.obolibrary.org/obo/ORG_2000012> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Google is a spin-off company of Stanford University; AGTC is a spin-off company of the University of Florida"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a part that is now independent"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "To say that a is a spin-off of b implies there is a spin-off process and that a is the output of that spin-off process"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "has spinout"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has spin-off organization"@en ;
+                                             owl:inverseOf "org:20000015"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000013
+<http://purl.obolibrary.org/obo/ORG_2000013> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Open Clinical is a spin-off of Oxford University. ToposNomos Ltd. is a spin-off company of the University of Magdeburg"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with an organization of which it was formerly a part"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "spinout of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "spin-off organization of"@en ;
+                                             owl:inverseOf "org:20000014"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000014
+<http://purl.obolibrary.org/obo/ORG_2000014> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has member"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The EU has member Republic of Ireland"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with one of its members"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "To say that on organizaton is a member of another implies there is a membership and that the two organizations each have  roles that"@en ;
+                                             rdfs:label "has organizational member"@en ;
+                                             owl:inverseOf "org:00000017"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000015
+<http://purl.obolibrary.org/obo/ORG_2000015> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "member of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of North Carolina is a member of the Southeast University Research Assciation"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a member organizaiton with the organization of which it is a member"@en ;
+                                             rdfs:label "organizational member of"@en ;
+                                             owl:inverseOf "org:00000016"^^xsd:anyURI .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -200,6 +305,10 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/ORG_0000001
 <http://purl.obolibrary.org/obo/ORG_0000001> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000005
+<http://purl.obolibrary.org/obo/ORG_0000005> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000038

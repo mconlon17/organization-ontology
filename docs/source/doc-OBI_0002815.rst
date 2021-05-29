@@ -18,9 +18,9 @@ OBI_0002815 - has representation
 
 .. topic:: Example
 
-    20g
-
     I feel sick to my stomach every Tuesday
+
+    20g
 
     12th arrondissement of Paris
 

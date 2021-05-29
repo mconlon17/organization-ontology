@@ -43,6 +43,7 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    :caption: Contents
    
    organizations
+   associations
    addresses
    facilities
    locations
@@ -84,6 +85,7 @@ List of Figures
 - :ref:`Figure 1 Representation of organizations <Figure 1>`
 - :ref:`Figure 2 Types of Organizations <Figure 2>`
 - :ref:`Figure 3 Representation of dates and times <Figure 3>`
+- :ref:`Figure 4 Representation of memberships <Figure 4>`
    
 Glossary and Index
 ------------------

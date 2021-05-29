@@ -1,16 +1,4 @@
 # TO DOs
-
-1. Add properties to specify relationships between organizations
-
-    subOrganizationOf / hasSubOrganization
-    	when Ontobee is around
-	    has part/ part of
-	    specification of invers in template
-	    check VIVO Ontology, crossref back
-	affiliated with
-	member of / has member (and role-based version)
-	owns / owned by
-	spin-off of / has spin-off
     
 1.  More dispositions / properties
   

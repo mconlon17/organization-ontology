@@ -60,12 +60,20 @@ xsd:anyuri rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
+###  http://purl.obolibrary.org/obo/BFO_0000003
+<http://purl.obolibrary.org/obo/BFO_0000003> rdf:type owl:Class .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000015
 <http://purl.obolibrary.org/obo/BFO_0000015> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000016
 <http://purl.obolibrary.org/obo/BFO_0000016> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000023
+<http://purl.obolibrary.org/obo/BFO_0000023> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000029
@@ -804,6 +812,58 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/website"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://www.w3.org/2006/vcard/ns#URL"^^xsd:anyuri ;
                                              rdfs:label "web site"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000058
+<http://purl.obolibrary.org/obo/ORG_0000058> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Google is the output of a spin-off process in which Stanford University was a participant"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process by which one organization spins off of another"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "spin-off process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000059
+<http://purl.obolibrary.org/obo/ORG_0000059> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Spin-off process boundaries include moments such as incorporation, board formation, funding ac quisition, and patent licensing"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A boundary in a spin-off process"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "spin-off process boundary"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000060
+<http://purl.obolibrary.org/obo/ORG_0000060> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "membership"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship involving two organizations in which one is a member of the other"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Organizational Membership is a Membership, which is a Relationship, which is an Occurrent.  The subsumption is out of scope for the Organizationa Ontology. The existence of a membership implies the existence of a membership creation process and a membership creation process boundary.  These are currently out of scope for the Organization Ontology"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational membership"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000061
+<http://purl.obolibrary.org/obo/ORG_0000061> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in being a member of another"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "member"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational member role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000062
+<http://purl.obolibrary.org/obo/ORG_0000062> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in granting a member role to another"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational member grantor role"@en .
 
 
 ###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi

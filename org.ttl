@@ -238,6 +238,36 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
                                              rdfs:label "has part"@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000054
+<http://purl.obolibrary.org/obo/BFO_0000054> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "realized in"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "this disease is realized in this disease course"@en ,
+                                                                                          "this fragility is realized in this shattering"@en ,
+                                                                                          "this investigator role is realized in this investigation"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "is realized by"@en ,
+                                                                                          "realized_in"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                                             rdfs:comment "Paraphrase of elucidation: a relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process" ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "realized in"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000055
+<http://purl.obolibrary.org/obo/BFO_0000055> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "realizes"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "this disease course realizes this disease"@en ,
+                                                                                          "this investigation realizes this investigator role"@en ,
+                                                                                          "this shattering realizes this fragility"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                                             rdfs:comment "Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process" ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
+                                             rdfs:label "realizes"@en .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000136
 <http://purl.obolibrary.org/obo/IAO_0000136> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
@@ -397,6 +427,124 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "successor organization of"@en ;
                                              owl:inverseOf "org:20000007"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000009
+<http://purl.obolibrary.org/obo/ORG_2000009> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000005> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Florida has organizational part College of Medicine; The College of Medicine has organizational part Department of Anesthesiology"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that asserts an organization has an organization part"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "parent of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has organizational part"@en ;
+                                             owl:inverseOf "org:20000010"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000010
+<http://purl.obolibrary.org/obo/ORG_2000010> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000005> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The College of Medicine at UF organizational part of UF; Department of Anethesiology at UF organizational part of College of Medicine at UF"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that an organization part is part of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "child of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "organizational part of"@en ;
+                                             owl:inverseOf "org:20000009"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000011
+<http://purl.obolibrary.org/obo/ORG_2000011> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdf:type owl:SymmetricProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Theatre Library Association is an affiliate of the American Library Association"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with another organization that is not an organizational part associatiion"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Affiliate relationships exist in many different types of configurations across all sorts of industries.  This term has very broad semantics."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "linked to"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#affiliatedOrganization"^^xsd:anyURI ;
+                                             rdfs:label "affiliated with"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000012
+<http://purl.obolibrary.org/obo/ORG_2000012> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Google is a spin-off company of Stanford University; AGTC is a spin-off company of the University of Florida"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a part that is now independent"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "To say that a is a spin-off of b implies there is a spin-off process and that a is the output of that spin-off process"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "has spinout"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has spin-off organization"@en ;
+                                             owl:inverseOf "org:20000015"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000013
+<http://purl.obolibrary.org/obo/ORG_2000013> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Open Clinical is a spin-off of Oxford University. ToposNomos Ltd. is a spin-off company of the University of Magdeburg"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with an organization of which it was formerly a part"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "spinout of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "spin-off organization of"@en ;
+                                             owl:inverseOf "org:20000014"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000014
+<http://purl.obolibrary.org/obo/ORG_2000014> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has member"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The EU has member Republic of Ireland"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with one of its members"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "To say that on organizaton is a member of another implies there is a membership and that the two organizations each have  roles that"@en ;
+                                             rdfs:label "has organizational member"@en ;
+                                             owl:inverseOf "org:00000017"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000015
+<http://purl.obolibrary.org/obo/ORG_2000015> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "member of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of North Carolina is a member of the Southeast University Research Assciation"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a member organizaiton with the organization of which it is a member"@en ;
+                                             rdfs:label "organizational member of"@en ;
+                                             owl:inverseOf "org:00000016"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000052
+<http://purl.obolibrary.org/obo/RO_0000052> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000111> "inheres in"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000112> "this fragility inheres in this vase"@en ,
+                                                                                         "this red color inheres in this apple"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000116> "A dependent inheres in its bearer at all times for which the dependent exists."@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000118> "inheres_in"@en ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+                                            rdfs:label "inheres in"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000053
@@ -741,6 +889,23 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "B is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/050-003]"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2020/bfo.owl"^^xsd:string ;
                                              rdfs:label "specifically dependent continuant"@en .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000023
+<http://purl.obolibrary.org/obo/BFO_0000023> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000017> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married."@en ,
+                                                                                          "the priest role"@en ,
+                                                                                          "the role of a boundary to demarcate two neighboring administrative territories"@en ,
+                                                                                          "the role of a building in serving as a military target"@en ,
+                                                                                          "the role of a stone in marking a property boundary"@en ,
+                                                                                          "the role of subject in a clinical trial"@en ,
+                                                                                          "the student role"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "B is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/bfo.owl> ;
+                                             rdfs:label "role"@en .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000029
@@ -1589,6 +1754,58 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/website"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://www.w3.org/2006/vcard/ns#URL"^^xsd:anyuri ;
                                              rdfs:label "web site"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000058
+<http://purl.obolibrary.org/obo/ORG_0000058> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Google is the output of a spin-off process in which Stanford University was a participant"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The process by which one organization spins off of another"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "spin-off process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000059
+<http://purl.obolibrary.org/obo/ORG_0000059> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Spin-off process boundaries include moments such as incorporation, board formation, funding ac quisition, and patent licensing"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A boundary in a spin-off process"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "spin-off process boundary"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000060
+<http://purl.obolibrary.org/obo/ORG_0000060> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "membership"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship involving two organizations in which one is a member of the other"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Organizational Membership is a Membership, which is a Relationship, which is an Occurrent.  The subsumption is out of scope for the Organizationa Ontology. The existence of a membership implies the existence of a membership creation process and a membership creation process boundary.  These are currently out of scope for the Organization Ontology"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational membership"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000061
+<http://purl.obolibrary.org/obo/ORG_0000061> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in being a member of another"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "member"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational member role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000062
+<http://purl.obolibrary.org/obo/ORG_0000062> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in granting a member role to another"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational member grantor role"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

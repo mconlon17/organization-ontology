@@ -38,7 +38,7 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="IAO_0000136 - is about" href="doc-IAO_0000136.html" />
+    <link rel="next" title="BFO_0000054 - realized in" href="doc-BFO_0000054.html" />
     <link rel="prev" title="BFO_0000050 - part of" href="doc-BFO_0000050.html" /> 
 </head>
 
@@ -87,6 +87,7 @@
               <p class="caption"><span class="caption-text">Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="associations.html">Associations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="addresses.html">Addresses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="facilities.html">Facilities</a></li>
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
@@ -95,6 +96,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="object-properties.html">Object Properties</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000050.html">BFO_0000050 - part of</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">BFO_0000051 - has part</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000054.html">BFO_0000054 - realized in</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000055.html">BFO_0000055 - realizes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000136.html">IAO_0000136 - is about</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000219.html">IAO_0000219 - denotes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000235.html">IAO_0000235 - denoted by</a></li>
@@ -106,6 +109,14 @@
 <li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000006.html">ORG_2000006 - website of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000007.html">ORG_2000007 - has successor organization</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000008.html">ORG_2000008 - successor organization of</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000009.html">ORG_2000009 - has organizational part</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000010.html">ORG_2000010 - organizational part of</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000011.html">ORG_2000011 - affiliated with</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000012.html">ORG_2000012 - has spin-off organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000013.html">ORG_2000013 - spin-off organization of</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000014.html">ORG_2000014 - has organizational member</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_2000015.html">ORG_2000015 - organizational member of</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-RO_0000052.html">RO_0000052 - inheres in</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000053.html">RO_0000053 - bearer of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000056.html">RO_0000056 - participates in</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000057.html">RO_0000057 - has participant</a></li>
@@ -125,6 +136,7 @@
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
@@ -212,16 +224,16 @@
 </div>
 <div class="topic">
 <p class="topic-title">Example</p>
-<p>my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</p>
-<p>my body has part my brain (continuant parthood, two material entities)</p>
 <p>this year has part this day (occurrent parthood)</p>
+<p>my body has part my brain (continuant parthood, two material entities)</p>
+<p>my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</p>
 </div>
 <div class="topic">
 <p class="topic-title">Editor’s note</p>
+<p>Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</p>
 <p>Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)</p>
 <p>A continuant cannot have an occurrent as part: use ‘participates in’. An occurrent cannot have a continuant as part: use ‘has participant’. An immaterial entity cannot have a material entity as part: use ‘location of’. An independent continuant cannot have a specifically dependent continuant as part: use ‘bearer of’. A specifically dependent continuant cannot have an independent continuant as part: use ‘inheres in’.</p>
 <p>Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See <a class="reference external" href="https://code.google.com/p/obo-relations/wiki/ROAndTime">https://code.google.com/p/obo-relations/wiki/ROAndTime</a></p>
-<p>Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</p>
 </div>
 <div class="topic">
 <p class="topic-title">Imported From</p>
@@ -235,7 +247,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="doc-IAO_0000136.html" class="btn btn-neutral float-right" title="IAO_0000136 - is about" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="doc-BFO_0000054.html" class="btn btn-neutral float-right" title="BFO_0000054 - realized in" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
         <a href="doc-BFO_0000050.html" class="btn btn-neutral float-left" title="BFO_0000050 - part of" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 

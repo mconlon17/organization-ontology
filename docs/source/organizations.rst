@@ -5,9 +5,12 @@ Organizations
    
 .. sidebar:: A new ORG ontology
 
-   In :ref:`VIVO 1 <glossary>`, organizational representation was part of the VIVO ontology.  In the new VIVO ontology, organizational
-   representation has been removed in favor of a new ORG ontology.  The ORG ontology is independent of VIVO and 
-   can be used in any setting where information about organizations needs to be represented.
+   In :ref:`VIVO 1 <glossary>`, organizational representation was part of the VIVO 
+   ontology.  In the new VIVO ontology, organizational
+   representation has been removed in favor of a new ORG ontology.  The ORG ontology 
+   is independent of VIVO and 
+   can be used in any setting where information about organizations needs to be 
+   represented.
    
    The ORG ontology is based on |BFO| and is OBO-compliant [#]_ 
 

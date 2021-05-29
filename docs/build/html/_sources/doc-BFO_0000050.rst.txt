@@ -18,11 +18,11 @@ BFO_0000050 - part of
 
 .. topic:: Example
 
+    my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)
+
     this day is part of this year (occurrent parthood)
 
     my brain is part of my body (continuant parthood, two material entities)
-
-    my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)
 
 .. topic:: Editor's note
 
@@ -42,7 +42,7 @@ BFO_0000050 - part of
 
     http://ontologydesignpatterns.org/wiki/Submissions:PartOf
 
-    http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
-
     http://www.obofoundry.org/ro/#OBO_REL:part_of
+
+    http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 
