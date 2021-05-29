@@ -175,16 +175,120 @@
 <span id="id1"></span><h1>Associations<a class="headerlink" href="#index-0" title="Permalink to this headline">¶</a></h1>
 <p>Organizations can be associated with each other in a variety of manners.  Here we
 describe how to represent various associations between organizations.</p>
+<div class="section" id="affiliation">
+<h2>Affiliation<a class="headerlink" href="#affiliation" title="Permalink to this headline">¶</a></h2>
+<p>An organization can be affiliated with another organization.  In the Organization Ontology,
+affiliation is a broad term and may mean and association that is not further specified.
+The only restriction on affiliation is that it is <em>symmetric</em>.  If organization x is
+affiliated with organization y, then organization x is affiliated with organization y.</p>
+<p>We say simply</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">a</span> <span class="n">organization</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">organization</span>
+<span class="n">y</span> <span class="n">affiliated_with</span> <span class="n">x</span>
+</pre></div>
+</div>
+<p>for which we can infer <a class="footnote-reference brackets" href="#id7" id="id2">1</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">affiliated_with</span> <span class="n">y</span>
+</pre></div>
+</div>
+</div>
 <div class="section" id="organizational-structure">
 <h2>Organizational Structure<a class="headerlink" href="#organizational-structure" title="Permalink to this headline">¶</a></h2>
+<p>Representing organizational structure is a common need.  The Organization Ontology
+has two properties, has_organizational_part and organizational_part_of, to specify the
+relationship between an organizational part and its parent organization (which may also
+be an organizational part).</p>
+<p>For example, if x represents Baylor University, and y represents its College of Medicine
+we would assert:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">has_organizational_part</span> <span class="n">y</span>
+</pre></div>
 </div>
-<div class="section" id="membership">
-<h2>Membership<a class="headerlink" href="#membership" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id2">
+<p>from which we could infer <em>y organizational_part_of x</em> <a class="footnote-reference brackets" href="#id8" id="id3">2</a>.</p>
+</div>
+<div class="section" id="organizational-spin-offs">
+<h2>Organizational Spin-offs<a class="headerlink" href="#organizational-spin-offs" title="Permalink to this headline">¶</a></h2>
+<p>Representing organizations that spin-off from other organizations is done
+using <em>has spin-off organization” and *spin-off organization off</em> properties.</p>
+<p>For example, to represent that y spun-off of x, we would assert:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">y</span> <span class="n">spin</span><span class="o">-</span><span class="n">off_organization_of</span> <span class="n">x</span>
+</pre></div>
+</div>
+<p>from which we could infer <em>x has_spin-off_organization y</em> <a class="footnote-reference brackets" href="#id8" id="id4">2</a>.</p>
+<p>In some cases, we want to know more about the nature of the spin-off process, including
+dates of various milestones, people who participated, documents involved, and more.
+<em>spin-off process</em> is an entity in which other entities may participate, and as an
+occurrent, may have one or more <em>spin-off process boundaries</em> as occurent parts. See
+<a class="reference internal" href="datetimes.html"><span class="doc">Dates and Times</span></a> for representation of time-based entities.</p>
+</div>
+<div class="section" id="organizational-history">
+<h2>Organizational History<a class="headerlink" href="#organizational-history" title="Permalink to this headline">¶</a></h2>
+<p>In some cases, we may wish to assert that organization y is the successor of organization
+x, meaning that x has ceased to exist, y now exists, and that the result of the dissolution
+of x was the formation of y.  The inverse of <em>successor_of</em> is <em>has_successor</em>.  We can say
+either <em>y successor_of x</em> or <em>x has_successor y</em> <a class="footnote-reference brackets" href="#id8" id="id5">2</a>.</p>
+<p>We say:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">a</span> <span class="n">organization</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">organization</span>
+<span class="n">y</span> <span class="n">successor_of</span> <span class="n">x</span>
+</pre></div>
+</div>
+<p>In some cases, we want to know more about the nature of the succession process, including
+dates of various milestones, people who participated, documents involved, and more.
+<em>succession process</em> is an entity in which other entities may participate, and as an
+occurrent, may have one or more <em>succession process boundaries</em> as occurent parts. See
+<a class="reference internal" href="datetimes.html"><span class="doc">Dates and Times</span></a> for representation of time-based entities.</p>
+</div>
+<div class="section" id="organizational-membership">
+<h2>Organizational Membership<a class="headerlink" href="#organizational-membership" title="Permalink to this headline">¶</a></h2>
+<p>Organizations may be members of other organizations.  If x is a member of y, we can
+simple say</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">member_of</span> <span class="n">y</span>
+</pre></div>
+</div>
+<p>and we can equivalently say <em>y has_member x</em> <a class="footnote-reference brackets" href="#id8" id="id6">2</a>.</p>
+<p>In some cases, we may need to know more about the membership, which is an
+asymmetric relationship of two organizations – one organization is the member
+and the other organization has granted membership to the member organization.</p>
+<p>This is shown in <a class="reference internal" href="#figure-4">Figure 4</a>.  Since Membership is an occurent, it can have
+time-related assertions.</p>
+<div class="figure align-default" id="id9">
 <span id="figure-4"></span><img alt="General membership pattern  Org 1 -&gt; Member -&gt; Membership -&gt; Grantor - Org 2" src="_images/membership-pattern.png" />
 <p class="caption"><span class="caption-text">Figure 4.  General membership pattern.  Organization 1 has a member role in a
-membership.  Organization 2 has a grantor role in the membership.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+membership.  Organization 2 has a grantor role in the membership.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
+<p>To say that v was a member of z through a membership x, we would assert:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">v</span> <span class="n">bearer_of</span> <span class="n">w</span>
+<span class="n">w</span> <span class="n">a</span> <span class="n">organizational_member_role</span>
+<span class="n">w</span> <span class="n">realized_in</span> <span class="n">x</span>
+<span class="n">x</span> <span class="n">a</span> <span class="n">organizational_membership</span>
+<span class="n">x</span> <span class="n">realizes</span> <span class="n">y</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">organizational_membership_grantor_role</span>
+<span class="n">y</span> <span class="n">inheres_in</span> <span class="n">z</span>
+</pre></div>
+</div>
+<p>Since each of these properties has an inverse, we could equivalently have asserted:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">z</span> <span class="n">bearer_of</span> <span class="n">y</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">organizational_membership_grantor_role</span>
+<span class="n">y</span> <span class="n">realized_in</span> <span class="n">z</span>
+<span class="n">x</span> <span class="n">a</span> <span class="n">organizational_membership</span>
+<span class="n">x</span> <span class="n">realizes</span> <span class="n">w</span>
+<span class="n">w</span> <span class="n">a</span> <span class="n">organizational_member_role</span>
+<span class="n">w</span> <span class="n">inheres_in</span> <span class="n">x</span>
+</pre></div>
+</div>
+<p>Note that this detail is typically only needed in cases where we wanted to say more
+about the roles, or membership entity.</p>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p>Some inferencers are able to create/materialize symmetric assertions.  Some query
+engines will satisfy query requirements as if the assertion had been materialized.</p>
+</dd>
+<dt class="label" id="id8"><span class="brackets">2</span><span class="fn-backref">(<a href="#id3">1</a>,<a href="#id4">2</a>,<a href="#id5">3</a>,<a href="#id6">4</a>)</span></dt>
+<dd><p>Some inferencers are able to create/materialize inverse assertions.  Some query
+engines will satisfy query requirements as if the assertion had been materialized.</p>
+</dd>
+</dl>
 </div>
 </div>
 
