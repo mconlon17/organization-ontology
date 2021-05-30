@@ -31,8 +31,6 @@
     performed
 
 ---
-    
-1.  Create data for years
 
 1.  Add VIVO cross references to terms
 
