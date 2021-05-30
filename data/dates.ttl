@@ -1,0 +1,1800 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2006/time#inXSDDateTimeStamp
+<http://www.w3.org/2006/time#inXSDDateTimeStamp> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3.org/2006/time#unitType
+<http://www.w3.org/2006/time#unitType> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2006/time#Instant
+<http://www.w3.org/2006/time#Instant> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://vivoweb.org/data/year/1800
+<http://vivoweb.org/data/year/1800> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1800-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1801
+<http://vivoweb.org/data/year/1801> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1801-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1802
+<http://vivoweb.org/data/year/1802> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1802-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1803
+<http://vivoweb.org/data/year/1803> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1803-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1804
+<http://vivoweb.org/data/year/1804> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1804-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1805
+<http://vivoweb.org/data/year/1805> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1805-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1806
+<http://vivoweb.org/data/year/1806> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1806-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1807
+<http://vivoweb.org/data/year/1807> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1807-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1808
+<http://vivoweb.org/data/year/1808> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1808-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1809
+<http://vivoweb.org/data/year/1809> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1809-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1810
+<http://vivoweb.org/data/year/1810> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1810-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1811
+<http://vivoweb.org/data/year/1811> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1811-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1812
+<http://vivoweb.org/data/year/1812> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1812-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1813
+<http://vivoweb.org/data/year/1813> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1813-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1814
+<http://vivoweb.org/data/year/1814> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1814-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1815
+<http://vivoweb.org/data/year/1815> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1815-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1816
+<http://vivoweb.org/data/year/1816> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1816-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1817
+<http://vivoweb.org/data/year/1817> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1817-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1818
+<http://vivoweb.org/data/year/1818> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1818-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1819
+<http://vivoweb.org/data/year/1819> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1819-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1820
+<http://vivoweb.org/data/year/1820> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1820-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1821
+<http://vivoweb.org/data/year/1821> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1821-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1822
+<http://vivoweb.org/data/year/1822> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1822-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1823
+<http://vivoweb.org/data/year/1823> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1823-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1824
+<http://vivoweb.org/data/year/1824> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1824-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1825
+<http://vivoweb.org/data/year/1825> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1825-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1826
+<http://vivoweb.org/data/year/1826> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1826-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1827
+<http://vivoweb.org/data/year/1827> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1827-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1828
+<http://vivoweb.org/data/year/1828> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1828-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1829
+<http://vivoweb.org/data/year/1829> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1829-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1830
+<http://vivoweb.org/data/year/1830> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1830-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1831
+<http://vivoweb.org/data/year/1831> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1831-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1832
+<http://vivoweb.org/data/year/1832> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1832-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1833
+<http://vivoweb.org/data/year/1833> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1833-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1834
+<http://vivoweb.org/data/year/1834> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1834-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1835
+<http://vivoweb.org/data/year/1835> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1835-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1836
+<http://vivoweb.org/data/year/1836> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1836-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1837
+<http://vivoweb.org/data/year/1837> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1837-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1838
+<http://vivoweb.org/data/year/1838> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1838-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1839
+<http://vivoweb.org/data/year/1839> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1839-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1840
+<http://vivoweb.org/data/year/1840> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1840-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1841
+<http://vivoweb.org/data/year/1841> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1841-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1842
+<http://vivoweb.org/data/year/1842> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1842-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1843
+<http://vivoweb.org/data/year/1843> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1843-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1844
+<http://vivoweb.org/data/year/1844> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1844-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1845
+<http://vivoweb.org/data/year/1845> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1845-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1846
+<http://vivoweb.org/data/year/1846> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1846-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1847
+<http://vivoweb.org/data/year/1847> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1847-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1848
+<http://vivoweb.org/data/year/1848> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1848-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1849
+<http://vivoweb.org/data/year/1849> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1849-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1850
+<http://vivoweb.org/data/year/1850> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1850-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1851
+<http://vivoweb.org/data/year/1851> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1851-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1852
+<http://vivoweb.org/data/year/1852> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1852-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1853
+<http://vivoweb.org/data/year/1853> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1853-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1854
+<http://vivoweb.org/data/year/1854> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1854-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1855
+<http://vivoweb.org/data/year/1855> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1855-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1856
+<http://vivoweb.org/data/year/1856> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1856-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1857
+<http://vivoweb.org/data/year/1857> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1857-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1858
+<http://vivoweb.org/data/year/1858> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1858-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1859
+<http://vivoweb.org/data/year/1859> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1859-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1860
+<http://vivoweb.org/data/year/1860> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1860-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1861
+<http://vivoweb.org/data/year/1861> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1861-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1862
+<http://vivoweb.org/data/year/1862> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1862-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1863
+<http://vivoweb.org/data/year/1863> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1863-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1864
+<http://vivoweb.org/data/year/1864> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1864-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1865
+<http://vivoweb.org/data/year/1865> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1865-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1866
+<http://vivoweb.org/data/year/1866> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1866-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1867
+<http://vivoweb.org/data/year/1867> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1867-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1868
+<http://vivoweb.org/data/year/1868> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1868-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1869
+<http://vivoweb.org/data/year/1869> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1869-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1870
+<http://vivoweb.org/data/year/1870> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1870-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1871
+<http://vivoweb.org/data/year/1871> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1871-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1872
+<http://vivoweb.org/data/year/1872> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1872-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1873
+<http://vivoweb.org/data/year/1873> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1873-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1874
+<http://vivoweb.org/data/year/1874> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1874-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1875
+<http://vivoweb.org/data/year/1875> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1875-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1876
+<http://vivoweb.org/data/year/1876> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1876-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1877
+<http://vivoweb.org/data/year/1877> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1877-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1878
+<http://vivoweb.org/data/year/1878> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1878-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1879
+<http://vivoweb.org/data/year/1879> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1879-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1880
+<http://vivoweb.org/data/year/1880> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1880-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1881
+<http://vivoweb.org/data/year/1881> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1881-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1882
+<http://vivoweb.org/data/year/1882> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1882-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1883
+<http://vivoweb.org/data/year/1883> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1883-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1884
+<http://vivoweb.org/data/year/1884> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1884-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1885
+<http://vivoweb.org/data/year/1885> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1885-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1886
+<http://vivoweb.org/data/year/1886> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1886-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1887
+<http://vivoweb.org/data/year/1887> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1887-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1888
+<http://vivoweb.org/data/year/1888> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1888-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1889
+<http://vivoweb.org/data/year/1889> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1889-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1890
+<http://vivoweb.org/data/year/1890> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1890-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1891
+<http://vivoweb.org/data/year/1891> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1891-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1892
+<http://vivoweb.org/data/year/1892> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1892-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1893
+<http://vivoweb.org/data/year/1893> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1893-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1894
+<http://vivoweb.org/data/year/1894> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1894-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1895
+<http://vivoweb.org/data/year/1895> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1895-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1896
+<http://vivoweb.org/data/year/1896> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1896-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1897
+<http://vivoweb.org/data/year/1897> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1897-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1898
+<http://vivoweb.org/data/year/1898> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1898-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1899
+<http://vivoweb.org/data/year/1899> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1899-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1900
+<http://vivoweb.org/data/year/1900> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1900-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1901
+<http://vivoweb.org/data/year/1901> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1901-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1902
+<http://vivoweb.org/data/year/1902> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1902-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1903
+<http://vivoweb.org/data/year/1903> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1903-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1904
+<http://vivoweb.org/data/year/1904> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1904-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1905
+<http://vivoweb.org/data/year/1905> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1905-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1906
+<http://vivoweb.org/data/year/1906> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1906-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1907
+<http://vivoweb.org/data/year/1907> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1907-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1908
+<http://vivoweb.org/data/year/1908> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1908-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1909
+<http://vivoweb.org/data/year/1909> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1909-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1910
+<http://vivoweb.org/data/year/1910> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1910-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1911
+<http://vivoweb.org/data/year/1911> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1911-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1912
+<http://vivoweb.org/data/year/1912> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1912-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1913
+<http://vivoweb.org/data/year/1913> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1913-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1914
+<http://vivoweb.org/data/year/1914> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1914-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1915
+<http://vivoweb.org/data/year/1915> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1915-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1916
+<http://vivoweb.org/data/year/1916> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1916-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1917
+<http://vivoweb.org/data/year/1917> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1917-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1918
+<http://vivoweb.org/data/year/1918> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1918-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1919
+<http://vivoweb.org/data/year/1919> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1919-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1920
+<http://vivoweb.org/data/year/1920> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1920-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1921
+<http://vivoweb.org/data/year/1921> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1921-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1922
+<http://vivoweb.org/data/year/1922> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1922-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1923
+<http://vivoweb.org/data/year/1923> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1923-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1924
+<http://vivoweb.org/data/year/1924> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1924-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1925
+<http://vivoweb.org/data/year/1925> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1925-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1926
+<http://vivoweb.org/data/year/1926> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1926-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1927
+<http://vivoweb.org/data/year/1927> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1927-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1928
+<http://vivoweb.org/data/year/1928> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1928-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1929
+<http://vivoweb.org/data/year/1929> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1929-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1930
+<http://vivoweb.org/data/year/1930> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1930-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1931
+<http://vivoweb.org/data/year/1931> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1931-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1932
+<http://vivoweb.org/data/year/1932> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1932-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1933
+<http://vivoweb.org/data/year/1933> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1933-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1934
+<http://vivoweb.org/data/year/1934> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1934-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1935
+<http://vivoweb.org/data/year/1935> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1935-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1936
+<http://vivoweb.org/data/year/1936> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1936-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1937
+<http://vivoweb.org/data/year/1937> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1937-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1938
+<http://vivoweb.org/data/year/1938> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1938-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1939
+<http://vivoweb.org/data/year/1939> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1939-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1940
+<http://vivoweb.org/data/year/1940> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1940-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1941
+<http://vivoweb.org/data/year/1941> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1941-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1942
+<http://vivoweb.org/data/year/1942> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1942-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1943
+<http://vivoweb.org/data/year/1943> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1943-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1944
+<http://vivoweb.org/data/year/1944> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1944-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1945
+<http://vivoweb.org/data/year/1945> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1945-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1946
+<http://vivoweb.org/data/year/1946> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1946-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1947
+<http://vivoweb.org/data/year/1947> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1947-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1948
+<http://vivoweb.org/data/year/1948> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1948-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1949
+<http://vivoweb.org/data/year/1949> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1949-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1950
+<http://vivoweb.org/data/year/1950> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1950-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1951
+<http://vivoweb.org/data/year/1951> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1951-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1952
+<http://vivoweb.org/data/year/1952> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1952-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1953
+<http://vivoweb.org/data/year/1953> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1953-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1954
+<http://vivoweb.org/data/year/1954> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1954-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1955
+<http://vivoweb.org/data/year/1955> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1955-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1956
+<http://vivoweb.org/data/year/1956> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1956-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1957
+<http://vivoweb.org/data/year/1957> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1957-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1958
+<http://vivoweb.org/data/year/1958> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1958-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1959
+<http://vivoweb.org/data/year/1959> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1959-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1960
+<http://vivoweb.org/data/year/1960> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1960-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1961
+<http://vivoweb.org/data/year/1961> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1961-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1962
+<http://vivoweb.org/data/year/1962> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1962-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1963
+<http://vivoweb.org/data/year/1963> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1963-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1964
+<http://vivoweb.org/data/year/1964> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1964-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1965
+<http://vivoweb.org/data/year/1965> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1965-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1966
+<http://vivoweb.org/data/year/1966> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1966-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1967
+<http://vivoweb.org/data/year/1967> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1967-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1968
+<http://vivoweb.org/data/year/1968> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1968-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1969
+<http://vivoweb.org/data/year/1969> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1969-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1970
+<http://vivoweb.org/data/year/1970> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1970-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1971
+<http://vivoweb.org/data/year/1971> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1971-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1972
+<http://vivoweb.org/data/year/1972> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1972-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1973
+<http://vivoweb.org/data/year/1973> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1973-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1974
+<http://vivoweb.org/data/year/1974> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1974-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1975
+<http://vivoweb.org/data/year/1975> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1975-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1976
+<http://vivoweb.org/data/year/1976> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1976-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1977
+<http://vivoweb.org/data/year/1977> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1977-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1978
+<http://vivoweb.org/data/year/1978> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1978-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1979
+<http://vivoweb.org/data/year/1979> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1979-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1980
+<http://vivoweb.org/data/year/1980> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1980-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1981
+<http://vivoweb.org/data/year/1981> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1981-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1982
+<http://vivoweb.org/data/year/1982> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1982-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1983
+<http://vivoweb.org/data/year/1983> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1983-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1984
+<http://vivoweb.org/data/year/1984> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1984-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1985
+<http://vivoweb.org/data/year/1985> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1985-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1986
+<http://vivoweb.org/data/year/1986> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1986-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1987
+<http://vivoweb.org/data/year/1987> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1987-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1988
+<http://vivoweb.org/data/year/1988> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1988-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1989
+<http://vivoweb.org/data/year/1989> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1989-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1990
+<http://vivoweb.org/data/year/1990> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1990-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1991
+<http://vivoweb.org/data/year/1991> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1991-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1992
+<http://vivoweb.org/data/year/1992> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1992-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1993
+<http://vivoweb.org/data/year/1993> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1993-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1994
+<http://vivoweb.org/data/year/1994> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1994-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1995
+<http://vivoweb.org/data/year/1995> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1995-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1996
+<http://vivoweb.org/data/year/1996> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1996-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1997
+<http://vivoweb.org/data/year/1997> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1997-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1998
+<http://vivoweb.org/data/year/1998> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1998-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/1999
+<http://vivoweb.org/data/year/1999> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "1999-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2000
+<http://vivoweb.org/data/year/2000> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2000-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2001
+<http://vivoweb.org/data/year/2001> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2001-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2002
+<http://vivoweb.org/data/year/2002> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2002-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2003
+<http://vivoweb.org/data/year/2003> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2003-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2004
+<http://vivoweb.org/data/year/2004> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2004-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2005
+<http://vivoweb.org/data/year/2005> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2005-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2006
+<http://vivoweb.org/data/year/2006> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2006-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2007
+<http://vivoweb.org/data/year/2007> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2007-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2008
+<http://vivoweb.org/data/year/2008> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2008-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2009
+<http://vivoweb.org/data/year/2009> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2009-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2010
+<http://vivoweb.org/data/year/2010> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2010-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2011
+<http://vivoweb.org/data/year/2011> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2011-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2012
+<http://vivoweb.org/data/year/2012> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2012-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2013
+<http://vivoweb.org/data/year/2013> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2013-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2014
+<http://vivoweb.org/data/year/2014> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2014-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2015
+<http://vivoweb.org/data/year/2015> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2015-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2016
+<http://vivoweb.org/data/year/2016> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2016-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2017
+<http://vivoweb.org/data/year/2017> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2017-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2018
+<http://vivoweb.org/data/year/2018> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2018-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2019
+<http://vivoweb.org/data/year/2019> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2019-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2020
+<http://vivoweb.org/data/year/2020> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2020-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2021
+<http://vivoweb.org/data/year/2021> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2021-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2022
+<http://vivoweb.org/data/year/2022> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2022-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2023
+<http://vivoweb.org/data/year/2023> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2023-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2024
+<http://vivoweb.org/data/year/2024> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2024-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2025
+<http://vivoweb.org/data/year/2025> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2025-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2026
+<http://vivoweb.org/data/year/2026> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2026-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2027
+<http://vivoweb.org/data/year/2027> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2027-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2028
+<http://vivoweb.org/data/year/2028> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2028-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2029
+<http://vivoweb.org/data/year/2029> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2029-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2030
+<http://vivoweb.org/data/year/2030> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2030-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2031
+<http://vivoweb.org/data/year/2031> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2031-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2032
+<http://vivoweb.org/data/year/2032> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2032-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2033
+<http://vivoweb.org/data/year/2033> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2033-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2034
+<http://vivoweb.org/data/year/2034> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2034-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2035
+<http://vivoweb.org/data/year/2035> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2035-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2036
+<http://vivoweb.org/data/year/2036> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2036-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2037
+<http://vivoweb.org/data/year/2037> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2037-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2038
+<http://vivoweb.org/data/year/2038> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2038-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2039
+<http://vivoweb.org/data/year/2039> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2039-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2040
+<http://vivoweb.org/data/year/2040> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2040-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2041
+<http://vivoweb.org/data/year/2041> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2041-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2042
+<http://vivoweb.org/data/year/2042> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2042-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2043
+<http://vivoweb.org/data/year/2043> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2043-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2044
+<http://vivoweb.org/data/year/2044> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2044-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2045
+<http://vivoweb.org/data/year/2045> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2045-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2046
+<http://vivoweb.org/data/year/2046> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2046-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2047
+<http://vivoweb.org/data/year/2047> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2047-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2048
+<http://vivoweb.org/data/year/2048> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2048-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2049
+<http://vivoweb.org/data/year/2049> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2049-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://vivoweb.org/data/year/2050
+<http://vivoweb.org/data/year/2050> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2006/time#Instant> ;
+                                    <http://www.w3.org/2006/time#unitType> <http://www.w3.org/2006/time#unitYear> ;
+                                    <http://www.w3.org/2006/time#inXSDDateTimeStamp> "2050-01-01T00:00:00Z"^^xsd:dateTimeStamp .
+
+
+###  http://www.w3.org/2006/time#unitYear
+<http://www.w3.org/2006/time#unitYear> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi

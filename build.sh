@@ -1,5 +1,11 @@
-	
-	echo Processing templates    
+
+	echo Processing data templates    
+	robot template \
+  	    --template templates/dates.tsv \
+  	    --prefix "time: http://www.w3.org/2006/time#" \
+  	    convert --output data/dates.ttl	
+  	    
+	echo Processing ontology templates    
 	robot template \
   	    --template templates/annotation-properties.tsv \
   	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
@@ -21,7 +27,7 @@
   	    --prefix "org: http://purl.obolibrary.org/obo/ORG_" \
   	    --prefix "bfo: http://purl.obolibrary.org/obo/BFO_" \
   	    --prefix "ro: http://purl.obolibrary.org/obo/RO_" \
-            --prefix "obi: http://purl.obolibrary.org/obo/OBI_" \
+        --prefix "obi: http://purl.obolibrary.org/obo/OBI_" \
   	    --prefix "iao: http://purl.obolibrary.org/obo/IAO_" \
   	    --prefix "time: http://www.w3.org/2006/time#" \
   	    convert --output templates/datatype-properties.ttl

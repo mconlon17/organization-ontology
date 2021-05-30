@@ -56,6 +56,7 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    out-of-scope
    vivo-to-org
    ror-to-org
+   data-dates
    notes-and-sources
    ontology-authors
    documentation-authors

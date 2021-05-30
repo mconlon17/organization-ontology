@@ -219,7 +219,6 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_2000011
 <http://purl.obolibrary.org/obo/ORG_2000011> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
-                                             rdf:type owl:SymmetricProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Theatre Library Association is an affiliate of the American Library Association"@en ;

@@ -1,5 +1,17 @@
-# Data for Orgnizations
-Here we have scripts for making organizational data (assertions about individuals) from ROR
+# Data for Organizations
+
+See `template\dates.tsv` for a template for creating dates data.  The build script 
+`build.sh` uses this template to create data in `data\dates.ttl`
+  
+## Locations
+
+We plan a template to create continents and countries of the world.  The template should 
+be easily
+extensible to create populated places for countries.
+
+## Organizations
+
+Here we will have scripts for making organizational data (assertions about individuals) from ROR
 data.  The goal is to have a command line script that can:
 
 1. Take a ROR identifier
