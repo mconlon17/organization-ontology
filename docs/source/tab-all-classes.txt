@@ -1,10 +1,10 @@
 
 
-See `Table 4`_.
+See `Table 5`_.
 
-.. _Table 4:
+.. _Table 5:
 
-.. table:: Table 4 Classes
+.. table:: Table 5 Classes
 
     ======================  ========================  ================================================
     Term ID                 Label                     Definition
@@ -30,6 +30,15 @@ See `Table 4`_.
     ``IAO_0000030``         information content enti  A generically dependent continuant that is about
     ``IAO_0000422``         postal address            A textual entity that is used as directive to de
     ``IAO_0000429``         email address             A designation used to deliver email to a recipie
+    ``IAO_0000578``         centrally registered ide  An information content entity that consists of a
+    ``IAO_0020000``         identifier                An identifier is an information content entity t
+    ``IAO_0022003``         crossref funder identifi  An identifier assigned by CrossRef to an organiz
+    ``IAO_0022006``         dbpedia identifier        A URL used by DBpedia to identify an entity
+    ``IAO_0022010``         global research organiza  An identifier assigned and managed by Digital Sc
+    ``IAO_0022014``         international standard n  An identifier for persons and organizations whic
+    ``IAO_0022022``         research organization re  An identifier assigned by ROR to research organi
+    ``IAO_0022027``         wikidata q number         QID (or Q number) is the unique identifier of a 
+    ``IAO_0022057``         ringgold identifier       The Ringgold Identifier is a unique numerical id
     ``ORG_0000001``         organization              A group of people recognized as such by people o
     ``ORG_0000002``         government organization   An organization which is the body of persons tha
     ``ORG_0000003``         company                   A legal entity of associated persons created for

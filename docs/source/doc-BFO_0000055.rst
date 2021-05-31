@@ -18,11 +18,11 @@ BFO_0000055 - realizes
 
 .. topic:: Example
 
-    this investigation realizes this investigator role
-
     this disease course realizes this disease
 
     this shattering realizes this fragility
+
+    this investigation realizes this investigator role
 
 .. topic:: Imported From
 

@@ -42,9 +42,9 @@ has_output entity2* is quite common and describes the role entity1 had through a
 the creation of entity2. Each of these properties has an inverse, so we could assert
 equivalently, *entity2 output_of process; process realizes role; role inheres in entity1*. 
 
-.. _Table 14:
+.. _Table 15:
 
-.. table:: Table 14 Common Object Properties
+.. table:: Table 15 Common Object Properties
 
     ===============  =======================  ================================================
     Property         Label                    Notes

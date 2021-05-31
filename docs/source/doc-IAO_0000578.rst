@@ -1,0 +1,52 @@
+
+  .. _IAO_0000578:
+  .. _centrally registered identifier:
+  .. index:: 
+     single: IAO_0000578; centrally registered identifier
+     single: centrally registered identifier; IAO_0000578
+
+IAO_0000578 - centrally registered identifier
+====================================================================================
+
+.. topic:: Label
+
+    centrally registered identifier
+
+.. topic:: Alternate name
+
+    CRID
+
+.. topic:: Definition
+
+    An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.
+
+.. topic:: Definition source
+
+    Original proposal from Bjoern, discussions at IAO calls
+
+.. topic:: Example
+
+    The sentence "The article has Pubmed ID 12345." contains a CRID that has two parts: one part is the CRID symbol, which is '12345'; the other part denotes the CRID registry, which is Pubmed.
+
+.. topic:: Editor's note
+
+    Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered.
+
+    2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records').
+
+    Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation.
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl
+
+.. topic:: Term editor
+
+    PERSON: Bjoern Peters
+
+    PERSON: Bill Hogan
+
+    PERSON: Alan Ruttenberg
+
+    PERSON: Melanie Courtot
+

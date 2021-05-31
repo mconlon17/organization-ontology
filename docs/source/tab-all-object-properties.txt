@@ -1,10 +1,10 @@
 
 
-See `Table 6`_.
+See `Table 7`_.
 
-.. _Table 6:
+.. _Table 7:
 
-.. table:: Table 6 Object Properties
+.. table:: Table 7 Object Properties
 
     ======================  ========================  ================================================
     Term ID                 Label                     Definition

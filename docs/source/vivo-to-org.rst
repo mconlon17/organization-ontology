@@ -8,7 +8,7 @@ in the VIVO Organization Ontology [#]_.
 Translating Types
 -----------------
 
-The VIVO Ontology organization types are presented in `Table 14`_ with instructions
+The VIVO Ontology organization types are presented in `Table 16`_ with instructions
 for translating each.  The VIVO Organization Ontology separates the concept of
 what the organization "is" (company, organization part, etc) from what the 
 organization "does" (hospital, library, etc).  In many cases, the VIVO Ontology
@@ -20,12 +20,12 @@ missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
 a specific type [#]_.
 
-`Table 15`_ provides a guide for translating VIVO organizational types to assertions
+`Table 16`_ provides a guide for translating VIVO organizational types to assertions
 in the VIVO Organization Ontology. 
 
-.. _Table 15:
+.. _Table 16:
 
-.. table:: Table 15 Translating VIVO types to VIVO Organizational assertions
+.. table:: Table 16 Translating VIVO types to VIVO Organizational assertions
 
     ========================== ============================
     VIVO Type                  VIVO Organization Assertions

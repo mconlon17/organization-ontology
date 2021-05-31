@@ -43,11 +43,12 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    :caption: Contents
    
    organizations
-   associations
+   identifiers
    addresses
    facilities
    locations
    datetimes
+   associations
    classes
    object-properties
    datatype-properties
@@ -81,6 +82,7 @@ List of Tables
 - :ref:`Table 14`
 - :ref:`Table 15`
 - :ref:`Table 16`
+- :ref:`Table 17`
 
 List of Figures
 ---------------

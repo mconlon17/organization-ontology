@@ -18,9 +18,9 @@ RO_0000053 - bearer of
 
 .. topic:: Example
 
-    this vase is bearer of this fragility
-
     this apple is bearer of this red color
+
+    this vase is bearer of this fragility
 
 .. topic:: Editor's note
 

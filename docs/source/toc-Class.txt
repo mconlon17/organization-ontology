@@ -24,6 +24,15 @@
    doc-IAO_0000030
    doc-IAO_0000422
    doc-IAO_0000429
+   doc-IAO_0000578
+   doc-IAO_0020000
+   doc-IAO_0022003
+   doc-IAO_0022006
+   doc-IAO_0022010
+   doc-IAO_0022014
+   doc-IAO_0022022
+   doc-IAO_0022027
+   doc-IAO_0022057
    doc-ORG_0000001
    doc-ORG_0000002
    doc-ORG_0000003

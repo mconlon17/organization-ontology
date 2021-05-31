@@ -1,0 +1,34 @@
+
+  .. _IAO_0022010:
+  .. _global research organization identifier:
+  .. index:: 
+     single: IAO_0022010; global research organization identifier
+     single: global research organization identifier; IAO_0022010
+
+IAO_0022010 - global research organization identifier
+====================================================================================
+
+.. topic:: Label
+
+    global research organization identifier
+
+.. topic:: Definition
+
+    An identifier assigned and managed by Digital Science for the purpose of denoting research organizations
+
+.. topic:: Definition source
+
+    https://grid.ac
+
+.. topic:: Example
+
+    The ISBN-13 for Native Son, by Richard Wright, Harper Perennial, Reissued 2005 is 978-0-06-083756-3
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl
+
+.. topic:: Term editor
+
+    PERSON: Michael Conlon
+

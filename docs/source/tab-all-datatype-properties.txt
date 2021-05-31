@@ -1,10 +1,10 @@
 
 
-See `Table 7`_.
+See `Table 8`_.
 
-.. _Table 7:
+.. _Table 8:
 
-.. table:: Table 7 Datatype Properties
+.. table:: Table 8 Datatype Properties
 
     ======================  ========================  ================================================
     Term ID                 Label                     Definition

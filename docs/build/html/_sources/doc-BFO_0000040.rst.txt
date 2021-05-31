@@ -18,29 +18,29 @@ BFO_0000040 - material entity
 
 .. topic:: Example
 
-    the undetached arm of a human being
-
-    a puff of smoke
-
-    an aggregate of human beings.
-
-    a human being
-
-    a tornado
+    an energy wave
 
     a flame
 
-    an epidemic
+    a hurricane
 
-    a sea wave
-
-    an energy wave
-
-    a photon
+    a human being
 
     a forest fire
 
-    a hurricane
+    an epidemic
+
+    an aggregate of human beings.
+
+    the undetached arm of a human being
+
+    a sea wave
+
+    a photon
+
+    a tornado
+
+    a puff of smoke
 
 .. topic:: Editor's note
 

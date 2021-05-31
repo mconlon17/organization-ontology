@@ -16,6 +16,9 @@ Glossary
     
   Domain  
     A part of the world consisting of related entities.
+    
+  Dubbing Process
+    A process by which an identifier is assigned to an entity.
 
   Entity
     A thing, as defined in an ontology.

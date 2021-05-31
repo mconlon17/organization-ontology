@@ -753,6 +753,121 @@ obo:IAO_0000429 rdf:type owl:Class ;
                 rdfs:label "email address"@en .
 
 
+###  http://purl.obolibrary.org/obo/IAO_0000578
+obo:IAO_0000578 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0020000 ;
+                obo:IAO_0000112 "The sentence \"The article has Pubmed ID 12345.\" contains a CRID that has two parts: one part is the CRID symbol, which is '12345'; the other part denotes the CRID registry, which is Pubmed."@en ;
+                obo:IAO_0000114 obo:IAO_0000120 ;
+                obo:IAO_0000115 "An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs."@en ;
+                obo:IAO_0000116 "2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records')."@en ,
+                                "Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation."@en ,
+                                "Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered."@en ;
+                obo:IAO_0000117 "PERSON: Alan Ruttenberg"@en ,
+                                "PERSON: Bill Hogan"@en ,
+                                "PERSON: Bjoern Peters"@en ,
+                                "PERSON: Melanie Courtot"@en ;
+                obo:IAO_0000118 "CRID" ;
+                obo:IAO_0000119 "Original proposal from Bjoern, discussions at IAO calls"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "centrally registered identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0020000
+obo:IAO_0020000 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000030 ;
+                obo:IAO_0000111 "identifier"@en ;
+                obo:IAO_0000115 "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity."@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0022003
+obo:IAO_0022003 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000578 ;
+                obo:IAO_0000111 "http://purl.obolibrary.org/obo/IAO_0000123"@en ;
+                obo:IAO_0000112 "The CrossRef ID for the University of Florida is 100007698.  When authors cite the university as a funder of their work, CrossRef uses this number to identify the university"@en ;
+                obo:IAO_0000115 "An identifier assigned by CrossRef to an organization which has funded a project resulting in a published work"@en ;
+                obo:IAO_0000117 "PERSON: Michael Conlon"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "crossref funder identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0022006
+obo:IAO_0022006 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000578 ;
+                obo:IAO_0000111 "DBpedia URL"@en ,
+                                "http://purl.obolibrary.org/obo/IAO_0000123"@en ;
+                obo:IAO_0000112 "The DBpedia URL for the football player Cristiano Ronaldo is http://dbpedia.org/resource/Cristiano_Ronaldo"@en ;
+                obo:IAO_0000115 "A URL used by DBpedia to identify an entity"@en ;
+                obo:IAO_0000116 "clarify"@en ;
+                obo:IAO_0000117 "PERSON: Michael Conlon"@en ;
+                obo:IAO_0000119 "https://dbpedia.org"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "dbpedia identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0022010
+obo:IAO_0022010 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000578 ;
+                obo:IAO_0000111 "GRiD"@en ,
+                                "http://purl.obolibrary.org/obo/IAO_0000123"@en ;
+                obo:IAO_0000112 "The ISBN-13 for Native Son, by Richard Wright, Harper Perennial, Reissued 2005 is 978-0-06-083756-3"@en ;
+                obo:IAO_0000115 "An identifier assigned and managed by Digital Science for the purpose of denoting research organizations"@en ;
+                obo:IAO_0000117 "PERSON: Michael Conlon"@en ;
+                obo:IAO_0000119 "https://grid.ac"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "global research organization identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0022014
+obo:IAO_0022014 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000578 ;
+                obo:IAO_0000111 "ISNI"@en ,
+                                "http://purl.obolibrary.org/obo/IAO_0000123"@en ;
+                obo:IAO_0000115 "An identifier for persons and organizations which may be assigned by matching algorithms based on records provided by publishers"@en ;
+                obo:IAO_0000116 "spell out"@en ;
+                obo:IAO_0000117 "PERSON: Michael Conlon"@en ;
+                obo:IAO_0000119 "https://isni.org/page/what-is-isni/"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "international standard name identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0022022
+obo:IAO_0022022 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000578 ;
+                obo:IAO_0000111 "ROR ID"@en ,
+                                "http://purl.obolibrary.org/obo/IAO_0000123"@en ;
+                obo:IAO_0000115 "An identifier assigned by ROR to research organizations in the world"@en ;
+                obo:IAO_0000117 "PERSON: Michael Conlon"@en ;
+                obo:IAO_0000119 "http://ror.org"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "research organization registry identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0022027
+obo:IAO_0022027 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000578 ;
+                obo:IAO_0000111 "QID"@en ,
+                                "http://purl.obolibrary.org/obo/IAO_0000123"@en ;
+                obo:IAO_0000115 "QID (or Q number) is the unique identifier of a data item on Wikidata, comprising the letter \"Q\" followed by one or more digits."@en ;
+                obo:IAO_0000117 "PERSON: Michael Conlon"@en ;
+                obo:IAO_0000119 "https://www.wikidata.org/wiki/Q43649390"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "wikidata q number"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0022057
+obo:IAO_0022057 rdf:type owl:Class ;
+                rdfs:subClassOf obo:IAO_0000578 ;
+                obo:IAO_0000111 "Ringgold ID"@en ,
+                                "http://purl.obolibrary.org/obo/IAO_0000123"@en ;
+                obo:IAO_0000115 "The Ringgold Identifier is a unique numerical identifier applied to organizations in the scholarly supply chain"@en ;
+                obo:IAO_0000117 "PERSON: Michael Conlon"@en ;
+                obo:IAO_0000119 "https://www.ringgold.com/ringgold-identifier/"@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
+                rdfs:label "ringgold identifier"@en .
+
+
 ###  http://www.w3.org/2004/02/skos/core#Concept
 skos:Concept rdf:type owl:Class ;
              rdfs:subClassOf obo:BFO_0000031 ;

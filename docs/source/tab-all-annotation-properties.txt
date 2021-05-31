@@ -1,10 +1,10 @@
 
 
-See `Table 5`_.
+See `Table 6`_.
 
-.. _Table 5:
+.. _Table 6:
 
-.. table:: Table 5 Annotation Properties
+.. table:: Table 6 Annotation Properties
 
     ======================  ========================  ================================================
     Term ID                 Label                     Definition
