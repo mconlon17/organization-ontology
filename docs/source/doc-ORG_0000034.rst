@@ -1,20 +1,20 @@
 
   .. _ORG_0000034:
-  .. _information address disposition:
+  .. _information address quality:
   .. index:: 
-     single: ORG_0000034; information address disposition
-     single: information address disposition; ORG_0000034
+     single: ORG_0000034; information address quality
+     single: information address quality; ORG_0000034
 
-ORG_0000034 - information address disposition
+ORG_0000034 - information address quality
 ====================================================================================
 
 .. topic:: Label
 
-    information address disposition
+    information address quality
 
 .. topic:: Definition
 
-    A disposition of an information content entity denoted by an address which has the purpose of responding to information inquiries
+    A quality of an information content entity denoted by an address which has the purpose of responding to information inquiries
 
 .. topic:: Definition source
 

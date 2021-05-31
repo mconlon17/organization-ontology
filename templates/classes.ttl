@@ -72,6 +72,10 @@ xsd:anyuri rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/BFO_0000016> rdf:type owl:Class .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000019
+<http://purl.obolibrary.org/obo/BFO_0000019> rdf:type owl:Class .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000023
 <http://purl.obolibrary.org/obo/BFO_0000023> rdf:type owl:Class .
 
@@ -522,70 +526,68 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/ORG_0000034
 <http://purl.obolibrary.org/obo/ORG_0000034> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Email addresses that begin help@ info@ contact@ often have information address address disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an information content entity denoted by an address which has the purpose of responding to information inquiries"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an information content entity denoted by an address which has the purpose of responding to information inquiries"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "information address disposition"@en .
+                                             rdfs:label "information address quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000035
 <http://purl.obolibrary.org/obo/ORG_0000035> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Bills may be sent to Attn: Name at"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an address to be used to receive bills"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an address to be used to receive bills"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "billing address disposition"@en .
+                                             rdfs:label "billing address quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000036
 <http://purl.obolibrary.org/obo/ORG_0000036> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The loading dock address for central receiving of an organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an address to be used to receive shipped goods"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an address to be used to receive shipped goods"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "shipping address dispositon"@en .
+                                             rdfs:label "shipping address quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000037
 <http://purl.obolibrary.org/obo/ORG_0000037> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The address the organization displays most prominently in promotional materials"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition of an address to be displayed in most settings"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an address to be displayed in most settings"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "preferred address disposition"@en .
+                                             rdfs:label "preferred address quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000038
 <http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "homepage"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A dispsition to be the primary website for an entity."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Skeptical about this.  Is it a quality? A type of web page?"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A quality to be the primary website for an entity."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "homepage disposition"@en .
+                                             rdfs:label "homepage quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000039
 <http://purl.obolibrary.org/obo/ORG_0000039> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "wikipedia page"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to be the webpage within WikiPedia regarding the entity"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Skeptical about this.  Is it a quality? A type of web page?"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A quality to be the webpage within WikiPedia regarding the entity"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "wikipedia disposition"@en .
+                                             rdfs:label "wikipedia quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000040
@@ -840,6 +842,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_0000060> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "membership"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship involving two organizations in which one is a member of the other"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Organizational Membership is a Membership, which is a Relationship, which is an Occurrent.  The subsumption is out of scope for the Organizationa Ontology. The existence of a membership implies the existence of a membership creation process and a membership creation process boundary.  These are currently out of scope for the Organization Ontology"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -850,6 +853,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000061
 <http://purl.obolibrary.org/obo/ORG_0000061> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in being a member of another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "member"@en ;
@@ -860,10 +864,70 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000062
 <http://purl.obolibrary.org/obo/ORG_0000062> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in granting a member role to another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "organizational member grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000063
+<http://purl.obolibrary.org/obo/ORG_0000063> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The student chess club, the student data science club, the student newspaper may all be student-led organizations"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The quality of an organization that is led by a student"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Student-led organziations may be formal or informal"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#StudentOrganization"^^xsd:anyuri ;
+                                             rdfs:label "student led organization quality"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000064
+<http://purl.obolibrary.org/obo/ORG_0000064> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "As of 2021, The Office of the Vice President of the United States, and the Federal Government of Germany are women-led organizations"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The quality of an organization that is led by a woman"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "In some jurisdictions, such as the US, counting women-led organizations is important"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "woman led organization quality"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000065
+<http://purl.obolibrary.org/obo/ORG_0000065> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "From 2008-2016, the Office of the President of the United States was a minority-led organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The quality of an organiztion that is led by a designated minority"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "In some jurisdictions, such as the US, counting minority-led organizations is important"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "minority led organization quality"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000066
+<http://purl.obolibrary.org/obo/ORG_0000066> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The legal registered location for Google is Mountain View, California"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The quality of a location that is the legal/registered location for the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "registered location quality"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000067
+<http://purl.obolibrary.org/obo/ORG_0000067> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The primary site for Microsoft is Redmond, Washington"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The quality of a location that is the primary/preferred location for the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "primary location quality"@en .
 
 
 ###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi

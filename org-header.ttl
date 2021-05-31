@@ -17,14 +17,14 @@
 
 <http://purl.obolibrary.org/obo/org.owl> rdf:type owl:Ontology ;
                                           owl:versionIRI <https://purl.obolibrary.org/obo/org/releases/2021-01-30> ;
-                                          rdfs:comment "This is very early work.  The ontology is intended to be sufficient to represent entities and properties in the domain of scholarship, and data for those organizations as collected and managed by GRiD and ROR"@en ;
-                                          terms:license <https://creativecommons.org/share-your-work/public-domain/cc0/> ;
-                                          dc:description "A BFO-based, OBO compliant ontology of research organizations."@en ;
-                                          owl:versionInfo "version 0.0.1" ;
+                                          dc:created "2021-01-30"^^xsd:date ;
                                           dc:creator <http://orcid.org/0000-0002-1304-8447> ;
-                                          rdfs:label "Organization Ontology"@en ;
+                                          dc:description "A BFO-based, OBO compliant ontology of research organizations."@en ;
                                           dc:title "Organization Ontology"@en ;
-                                          dc:created "2021-01-30"^^xsd:date .
+                                          terms:license <https://creativecommons.org/share-your-work/public-domain/cc0/> ;
+                                          rdfs:comment "This is very early work.  The ontology is intended to be sufficient to represent entities and properties in the domain of scholarship, and data for those organizations as collected and managed by GRiD and ROR"@en ;
+                                          rdfs:label "Organization Ontology"@en ;
+                                          owl:versionInfo "version 0.0.1" .
 
 #################################################################
 #    Annotation properties
@@ -92,6 +92,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
                 rdfs:label "definition"@en .
+
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
 obo:IAO_0000116 rdf:type owl:AnnotationProperty ;
@@ -172,6 +173,26 @@ obo:IAO_0000412 rdf:type owl:AnnotationProperty ;
                 rdfs:label "imported from"@en .
 
 
+###  http://purl.org/dc/elements/1.1/created
+dc:created rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+terms:license rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Datatypes
 #################################################################
@@ -228,7 +249,7 @@ obo:BFO_0000054 rdf:type owl:ObjectProperty ;
                 obo:IAO_0000112 "this disease is realized in this disease course"@en ,
                                 "this fragility is realized in this shattering"@en ,
                                 "this investigator role is realized in this investigation"@en ;
-                obo:IAO_0000115 "A relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en;
+                obo:IAO_0000115 "A relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en ;
                 obo:IAO_0000118 "is realized by"@en ,
                                 "realized_in"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
@@ -244,7 +265,7 @@ obo:BFO_0000055 rdf:type owl:ObjectProperty ;
                 obo:IAO_0000112 "this disease course realizes this disease"@en ,
                                 "this investigation realizes this investigator role"@en ,
                                 "this shattering realizes this fragility"@en ;
-                obo:IAO_0000115 "A relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en;
+                obo:IAO_0000115 "A relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
                 rdfs:comment "Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process" ;
                 rdfs:isDefinedBy obo:iao.owl ;
@@ -342,6 +363,29 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
                obo:IAO_0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time."@en ;
                obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"^^xsd:string ;
                rdfs:label "has participant"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000080
+obo:RO_0000080 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000052 ;
+               obo:IAO_0000112 "this red color is a quality of this apple"@en ;
+               obo:IAO_0000115 "A relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"@en ;
+               obo:IAO_0000116 "A quality inheres in its bearer at all times for which the quality exists."@en ;
+               obo:IAO_0000118 "is quality of"@en ,
+                               "quality_of"@en ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+               rdfs:label "quality of"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000086
+obo:RO_0000086 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000053 ;
+               obo:IAO_0000112 "this apple has quality this red color"@en ;
+               obo:IAO_0000115 "A relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en ;
+               obo:IAO_0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en ;
+               obo:IAO_0000118 "has_quality"@en ;
+               obo:IAO_0000412 "http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl"^^xsd:string ;
+               rdfs:label "has quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000091
@@ -540,6 +584,20 @@ obo:BFO_0000017 rdf:type owl:Class ;
                 rdfs:label "realizable entity"@en .
 
 
+###  http://purl.obolibrary.org/obo/BFO_0000019
+obo:BFO_0000019 rdf:type owl:Class ;
+                rdfs:subClassOf obo:BFO_0000017 ;
+                obo:IAO_0000112 "the ambient temperature of this portion of air"@en ,
+                                "the color of a tomato"@en ,
+                                "the length of the circumference of your waist"@en ,
+                                "the mass of this piece of gold."@en ,
+                                "the shape of your nose"@en ,
+                                "the shape of your nostril"@en ;
+                obo:IAO_0000115 "A quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized."@en ;
+                obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
+                rdfs:label "quality"@en .
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000020
 obo:BFO_0000020 rdf:type owl:Class ;
                 rdfs:subClassOf obo:BFO_0000002 ;
@@ -558,7 +616,7 @@ obo:BFO_0000023 rdf:type owl:Class ;
                                 "the role of a stone in marking a property boundary"@en ,
                                 "the role of subject in a clinical trial"@en ,
                                 "the student role"@en ;
-                obo:IAO_0000115 "B is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed."@en;
+                obo:IAO_0000115 "B is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed."@en ;
                 obo:IAO_0000116 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"^^xsd:string ;
                 rdfs:isDefinedBy obo:bfo.owl ;
@@ -768,4 +826,4 @@ time:unitYear rdf:type owl:NamedIndividual ,
               rdfs:label "Year (unit of temporal duration)"@en .
 
 
-###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

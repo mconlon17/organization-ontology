@@ -13,12 +13,12 @@ be multi-valued, much as Organization Ontology dispositions are multi-valued.
 Organizations without research disposition are out of scope for ROR.  All organizations in
 ROR can be asserted to have research disposition.
 
-`Table 15`_ provides a guide for translating VIVO organizational types to assertions
+`Table 16`_ provides a guide for translating VIVO organizational types to assertions
 in the VIVO Organization Ontology. 
 
-.. _Table 15:
+.. _Table 16:
 
-.. table:: Table 15 Translating ROR types to VIVO Organizational assertions
+.. table:: Table 16 Translating ROR types to VIVO Organizational assertions
 
     ========================== ======================================
     ROR Type                   VIVO Organization Ontology Assertions

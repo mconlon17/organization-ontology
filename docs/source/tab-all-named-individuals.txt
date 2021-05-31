@@ -1,10 +1,10 @@
 
 
-See `Table 7`_.
+See `Table 8`_.
 
-.. _Table 7:
+.. _Table 8:
 
-.. table:: Table 7 Named Individuals
+.. table:: Table 8 Named Individuals
 
     ======================  ========================  ================================================
     Term ID                 Label                     Definition

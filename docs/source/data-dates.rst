@@ -1,6 +1,6 @@
 .. _datetimes:
 
-.. index:: Dates, Times, Datetimes
+.. index:: Dates, Data, Times, Datetimes
 
 Dates Data
 ==========

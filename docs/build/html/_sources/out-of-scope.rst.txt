@@ -63,7 +63,7 @@ An organization ontology should reuse terms it needs from other ontologies.
    time:Instant.  We have asserted a superclass for time:Instant to align it with
    BFO.
    
-.. topic:: Concepts
+.. topic:: Concept
 
    The |SKOS|_ issued to define skos:Concept.  We have asserted a superclass for skos:Concept
    to align it with BFO.

@@ -1,0 +1,23 @@
+
+
+See `Table 3`_.
+
+.. _Table 3:
+
+.. table:: Table 3 Qualities
+
+    ======================  ========================  ================================================
+    Term ID                 Label                     Definition
+    ======================  ========================  ================================================
+    ``ORG_0000034``         information address qual  A quality of an information content entity denot
+    ``ORG_0000035``         billing address quality   A quality of an address to be used to receive bi
+    ``ORG_0000036``         shipping address quality  A quality of an address to be used to receive sh
+    ``ORG_0000037``         preferred address qualit  A quality of an address to be displayed in most 
+    ``ORG_0000038``         homepage quality          A quality to be the primary website for an entit
+    ``ORG_0000039``         wikipedia quality         A quality to be the webpage within WikiPedia reg
+    ``ORG_0000063``         student led organization  The quality of an organization that is led by a 
+    ``ORG_0000064``         woman led organization q  The quality of an organization that is led by a 
+    ``ORG_0000065``         minority led organizatio  The quality of an organiztion that is led by a d
+    ``ORG_0000066``         registered location qual  The quality of a location that is the legal/regi
+    ``ORG_0000067``         primary location quality  The quality of a location that is the primary/pr
+    ======================  ========================  ================================================

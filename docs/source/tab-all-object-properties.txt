@@ -1,10 +1,10 @@
 
 
-See `Table 5`_.
+See `Table 6`_.
 
-.. _Table 5:
+.. _Table 6:
 
-.. table:: Table 5 Object Properties
+.. table:: Table 6 Object Properties
 
     ======================  ========================  ================================================
     Term ID                 Label                     Definition
@@ -35,6 +35,8 @@ See `Table 5`_.
     ``RO_0000053``          bearer of                 A relation between an independent continuant (th
     ``RO_0000056``          participates in           A relation between a continuant and a process, i
     ``RO_0000057``          has participant           A relation between a process and a continuant, i
+    ``RO_0000080``          quality of                A relation between a quality and an independent 
+    ``RO_0000086``          has quality               A relation between an independent continuant (th
     ``RO_0000091``          has disposition           A relation between an independent continuant (th
     ``RO_0001015``          location of               A relation between two independent continuants, 
     ``RO_0001025``          located in                A relation between two independent continuants, 

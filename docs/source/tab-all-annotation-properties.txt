@@ -1,10 +1,10 @@
 
 
-See `Table 4`_.
+See `Table 5`_.
 
-.. _Table 4:
+.. _Table 5:
 
-.. table:: Table 4 Annotation Properties
+.. table:: Table 5 Annotation Properties
 
     ======================  ========================  ================================================
     Term ID                 Label                     Definition
@@ -21,5 +21,10 @@ See `Table 4`_.
     ``IAO_0000233``         term tracker item         An IRI or similar locator for a request or discu
     ``IAO_0000412``         imported from             For external terms/classes, the ontology from wh
     ``ORG_1000001``         vivo 1 ontology referenc  The term in the original VIVO ontology that is m
+    ``created``             None                      None
+    ``creator``             None                      None
+    ``description``         None                      None
+    ``title``               None                      None
+    ``license``             None                      None
     ``inverseOf``           None                      None
     ======================  ========================  ================================================

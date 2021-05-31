@@ -1,28 +1,24 @@
 
   .. _ORG_0000039:
-  .. _wikipedia disposition:
+  .. _wikipedia quality:
   .. index:: 
-     single: ORG_0000039; wikipedia disposition
-     single: wikipedia disposition; ORG_0000039
+     single: ORG_0000039; wikipedia quality
+     single: wikipedia quality; ORG_0000039
 
-ORG_0000039 - wikipedia disposition
+ORG_0000039 - wikipedia quality
 ====================================================================================
 
 .. topic:: Label
 
-    wikipedia disposition
+    wikipedia quality
 
 .. topic:: Definition
 
-    A disposition to be the webpage within WikiPedia regarding the entity
+    A quality to be the webpage within WikiPedia regarding the entity
 
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
-
-.. topic:: Editor's note
-
-    Skeptical about this.  Is it a quality? A type of web page?
 
 .. topic:: Term editor
 

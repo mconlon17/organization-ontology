@@ -1,0 +1,34 @@
+
+  .. _ORG_0000065:
+  .. _minority led organization quality:
+  .. index:: 
+     single: ORG_0000065; minority led organization quality
+     single: minority led organization quality; ORG_0000065
+
+ORG_0000065 - minority led organization quality
+====================================================================================
+
+.. topic:: Label
+
+    minority led organization quality
+
+.. topic:: Definition
+
+    The quality of an organiztion that is led by a designated minority
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    From 2008-2016, the Office of the President of the United States was a minority-led organization
+
+.. topic:: Editor's note
+
+    In some jurisdictions, such as the US, counting minority-led organizations is important
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

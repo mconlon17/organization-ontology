@@ -13,13 +13,6 @@
 	See Early Thoughts on roles
 	Analogous to membership modeling
 	W3C "posts" may be more general, not just employee, but appointee and other.
-	
-1. Qualities
-
-   W3C has primarySite and RegisteredSite (legal)
-   Student Organization
-   Woman owned
-   Minority owned
    
 1. Add identifier semantics
    

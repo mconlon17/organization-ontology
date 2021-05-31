@@ -16,9 +16,9 @@ annotations are expected for all terms.
 
 .. include:: tab-all-annotation-properties.txt
 
-.. _Table 9:
+.. _Table 10:
 
-.. table:: Table 9 Common Annotation Properties
+.. table:: Table 10 Common Annotation Properties
 
     ===============  =======================  ===================================================
     Property         Label                    Notes
@@ -32,9 +32,9 @@ annotations are expected for all terms.
     ``IAO_0000119``  definition source        Definition citation, may be a link to definition
     ===============  =======================  ===================================================
     
-.. _Table 10:
+.. _Table 11:
 
-.. table:: Table 10 Curation Status
+.. table:: Table 11 Curation Status
 
     ===============  =======================  ================================================
     Property         Label                    Notes

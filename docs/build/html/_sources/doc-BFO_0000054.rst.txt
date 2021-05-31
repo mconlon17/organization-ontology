@@ -14,9 +14,9 @@ BFO_0000054 - realized in
 
 .. topic:: Alternate name
 
-    is realized by
-
     realized_in
+
+    is realized by
 
 .. topic:: Definition
 

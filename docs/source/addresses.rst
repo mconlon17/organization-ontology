@@ -60,11 +60,11 @@ To say org y has a billing postal address, we can assert:
 Terms used to represent Addresses
 ---------------------------------
 
-:ref:`Table 8` lists term ids used in the representation of addresses
+:ref:`Table 9` lists term ids used in the representation of addresses
 
-.. _Table 8:
+.. _Table 9:
 
-.. table:: Table 8 Terms used to represent addresses
+.. table:: Table 9 Terms used to represent addresses
 
     ======================  ===========================================================
     Term                    Notes
@@ -73,7 +73,7 @@ Terms used to represent Addresses
     :doc:`doc-IAO_0000429`  An entity with properties and a value
     :doc:`doc-ORG_3000002`  A datatype property to contain an email address string
     :doc:`doc-RO_0000091`   Object property relating an entity to a disposition
-    :doc:`doc-ORG_0000031`  A disposition of an adress to obtain information
+    :doc:`doc-ORG_0000031`  A quality of an adress to obtain information
     :doc:`doc-IAO_0000422`  An entity with properties and a value for postal delivery
     :doc:`doc-ORG_0000032`  An address used to send bills to an entity
     :doc:`doc-ORG_3000003`  An datatype property to contain a postal address string

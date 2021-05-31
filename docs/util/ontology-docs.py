@@ -207,6 +207,7 @@ def main():
 		
 	term_table("../source/tab-all-types.txt", "Types of Organizations", RDFS.subClassOf, OBO.ORG_0000001)
 	term_table("../source/tab-all-dispositions.txt", "Dispositions", RDFS.subClassOf, OBO.BFO_0000016) # Dispositions
+	term_table("../source/tab-all-qualities.txt", "Qualities", RDFS.subClassOf, OBO.BFO_0000019) # Qualities
 	term_table("../source/tab-all-classes.txt", "Classes", RDF.type, OWL.Class)
 	term_table("../source/tab-all-annotation-properties.txt", "Annotation Properties", RDF.type, OWL.AnnotationProperty)
 	term_table("../source/tab-all-object-properties.txt", "Object Properties", RDF.type, OWL.ObjectProperty)

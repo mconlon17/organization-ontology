@@ -1,28 +1,24 @@
 
   .. _ORG_0000038:
-  .. _homepage disposition:
+  .. _homepage quality:
   .. index:: 
-     single: ORG_0000038; homepage disposition
-     single: homepage disposition; ORG_0000038
+     single: ORG_0000038; homepage quality
+     single: homepage quality; ORG_0000038
 
-ORG_0000038 - homepage disposition
+ORG_0000038 - homepage quality
 ====================================================================================
 
 .. topic:: Label
 
-    homepage disposition
+    homepage quality
 
 .. topic:: Definition
 
-    A dispsition to be the primary website for an entity.
+    A quality to be the primary website for an entity.
 
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
-
-.. topic:: Editor's note
-
-    Skeptical about this.  Is it a quality? A type of web page?
 
 .. topic:: Term editor
 

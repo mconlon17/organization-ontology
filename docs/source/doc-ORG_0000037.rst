@@ -1,20 +1,20 @@
 
   .. _ORG_0000037:
-  .. _preferred address disposition:
+  .. _preferred address quality:
   .. index:: 
-     single: ORG_0000037; preferred address disposition
-     single: preferred address disposition; ORG_0000037
+     single: ORG_0000037; preferred address quality
+     single: preferred address quality; ORG_0000037
 
-ORG_0000037 - preferred address disposition
+ORG_0000037 - preferred address quality
 ====================================================================================
 
 .. topic:: Label
 
-    preferred address disposition
+    preferred address quality
 
 .. topic:: Definition
 
-    A disposition of an address to be displayed in most settings
+    A quality of an address to be displayed in most settings
 
 .. topic:: Definition source
 

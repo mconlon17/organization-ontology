@@ -1,20 +1,20 @@
 
   .. _ORG_0000035:
-  .. _billing address disposition:
+  .. _billing address quality:
   .. index:: 
-     single: ORG_0000035; billing address disposition
-     single: billing address disposition; ORG_0000035
+     single: ORG_0000035; billing address quality
+     single: billing address quality; ORG_0000035
 
-ORG_0000035 - billing address disposition
+ORG_0000035 - billing address quality
 ====================================================================================
 
 .. topic:: Label
 
-    billing address disposition
+    billing address quality
 
 .. topic:: Definition
 
-    A disposition of an address to be used to receive bills
+    A quality of an address to be used to receive bills
 
 .. topic:: Definition source
 

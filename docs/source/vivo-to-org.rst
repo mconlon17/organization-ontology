@@ -20,12 +20,12 @@ missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
 a specific type [#]_.
 
-`Table 14`_ provides a guide for translating VIVO organizational types to assertions
+`Table 15`_ provides a guide for translating VIVO organizational types to assertions
 in the VIVO Organization Ontology. 
 
-.. _Table 14:
+.. _Table 15:
 
-.. table:: Table 14 Translating VIVO types to VIVO Organizational assertions
+.. table:: Table 15 Translating VIVO types to VIVO Organizational assertions
 
     ========================== ============================
     VIVO Type                  VIVO Organization Assertions

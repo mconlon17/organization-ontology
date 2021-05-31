@@ -120,6 +120,8 @@
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000053.html">RO_0000053 - bearer of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000056.html">RO_0000056 - participates in</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000057.html">RO_0000057 - has participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-RO_0000080.html">RO_0000080 - quality of</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-RO_0000086.html">RO_0000086 - has quality</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000091.html">RO_0000091 - has disposition</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0001015.html">RO_0001015 - location of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0001025.html">RO_0001025 - located in</a></li>
@@ -137,6 +139,7 @@
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
@@ -251,6 +254,8 @@ we know x is a Person and y is an Information Content Entity. <a class="footnote
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000053.html">RO_0000053 - bearer of</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000056.html">RO_0000056 - participates in</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000057.html">RO_0000057 - has participant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-RO_0000080.html">RO_0000080 - quality of</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-RO_0000086.html">RO_0000086 - has quality</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000091.html">RO_0000091 - has disposition</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0001015.html">RO_0001015 - location of</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0001025.html">RO_0001025 - located in</a></li>
@@ -279,12 +284,12 @@ We could write the above as:</p>
 <span class="n">y</span> <span class="n">denotes</span> <span class="n">x</span>
 </pre></div>
 </div>
-<p>See <a class="reference internal" href="#table-13"><span class="std std-ref">Table 13 Common Object Properties</span></a>. The pattern <em>entity1 bearer_of role; role realized_in process; process
+<p>See <a class="reference internal" href="#table-14"><span class="std std-ref">Table 14 Common Object Properties</span></a>. The pattern <em>entity1 bearer_of role; role realized_in process; process
 has_output entity2</em> is quite common and describes the role entity1 had through a process in
 the creation of entity2. Each of these properties has an inverse, so we could assert
 equivalently, <em>entity2 output_of process; process realizes role; role inheres in entity1</em>.</p>
-<span id="table-13"></span><table class="docutils align-default" id="id4">
-<caption><span class="caption-text">Table 13 Common Object Properties</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<span id="table-14"></span><table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Table 14 Common Object Properties</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 17%" />
 <col style="width: 27%" />
@@ -337,14 +342,22 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <td><p>output of</p></td>
 <td><p>A continuant is the output of an occurrent</p></td>
 </tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000086</span></code></p></td>
+<td><p>has quality</p></td>
+<td><p>An entity has another entity as a quality</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000080</span></code></p></td>
+<td><p>quality of</p></td>
+<td><p>An entity is a quality of another entity</p></td>
+</tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="all-object-properties">
 <h2>All Object Properties<a class="headerlink" href="#all-object-properties" title="Permalink to this headline">¶</a></h2>
-<p>See <a class="reference internal" href="#table-5">Table 5</a>.</p>
-<span id="table-5"></span><table class="docutils align-default" id="id5">
-<caption><span class="caption-text">Table 5 Object Properties</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<p>See <a class="reference internal" href="#table-6">Table 6</a>.</p>
+<span id="table-6"></span><table class="docutils align-default" id="id5">
+<caption><span class="caption-text">Table 6 Object Properties</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 23%" />
 <col style="width: 26%" />
@@ -460,6 +473,14 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000057</span></code></p></td>
 <td><p>has participant</p></td>
 <td><p>A relation between a process and a continuant, i</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000080</span></code></p></td>
+<td><p>quality of</p></td>
+<td><p>A relation between a quality and an independent</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000086</span></code></p></td>
+<td><p>has quality</p></td>
+<td><p>A relation between an independent continuant (th</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">RO_0000091</span></code></p></td>
 <td><p>has disposition</p></td>

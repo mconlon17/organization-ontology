@@ -128,6 +128,22 @@ Examples
 .. topic:: BASF
 
     BASF is a company with a disposition of commerce.
+    
+Qualities
+---------
+
+Qualities are realized entities that do not require a process, and can be added or
+subtracted from an entity without altering the entity.  Use the :doc:`has quality 
+<doc-RO_0000086>` property to associate a quality with an entity.
+
+For example, to assert organization x is student-led:
+
+.. code-block::
+
+    x has_quality y
+    y a student_led_organization_quality
+
+.. include:: tab-all-qualities.txt
 
 .. rubric:: Footnotes
 

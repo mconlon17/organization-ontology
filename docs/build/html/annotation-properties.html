@@ -108,6 +108,11 @@
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000233.html">IAO_0000233 - term tracker item</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000412.html">IAO_0000412 - imported from</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-ORG_1000001.html">ORG_1000001 - vivo 1 ontology reference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-created.html">created - No label</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-creator.html">creator - No label</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-description.html">description - No label</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-title.html">title - No label</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-license.html">license - No label</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-inverseOf.html">inverseOf - No label</a></li>
 </ul>
 </li>
@@ -115,6 +120,7 @@
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
@@ -190,8 +196,8 @@
 <h1>Annotation properties<a class="headerlink" href="#annotation-properties" title="Permalink to this headline">¶</a></h1>
 <p>Annotation properties provide text for readers of ontologies to explain the
 use of terms.  <a class="reference external" href="http://www.ontobee.org/ontology/IAO">Information Artifact Ontology (IAO)</a> defines annotation properties used throughout the VIVO ontologies
-for defining terms.  <a class="reference internal" href="object-properties.html#table-5"><span class="std std-ref">Table 5 Object Properties</span></a> lists the IAO properties used to annotate terms in the
-ontologies.  <a class="reference internal" href="datatype-properties.html#table-6"><span class="std std-ref">Table 6 Datatype Properties</span></a> lists the terms in the controlled vocabulary for curation
+for defining terms.  <a class="reference internal" href="#table-5"><span class="std std-ref">Table 5 Annotation Properties</span></a> lists the IAO properties used to annotate terms in the
+ontologies.  <a class="reference internal" href="object-properties.html#table-6"><span class="std std-ref">Table 6 Object Properties</span></a> lists the terms in the controlled vocabulary for curation
 status.  To assert that a term’s metadata is complete, the assertion is:</p>
 <blockquote>
 <div><p>&lt;term&gt; IAO:0000114 IAO_0000120</p>
@@ -213,12 +219,17 @@ annotations are expected for all terms.</p>
 <li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000233.html">IAO_0000233 - term tracker item</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000412.html">IAO_0000412 - imported from</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-ORG_1000001.html">ORG_1000001 - vivo 1 ontology reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-created.html">created - No label</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-creator.html">creator - No label</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-description.html">description - No label</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-title.html">title - No label</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-license.html">license - No label</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-inverseOf.html">inverseOf - No label</a></li>
 </ul>
 </div>
-<p>See <a class="reference internal" href="#table-4">Table 4</a>.</p>
-<span id="table-4"></span><table class="docutils align-default" id="id1">
-<caption><span class="caption-text">Table 4 Annotation Properties</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<p>See <a class="reference internal" href="#table-5">Table 5</a>.</p>
+<span id="table-5"></span><table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Table 5 Annotation Properties</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 23%" />
 <col style="width: 26%" />
@@ -279,14 +290,34 @@ annotations are expected for all terms.</p>
 <td><p>vivo 1 ontology referenc</p></td>
 <td><p>The term in the original VIVO ontology that is m</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">inverseOf</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">created</span></code></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">creator</span></code></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">description</span></code></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">title</span></code></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">license</span></code></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">inverseOf</span></code></p></td>
 <td><p>None</p></td>
 <td><p>None</p></td>
 </tr>
 </tbody>
 </table>
-<span id="table-9"></span><table class="docutils align-default" id="id2">
-<caption><span class="caption-text">Table 9 Common Annotation Properties</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<span id="table-10"></span><table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Table 10 Common Annotation Properties</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 17%" />
 <col style="width: 26%" />
@@ -329,8 +360,8 @@ annotations are expected for all terms.</p>
 </tr>
 </tbody>
 </table>
-<span id="table-10"></span><table class="docutils align-default" id="id3">
-<caption><span class="caption-text">Table 10 Curation Status</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<span id="table-11"></span><table class="docutils align-default" id="id3">
+<caption><span class="caption-text">Table 11 Curation Status</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 17%" />
 <col style="width: 27%" />
@@ -396,7 +427,7 @@ other restrictions are acceptable for use in the VIVO ontologies.</p>
 <h3>Term annotations<a class="headerlink" href="#term-annotations" title="Permalink to this headline">¶</a></h3>
 <p>The following annotations are used to describe terms that are imported to the ORG
 ontology.  Most of these are substitutes for the standardized annotation
-properties describe above in <a class="reference internal" href="object-properties.html#table-5"><span class="std std-ref">Table 5 Object Properties</span></a>.</p>
+properties describe above in <a class="reference internal" href="#table-5"><span class="std std-ref">Table 5 Annotation Properties</span></a>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">skos:altLabel</span></code>
 <code class="docutils literal notranslate"><span class="pre">skos:definition</span></code>
 <code class="docutils literal notranslate"><span class="pre">skos:example</span></code>

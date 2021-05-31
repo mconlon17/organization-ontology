@@ -1,20 +1,20 @@
 
   .. _ORG_0000036:
-  .. _shipping address dispositon:
+  .. _shipping address quality:
   .. index:: 
-     single: ORG_0000036; shipping address dispositon
-     single: shipping address dispositon; ORG_0000036
+     single: ORG_0000036; shipping address quality
+     single: shipping address quality; ORG_0000036
 
-ORG_0000036 - shipping address dispositon
+ORG_0000036 - shipping address quality
 ====================================================================================
 
 .. topic:: Label
 
-    shipping address dispositon
+    shipping address quality
 
 .. topic:: Definition
 
-    A disposition of an address to be used to receive shipped goods
+    A quality of an address to be used to receive shipped goods
 
 .. topic:: Definition source
 
