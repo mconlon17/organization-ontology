@@ -1,0 +1,34 @@
+
+  .. _ORG_2000016:
+  .. _has organizational employee:
+  .. index:: 
+     single: ORG_2000016; has organizational employee
+     single: has organizational employee; ORG_2000016
+
+ORG_2000016 - has organizational employee
+====================================================================================
+
+.. topic:: Label
+
+    has organizational employee
+
+.. topic:: Definition
+
+    The poperty that assocates an organization with an employee of the organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    For the season ennnding in 2021, the Los Angeles Lakers have employee LeBron James.
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://purl.obolibrary.org/obo/ERO_0000787
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

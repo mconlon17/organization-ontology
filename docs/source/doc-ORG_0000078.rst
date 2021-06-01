@@ -1,0 +1,34 @@
+
+  .. _ORG_0000078:
+  .. _organizational volunteer grantor role:
+  .. index:: 
+     single: ORG_0000078; organizational volunteer grantor role
+     single: organizational volunteer grantor role; ORG_0000078
+
+ORG_0000078 - organizational volunteer grantor role
+====================================================================================
+
+.. topic:: Label
+
+    organizational volunteer grantor role
+
+.. topic:: Definition
+
+    The role of an organization to grant volunteer status to a person
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A hospital has a volunteer grantor role with respect to those persons who volunteer at the hospital
+
+.. topic:: Editor's note
+
+    This is a role of an organization, not a person within the organization
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

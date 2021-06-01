@@ -9,7 +9,7 @@ See `Table 6`_.
     ======================  ========================  ================================================
     Term ID                 Label                     Definition
     ======================  ========================  ================================================
-    ``IAO_0000111``         editor preferred term     The concise, meaningful, and human-friendly name
+    ``IAO_0000111``         editor preferred label    The concise, meaningful, and human-friendly name
     ``IAO_0000112``         example of usage          A phrase describing how a term should be used an
     ``IAO_0000114``         has curation status       A specification of the state of the metadata for
     ``IAO_0000115``         definition                The official definition, explaining the meaning 

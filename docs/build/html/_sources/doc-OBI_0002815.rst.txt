@@ -20,9 +20,9 @@ OBI_0002815 - has representation
 
     20g
 
-    I feel sick to my stomach every Tuesday
-
     12th arrondissement of Paris
+
+    I feel sick to my stomach every Tuesday
 
 .. topic:: Editor's note
 

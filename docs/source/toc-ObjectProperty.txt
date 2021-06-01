@@ -25,6 +25,16 @@
    doc-ORG_2000013
    doc-ORG_2000014
    doc-ORG_2000015
+   doc-ORG_2000016
+   doc-ORG_2000017
+   doc-ORG_2000018
+   doc-ORG_2000019
+   doc-ORG_2000020
+   doc-ORG_2000021
+   doc-ORG_2000022
+   doc-ORG_2000023
+   doc-ORG_2000024
+   doc-ORG_2000025
    doc-RO_0000052
    doc-RO_0000053
    doc-RO_0000056

@@ -18,9 +18,9 @@ BFO_0000051 - has part
 
 .. topic:: Example
 
-    this year has part this day (occurrent parthood)
-
     my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)
+
+    this year has part this day (occurrent parthood)
 
     my body has part my brain (continuant parthood, two material entities)
 

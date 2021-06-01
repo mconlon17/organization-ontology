@@ -33,6 +33,7 @@
    doc-IAO_0022022
    doc-IAO_0022027
    doc-IAO_0022057
+   doc-NCBITaxon_9606
    doc-ORG_0000001
    doc-ORG_0000002
    doc-ORG_0000003
@@ -100,6 +101,17 @@
    doc-ORG_0000065
    doc-ORG_0000066
    doc-ORG_0000067
+   doc-ORG_0000068
+   doc-ORG_0000069
+   doc-ORG_0000070
+   doc-ORG_0000071
+   doc-ORG_0000072
+   doc-ORG_0000073
+   doc-ORG_0000074
+   doc-ORG_0000075
+   doc-ORG_0000076
+   doc-ORG_0000077
+   doc-ORG_0000078
    doc-Concept
    doc-Instant
    doc-TemporalUnit

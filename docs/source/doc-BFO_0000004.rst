@@ -20,23 +20,23 @@ BFO_0000004 - independent continuant
 
     a heart
 
-    the bottom right portion of a human torso
+    a molecule
 
-    an organism
+    a spatial region
 
     the interior of your mouth
+
+    a chair
 
     a leg
 
     an atom
 
+    the bottom right portion of a human torso
+
+    an organism
+
     an orchestra.
-
-    a chair
-
-    a spatial region
-
-    a molecule
 
 .. topic:: Imported From
 

@@ -1,0 +1,34 @@
+
+  .. _ORG_0000074:
+  .. _organizational head grantor role:
+  .. index:: 
+     single: ORG_0000074; organizational head grantor role
+     single: organizational head grantor role; ORG_0000074
+
+ORG_0000074 - organizational head grantor role
+====================================================================================
+
+.. topic:: Label
+
+    organizational head grantor role
+
+.. topic:: Definition
+
+    The role of an organization to grant head status to a person
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The board of trustees of a company often grants the head of role
+
+.. topic:: Editor's note
+
+    This is a role of an organization, not a person within the organization
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

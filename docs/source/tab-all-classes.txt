@@ -39,6 +39,7 @@ See `Table 5`_.
     ``IAO_0022022``         research organization re  An identifier assigned by ROR to research organi
     ``IAO_0022027``         wikidata q number         QID (or Q number) is the unique identifier of a 
     ``IAO_0022057``         ringgold identifier       The Ringgold Identifier is a unique numerical id
+    ``NCBITaxon_9606``      Homo sapiens              The species of bipedal primates to which moden h
     ``ORG_0000001``         organization              A group of people recognized as such by people o
     ``ORG_0000002``         government organization   An organization which is the body of persons tha
     ``ORG_0000003``         company                   A legal entity of associated persons created for
@@ -106,6 +107,17 @@ See `Table 5`_.
     ``ORG_0000065``         minority led organizatio  The quality of an organiztion that is led by a d
     ``ORG_0000066``         registered location qual  The quality of a location that is the legal/regi
     ``ORG_0000067``         primary location quality  The quality of a location that is the primary/pr
+    ``ORG_0000068``         organizational position   An asymmetric relationship between an organizati
+    ``ORG_0000069``         organizational employee   The role of a person to be an employee of an org
+    ``ORG_0000070``         organizational employor   The role of an organization to employ a person
+    ``ORG_0000071``         organizational associate  The role of a person to be an associate of an or
+    ``ORG_0000072``         organizational associate  The role of an organization to grant associate s
+    ``ORG_0000073``         organizatonal head role   The role of a person to be the head of an organi
+    ``ORG_0000074``         organizational head gran  The role of an organization to grant head status
+    ``ORG_0000075``         organizational appointee  The role of a person to be an appointee of an or
+    ``ORG_0000076``         organizational appointee  The role of an organization to grant appointee s
+    ``ORG_0000077``         organizational volunteer  The role of a person to be a volunteer of an org
+    ``ORG_0000078``         organizational volunteer  The role of an organization to grant volunteer s
     ``Concept``             (skos) concept            An idea or notion, a unit of thought
     ``Instant``             Time instant              A zero-dimensional part of time.  Precision may 
     ``TemporalUnit``        Temporal unit             A specification of a time duration.  Used to spe

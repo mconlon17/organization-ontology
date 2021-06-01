@@ -16,6 +16,10 @@ ORG_2000014 - has organizational member
 
     The property that associates an organization with one of its members
 
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
 .. topic:: Example
 
     The EU has member Republic of Ireland
@@ -23,4 +27,8 @@ ORG_2000014 - has organizational member
 .. topic:: Editor's note
 
     To say that on organizaton is a member of another implies there is a membership and that the two organizations each have  roles that
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
 

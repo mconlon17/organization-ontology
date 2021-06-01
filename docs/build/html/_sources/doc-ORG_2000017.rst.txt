@@ -1,0 +1,34 @@
+
+  .. _ORG_2000017:
+  .. _organizational employee of:
+  .. index:: 
+     single: ORG_2000017; organizational employee of
+     single: organizational employee of; ORG_2000017
+
+ORG_2000017 - organizational employee of
+====================================================================================
+
+.. topic:: Label
+
+    organizational employee of
+
+.. topic:: Definition
+
+    The property that associates a person with the organization of which that person is an employee
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    The president of a university is typically an employee of the university
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://purl.obolibrary.org/obo/ERO_0000787
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
