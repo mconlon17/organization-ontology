@@ -4,19 +4,15 @@
   
      schema.org
      GRiD
-	
-1. Properties to associate people and organizations
+     
+1. Add Membership as a relationship between a person and an organization
 
-	head of / has head
-	employee of / has employee
-	
-	See Early Thoughts on roles
-	Analogous to membership modeling
-	W3C "posts" may be more general, not just employee, but appointee and other.
+1. Fix figure 4 -- membership is an occurrent, not a process
    
-1. Add identifier semantics
-   
-1. Add disjoint class expression to types of organizations
+1. Add class expressions
+
+    dispoint organization types
+    informal organizations can not have employees
 
 1. Properties to associate organizations to occurents
 

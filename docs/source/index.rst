@@ -91,6 +91,7 @@ List of Figures
 - :ref:`Figure 2 Types of Organizations <Figure 2>`
 - :ref:`Figure 3 Representation of dates and times <Figure 3>`
 - :ref:`Figure 4 Representation of memberships <Figure 4>`
+- :ref:`Figure 5 Representation of employment <Figure 5>`
    
 Glossary and Index
 ------------------

@@ -38,7 +38,8 @@ obo:IAO_0000111 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "editor preferred term"@en .
+                rdfs:label "editor preferred label"@en .
+
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000112
@@ -191,6 +192,10 @@ dc:title rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/dc/terms/license
 terms:license rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdfs:label "label" .
 
 
 #################################################################
@@ -866,6 +871,17 @@ obo:IAO_0022057 rdf:type owl:Class ;
                 obo:IAO_0000119 "https://www.ringgold.com/ringgold-identifier/"@en ;
                 obo:IAO_0000412 "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
                 rdfs:label "ringgold identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/NCBITaxon_9606
+obo:NCBITaxon_9606 rdf:type owl:Class ;
+                   rdfs:subClassOf obo:BFO_0000040 ;
+                   obo:IAO_0000111 "Homo sapiens"^^xsd:string ;
+                   obo:IAO_0000115 "The species of bipedal primates to which moden humans belong"@en ;
+                   obo:IAO_0000118 "human"^^xsd:string ,
+                                   "human being"^^xsd:string ;
+                   obo:IAO_0000412 "http://purl.obolibrary.org/obo/obi/2021-04-06/obi.owl"^^xsd:string ;
+                   rdfs:label "Homo sapiens"^^xsd:string .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

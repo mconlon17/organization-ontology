@@ -175,10 +175,12 @@
             
   <span class="target" id="associations"></span><div class="section" id="index-0">
 <span id="id1"></span><h1>Associations<a class="headerlink" href="#index-0" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="associations-of-organizations-with-other-organizations">
+<h2>Associations of Organizations with other Organizations<a class="headerlink" href="#associations-of-organizations-with-other-organizations" title="Permalink to this headline">¶</a></h2>
 <p>Organizations can be associated with each other in a variety of manners.  Here we
 describe how to represent various associations between organizations.</p>
 <div class="section" id="affiliation">
-<h2>Affiliation<a class="headerlink" href="#affiliation" title="Permalink to this headline">¶</a></h2>
+<h3>Affiliation<a class="headerlink" href="#affiliation" title="Permalink to this headline">¶</a></h3>
 <p>An organization can be affiliated with another organization.  In the Organization Ontology,
 affiliation is a broad term and may mean and association that is not further specified.
 The only restriction on affiliation is that it is <em>symmetric</em>.  If organization x is
@@ -194,8 +196,8 @@ affiliated with organization y, then organization x is affiliated with organizat
 </pre></div>
 </div>
 </div>
-<div class="section" id="organizational-structure">
-<h2>Organizational Structure<a class="headerlink" href="#organizational-structure" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="structure">
+<h3>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h3>
 <p>Representing organizational structure is a common need.  The Organization Ontology
 has two properties, has_organizational_part and organizational_part_of, to specify the
 relationship between an organizational part and its parent organization (which may also
@@ -207,8 +209,8 @@ we would assert:</p>
 </div>
 <p>from which we could infer <em>y organizational_part_of x</em> <a class="footnote-reference brackets" href="#id8" id="id3">2</a>.</p>
 </div>
-<div class="section" id="organizational-spin-offs">
-<h2>Organizational Spin-offs<a class="headerlink" href="#organizational-spin-offs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="spin-offs">
+<h3>Spin-offs<a class="headerlink" href="#spin-offs" title="Permalink to this headline">¶</a></h3>
 <p>Representing organizations that spin-off from other organizations is done
 using <em>has spin-off organization” and *spin-off organization off</em> properties.</p>
 <p>For example, to represent that y spun-off of x, we would assert:</p>
@@ -222,8 +224,8 @@ dates of various milestones, people who participated, documents involved, and mo
 occurrent, may have one or more <em>spin-off process boundaries</em> as occurent parts. See
 <a class="reference internal" href="datetimes.html"><span class="doc">Dates and Times</span></a> for representation of time-based entities.</p>
 </div>
-<div class="section" id="organizational-history">
-<h2>Organizational History<a class="headerlink" href="#organizational-history" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="history">
+<h3>History<a class="headerlink" href="#history" title="Permalink to this headline">¶</a></h3>
 <p>In some cases, we may wish to assert that organization y is the successor of organization
 x, meaning that x has ceased to exist, y now exists, and that the result of the dissolution
 of x was the formation of y.  The inverse of <em>successor_of</em> is <em>has_successor</em>.  We can say
@@ -240,8 +242,8 @@ dates of various milestones, people who participated, documents involved, and mo
 occurrent, may have one or more <em>succession process boundaries</em> as occurent parts. See
 <a class="reference internal" href="datetimes.html"><span class="doc">Dates and Times</span></a> for representation of time-based entities.</p>
 </div>
-<div class="section" id="organizational-membership">
-<h2>Organizational Membership<a class="headerlink" href="#organizational-membership" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="membership">
+<h3>Membership<a class="headerlink" href="#membership" title="Permalink to this headline">¶</a></h3>
 <p>Organizations may be members of other organizations.  If x is a member of y, we can
 simple say</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">member_of</span> <span class="n">y</span>
@@ -280,6 +282,81 @@ membership.  Organization 2 has a grantor role in the membership.</span><a class
 </div>
 <p>Note that this detail is typically only needed in cases where we wanted to say more
 about the roles, or membership entity.</p>
+</div>
+</div>
+<div class="section" id="associations-of-organizations-and-people">
+<h2>Associations of Organizations and People<a class="headerlink" href="#associations-of-organizations-and-people" title="Permalink to this headline">¶</a></h2>
+<p>In a similar manner to the associations between organizations and organizations, we can
+associate organizations and people.  And in a similar manner, we can simply
+say the organization has an association with a person, or we can use an intermediate
+entity and roles to describe how the organization and person are related, providing
+detail regarding dates, documents, processes, and participants in the association
+between an organization and a person.</p>
+<div class="section" id="has-employee-employer-of">
+<h3>Has Employee / Employer Of<a class="headerlink" href="#has-employee-employer-of" title="Permalink to this headline">¶</a></h3>
+<p>To assert a person is an employee of an organization, we can simply say</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">has_employee</span> <span class="n">y</span>
+</pre></div>
+</div>
+<p>or, equivalently, we can say:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">y</span> <span class="n">has_employee</span> <span class="n">x</span>
+</pre></div>
+</div>
+<p>The entity <em>position</em> is a relationship between a person and an organization.  A person
+may one of several roles with respect to the position.  An organization may have
+one of several roles with respect to the position.  See <a class="reference internal" href="#figure-5">Figure 5</a>.</p>
+<div class="figure align-default" id="id10">
+<span id="figure-5"></span><img alt="General employee pattern: person -&gt; employee role -&gt; position -&gt; -&gt; organization role -&gt; organization" src="_images/employee-pattern.png" />
+<p class="caption"><span class="caption-text">Figure 5.  General employee pattern.  Organization 1 has a member role in a
+membership.  Organization 2 has a grantor role in the membership.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+<p>To say that v was an employee of z through a position x, we would assert:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">v</span> <span class="n">bearer_of</span> <span class="n">w</span>
+<span class="n">w</span> <span class="n">a</span> <span class="n">organizational_employee_role</span>
+<span class="n">w</span> <span class="n">realized_in</span> <span class="n">x</span>
+<span class="n">x</span> <span class="n">a</span> <span class="n">organizational_position</span>
+<span class="n">x</span> <span class="n">realizes</span> <span class="n">y</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">organizational_employer_role</span>
+<span class="n">y</span> <span class="n">inheres_in</span> <span class="n">z</span>
+</pre></div>
+</div>
+<p>Since each of these properties has an inverse, we could equivalently have asserted:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">z</span> <span class="n">bearer_of</span> <span class="n">y</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">organizational_employer_role</span>
+<span class="n">y</span> <span class="n">realized_in</span> <span class="n">z</span>
+<span class="n">x</span> <span class="n">a</span> <span class="n">organizational_position</span>
+<span class="n">x</span> <span class="n">realizes</span> <span class="n">w</span>
+<span class="n">w</span> <span class="n">a</span> <span class="n">organizational_employee_role</span>
+<span class="n">w</span> <span class="n">inheres_in</span> <span class="n">x</span>
+</pre></div>
+</div>
+<p>Note that this detail is typically only needed in cases where we wanted to say more
+about the roles, or membership entity.</p>
+</div>
+<div class="section" id="additional-roles-and-associations-between-organizations-and-people">
+<h3>Additional Roles and Associations between Organizations and People<a class="headerlink" href="#additional-roles-and-associations-between-organizations-and-people" title="Permalink to this headline">¶</a></h3>
+<p>Additional roles and properties are available to assert other associations
+between organizations and people.</p>
+<p><strong>has_associate / associate_of</strong> can be used to assert a person is an associate of an
+organization.  <strong>organizational_associate_role</strong> and
+<strong>organizational_associate_grantor_role</strong> can be used as in <a class="reference internal" href="#figure-5">Figure 5</a> to assert
+that a person has an associate role in an organization granted by the organization.
+The position denotes the association.</p>
+<p><strong>head_of / has_head</strong> can be used to assert a person is the head of an
+organization.  <strong>organizational_head_role</strong> and
+<strong>organizational_head_grantor_role</strong> can be used as in <a class="reference internal" href="#figure-5">Figure 5</a> to assert
+that a person has a head role in an organization granted by the organization.
+The position denotes the relationship.</p>
+<p><strong>has_volunteer / volunteer_of</strong> can be used to assert a person is a volunteer of an
+organization.  <strong>organizational_volunteer_role</strong> and
+<strong>organizational_volunteer_grantor_role</strong> can be used as in <a class="reference internal" href="#figure-5">Figure 5</a> to assert
+that a person has a volunteer role in an organization granted by the organization.
+The position denotes the relationship.</p>
+<p><strong>has_appointee / appointee_of</strong> can be used to assert a person is an appointee of an
+organization.  <strong>organizational_appointee_role</strong> and
+<strong>organizational_appointee_grantor_role</strong> can be used as in <a class="reference internal" href="#figure-5">Figure 5</a> to assert
+that a person has an appointee role in an organization granted by the organization.
+The position denotes the association.</p>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
 <dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
@@ -291,6 +368,7 @@ engines will satisfy query requirements as if the assertion had been materialize
 engines will satisfy query requirements as if the assertion had been materialized.</p>
 </dd>
 </dl>
+</div>
 </div>
 </div>
 

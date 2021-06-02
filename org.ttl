@@ -29,7 +29,7 @@
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON:Daniel Schober"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                                              rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
-                                             rdfs:label "editor preferred term"@en .
+                                             rdfs:label "editor preferred label"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000112
@@ -195,6 +195,10 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 ###  http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdfs:label "label" .
 
 
 ###  http://www.w3.org/2002/07/owl#inverseOf
@@ -402,7 +406,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "has website"@en ;
-                                             owl:inverseOf "org:20000006"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000006"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000006
@@ -416,7 +420,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "website of"@en ;
-                                             owl:inverseOf "org:20000005"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000005"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000007
@@ -431,7 +435,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "has successor organization"@en ;
-                                             owl:inverseOf "org:20000008"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000008"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000008
@@ -446,7 +450,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "successor organization of"@en ;
-                                             owl:inverseOf "org:20000007"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000007"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000009
@@ -461,7 +465,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "parent of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "has organizational part"@en ;
-                                             owl:inverseOf "org:20000010"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000010"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000010
@@ -476,7 +480,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "child of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "organizational part of"@en ;
-                                             owl:inverseOf "org:20000009"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000009"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000011
@@ -508,7 +512,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "has spinout"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "has spin-off organization"@en ;
-                                             owl:inverseOf "org:20000015"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000013"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000013
@@ -523,7 +527,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "spinout of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "spin-off organization of"@en ;
-                                             owl:inverseOf "org:20000014"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000012"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000014
@@ -536,8 +540,10 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with one of its members"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "To say that on organizaton is a member of another implies there is a membership and that the two organizations each have  roles that"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "has organizational member"@en ;
-                                             owl:inverseOf "org:00000017"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000015"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000015
@@ -546,11 +552,168 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "member of"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of North Carolina is a member of the Southeast University Research Assciation"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of North Carolina is a member of the Southeast University Research Association"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a member organizaiton with the organization of which it is a member"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "organizational member of"@en ;
-                                             owl:inverseOf "org:00000016"^^xsd:anyURI .
+                                             owl:inverseOf "org:2000014"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000016
+<http://purl.obolibrary.org/obo/ORG_2000016> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has employee"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "For the season ennnding in 2021, the Los Angeles Lakers have employee LeBron James."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The poperty that assocates an organization with an employee of the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000787"^^xsd:anyURI ;
+                                             rdfs:label "has organizational employee"@en ;
+                                             owl:inverseOf "org:2000017"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000017
+<http://purl.obolibrary.org/obo/ORG_2000017> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "employee of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The president of a university is typically an employee of the university"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with the organization of which that person is an employee"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000787"^^xsd:anyURI ;
+                                             rdfs:label "organizational employee of"@en ;
+                                             owl:inverseOf "org:2000016"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000018
+<http://purl.obolibrary.org/obo/ORG_2000018> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has associate"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "One might say that an organization has associates who are their former employees"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who is associated with the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Associate is intentionally loose.  A person can be associated with an organization in many ways.  Subsequent additional properties may be needed to clarify."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has organizational associate"@en ;
+                                             owl:inverseOf "org:2000019"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000019
+<http://purl.obolibrary.org/obo/ORG_2000019> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "associate of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "One might say that people who have reviewed articles for a journal are associateds of that journal"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization with which they are associated"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "organizational associate of"@en ;
+                                             owl:inverseOf "org:2000018"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000020
+<http://purl.obolibrary.org/obo/ORG_2000020> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has head"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "As of this writing, Google has head Sundar Pichai"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organziation with the person who is the head of the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#LeaderRole"^^xsd:anyURI ;
+                                             rdfs:label "has organizational head"@en ;
+                                             owl:inverseOf "org:2000021"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000021
+<http://purl.obolibrary.org/obo/ORG_2000021> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "head of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "As of this writing, Elon Musk is head of Tesla"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization which they are they head of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "organizational head of"@en ;
+                                             owl:inverseOf "org:2000020"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000022
+<http://purl.obolibrary.org/obo/ORG_2000022> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has volunteer"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Volunteer fire departments have firefighters who are volunteers of the fire department"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who volunteers for the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has organizational volunteer"@en ;
+                                             owl:inverseOf "org:2000023"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000023
+<http://purl.obolibrary.org/obo/ORG_2000023> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "volunteer of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Many Americans have served as volunteers of the Peace Corps"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization for which they volunteer"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "organizational volunteer of"@en ;
+                                             owl:inverseOf "org:2000022"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000024
+<http://purl.obolibrary.org/obo/ORG_2000024> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has appointee"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "As of this writing, the government of the UK has appointed Amanda Milling Minister without Portfolio (unpaid)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who is appointed by the organization to some post or position within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Appointee typically includes a title, may or may not include a salary."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has organizational appointee"@en ;
+                                             owl:inverseOf "org:2000025"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000025
+<http://purl.obolibrary.org/obo/ORG_2000025> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "appointee of"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The board of trustees of a university may appoint the university president"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with the organization which has appointed the person to some post or position within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "organizational appointee of"@en ;
+                                             owl:inverseOf "org:2000024"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000052
@@ -1207,6 +1370,17 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ringgold.com/ringgold-identifier/"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl"^^xsd:string ;
                                              rdfs:label "ringgold identifier"@en .
+
+
+###  http://purl.obolibrary.org/obo/NCBITaxon_9606
+<http://purl.obolibrary.org/obo/NCBITaxon_9606> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> ;
+                                                <http://purl.obolibrary.org/obo/IAO_0000111> "Homo sapiens"^^xsd:string ;
+                                                <http://purl.obolibrary.org/obo/IAO_0000115> "The species of bipedal primates to which moden humans belong"@en ;
+                                                <http://purl.obolibrary.org/obo/IAO_0000118> "human"^^xsd:string ,
+                                                                                             "human being"^^xsd:string ;
+                                                <http://purl.obolibrary.org/obo/IAO_0000412> "http://purl.obolibrary.org/obo/obi/2021-04-06/obi.owl"^^xsd:string ;
+                                                rdfs:label "Homo sapiens"^^xsd:string .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000001
@@ -2037,6 +2211,135 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "primary location quality"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000068
+<http://purl.obolibrary.org/obo/ORG_0000068> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "position"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A university may have a position of chancellor, which is then filled by a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship between an organization and a person.  Each has a role in the position or post"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The organization and the person in the position relationship each have roles with respect to the position relationship"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "post"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Position"^^xsd:anyuri ;
+                                             rdfs:label "organizational position"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000069
+<http://purl.obolibrary.org/obo/ORG_0000069> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Walt Disney was an employee of the United States Post Office"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be an employee of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational employee role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000070
+<http://purl.obolibrary.org/obo/ORG_0000070> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "McDonalds once employed Jeff Bezos"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to employ a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational employor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000071
+<http://purl.obolibrary.org/obo/ORG_0000071> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Bill Gates is an associate of Microsoft, even though he is no longer employed there"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be an associate of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational associate role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000072
+<http://purl.obolibrary.org/obo/ORG_0000072> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A university may grant various forms of associate status to people who are not formally associated with the university"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant associate status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational associate grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000073
+<http://purl.obolibrary.org/obo/ORG_0000073> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Joey Wat is the head of Yum China"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be the head of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizatonal head role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000074
+<http://purl.obolibrary.org/obo/ORG_0000074> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The board of trustees of a company often grants the head of role"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant head status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational head grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000075
+<http://purl.obolibrary.org/obo/ORG_0000075> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Jorge Mario Bergoglio was appointed to the position Pope by the papal conclave of the College of Cardinals of the Catholic Church"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be an appointee of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational appointee role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000076
+<http://purl.obolibrary.org/obo/ORG_0000076> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The members of a chess club may elect one of their members to serve as secretary"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant appointee status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational appointee grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000077
+<http://purl.obolibrary.org/obo/ORG_0000077> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Lillian Carter, the mother of US president Jimmy Carter, served as a peace corps volunteer in India"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be a volunteer of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational volunteer role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000078
+<http://purl.obolibrary.org/obo/ORG_0000078> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A hospital has a volunteer grantor role with respect to those persons who volunteer at the hospital"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant volunteer status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational volunteer grantor role"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

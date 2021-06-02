@@ -930,4 +930,133 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:label "primary location quality"@en .
 
 
+###  http://purl.obolibrary.org/obo/ORG_0000068
+<http://purl.obolibrary.org/obo/ORG_0000068> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "position"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A university may have a position of chancellor, which is then filled by a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship between an organization and a person.  Each has a role in the position or post"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "The organization and the person in the position relationship each have roles with respect to the position relationship"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "post"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Position"^^xsd:anyuri ;
+                                             rdfs:label "organizational position"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000069
+<http://purl.obolibrary.org/obo/ORG_0000069> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Walt Disney was an employee of the United States Post Office"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be an employee of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational employee role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000070
+<http://purl.obolibrary.org/obo/ORG_0000070> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "McDonalds once employed Jeff Bezos"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to employ a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational employor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000071
+<http://purl.obolibrary.org/obo/ORG_0000071> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Bill Gates is an associate of Microsoft, even though he is no longer employed there"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be an associate of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational associate role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000072
+<http://purl.obolibrary.org/obo/ORG_0000072> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A university may grant various forms of associate status to people who are not formally associated with the university"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant associate status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational associate grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000073
+<http://purl.obolibrary.org/obo/ORG_0000073> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Joey Wat is the head of Yum China"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be the head of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizatonal head role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000074
+<http://purl.obolibrary.org/obo/ORG_0000074> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The board of trustees of a company often grants the head of role"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant head status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational head grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000075
+<http://purl.obolibrary.org/obo/ORG_0000075> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Jorge Mario Bergoglio was appointed to the position Pope by the papal conclave of the College of Cardinals of the Catholic Church"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be an appointee of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational appointee role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000076
+<http://purl.obolibrary.org/obo/ORG_0000076> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The members of a chess club may elect one of their members to serve as secretary"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant appointee status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational appointee grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000077
+<http://purl.obolibrary.org/obo/ORG_0000077> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Lillian Carter, the mother of US president Jimmy Carter, served as a peace corps volunteer in India"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be a volunteer of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational volunteer role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000078
+<http://purl.obolibrary.org/obo/ORG_0000078> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A hospital has a volunteer grantor role with respect to those persons who volunteer at the hospital"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant volunteer status to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "This is a role of an organization, not a person within the organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "organizational volunteer grantor role"@en .
+
+
 ###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi
