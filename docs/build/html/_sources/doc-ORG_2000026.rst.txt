@@ -1,0 +1,30 @@
+
+  .. _ORG_2000026:
+  .. _has person member:
+  .. index:: 
+     single: ORG_2000026; has person member
+     single: has person member; ORG_2000026
+
+ORG_2000026 - has person member
+====================================================================================
+
+.. topic:: Label
+
+    has person member
+
+.. topic:: Definition
+
+    The property that asserts an organization has a person as a member
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    As of 2021, The Conservative Party of the UK has person member Boris Johnson
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

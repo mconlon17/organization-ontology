@@ -22,7 +22,7 @@ ORG_0000060 - organizational membership
 
 .. topic:: Example
 
-    One might be a member of the American Association of Retired People (AARP)
+    Texas A&M University is an organizational member of the Association of Public and Land Grant Universities
 
 .. topic:: Editor's note
 

@@ -3,8 +3,6 @@
 1. Rearrange labels and preferred terms.  Labels are long (include words like disposition 
    and role) preferred terms are shorter.  This is to insure clarity and uniqueness 
    across the labels used in OBO ontologies.
-     
-1. Add Membership as a relationship between a person and an organization
    
 1. Add class expressions
 

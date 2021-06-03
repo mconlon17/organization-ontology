@@ -22,7 +22,7 @@ ORG_2000016 - has organizational employee
 
 .. topic:: Example
 
-    For the season ennnding in 2021, the Los Angeles Lakers have employee LeBron James.
+    For the season ending in 2021, the Los Angeles Lakers have employee LeBron James.
 
 .. topic:: Similar term in VIVO 1 Ontology
 

@@ -1,0 +1,30 @@
+
+  .. _ORG_2000027:
+  .. _person member of:
+  .. index:: 
+     single: ORG_2000027; person member of
+     single: person member of; ORG_2000027
+
+ORG_2000027 - person member of
+====================================================================================
+
+.. topic:: Label
+
+    person member of
+
+.. topic:: Definition
+
+    The property that asserts a person is a member of an organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    Florence Nightingale was a person member of the American Statistical Association
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

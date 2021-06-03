@@ -18,35 +18,35 @@ BFO_0000029 - site
 
 .. topic:: Example
 
-    the Piazza San Marco
+    a rabbit hole
 
-    the lumen of your gut
-
-    Manhattan Canyon)
+    the interior of your office
 
     the interior of your refrigerator
 
     an air traffic control region defined in the airspace above an airport
 
-    the interior of your bedroom
+    the lumen of your gut
 
-    the Grand Canyon
-
-    a rabbit hole
-
-    the interior of your office
-
-    the cockpit of an aircraft
-
-    the hold of a ship
-
-    your left nostril (a fiat part – the opening – of your left nasal cavity)
-
-    the interior of the trunk of your car
+    the Piazza San Marco
 
     a hole in the interior of a portion of cheese
 
+    the interior of the trunk of your car
+
     the interior of a kangaroo pouch
+
+    the cockpit of an aircraft
+
+    Manhattan Canyon)
+
+    the interior of your bedroom
+
+    your left nostril (a fiat part – the opening – of your left nasal cavity)
+
+    the hold of a ship
+
+    the Grand Canyon
 
 .. topic:: Imported From
 

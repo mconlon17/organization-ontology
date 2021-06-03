@@ -22,7 +22,7 @@ ORG_0000079 - airline disposition
 
 .. topic:: Example
 
-    Delta, Lufthanza, and Aeroflot are all airlines
+    Delta, Lufthanza, and Aeroflot all have airline disposition
 
 .. topic:: Editor's note
 

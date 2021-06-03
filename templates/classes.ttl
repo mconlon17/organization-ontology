@@ -845,7 +845,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_0000060> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "membership"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "One might be a member of the American Association of Retired People (AARP)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Texas A&M University is an organizational member of the Association of Public and Land Grant Universities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship involving two organizations in which one is a member of the other"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Organizational Membership is a Membership, which is a Relationship, which is an Occurrent.  The subsumption is out of scope for the Organizationa Ontology. The existence of a membership implies the existence of a membership creation process and a membership creation process boundary.  These are currently out of scope for the Organization Ontology"@en ;
@@ -857,7 +857,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000061
 <http://purl.obolibrary.org/obo/ORG_0000061> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Many faculty members are members of professional societies in their disciplines"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of aToronto has organizational membership role which is realized in a membership granted by the American Association of Universities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in being a member of another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -869,7 +869,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000062
 <http://purl.obolibrary.org/obo/ORG_0000062> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Professional societies grant memberships to applicants"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Most membership organizations grant theoir memberships to their members"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in granting a member role to another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -883,7 +883,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The student chess club, the student data science club, the student newspaper may all be student-led organizations"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The quality of an organization that is led by a student"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Student-led organziations may be formal or informal"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Student-led organizations may be formal or informal"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#StudentOrganization"^^xsd:anyuri ;
@@ -1069,7 +1069,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_0000079> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "airline"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Delta, Lufthanza, and Aeroflot are all airlines"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Delta, Lufthanza, and Aeroflot all have airline disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization that operates airplanes carrying frieght or passengers"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Added for completeness with schema.org"@en ;
@@ -1117,6 +1117,38 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                                                                           "workers union"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://duckduckgo.com/?t=ffab&q=labor+union&ia=web"@en ;
                                              rdfs:label "labor union disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000083
+<http://purl.obolibrary.org/obo/ORG_0000083> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The asymmetric relationship representing a person's membership in an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "person membership"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000084
+<http://purl.obolibrary.org/obo/ORG_0000084> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "George Harrison has a person member role with respect to The Beatles"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be a member of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "person member role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000085
+<http://purl.obolibrary.org/obo/ORG_0000085> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Professional socieities have a grantor role with respect to their members"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant membership to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "person member grantor role"@en .
 
 
 ###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi

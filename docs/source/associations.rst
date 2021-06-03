@@ -218,6 +218,22 @@ Additional Roles and Associations between Organizations and People
 Additional roles and properties are available to assert other associations
 between organizations and people.
 
+**has_member/ member_of** can be used to assert a person is a member of an 
+organization.  **person_member_role** and 
+**person_member_grantor_role** can be used as in `Figure 5`_ to assert 
+that a person has a member role in an organization granted by the organization.
+A membership denotes the association.
+
+.. sidebar::  Persons are not Organizations
+
+  Separate object properties are used to represent associations between organizations
+  and other organizations, and associations between persons and organizations.  Separate 
+  roles and entities
+  are used to represent person roles in memberships and organizational roles in
+  memberships.  Separate entities are used to describe a membership of an
+  organization in another organization, and a membership of a person in an
+  organization.
+
 **has_associate / associate_of** can be used to assert a person is an associate of an 
 organization.  **organizational_associate_role** and 
 **organizational_associate_grantor_role** can be used as in `Figure 5`_ to assert 

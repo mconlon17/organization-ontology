@@ -300,7 +300,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has employee"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "For the season ennnding in 2021, the Los Angeles Lakers have employee LeBron James."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "For the season ending in 2021, the Los Angeles Lakers have employee LeBron James."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The poperty that assocates an organization with an employee of the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -447,6 +447,34 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "organizational appointee of"@en ;
                                              owl:inverseOf "org:2000024"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000026
+<http://purl.obolibrary.org/obo/ORG_2000026> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "As of 2021, The Conservative Party of the UK has person member Boris Johnson"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that asserts an organization has a person as a member"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has person member"@en ;
+                                             owl:inverseOf "org:0000027"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000027
+<http://purl.obolibrary.org/obo/ORG_2000027> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Florence Nightingale was a person member of the American Statistical Association"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that asserts a person is a member of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "person member of"@en ;
+                                             owl:inverseOf "org:0000026"^^xsd:anyURI .
 
 
 #################################################################

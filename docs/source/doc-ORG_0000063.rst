@@ -26,7 +26,7 @@ ORG_0000063 - student led organization quality
 
 .. topic:: Editor's note
 
-    Student-led organziations may be formal or informal
+    Student-led organizations may be formal or informal
 
 .. topic:: Similar term in VIVO 1 Ontology
 

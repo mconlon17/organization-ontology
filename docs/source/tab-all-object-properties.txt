@@ -41,6 +41,8 @@ See `Table 7`_.
     ``ORG_2000023``         organizational volunteer  The property that associates a person with an or
     ``ORG_2000024``         has organizational appoi  The property that associates an organization wit
     ``ORG_2000025``         organizational appointee  The property that associates a person with the o
+    ``ORG_2000026``         has person member         The property that asserts an organization has a 
+    ``ORG_2000027``         person member of          The property that asserts a person is a member o
     ``RO_0000052``          inheres in                A relation between a specifically dependent cont
     ``RO_0000053``          bearer of                 A relation between an independent continuant (th
     ``RO_0000056``          participates in           A relation between a continuant and a process, i

@@ -22,7 +22,7 @@ ORG_0000062 - organizational member grantor role
 
 .. topic:: Example
 
-    Professional societies grant memberships to applicants
+    Most membership organizations grant theoir memberships to their members
 
 .. topic:: Term editor
 

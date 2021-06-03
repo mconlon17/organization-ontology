@@ -1,0 +1,30 @@
+
+  .. _ORG_0000084:
+  .. _person member role:
+  .. index:: 
+     single: ORG_0000084; person member role
+     single: person member role; ORG_0000084
+
+ORG_0000084 - person member role
+====================================================================================
+
+.. topic:: Label
+
+    person member role
+
+.. topic:: Definition
+
+    The role of a person to be a member of an organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    George Harrison has a person member role with respect to The Beatles
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

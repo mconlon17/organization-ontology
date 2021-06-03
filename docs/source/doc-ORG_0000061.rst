@@ -26,7 +26,7 @@ ORG_0000061 - organizational member role
 
 .. topic:: Example
 
-    Many faculty members are members of professional societies in their disciplines
+    The University of aToronto has organizational membership role which is realized in a membership granted by the American Association of Universities
 
 .. topic:: Term editor
 

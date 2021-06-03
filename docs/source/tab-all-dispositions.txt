@@ -40,4 +40,7 @@ See `Table 2`_.
     ``ORG_0000080``         media disposition         The disposition of an organization that creates,
     ``ORG_0000081``         performing disposition    The disposition of an organization to perform li
     ``ORG_0000082``         labor union disposition   The disposition of an organization to organize w
+    ``ORG_0000083``         person membership         The asymmetric relationship representing a perso
+    ``ORG_0000084``         person member role        The role of a person to be a member of an organi
+    ``ORG_0000085``         person member grantor ro  The role of an organization to grant membership 
     ======================  ========================  ================================================

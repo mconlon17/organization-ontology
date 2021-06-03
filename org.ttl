@@ -567,7 +567,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has employee"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "For the season ennnding in 2021, the Los Angeles Lakers have employee LeBron James."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "For the season ending in 2021, the Los Angeles Lakers have employee LeBron James."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The poperty that assocates an organization with an employee of the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -714,6 +714,34 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              rdfs:label "organizational appointee of"@en ;
                                              owl:inverseOf "org:2000024"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000026
+<http://purl.obolibrary.org/obo/ORG_2000026> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "As of 2021, The Conservative Party of the UK has person member Boris Johnson"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that asserts an organization has a person as a member"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "has person member"@en ;
+                                             owl:inverseOf "org:0000027"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ORG_2000027
+<http://purl.obolibrary.org/obo/ORG_2000027> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Florence Nightingale was a person member of the American Statistical Association"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The property that asserts a person is a member of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
+                                             rdfs:label "person member of"@en ;
+                                             owl:inverseOf "org:0000026"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000052
@@ -2128,7 +2156,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000060> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "membership"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "One might be a member of the American Association of Retired People (AARP)"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Texas A&M University is an organizational member of the Association of Public and Land Grant Universities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship involving two organizations in which one is a member of the other"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Organizational Membership is a Membership, which is a Relationship, which is an Occurrent.  The subsumption is out of scope for the Organizationa Ontology. The existence of a membership implies the existence of a membership creation process and a membership creation process boundary.  These are currently out of scope for the Organization Ontology"@en ;
@@ -2140,7 +2168,7 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000061
 <http://purl.obolibrary.org/obo/ORG_0000061> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Many faculty members are members of professional societies in their disciplines"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The University of aToronto has organizational membership role which is realized in a membership granted by the American Association of Universities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in being a member of another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -2152,7 +2180,7 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000062
 <http://purl.obolibrary.org/obo/ORG_0000062> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Professional societies grant memberships to applicants"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Most membership organizations grant theoir memberships to their members"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in granting a member role to another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -2166,7 +2194,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The student chess club, the student data science club, the student newspaper may all be student-led organizations"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The quality of an organization that is led by a student"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Student-led organziations may be formal or informal"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Student-led organizations may be formal or informal"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#StudentOrganization"^^xsd:anyuri ;
@@ -2352,7 +2380,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000079> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "airline"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Delta, Lufthanza, and Aeroflot are all airlines"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Delta, Lufthanza, and Aeroflot all have airline disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization that operates airplanes carrying frieght or passengers"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Added for completeness with schema.org"@en ;
@@ -2400,6 +2428,38 @@ Previous. An information content entity is a non-realizable information entity t
                                                                                           "workers union"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://duckduckgo.com/?t=ffab&q=labor+union&ia=web"@en ;
                                              rdfs:label "labor union disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000083
+<http://purl.obolibrary.org/obo/ORG_0000083> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The asymmetric relationship representing a person's membership in an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "person membership"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000084
+<http://purl.obolibrary.org/obo/ORG_0000084> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "George Harrison has a person member role with respect to The Beatles"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be a member of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "person member role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000085
+<http://purl.obolibrary.org/obo/ORG_0000085> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Professional socieities have a grantor role with respect to their members"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant membership to a person"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             rdfs:label "person member grantor role"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept
