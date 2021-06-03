@@ -1,0 +1,30 @@
+
+  .. _ORG_2000015:
+  .. _organizational member of:
+  .. index:: 
+     single: ORG_2000015; organizational member of
+     single: organizational member of; ORG_2000015
+
+ORG_2000015 - organizational member of
+====================================================================================
+
+.. topic:: Label
+
+    organizational member of
+
+.. topic:: Definition
+
+    The property that associates a member organizaiton with the organization of which it is a member
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    The University of North Carolina is a member of the Southeast University Research Association
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

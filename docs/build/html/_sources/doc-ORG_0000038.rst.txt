@@ -1,0 +1,30 @@
+
+  .. _ORG_0000038:
+  .. _homepage quality:
+  .. index:: 
+     single: ORG_0000038; homepage quality
+     single: homepage quality; ORG_0000038
+
+ORG_0000038 - homepage quality
+====================================================================================
+
+.. topic:: Label
+
+    homepage quality
+
+.. topic:: Definition
+
+    A quality to be the primary website for an entity.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The home page of Harvard is https://harvard.edu
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

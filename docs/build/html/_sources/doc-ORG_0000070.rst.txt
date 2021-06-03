@@ -1,0 +1,30 @@
+
+  .. _ORG_0000070:
+  .. _organizational employor role:
+  .. index:: 
+     single: ORG_0000070; organizational employor role
+     single: organizational employor role; ORG_0000070
+
+ORG_0000070 - organizational employor role
+====================================================================================
+
+.. topic:: Label
+
+    organizational employor role
+
+.. topic:: Definition
+
+    The role of an organization to employ a person
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    McDonalds once employed Jeff Bezos
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

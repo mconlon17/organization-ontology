@@ -1,0 +1,34 @@
+
+  .. _ORG_0000001:
+  .. _organization:
+  .. index:: 
+     single: ORG_0000001; organization
+     single: organization; ORG_0000001
+
+ORG_0000001 - organization
+====================================================================================
+
+.. topic:: Label
+
+    organization
+
+.. topic:: Definition
+
+    A group of people recognized as such by people outside the group.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A political party, a homeowners association, a football team, a publisher, a government agency, an organized religion
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://xmlns.com/foaf/0.1/Organization
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

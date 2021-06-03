@@ -1,0 +1,34 @@
+
+  .. _ORG_0000079:
+  .. _airline disposition:
+  .. index:: 
+     single: ORG_0000079; airline disposition
+     single: airline disposition; ORG_0000079
+
+ORG_0000079 - airline disposition
+====================================================================================
+
+.. topic:: Label
+
+    airline disposition
+
+.. topic:: Definition
+
+    The disposition of an organization that operates airplanes carrying frieght or passengers
+
+.. topic:: Definition source
+
+    https://www.ahdictionary.com/word/search.html?q=airline
+
+.. topic:: Example
+
+    Delta, Lufthanza, and Aeroflot are all airlines
+
+.. topic:: Editor's note
+
+    Added for completeness with schema.org
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

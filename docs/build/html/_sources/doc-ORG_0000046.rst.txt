@@ -1,0 +1,38 @@
+
+  .. _ORG_0000046:
+  .. _geographic point:
+  .. index:: 
+     single: ORG_0000046; geographic point
+     single: geographic point; ORG_0000046
+
+ORG_0000046 - geographic point
+====================================================================================
+
+.. topic:: Label
+
+    geographic point
+
+.. topic:: Alternate name
+
+    latlong
+
+.. topic:: Definition
+
+    A point located on the earth
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The point with latitude 27.9881199 and longitude 86.9161989
+
+.. topic:: Editor's note
+
+    1. Since a point is smaller than a building, we say the point is located in a building.  The building is the location of the point.  2. Typically use ORG_0000004 to provide a lat/long value for the point.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

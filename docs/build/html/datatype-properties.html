@@ -1,0 +1,310 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Datatype Properties &mdash; The Organization Ontology  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="OBI_0002815 - has representation" href="doc-OBI_0002815.html" />
+    <link rel="prev" title="unitType - temporal unit type" href="doc-unitType.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> The Organization Ontology
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="identifiers.html">Identifiers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addresses.html">Addresses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="facilities.html">Facilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetimes.html">Dates and Times</a></li>
+<li class="toctree-l1"><a class="reference internal" href="associations.html">Associations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classes.html">Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Datatype Properties</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="doc-OBI_0002815.html">OBI_0002815 - has representation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000001.html">ORG_3000001 - number of employees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000002.html">ORG_3000002 - has email representation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000003.html">ORG_3000003 - has postal address representation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000004.html">ORG_3000004 - has geolocation representation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000005.html">ORG_3000005 - has URL representation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000006.html">ORG_3000006 - has official organization name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_3000007.html">ORG_3000007 - has organization name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-inXSDDateTimeStamp.html">inXSDDateTimeStamp - in XSD Date-Time-Stamp</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">The Organization Ontology</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Datatype Properties</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/datatype-properties.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="datatype-properties">
+<h1>Datatype Properties<a class="headerlink" href="#datatype-properties" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">All</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="doc-OBI_0002815.html">OBI_0002815 - has representation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000001.html">ORG_3000001 - number of employees</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000002.html">ORG_3000002 - has email representation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000003.html">ORG_3000003 - has postal address representation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000004.html">ORG_3000004 - has geolocation representation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000005.html">ORG_3000005 - has URL representation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000006.html">ORG_3000006 - has official organization name</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_3000007.html">ORG_3000007 - has organization name</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-inXSDDateTimeStamp.html">inXSDDateTimeStamp - in XSD Date-Time-Stamp</a></li>
+</ul>
+</div>
+<div class="section" id="all-datatype-properties">
+<h2>All Datatype Properties<a class="headerlink" href="#all-datatype-properties" title="Permalink to this headline">¶</a></h2>
+<p>See <a class="reference internal" href="#table-8">Table 8</a>.</p>
+<span id="table-8"></span><table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Table 8 Datatype Properties</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 26%" />
+<col style="width: 51%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Term ID</p></th>
+<th class="head"><p>Label</p></th>
+<th class="head"><p>Definition</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">OBI_0002815</span></code></p></td>
+<td><p>has representation</p></td>
+<td><p>Define ‘has representation’ is a data property t</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000001</span></code></p></td>
+<td><p>number of employees</p></td>
+<td><p>The number of people (headcount) who receive pay</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000002</span></code></p></td>
+<td><p>has email representation</p></td>
+<td><p>Specifies the email address string for an email</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000003</span></code></p></td>
+<td><p>has postal address repre</p></td>
+<td><p>Specifies the postal address string for a postal</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000004</span></code></p></td>
+<td><p>has geolocation represen</p></td>
+<td><p>Specifies the geolocation string for a geolocati</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000005</span></code></p></td>
+<td><p>has URL representation</p></td>
+<td><p>A URI that represents the address of a web site</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000006</span></code></p></td>
+<td><p>has official organizatio</p></td>
+<td><p>The name of the organization which appears in th</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ORG_3000007</span></code></p></td>
+<td><p>has organization name</p></td>
+<td><p>A name of an organization</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">inXSDDateTimeStamp</span></code></p></td>
+<td><p>in XSD Date-Time-Stamp</p></td>
+<td><p>A datatype property to contain the representatio</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="doc-OBI_0002815.html" class="btn btn-neutral float-right" title="OBI_0002815 - has representation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="doc-unitType.html" class="btn btn-neutral float-left" title="unitType - temporal unit type" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, The VIVO Project.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

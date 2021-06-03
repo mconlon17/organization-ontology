@@ -1,0 +1,34 @@
+
+  .. _ORG_0000032:
+  .. _project team:
+  .. index:: 
+     single: ORG_0000032; project team
+     single: project team; ORG_0000032
+
+ORG_0000032 - project team
+====================================================================================
+
+.. topic:: Label
+
+    project team
+
+.. topic:: Definition
+
+    A disposition to execute and finish a project.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A book writing team, a grant writing team, a time-limited work group, and a conference organizing committee all have a project team disposition
+
+.. topic:: Editor's note
+
+    Organization may be formal or informal.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

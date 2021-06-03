@@ -1,0 +1,22 @@
+
+  .. _BFO_0000016:
+  .. _disposition:
+  .. index:: 
+     single: BFO_0000016; disposition
+     single: disposition; BFO_0000016
+
+BFO_0000016 - disposition
+====================================================================================
+
+.. topic:: Label
+
+    disposition
+
+.. topic:: Definition
+
+    A realizable entity that presents in a continuant
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+

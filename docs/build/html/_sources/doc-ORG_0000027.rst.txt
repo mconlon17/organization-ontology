@@ -1,0 +1,34 @@
+
+  .. _ORG_0000027:
+  .. _commerce:
+  .. index:: 
+     single: ORG_0000027; commerce
+     single: commerce; ORG_0000027
+
+ORG_0000027 - commerce
+====================================================================================
+
+.. topic:: Label
+
+    commerce
+
+.. topic:: Alternate name
+
+    business
+
+.. topic:: Definition
+
+    A disposition to sell things
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    Google, Tesla, General Electric, BASF, AstraZeneca all have a disposition to sell things
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

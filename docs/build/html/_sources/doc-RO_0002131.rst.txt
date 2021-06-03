@@ -1,0 +1,22 @@
+
+  .. _RO_0002131:
+  .. _overlaps:
+  .. index:: 
+     single: RO_0002131; overlaps
+     single: overlaps; RO_0002131
+
+RO_0002131 - overlaps
+====================================================================================
+
+.. topic:: Label
+
+    overlaps
+
+.. topic:: Definition
+
+    X overlaps y if and only if there exists some z such that x has part z and z part of y
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+

@@ -1,0 +1,34 @@
+
+  .. _RO_0001025:
+  .. _located in:
+  .. index:: 
+     single: RO_0001025; located in
+     single: located in; RO_0001025
+
+RO_0001025 - located in
+====================================================================================
+
+.. topic:: Label
+
+    located in
+
+.. topic:: Definition
+
+    A relation between two independent continuants, the target and the location, in which the target is entirely within the location
+
+.. topic:: Example
+
+    this rat is located in this cage
+
+    my brain is located in my head
+
+.. topic:: Editor's note
+
+    Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime
+
+    Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

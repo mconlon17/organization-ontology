@@ -1,0 +1,32 @@
+
+  .. _RO_0001015:
+  .. _location of:
+  .. index:: 
+     single: RO_0001015; location of
+     single: location of; RO_0001015
+
+RO_0001015 - location of
+====================================================================================
+
+.. topic:: Label
+
+    location of
+
+.. topic:: Definition
+
+    A relation between two independent continuants, the location and the target, in which the target is entirely within the location
+
+.. topic:: Example
+
+    my head is the location of my brain
+
+    this cage is the location of this rat
+
+.. topic:: Editor's note
+
+    Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

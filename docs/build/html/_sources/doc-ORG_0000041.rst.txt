@@ -1,0 +1,34 @@
+
+  .. _ORG_0000041:
+  .. _campus:
+  .. index:: 
+     single: ORG_0000041; campus
+     single: campus; ORG_0000041
+
+ORG_0000041 - campus
+====================================================================================
+
+.. topic:: Label
+
+    campus
+
+.. topic:: Definition
+
+    The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.
+
+.. topic:: Definition source
+
+    https://en.wiktionary.org/wiki/campus
+
+.. topic:: Example
+
+    The campus of Oxford University, the campus of Microsoft in Redmond, Washington, the NIH campus in Bethesda, Maryland.
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Campus
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

@@ -1,0 +1,26 @@
+
+  .. _IAO_0000118:
+  .. _alternative term:
+  .. index:: 
+     single: IAO_0000118; alternative term
+     single: alternative term; IAO_0000118
+
+IAO_0000118 - alternative term
+====================================================================================
+
+.. topic:: Label
+
+    alternative term
+
+.. topic:: Definition
+
+    An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)
+
+.. topic:: Definition source
+
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
+
+.. topic:: Term editor
+
+    PERSON:Daniel Schober
+

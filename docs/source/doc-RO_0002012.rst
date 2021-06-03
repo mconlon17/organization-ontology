@@ -1,0 +1,24 @@
+
+  .. _RO_0002012:
+  .. _occurent part of:
+  .. index:: 
+     single: RO_0002012; occurent part of
+     single: occurent part of; RO_0002012
+
+RO_0002012 - occurent part of
+====================================================================================
+
+.. topic:: Label
+
+    occurent part of
+
+.. topic:: Definition
+
+    A part of relation that applies only between occurents.
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

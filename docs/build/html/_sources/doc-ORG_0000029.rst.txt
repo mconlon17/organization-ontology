@@ -1,0 +1,38 @@
+
+  .. _ORG_0000029:
+  .. _religious:
+  .. index:: 
+     single: ORG_0000029; religious
+     single: religious; ORG_0000029
+
+ORG_0000029 - religious
+====================================================================================
+
+.. topic:: Label
+
+    religious
+
+.. topic:: Alternate name
+
+    church
+
+.. topic:: Definition
+
+    A disposition to engage in matters of spirtuality and faith
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Catholic Church, a local synagogue, a mosque, a buudhist monestary have a relgisious disposition
+
+.. topic:: Editor's note
+
+    Perhaps a function.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

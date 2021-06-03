@@ -1,0 +1,30 @@
+
+  .. _ORG_0000039:
+  .. _wikipedia quality:
+  .. index:: 
+     single: ORG_0000039; wikipedia quality
+     single: wikipedia quality; ORG_0000039
+
+ORG_0000039 - wikipedia quality
+====================================================================================
+
+.. topic:: Label
+
+    wikipedia quality
+
+.. topic:: Definition
+
+    A quality to be the webpage within WikiPedia regarding the entity
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Wikipedia page of Harvard is https://en.wikipedia.org/wiki/Harvard_University
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

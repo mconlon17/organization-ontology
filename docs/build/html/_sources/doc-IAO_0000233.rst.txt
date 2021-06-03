@@ -1,0 +1,30 @@
+
+  .. _IAO_0000233:
+  .. _term tracker item:
+  .. index:: 
+     single: IAO_0000233; term tracker item
+     single: term tracker item; IAO_0000233
+
+IAO_0000233 - term tracker item
+====================================================================================
+
+.. topic:: Label
+
+    term tracker item
+
+.. topic:: Definition
+
+    An IRI or similar locator for a request or discussion of an ontology term.
+
+.. topic:: Definition source
+
+    Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg
+
+.. topic:: Example
+
+    the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/
+
+.. topic:: Term editor
+
+    Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg
+

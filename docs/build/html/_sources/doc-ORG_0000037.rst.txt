@@ -1,0 +1,30 @@
+
+  .. _ORG_0000037:
+  .. _preferred address quality:
+  .. index:: 
+     single: ORG_0000037; preferred address quality
+     single: preferred address quality; ORG_0000037
+
+ORG_0000037 - preferred address quality
+====================================================================================
+
+.. topic:: Label
+
+    preferred address quality
+
+.. topic:: Definition
+
+    A quality of an address to be displayed in most settings
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The address the organization displays most prominently in promotional materials
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

@@ -1,0 +1,26 @@
+
+  .. _RO_0002323:
+  .. _mereotopologically related to:
+  .. index:: 
+     single: RO_0002323; mereotopologically related to
+     single: mereotopologically related to; RO_0002323
+
+RO_0002323 - mereotopologically related to
+====================================================================================
+
+.. topic:: Label
+
+    mereotopologically related to
+
+.. topic:: Definition
+
+    A mereological relationship or a topological relationship
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+
+.. topic:: Term editor
+
+    Chris Mungall
+

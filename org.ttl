@@ -1855,6 +1855,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "homepage"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The home page of Harvard is https://harvard.edu"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A quality to be the primary website for an entity."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1866,6 +1867,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000039> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "wikipedia page"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Wikipedia page of Harvard is https://en.wikipedia.org/wiki/Harvard_University"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A quality to be the webpage within WikiPedia regarding the entity"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1969,6 +1971,7 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000047
 <http://purl.obolibrary.org/obo/ORG_0000047> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000045> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Asia, Europe, Antarctica, North America, South America, Africa, and Oceania are the continents"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "One of the main landmasses of the globe, usually reckoned as seven in number (Europe, Asia, Africa, North America, South America, Australia, and Antarctica)."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Should define 7 named individuals and then this class is explicitly defined"@en ;
@@ -2125,6 +2128,7 @@ Previous. An information content entity is a non-realizable information entity t
 <http://purl.obolibrary.org/obo/ORG_0000060> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "membership"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "One might be a member of the American Association of Retired People (AARP)"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An asymmetric relationship involving two organizations in which one is a member of the other"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Organizational Membership is a Membership, which is a Relationship, which is an Occurrent.  The subsumption is out of scope for the Organizationa Ontology. The existence of a membership implies the existence of a membership creation process and a membership creation process boundary.  These are currently out of scope for the Organization Ontology"@en ;
@@ -2136,6 +2140,7 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000061
 <http://purl.obolibrary.org/obo/ORG_0000061> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Many faculty members are members of professional societies in their disciplines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in being a member of another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -2147,6 +2152,7 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000062
 <http://purl.obolibrary.org/obo/ORG_0000062> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Professional societies grant memberships to applicants"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A role of an organization in granting a member role to another"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -2340,6 +2346,60 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "organizational volunteer grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000079
+<http://purl.obolibrary.org/obo/ORG_0000079> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "airline"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Delta, Lufthanza, and Aeroflot are all airlines"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization that operates airplanes carrying frieght or passengers"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Added for completeness with schema.org"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ahdictionary.com/word/search.html?q=airline"@en ;
+                                             rdfs:label "airline disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000080
+<http://purl.obolibrary.org/obo/ORG_0000080> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "media"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "NBC, BBC, CNN, EFE News Agency and the Japan Times all have media dispositions"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization that creates, transmits, and/or licenses live or recorded material for viewing by others"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Added for completeness with schema.org"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.macmillandictionary.com/dictionary/british/media-organization"@en ;
+                                             rdfs:label "media disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000081
+<http://purl.obolibrary.org/obo/ORG_0000081> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "performing"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Bolshoi Ballet, the Royal Shakespeare Company, the local community theater, the Metropolitan Opera are all organizations with performing disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to perform live or recorded music, theatre, or dance"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Added for completeness with schema.org"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Performing_arts"@en ;
+                                             rdfs:label "performing disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000082
+<http://purl.obolibrary.org/obo/ORG_0000082> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "labor union"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "All-China Federation of Trade Unions (ACFTU), the Congress of South African Trade Unions (COSATU) and the General Confederation of Labor (CGT) in France are all organizations with disposition of labor union."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to organize workers for the purpose of negotiations with employers of the workers"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Added for completeness with schema.org"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "trade union"@en ,
+                                                                                          "workers union"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://duckduckgo.com/?t=ffab&q=labor+union&ia=web"@en ;
+                                             rdfs:label "labor union disposition"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

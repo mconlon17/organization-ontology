@@ -1,0 +1,26 @@
+
+  .. _IAO_0000116:
+  .. _editor note:
+  .. index:: 
+     single: IAO_0000116; editor note
+     single: editor note; IAO_0000116
+
+IAO_0000116 - editor note
+====================================================================================
+
+.. topic:: Label
+
+    editor note
+
+.. topic:: Definition
+
+    An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.
+
+.. topic:: Definition source
+
+    GROUP:OBI:<http://purl.obfoundry.org/obo/obi>
+
+.. topic:: Term editor
+
+    PERSON:Daniel Schober
+

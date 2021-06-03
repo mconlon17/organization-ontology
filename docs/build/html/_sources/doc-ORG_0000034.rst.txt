@@ -1,0 +1,30 @@
+
+  .. _ORG_0000034:
+  .. _information address quality:
+  .. index:: 
+     single: ORG_0000034; information address quality
+     single: information address quality; ORG_0000034
+
+ORG_0000034 - information address quality
+====================================================================================
+
+.. topic:: Label
+
+    information address quality
+
+.. topic:: Definition
+
+    A quality of an information content entity denoted by an address which has the purpose of responding to information inquiries
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    Email addresses that begin help@ info@ contact@ often have information address address disposition
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

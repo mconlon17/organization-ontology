@@ -1,0 +1,30 @@
+
+  .. _ORG_2000025:
+  .. _organizational appointee of:
+  .. index:: 
+     single: ORG_2000025; organizational appointee of
+     single: organizational appointee of; ORG_2000025
+
+ORG_2000025 - organizational appointee of
+====================================================================================
+
+.. topic:: Label
+
+    organizational appointee of
+
+.. topic:: Definition
+
+    The property that associates a person with the organization which has appointed the person to some post or position within the organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Example
+
+    The board of trustees of a university may appoint the university president
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

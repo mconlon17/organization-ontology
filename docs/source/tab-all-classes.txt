@@ -1,0 +1,128 @@
+
+
+See `Table 5`_.
+
+.. _Table 5:
+
+.. table:: Table 5 Classes
+
+    ======================  ========================  ================================================
+    Term ID                 Label                     Definition
+    ======================  ========================  ================================================
+    ``BFO_0000001``         entity                    The fundamental thing that has existence. All th
+    ``BFO_0000002``         continuant                An entity which has existence in time
+    ``BFO_0000003``         occurrent                 An entity which occurs in time
+    ``BFO_0000004``         independent continuant    B is an independent continuant = Def. b is a con
+    ``BFO_0000008``         temporal region           An occurent which is some part of time
+    ``BFO_0000015``         process                   P is a process = Def. p is an occurrent that has
+    ``BFO_0000016``         disposition               A realizable entity that presents in a continuan
+    ``BFO_0000017``         realizable entity         To say that b is a realizable entity is to say t
+    ``BFO_0000019``         quality                   A quality is a specifically dependent continuant
+    ``BFO_0000020``         specifically dependent c  B is a specifically dependent continuant = Def. 
+    ``BFO_0000023``         role                      B is a role means: b is a realizable entity & b 
+    ``BFO_0000029``         site                      B is a site means: b is a three-dimensional imma
+    ``BFO_0000031``         generically dependent co  B is a generically dependent continuant = Def. b
+    ``BFO_0000035``         process boundary          P is a process boundary =Def. p is a temporal pa
+    ``BFO_0000038``         one-dimensional temporal  A one-dimensional temporal region is a temporal 
+    ``BFO_0000040``         material entity           A material entity is an independent continuant t
+    ``BFO_0000141``         immaterial entity         An immaterial entity is the boundary or interior
+    ``BFO_0000148``         zero-dimensional tempora  A temporal region of no duration.
+    ``IAO_0000030``         information content enti  A generically dependent continuant that is about
+    ``IAO_0000422``         postal address            A textual entity that is used as directive to de
+    ``IAO_0000429``         email address             A designation used to deliver email to a recipie
+    ``IAO_0000578``         centrally registered ide  An information content entity that consists of a
+    ``IAO_0020000``         identifier                An identifier is an information content entity t
+    ``IAO_0022003``         crossref funder identifi  An identifier assigned by CrossRef to an organiz
+    ``IAO_0022006``         dbpedia identifier        A URL used by DBpedia to identify an entity
+    ``IAO_0022010``         global research organiza  An identifier assigned and managed by Digital Sc
+    ``IAO_0022014``         international standard n  An identifier for persons and organizations whic
+    ``IAO_0022022``         research organization re  An identifier assigned by ROR to research organi
+    ``IAO_0022027``         wikidata q number         QID (or Q number) is the unique identifier of a 
+    ``IAO_0022057``         ringgold identifier       The Ringgold Identifier is a unique numerical id
+    ``NCBITaxon_9606``      Homo sapiens              The species of bipedal primates to which moden h
+    ``ORG_0000001``         organization              A group of people recognized as such by people o
+    ``ORG_0000002``         government organization   An organization which is the body of persons tha
+    ``ORG_0000003``         company                   A legal entity of associated persons created for
+    ``ORG_0000004``         non-profit organization   A legal entity of associated persons created for
+    ``ORG_0000005``         informal organization     A group of people recognized as such by people o
+    ``ORG_0000006``         organization part         An organization which exists as part of another 
+    ``ORG_0000007``         university                A disposition to award academic degrees and cond
+    ``ORG_0000008``         association               A disposition to organize organizations or indiv
+    ``ORG_0000009``         consortium                A disposition to organize organizations along in
+    ``ORG_0000010``         service provider          A disposition to provide service with or without
+    ``ORG_0000011``         laboratory service provi  A disposition to provide laboratory services.  I
+    ``ORG_0000012``         extension provider        A disposition to provide extension services, typ
+    ``ORG_0000013``         technology transfer       A disposition to create licenses for intellectua
+    ``ORG_0000014``         philanthropy              A disposition to donate charitable causes, somet
+    ``ORG_0000015``         funder                    A disposition to fund proposals, often is respon
+    ``ORG_0000016``         health care service prov  A disposition to provider health care to humans
+    ``ORG_0000017``         hospital service provide  A disposition to provide hospital-based health c
+    ``ORG_0000018``         archive                   A disposition to collect, store, and provide acc
+    ``ORG_0000019``         museum                    A disposition to collect, store, and provide acc
+    ``ORG_0000020``         gallery                   A disposition to display collected works from an
+    ``ORG_0000021``         publisher                 A disposition to publish information content ent
+    ``ORG_0000022``         research                  A disposition to conduct research
+    ``ORG_0000023``         education                 A disposition to teach, and provide experiential
+    ``ORG_0000024``         training                  A disposition to train, and provide experiential
+    ``ORG_0000025``         research administration   A disposition to provide resources and oversight
+    ``ORG_0000026``         library                   A disposition to provide library services
+    ``ORG_0000027``         commerce                  A disposition to sell things
+    ``ORG_0000028``         military                  A disposition to engage in warfare
+    ``ORG_0000029``         religious                 A disposition to engage in matters of spirtualit
+    ``ORG_0000030``         governance                A disposition to provide governance
+    ``ORG_0000031``         manufacturer              A dispositon to construct material entities
+    ``ORG_0000032``         project team              A disposition to execute and finish a project.
+    ``ORG_0000033``         sports                    A disposition to engage in sports activites, typ
+    ``ORG_0000034``         information address qual  A quality of an information content entity denot
+    ``ORG_0000035``         billing address quality   A quality of an address to be used to receive bi
+    ``ORG_0000036``         shipping address quality  A quality of an address to be used to receive sh
+    ``ORG_0000037``         preferred address qualit  A quality of an address to be displayed in most 
+    ``ORG_0000038``         homepage quality          A quality to be the primary website for an entit
+    ``ORG_0000039``         wikipedia quality         A quality to be the webpage within WikiPedia reg
+    ``ORG_0000040``         architectural structure   A material entity that is a human made strcuture
+    ``ORG_0000041``         campus                    The geographic location consisting of the  groun
+    ``ORG_0000042``         facility                  An architectural structure that bears some funct
+    ``ORG_0000043``         building                  A permanent walled and roofed construction
+    ``ORG_0000044``         room                      A space contained by a partitioned part of the i
+    ``ORG_0000045``         geographic region         A place on the earth.  Not necessarily contiguou
+    ``ORG_0000046``         geographic point          A point located on the earth
+    ``ORG_0000047``         continent                 One of the main landmasses of the globe, usually
+    ``ORG_0000048``         country                   The territory governed by a sovereign state.
+    ``ORG_0000049``         region                    A subdivision of the territory of a country
+    ``ORG_0000050``         populated place           A named place on the earth occupied by people
+    ``ORG_0000051``         founding process          The process by which the organization was founde
+    ``ORG_0000052``         founding process boundar  The process boundary which defines the moment of
+    ``ORG_0000053``         dissolution process       The process by which an organization no longer e
+    ``ORG_0000054``         dissolution process boun  The process boundary which marks the moment at w
+    ``ORG_0000055``         succession process        The process by which one organization gores out 
+    ``ORG_0000056``         succession process bound  A process boundary within a succession process. 
+    ``ORG_0000057``         web site                  An information content entity consisting of a gr
+    ``ORG_0000058``         spin-off process          The process by which one organization spins off 
+    ``ORG_0000059``         spin-off process boundar  A boundary in a spin-off process
+    ``ORG_0000060``         organizational membershi  An asymmetric relationship involving two organiz
+    ``ORG_0000061``         organizational member ro  A role of an organization in being a member of a
+    ``ORG_0000062``         organizational member gr  A role of an organization in granting a member r
+    ``ORG_0000063``         student led organization  The quality of an organization that is led by a 
+    ``ORG_0000064``         woman led organization q  The quality of an organization that is led by a 
+    ``ORG_0000065``         minority led organizatio  The quality of an organiztion that is led by a d
+    ``ORG_0000066``         registered location qual  The quality of a location that is the legal/regi
+    ``ORG_0000067``         primary location quality  The quality of a location that is the primary/pr
+    ``ORG_0000068``         organizational position   An asymmetric relationship between an organizati
+    ``ORG_0000069``         organizational employee   The role of a person to be an employee of an org
+    ``ORG_0000070``         organizational employor   The role of an organization to employ a person
+    ``ORG_0000071``         organizational associate  The role of a person to be an associate of an or
+    ``ORG_0000072``         organizational associate  The role of an organization to grant associate s
+    ``ORG_0000073``         organizatonal head role   The role of a person to be the head of an organi
+    ``ORG_0000074``         organizational head gran  The role of an organization to grant head status
+    ``ORG_0000075``         organizational appointee  The role of a person to be an appointee of an or
+    ``ORG_0000076``         organizational appointee  The role of an organization to grant appointee s
+    ``ORG_0000077``         organizational volunteer  The role of a person to be a volunteer of an org
+    ``ORG_0000078``         organizational volunteer  The role of an organization to grant volunteer s
+    ``ORG_0000079``         airline disposition       The disposition of an organization that operates
+    ``ORG_0000080``         media disposition         The disposition of an organization that creates,
+    ``ORG_0000081``         performing disposition    The disposition of an organization to perform li
+    ``ORG_0000082``         labor union disposition   The disposition of an organization to organize w
+    ``Concept``             (skos) concept            An idea or notion, a unit of thought
+    ``Instant``             Time instant              A zero-dimensional part of time.  Precision may 
+    ``TemporalUnit``        Temporal unit             A specification of a time duration.  Used to spe
+    ======================  ========================  ================================================
