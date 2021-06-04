@@ -52,7 +52,7 @@ for current_version in ${versions}; do
    echo "INFO: Building sites for ${current_version}"
  
    # skip this branch if it doesn't have our docs dir & sphinx config
-   if [ ! -e 'docs/conf.py' ]; then
+   if [ ! -e 'docs/source/conf.py' ]; then
       echo -e "\tINFO: Couldn't find 'docs/conf.py' (skipped)"
       continue
    fi
