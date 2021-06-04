@@ -40,9 +40,9 @@ BFO_0000050 - part of
 
 .. topic:: See also
 
-    http://ontologydesignpatterns.org/wiki/Submissions:PartOf
-
     http://www.obofoundry.org/ro/#OBO_REL:part_of
+
+    http://ontologydesignpatterns.org/wiki/Submissions:PartOf
 
     http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 

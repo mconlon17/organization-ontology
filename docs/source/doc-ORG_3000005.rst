@@ -18,7 +18,7 @@ ORG_3000005 - has URL representation
 
 .. topic:: Definition
 
-    A URI that represents the address of a web site on the world wide web
+    Specifies the value of a URL that represents the address of a web site on the world wide web
 
 .. topic:: Definition source
 

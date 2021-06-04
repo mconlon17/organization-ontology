@@ -1,16 +1,16 @@
 
   .. _ORG_0000016:
-  .. _health care service provider:
+  .. _health care service provider disposition:
   .. index:: 
-     single: ORG_0000016; health care service provider
-     single: health care service provider; ORG_0000016
+     single: ORG_0000016; health care service provider disposition
+     single: health care service provider disposition; ORG_0000016
 
-ORG_0000016 - health care service provider
+ORG_0000016 - health care service provider disposition
 ====================================================================================
 
 .. topic:: Label
 
-    health care service provider
+    health care service provider disposition
 
 .. topic:: Alternate name
 

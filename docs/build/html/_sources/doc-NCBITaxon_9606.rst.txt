@@ -14,9 +14,9 @@ NCBITaxon_9606 - Homo sapiens
 
 .. topic:: Alternate name
 
-    human being
-
     human
+
+    human being
 
 .. topic:: Definition
 

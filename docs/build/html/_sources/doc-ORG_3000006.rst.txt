@@ -14,7 +14,7 @@ ORG_3000006 - has official organization name
 
 .. topic:: Definition
 
-    The name of the organization which appears in the current documents authorizing its existence
+    Specifies the value of a name of the organization which appears in the current documents authorizing its existence
 
 .. topic:: Definition source
 

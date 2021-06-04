@@ -14,7 +14,7 @@ ORG_2000002 - has occurent part
 
 .. topic:: Definition
 
-    A has part relation that applies only to occurents
+    The property that associates an occurent which has an occurent part wholly contained within it
 
 .. topic:: Definition source
 

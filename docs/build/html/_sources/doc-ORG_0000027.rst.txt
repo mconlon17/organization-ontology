@@ -1,16 +1,16 @@
 
   .. _ORG_0000027:
-  .. _commerce:
+  .. _commerce disposition:
   .. index:: 
-     single: ORG_0000027; commerce
-     single: commerce; ORG_0000027
+     single: ORG_0000027; commerce disposition
+     single: commerce disposition; ORG_0000027
 
-ORG_0000027 - commerce
+ORG_0000027 - commerce disposition
 ====================================================================================
 
 .. topic:: Label
 
-    commerce
+    commerce disposition
 
 .. topic:: Alternate name
 

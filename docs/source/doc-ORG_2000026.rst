@@ -14,7 +14,7 @@ ORG_2000026 - has person member
 
 .. topic:: Definition
 
-    The property that asserts an organization has a person as a member
+    The property that associates an organization with a person who is  a member of the organization
 
 .. topic:: Definition source
 

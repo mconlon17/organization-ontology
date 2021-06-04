@@ -14,7 +14,7 @@ ORG_2000007 - has successor organization
 
 .. topic:: Definition
 
-    The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence.
+    The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence
 
 .. topic:: Definition source
 

@@ -14,7 +14,7 @@ ORG_2000027 - person member of
 
 .. topic:: Definition
 
-    The property that asserts a person is a member of an organization
+    The property that associates a person with an organization of which the person is a member
 
 .. topic:: Definition source
 

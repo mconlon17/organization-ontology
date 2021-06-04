@@ -18,7 +18,7 @@ ORG_2000010 - organizational part of
 
 .. topic:: Definition
 
-    The property that an organization part is part of an organization
+    The property that associates an organization part with the organization of which it is a part
 
 .. topic:: Definition source
 

@@ -177,72 +177,72 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000007
 <http://purl.obolibrary.org/obo/ORG_0000007> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "university disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "university"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Bologna is an organization that has a university disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to award academic degrees and conduct research in a variety of academic disciplines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Some dispositions may well be functions -- the organization does not exist without it."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/University"@en ;
-                                             rdfs:label "university"@en .
+                                             rdfs:label "university disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000008
 <http://purl.obolibrary.org/obo/ORG_0000008> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "association disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "association"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The American Medical Association; The AFL-CIO; The Institution of Railway Signal Engineers"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to organize organizations or individuals along and industry or academic lines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "professional society"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "association"@en .
+                                             rdfs:label "association disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000009
 <http://purl.obolibrary.org/obo/ORG_0000009> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "consortium disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "conosrtium"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Association of Research Libraries; The NIH Common Fund Metabolomics Consortium"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to organize organizations along industry or academic lines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The word \"association\" in english may mean many diffierent things.  Often consortiums have the word \"association\" in their title."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "consortium"@en .
+                                             rdfs:label "consortium disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000010
 <http://purl.obolibrary.org/obo/ORG_0000010> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "service provider disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "service provider"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A hospital has a service provider disposition to provide medical services to patients"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide service with or without a fee"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "We can expect to have many types of service provider dispositions"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "service provider"@en .
+                                             rdfs:label "service provider disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000011
 <http://purl.obolibrary.org/obo/ORG_0000011> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "laboratory service provider disposition"@en ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000010> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "laboratory service provider"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Interdisciplinary Center for Biotechnology Rsearch is a part of the university with a disposition to offer laboratory services to others"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide laboratory services.  In the US, organization parts in universities that have a disposition to provide laboratory services to others are called core laboratories"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The word \"core laboratory\" may indicate that an organization has a disposition of laboratory services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "laboratory service provider"@en .
+                                             rdfs:label "laboratory service provider disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000012
 <http://purl.obolibrary.org/obo/ORG_0000012> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "extension provider disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "extension provider"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Texas A&M Agrilife Extension is a part of the university with a disposition for providing agricultural exteension services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide extension services, typically in agriculture.  Extension provides access to university research findings and advice to agriculturalists."@en ;
@@ -250,78 +250,79 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "agricultural extension"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "extension provider"@en .
+                                             rdfs:label "extension provider disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000013
 <http://purl.obolibrary.org/obo/ORG_0000013> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "technology transfer disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "technology transfer"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Duke Office of Licensing and Ventures has a technology transfer disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to create licenses for intellectual property for use by these beyond the creators"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000118> "technology licensing"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "tech transfer"@en ,
+                                                                                          "technology licensing"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "technology transfer"@en .
+                                             rdfs:label "technology transfer disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000014
 <http://purl.obolibrary.org/obo/ORG_0000014> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "philanthropy disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "philanthropy"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Wellcome Trust, The Bill and Melinda Gates Foundation, The Sierra Club have dispositions of philanthropy"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to donate charitable causes, sometimes in the form of grants involving contracts regarding the use of the donated funds or effort."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "philanthropic"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.dictionary.com/browse/philanthropy"@en ;
-                                             rdfs:label "philanthropy"@en .
+                                             rdfs:label "philanthropy disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000015
 <http://purl.obolibrary.org/obo/ORG_0000015> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "funding disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "funder"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The National Institutes of Health (NIH) and The National Science Foundation (NSF) have funder dispositions"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to fund proposals, often is response to a call for proposals by the entity with the funding disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "grantor"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "funder"@en .
+                                             rdfs:label "funding disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000016
 <http://purl.obolibrary.org/obo/ORG_0000016> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "health care service provider disposition"@en ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000010> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "health care service provider"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A nurse has a disposition to provide health care servces"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provider health care to humans"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "health care provider"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "health care service provider"@en .
+                                             rdfs:label "health care service provider disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000017
 <http://purl.obolibrary.org/obo/ORG_0000017> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "hospital service provider disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "hospital service provider"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Mt. Sinai Hospital in New York has a disposition to provide hospital services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide hospital-based health care services to humans"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "hospital"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "hospital service provider"@en .
+                                             rdfs:label "hospital service provider disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000018
 <http://purl.obolibrary.org/obo/ORG_0000018> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "archive disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "archive"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The British Museum has a disposition to archive, particularly works of the United Kingdom"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to collect, store, and provide access to inanimate material entities, and/or information content entitites"@en ;
@@ -329,125 +330,126 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "archives"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "archive"@en .
+                                             rdfs:label "archive disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000019
 <http://purl.obolibrary.org/obo/ORG_0000019> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "museum disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "museum"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The National Portrait Gallery is an art museum"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to collect, store, and provide access to inanimate material entities in a facility"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "museum"@en .
+                                             rdfs:label "museum disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000020
 <http://purl.obolibrary.org/obo/ORG_0000020> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "gallery disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "gallery"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Color Factory in New York City is an art gallery"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to display collected works from an archive"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The distinction between an art gallery and and art museum has to do with the temporary nature of displays in galleries, as well as the common practice in galleries to sell art on display"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "gallery"@en .
+                                             rdfs:label "gallery disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000021
 <http://purl.obolibrary.org/obo/ORG_0000021> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "publishing disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "publisher"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Random House, Taylor and Francis, The American Pyschological Association, The University of California Berkeley has a disposition to publish"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to publish information content entities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "publisher"@en .
+                                             rdfs:label "publishing disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000022
 <http://purl.obolibrary.org/obo/ORG_0000022> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "research disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Max Plank Institute, Northwestern University, CERN (the European Organization for Nuclear Research) have have a disposition to conduct research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to conduct research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "research"@en .
+                                             rdfs:label "research disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000023
 <http://purl.obolibrary.org/obo/ORG_0000023> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "education disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "education"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A pre-school education program, a post-graduate education program, adult education programs all have education dispositions"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to teach, and provide experiential opprtunities for students"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "teaching"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "education"@en .
+                                             rdfs:label "education disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000024
 <http://purl.obolibrary.org/obo/ORG_0000024> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "training disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "training"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A military training program, a flight school training program, a CPR training program all have dispositions to train"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to train, and provide experiential opportunities for trainees"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "trainer"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "training"@en .
+                                             rdfs:label "training disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000025
 <http://purl.obolibrary.org/obo/ORG_0000025> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "research administration disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "research administration"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Office of Research at a university typically does not conduct research, it has a disposition to administer research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide resources and oversight for those conducting research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "research administration"@en .
+                                             rdfs:label "research administration disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000026
 <http://purl.obolibrary.org/obo/ORG_0000026> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "library disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "library"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Library of Congress, the local public library, a university library allhave dispositions of library"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide library services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps a function"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "library"@en .
+                                             rdfs:label "library disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000027
 <http://purl.obolibrary.org/obo/ORG_0000027> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "commerce disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "commerce"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Google, Tesla, General Electric, BASF, AstraZeneca all have a disposition to sell things"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to sell things"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "business"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "commerce"@en .
+                                             rdfs:label "commerce disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000028
 <http://purl.obolibrary.org/obo/ORG_0000028> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "military disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "military"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The US Space Force, the Chinese Navy, and the Bolivian Army are example of organizations with miltary disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to engage in warfare"@en ;
@@ -455,13 +457,13 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "armed forces"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "military"@en .
+                                             rdfs:label "military disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000029
 <http://purl.obolibrary.org/obo/ORG_0000029> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "religious disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "religious"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Catholic Church, a local synagogue, a mosque, a buudhist monestary have a relgisious disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to engage in matters of spirtuality and faith"@en ;
@@ -469,64 +471,67 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "church"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "religious"@en .
+                                             rdfs:label "religious disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000030
 <http://purl.obolibrary.org/obo/ORG_0000030> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "governing disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "governing"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A Board of Trustees, A Board of Directors, the Senate of the United States all have governing dispositions"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide governance"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "governance"@en .
+                                             rdfs:label "governing disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000031
 <http://purl.obolibrary.org/obo/ORG_0000031> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "manufacturing disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "manufacturing"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Volkswagon, Apple, Pfizer, Airbus, BASF, Nestle, and General Electric all have manufacturing dispositions"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A dispositon to construct material entities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "manufacturer"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000034"^^xsd:anyuri ;
-                                             rdfs:label "manufacturer"@en ;
+                                             rdfs:label "manufacturing disposition"@en ;
                                              rdfs:seeAlso "http://purl.obolibrary.org/obo/OBI_0000835"^^xsd:anyuri .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000032
 <http://purl.obolibrary.org/obo/ORG_0000032> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "project team disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "project team"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A book writing team, a grant writing team, a time-limited work group, and a conference organizing committee all have a project team disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to execute and finish a project."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Organization may be formal or informal."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "team"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "project team"@en .
+                                             rdfs:label "project team disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000033
 <http://purl.obolibrary.org/obo/ORG_0000033> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "sports disposition"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "sports"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Alabama mens football team, Manchester United, the Mumbai Indians Cricket Team are all organizations with a disposition of sports"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to engage in sports activites, typically competitive."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps a function"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "sports"@en .
+                                             rdfs:label "sports disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000034
 <http://purl.obolibrary.org/obo/ORG_0000034> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "information address"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Email addresses that begin help@ info@ contact@ often have information address address disposition"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an information content entity denoted by an address which has the purpose of responding to information inquiries"@en ;
@@ -538,6 +543,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000035
 <http://purl.obolibrary.org/obo/ORG_0000035> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "billing address"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Bills may be sent to Attn: Name at"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an address to be used to receive bills"@en ;
@@ -549,10 +555,12 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000036
 <http://purl.obolibrary.org/obo/ORG_0000036> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "shipping address"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The loading dock address for central receiving of an organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an address to be used to receive shipped goods"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "delivery address"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "shipping address quality"@en .
 
@@ -560,6 +568,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo/ORG_0000037
 <http://purl.obolibrary.org/obo/ORG_0000037> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "preferred address"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The address the organization displays most prominently in promotional materials"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A quality of an address to be displayed in most settings"@en ;
@@ -1121,7 +1130,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/ORG_0000083
 <http://purl.obolibrary.org/obo/ORG_0000083> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The asymmetric relationship representing a person's membership in an organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -1131,7 +1140,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/ORG_0000084
 <http://purl.obolibrary.org/obo/ORG_0000084> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "George Harrison has a person member role with respect to The Beatles"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The role of a person to be a member of an organization"@en ;
@@ -1142,7 +1151,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
 
 ###  http://purl.obolibrary.org/obo/ORG_0000085
 <http://purl.obolibrary.org/obo/ORG_0000085> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Professional socieities have a grantor role with respect to their members"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant membership to a person"@en ;

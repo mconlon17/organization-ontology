@@ -14,7 +14,7 @@ ORG_2000008 - successor organization of
 
 .. topic:: Definition
 
-    The property that associates an on organization with the organization that preceeded it.
+    The property that associates an on organization with the organization that preceeded it
 
 .. topic:: Definition source
 

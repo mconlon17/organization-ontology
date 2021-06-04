@@ -1,16 +1,16 @@
 
   .. _ORG_0000008:
-  .. _association:
+  .. _association disposition:
   .. index:: 
-     single: ORG_0000008; association
-     single: association; ORG_0000008
+     single: ORG_0000008; association disposition
+     single: association disposition; ORG_0000008
 
-ORG_0000008 - association
+ORG_0000008 - association disposition
 ====================================================================================
 
 .. topic:: Label
 
-    association
+    association disposition
 
 .. topic:: Alternate name
 

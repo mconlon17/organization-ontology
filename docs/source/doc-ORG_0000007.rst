@@ -1,16 +1,16 @@
 
   .. _ORG_0000007:
-  .. _university:
+  .. _university disposition:
   .. index:: 
-     single: ORG_0000007; university
-     single: university; ORG_0000007
+     single: ORG_0000007; university disposition
+     single: university disposition; ORG_0000007
 
-ORG_0000007 - university
+ORG_0000007 - university disposition
 ====================================================================================
 
 .. topic:: Label
 
-    university
+    university disposition
 
 .. topic:: Definition
 

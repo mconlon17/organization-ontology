@@ -1,16 +1,20 @@
 
   .. _ORG_0000032:
-  .. _project team:
+  .. _project team disposition:
   .. index:: 
-     single: ORG_0000032; project team
-     single: project team; ORG_0000032
+     single: ORG_0000032; project team disposition
+     single: project team disposition; ORG_0000032
 
-ORG_0000032 - project team
+ORG_0000032 - project team disposition
 ====================================================================================
 
 .. topic:: Label
 
-    project team
+    project team disposition
+
+.. topic:: Alternate name
+
+    team
 
 .. topic:: Definition
 

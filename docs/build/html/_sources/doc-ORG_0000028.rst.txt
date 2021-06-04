@@ -1,16 +1,16 @@
 
   .. _ORG_0000028:
-  .. _military:
+  .. _military disposition:
   .. index:: 
-     single: ORG_0000028; military
-     single: military; ORG_0000028
+     single: ORG_0000028; military disposition
+     single: military disposition; ORG_0000028
 
-ORG_0000028 - military
+ORG_0000028 - military disposition
 ====================================================================================
 
 .. topic:: Label
 
-    military
+    military disposition
 
 .. topic:: Alternate name
 

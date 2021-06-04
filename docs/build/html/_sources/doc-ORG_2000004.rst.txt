@@ -18,7 +18,7 @@ ORG_2000004 - has organizational interest
 
 .. topic:: Definition
 
-    The property that associates an organization with a concept that the organization manifests in its work.
+    The property that associates an organization with a concept that the organization manifests in its work
 
 .. topic:: Definition source
 

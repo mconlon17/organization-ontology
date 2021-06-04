@@ -71,7 +71,7 @@ xsd:langString rdf:type rdfs:Datatype .
                                              rdfs:range xsd:nonNegativeInteger ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Amazon.com number_of_employees 1300000"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The number of people (headcount) who receive paychecks from the organization for work performed"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the number of people (headcount) who receive paychecks from the organization for work performed"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Informal organizations do not have employees.  Create a class restriction as a domain."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "# of employees"@en ;
@@ -114,6 +114,7 @@ xsd:langString rdf:type rdfs:Datatype .
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/OBI_0002815> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000044> ;
                                              rdfs:range xsd:string ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has latlong"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "29.6651224,-82.3396949"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the geolocation string for a geolocation"@en ;
@@ -132,7 +133,7 @@ xsd:langString rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has URL"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The URL of the United Nations home page is http://un.org"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A URI that represents the address of a web site on the world wide web"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the value of a URL that represents the address of a web site on the world wide web"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Replace with terms from IDO?"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "has uniform resource locator"@en ;
@@ -145,9 +146,10 @@ xsd:langString rdf:type rdfs:Datatype .
                                              rdfs:subPropertyOf owl:topDataProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range xsd:langString ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "has legal name"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The official name of the united states is The United States of America."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The name of the organization which appears in the current documents authorizing its existence"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the value of a name of the organization which appears in the current documents authorizing its existence"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "has official organization name"@en .
@@ -161,7 +163,8 @@ xsd:langString rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has name"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Names of The United States of America incude: USA, US, United States, America."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A name of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Specifies the value of a name of an organization"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Abbreviations and acronyms are also names of organizations"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "has organization name"@en .

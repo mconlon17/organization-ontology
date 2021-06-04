@@ -1,20 +1,22 @@
 
   .. _ORG_0000013:
-  .. _technology transfer:
+  .. _technology transfer disposition:
   .. index:: 
-     single: ORG_0000013; technology transfer
-     single: technology transfer; ORG_0000013
+     single: ORG_0000013; technology transfer disposition
+     single: technology transfer disposition; ORG_0000013
 
-ORG_0000013 - technology transfer
+ORG_0000013 - technology transfer disposition
 ====================================================================================
 
 .. topic:: Label
 
-    technology transfer
+    technology transfer disposition
 
 .. topic:: Alternate name
 
     technology licensing
+
+    tech transfer
 
 .. topic:: Definition
 

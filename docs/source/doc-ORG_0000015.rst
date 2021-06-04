@@ -1,16 +1,16 @@
 
   .. _ORG_0000015:
-  .. _funder:
+  .. _funding disposition:
   .. index:: 
-     single: ORG_0000015; funder
-     single: funder; ORG_0000015
+     single: ORG_0000015; funding disposition
+     single: funding disposition; ORG_0000015
 
-ORG_0000015 - funder
+ORG_0000015 - funding disposition
 ====================================================================================
 
 .. topic:: Label
 
-    funder
+    funding disposition
 
 .. topic:: Alternate name
 

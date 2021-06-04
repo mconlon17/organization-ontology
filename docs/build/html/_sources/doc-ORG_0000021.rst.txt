@@ -1,16 +1,16 @@
 
   .. _ORG_0000021:
-  .. _publisher:
+  .. _publishing disposition:
   .. index:: 
-     single: ORG_0000021; publisher
-     single: publisher; ORG_0000021
+     single: ORG_0000021; publishing disposition
+     single: publishing disposition; ORG_0000021
 
-ORG_0000021 - publisher
+ORG_0000021 - publishing disposition
 ====================================================================================
 
 .. topic:: Label
 
-    publisher
+    publishing disposition
 
 .. topic:: Definition
 

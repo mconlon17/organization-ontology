@@ -14,7 +14,7 @@ ORG_3000007 - has organization name
 
 .. topic:: Definition
 
-    A name of an organization
+    Specifies the value of a name of an organization
 
 .. topic:: Definition source
 
@@ -23,6 +23,10 @@ ORG_3000007 - has organization name
 .. topic:: Example
 
     Names of The United States of America incude: USA, US, United States, America.
+
+.. topic:: Editor's note
+
+    Abbreviations and acronyms are also names of organizations
 
 .. topic:: Term editor
 

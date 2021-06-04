@@ -18,7 +18,7 @@ ORG_2000009 - has organizational part
 
 .. topic:: Definition
 
-    The property that asserts an organization has an organization part
+    The property that associates an organization with one of its organizational parts
 
 .. topic:: Definition source
 

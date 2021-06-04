@@ -1,16 +1,16 @@
 
   .. _ORG_0000012:
-  .. _extension provider:
+  .. _extension provider disposition:
   .. index:: 
-     single: ORG_0000012; extension provider
-     single: extension provider; ORG_0000012
+     single: ORG_0000012; extension provider disposition
+     single: extension provider disposition; ORG_0000012
 
-ORG_0000012 - extension provider
+ORG_0000012 - extension provider disposition
 ====================================================================================
 
 .. topic:: Label
 
-    extension provider
+    extension provider disposition
 
 .. topic:: Alternate name
 

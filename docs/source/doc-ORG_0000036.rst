@@ -12,6 +12,10 @@ ORG_0000036 - shipping address quality
 
     shipping address quality
 
+.. topic:: Alternate name
+
+    delivery address
+
 .. topic:: Definition
 
     A quality of an address to be used to receive shipped goods

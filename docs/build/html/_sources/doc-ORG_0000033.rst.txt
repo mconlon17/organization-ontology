@@ -1,16 +1,16 @@
 
   .. _ORG_0000033:
-  .. _sports:
+  .. _sports disposition:
   .. index:: 
-     single: ORG_0000033; sports
-     single: sports; ORG_0000033
+     single: ORG_0000033; sports disposition
+     single: sports disposition; ORG_0000033
 
-ORG_0000033 - sports
+ORG_0000033 - sports disposition
 ====================================================================================
 
 .. topic:: Label
 
-    sports
+    sports disposition
 
 .. topic:: Definition
 

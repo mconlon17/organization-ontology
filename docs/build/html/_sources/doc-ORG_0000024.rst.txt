@@ -1,16 +1,20 @@
 
   .. _ORG_0000024:
-  .. _training:
+  .. _training disposition:
   .. index:: 
-     single: ORG_0000024; training
-     single: training; ORG_0000024
+     single: ORG_0000024; training disposition
+     single: training disposition; ORG_0000024
 
-ORG_0000024 - training
+ORG_0000024 - training disposition
 ====================================================================================
 
 .. topic:: Label
 
-    training
+    training disposition
+
+.. topic:: Alternate name
+
+    trainer
 
 .. topic:: Definition
 

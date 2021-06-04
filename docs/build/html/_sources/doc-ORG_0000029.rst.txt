@@ -1,16 +1,16 @@
 
   .. _ORG_0000029:
-  .. _religious:
+  .. _religious disposition:
   .. index:: 
-     single: ORG_0000029; religious
-     single: religious; ORG_0000029
+     single: ORG_0000029; religious disposition
+     single: religious disposition; ORG_0000029
 
-ORG_0000029 - religious
+ORG_0000029 - religious disposition
 ====================================================================================
 
 .. topic:: Label
 
-    religious
+    religious disposition
 
 .. topic:: Alternate name
 

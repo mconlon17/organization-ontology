@@ -1,14 +1,18 @@
 
   .. _ORG_0000031:
-  .. _manufacturer:
+  .. _manufacturing disposition:
   .. index:: 
-     single: ORG_0000031; manufacturer
-     single: manufacturer; ORG_0000031
+     single: ORG_0000031; manufacturing disposition
+     single: manufacturing disposition; ORG_0000031
 
-ORG_0000031 - manufacturer
+ORG_0000031 - manufacturing disposition
 ====================================================================================
 
 .. topic:: Label
+
+    manufacturing disposition
+
+.. topic:: Alternate name
 
     manufacturer
 

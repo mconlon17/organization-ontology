@@ -1,16 +1,16 @@
 
   .. _ORG_0000026:
-  .. _library:
+  .. _library disposition:
   .. index:: 
-     single: ORG_0000026; library
-     single: library; ORG_0000026
+     single: ORG_0000026; library disposition
+     single: library disposition; ORG_0000026
 
-ORG_0000026 - library
+ORG_0000026 - library disposition
 ====================================================================================
 
 .. topic:: Label
 
-    library
+    library disposition
 
 .. topic:: Definition
 

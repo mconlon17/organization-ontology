@@ -1,16 +1,16 @@
 
   .. _ORG_0000022:
-  .. _research:
+  .. _research disposition:
   .. index:: 
-     single: ORG_0000022; research
-     single: research; ORG_0000022
+     single: ORG_0000022; research disposition
+     single: research disposition; ORG_0000022
 
-ORG_0000022 - research
+ORG_0000022 - research disposition
 ====================================================================================
 
 .. topic:: Label
 
-    research
+    research disposition
 
 .. topic:: Definition
 

@@ -1,16 +1,16 @@
 
   .. _ORG_0000025:
-  .. _research administration:
+  .. _research administration disposition:
   .. index:: 
-     single: ORG_0000025; research administration
-     single: research administration; ORG_0000025
+     single: ORG_0000025; research administration disposition
+     single: research administration disposition; ORG_0000025
 
-ORG_0000025 - research administration
+ORG_0000025 - research administration disposition
 ====================================================================================
 
 .. topic:: Label
 
-    research administration
+    research administration disposition
 
 .. topic:: Definition
 

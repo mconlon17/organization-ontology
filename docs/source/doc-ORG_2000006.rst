@@ -14,7 +14,7 @@ ORG_2000006 - website of
 
 .. topic:: Definition
 
-    The property that associates a website with its organization.
+    The property that associates a website with its organization
 
 .. topic:: Definition source
 

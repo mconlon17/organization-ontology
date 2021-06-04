@@ -1,8 +1,4 @@
 # TO DOs
-     
-1. Rearrange labels and preferred terms.  Labels are long (include words like disposition 
-   and role) preferred terms are shorter.  This is to insure clarity and uniqueness 
-   across the labels used in OBO ontologies.
    
 1. Add class expressions
 
@@ -25,6 +21,10 @@
     https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/
 
 1.  Update VIVO-ETL script.   Add to data folder
+
+1.  Table entires should link to Pages
+
+1.  Table text should wrap around (definitions and labels)
 
     
     

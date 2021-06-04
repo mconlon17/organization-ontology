@@ -1,16 +1,16 @@
 
   .. _ORG_0000014:
-  .. _philanthropy:
+  .. _philanthropy disposition:
   .. index:: 
-     single: ORG_0000014; philanthropy
-     single: philanthropy; ORG_0000014
+     single: ORG_0000014; philanthropy disposition
+     single: philanthropy disposition; ORG_0000014
 
-ORG_0000014 - philanthropy
+ORG_0000014 - philanthropy disposition
 ====================================================================================
 
 .. topic:: Label
 
-    philanthropy
+    philanthropy disposition
 
 .. topic:: Alternate name
 

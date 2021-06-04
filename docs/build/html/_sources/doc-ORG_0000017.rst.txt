@@ -1,16 +1,16 @@
 
   .. _ORG_0000017:
-  .. _hospital service provider:
+  .. _hospital service provider disposition:
   .. index:: 
-     single: ORG_0000017; hospital service provider
-     single: hospital service provider; ORG_0000017
+     single: ORG_0000017; hospital service provider disposition
+     single: hospital service provider disposition; ORG_0000017
 
-ORG_0000017 - hospital service provider
+ORG_0000017 - hospital service provider disposition
 ====================================================================================
 
 .. topic:: Label
 
-    hospital service provider
+    hospital service provider disposition
 
 .. topic:: Alternate name
 

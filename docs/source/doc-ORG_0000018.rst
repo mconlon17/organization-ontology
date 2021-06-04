@@ -1,16 +1,16 @@
 
   .. _ORG_0000018:
-  .. _archive:
+  .. _archive disposition:
   .. index:: 
-     single: ORG_0000018; archive
-     single: archive; ORG_0000018
+     single: ORG_0000018; archive disposition
+     single: archive disposition; ORG_0000018
 
-ORG_0000018 - archive
+ORG_0000018 - archive disposition
 ====================================================================================
 
 .. topic:: Label
 
-    archive
+    archive disposition
 
 .. topic:: Alternate name
 

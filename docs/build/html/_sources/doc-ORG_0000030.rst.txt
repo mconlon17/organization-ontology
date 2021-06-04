@@ -1,16 +1,16 @@
 
   .. _ORG_0000030:
-  .. _governance:
+  .. _governing disposition:
   .. index:: 
-     single: ORG_0000030; governance
-     single: governance; ORG_0000030
+     single: ORG_0000030; governing disposition
+     single: governing disposition; ORG_0000030
 
-ORG_0000030 - governance
+ORG_0000030 - governing disposition
 ====================================================================================
 
 .. topic:: Label
 
-    governance
+    governing disposition
 
 .. topic:: Definition
 

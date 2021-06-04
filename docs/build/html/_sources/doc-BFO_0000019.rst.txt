@@ -18,17 +18,17 @@ BFO_0000019 - quality
 
 .. topic:: Example
 
-    the shape of your nose
+    the mass of this piece of gold.
 
-    the length of the circumference of your waist
+    the shape of your nose
 
     the shape of your nostril
 
-    the mass of this piece of gold.
+    the ambient temperature of this portion of air
 
     the color of a tomato
 
-    the ambient temperature of this portion of air
+    the length of the circumference of your waist
 
 .. topic:: Imported From
 

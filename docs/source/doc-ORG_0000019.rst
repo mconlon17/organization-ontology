@@ -1,16 +1,16 @@
 
   .. _ORG_0000019:
-  .. _museum:
+  .. _museum disposition:
   .. index:: 
-     single: ORG_0000019; museum
-     single: museum; ORG_0000019
+     single: ORG_0000019; museum disposition
+     single: museum disposition; ORG_0000019
 
-ORG_0000019 - museum
+ORG_0000019 - museum disposition
 ====================================================================================
 
 .. topic:: Label
 
-    museum
+    museum disposition
 
 .. topic:: Definition
 

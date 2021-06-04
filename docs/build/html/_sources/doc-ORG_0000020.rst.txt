@@ -1,16 +1,16 @@
 
   .. _ORG_0000020:
-  .. _gallery:
+  .. _gallery disposition:
   .. index:: 
-     single: ORG_0000020; gallery
-     single: gallery; ORG_0000020
+     single: ORG_0000020; gallery disposition
+     single: gallery disposition; ORG_0000020
 
-ORG_0000020 - gallery
+ORG_0000020 - gallery disposition
 ====================================================================================
 
 .. topic:: Label
 
-    gallery
+    gallery disposition
 
 .. topic:: Definition
 

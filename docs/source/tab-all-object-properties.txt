@@ -16,22 +16,22 @@ See `Table 7`_.
     ``IAO_0000136``         is about                  A (currently) primitive relation that relates an
     ``IAO_0000219``         denotes                   A primitive, instance-level, relation obtaining 
     ``IAO_0000235``         denoted by                Inverse of the relation 'denotes'
-    ``ORG_2000001``         occupies                  An organization occupies a geographical location
-    ``ORG_2000002``         has occurent part         A has part relation that applies only to occuren
+    ``ORG_2000001``         occupies                  The property that associates an organization occ
+    ``ORG_2000002``         has occurent part         The property that associates an occurent which h
     ``ORG_2000003``         has time instant          The property that associates a process boundary 
     ``ORG_2000004``         has organizational inter  The property that associates an organization wit
     ``ORG_2000005``         has website               The property that associates an organization wit
     ``ORG_2000006``         website of                The property that associates a website with its 
     ``ORG_2000007``         has successor organizati  The property that associates an organization wit
     ``ORG_2000008``         successor organization o  The property that associates an on organization 
-    ``ORG_2000009``         has organizational part   The property that asserts an organization has an
-    ``ORG_2000010``         organizational part of    The property that an organization part is part o
+    ``ORG_2000009``         has organizational part   The property that associates an organization wit
+    ``ORG_2000010``         organizational part of    The property that associates an organization par
     ``ORG_2000011``         affiliated with           The property that associates an organization wit
     ``ORG_2000012``         has spin-off organizatio  The property that associates an organization wit
     ``ORG_2000013``         spin-off organization of  The property that associates an organization wit
     ``ORG_2000014``         has organizational membe  The property that associates an organization wit
     ``ORG_2000015``         organizational member of  The property that associates a member organizait
-    ``ORG_2000016``         has organizational emplo  The poperty that assocates an organization with 
+    ``ORG_2000016``         has organizational emplo  The property that assocates an organization with
     ``ORG_2000017``         organizational employee   The property that associates a person with the o
     ``ORG_2000018``         has organizational assoc  The property that associates an organization wit
     ``ORG_2000019``         organizational associate  The property that associates a person with an or
@@ -41,8 +41,8 @@ See `Table 7`_.
     ``ORG_2000023``         organizational volunteer  The property that associates a person with an or
     ``ORG_2000024``         has organizational appoi  The property that associates an organization wit
     ``ORG_2000025``         organizational appointee  The property that associates a person with the o
-    ``ORG_2000026``         has person member         The property that asserts an organization has a 
-    ``ORG_2000027``         person member of          The property that asserts a person is a member o
+    ``ORG_2000026``         has person member         The property that associates an organization wit
+    ``ORG_2000027``         person member of          The property that associates a person with an or
     ``RO_0000052``          inheres in                A relation between a specifically dependent cont
     ``RO_0000053``          bearer of                 A relation between an independent continuant (th
     ``RO_0000056``          participates in           A relation between a continuant and a process, i

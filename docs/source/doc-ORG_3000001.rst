@@ -18,7 +18,7 @@ ORG_3000001 - number of employees
 
 .. topic:: Definition
 
-    The number of people (headcount) who receive paychecks from the organization for work performed
+    Specifies the number of people (headcount) who receive paychecks from the organization for work performed
 
 .. topic:: Definition source
 

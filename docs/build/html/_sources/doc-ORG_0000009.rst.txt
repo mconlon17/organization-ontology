@@ -1,16 +1,16 @@
 
   .. _ORG_0000009:
-  .. _consortium:
+  .. _consortium disposition:
   .. index:: 
-     single: ORG_0000009; consortium
-     single: consortium; ORG_0000009
+     single: ORG_0000009; consortium disposition
+     single: consortium disposition; ORG_0000009
 
-ORG_0000009 - consortium
+ORG_0000009 - consortium disposition
 ====================================================================================
 
 .. topic:: Label
 
-    consortium
+    consortium disposition
 
 .. topic:: Definition
 
