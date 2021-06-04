@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translating from VIVO to the Organization Ontology</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/epub.css" type="text/css" /> 
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="translating-from-vivo-to-the-organization-ontology">
+<h1>Translating from VIVO to the Organization Ontology</h1>
+<p>For those familiar with representing organizations using the VIVO Ontology,
+we provide a guide for translating assertions in the VIVO Ontology to assertions
+in the Organization Ontology <a class="footnote-reference brackets" href="#id5" id="id1">1</a>.</p>
+<div class="section" id="translating-types">
+<h2>Translating Types</h2>
+<p>The VIVO Ontology organization types are presented in <a class="reference internal" href="#table-16">Table 16</a> with instructions
+for translating each.  The Organization Ontology separates the concept of
+what the organization “is” (company, organization part, etc) from what the
+organization “does” (hospital, library, etc).  In many cases, the VIVO Ontology
+combined these and information about one or the other (“is”, “does”) is missing.</p>
+<p>For example, consider vivo:Museum.  This assertion of type is actually an
+assertion of purpose.  The type of organization (organization part, non-profit) is
+missing.  We can assert the museum is an organization, and has a disposition of
+museum.  We may be able to bring additional information to bear and assert a
+a specific type <a class="footnote-reference brackets" href="#id6" id="id2">2</a>.</p>
+<p><a class="reference internal" href="#table-16">Table 16</a> provides a guide for translating Organizational types to assertions
+in the Organization Ontology.</p>
+<span id="table-16"></span><table class="docutils align-default" id="id9">
+<caption><span class="caption-text">Table 16 Translating VIVO types to Organizational Ontology assertions</span></caption>
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>VIVO Type</p></th>
+<th class="head"><p>Organization Ontology Assertions</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Association</p></td>
+<td><p>Unknown type.  Assert Organization only.</p>
+<p>Type is often non-profit.</p>
+<p>Disposition is association.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Center</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Type is often an organization part.</p>
+<p>Unknown dispositions.  Often research.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>College</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>At a US university, an organizational part.</p>
+<p>At a US university, dispositions of education, service,
+research</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Company</p></td>
+<td><p>Type is Company</p>
+<p>Disposition is often commerce</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Consortium</p></td>
+<td><p>Unknown type.  Assert Organization only.</p>
+<p>Type is often non-profit</p>
+<p>Disposition is often association</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>CoreLaboratory</p></td>
+<td><p>Type is organization part</p>
+<p>Dispositions are laboratory and service provider</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Department</p></td>
+<td><p>Type is organizational part</p>
+<p>Unknown dispositions</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Division</p></td>
+<td><p>Type is organizational part</p>
+<p>Unknown dispositions</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>ExtensionUnit</p></td>
+<td><p>Type is organizational part</p>
+<p>Disposition is agricultural extension</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>ERO_00000565</p></td>
+<td><p>Type is organizational part</p>
+<p>Disposition is technology transfer</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Foundation</p></td>
+<td><p>Type may be non-profit</p>
+<p>Type may be organizational part</p>
+<p>May be affiliated with another organization</p>
+<p>Disposition is philanthropy</p>
+<p>Disposition may be funder</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>FundingOrganization</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is funder</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>GovernmentAgency</p></td>
+<td><p>Type is government organization or organizational part</p>
+<p>Disposition is unknown</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Hospital</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is hospital.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Institute</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is unknown.  Often research.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Laboratory</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is laboratory.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Library</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is library.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Museum</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is library.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Program</p></td>
+<td><p>Type is organizational part.</p>
+<p>Disposition is unknown.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Publisher</p></td>
+<td><p>Type is unknown.  Assert organization only.</p>
+<p>Often type is company.  But all others possible.</p>
+<p>Disposition is publisher.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>ResearchOrganization</p></td>
+<td><p>Unknown type.  Assert organization only.</p>
+<p>Disposition is research.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>School</p></td>
+<td><p>Type is unknown.  Assert organization only.</p>
+<p>At US university, an organizational part.</p>
+<p>Disposition is often education.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>ServiceProvidingLaboratory</p></td>
+<td><p>Type is unknown.  Assert organization only.</p>
+<p>Dispositions are laboratory and service provider.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>StudentOrganization</p></td>
+<td><p>Type is organizational part</p>
+<p>Disposition is unknown</p>
+<p>Quality is student led <a class="footnote-reference brackets" href="#id7" id="id3">3</a>.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Team</p></td>
+<td><p>Type is unknown.  Assert organization only.</p>
+<p>Disposition is unknown <a class="footnote-reference brackets" href="#id8" id="id4">4</a></p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>University</p></td>
+<td><p>Type is unknown.  Assert organization only.</p>
+<p>Disposition is university</p>
+<p>Dispositions are typically education, research, service</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>We in tend to provide SPARQL CONSTRUCT queries for automatica translation of
+VIVO Ontology organization assertions to Organization Ontology assertions
+in the future.  Consider this guide as advice to the adventurous, or to collaborators
+who would like to draft, test, and contribute such queries.</p>
+</dd>
+<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p>Note that additional information is needed.  The Metropolitan Museum of Art
+in New York City is a non-profit organization.  The Florida Museum of Natural
+History in Gainesville, Florida, is an organizational part of the University of
+Florida.  In the VIVO
+Ontology, both would be asserted to be type vivo:Museum.  In the Organization
+Ontology, the first would be asserted to be non-profit, the second organization
+part.  Both would be asserted to have disposition museum.</p>
+</dd>
+<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p>To be determined.</p>
+</dd>
+<dt class="label" id="id8"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dd><p>Team may mean “sports team” or “project team” or other.  A sports team may
+be formal, such as Manchester United Football Club, or informal as in “my weekly
+bowling team.”  A project team may be considered part of an organization, or
+informally organized to move work forward.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

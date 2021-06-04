@@ -27,9 +27,9 @@ in the VIVO Organization Ontology.
 
 .. table:: Table 16 Translating VIVO types to VIVO Organizational assertions
 
-    ========================== ============================
-    VIVO Type                  VIVO Organization Assertions
-    ========================== ============================
+    ========================== ================================
+    VIVO Type                  Organization Ontology Assertions
+    ========================== ================================
     Association                Unknown type.  Assert Organization only.
     
                                Type is often non-profit.
@@ -44,7 +44,8 @@ in the VIVO Organization Ontology.
     
                                At a US university, an organizational part.
                                
-                               At a US university, dispositions of education, service, research
+                               At a US university, dispositions of education, service, 
+                               research
     Company                    Type is Company
     
                                Disposition is often commerce
@@ -130,7 +131,7 @@ in the VIVO Organization Ontology.
                                Disposition is university
     
                                Dispositions are typically education, research, service
-    ========================== ============================
+    ========================== ================================
 
 .. rubric:: Footnotes
 

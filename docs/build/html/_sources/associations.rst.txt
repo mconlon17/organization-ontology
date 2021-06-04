@@ -14,7 +14,8 @@ describe how to represent various associations between organizations.
 Affiliation
 ...........
 
-An organization can be affiliated with another organization.  In the Organization Ontology,
+An organization can be affiliated with another organization.  In the Organization 
+Ontology,
 affiliation is a broad term and may mean and association that is not further specified.
 The only restriction on affiliation is that it is *symmetric*.  If organization x is
 affiliated with organization y, then organization x is affiliated with organization y.
@@ -74,8 +75,10 @@ History
 .......
 
 In some cases, we may wish to assert that organization y is the successor of organization
-x, meaning that x has ceased to exist, y now exists, and that the result of the dissolution
-of x was the formation of y.  The inverse of *successor_of* is *has_successor*.  We can say
+x, meaning that x has ceased to exist, y now exists, and that the result of the 
+dissolution
+of x was the formation of y.  The inverse of *successor_of* is *has_successor*.  We can 
+say
 either *y successor_of x* or *x has_successor y* [2]_.
 
 We say:
@@ -146,6 +149,14 @@ Since each of these properties has an inverse, we could equivalently have assert
 
 Note that this detail is typically only needed in cases where we wanted to say more 
 about the roles, or membership entity.
+
+Future work -- Associations of Organizations to Occurents
+..........................................................
+
+Organizations have associations to occurent such as projects, performances, and 
+events.  Future ontological work in one or more of these domains should
+create the properties and classes needed to represent how organizations
+are associated with them.
 
 Associations of Organizations and People
 ----------------------------------------
@@ -257,6 +268,7 @@ organization.  **organizational_appointee_role** and
 **organizational_appointee_grantor_role** can be used as in `Figure 5`_ to assert 
 that a person has an appointee role in an organization granted by the organization.
 The position denotes the association.
+
 
 
 

@@ -82,7 +82,7 @@ To assert that an organization x was founded in the year 1853, we would say:
   z has_instant t
   t a instant
   t unit_type unit_year
-  t has_xsd_datetme_stamp "1853"
+  t has_xsd_datetme_stamp "1853-01-01T00:00:00Z"^^xsd:dateTimeStamp
   
 *Implementation note 1:*  Some data systems may be pre-populated with instants
 of year precision for years of interest.  In such a case the above example would

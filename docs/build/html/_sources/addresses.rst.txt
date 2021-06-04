@@ -11,7 +11,8 @@ organizations.
 Email Addresses
 ---------------
 
-``IAO_0000429`` is the term id for the class email address. It is an information artifact that denotes an
+``IAO_0000429`` is the term id for the class email address. It is an information artifact 
+that denotes an
 organization and has a text string representation.
 
 If y is the URI of an organization we can say y has email address info@abc.com by 
@@ -55,7 +56,7 @@ To say org y has a billing postal address, we can assert:
     x a postal_address
     x has_disposition z
     z a billing_address_disposition
-    x has_postal_address_representation "line 1; line 2; city; region; country"
+    x has_postal_address_representation "line 1; line 2; city; region; country; postal-code"
     
 Terms used to represent Addresses
 ---------------------------------

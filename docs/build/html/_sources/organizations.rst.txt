@@ -21,8 +21,10 @@ as, for example, clubs.  Organizations may be parts of other organizations.
 Subsumption 
 ----------------
 
-Organizations are :ref:`generically dependent continuants <glossary>` [#]_ since they depend
-on the people and documents which define them. All the people and documents may be replaced with
+Organizations are :ref:`generically dependent continuants <glossary>` [#]_ since they 
+depend
+on the people and documents which define them. All the people and documents may be 
+replaced with
 other people and documents, and the organization continues to exist.
 
 Overview

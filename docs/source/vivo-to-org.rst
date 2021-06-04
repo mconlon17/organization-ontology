@@ -1,15 +1,15 @@
-Translating from VIVO to the VIVO Organization Ontology
+Translating from VIVO to the Organization Ontology
 =======================================================
 
 For those familiar with representing organizations using the VIVO Ontology,
 we provide a guide for translating assertions in the VIVO Ontology to assertions
-in the VIVO Organization Ontology [#]_.
+in the Organization Ontology [#]_.
 
 Translating Types
 -----------------
 
 The VIVO Ontology organization types are presented in `Table 16`_ with instructions
-for translating each.  The VIVO Organization Ontology separates the concept of
+for translating each.  The Organization Ontology separates the concept of
 what the organization "is" (company, organization part, etc) from what the 
 organization "does" (hospital, library, etc).  In many cases, the VIVO Ontology
 combined these and information about one or the other ("is", "does") is missing.
@@ -20,16 +20,16 @@ missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
 a specific type [#]_.
 
-`Table 16`_ provides a guide for translating VIVO organizational types to assertions
-in the VIVO Organization Ontology. 
+`Table 16`_ provides a guide for translating Organizational types to assertions
+in the Organization Ontology. 
 
 .. _Table 16:
 
-.. table:: Table 16 Translating VIVO types to VIVO Organizational assertions
+.. table:: Table 16 Translating VIVO types to Organizational Ontology assertions
 
-    ========================== ============================
-    VIVO Type                  VIVO Organization Assertions
-    ========================== ============================
+    ========================== ================================
+    VIVO Type                  Organization Ontology Assertions
+    ========================== ================================
     Association                Unknown type.  Assert Organization only.
     
                                Type is often non-profit.
@@ -44,7 +44,8 @@ in the VIVO Organization Ontology.
     
                                At a US university, an organizational part.
                                
-                               At a US university, dispositions of education, service, research
+                               At a US university, dispositions of education, service, 
+                               research
     Company                    Type is Company
     
                                Disposition is often commerce
@@ -130,12 +131,12 @@ in the VIVO Organization Ontology.
                                Disposition is university
     
                                Dispositions are typically education, research, service
-    ========================== ============================
+    ========================== ================================
 
 .. rubric:: Footnotes
 
 .. [#] We in tend to provide SPARQL CONSTRUCT queries for automatica translation of
-   VIVO Ontology organization assertions to VIVO Organization Ontology assertions
+   VIVO Ontology organization assertions to Organization Ontology assertions
    in the future.  Consider this guide as advice to the adventurous, or to collaborators
    who would like to draft, test, and contribute such queries.
    
@@ -143,7 +144,7 @@ in the VIVO Organization Ontology.
    in New York City is a non-profit organization.  The Florida Museum of Natural
    History in Gainesville, Florida, is an organizational part of the University of 
    Florida.  In the VIVO
-   Ontology, both would be asserted to be type vivo:Museum.  In the VIVO Organization
+   Ontology, both would be asserted to be type vivo:Museum.  In the Organization
    Ontology, the first would be asserted to be non-profit, the second organization
    part.  Both would be asserted to have disposition museum.
    

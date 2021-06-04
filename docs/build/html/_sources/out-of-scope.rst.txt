@@ -23,7 +23,8 @@ Out of Scope but Defined Here
 	<https://sites.google.com/site/environmentontology/>`_ and `GAZ 
 	<http://environmentontology.github.io/gaz/>`_ to have 
 	inconsistencies
-	and/or complexities that prohibited their reuse.  We created a simple  set of terms within
+	and/or complexities that prohibited their reuse.  We created a simple  set of terms 
+	within
 	the Organization Ontology to define a nested set of locations from continents down
 	to rooms that can have geographical representations (latitude and longitude) attached 
 	to them.
@@ -65,7 +66,8 @@ An organization ontology should reuse terms it needs from other ontologies.
    
 .. topic:: Concept
 
-   The |SKOS|_ issued to define skos:Concept.  We have asserted a superclass for skos:Concept
+   The |SKOS|_ issued to define skos:Concept.  We have asserted a superclass for 
+   skos:Concept
    to align it with BFO.
 
 Out of Scope and Not Included Here
@@ -77,7 +79,8 @@ Out of Scope and Not Included Here
 	<https://www.w3.org/TR/vocab-org/>`_ for
 	asserting that individual people report to other individual people in an organization.
 
-	We believe these are out of scope for an organization ontology, and are best left to an
+	We believe these are out of scope for an organization ontology, and are best left to 
+	an
 	administrative ontology.
 
 .. topic:: Additional detail regarding locations

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Out of Scope Terms</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/epub.css" type="text/css" /> 
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="out-of-scope-terms">
+<h1>Out of Scope Terms</h1>
+<p>In designing and building ontologies, one seeks to find a coherent domain for the
+ontology – a set of terms that are useful in representing the entities of the domain,
+include and reuse terms from other ontologies as appropriate, while not including terms
+that belong elsewhere.  These choices are somewhat arbitrary, as long as we have a
+cler view of the domain we are attempting to represent, and we are willing to “give away”
+terms that we included, but can be reused.</p>
+<p>For the Organization Ontology, we adhered as best we could to several guiding principles
+regarding terms, domains, inclusion and exclusion.</p>
+<p>And, of course, we may have a change of heart regarding any term or set of terms.</p>
+<div class="section" id="out-of-scope-but-defined-here">
+<h2>Out of Scope but Defined Here</h2>
+<div class="topic">
+<p class="topic-title"><a class="reference external" href="locations">Locations</a></p>
+<p>It is important for organizations and their facilities to be located on the surface of
+the earth.  We found the existing OBI ontologies <a class="reference external" href="https://sites.google.com/site/environmentontology/">ENVO</a><span class="link-target"> [https://sites.google.com/site/environmentontology/]</span> and <a class="reference external" href="http://environmentontology.github.io/gaz/">GAZ</a><span class="link-target"> [http://environmentontology.github.io/gaz/]</span> to have
+inconsistencies
+and/or complexities that prohibited their reuse.  We created a simple  set of terms
+within
+the Organization Ontology to define a nested set of locations from continents down
+to rooms that can have geographical representations (latitude and longitude) attached
+to them.</p>
+<p>We would be happy to use terms from another ontology that defines location terms we
+could use.</p>
+</div>
+<div class="topic">
+<p class="topic-title"><a class="reference external" href="facilities">Facilities</a></p>
+<p>The Organization Ontology has a need to make assertions regarding occupancy of
+structures</p>
+</div>
+</div>
+<div class="section" id="out-of-scope-and-included-here">
+<h2>Out of Scope and Included Here</h2>
+<p>An organization ontology should reuse terms it needs from other ontologies.</p>
+<div class="topic">
+<p class="topic-title">Upper Level Ontology and Annotation Properties</p>
+<p><a class="reference external" href="http://www.ontobee.org/ontology/BFO">Basic Formal Ontology (BFO)</a><span class="link-target"> [http://www.ontobee.org/ontology/BFO]</span> is used for an upper level ontology.  We use the <a class="reference external" href="http://www.ontobee.org/ontology/IAO">Information Artifact Ontology (IAO)</a><span class="link-target"> [http://www.ontobee.org/ontology/IAO]</span> annotation properties to
+annotate terms.  We use Dublin Core and OWL annotation properties annotate the
+ontology.</p>
+</div>
+<div class="topic">
+<p class="topic-title">Identifiers</p>
+<p><a class="reference external" href="https://github.com/mconlon17/identifier-ontology">The Identifier Ontology</a><span class="link-target"> [https://github.com/mconlon17/identifier-ontology]</span> <a class="footnote-reference brackets" href="#id4" id="id1">1</a>
+defines identifiers and semantics for using
+identifiers to identify organizations, people, and scholarly works.</p>
+</div>
+<div class="topic">
+<p class="topic-title">Information Artifacts</p>
+<p>The <a class="reference external" href="http://www.ontobee.org/ontology/IAO">Information Artifact Ontology (IAO)</a><span class="link-target"> [http://www.ontobee.org/ontology/IAO]</span> defines information artifacts needed here.</p>
+</div>
+<div class="topic">
+<p class="topic-title">Time</p>
+<p>The <a class="reference external" href="https://www.w3.org/TR/owl-time/">W3C Time Ontology (Time)</a><span class="link-target"> [https://www.w3.org/TR/owl-time/]</span> is used to define time:Instant and associated properties for using
+time:Instant.  We have asserted a superclass for time:Instant to align it with
+BFO.</p>
+</div>
+<div class="topic">
+<p class="topic-title">Concept</p>
+<p>The <a class="reference external" href="https://www.w3.org/2004/02/skos/">Simple Knowledge Organization System (SKOS)</a><span class="link-target"> [https://www.w3.org/2004/02/skos/]</span> issued to define skos:Concept.  We have asserted a superclass for
+skos:Concept
+to align it with BFO.</p>
+</div>
+</div>
+<div class="section" id="out-of-scope-and-not-included-here">
+<h2>Out of Scope and Not Included Here</h2>
+<div class="topic">
+<p class="topic-title">Reports to / has report</p>
+<p>reports to / has report are properties in the <a class="reference external" href="https://www.w3.org/TR/vocab-org/">W3C Organization Ontology</a><span class="link-target"> [https://www.w3.org/TR/vocab-org/]</span> for
+asserting that individual people report to other individual people in an organization.</p>
+<p>We believe these are out of scope for an organization ontology, and are best left to
+an
+administrative ontology.</p>
+</div>
+<div class="topic">
+<p class="topic-title">Additional detail regarding locations</p>
+<p>We have tried to include enough, but not too much.  This is not a locations
+ontology. <a class="footnote-reference brackets" href="#id5" id="id2">2</a></p>
+</div>
+<div class="topic">
+<p class="topic-title">Additional detail regarding structures</p>
+<p>We have tried to include enough, but not too much.  This is not a structures
+ontology. <a class="footnote-reference brackets" href="#id6" id="id3">3</a>.</p>
+</div>
+<div class="topic">
+<p class="topic-title">Properties related to Academic Events</p>
+<p>We have not included properties related to organizations must host, sponsor or otherwise
+participate in.  See <a class="reference external" href="https://github.com/tibonto/aeon">The Academic Event Ontology</a><span class="link-target"> [https://github.com/tibonto/aeon]</span> for terms associating
+organizations and academic events.</p>
+</div>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id4"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>The Identifier Ontology is underdevelopment as a planned expansion of <a class="reference external" href="http://www.ontobee.org/ontology/IAO">Information Artifact Ontology (IAO)</a><span class="link-target"> [http://www.ontobee.org/ontology/IAO]</span></p>
+</dd>
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p>We follow in the footsteps of <a class="reference internal" href="glossary.xhtml#glossary"><span class="std std-ref">VIVO 1</span></a>, including terms that have
+shown their value over a decade of use.</p>
+</dd>
+<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p>Same as the comment on locations.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

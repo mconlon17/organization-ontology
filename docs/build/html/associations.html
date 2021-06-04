@@ -38,7 +38,7 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Classes" href="classes.html" />
+    <link rel="next" title="Annotation properties" href="annotation-properties.html" />
     <link rel="prev" title="Dates and Times" href="datetimes.html" /> 
 </head>
 
@@ -93,10 +93,10 @@
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datetimes.html">Dates and Times</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Associations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="classes.html">Classes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
-<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
@@ -182,7 +182,8 @@
 describe how to represent various associations between organizations.</p>
 <div class="section" id="affiliation">
 <h3>Affiliation<a class="headerlink" href="#affiliation" title="Permalink to this headline">¶</a></h3>
-<p>An organization can be affiliated with another organization.  In the Organization Ontology,
+<p>An organization can be affiliated with another organization.  In the Organization
+Ontology,
 affiliation is a broad term and may mean and association that is not further specified.
 The only restriction on affiliation is that it is <em>symmetric</em>.  If organization x is
 affiliated with organization y, then organization x is affiliated with organization y.</p>
@@ -228,8 +229,10 @@ occurrent, may have one or more <em>spin-off process boundaries</em> as occurent
 <div class="section" id="history">
 <h3>History<a class="headerlink" href="#history" title="Permalink to this headline">¶</a></h3>
 <p>In some cases, we may wish to assert that organization y is the successor of organization
-x, meaning that x has ceased to exist, y now exists, and that the result of the dissolution
-of x was the formation of y.  The inverse of <em>successor_of</em> is <em>has_successor</em>.  We can say
+x, meaning that x has ceased to exist, y now exists, and that the result of the
+dissolution
+of x was the formation of y.  The inverse of <em>successor_of</em> is <em>has_successor</em>.  We can
+say
 either <em>y successor_of x</em> or <em>x has_successor y</em> <a class="footnote-reference brackets" href="#id8" id="id5">2</a>.</p>
 <p>We say:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">a</span> <span class="n">organization</span>
@@ -283,6 +286,13 @@ membership.  Organization 2 has a grantor role in the membership.</span><a class
 </div>
 <p>Note that this detail is typically only needed in cases where we wanted to say more
 about the roles, or membership entity.</p>
+</div>
+<div class="section" id="future-work-associations-of-organizations-to-occurents">
+<h3>Future work – Associations of Organizations to Occurents<a class="headerlink" href="#future-work-associations-of-organizations-to-occurents" title="Permalink to this headline">¶</a></h3>
+<p>Organizations have associations to occurent such as projects, performances, and
+events.  Future ontological work in one or more of these domains should
+create the properties and classes needed to represent how organizations
+are associated with them.</p>
 </div>
 </div>
 <div class="section" id="associations-of-organizations-and-people">
@@ -394,7 +404,7 @@ engines will satisfy query requirements as if the assertion had been materialize
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="classes.html" class="btn btn-neutral float-right" title="Classes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="annotation-properties.html" class="btn btn-neutral float-right" title="Annotation properties" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
         <a href="datetimes.html" class="btn btn-neutral float-left" title="Dates and Times" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 

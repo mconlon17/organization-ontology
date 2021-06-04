@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Identifiers</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/epub.css" type="text/css" /> 
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <span class="target" id="identifiers"></span><div class="section" id="index-0">
+<span id="id1"></span><h1>Identifiers</h1>
+<p>An identifier is a string or symbol, assigned to an organization by a <a class="reference internal" href="glossary.xhtml#glossary"><span class="std std-ref">dubbing
+process</span></a></p>
+<p>The Organization Ontology uses <a class="reference external" href="https://github.com/mconlon17/identifier-ontology">The Identifier Ontology</a><span class="link-target"> [https://github.com/mconlon17/identifier-ontology]</span> to represent identifiers for
+organizations.</p>
+<p>The Identifier Ontology is a small set of terms in <a class="reference external" href="http://www.ontobee.org/ontology/IAO">Information Artifact Ontology (IAO)</a><span class="link-target"> [http://www.ontobee.org/ontology/IAO]</span> to represent identifiers,
+and in particular, persistent identifiers, often called PIDs.  Persistent identifiers
+are maintained by one or more maintainers interested in the persistence of the
+identifier and its assignment to an entity over time.</p>
+<p>The table below lists identifiers available in the Organization Ontology <a class="footnote-reference brackets" href="#id3" id="id2">1</a></p>
+<p>See <a class="reference internal" href="#table-4">Table 4</a>.</p>
+<span id="table-4"></span><table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Table 4 Identifiers</span></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 26%" />
+<col style="width: 51%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Term ID</p></th>
+<th class="head"><p>Label</p></th>
+<th class="head"><p>Definition</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">IAO_0022003</span></code></p></td>
+<td><p>crossref funder identifi</p></td>
+<td><p>An identifier assigned by CrossRef to an organiz</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">IAO_0022006</span></code></p></td>
+<td><p>dbpedia identifier</p></td>
+<td><p>A URL used by DBpedia to identify an entity</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">IAO_0022010</span></code></p></td>
+<td><p>global research organiza</p></td>
+<td><p>An identifier assigned and managed by Digital Sc</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">IAO_0022014</span></code></p></td>
+<td><p>international standard n</p></td>
+<td><p>An identifier for persons and organizations whic</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">IAO_0022022</span></code></p></td>
+<td><p>research organization re</p></td>
+<td><p>An identifier assigned by ROR to research organi</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">IAO_0022027</span></code></p></td>
+<td><p>wikidata q number</p></td>
+<td><p>QID (or Q number) is the unique identifier of a</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">IAO_0022057</span></code></p></td>
+<td><p>ringgold identifier</p></td>
+<td><p>The Ringgold Identifier is a unique numerical id</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="usage">
+<h2>Usage</h2>
+<p>To assert that an organization has an identifier, we assert the existence of the
+identifier of a particular type, its value/representation, and its association to the
+organization.  We say:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">denoted_by</span> <span class="n">y</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">research_orgnization_registry_identifier</span>
+<span class="n">y</span> <span class="n">has_representation</span> <span class="s2">&quot;ror-value&quot;</span>
+</pre></div>
+</div>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id3"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p>If a needed organization identifier is not in the table, please open a
+Github issue with the name and source of the identifier for inclusion in subsequent
+releases of the Organization Ontology.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

@@ -15,9 +15,6 @@ scholarship by the `VIVO Project <https://vivoweb.org>`_. The Organization Ontol
 not limited to the representation of 
 scholarship -- it can be used to represent organizations in any setting.
 
-What is an Organization?
-------------------------
-
 An organization is a group of people with a purpose. It is not merely a group of 
 people -- that would be a collection of people, not an organization. The purpose
 may be explicit or implicit. Organizations may be legally constituted or informal.
@@ -25,17 +22,15 @@ Organizations may be parts of other organizations.
 
 See :ref:`Organizations <organizations>` for subsumption and subtypes.
 
-Research Organization Registry (ROR) Data
------------------------------------------
-
 The Organization Ontology is designed to insure it can represent 
 `Research Organization Registry <http://ror.org>`_ data. ROR is a curated, CC0 
-collection of facts regarding over 90,000 research organizations in the world. The
+collection of facts regarding over 97,000 research organizations in the world. The
 Organization Ontology can represent these facts for use in graph-based systems such
 as VIVO.
 
 Tools are provided with the Organization Ontology for retrieving ROR data and
 creating individuals with assertions as RDF triples using the Organization Ontology.
+
 
 .. toctree::
    :titlesonly:
@@ -49,10 +44,10 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    locations
    datetimes
    associations
+   annotation-properties
    classes
    object-properties
    datatype-properties
-   annotation-properties
    named-individuals
    out-of-scope
    vivo-to-org
@@ -94,9 +89,5 @@ List of Figures
 - :ref:`Figure 3 Representation of dates and times <Figure 3>`
 - :ref:`Figure 4 Representation of memberships <Figure 4>`
 - :ref:`Figure 5 Representation of employment <Figure 5>`
-   
-Glossary and Index
-------------------
 
-* :ref:`Glossary`
 * :ref:`genindex`

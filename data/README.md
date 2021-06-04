@@ -13,7 +13,8 @@ extensible to create populated places for countries.
 
 ## Organizations
 
-Here we will have scripts for making organizational data (assertions about individuals) from ROR
+Here we will have scripts for making organizational data (assertions about individuals) 
+from ROR
 data.  The goal is to have a command line script that can:
 
 1. Take a ROR identifier

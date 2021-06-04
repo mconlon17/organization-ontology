@@ -892,7 +892,7 @@ skos:Concept rdf:type owl:Class ;
 Concept as a generic dependent continuant seems right -- the concept is dependent on the collective of humans.  Thought is in human brains.
 We also edited the label addding (skos) to insure unique labels as required by the OBO Principles. MC."""@en ;
              rdfs:isDefinedBy "http://www.w3.org/2004/02/skos/core"^^xsd:anyURI ;
-             rdfs:label "(skos) concept"@en .
+             rdfs:label "concept (skos)"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant

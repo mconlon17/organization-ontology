@@ -53,7 +53,8 @@ Non IAO Annotation Properties
 
 The VIVO ontologies use other annotation properties to describe terms and the ontologies.
 
-``rdfs:label`` is required for all terms and for the ontology itself.  All labels must be unique.  This greatly simplifies
+``rdfs:label`` is required for all terms and for the ontology itself.  All labels must be 
+unique.  This greatly simplifies
 the use of the ontologies -- one can search for the label and unambiguously find the
 corresponding term.
 

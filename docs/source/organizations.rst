@@ -2,17 +2,6 @@
 
 Organizations
 =============
-   
-.. sidebar:: A new ORG ontology
-
-   In :ref:`VIVO 1 <glossary>`, organizational representation was part of the VIVO 
-   ontology.  In the new VIVO ontology, organizational
-   representation has been removed in favor of a new ORG ontology.  The ORG ontology 
-   is independent of VIVO and 
-   can be used in any setting where information about organizations needs to be 
-   represented.
-   
-   The ORG ontology is based on |BFO| and is OBO-compliant [#]_ 
 
 An organization is any collection of people with a purpose.  Organizations may be 
 formal/legal, as in the case of universities and corporations, or they may be informal, 
@@ -21,8 +10,10 @@ as, for example, clubs.  Organizations may be parts of other organizations.
 Subsumption 
 ----------------
 
-Organizations are :ref:`generically dependent continuants <glossary>` [#]_ since they depend
-on the people and documents which define them. All the people and documents may be replaced with
+Organizations are :ref:`generically dependent continuants <glossary>` [#]_ since they 
+depend
+on the people and documents which define them. All the people and documents may be 
+replaced with
 other people and documents, and the organization continues to exist.
 
 Overview

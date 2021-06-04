@@ -93,14 +93,15 @@
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datetimes.html">Dates and Times</a></li>
 <li class="toctree-l1"><a class="reference internal" href="associations.html">Associations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="classes.html">Classes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
-<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
@@ -179,7 +180,8 @@
 organizations.</p>
 <div class="section" id="email-addresses">
 <h2>Email Addresses<a class="headerlink" href="#email-addresses" title="Permalink to this headline">¶</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">IAO_0000429</span></code> is the term id for the class email address. It is an information artifact that denotes an
+<p><code class="docutils literal notranslate"><span class="pre">IAO_0000429</span></code> is the term id for the class email address. It is an information artifact
+that denotes an
 organization and has a text string representation.</p>
 <p>If y is the URI of an organization we can say y has email address <a class="reference external" href="mailto:info&#37;&#52;&#48;abc&#46;com">info<span>&#64;</span>abc<span>&#46;</span>com</a> by
 asserting:</p>
@@ -212,7 +214,7 @@ by the application. Parts and parsing vary by jurisdiction but should conform to
 <span class="n">x</span> <span class="n">a</span> <span class="n">postal_address</span>
 <span class="n">x</span> <span class="n">has_disposition</span> <span class="n">z</span>
 <span class="n">z</span> <span class="n">a</span> <span class="n">billing_address_disposition</span>
-<span class="n">x</span> <span class="n">has_postal_address_representation</span> <span class="s2">&quot;line 1; line 2; city; region; country&quot;</span>
+<span class="n">x</span> <span class="n">has_postal_address_representation</span> <span class="s2">&quot;line 1; line 2; city; region; country; postal-code&quot;</span>
 </pre></div>
 </div>
 </div>
@@ -243,13 +245,13 @@ by the application. Parts and parsing vary by jurisdiction but should conform to
 <tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0000091.html"><span class="doc">RO_0000091 - has disposition</span></a></p></td>
 <td><p>Object property relating an entity to a disposition</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000031.html"><span class="doc">ORG_0000031 - manufacturer</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000031.html"><span class="doc">ORG_0000031 - manufacturing disposition</span></a></p></td>
 <td><p>A quality of an adress to obtain information</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="doc-IAO_0000422.html"><span class="doc">IAO_0000422 - postal address</span></a></p></td>
 <td><p>An entity with properties and a value for postal delivery</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000032.html"><span class="doc">ORG_0000032 - project team</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000032.html"><span class="doc">ORG_0000032 - project team disposition</span></a></p></td>
 <td><p>An address used to send bills to an entity</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_3000003.html"><span class="doc">ORG_3000003 - has postal address representation</span></a></p></td>

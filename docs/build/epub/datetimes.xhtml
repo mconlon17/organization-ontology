@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dates and Times</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/epub.css" type="text/css" /> 
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <span class="target" id="datetimes"></span><div class="section" id="dates-and-times">
+<span id="index-0"></span><h1>Dates and Times</h1>
+<p>The Organization Ontology uses the W3C Time Ontology <a class="footnote-reference brackets" href="#id2" id="id1">1</a> for representation of
+dates and times.  The key entity is time:Instant, which may have a precision to
+indicate whether we know the instant to a particular day, month, year, or with
+more precision such as hour, minute, second, and so on.  The Time Ontology has sophisticated
+semantics for many kinds of calendars.  The examples for the Organization
+Ontology assume Gregorian calendar.  Most time instants related to organizations are
+at the day or year precision.  Assertions such as “This org was founded in that year”
+are common.</p>
+<div class="section" id="bfo-date-semantics">
+<h2>BFO Date Semantics</h2>
+<p>BFO has “occurents” – entities which occur in time.  The most important BFO entity
+for organizations is <code class="docutils literal notranslate"><span class="pre">BFO_000015</span></code> – process.  A process is an occurrent which
+has proper temporal parts and involves an entity as participant or output.</p>
+<p>In the ORG ontology, most processes of interest – the creation of organizations,
+the dissolution of organizations, are
+processes in which rights and privileges are obtained.  All
+organizations have rights and privileges, either formally recognized in founding
+documents, or informally by word of mouth and personal agreements.  These are not
+currently represented in the Organization Ontology, but are readily added.</p>
+<p>Processes often have process boundaries (<code class="docutils literal notranslate"><span class="pre">BFO_000035</span></code>) as demarcations in a process, points
+in time at which something occurred.  Process boundaries can have an
+associated time instant to indicate when the process boundary occurred.</p>
+<p><a class="reference internal" href="#figure-3"><span class="std std-ref">Figure 3.  General time pattern.  An organization is the output of a founding process.</span></a> shows the general pattern.  An organization is the output of a founding
+process.  The founding process has a process boundary which is
+the moment in the process at which the organization comes into existence (the founding).
+The founding has an associated time instant.  The instant has a datetime value and
+a time precision.</p>
+<div class="figure align-default" id="id3">
+<span id="figure-3"></span><img alt="General time pattern  Organization -&gt; Process -&gt; Process Boundary -&gt; Instant -&gt; Instant Representation" src="_images/general-time-pattern.png" />
+<p class="caption"><span class="caption-text">Figure 3.  General time pattern.  An organization is the output of a founding process.</span></p>
+</div>
+<p><em>Implementation note:</em>  The colors in the figure represent dependency of entities.  The
+dark blue organization is the
+entity of interest.  The light blue founding process and founding process boundary are
+dependent on
+the object of interest.  In typical data systems, if the organization was removed from
+the system,
+its founding process and founding process boundary would also be removed.  The datetime
+instant would not be removed, it may be associated with other occurrents in the data
+system.</p>
+<p>This representation achieves several goals:</p>
+<ol class="arabic simple">
+<li><p>Uses BFO to represent time semantics, clarifying the nature of dates and what
+they represent using a consistent upper level ontology.</p></li>
+<li><p>Uses W3C Time Ontology to represent time values gaining richness of expression
+in the representation of date and time values.</p></li>
+<li><p>Provides the framework necessary to add additional detail regarding processes
+related to organizations, including additional processes, rights and privileges
+resulting from processes, additional milestones in processes,
+locations and participants of processes, documents and other participants and
+outputs of processes.</p></li>
+</ol>
+</div>
+<div class="section" id="example">
+<h2>Example</h2>
+<p>To assert that an organization x was founded in the year 1853, we would say:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="n">a</span> <span class="n">organization</span>
+<span class="n">x</span> <span class="n">output_of</span> <span class="n">y</span>
+<span class="n">y</span> <span class="n">a</span> <span class="n">founding_process</span>
+<span class="n">y</span> <span class="n">has_occurent_part</span> <span class="n">z</span>
+<span class="n">z</span> <span class="n">a</span> <span class="n">founding_process_boundary</span>
+<span class="n">z</span> <span class="n">has_instant</span> <span class="n">t</span>
+<span class="n">t</span> <span class="n">a</span> <span class="n">instant</span>
+<span class="n">t</span> <span class="n">unit_type</span> <span class="n">unit_year</span>
+<span class="n">t</span> <span class="n">has_xsd_datetme_stamp</span> <span class="s2">&quot;1853-01-01T00:00:00Z&quot;</span><span class="o">^^</span><span class="n">xsd</span><span class="p">:</span><span class="n">dateTimeStamp</span>
+</pre></div>
+</div>
+<p><em>Implementation note 1:</em>  Some data systems may be pre-populated with instants
+of year precision for years of interest.  In such a case the above example would
+end with z has_instant t, where t is the pre-existing instant representing 1853 with
+year precision.</p>
+<p><em>Implementation note 2:</em>  Some data system may require that time representations
+be formatted in a particular way, for example W3C datetime standard, with a time zone,
+even if the time precision is year only.  Elements of the time representation other
+than the year would be ignored by the data system.  In such cases, the time representation
+might be appear as “1853-01-01T00:00:01+00:00” for example.</p>
+</div>
+<div class="section" id="terms-used-to-represent-dates-and-times">
+<h2>Terms used to represent dates and times</h2>
+<p><a class="reference internal" href="#table-13"><span class="std std-ref">Table 13 Terms used to represent dates and times</span></a> lists terms used to represent dates and times</p>
+<span id="table-13"></span><table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Table 13 Terms used to represent dates and times</span></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Term</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0002353.xhtml"><span class="doc">RO_0002353 - output of</span></a></p></td>
+<td><p>output of</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002234.xhtml"><span class="doc">RO_0002234 - has output</span></a></p></td>
+<td><p>has output</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000015.xhtml"><span class="doc">BFO_0000015 - process</span></a></p></td>
+<td><p>process</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000040.xhtml"><span class="doc">ORG_0000040 - architectural structure</span></a></p></td>
+<td><p>founding process</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_2000003.xhtml"><span class="doc">ORG_2000003 - has time instant</span></a></p></td>
+<td><p>has occurent part</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002012.xhtml"><span class="doc">RO_0002012 - occurent part of</span></a></p></td>
+<td><p>occurent part of</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000035.xhtml"><span class="doc">BFO_0000035 - process boundary</span></a></p></td>
+<td><p>process boundary</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000041.xhtml"><span class="doc">ORG_0000041 - campus</span></a></p></td>
+<td><p>founding process boundary</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000042.xhtml"><span class="doc">ORG_0000042 - facility</span></a></p></td>
+<td><p>dissolution process</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000043.xhtml"><span class="doc">ORG_0000043 - building</span></a></p></td>
+<td><p>dissolution process boundary</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_2000003.xhtml"><span class="doc">ORG_2000003 - has time instant</span></a></p></td>
+<td><p>has instant.  Process boundaries have instants.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-Instant.xhtml"><span class="doc">Instant - Time instant</span></a></p></td>
+<td><p>Instant</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-inXSDDateTimeStamp.xhtml"><span class="doc">inXSDDateTimeStamp - in XSD Date-Time-Stamp</span></a></p></td>
+<td><p>An xsd:datetimestamp string associated with an Instant</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitType.xhtml"><span class="doc">unitType - temporal unit type</span></a></p></td>
+<td><p>has datetime precision</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-unitYear.xhtml"><span class="doc">unitYear - Year (unit of temporal duration)</span></a></p></td>
+<td><p>year precision</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitMonth.xhtml"><span class="doc">unitMonth - Month (unit of temporal duration)</span></a></p></td>
+<td><p>month precision</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-unitDay.xhtml"><span class="doc">unitDay - Day (unit of temporal duration)</span></a></p></td>
+<td><p>day precision</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitHour.xhtml"><span class="doc">unitHour - Hour (unit of temporal duration)</span></a></p></td>
+<td><p>hour precision</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-unitMinute.xhtml"><span class="doc">unitMinute - Minute (unit of temporal duration)</span></a></p></td>
+<td><p>minute precision</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitSecond.xhtml"><span class="doc">unitSecond - Second (unit of temporal duration)</span></a></p></td>
+<td><p>second precision</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id2"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><a class="reference external" href="https://www.w3.org/TR/owl-time/">https://www.w3.org/TR/owl-time/</a></p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

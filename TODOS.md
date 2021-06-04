@@ -5,11 +5,6 @@
     dispoint organization types
     informal organizations can not have employees
 
-1. Properties to associate organizations to occurents
-
-    performed by
-    performed
-
 ---
 
 1.  Add VIVO cross references to more terms
