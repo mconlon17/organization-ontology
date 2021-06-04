@@ -99,7 +99,7 @@
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
@@ -176,22 +176,12 @@
             
   <div class="section" id="organizations">
 <span id="id1"></span><h1>Organizations<a class="headerlink" href="#organizations" title="Permalink to this headline">¶</a></h1>
-<div class="sidebar">
-<p class="sidebar-title">A new ORG ontology</p>
-<p>In <a class="reference internal" href="glossary.html#glossary"><span class="std std-ref">VIVO 1</span></a>, organizational representation was part of the VIVO
-ontology.  In the new VIVO ontology, organizational
-representation has been removed in favor of a new ORG ontology.  The ORG ontology
-is independent of VIVO and
-can be used in any setting where information about organizations needs to be
-represented.</p>
-<p>The ORG ontology is based on Basic Formal Ontology (BFO) and is OBO-compliant <a class="footnote-reference brackets" href="#id4" id="id2">1</a></p>
-</div>
 <p>An organization is any collection of people with a purpose.  Organizations may be
 formal/legal, as in the case of universities and corporations, or they may be informal,
 as, for example, clubs.  Organizations may be parts of other organizations.</p>
 <div class="section" id="subsumption">
 <h2>Subsumption<a class="headerlink" href="#subsumption" title="Permalink to this headline">¶</a></h2>
-<p>Organizations are <a class="reference internal" href="glossary.html#glossary"><span class="std std-ref">generically dependent continuants</span></a> <a class="footnote-reference brackets" href="#id5" id="id3">2</a> since they
+<p>Organizations are <a class="reference internal" href="glossary.html#glossary"><span class="std std-ref">generically dependent continuants</span></a> <a class="footnote-reference brackets" href="#id3" id="id2">1</a> since they
 depend
 on the people and documents which define them. All the people and documents may be
 replaced with
@@ -201,10 +191,10 @@ other people and documents, and the organization continues to exist.</p>
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="#figure-1">Figure 1</a> shows the classes and properties used to represent organizations in ORG.
 An overview of the classes and properties follows the figure.</p>
-<div class="figure align-default" id="id6">
+<div class="figure align-default" id="id5">
 <span id="figure-1"></span><img alt="Representation of organizations in ORG.  A complex ball and stick diagram" src="_images/org-overview.png" />
 <p class="caption"><span class="caption-text">Figure 1.  Representation of organizations.  The organization of interest is at the
-center of the figure.  See notes below.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+center of the figure.  See notes below.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 <p>At the center of the figure note that an organization has a name (rdfs:label).</p>
 <p>An organization has a type.  In the figure, the type of the organization is
@@ -250,8 +240,8 @@ properties describing their purpose.</p></li>
 An organization can
 not be more than one type, just as an animal cannot be more than one species.</p>
 <p>See <a class="reference internal" href="#table-1">Table 1</a>.</p>
-<span id="table-1"></span><table class="docutils align-default" id="id7">
-<caption><span class="caption-text">Table 1 Types of Organizations</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<span id="table-1"></span><table class="docutils align-default" id="id6">
+<caption><span class="caption-text">Table 1 Types of Organizations</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 23%" />
 <col style="width: 26%" />
@@ -288,10 +278,10 @@ not be more than one type, just as an animal cannot be more than one species.</p
 </table>
 <p><a class="reference internal" href="#figure-2"><span class="std std-ref">Figure 2.  Subclasses of organization and subsumption hierarchy.  The subclasses are
 mutually exclusive.</span></a> shows the subsumption hierarchy for organization and its subclasses.</p>
-<div class="figure align-default" id="id8">
+<div class="figure align-default" id="id7">
 <span id="figure-2"></span><img alt="Types of organizations.  A simple ball and stick diagram" src="_images/org-types.png" />
 <p class="caption"><span class="caption-text">Figure 2.  Subclasses of organization and subsumption hierarchy.  The subclasses are
-mutually exclusive.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+mutually exclusive.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="dispositions">
@@ -301,8 +291,8 @@ organization might have a disposition of <em>library</em> or <em>healthcare</em>
 Dispositions are shown in <a class="reference internal" href="#table-2"><span class="std std-ref">Table 2 Dispositions</span></a>  An organization may have any number
 of dispositions.</p>
 <p>See <a class="reference internal" href="#table-2">Table 2</a>.</p>
-<span id="table-2"></span><table class="docutils align-default" id="id9">
-<caption><span class="caption-text">Table 2 Dispositions</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<span id="table-2"></span><table class="docutils align-default" id="id8">
+<caption><span class="caption-text">Table 2 Dispositions</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 23%" />
 <col style="width: 26%" />
@@ -463,8 +453,8 @@ subtracted from an entity without altering the entity.  Use the <a class="refere
 </pre></div>
 </div>
 <p>See <a class="reference internal" href="#table-3">Table 3</a>.</p>
-<span id="table-3"></span><table class="docutils align-default" id="id10">
-<caption><span class="caption-text">Table 3 Qualities</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<span id="table-3"></span><table class="docutils align-default" id="id9">
+<caption><span class="caption-text">Table 3 Qualities</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 23%" />
 <col style="width: 26%" />
@@ -525,11 +515,11 @@ subtracted from an entity without altering the entity.  Use the <a class="refere
 </table>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="id4"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dt class="label" id="id3"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
 <dd><p>By OBO-complaint, we mean the ORG ontology has been developed in accordance with
 <a class="reference external" href="http://www.obofoundry.org/principles/fp-000-summary.html">Open Biomedical Ontologies (OBO) Principles</a>.</p>
 </dd>
-<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
+<dt class="label" id="id4"><span class="brackets">2</span></dt>
 <dd><p>The OBO community is having an on-going conversation about the subsumption of
 organization.  OBI defines organization as a material entity.  The VIVO Project
 disagrees with this

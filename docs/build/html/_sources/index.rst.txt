@@ -15,6 +15,14 @@ scholarship by the `VIVO Project <https://vivoweb.org>`_. The Organization Ontol
 not limited to the representation of 
 scholarship -- it can be used to represent organizations in any setting.
 
+In :ref:`VIVO 1 <glossary>`, organizational representation was part of the VIVO 
+ontology.  In the new VIVO ontology, organizational
+representation has been removed in favor of this new Organizational Ontology.  The
+Organizational Ontology  
+is independent of VIVO and 
+can be used in any setting where information about organizations needs to be 
+represented.
+
 An organization is a group of people with a purpose. It is not merely a group of 
 people -- that would be a collection of people, not an organization. The purpose
 may be explicit or implicit. Organizations may be legally constituted or informal.

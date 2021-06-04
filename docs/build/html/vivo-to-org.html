@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Translating from VIVO to the VIVO Organization Ontology &mdash; The Organization Ontology  documentation</title>
+  <title>Translating from VIVO to the Organization Ontology &mdash; The Organization Ontology  documentation</title>
   
 
   
@@ -99,7 +99,7 @@
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Translating from VIVO to the VIVO Organization Ontology</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Translating from VIVO to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
@@ -155,7 +155,7 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Translating from VIVO to the VIVO Organization Ontology</li>
+      <li>Translating from VIVO to the Organization Ontology</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -174,15 +174,15 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="translating-from-vivo-to-the-vivo-organization-ontology">
-<h1>Translating from VIVO to the VIVO Organization Ontology<a class="headerlink" href="#translating-from-vivo-to-the-vivo-organization-ontology" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="translating-from-vivo-to-the-organization-ontology">
+<h1>Translating from VIVO to the Organization Ontology<a class="headerlink" href="#translating-from-vivo-to-the-organization-ontology" title="Permalink to this headline">¶</a></h1>
 <p>For those familiar with representing organizations using the VIVO Ontology,
 we provide a guide for translating assertions in the VIVO Ontology to assertions
-in the VIVO Organization Ontology <a class="footnote-reference brackets" href="#id5" id="id1">1</a>.</p>
+in the Organization Ontology <a class="footnote-reference brackets" href="#id5" id="id1">1</a>.</p>
 <div class="section" id="translating-types">
 <h2>Translating Types<a class="headerlink" href="#translating-types" title="Permalink to this headline">¶</a></h2>
 <p>The VIVO Ontology organization types are presented in <a class="reference internal" href="#table-16">Table 16</a> with instructions
-for translating each.  The VIVO Organization Ontology separates the concept of
+for translating each.  The Organization Ontology separates the concept of
 what the organization “is” (company, organization part, etc) from what the
 organization “does” (hospital, library, etc).  In many cases, the VIVO Ontology
 combined these and information about one or the other (“is”, “does”) is missing.</p>
@@ -191,10 +191,10 @@ assertion of purpose.  The type of organization (organization part, non-profit) 
 missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
 a specific type <a class="footnote-reference brackets" href="#id6" id="id2">2</a>.</p>
-<p><a class="reference internal" href="#table-16">Table 16</a> provides a guide for translating VIVO organizational types to assertions
-in the VIVO Organization Ontology.</p>
+<p><a class="reference internal" href="#table-16">Table 16</a> provides a guide for translating Organizational types to assertions
+in the Organization Ontology.</p>
 <span id="table-16"></span><table class="docutils align-default" id="id9">
-<caption><span class="caption-text">Table 16 Translating VIVO types to VIVO Organizational assertions</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">Table 16 Translating VIVO types to Organizational Ontology assertions</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 32%" />
 <col style="width: 68%" />
@@ -353,7 +353,7 @@ research</p>
 <dl class="footnote brackets">
 <dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
 <dd><p>We in tend to provide SPARQL CONSTRUCT queries for automatica translation of
-VIVO Ontology organization assertions to VIVO Organization Ontology assertions
+VIVO Ontology organization assertions to Organization Ontology assertions
 in the future.  Consider this guide as advice to the adventurous, or to collaborators
 who would like to draft, test, and contribute such queries.</p>
 </dd>
@@ -362,7 +362,7 @@ who would like to draft, test, and contribute such queries.</p>
 in New York City is a non-profit organization.  The Florida Museum of Natural
 History in Gainesville, Florida, is an organizational part of the University of
 Florida.  In the VIVO
-Ontology, both would be asserted to be type vivo:Museum.  In the VIVO Organization
+Ontology, both would be asserted to be type vivo:Museum.  In the Organization
 Ontology, the first would be asserted to be non-profit, the second organization
 part.  Both would be asserted to have disposition museum.</p>
 </dd>

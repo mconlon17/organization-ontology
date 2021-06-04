@@ -45,6 +45,14 @@ Ontology.  Given *any* ontology, the script can:
    
 #. Update lists of properties and classes as subsidiary tables of contents.
 
+Automated GitHub pages
+----------------------
+
+The documentation is automatically built and deployed on GitHub Pages using GitHub
+Actions.  The scripts to do this were written by Michael Altfield and
+documented here: `Continuous Documentation: Hosting Read the Docs on GitHub Pages 
+(1/2) <https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1/>`_
+
 Resulting Documentation Features
 --------------------------------
    
