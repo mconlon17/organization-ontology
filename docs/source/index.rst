@@ -1,5 +1,3 @@
-.. The Organization Ontology index file
-
 The Organization Ontology
 =========================================
 
