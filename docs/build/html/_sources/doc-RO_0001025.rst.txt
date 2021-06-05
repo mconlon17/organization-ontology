@@ -1,6 +1,4 @@
 
-  .. _RO_0001025:
-  .. _located in:
   .. index:: 
      single: RO_0001025; located in
      single: located in; RO_0001025

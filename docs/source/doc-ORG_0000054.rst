@@ -1,6 +1,4 @@
 
-  .. _ORG_0000054:
-  .. _dissolution process boundary:
   .. index:: 
      single: ORG_0000054; dissolution process boundary
      single: dissolution process boundary; ORG_0000054

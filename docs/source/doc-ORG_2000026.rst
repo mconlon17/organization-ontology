@@ -1,6 +1,4 @@
 
-  .. _ORG_2000026:
-  .. _has person member:
   .. index:: 
      single: ORG_2000026; has person member
      single: has person member; ORG_2000026

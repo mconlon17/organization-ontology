@@ -1,6 +1,4 @@
 
-  .. _ORG_3000003:
-  .. _has postal address representation:
   .. index:: 
      single: ORG_3000003; has postal address representation
      single: has postal address representation; ORG_3000003

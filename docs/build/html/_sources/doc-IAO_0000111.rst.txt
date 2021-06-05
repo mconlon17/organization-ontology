@@ -1,6 +1,4 @@
 
-  .. _IAO_0000111:
-  .. _editor preferred label:
   .. index:: 
      single: IAO_0000111; editor preferred label
      single: editor preferred label; IAO_0000111

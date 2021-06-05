@@ -1,6 +1,4 @@
 
-  .. _ORG_2000016:
-  .. _has organizational employee:
   .. index:: 
      single: ORG_2000016; has organizational employee
      single: has organizational employee; ORG_2000016

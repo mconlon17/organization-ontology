@@ -1,6 +1,4 @@
 
-  .. _RO_0002323:
-  .. _mereotopologically related to:
   .. index:: 
      single: RO_0002323; mereotopologically related to
      single: mereotopologically related to; RO_0002323

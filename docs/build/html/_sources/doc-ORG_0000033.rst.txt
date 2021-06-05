@@ -1,6 +1,4 @@
 
-  .. _ORG_0000033:
-  .. _sports disposition:
   .. index:: 
      single: ORG_0000033; sports disposition
      single: sports disposition; ORG_0000033

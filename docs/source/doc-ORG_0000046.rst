@@ -1,6 +1,4 @@
 
-  .. _ORG_0000046:
-  .. _geographic point:
   .. index:: 
      single: ORG_0000046; geographic point
      single: geographic point; ORG_0000046

@@ -31,7 +31,7 @@ in the VIVO Organization Ontology.
                                Disposition is airline.
     Consortium                 Unknown type.  Assert Organization only.
     
-                               Type is often non-profit
+                               Type is often nonprofit
                                
                                Disposition is often association                 
     Corporation                Type is company.
@@ -55,7 +55,7 @@ in the VIVO Organization Ontology.
     MedicalOrganization        Unknown type.  Assert Organization only.
                                 
                                Disposition is healthcare provider
-    NGO                        Type is non-profit 
+    NGO                        Type is nonprofit 
                                                                                       
                                Disposition is unknown.                  
     NewsMediaOrganization      Type is unknown.  Assert Organization only.
@@ -70,7 +70,7 @@ in the VIVO Organization Ontology.
     SportsOrganization         Type is unknown.  Assert organization only.
     
                                Disposition is sports.
-    WorkersUnion               Type is unknown.  Often non-profit.
+    WorkersUnion               Type is unknown.  Often nonprofit.
     
                                Disposition is labor union.
     ========================== ======================================

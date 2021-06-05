@@ -1,6 +1,4 @@
 
-  .. _ORG_2000024:
-  .. _has organizational appointee:
   .. index:: 
      single: ORG_2000024; has organizational appointee
      single: has organizational appointee; ORG_2000024

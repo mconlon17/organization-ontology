@@ -1,6 +1,4 @@
 
-  .. _ORG_0000052:
-  .. _founding process boundary:
   .. index:: 
      single: ORG_0000052; founding process boundary
      single: founding process boundary; ORG_0000052

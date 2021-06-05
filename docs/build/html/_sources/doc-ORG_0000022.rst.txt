@@ -1,6 +1,4 @@
 
-  .. _ORG_0000022:
-  .. _research disposition:
   .. index:: 
      single: ORG_0000022; research disposition
      single: research disposition; ORG_0000022

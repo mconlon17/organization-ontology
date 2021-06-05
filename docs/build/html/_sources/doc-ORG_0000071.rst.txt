@@ -1,6 +1,4 @@
 
-  .. _ORG_0000071:
-  .. _organizational associate role:
   .. index:: 
      single: ORG_0000071; organizational associate role
      single: organizational associate role; ORG_0000071

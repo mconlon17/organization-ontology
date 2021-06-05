@@ -1,6 +1,4 @@
 
-  .. _ORG_0000042:
-  .. _facility:
   .. index:: 
      single: ORG_0000042; facility
      single: facility; ORG_0000042

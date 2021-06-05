@@ -1,6 +1,4 @@
 
-  .. _ORG_3000007:
-  .. _has organization name:
   .. index:: 
      single: ORG_3000007; has organization name
      single: has organization name; ORG_3000007

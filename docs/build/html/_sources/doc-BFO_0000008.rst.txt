@@ -1,6 +1,4 @@
 
-  .. _BFO_0000008:
-  .. _temporal region:
   .. index:: 
      single: BFO_0000008; temporal region
      single: temporal region; BFO_0000008

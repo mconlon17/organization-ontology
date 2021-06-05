@@ -6,14 +6,36 @@ See `Table 4`_.
 
 .. table:: Table 4 Identifiers
 
-    ======================  ========================  ================================================
-    Term ID                 Label                     Definition
-    ======================  ========================  ================================================
-    ``IAO_0022003``         crossref funder identifi  An identifier assigned by CrossRef to an organiz
-    ``IAO_0022006``         dbpedia identifier        A URL used by DBpedia to identify an entity
-    ``IAO_0022010``         global research organiza  An identifier assigned and managed by Digital Sc
-    ``IAO_0022014``         international standard n  An identifier for persons and organizations whic
-    ``IAO_0022022``         research organization re  An identifier assigned by ROR to research organi
-    ``IAO_0022027``         wikidata q number         QID (or Q number) is the unique identifier of a 
-    ``IAO_0022057``         ringgold identifier       The Ringgold Identifier is a unique numerical id
-    ======================  ========================  ================================================
+    =============================  ==================================================
+    Term ID - Label                Definition
+    =============================  ==================================================
+    :doc:`doc-IAO_0022003`         An identifier assigned by CrossRef to an
+
+                                   organization which has funded a project resulting
+
+                                   in a published work
+    :doc:`doc-IAO_0022006`         A URL used by DBpedia to identify an entity
+    :doc:`doc-IAO_0022010`         An identifier assigned and managed by Digital
+
+                                   Science for the purpose of denoting research
+
+                                   organizations
+    :doc:`doc-IAO_0022014`         An identifier for persons and organizations which
+
+                                   may be assigned by matching algorithms based on
+
+                                   records provided by publishers
+    :doc:`doc-IAO_0022022`         An identifier assigned by ROR to research
+
+                                   organizations in the world
+    :doc:`doc-IAO_0022027`         QID (or Q number) is the unique identifier of a
+
+                                   data item on Wikidata, comprising the letter "Q"
+
+                                   followed by one or more digits.
+    :doc:`doc-IAO_0022057`         The Ringgold Identifier is a unique numerical
+
+                                   identifier applied to organizations in the
+
+                                   scholarly supply chain
+    =============================  ==================================================

@@ -1,6 +1,4 @@
 
-  .. _IAO_0000412:
-  .. _imported from:
   .. index:: 
      single: IAO_0000412; imported from
      single: imported from; IAO_0000412
@@ -22,7 +20,7 @@ IAO_0000412 - imported from
 
 .. topic:: Term editor
 
-    PERSON:Alan Ruttenberg
-
     PERSON:Melanie Courtot
+
+    PERSON:Alan Ruttenberg
 

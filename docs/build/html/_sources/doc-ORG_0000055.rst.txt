@@ -1,6 +1,4 @@
 
-  .. _ORG_0000055:
-  .. _succession process:
   .. index:: 
      single: ORG_0000055; succession process
      single: succession process; ORG_0000055

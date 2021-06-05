@@ -1,6 +1,4 @@
 
-  .. _IAO_0022057:
-  .. _ringgold identifier:
   .. index:: 
      single: IAO_0022057; ringgold identifier
      single: ringgold identifier; IAO_0022057

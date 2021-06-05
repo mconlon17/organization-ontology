@@ -1,6 +1,4 @@
 
-  .. _BFO_0000001:
-  .. _entity:
   .. index:: 
      single: BFO_0000001; entity
      single: entity; BFO_0000001

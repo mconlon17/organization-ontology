@@ -1,6 +1,4 @@
 
-  .. _ORG_0000043:
-  .. _building:
   .. index:: 
      single: ORG_0000043; building
      single: building; ORG_0000043

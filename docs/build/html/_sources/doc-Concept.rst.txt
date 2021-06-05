@@ -1,16 +1,14 @@
 
-  .. _Concept:
-  .. _(skos) concept:
   .. index:: 
-     single: Concept; (skos) concept
-     single: (skos) concept; Concept
+     single: Concept; concept (skos)
+     single: concept (skos); Concept
 
-Concept - (skos) concept
+Concept - concept (skos)
 ====================================================================================
 
 .. topic:: Label
 
-    (skos) concept
+    concept (skos)
 
 .. topic:: Definition
 

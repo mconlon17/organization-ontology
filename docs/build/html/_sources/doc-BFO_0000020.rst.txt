@@ -1,6 +1,4 @@
 
-  .. _BFO_0000020:
-  .. _specifically dependent continuant:
   .. index:: 
      single: BFO_0000020; specifically dependent continuant
      single: specifically dependent continuant; BFO_0000020

@@ -93,14 +93,15 @@
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datetimes.html">Dates and Times</a></li>
 <li class="toctree-l1"><a class="reference internal" href="associations.html">Associations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="classes.html">Classes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
-<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the VIVO Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">For Ontology Authors</a></li>
@@ -175,7 +176,82 @@
             
   <div class="section" id="for-ontology-authors">
 <h1>For Ontology Authors<a class="headerlink" href="#for-ontology-authors" title="Permalink to this headline">¶</a></h1>
-<p>Here will have information for those writing ontologies.</p>
+<p>The Organization Ontology has been developed using <a class="reference external" href="http://www.ontobee.org/ontology/BFO">Basic Formal Ontology (BFO)</a> as an upper level ontology,
+and in an attempt to follow the Open Biomedical Ontologies (OBO) Principles.  Many ontologies have been developed using
+this approach.  Many of these ontologies can be found on <a class="reference external" href="http://ontobee.org">Ontobee</a></p>
+<div class="section" id="domain">
+<h2>Domain<a class="headerlink" href="#domain" title="Permalink to this headline">¶</a></h2>
+<p>In designing the Organization Ontology, we first conceive of the domain of organizations,
+that is we develop a use case for the ontology.  This <em>domain definition</em> guides us
+throughout design and implementation, indicating terms that should be included and those
+that should be defined elsewhere.  From time to time, terms must be defined to
+express important assertions regarding organizations, but have not been defined
+elsewhere in a forma that can be used here.  Such terms have a curation status
+indicating that we we would prefer if these terms are defined elsewhere.</p>
+</div>
+<div class="section" id="reusing-terms">
+<h2>Reusing terms<a class="headerlink" href="#reusing-terms" title="Permalink to this headline">¶</a></h2>
+<p>We are generally cautious to reuse terms from other ontologies.  To reuse terms, we
+require the ontology in which they are defined to:</p>
+<ol class="arabic simple">
+<li><p>Use BFO has an upper level ontology.  We have made just a few exceptions and
+in each case we have provided a superclass for the term in BFO to create a
+consistent and complete subsumption hierarchy.</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Conform to OBO principles. Again, we have made just a few exceptions.</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>An appropriate license for the ontology whose terms we will reuse.  When a license
+for an ontology is not clear, we cannot use its terms.</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Active maintenance.  Ontologies can be slow to add terms and to fix things that
+need fixing.  If an ontology is not actively maintained, we cannot use its terms.</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Use of MIREOT, a plug-in for protege.  When terms from other ontologies
+are needed, we use protege to edit <cite>org-header.ttl</cite> and add the the terms using
+the MIREOT plug-in.  This provides a consistent means for adding terms.</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>We trim out annotation properties of included terms that are not of interest.</p></li>
+</ol>
+</div>
+<div class="section" id="use-of-templates">
+<h2>Use of templates<a class="headerlink" href="#use-of-templates" title="Permalink to this headline">¶</a></h2>
+<p>All terms defined in the Organization Ontology are created using templates.  There are
+templates for classes, annotation properties, datatype properties, object properties,
+and named individuals.  In each case, the columns correspond to annotations, class
+expressions and other declarations used to create each term.</p>
+</div>
+<div class="section" id="consistent-build">
+<h2>Consistent build<a class="headerlink" href="#consistent-build" title="Permalink to this headline">¶</a></h2>
+<p>The ontology file <code class="docutils literal notranslate"><span class="pre">org.ttl</span></code> is built using a simple script, <code class="docutils literal notranslate"><span class="pre">build.sh</span></code>  The script
+performs four operations:</p>
+<ol class="arabic simple">
+<li><p>Makes data useful for ontology users.</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Makes ontological assertions from the templates</p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Merges org-header and the template assertions into <code class="docutils literal notranslate"><span class="pre">org.ttl</span></code></p></li>
+</ol>
+<ol class="arabic simple">
+<li><p>Validates <code class="docutils literal notranslate"><span class="pre">org.ttl</span></code></p></li>
+</ol>
+</div>
+<div class="section" id="validation">
+<h2>Validation<a class="headerlink" href="#validation" title="Permalink to this headline">¶</a></h2>
+<p>The ontology is validated on each build using <em>robot validate</em></p>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>We document the ontology as it is written.  See <cite>For Documentation Authors
+&lt;documentation-authors&gt;_</cite>  Documenting as we write the ontology helps with
+consistency, accuracy, and completeness.</p>
+</div>
 </div>
 
 

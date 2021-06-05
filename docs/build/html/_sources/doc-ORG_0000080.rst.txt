@@ -1,6 +1,4 @@
 
-  .. _ORG_0000080:
-  .. _media disposition:
   .. index:: 
      single: ORG_0000080; media disposition
      single: media disposition; ORG_0000080

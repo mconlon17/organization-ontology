@@ -1,6 +1,4 @@
 
-  .. _ORG_2000004:
-  .. _has organizational interest:
   .. index:: 
      single: ORG_2000004; has organizational interest
      single: has organizational interest; ORG_2000004

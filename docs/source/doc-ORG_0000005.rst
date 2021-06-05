@@ -1,6 +1,4 @@
 
-  .. _ORG_0000005:
-  .. _informal organization:
   .. index:: 
      single: ORG_0000005; informal organization
      single: informal organization; ORG_0000005

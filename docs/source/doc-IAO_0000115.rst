@@ -1,6 +1,4 @@
 
-  .. _IAO_0000115:
-  .. _definition:
   .. index:: 
      single: IAO_0000115; definition
      single: definition; IAO_0000115

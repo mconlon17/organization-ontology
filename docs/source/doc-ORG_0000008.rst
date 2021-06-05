@@ -1,6 +1,4 @@
 
-  .. _ORG_0000008:
-  .. _association disposition:
   .. index:: 
      single: ORG_0000008; association disposition
      single: association disposition; ORG_0000008

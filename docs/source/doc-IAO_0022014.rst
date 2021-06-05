@@ -1,6 +1,4 @@
 
-  .. _IAO_0022014:
-  .. _international standard name identifier:
   .. index:: 
      single: IAO_0022014; international standard name identifier
      single: international standard name identifier; IAO_0022014

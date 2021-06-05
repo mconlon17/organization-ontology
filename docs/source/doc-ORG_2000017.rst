@@ -1,6 +1,4 @@
 
-  .. _ORG_2000017:
-  .. _organizational employee of:
   .. index:: 
      single: ORG_2000017; organizational employee of
      single: organizational employee of; ORG_2000017

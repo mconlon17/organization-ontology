@@ -1,6 +1,4 @@
 
-  .. _IAO_0000030:
-  .. _information content entity:
   .. index:: 
      single: IAO_0000030; information content entity
      single: information content entity; IAO_0000030
@@ -26,11 +24,11 @@ IAO_0000030 - information content entity
 
 .. topic:: Editor's note
 
+    2014-03-10: The use of "thing" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).
+
     information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
     
     Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.
-
-    2014-03-10: The use of "thing" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).
 
 .. topic:: Imported From
 

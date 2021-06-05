@@ -1,6 +1,4 @@
 
-  .. _ORG_0000081:
-  .. _performing disposition:
   .. index:: 
      single: ORG_0000081; performing disposition
      single: performing disposition; ORG_0000081

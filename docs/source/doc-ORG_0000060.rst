@@ -1,6 +1,4 @@
 
-  .. _ORG_0000060:
-  .. _organizational membership:
   .. index:: 
      single: ORG_0000060; organizational membership
      single: organizational membership; ORG_0000060
@@ -14,7 +12,7 @@ ORG_0000060 - organizational membership
 
 .. topic:: Definition
 
-    An asymmetric relationship involving two organizations in which one is a member of the other
+    The asymmetric relationship involving two organizations in which one is a member of the other
 
 .. topic:: Definition source
 

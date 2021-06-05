@@ -1,6 +1,4 @@
 
-  .. _BFO_0000054:
-  .. _realized in:
   .. index:: 
      single: BFO_0000054; realized in
      single: realized in; BFO_0000054
@@ -14,9 +12,9 @@ BFO_0000054 - realized in
 
 .. topic:: Alternate name
 
-    realized_in
-
     is realized by
+
+    realized_in
 
 .. topic:: Definition
 
@@ -24,11 +22,11 @@ BFO_0000054 - realized in
 
 .. topic:: Example
 
-    this fragility is realized in this shattering
-
     this investigator role is realized in this investigation
 
     this disease is realized in this disease course
+
+    this fragility is realized in this shattering
 
 .. topic:: Imported From
 

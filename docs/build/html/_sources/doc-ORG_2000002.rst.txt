@@ -1,6 +1,4 @@
 
-  .. _ORG_2000002:
-  .. _has occurent part:
   .. index:: 
      single: ORG_2000002; has occurent part
      single: has occurent part; ORG_2000002

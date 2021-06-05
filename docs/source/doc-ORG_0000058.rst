@@ -1,6 +1,4 @@
 
-  .. _ORG_0000058:
-  .. _spin-off process:
   .. index:: 
      single: ORG_0000058; spin-off process
      single: spin-off process; ORG_0000058

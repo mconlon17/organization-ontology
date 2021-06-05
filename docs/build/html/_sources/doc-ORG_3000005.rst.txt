@@ -1,6 +1,4 @@
 
-  .. _ORG_3000005:
-  .. _has URL representation:
   .. index:: 
      single: ORG_3000005; has URL representation
      single: has URL representation; ORG_3000005

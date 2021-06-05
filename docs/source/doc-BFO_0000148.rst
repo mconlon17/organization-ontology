@@ -1,6 +1,4 @@
 
-  .. _BFO_0000148:
-  .. _zero-dimensional temporal region:
   .. index:: 
      single: BFO_0000148; zero-dimensional temporal region
      single: zero-dimensional temporal region; BFO_0000148

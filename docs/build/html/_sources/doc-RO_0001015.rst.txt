@@ -1,6 +1,4 @@
 
-  .. _RO_0001015:
-  .. _location of:
   .. index:: 
      single: RO_0001015; location of
      single: location of; RO_0001015
@@ -18,9 +16,9 @@ RO_0001015 - location of
 
 .. topic:: Example
 
-    this cage is the location of this rat
-
     my head is the location of my brain
+
+    this cage is the location of this rat
 
 .. topic:: Editor's note
 

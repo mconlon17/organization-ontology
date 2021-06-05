@@ -1,6 +1,4 @@
 
-  .. _BFO_0000031:
-  .. _generically dependent continuant:
   .. index:: 
      single: BFO_0000031; generically dependent continuant
      single: generically dependent continuant; BFO_0000031

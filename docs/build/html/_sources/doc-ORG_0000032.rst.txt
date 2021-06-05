@@ -1,6 +1,4 @@
 
-  .. _ORG_0000032:
-  .. _project team disposition:
   .. index:: 
      single: ORG_0000032; project team disposition
      single: project team disposition; ORG_0000032

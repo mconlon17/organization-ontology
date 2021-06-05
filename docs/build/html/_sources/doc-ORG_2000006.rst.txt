@@ -1,6 +1,4 @@
 
-  .. _ORG_2000006:
-  .. _website of:
   .. index:: 
      single: ORG_2000006; website of
      single: website of; ORG_2000006

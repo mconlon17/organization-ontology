@@ -1,6 +1,4 @@
 
-  .. _ORG_0000083:
-  .. _person membership:
   .. index:: 
      single: ORG_0000083; person membership
      single: person membership; ORG_0000083

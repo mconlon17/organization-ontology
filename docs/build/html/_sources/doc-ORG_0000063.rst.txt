@@ -1,6 +1,4 @@
 
-  .. _ORG_0000063:
-  .. _student led organization quality:
   .. index:: 
      single: ORG_0000063; student led organization quality
      single: student led organization quality; ORG_0000063

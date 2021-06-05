@@ -1,6 +1,4 @@
 
-  .. _ORG_2000011:
-  .. _affiliated with:
   .. index:: 
      single: ORG_2000011; affiliated with
      single: affiliated with; ORG_2000011

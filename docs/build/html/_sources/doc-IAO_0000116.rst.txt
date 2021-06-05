@@ -1,6 +1,4 @@
 
-  .. _IAO_0000116:
-  .. _editor note:
   .. index:: 
      single: IAO_0000116; editor note
      single: editor note; IAO_0000116

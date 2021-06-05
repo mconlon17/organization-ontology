@@ -1,6 +1,4 @@
 
-  .. _RO_0000091:
-  .. _has disposition:
   .. index:: 
      single: RO_0000091; has disposition
      single: has disposition; RO_0000091

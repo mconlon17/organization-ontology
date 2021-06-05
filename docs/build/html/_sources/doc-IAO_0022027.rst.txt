@@ -1,6 +1,4 @@
 
-  .. _IAO_0022027:
-  .. _wikidata q number:
   .. index:: 
      single: IAO_0022027; wikidata q number
      single: wikidata q number; IAO_0022027

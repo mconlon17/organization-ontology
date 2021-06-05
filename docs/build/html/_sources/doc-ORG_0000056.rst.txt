@@ -1,6 +1,4 @@
 
-  .. _ORG_0000056:
-  .. _succession process boundary:
   .. index:: 
      single: ORG_0000056; succession process boundary
      single: succession process boundary; ORG_0000056
@@ -14,7 +12,7 @@ ORG_0000056 - succession process boundary
 
 .. topic:: Definition
 
-    A process boundary within a succession process.  Complex succesion processes may have many boundaries.
+    The process boundary within a succession process.  Complex succesion processes may have many boundaries.
 
 .. topic:: Definition source
 

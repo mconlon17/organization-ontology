@@ -1,6 +1,4 @@
 
-  .. _ORG_0000061:
-  .. _organizational member role:
   .. index:: 
      single: ORG_0000061; organizational member role
      single: organizational member role; ORG_0000061
@@ -18,7 +16,7 @@ ORG_0000061 - organizational member role
 
 .. topic:: Definition
 
-    A role of an organization in being a member of another
+    The role of an organization in being a member of another
 
 .. topic:: Definition source
 

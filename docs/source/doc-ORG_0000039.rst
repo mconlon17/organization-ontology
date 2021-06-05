@@ -1,6 +1,4 @@
 
-  .. _ORG_0000039:
-  .. _wikipedia quality:
   .. index:: 
      single: ORG_0000039; wikipedia quality
      single: wikipedia quality; ORG_0000039

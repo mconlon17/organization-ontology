@@ -1,6 +1,4 @@
 
-  .. _ORG_0000028:
-  .. _military disposition:
   .. index:: 
      single: ORG_0000028; military disposition
      single: military disposition; ORG_0000028

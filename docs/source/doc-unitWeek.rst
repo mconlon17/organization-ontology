@@ -1,14 +1,12 @@
 
-  .. _unitWeek:
-  .. _Week (unit of temporal duration):
   .. index:: 
-     single: unitWeek; Week (unit of temporal duration)
-     single: Week (unit of temporal duration); unitWeek
+     single: unitWeek; week (unit of temporal duration)
+     single: week (unit of temporal duration); unitWeek
 
-unitWeek - Week (unit of temporal duration)
+unitWeek - week (unit of temporal duration)
 ====================================================================================
 
 .. topic:: Label
 
-    Week (unit of temporal duration)
+    week (unit of temporal duration)
 

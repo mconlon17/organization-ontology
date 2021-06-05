@@ -1,6 +1,4 @@
 
-  .. _ORG_0000048:
-  .. _country:
   .. index:: 
      single: ORG_0000048; country
      single: country; ORG_0000048

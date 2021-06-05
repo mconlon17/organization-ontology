@@ -15,7 +15,7 @@ organization "does" (hospital, library, etc).  In many cases, the VIVO Ontology
 combined these and information about one or the other ("is", "does") is missing.
 
 For example, consider vivo:Museum.  This assertion of type is actually an
-assertion of purpose.  The type of organization (organization part, non-profit) is
+assertion of purpose.  The type of organization (organization part, nonprofit) is
 missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
 a specific type [#]_.
@@ -32,7 +32,7 @@ in the Organization Ontology.
     ========================== ================================
     Association                Unknown type.  Assert Organization only.
     
-                               Type is often non-profit.
+                               Type is often nonprofit.
                                 
                                Disposition is association.
     Center                     Unknown type.  Assert organization only.
@@ -51,7 +51,7 @@ in the Organization Ontology.
                                Disposition is often commerce
     Consortium                 Unknown type.  Assert Organization only.
     
-                               Type is often non-profit
+                               Type is often nonprofit
                                
                                Disposition is often association
     CoreLaboratory             Type is organization part
@@ -69,7 +69,7 @@ in the Organization Ontology.
     ERO_00000565               Type is organizational part
     
                                Disposition is technology transfer
-    Foundation                 Type may be non-profit
+    Foundation                 Type may be nonprofit
     
                                Type may be organizational part
                                
@@ -141,11 +141,11 @@ in the Organization Ontology.
    who would like to draft, test, and contribute such queries.
    
 .. [#] Note that additional information is needed.  The Metropolitan Museum of Art
-   in New York City is a non-profit organization.  The Florida Museum of Natural
+   in New York City is a nonprofit organization.  The Florida Museum of Natural
    History in Gainesville, Florida, is an organizational part of the University of 
    Florida.  In the VIVO
    Ontology, both would be asserted to be type vivo:Museum.  In the Organization
-   Ontology, the first would be asserted to be non-profit, the second organization
+   Ontology, the first would be asserted to be nonprofit, the second organization
    part.  Both would be asserted to have disposition museum.
    
 .. [#] To be determined.

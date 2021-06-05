@@ -1,6 +1,4 @@
 
-  .. _ORG_0000009:
-  .. _consortium disposition:
   .. index:: 
      single: ORG_0000009; consortium disposition
      single: consortium disposition; ORG_0000009

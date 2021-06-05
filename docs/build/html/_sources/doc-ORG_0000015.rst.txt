@@ -1,6 +1,4 @@
 
-  .. _ORG_0000015:
-  .. _funding disposition:
   .. index:: 
      single: ORG_0000015; funding disposition
      single: funding disposition; ORG_0000015

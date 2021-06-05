@@ -1,6 +1,4 @@
 
-  .. _RO_0002234:
-  .. _has output:
   .. index:: 
      single: RO_0002234; has output
      single: has output; RO_0002234

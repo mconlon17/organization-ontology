@@ -33,7 +33,7 @@ An overview of the classes and properties follows the figure.
 At the center of the figure note that an organization has a name (rdfs:label).
 
 An organization has a type.  In the figure, the type of the organization is 
-org:non-profit.  See below for a further discussion of types.
+org:nonprofit.  See below for a further discussion of types.
 
 Now proceeding clockwise from type:
 
@@ -105,7 +105,8 @@ Examples
 
 .. topic:: Duke University
 
-    Duke is a non-profit with a dispositions of university, education, and research
+    Duke is a nonprofit organization
+    with a dispositions of university, education, and research
     
     Duke has an organization part, Duke Health, which has a disposition of
     healthcare.  Duke Health has an organizational part, Duke University Hospital,

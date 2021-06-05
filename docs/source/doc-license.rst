@@ -1,6 +1,4 @@
 
-  .. _license:
-  .. _No label:
   .. index:: 
      single: license; No label
      single: No label; license

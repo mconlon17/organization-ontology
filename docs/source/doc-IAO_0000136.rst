@@ -1,6 +1,4 @@
 
-  .. _IAO_0000136:
-  .. _is about:
   .. index:: 
      single: IAO_0000136; is about
      single: is about; IAO_0000136

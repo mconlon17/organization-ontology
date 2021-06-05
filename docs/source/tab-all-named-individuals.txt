@@ -6,14 +6,14 @@ See `Table 9`_.
 
 .. table:: Table 9 Named Individuals
 
-    ======================  ========================  ================================================
-    Term ID                 Label                     Definition
-    ======================  ========================  ================================================
-    ``unitDay``             Day (unit of temporal du  None
-    ``unitHour``            Hour (unit of temporal d  None
-    ``unitMinute``          Minute (unit of temporal  None
-    ``unitMonth``           Month (unit of temporal   None
-    ``unitSecond``          Second (unit of temporal  None
-    ``unitWeek``            Week (unit of temporal d  None
-    ``unitYear``            Year (unit of temporal d  None
-    ======================  ========================  ================================================
+    =============================  ==================================================
+    Term ID - Label                Definition
+    =============================  ==================================================
+    :doc:`doc-unitDay`             None
+    :doc:`doc-unitHour`            None
+    :doc:`doc-unitMinute`          None
+    :doc:`doc-unitMonth`           None
+    :doc:`doc-unitSecond`          None
+    :doc:`doc-unitWeek`            None
+    :doc:`doc-unitYear`            None
+    =============================  ==================================================

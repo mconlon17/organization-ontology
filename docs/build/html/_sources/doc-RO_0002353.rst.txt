@@ -1,6 +1,4 @@
 
-  .. _RO_0002353:
-  .. _output of:
   .. index:: 
      single: RO_0002353; output of
      single: output of; RO_0002353

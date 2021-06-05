@@ -6,56 +6,234 @@ See `Table 7`_.
 
 .. table:: Table 7 Object Properties
 
-    ======================  ========================  ================================================
-    Term ID                 Label                     Definition
-    ======================  ========================  ================================================
-    ``BFO_0000050``         part of                   A core relation that holds between a part and it
-    ``BFO_0000051``         has part                  A core relation that holds between a whole and i
-    ``BFO_0000054``         realized in               A relation between a realizable entity and a pro
-    ``BFO_0000055``         realizes                  A relation between a process and a realizable en
-    ``IAO_0000136``         is about                  A (currently) primitive relation that relates an
-    ``IAO_0000219``         denotes                   A primitive, instance-level, relation obtaining 
-    ``IAO_0000235``         denoted by                Inverse of the relation 'denotes'
-    ``ORG_2000001``         occupies                  The property that associates an organization occ
-    ``ORG_2000002``         has occurent part         The property that associates an occurent which h
-    ``ORG_2000003``         has time instant          The property that associates a process boundary 
-    ``ORG_2000004``         has organizational inter  The property that associates an organization wit
-    ``ORG_2000005``         has website               The property that associates an organization wit
-    ``ORG_2000006``         website of                The property that associates a website with its 
-    ``ORG_2000007``         has successor organizati  The property that associates an organization wit
-    ``ORG_2000008``         successor organization o  The property that associates an on organization 
-    ``ORG_2000009``         has organizational part   The property that associates an organization wit
-    ``ORG_2000010``         organizational part of    The property that associates an organization par
-    ``ORG_2000011``         affiliated with           The property that associates an organization wit
-    ``ORG_2000012``         has spin-off organizatio  The property that associates an organization wit
-    ``ORG_2000013``         spin-off organization of  The property that associates an organization wit
-    ``ORG_2000014``         has organizational membe  The property that associates an organization wit
-    ``ORG_2000015``         organizational member of  The property that associates a member organizait
-    ``ORG_2000016``         has organizational emplo  The property that assocates an organization with
-    ``ORG_2000017``         organizational employee   The property that associates a person with the o
-    ``ORG_2000018``         has organizational assoc  The property that associates an organization wit
-    ``ORG_2000019``         organizational associate  The property that associates a person with an or
-    ``ORG_2000020``         has organizational head   The property that associates an organziation wit
-    ``ORG_2000021``         organizational head of    The property that associates a person with an or
-    ``ORG_2000022``         has organizational volun  The property that associates an organization wit
-    ``ORG_2000023``         organizational volunteer  The property that associates a person with an or
-    ``ORG_2000024``         has organizational appoi  The property that associates an organization wit
-    ``ORG_2000025``         organizational appointee  The property that associates a person with the o
-    ``ORG_2000026``         has person member         The property that associates an organization wit
-    ``ORG_2000027``         person member of          The property that associates a person with an or
-    ``RO_0000052``          inheres in                A relation between a specifically dependent cont
-    ``RO_0000053``          bearer of                 A relation between an independent continuant (th
-    ``RO_0000056``          participates in           A relation between a continuant and a process, i
-    ``RO_0000057``          has participant           A relation between a process and a continuant, i
-    ``RO_0000080``          quality of                A relation between a quality and an independent 
-    ``RO_0000086``          has quality               A relation between an independent continuant (th
-    ``RO_0000091``          has disposition           A relation between an independent continuant (th
-    ``RO_0001015``          location of               A relation between two independent continuants, 
-    ``RO_0001025``          located in                A relation between two independent continuants, 
-    ``RO_0002012``          occurent part of          A part of relation that applies only between occ
-    ``RO_0002131``          overlaps                  X overlaps y if and only if there exists some z 
-    ``RO_0002234``          has output                P has output c iff c is a participant in p, c is
-    ``RO_0002323``          mereotopologically relat  A mereological relationship or a topological rel
-    ``RO_0002353``          output of                 Inverse of has output
-    ``unitType``            temporal unit type        An indicator of the temporal precision of a time
-    ======================  ========================  ================================================
+    =============================  ==================================================
+    Term ID - Label                Definition
+    =============================  ==================================================
+    :doc:`doc-BFO_0000050`         A core relation that holds between a part and its
+
+                                   whole
+    :doc:`doc-BFO_0000051`         A core relation that holds between a whole and its
+
+                                   part
+    :doc:`doc-BFO_0000054`         A relation between a realizable entity and a
+
+                                   process, where there is some material entity that
+
+                                   is bearer of the realizable entity and
+
+                                   participates in the process, and the realizable
+
+                                   entity comes to be realized in the course of the
+
+                                   process
+    :doc:`doc-BFO_0000055`         A relation between a process and a realizable
+
+                                   entity, where there is some material entity that
+
+                                   is bearer of the realizable entity and
+
+                                   participates in the process, and the realizable
+
+                                   entity comes to be realized in the course of the
+
+                                   process
+    :doc:`doc-IAO_0000136`         A (currently) primitive relation that relates an
+
+                                   information artifact to an entity.
+    :doc:`doc-IAO_0000219`         A primitive, instance-level, relation obtaining
+
+                                   between an information content entity and some
+
+                                   portion of reality. Denotation is what happens
+
+                                   when someone creates an information content entity
+
+                                   E in order to specifically refer to something. The
+
+                                   only relation between E and the thing is that E
+
+                                   can be used to 'pick out' the thing. This relation
+
+                                   connects those two together. Freedictionary.com
+
+                                   sense 3: To signify directly; refer to
+
+                                   specifically
+    :doc:`doc-IAO_0000235`         Inverse of the relation 'denotes'
+    :doc:`doc-ORG_2000001`         The property that associates an organization
+
+                                   occupies a geographical location is it has one of
+
+                                   more people at the location, or has legal rights
+
+                                   to the location
+    :doc:`doc-ORG_2000002`         The property that associates an occurent which has
+
+                                   an occurent part wholly contained within it
+    :doc:`doc-ORG_2000003`         The property that associates a process boundary
+
+                                   with the time instant at which the process
+
+                                   boundary occurs
+    :doc:`doc-ORG_2000004`         The property that associates an organization with
+
+                                   a concept that the organization manifests in its
+
+                                   work
+    :doc:`doc-ORG_2000005`         The property that associates an organization with
+
+                                   its website
+    :doc:`doc-ORG_2000006`         The property that associates a website with its
+
+                                   organization
+    :doc:`doc-ORG_2000007`         The property that associates an organization with
+
+                                   the organization that succeeds it.  The preceeding
+
+                                   organization ceases to exist, the successor is
+
+                                   brought into existence
+    :doc:`doc-ORG_2000008`         The property that associates an on organization
+
+                                   with the organization that preceeded it
+    :doc:`doc-ORG_2000009`         The property that associates an organization with
+
+                                   one of its organizational parts
+    :doc:`doc-ORG_2000010`         The property that associates an organization part
+
+                                   with the organization of which it is a part
+    :doc:`doc-ORG_2000011`         The property that associates an organization with
+
+                                   another organization that is not an organizational
+
+                                   part associatiion
+    :doc:`doc-ORG_2000012`         The property that associates an organization with
+
+                                   a part that is now independent
+    :doc:`doc-ORG_2000013`         The property that associates an organization with
+
+                                   an organization of which it was formerly a part
+    :doc:`doc-ORG_2000014`         The property that associates an organization with
+
+                                   one of its members
+    :doc:`doc-ORG_2000015`         The property that associates a member organizaiton
+
+                                   with the organization of which it is a member
+    :doc:`doc-ORG_2000016`         The property that assocates an organization with
+
+                                   an employee of the organization
+    :doc:`doc-ORG_2000017`         The property that associates a person with the
+
+                                   organization of which that person is an employee
+    :doc:`doc-ORG_2000018`         The property that associates an organization with
+
+                                   a person who is associated with the organization
+    :doc:`doc-ORG_2000019`         The property that associates a person with an
+
+                                   organization with which they are associated
+    :doc:`doc-ORG_2000020`         The property that associates an organziation with
+
+                                   the person who is the head of the organization
+    :doc:`doc-ORG_2000021`         The property that associates a person with an
+
+                                   organization which they are they head of
+    :doc:`doc-ORG_2000022`         The property that associates an organization with
+
+                                   a person who volunteers for the organization
+    :doc:`doc-ORG_2000023`         The property that associates a person with an
+
+                                   organization for which they volunteer
+    :doc:`doc-ORG_2000024`         The property that associates an organization with
+
+                                   a person who is appointed by the organization to
+
+                                   some post or position within the organization
+    :doc:`doc-ORG_2000025`         The property that associates a person with the
+
+                                   organization which has appointed the person to
+
+                                   some post or position within the organization
+    :doc:`doc-ORG_2000026`         The property that associates an organization with
+
+                                   a person who is  a member of the organization
+    :doc:`doc-ORG_2000027`         The property that associates a person with an
+
+                                   organization of which the person is a member
+    :doc:`doc-RO_0000052`          A relation between a specifically dependent
+
+                                   continuant (the dependent) and an independent
+
+                                   continuant (the bearer), in which the dependent
+
+                                   specifically depends on the bearer for its
+
+                                   existence
+    :doc:`doc-RO_0000053`          A relation between an independent continuant (the
+
+                                   bearer) and a specifically dependent continuant
+
+                                   (the dependent), in which the dependent
+
+                                   specifically depends on the bearer for its
+
+                                   existence
+    :doc:`doc-RO_0000056`          A relation between a continuant and a process, in
+
+                                   which the continuant is somehow involved in the
+
+                                   process
+    :doc:`doc-RO_0000057`          A relation between a process and a continuant, in
+
+                                   which the continuant is somehow involved in the
+
+                                   process
+    :doc:`doc-RO_0000080`          A relation between a quality and an independent
+
+                                   continuant (the bearer), in which the quality
+
+                                   specifically depends on the bearer for its
+
+                                   existence
+    :doc:`doc-RO_0000086`          A relation between an independent continuant (the
+
+                                   bearer) and a quality, in which the quality
+
+                                   specifically depends on the bearer for its
+
+                                   existence
+    :doc:`doc-RO_0000091`          A relation between an independent continuant (the
+
+                                   bearer) and a disposition, in which the
+
+                                   disposition specifically depends on the bearer for
+
+                                   its existence
+    :doc:`doc-RO_0001015`          A relation between two independent continuants,
+
+                                   the location and the target, in which the target
+
+                                   is entirely within the location
+    :doc:`doc-RO_0001025`          A relation between two independent continuants,
+
+                                   the target and the location, in which the target
+
+                                   is entirely within the location
+    :doc:`doc-RO_0002012`          A part of relation that applies only between
+
+                                   occurents.
+    :doc:`doc-RO_0002131`          X overlaps y if and only if there exists some z
+
+                                   such that x has part z and z part of y
+    :doc:`doc-RO_0002234`          P has output c iff c is a participant in p, c is
+
+                                   present at the end of p, and c is not present at
+
+                                   the beginning of p.
+    :doc:`doc-RO_0002323`          A mereological relationship or a topological
+
+                                   relationship
+    :doc:`doc-RO_0002353`          Inverse of has output
+    :doc:`doc-unitType`            An indicator of the temporal precision of a time
+
+                                   instant
+    =============================  ==================================================

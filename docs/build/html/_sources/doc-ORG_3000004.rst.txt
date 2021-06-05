@@ -1,6 +1,4 @@
 
-  .. _ORG_3000004:
-  .. _has geolocation representation:
   .. index:: 
      single: ORG_3000004; has geolocation representation
      single: has geolocation representation; ORG_3000004

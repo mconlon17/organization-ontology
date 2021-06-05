@@ -1,6 +1,4 @@
 
-  .. _ORG_0000003:
-  .. _company:
   .. index:: 
      single: ORG_0000003; company
      single: company; ORG_0000003

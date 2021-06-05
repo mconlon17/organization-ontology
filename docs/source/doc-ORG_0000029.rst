@@ -1,6 +1,4 @@
 
-  .. _ORG_0000029:
-  .. _religious disposition:
   .. index:: 
      single: ORG_0000029; religious disposition
      single: religious disposition; ORG_0000029

@@ -2,14 +2,15 @@ Named Individuals
 =================
 
 **Named individuals** are entities which are instances of classes.  A university, a 
-non-profit, a government agency, a date, and a role in a project are all named individuals.
+continent, a building, a date, and a role in a project are all named individuals.
 
-.. include:: toc-NamedIndividual.txt
 
 All Named Individuals
 ---------------------
 
 .. include:: tab-all-named-individuals.txt
+
+.. include:: toc-NamedIndividual.txt
 
 .. We have a script that can read the ontology and write documentation pages, one per
    named individual.  The named individual pages will be listed in a toctree directive 

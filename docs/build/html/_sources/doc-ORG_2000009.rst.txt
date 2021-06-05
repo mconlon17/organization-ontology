@@ -1,6 +1,4 @@
 
-  .. _ORG_2000009:
-  .. _has organizational part:
   .. index:: 
      single: ORG_2000009; has organizational part
      single: has organizational part; ORG_2000009

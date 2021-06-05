@@ -1,6 +1,4 @@
 
-  .. _IAO_0000232:
-  .. _curator note:
   .. index:: 
      single: IAO_0000232; curator note
      single: curator note; IAO_0000232

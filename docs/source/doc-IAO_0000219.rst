@@ -1,6 +1,4 @@
 
-  .. _IAO_0000219:
-  .. _denotes:
   .. index:: 
      single: IAO_0000219; denotes
      single: denotes; IAO_0000219

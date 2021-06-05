@@ -1,6 +1,4 @@
 
-  .. _IAO_0020000:
-  .. _identifier:
   .. index:: 
      single: IAO_0020000; identifier
      single: identifier; IAO_0020000

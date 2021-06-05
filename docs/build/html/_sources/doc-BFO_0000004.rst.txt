@@ -1,6 +1,4 @@
 
-  .. _BFO_0000004:
-  .. _independent continuant:
   .. index:: 
      single: BFO_0000004; independent continuant
      single: independent continuant; BFO_0000004
@@ -18,25 +16,25 @@ BFO_0000004 - independent continuant
 
 .. topic:: Example
 
-    a heart
-
-    the interior of your mouth
+    the bottom right portion of a human torso
 
     an atom
 
-    an orchestra.
+    a molecule
 
-    a spatial region
+    the interior of your mouth
 
-    a leg
+    a heart
 
     a chair
 
-    the bottom right portion of a human torso
-
     an organism
 
-    a molecule
+    a spatial region
+
+    an orchestra.
+
+    a leg
 
 .. topic:: Imported From
 

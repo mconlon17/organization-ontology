@@ -1,6 +1,4 @@
 
-  .. _ORG_2000007:
-  .. _has successor organization:
   .. index:: 
      single: ORG_2000007; has successor organization
      single: has successor organization; ORG_2000007

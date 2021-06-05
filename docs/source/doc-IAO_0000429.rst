@@ -1,6 +1,4 @@
 
-  .. _IAO_0000429:
-  .. _email address:
   .. index:: 
      single: IAO_0000429; email address
      single: email address; IAO_0000429

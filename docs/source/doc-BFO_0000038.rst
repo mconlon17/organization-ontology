@@ -1,6 +1,4 @@
 
-  .. _BFO_0000038:
-  .. _one-dimensional temporal region:
   .. index:: 
      single: BFO_0000038; one-dimensional temporal region
      single: one-dimensional temporal region; BFO_0000038

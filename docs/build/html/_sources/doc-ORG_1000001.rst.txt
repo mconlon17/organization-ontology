@@ -1,6 +1,4 @@
 
-  .. _ORG_1000001:
-  .. _vivo 1 ontology reference:
   .. index:: 
      single: ORG_1000001; vivo 1 ontology reference
      single: vivo 1 ontology reference; ORG_1000001

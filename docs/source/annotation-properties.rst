@@ -12,8 +12,6 @@ status.  To assert that a term's metadata is complete, the assertion is:
 Alternative terms (IAO_0000118) are not common in the VIVO ontologies.  All other
 annotations are expected for all terms.
 
-.. include:: toc-AnnotationProperty.txt
-
 .. include:: tab-all-annotation-properties.txt
 
 .. _Table 11:
@@ -93,3 +91,5 @@ properties describe above in :ref:`Table 5`.
 ``skos:example``
 ``skos:prefLabel``
 ``skos:scopeNote``
+
+.. include:: toc-AnnotationProperty.txt

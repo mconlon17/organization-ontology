@@ -1,6 +1,4 @@
 
-  .. _RO_0000053:
-  .. _bearer of:
   .. index:: 
      single: RO_0000053; bearer of
      single: bearer of; RO_0000053

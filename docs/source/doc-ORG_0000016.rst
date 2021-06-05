@@ -1,6 +1,4 @@
 
-  .. _ORG_0000016:
-  .. _health care service provider disposition:
   .. index:: 
      single: ORG_0000016; health care service provider disposition
      single: health care service provider disposition; ORG_0000016

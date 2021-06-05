@@ -1,6 +1,4 @@
 
-  .. _ORG_0000019:
-  .. _museum disposition:
   .. index:: 
      single: ORG_0000019; museum disposition
      single: museum disposition; ORG_0000019

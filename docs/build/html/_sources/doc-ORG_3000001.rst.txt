@@ -1,6 +1,4 @@
 
-  .. _ORG_3000001:
-  .. _number of employees:
   .. index:: 
      single: ORG_3000001; number of employees
      single: number of employees; ORG_3000001

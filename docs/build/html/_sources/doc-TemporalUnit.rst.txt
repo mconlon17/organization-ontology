@@ -1,16 +1,14 @@
 
-  .. _TemporalUnit:
-  .. _Temporal unit:
   .. index:: 
-     single: TemporalUnit; Temporal unit
-     single: Temporal unit; TemporalUnit
+     single: TemporalUnit; temporal unit
+     single: temporal unit; TemporalUnit
 
-TemporalUnit - Temporal unit
+TemporalUnit - temporal unit
 ====================================================================================
 
 .. topic:: Label
 
-    Temporal unit
+    temporal unit
 
 .. topic:: Definition
 

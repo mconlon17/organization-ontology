@@ -1,6 +1,4 @@
 
-  .. _ORG_0000076:
-  .. _organizational appointee grantor role:
   .. index:: 
      single: ORG_0000076; organizational appointee grantor role
      single: organizational appointee grantor role; ORG_0000076

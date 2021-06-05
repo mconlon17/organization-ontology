@@ -1,6 +1,4 @@
 
-  .. _BFO_0000016:
-  .. _disposition:
   .. index:: 
      single: BFO_0000016; disposition
      single: disposition; BFO_0000016

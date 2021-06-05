@@ -1,6 +1,4 @@
 
-  .. _RO_0002012:
-  .. _occurent part of:
   .. index:: 
      single: RO_0002012; occurent part of
      single: occurent part of; RO_0002012

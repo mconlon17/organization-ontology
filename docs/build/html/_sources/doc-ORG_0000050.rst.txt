@@ -1,6 +1,4 @@
 
-  .. _ORG_0000050:
-  .. _populated place:
   .. index:: 
      single: ORG_0000050; populated place
      single: populated place; ORG_0000050

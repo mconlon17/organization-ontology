@@ -1,6 +1,4 @@
 
-  .. _ORG_0000082:
-  .. _labor union disposition:
   .. index:: 
      single: ORG_0000082; labor union disposition
      single: labor union disposition; ORG_0000082
@@ -14,9 +12,9 @@ ORG_0000082 - labor union disposition
 
 .. topic:: Alternate name
 
-    workers union
-
     trade union
+
+    workers union
 
 .. topic:: Definition
 

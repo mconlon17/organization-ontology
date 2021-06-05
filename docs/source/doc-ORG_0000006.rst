@@ -1,6 +1,4 @@
 
-  .. _ORG_0000006:
-  .. _organization part:
   .. index:: 
      single: ORG_0000006; organization part
      single: organization part; ORG_0000006

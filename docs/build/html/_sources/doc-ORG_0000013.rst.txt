@@ -1,6 +1,4 @@
 
-  .. _ORG_0000013:
-  .. _technology transfer disposition:
   .. index:: 
      single: ORG_0000013; technology transfer disposition
      single: technology transfer disposition; ORG_0000013

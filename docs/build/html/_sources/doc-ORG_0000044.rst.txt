@@ -1,6 +1,4 @@
 
-  .. _ORG_0000044:
-  .. _room:
   .. index:: 
      single: ORG_0000044; room
      single: room; ORG_0000044

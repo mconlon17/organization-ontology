@@ -1,6 +1,4 @@
 
-  .. _ORG_0000010:
-  .. _service provider disposition:
   .. index:: 
      single: ORG_0000010; service provider disposition
      single: service provider disposition; ORG_0000010

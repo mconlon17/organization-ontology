@@ -1,6 +1,4 @@
 
-  .. _ORG_0000070:
-  .. _organizational employor role:
   .. index:: 
      single: ORG_0000070; organizational employor role
      single: organizational employor role; ORG_0000070

@@ -1,6 +1,4 @@
 
-  .. _ORG_0000041:
-  .. _campus:
   .. index:: 
      single: ORG_0000041; campus
      single: campus; ORG_0000041

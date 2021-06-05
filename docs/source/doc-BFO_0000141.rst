@@ -1,6 +1,4 @@
 
-  .. _BFO_0000141:
-  .. _immaterial entity:
   .. index:: 
      single: BFO_0000141; immaterial entity
      single: immaterial entity; BFO_0000141

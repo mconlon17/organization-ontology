@@ -1,6 +1,4 @@
 
-  .. _ORG_0000069:
-  .. _organizational employee role:
   .. index:: 
      single: ORG_0000069; organizational employee role
      single: organizational employee role; ORG_0000069

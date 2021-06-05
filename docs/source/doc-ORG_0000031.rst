@@ -1,6 +1,4 @@
 
-  .. _ORG_0000031:
-  .. _manufacturing disposition:
   .. index:: 
      single: ORG_0000031; manufacturing disposition
      single: manufacturing disposition; ORG_0000031

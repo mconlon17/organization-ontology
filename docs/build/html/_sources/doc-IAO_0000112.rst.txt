@@ -1,6 +1,4 @@
 
-  .. _IAO_0000112:
-  .. _example of usage:
   .. index:: 
      single: IAO_0000112; example of usage
      single: example of usage; IAO_0000112

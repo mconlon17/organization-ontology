@@ -1,6 +1,4 @@
 
-  .. _ORG_0000067:
-  .. _primary location quality:
   .. index:: 
      single: ORG_0000067; primary location quality
      single: primary location quality; ORG_0000067

@@ -1,6 +1,4 @@
 
-  .. _IAO_0000118:
-  .. _alternative term:
   .. index:: 
      single: IAO_0000118; alternative term
      single: alternative term; IAO_0000118

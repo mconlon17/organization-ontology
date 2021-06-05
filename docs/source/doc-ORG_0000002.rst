@@ -1,6 +1,4 @@
 
-  .. _ORG_0000002:
-  .. _government organization:
   .. index:: 
      single: ORG_0000002; government organization
      single: government organization; ORG_0000002

@@ -1,6 +1,4 @@
 
-  .. _ORG_0000045:
-  .. _geographic region:
   .. index:: 
      single: ORG_0000045; geographic region
      single: geographic region; ORG_0000045

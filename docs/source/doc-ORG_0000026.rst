@@ -1,6 +1,4 @@
 
-  .. _ORG_0000026:
-  .. _library disposition:
   .. index:: 
      single: ORG_0000026; library disposition
      single: library disposition; ORG_0000026

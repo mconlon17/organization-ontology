@@ -18,7 +18,7 @@ For example, if we define an object property "author_of", we might define the do
 be "Person" and the range to be "Information Content Entity". If we write x author_of y,
 we know x is a Person and y is an Information Content Entity. [#]_
 
-.. include:: toc-ObjectProperty.txt
+
 
 Common Object Properties
 ------------------------
@@ -70,6 +70,8 @@ All Object Properties
 -----------------------
 
 .. include:: tab-all-object-properties.txt
+
+.. include:: toc-ObjectProperty.txt
 
 
 

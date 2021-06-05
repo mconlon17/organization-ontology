@@ -1,6 +1,4 @@
 
-  .. _IAO_0000117:
-  .. _term editor:
   .. index:: 
      single: IAO_0000117; term editor
      single: term editor; IAO_0000117

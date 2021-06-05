@@ -1,6 +1,4 @@
 
-  .. _ORG_0000001:
-  .. _organization:
   .. index:: 
      single: ORG_0000001; organization
      single: organization; ORG_0000001

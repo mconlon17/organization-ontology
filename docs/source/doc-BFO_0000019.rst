@@ -1,6 +1,4 @@
 
-  .. _BFO_0000019:
-  .. _quality:
   .. index:: 
      single: BFO_0000019; quality
      single: quality; BFO_0000019
@@ -20,15 +18,15 @@ BFO_0000019 - quality
 
     the mass of this piece of gold.
 
-    the shape of your nose
-
     the shape of your nostril
 
-    the ambient temperature of this portion of air
+    the length of the circumference of your waist
 
     the color of a tomato
 
-    the length of the circumference of your waist
+    the shape of your nose
+
+    the ambient temperature of this portion of air
 
 .. topic:: Imported From
 

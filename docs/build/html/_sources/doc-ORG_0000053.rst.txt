@@ -1,6 +1,4 @@
 
-  .. _ORG_0000053:
-  .. _dissolution process:
   .. index:: 
      single: ORG_0000053; dissolution process
      single: dissolution process; ORG_0000053

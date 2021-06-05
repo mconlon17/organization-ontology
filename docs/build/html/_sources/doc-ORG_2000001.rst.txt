@@ -1,6 +1,4 @@
 
-  .. _ORG_2000001:
-  .. _occupies:
   .. index:: 
      single: ORG_2000001; occupies
      single: occupies; ORG_2000001

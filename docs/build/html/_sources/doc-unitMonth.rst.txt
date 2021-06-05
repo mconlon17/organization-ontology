@@ -1,14 +1,12 @@
 
-  .. _unitMonth:
-  .. _Month (unit of temporal duration):
   .. index:: 
-     single: unitMonth; Month (unit of temporal duration)
-     single: Month (unit of temporal duration); unitMonth
+     single: unitMonth; month (unit of temporal duration)
+     single: month (unit of temporal duration); unitMonth
 
-unitMonth - Month (unit of temporal duration)
+unitMonth - month (unit of temporal duration)
 ====================================================================================
 
 .. topic:: Label
 
-    Month (unit of temporal duration)
+    month (unit of temporal duration)
 

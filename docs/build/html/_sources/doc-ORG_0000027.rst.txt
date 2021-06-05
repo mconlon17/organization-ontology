@@ -1,6 +1,4 @@
 
-  .. _ORG_0000027:
-  .. _commerce disposition:
   .. index:: 
      single: ORG_0000027; commerce disposition
      single: commerce disposition; ORG_0000027

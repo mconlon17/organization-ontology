@@ -7,7 +7,7 @@ Organizations in VIVO" by the VIVO Ontology Interest Group [VOIG2021]_.  While n
 everything there 
 has been implemented here, and not everything here is implemented as described there, 
 the general outline of representing organizations using |BFO|_ according to |OBOP|_ was
-first described there.
+first described there. A good reference for BFO is [Arp2015]_.
 
 We use [Wikipedia]_, [Wiktionary]_, and [Wikidata]_ often.  Term definitions, 
 references, fact-checking, and identifiers may come from these sources.
@@ -67,6 +67,9 @@ comments related to mapping.
   
 References
 ----------
+
+.. [Arp2015] Arp, Smith, and Spear (2015) Building Ontologies with Basic Formal Ontology.
+   MIT Press. ISBN 978-0262527811.  248 pages.
 
 .. [Wikipedia] Wikipedia (2021) we site.  http://wikipedia.org
 

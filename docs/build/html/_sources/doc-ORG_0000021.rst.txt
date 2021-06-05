@@ -1,6 +1,4 @@
 
-  .. _ORG_0000021:
-  .. _publishing disposition:
   .. index:: 
      single: ORG_0000021; publishing disposition
      single: publishing disposition; ORG_0000021

@@ -1,14 +1,12 @@
 
-  .. _unitDay:
-  .. _Day (unit of temporal duration):
   .. index:: 
-     single: unitDay; Day (unit of temporal duration)
-     single: Day (unit of temporal duration); unitDay
+     single: unitDay; day (unit of temporal duration)
+     single: day (unit of temporal duration); unitDay
 
-unitDay - Day (unit of temporal duration)
+unitDay - day (unit of temporal duration)
 ====================================================================================
 
 .. topic:: Label
 
-    Day (unit of temporal duration)
+    day (unit of temporal duration)
 

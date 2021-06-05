@@ -1,6 +1,4 @@
 
-  .. _ORG_2000005:
-  .. _has website:
   .. index:: 
      single: ORG_2000005; has website
      single: has website; ORG_2000005

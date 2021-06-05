@@ -1,6 +1,4 @@
 
-  .. _ORG_0000073:
-  .. _organizatonal head role:
   .. index:: 
      single: ORG_0000073; organizatonal head role
      single: organizatonal head role; ORG_0000073

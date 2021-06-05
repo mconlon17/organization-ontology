@@ -1,6 +1,4 @@
 
-  .. _ORG_2000008:
-  .. _successor organization of:
   .. index:: 
      single: ORG_2000008; successor organization of
      single: successor organization of; ORG_2000008

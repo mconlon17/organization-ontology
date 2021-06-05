@@ -1,6 +1,4 @@
 
-  .. _RO_0000080:
-  .. _quality of:
   .. index:: 
      single: RO_0000080; quality of
      single: quality of; RO_0000080

@@ -1,6 +1,4 @@
 
-  .. _IAO_0000233:
-  .. _term tracker item:
   .. index:: 
      single: IAO_0000233; term tracker item
      single: term tracker item; IAO_0000233

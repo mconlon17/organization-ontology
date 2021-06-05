@@ -1,6 +1,4 @@
 
-  .. _OBI_0002815:
-  .. _has representation:
   .. index:: 
      single: OBI_0002815; has representation
      single: has representation; OBI_0002815
@@ -18,11 +16,11 @@ OBI_0002815 - has representation
 
 .. topic:: Example
 
-    12th arrondissement of Paris
+    I feel sick to my stomach every Tuesday
 
     20g
 
-    I feel sick to my stomach every Tuesday
+    12th arrondissement of Paris
 
 .. topic:: Editor's note
 
@@ -34,7 +32,7 @@ OBI_0002815 - has representation
 
 .. topic:: Term editor
 
-    Mark Miller
-
     Damion Dooley
+
+    Mark Miller
 

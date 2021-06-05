@@ -1,6 +1,4 @@
 
-  .. _ORG_2000019:
-  .. _organizational associate of:
   .. index:: 
      single: ORG_2000019; organizational associate of
      single: organizational associate of; ORG_2000019

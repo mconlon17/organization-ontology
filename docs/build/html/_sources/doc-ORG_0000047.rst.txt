@@ -1,6 +1,4 @@
 
-  .. _ORG_0000047:
-  .. _continent:
   .. index:: 
      single: ORG_0000047; continent
      single: continent; ORG_0000047

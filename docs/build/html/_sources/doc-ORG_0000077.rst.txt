@@ -1,6 +1,4 @@
 
-  .. _ORG_0000077:
-  .. _organizational volunteer role:
   .. index:: 
      single: ORG_0000077; organizational volunteer role
      single: organizational volunteer role; ORG_0000077

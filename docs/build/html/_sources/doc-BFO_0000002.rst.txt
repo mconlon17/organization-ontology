@@ -1,6 +1,4 @@
 
-  .. _BFO_0000002:
-  .. _continuant:
   .. index:: 
      single: BFO_0000002; continuant
      single: continuant; BFO_0000002

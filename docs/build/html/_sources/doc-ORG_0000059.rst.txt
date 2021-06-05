@@ -1,6 +1,4 @@
 
-  .. _ORG_0000059:
-  .. _spin-off process boundary:
   .. index:: 
      single: ORG_0000059; spin-off process boundary
      single: spin-off process boundary; ORG_0000059
@@ -14,7 +12,7 @@ ORG_0000059 - spin-off process boundary
 
 .. topic:: Definition
 
-    A boundary in a spin-off process
+    The boundary of a spin-off process
 
 .. topic:: Definition source
 

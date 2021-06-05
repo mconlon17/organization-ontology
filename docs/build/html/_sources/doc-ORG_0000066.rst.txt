@@ -1,6 +1,4 @@
 
-  .. _ORG_0000066:
-  .. _registered location quality:
   .. index:: 
      single: ORG_0000066; registered location quality
      single: registered location quality; ORG_0000066

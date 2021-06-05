@@ -1,6 +1,4 @@
 
-  .. _ORG_0000057:
-  .. _web site:
   .. index:: 
      single: ORG_0000057; web site
      single: web site; ORG_0000057
@@ -14,7 +12,7 @@ ORG_0000057 - web site
 
 .. topic:: Definition
 
-    An information content entity consisting of a group of World Wide Web pages usually containing hyperlinks to each other and made available online by an individual, company, educational institution, government, or organization
+    The information content entity consisting of a group of World Wide Web pages usually containing hyperlinks to each other and made available online by an individual, company, educational institution, government, or organization
 
 .. topic:: Definition source
 

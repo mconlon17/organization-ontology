@@ -1,6 +1,4 @@
 
-  .. _ORG_0000079:
-  .. _airline disposition:
   .. index:: 
      single: ORG_0000079; airline disposition
      single: airline disposition; ORG_0000079

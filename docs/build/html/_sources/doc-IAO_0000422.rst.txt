@@ -1,6 +1,4 @@
 
-  .. _IAO_0000422:
-  .. _postal address:
   .. index:: 
      single: IAO_0000422; postal address
      single: postal address; IAO_0000422

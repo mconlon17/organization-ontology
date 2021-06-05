@@ -1,6 +1,4 @@
 
-  .. _ORG_3000002:
-  .. _has email representation:
   .. index:: 
      single: ORG_3000002; has email representation
      single: has email representation; ORG_3000002

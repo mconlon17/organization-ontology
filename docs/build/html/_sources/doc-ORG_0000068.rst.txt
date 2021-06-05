@@ -1,6 +1,4 @@
 
-  .. _ORG_0000068:
-  .. _organizational position:
   .. index:: 
      single: ORG_0000068; organizational position
      single: organizational position; ORG_0000068
@@ -18,7 +16,7 @@ ORG_0000068 - organizational position
 
 .. topic:: Definition
 
-    An asymmetric relationship between an organization and a person.  Each has a role in the position or post
+    The asymmetric relationship between an organization and a person in which a person has a role in the positon, as does the organization.
 
 .. topic:: Definition source
 

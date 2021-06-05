@@ -1,6 +1,4 @@
 
-  .. _ORG_2000027:
-  .. _person member of:
   .. index:: 
      single: ORG_2000027; person member of
      single: person member of; ORG_2000027

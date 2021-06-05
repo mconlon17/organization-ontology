@@ -1,6 +1,4 @@
 
-  .. _ORG_0000037:
-  .. _preferred address quality:
   .. index:: 
      single: ORG_0000037; preferred address quality
      single: preferred address quality; ORG_0000037

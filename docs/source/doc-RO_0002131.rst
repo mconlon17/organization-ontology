@@ -1,6 +1,4 @@
 
-  .. _RO_0002131:
-  .. _overlaps:
   .. index:: 
      single: RO_0002131; overlaps
      single: overlaps; RO_0002131

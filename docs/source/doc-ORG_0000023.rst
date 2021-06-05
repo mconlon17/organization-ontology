@@ -1,6 +1,4 @@
 
-  .. _ORG_0000023:
-  .. _education disposition:
   .. index:: 
      single: ORG_0000023; education disposition
      single: education disposition; ORG_0000023

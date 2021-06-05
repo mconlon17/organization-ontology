@@ -1,6 +1,4 @@
 
-  .. _ORG_2000013:
-  .. _spin-off organization of:
   .. index:: 
      single: ORG_2000013; spin-off organization of
      single: spin-off organization of; ORG_2000013

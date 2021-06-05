@@ -1,6 +1,4 @@
 
-  .. _ORG_0000074:
-  .. _organizational head grantor role:
   .. index:: 
      single: ORG_0000074; organizational head grantor role
      single: organizational head grantor role; ORG_0000074

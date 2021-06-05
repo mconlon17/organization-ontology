@@ -1,6 +1,4 @@
 
-  .. _ORG_0000036:
-  .. _shipping address quality:
   .. index:: 
      single: ORG_0000036; shipping address quality
      single: shipping address quality; ORG_0000036

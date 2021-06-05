@@ -1,6 +1,4 @@
 
-  .. _IAO_0022010:
-  .. _global research organization identifier:
   .. index:: 
      single: IAO_0022010; global research organization identifier
      single: global research organization identifier; IAO_0022010

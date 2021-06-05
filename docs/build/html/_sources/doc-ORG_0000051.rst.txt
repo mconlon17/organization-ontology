@@ -1,6 +1,4 @@
 
-  .. _ORG_0000051:
-  .. _founding process:
   .. index:: 
      single: ORG_0000051; founding process
      single: founding process; ORG_0000051

@@ -1,6 +1,4 @@
 
-  .. _ORG_0000038:
-  .. _homepage quality:
   .. index:: 
      single: ORG_0000038; homepage quality
      single: homepage quality; ORG_0000038

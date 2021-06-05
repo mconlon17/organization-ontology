@@ -1,6 +1,4 @@
 
-  .. _ORG_2000021:
-  .. _organizational head of:
   .. index:: 
      single: ORG_2000021; organizational head of
      single: organizational head of; ORG_2000021

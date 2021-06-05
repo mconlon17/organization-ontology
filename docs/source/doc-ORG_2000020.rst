@@ -1,6 +1,4 @@
 
-  .. _ORG_2000020:
-  .. _has organizational head:
   .. index:: 
      single: ORG_2000020; has organizational head
      single: has organizational head; ORG_2000020

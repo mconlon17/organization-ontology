@@ -1,16 +1,14 @@
 
-  .. _Instant:
-  .. _Time instant:
   .. index:: 
-     single: Instant; Time instant
-     single: Time instant; Instant
+     single: Instant; time instant
+     single: time instant; Instant
 
-Instant - Time instant
+Instant - time instant
 ====================================================================================
 
 .. topic:: Label
 
-    Time instant
+    time instant
 
 .. topic:: Definition
 

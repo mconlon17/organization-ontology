@@ -6,18 +6,40 @@ See `Table 3`_.
 
 .. table:: Table 3 Qualities
 
-    ======================  ========================  ================================================
-    Term ID                 Label                     Definition
-    ======================  ========================  ================================================
-    ``ORG_0000034``         information address qual  A quality of an information content entity denot
-    ``ORG_0000035``         billing address quality   A quality of an address to be used to receive bi
-    ``ORG_0000036``         shipping address quality  A quality of an address to be used to receive sh
-    ``ORG_0000037``         preferred address qualit  A quality of an address to be displayed in most 
-    ``ORG_0000038``         homepage quality          A quality to be the primary website for an entit
-    ``ORG_0000039``         wikipedia quality         A quality to be the webpage within WikiPedia reg
-    ``ORG_0000063``         student led organization  The quality of an organization that is led by a 
-    ``ORG_0000064``         woman led organization q  The quality of an organization that is led by a 
-    ``ORG_0000065``         minority led organizatio  The quality of an organiztion that is led by a d
-    ``ORG_0000066``         registered location qual  The quality of a location that is the legal/regi
-    ``ORG_0000067``         primary location quality  The quality of a location that is the primary/pr
-    ======================  ========================  ================================================
+    =============================  ==================================================
+    Term ID - Label                Definition
+    =============================  ==================================================
+    :doc:`doc-ORG_0000034`         A quality of an information content entity denoted
+
+                                   by an address which has the purpose of responding
+
+                                   to information inquiries
+    :doc:`doc-ORG_0000035`         A quality of an address to be used to receive
+
+                                   bills
+    :doc:`doc-ORG_0000036`         A quality of an address to be used to receive
+
+                                   shipped goods
+    :doc:`doc-ORG_0000037`         A quality of an address to be displayed in most
+
+                                   settings
+    :doc:`doc-ORG_0000038`         A quality to be the primary website for an entity.
+    :doc:`doc-ORG_0000039`         A quality to be the webpage within WikiPedia
+
+                                   regarding the entity
+    :doc:`doc-ORG_0000063`         The quality of an organization that is led by a
+
+                                   student
+    :doc:`doc-ORG_0000064`         The quality of an organization that is led by a
+
+                                   woman
+    :doc:`doc-ORG_0000065`         The quality of an organiztion that is led by a
+
+                                   designated minority
+    :doc:`doc-ORG_0000066`         The quality of a location that is the
+
+                                   legal/registered location for the organization
+    :doc:`doc-ORG_0000067`         The quality of a location that is the
+
+                                   primary/preferred location for the organization
+    =============================  ==================================================

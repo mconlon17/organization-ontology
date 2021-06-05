@@ -1,6 +1,4 @@
 
-  .. _RO_0000056:
-  .. _participates in:
   .. index:: 
      single: RO_0000056; participates in
      single: participates in; RO_0000056
@@ -18,11 +16,11 @@ RO_0000056 - participates in
 
 .. topic:: Example
 
-    this investigator participates in this investigation
-
     this blood clot participates in this blood coagulation
 
     this input material (or this output material) participates in this process
+
+    this investigator participates in this investigation
 
 .. topic:: Imported From
 

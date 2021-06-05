@@ -1,6 +1,4 @@
 
-  .. _ORG_0000075:
-  .. _organizational appointee role:
   .. index:: 
      single: ORG_0000075; organizational appointee role
      single: organizational appointee role; ORG_0000075
@@ -22,7 +20,7 @@ ORG_0000075 - organizational appointee role
 
 .. topic:: Example
 
-    Jorge Mario Bergoglio was appointed to the position Pope by the papal conclave of the College of Cardinals of the Catholic Church
+    Jorge Mario Bergoglio was appointed to the position Pope by the papal conclave of the College of Cardinals of the Catholic Church in 2013
 
 .. topic:: Term editor
 

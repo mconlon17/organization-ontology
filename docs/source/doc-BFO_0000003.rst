@@ -1,6 +1,4 @@
 
-  .. _BFO_0000003:
-  .. _occurrent:
   .. index:: 
      single: BFO_0000003; occurrent
      single: occurrent; BFO_0000003

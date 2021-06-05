@@ -1,6 +1,4 @@
 
-  .. _ORG_0000018:
-  .. _archive disposition:
   .. index:: 
      single: ORG_0000018; archive disposition
      single: archive disposition; ORG_0000018

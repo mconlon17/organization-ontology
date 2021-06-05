@@ -1,6 +1,4 @@
 
-  .. _ORG_2000018:
-  .. _has organizational associate:
   .. index:: 
      single: ORG_2000018; has organizational associate
      single: has organizational associate; ORG_2000018

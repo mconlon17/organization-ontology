@@ -37,11 +37,11 @@ See `Table {}`_.
 
 .. table:: Table {} {}
 
-    ======================  ========================  ================================================
-    Term ID                 Label                     Definition
-    ======================  ========================  ================================================"""
+    =============================  ==================================================
+    Term ID - Label                Definition
+    =============================  =================================================="""
 
-trailer = "    ======================  ========================  ================================================"
+trailer = "    =============================  =================================================="
 
 toc_header ="""
 .. toctree::
@@ -81,14 +81,12 @@ def write_term_page(term_uri):
 	f = open('../source/doc-'+term_name_str+'.rst', "w")
 	
 	print("""
-  .. _{}:
-  .. _{}:
   .. index:: 
      single: {}; {}
      single: {}; {}
 
 {} - {}
-====================================================================================\n""".format(term_name_str, label, term_name_str, label, label, term_name_str, term_name_str, label), file=f)
+====================================================================================\n""".format(term_name_str, label, label, term_name_str, term_name_str, label), file=f)
 		
 	terms = {
 		RDFS.label : "Label",
@@ -146,17 +144,30 @@ def term_table(file_name, term_label, predicate, object):
 			continue
 		
 		term_name_str = term_name(term_uri)[term_name(term_uri).rfind(':')+1:]
-			
-		label = "None"
-		for rlabel in g.objects(term_uri, RDFS.label):
-			label = rlabel
+		term_name_str = ':doc:`doc-' + term_name_str+'`'
 			
 		definition = "None"
 		for rdefinition in g.objects(term_uri, OBO.IAO_0000115):
 			definition = rdefinition
 			
-		term_name_str = '``'+term_name_str+'``'
-		print('   ',term_name_str[0:22].ljust(23," "),label[0:24].ljust(25," "), definition[0:48], file=f)
+		first = True
+		while len(definition) > 0:
+			def_words = definition.split(' ')
+			def_line = ''
+			while len(def_line) + len(def_words[0]) + 1 <= 50:
+				def_line = (def_line + ' ' if len(def_line) > 0 else '') + def_words[0]
+				if len(def_words) == 1:
+					break
+				else:
+					def_words = def_words[1:]
+			if first:
+				print('   ',term_name_str[0:29].ljust(30," "), def_line, file=f)
+				first = False
+			else:
+				print('\n'.ljust(35," "), def_line, file=f)
+			definition = definition.removeprefix(def_line)
+			if len(definition) > 0 and definition[0] == ' ':
+				definition = definition[1:]	
 		
 	print(trailer, file=f)
 	f.close()

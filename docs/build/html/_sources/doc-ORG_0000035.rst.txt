@@ -1,6 +1,4 @@
 
-  .. _ORG_0000035:
-  .. _billing address quality:
   .. index:: 
      single: ORG_0000035; billing address quality
      single: billing address quality; ORG_0000035

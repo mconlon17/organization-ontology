@@ -1,6 +1,4 @@
 
-  .. _IAO_0022006:
-  .. _dbpedia identifier:
   .. index:: 
      single: IAO_0022006; dbpedia identifier
      single: dbpedia identifier; IAO_0022006

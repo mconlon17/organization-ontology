@@ -1,6 +1,4 @@
 
-  .. _IAO_0022003:
-  .. _crossref funder identifier:
   .. index:: 
      single: IAO_0022003; crossref funder identifier
      single: crossref funder identifier; IAO_0022003

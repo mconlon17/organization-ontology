@@ -1,6 +1,4 @@
 
-  .. _ORG_2000003:
-  .. _has time instant:
   .. index:: 
      single: ORG_2000003; has time instant
      single: has time instant; ORG_2000003

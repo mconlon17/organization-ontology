@@ -1,6 +1,4 @@
 
-  .. _BFO_0000015:
-  .. _process:
   .. index:: 
      single: BFO_0000015; process
      single: process; BFO_0000015

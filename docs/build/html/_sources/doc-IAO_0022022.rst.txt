@@ -1,6 +1,4 @@
 
-  .. _IAO_0022022:
-  .. _research organization registry identifier:
   .. index:: 
      single: IAO_0022022; research organization registry identifier
      single: research organization registry identifier; IAO_0022022

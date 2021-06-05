@@ -1,6 +1,4 @@
 
-  .. _BFO_0000055:
-  .. _realizes:
   .. index:: 
      single: BFO_0000055; realizes
      single: realizes; BFO_0000055
@@ -18,11 +16,11 @@ BFO_0000055 - realizes
 
 .. topic:: Example
 
-    this shattering realizes this fragility
-
     this investigation realizes this investigator role
 
     this disease course realizes this disease
+
+    this shattering realizes this fragility
 
 .. topic:: Imported From
 

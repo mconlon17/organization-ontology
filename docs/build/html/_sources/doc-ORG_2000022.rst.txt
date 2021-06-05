@@ -1,6 +1,4 @@
 
-  .. _ORG_2000022:
-  .. _has organizational volunteer:
   .. index:: 
      single: ORG_2000022; has organizational volunteer
      single: has organizational volunteer; ORG_2000022

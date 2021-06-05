@@ -1,6 +1,4 @@
 
-  .. _ORG_0000049:
-  .. _region:
   .. index:: 
      single: ORG_0000049; region
      single: region; ORG_0000049

@@ -1,6 +1,4 @@
 
-  .. _ORG_0000030:
-  .. _governing disposition:
   .. index:: 
      single: ORG_0000030; governing disposition
      single: governing disposition; ORG_0000030

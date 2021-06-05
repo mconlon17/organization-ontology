@@ -1,6 +1,4 @@
 
-  .. _ORG_0000020:
-  .. _gallery disposition:
   .. index:: 
      single: ORG_0000020; gallery disposition
      single: gallery disposition; ORG_0000020

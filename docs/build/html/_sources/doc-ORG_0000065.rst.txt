@@ -1,6 +1,4 @@
 
-  .. _ORG_0000065:
-  .. _minority led organization quality:
   .. index:: 
      single: ORG_0000065; minority led organization quality
      single: minority led organization quality; ORG_0000065

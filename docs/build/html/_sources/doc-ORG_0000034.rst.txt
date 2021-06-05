@@ -1,6 +1,4 @@
 
-  .. _ORG_0000034:
-  .. _information address quality:
   .. index:: 
      single: ORG_0000034; information address quality
      single: information address quality; ORG_0000034

@@ -1,6 +1,4 @@
 
-  .. _ORG_0000040:
-  .. _architectural structure:
   .. index:: 
      single: ORG_0000040; architectural structure
      single: architectural structure; ORG_0000040

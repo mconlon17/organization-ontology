@@ -1,6 +1,4 @@
 
-  .. _NCBITaxon_9606:
-  .. _Homo sapiens:
   .. index:: 
      single: NCBITaxon_9606; Homo sapiens
      single: Homo sapiens; NCBITaxon_9606

@@ -1,6 +1,4 @@
 
-  .. _ORG_0000025:
-  .. _research administration disposition:
   .. index:: 
      single: ORG_0000025; research administration disposition
      single: research administration disposition; ORG_0000025

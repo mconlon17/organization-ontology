@@ -1,6 +1,4 @@
 
-  .. _IAO_0000114:
-  .. _has curation status:
   .. index:: 
      single: IAO_0000114; has curation status
      single: has curation status; IAO_0000114
@@ -22,9 +20,9 @@ IAO_0000114 - has curation status
 
 .. topic:: Term editor
 
-    PERSON:Bill Bug
-
     PERSON:Melanie Courtot
 
     PERSON:Alan Ruttenberg
+
+    PERSON:Bill Bug
 

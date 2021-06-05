@@ -1,6 +1,4 @@
 
-  .. _ORG_0000011:
-  .. _laboratory service provider disposition:
   .. index:: 
      single: ORG_0000011; laboratory service provider disposition
      single: laboratory service provider disposition; ORG_0000011

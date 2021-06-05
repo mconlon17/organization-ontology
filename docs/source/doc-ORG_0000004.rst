@@ -1,16 +1,14 @@
 
-  .. _ORG_0000004:
-  .. _non-profit organization:
   .. index:: 
-     single: ORG_0000004; non-profit organization
-     single: non-profit organization; ORG_0000004
+     single: ORG_0000004; nonprofit organization
+     single: nonprofit organization; ORG_0000004
 
-ORG_0000004 - non-profit organization
+ORG_0000004 - nonprofit organization
 ====================================================================================
 
 .. topic:: Label
 
-    non-profit organization
+    nonprofit organization
 
 .. topic:: Alternate name
 

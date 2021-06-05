@@ -1,6 +1,4 @@
 
-  .. _ORG_0000024:
-  .. _training disposition:
   .. index:: 
      single: ORG_0000024; training disposition
      single: training disposition; ORG_0000024
