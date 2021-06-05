@@ -60,9 +60,9 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    ror-to-org
    schema-to-org
    data-dates
-   notes-and-sources
    ontology-authors
    documentation-authors
+   notes-and-sources
    glossary
    
 List of Tables

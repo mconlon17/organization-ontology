@@ -14674,126 +14674,6 @@ established in 1853 (see {\hyperref[\detokenize{datetimes::doc}]{\sphinxcrossref
 \end{sphinxVerbatim}
 
 
-\chapter{Notes and Sources}
-\label{\detokenize{notes-and-sources:notes-and-sources}}\label{\detokenize{notes-and-sources::doc}}
-\sphinxAtStartPar
-For early work on the Organization Ontology and thoughts behind what might be needed
-and how things might be addressed, we relied on “Early Thoughts on Representing
-Organizations in VIVO” by the VIVO Ontology Interest Group \sphinxcite{notes-and-sources:voig2021}.  While not
-everything there
-has been implemented here, and not everything here is implemented as described there,
-the general outline of representing organizations using \sphinxhref{http://www.ontobee.org/ontology/BFO}{Basic Formal Ontology (BFO)} according to \sphinxhref{http://www.obofoundry.org/principles/fp-000-summary.html}{Open Biomedical Ontologies (OBO) Principles} was
-first described there. A good reference for BFO is \sphinxcite{notes-and-sources:arp2015}.
-
-\sphinxAtStartPar
-We use \sphinxcite{notes-and-sources:wikipedia}, \sphinxcite{notes-and-sources:wiktionary}, and \sphinxcite{notes-and-sources:wikidata} often.  Term definitions,
-references, fact\sphinxhyphen{}checking, and identifiers may come from these sources.
-
-\sphinxAtStartPar
-We use Ontobee \sphinxcite{notes-and-sources:ong2017} for looking up terms in OBO Foundry ontologies.
-
-\sphinxAtStartPar
-We use Protege \sphinxcite{notes-and-sources:musen2015} for modeling \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}} and the MIREOT plug\sphinxhyphen{}in for
-Protege \sphinxcite{notes-and-sources:hannah2012} for
-adding terms from other ontologies to \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}}  We use robot \sphinxcite{notes-and-sources:jackson2019} for
-processing templates of properties, merging them and \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}} together to
-produce \sphinxcode{\sphinxupquote{org.ttl}} and then to run reports against \sphinxcode{\sphinxupquote{org.ttl}} for validation.
-
-\sphinxAtStartPar
-We have tried to represent organizations in a manner that is inclusive of ideas
-regarding organizations that have been represented elsewhere.  The VIVO
-Ontology \sphinxcite{notes-and-sources:vivo2013}
-provides organizational representation, but is not BFO or OBO conformant.  We
-hope we have represented here what is represented in the VIVO Ontology.  The W3C
-Organization Ontology \sphinxcite{notes-and-sources:reynolds2014} has been a second source for terms and
-concepts that might be included in a BFO/OBO conformant ontology.
-
-\sphinxAtStartPar
-We have used the \sphinxcite{notes-and-sources:grid}, \sphinxcite{notes-and-sources:ror21}, and \sphinxcite{notes-and-sources:schema-org} data models as sources of
-concepts and properties that may need to be represented in the Organization
-Ontology.  See {\hyperref[\detokenize{vivo-to-org::doc}]{\sphinxcrossref{\DUrole{doc}{Translating from VIVO to the Organization Ontology}}}}, {\hyperref[\detokenize{ror-to-org::doc}]{\sphinxcrossref{\DUrole{doc}{Translating from ROR to the Organization Ontology}}}}, and {\hyperref[\detokenize{schema-to-org::doc}]{\sphinxcrossref{\DUrole{doc}{Translating from schema.org to the Organization Ontology}}}} for
-details of how
-types and other properties are mapped from these sources to the Organization Ontology.
-
-
-\section{Regarding the W3C Organization Ontology}
-\label{\detokenize{notes-and-sources:regarding-the-w3c-organization-ontology}}
-\sphinxAtStartPar
-The W3C Organization Ontology (W3CO) provides a set of useful terms for representing
-organizations.  Many terms there are represented in this work.  Our work
-uses BFO as an upper level ontology \textendash{} everything in the Organization Ontology
-fits in the BFO subsumption hierarchy.  cross\sphinxhyphen{}walking the W3C Organization
-Ontology and the VIVO Organization Ontology (VORG) is straightforward.  Below are
-comments related to mapping.
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-Purpose in W3CO is open\sphinxhyphen{}ended text.  In VORG, purpose is represented by dispositions
-
-\item {} 
-\sphinxAtStartPar
-Classification in W3CO are interests in VORG.
-
-\item {} 
-\sphinxAtStartPar
-Identifiers in VORG are handled using IDO
-
-\item {} 
-\sphinxAtStartPar
-Linked to in W3CO is replaced by semantic object properties indicating the
-relationship between
-organizations
-
-\item {} 
-\sphinxAtStartPar
-Formal Organization in W3CO is any organization that is not an Informal Organization
-in VORG.
-
-\item {} 
-\sphinxAtStartPar
-OrganizationUnit in W3CO is Organization Part in VORG.
-
-\item {} 
-\sphinxAtStartPar
-Membership in VORG is modeled using standard BFO roles and occurent part representation
-
-\item {} 
-\sphinxAtStartPar
-Posts in W3CO are modeled as positions in VORG in a manner analogous to memberships
-(same conceptual model, different roles and entities)
-
-\item {} 
-\sphinxAtStartPar
-Reports to in W3CO is deconstructed.  Personnel relationships are distinct from org
-relationships in VORG.  Person to person relationships are out of scope for VORG.
-
-\item {} 
-\sphinxAtStartPar
-Locations in VORG are modeled as BFO sites.  See \sphinxtitleref{Locations \textless{}locations\textgreater{}}
-
-\item {} 
-\sphinxAtStartPar
-Addresses in VORG are modeled as IAO entities.  See \sphinxtitleref{Addresses \textless{}addresses\textgreater{}}
-
-\item {} 
-\sphinxAtStartPar
-\sphinxstyleemphasis{based at} is a property of a person and is out of scope for VORG.
-
-\item {} 
-\sphinxAtStartPar
-OrganizationCollaboration is a project and is modeled using standard BFO constructs.
-Organizations have \sphinxstyleemphasis{participant in} projects
-
-\item {} 
-\sphinxAtStartPar
-Change event is a BFO process boundary
-
-\end{itemize}
-
-
-\section{References}
-\label{\detokenize{notes-and-sources:references}}
-
 \chapter{For Ontology Authors}
 \label{\detokenize{ontology-authors:for-ontology-authors}}\label{\detokenize{ontology-authors::doc}}
 \sphinxAtStartPar
@@ -14827,41 +14707,26 @@ Use BFO has an upper level ontology.  We have made just a few exceptions and
 in each case we have provided a superclass for the term in BFO to create a
 consistent and complete subsumption hierarchy.
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 Conform to OBO principles. Again, we have made just a few exceptions.
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 An appropriate license for the ontology whose terms we will reuse.  When a license
 for an ontology is not clear, we cannot use its terms.
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 Active maintenance.  Ontologies can be slow to add terms and to fix things that
 need fixing.  If an ontology is not actively maintained, we cannot use its terms.
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 Use of MIREOT, a plug\sphinxhyphen{}in for protege.  When terms from other ontologies
 are needed, we use protege to edit \sphinxtitleref{org\sphinxhyphen{}header.ttl} and add the the terms using
 the MIREOT plug\sphinxhyphen{}in.  This provides a consistent means for adding terms.
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 We trim out annotation properties of included terms that are not of interest.
@@ -14889,23 +14754,14 @@ performs four operations:
 \sphinxAtStartPar
 Makes data useful for ontology users.
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 Makes ontological assertions from the templates
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 Merges org\sphinxhyphen{}header and the template assertions into \sphinxcode{\sphinxupquote{org.ttl}}
 
-\end{enumerate}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 Validates \sphinxcode{\sphinxupquote{org.ttl}}
@@ -15046,6 +14902,126 @@ actions.
 
 \end{enumerate}
 
+
+\chapter{Notes and Sources}
+\label{\detokenize{notes-and-sources:notes-and-sources}}\label{\detokenize{notes-and-sources::doc}}
+\sphinxAtStartPar
+For early work on the Organization Ontology and thoughts behind what might be needed
+and how things might be addressed, we relied on “Early Thoughts on Representing
+Organizations in VIVO” by the VIVO Ontology Interest Group \sphinxcite{notes-and-sources:voig2021}.  While not
+everything there
+has been implemented here, and not everything here is implemented as described there,
+the general outline of representing organizations using \sphinxhref{http://www.ontobee.org/ontology/BFO}{Basic Formal Ontology (BFO)} according to \sphinxhref{http://www.obofoundry.org/principles/fp-000-summary.html}{Open Biomedical Ontologies (OBO) Principles} was
+first described there. A good reference for BFO is \sphinxcite{notes-and-sources:arp2015}.
+
+\sphinxAtStartPar
+We use \sphinxcite{notes-and-sources:wikipedia}, \sphinxcite{notes-and-sources:wiktionary}, and \sphinxcite{notes-and-sources:wikidata} often.  Term definitions,
+references, fact\sphinxhyphen{}checking, and identifiers may come from these sources.
+
+\sphinxAtStartPar
+We use Ontobee \sphinxcite{notes-and-sources:ong2017} for looking up terms in OBO Foundry ontologies.
+
+\sphinxAtStartPar
+We use Protege \sphinxcite{notes-and-sources:musen2015} for modeling \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}} and the MIREOT plug\sphinxhyphen{}in for
+Protege \sphinxcite{notes-and-sources:hannah2012} for
+adding terms from other ontologies to \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}}  We use robot \sphinxcite{notes-and-sources:jackson2019} for
+processing templates of properties, merging them and \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}} together to
+produce \sphinxcode{\sphinxupquote{org.ttl}} and then to run reports against \sphinxcode{\sphinxupquote{org.ttl}} for validation.
+
+\sphinxAtStartPar
+We have tried to represent organizations in a manner that is inclusive of ideas
+regarding organizations that have been represented elsewhere.  The VIVO
+Ontology \sphinxcite{notes-and-sources:vivo2013}
+provides organizational representation, but is not BFO or OBO conformant.  We
+hope we have represented here what is represented in the VIVO Ontology.  The W3C
+Organization Ontology \sphinxcite{notes-and-sources:reynolds2014} has been a second source for terms and
+concepts that might be included in a BFO/OBO conformant ontology.
+
+\sphinxAtStartPar
+We have used the \sphinxcite{notes-and-sources:grid}, \sphinxcite{notes-and-sources:ror21}, and \sphinxcite{notes-and-sources:schema-org} data models as sources of
+concepts and properties that may need to be represented in the Organization
+Ontology.  See {\hyperref[\detokenize{vivo-to-org::doc}]{\sphinxcrossref{\DUrole{doc}{Translating from VIVO to the Organization Ontology}}}}, {\hyperref[\detokenize{ror-to-org::doc}]{\sphinxcrossref{\DUrole{doc}{Translating from ROR to the Organization Ontology}}}}, and {\hyperref[\detokenize{schema-to-org::doc}]{\sphinxcrossref{\DUrole{doc}{Translating from schema.org to the Organization Ontology}}}} for
+details of how
+types and other properties are mapped from these sources to the Organization Ontology.
+
+
+\section{Regarding the W3C Organization Ontology}
+\label{\detokenize{notes-and-sources:regarding-the-w3c-organization-ontology}}
+\sphinxAtStartPar
+The W3C Organization Ontology (W3CO) provides a set of useful terms for representing
+organizations.  Many terms there are represented in this work.  Our work
+uses BFO as an upper level ontology \textendash{} everything in the Organization Ontology
+fits in the BFO subsumption hierarchy.  cross\sphinxhyphen{}walking the W3C Organization
+Ontology and the VIVO Organization Ontology (VORG) is straightforward.  Below are
+comments related to mapping.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Purpose in W3CO is open\sphinxhyphen{}ended text.  In VORG, purpose is represented by dispositions
+
+\item {} 
+\sphinxAtStartPar
+Classification in W3CO are interests in VORG.
+
+\item {} 
+\sphinxAtStartPar
+Identifiers in VORG are handled using IDO
+
+\item {} 
+\sphinxAtStartPar
+Linked to in W3CO is replaced by semantic object properties indicating the
+relationship between
+organizations
+
+\item {} 
+\sphinxAtStartPar
+Formal Organization in W3CO is any organization that is not an Informal Organization
+in VORG.
+
+\item {} 
+\sphinxAtStartPar
+OrganizationUnit in W3CO is Organization Part in VORG.
+
+\item {} 
+\sphinxAtStartPar
+Membership in VORG is modeled using standard BFO roles and occurent part representation
+
+\item {} 
+\sphinxAtStartPar
+Posts in W3CO are modeled as positions in VORG in a manner analogous to memberships
+(same conceptual model, different roles and entities)
+
+\item {} 
+\sphinxAtStartPar
+Reports to in W3CO is deconstructed.  Personnel relationships are distinct from org
+relationships in VORG.  Person to person relationships are out of scope for VORG.
+
+\item {} 
+\sphinxAtStartPar
+Locations in VORG are modeled as BFO sites.  See \sphinxtitleref{Locations \textless{}locations\textgreater{}}
+
+\item {} 
+\sphinxAtStartPar
+Addresses in VORG are modeled as IAO entities.  See \sphinxtitleref{Addresses \textless{}addresses\textgreater{}}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstyleemphasis{based at} is a property of a person and is out of scope for VORG.
+
+\item {} 
+\sphinxAtStartPar
+OrganizationCollaboration is a project and is modeled using standard BFO constructs.
+Organizations have \sphinxstyleemphasis{participant in} projects
+
+\item {} 
+\sphinxAtStartPar
+Change event is a BFO process boundary
+
+\end{itemize}
+
+
+\section{References}
+\label{\detokenize{notes-and-sources:references}}
 
 \chapter{Glossary}
 \label{\detokenize{glossary:glossary}}\label{\detokenize{glossary:id1}}\label{\detokenize{glossary::doc}}\begin{description}
