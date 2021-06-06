@@ -74,7 +74,7 @@
 
 
 \title{The Organization Ontology}
-\date{Jun 05, 2021}
+\date{Jun 06, 2021}
 \release{}
 \author{The VIVO Ontology Interest Group}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -131,8 +131,87 @@ Organization Ontology can represent these facts for use in graph\sphinxhyphen{}b
 as VIVO.
 
 \sphinxAtStartPar
+See {\hyperref[\detokenize{domain-definition:domain-definition}]{\sphinxcrossref{\DUrole{std,std-ref}{the domain definition}}}} for an extended defintion with
+competency questions,
+and consequences.
+
+\sphinxAtStartPar
 Tools are provided with the Organization Ontology for retrieving ROR data and
 creating individuals with assertions as RDF triples using the Organization Ontology.
+\phantomsection\label{\detokenize{domain-definition:domain-definition}}
+\index{domain definition@\spxentry{domain definition}}\ignorespaces 
+
+\chapter{Organization Ontology Domain Definition}
+\label{\detokenize{domain-definition:organization-ontology-domain-definition}}\label{\detokenize{domain-definition:index-0}}\label{\detokenize{domain-definition::doc}}
+\sphinxAtStartPar
+The Organization Ontology is used to represent basic facts regarding organizations,
+their structure, functions, interests, locations, and
+their associations with other organizations and people.
+
+\index{competency questions@\spxentry{competency questions}}\ignorespaces 
+
+\section{Ontology Competency Questions \sphinxfootnotemark[1]}
+\label{\detokenize{domain-definition:ontology-competency-questions-1}}\label{\detokenize{domain-definition:index-1}}%
+\begin{footnotetext}[1]\phantomsection\label{\thesphinxscope.1}%
+\sphinxAtStartFootnote
+Competency questions are questions the ontology, including individuals
+represented using the ontology, should be able to answer. They are indications of
+the purpose of the ontology. Questions are likely to be nuanced.
+%
+\end{footnotetext}\ignorespaces \begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+What organizations, in this region, have this interest?  Have this disposition? How
+can I
+get in contact with these organizations?
+
+\item {} 
+\sphinxAtStartPar
+What is the organizational chart of this organization?  How many departments does
+this university have?  How many branches does that company have?
+
+\item {} 
+\sphinxAtStartPar
+Which organizations are members of this association?
+
+\item {} 
+\sphinxAtStartPar
+What people have memberships, affiliations, or other roles in which organizations?
+
+\item {} 
+\sphinxAtStartPar
+How can I learn more about this organization?  What is its home page, its Wikipedia
+page?
+
+\item {} 
+\sphinxAtStartPar
+How did this organization come to be and/or come to end?  What documents, people,
+other organizations were involved in the creation, change, or end of this
+organization?
+
+\item {} 
+\sphinxAtStartPar
+How is this organization identified in registries of organizations?
+
+\end{enumerate}
+
+
+\section{Consequences and Observations}
+\label{\detokenize{domain-definition:consequences-and-observations}}\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Associating scholarly works, outputs, and projects with organizations is beyond the
+scope of this ontology.  Other ontologies represent scholarly works.
+
+\item {} 
+\sphinxAtStartPar
+Similarly, associations of organizations with performances and events are beyond
+the scope of this ontology.  Other ontologies represented performances and
+events.
+
+\end{enumerate}
 
 
 \chapter{Organizations}
@@ -15062,13 +15141,18 @@ actions.
 \chapter{Notes and Sources}
 \label{\detokenize{notes-and-sources:notes-and-sources}}\label{\detokenize{notes-and-sources::doc}}
 \sphinxAtStartPar
-For early work on the Organization Ontology and thoughts behind what might be needed
-and how things might be addressed, we relied on “Early Thoughts on Representing
-Organizations in VIVO” by the VIVO Ontology Interest Group \sphinxcite{notes-and-sources:voig2021}.  While not
-everything there
-has been implemented here, and not everything here is implemented as described there,
-the general outline of representing organizations using \sphinxhref{http://www.ontobee.org/ontology/BFO}{Basic Formal Ontology (BFO)} according to \sphinxhref{http://www.obofoundry.org/principles/fp-000-summary.html}{Open Biomedical Ontologies (OBO) Principles} was
-first described there. A good reference for BFO is \sphinxcite{notes-and-sources:arp2015}.
+For early work on the Organization Ontology and thoughts behind what might be
+needed and how things might be addressed, we relied on “Early Thoughts on
+Representing Organizations in VIVO” by the VIVO Ontology Interest Group
+\sphinxcite{notes-and-sources:voig2019a}.  While not everything there has been implemented here, and not
+everything here is implemented as described there, the general outline of
+representing organizations using \sphinxhref{http://www.ontobee.org/ontology/BFO}{Basic Formal Ontology (BFO)} according to \sphinxhref{http://www.obofoundry.org/principles/fp-000-summary.html}{Open Biomedical Ontologies (OBO) Principles} was first described
+there. A good reference for BFO is \sphinxcite{notes-and-sources:arp2015}.  The \sphinxhref{https://wiki.lyrasis.org/display/VIVO/Ontology+Interest+Group}{VIVO Ontology Interest
+Group} has been
+considering BFO/OBO ontologies for scholarship and related domains for some
+time. The first white paper \sphinxcite{notes-and-sources:voig2019} led to papers on subsumption \sphinxcite{notes-and-sources:voig2019b},
+domains \sphinxcite{notes-and-sources:voig2019c}, and use of other ontologies \sphinxcite{notes-and-sources:voig2019d}.  Ideas from each of
+these papers is reflected in the Organization Ontology.
 
 \sphinxAtStartPar
 We use \sphinxcite{notes-and-sources:wikipedia}, \sphinxcite{notes-and-sources:wiktionary}, and \sphinxcite{notes-and-sources:wikidata} often.  Term definitions,
@@ -15078,8 +15162,8 @@ references, fact\sphinxhyphen{}checking, and identifiers may come from these sou
 We use Ontobee \sphinxcite{notes-and-sources:ong2017} for looking up terms in OBO Foundry ontologies.
 
 \sphinxAtStartPar
-We use Protege \sphinxcite{notes-and-sources:musen2015} for modeling \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}} and the MIREOT plug\sphinxhyphen{}in for
-Protege \sphinxcite{notes-and-sources:hannah2012} for
+We use protege \sphinxcite{notes-and-sources:musen2015} for modeling \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}} and the MIREOT plug\sphinxhyphen{}in for
+protege \sphinxcite{notes-and-sources:hannah2012} for
 adding terms from other ontologies to \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}}  We use robot \sphinxcite{notes-and-sources:jackson2019} for
 processing templates of properties, merging them and \sphinxcode{\sphinxupquote{org\sphinxhyphen{}header.ttl}} together to
 produce \sphinxcode{\sphinxupquote{org.ttl}} and then to run reports against \sphinxcode{\sphinxupquote{org.ttl}} for validation.
@@ -15375,10 +15459,31 @@ implemented in VIVO beginning with VIVO version 1.6.
 Harmse, Henrietta, A Common Misconception regarding OWL Properties,
 blog post,
 \sphinxurl{https://henrietteharmse.com/2018/06/22/a-common-misconception-regarding-owl-properties/}
+\bibitem[VOIG2019a]{notes-and-sources:voig2019a}
+\sphinxAtStartPar
+VIVO Ontology Interest Group (2021) Early Thoughts on the representation
+of organizations in VIVO.  on\sphinxhyphen{}line.  \sphinxurl{http://bit.ly/2EhMdPq}
 \bibitem[Arp2015]{notes-and-sources:arp2015}
 \sphinxAtStartPar
 Arp, Smith, and Spear (2015) Building Ontologies with Basic Formal Ontology.
 MIT Press. ISBN 978\sphinxhyphen{}0262527811.  248 pages.
+\bibitem[VOIG2019]{notes-and-sources:voig2019}
+\sphinxAtStartPar
+VIVO Ontology Interest Group (January 2019) VIVO Ontology Version 2.
+on\sphinxhyphen{}line.
+\sphinxurl{http://bit.ly/2R8gYuI}
+\bibitem[VOIG2019b]{notes-and-sources:voig2019b}
+\sphinxAtStartPar
+VIVO Ontology Interest Group (February 2019) Early Thoughts on VIVO
+Subsumption Hierarchy.  on\sphinxhyphen{}line.  \sphinxurl{http://bit.ly/2Ekg7m6}
+\bibitem[VOIG2019c]{notes-and-sources:voig2019c}
+\sphinxAtStartPar
+VIVO Ontology Interest Group (February 2019) Early Thoughts on VIVO
+Related Domains.  on\sphinxhyphen{}line.  \sphinxurl{http://bit.ly/2Jn3MTV}
+\bibitem[VOIG2019d]{notes-and-sources:voig2019d}
+\sphinxAtStartPar
+VIVO Ontology Interest Group (March 2019) Early Thoughts on Ontologies
+Used in VIVO.  on\sphinxhyphen{}line.  \sphinxurl{https://bit.ly/3fWdL0K}
 \bibitem[Wikipedia]{notes-and-sources:wikipedia}
 \sphinxAtStartPar
 Wikipedia (2021) we site.  \sphinxurl{http://wikipedia.org}
@@ -15394,10 +15499,6 @@ Ong E, Xiang Z, Zhao B, Liu Y, Lin Y, Zheng J, Mungall C, Courtot M,
 Ruttenberg A, He Y. Ontobee: A linked ontology data server to support ontology term
 dereferencing, linkage, query, and integration. Nucleic Acid Research. 2017
 Jan 4;45(D1):D347\sphinxhyphen{}D352. PMID: 27733503. PMCID: PMC5210626.
-\bibitem[VOIG2021]{notes-and-sources:voig2021}
-\sphinxAtStartPar
-VIVO Ontology Interest Group (2021) Early Thoughts on the representation
-of organizations in VIVO.  on\sphinxhyphen{}line.  \sphinxurl{http://bit.ly/2EhMdPq}
 \bibitem[Musen2015]{notes-and-sources:musen2015}
 \sphinxAtStartPar
 Musen, M.A. The Protégé project: A look back and a look forward. AI

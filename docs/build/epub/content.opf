@@ -12,9 +12,9 @@
     <dc:publisher>The VIVO Ontology Interest Group</dc:publisher>
     <dc:rights>2021, The VIVO Project</dc:rights>
     <dc:identifier id="unknown">unknown</dc:identifier>
-    <dc:date>2021-06-04T14:41:29Z</dc:date>
-    <meta property="dcterms:modified">2021-06-04T14:41:29Z</meta>
-    <meta property="ibooks:version"></meta>
+    <dc:date>2021-06-06T15:57:37Z</dc:date>
+    <meta property="dcterms:modified">2021-06-06T15:57:37Z</meta>
+    <meta property="ibooks:version">v0.0.1</meta>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:binding">true</meta>
     <meta property="ibooks:scroll-axis">vertical</meta>
@@ -206,66 +206,71 @@
     <item id="epub-181" href="doc-RO_0000056.xhtml" media-type="application/xhtml+xml" />
     <item id="epub-182" href="doc-RO_0000057.xhtml" media-type="application/xhtml+xml" />
     <item id="epub-183" href="doc-RO_0000080.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-184" href="doc-RO_0000086.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-185" href="doc-RO_0000091.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-186" href="doc-RO_0001015.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-187" href="doc-RO_0001025.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-188" href="doc-RO_0002012.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-189" href="doc-RO_0002131.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-190" href="doc-RO_0002234.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-191" href="doc-RO_0002323.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-192" href="doc-RO_0002353.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-193" href="doc-TemporalUnit.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-194" href="doc-created.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-195" href="doc-creator.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-196" href="doc-description.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-197" href="doc-inXSDDateTimeStamp.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-198" href="doc-inverseOf.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-199" href="doc-license.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-200" href="doc-title.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-201" href="doc-unitDay.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-202" href="doc-unitHour.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-203" href="doc-unitMinute.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-204" href="doc-unitMonth.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-205" href="doc-unitSecond.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-206" href="doc-unitType.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-207" href="doc-unitWeek.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-208" href="doc-unitYear.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-209" href="documentation-authors.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-210" href="facilities.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-211" href="genindex.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-212" href="glossary.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-213" href="identifiers.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-214" href="index.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-215" href="locations.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-216" href="named-individuals.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-217" href="notes-and-sources.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-218" href="object-properties.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-219" href="ontology-authors.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-220" href="organizations.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-221" href="out-of-scope.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-222" href="ror-to-org.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-223" href="schema-to-org.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-224" href="vivo-to-org.xhtml" media-type="application/xhtml+xml" />
-    <item id="epub-225" href="_images/employee-pattern.png" media-type="image/png" />
-    <item id="epub-226" href="_images/general-time-pattern.png" media-type="image/png" />
-    <item id="epub-227" href="_images/membership-pattern.png" media-type="image/png" />
-    <item id="epub-228" href="_images/org-overview.png" media-type="image/png" />
-    <item id="epub-229" href="_images/org-types.png" media-type="image/png" />
-    <item id="epub-230" href="_static/basic.css" media-type="text/css" />
-    <item id="epub-231" href="_static/epub.css" media-type="text/css" />
-    <item id="epub-232" href="_static/file.png" media-type="image/png" />
-    <item id="epub-233" href="_static/minus.png" media-type="image/png" />
-    <item id="epub-234" href="_static/plus.png" media-type="image/png" />
-    <item id="epub-235" href="_static/pygments.css" media-type="text/css" />
+    <item id="epub-184" href="doc-RO_0000081.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-185" href="doc-RO_0000086.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-186" href="doc-RO_0000087.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-187" href="doc-RO_0000091.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-188" href="doc-RO_0000092.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-189" href="doc-RO_0001015.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-190" href="doc-RO_0001025.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-191" href="doc-RO_0002012.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-192" href="doc-RO_0002131.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-193" href="doc-RO_0002234.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-194" href="doc-RO_0002323.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-195" href="doc-RO_0002353.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-196" href="doc-TemporalUnit.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-197" href="doc-created.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-198" href="doc-creator.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-199" href="doc-description.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-200" href="doc-inXSDDateTimeStamp.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-201" href="doc-inverseOf.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-202" href="doc-license.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-203" href="doc-title.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-204" href="doc-unitDay.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-205" href="doc-unitHour.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-206" href="doc-unitMinute.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-207" href="doc-unitMonth.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-208" href="doc-unitSecond.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-209" href="doc-unitType.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-210" href="doc-unitWeek.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-211" href="doc-unitYear.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-212" href="documentation-authors.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-213" href="domain-definition.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-214" href="facilities.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-215" href="genindex.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-216" href="glossary.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-217" href="identifiers.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-218" href="index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-219" href="locations.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-220" href="named-individuals.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-221" href="notes-and-sources.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-222" href="object-properties.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-223" href="ontology-authors.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-224" href="organizations.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-225" href="out-of-scope.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-226" href="ror-to-org.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-227" href="schema-to-org.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-228" href="vivo-to-org.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-229" href="_images/employee-pattern.png" media-type="image/png" />
+    <item id="epub-230" href="_images/general-time-pattern.png" media-type="image/png" />
+    <item id="epub-231" href="_images/membership-pattern.png" media-type="image/png" />
+    <item id="epub-232" href="_images/org-overview.png" media-type="image/png" />
+    <item id="epub-233" href="_images/org-types.png" media-type="image/png" />
+    <item id="epub-234" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-235" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-236" href="_static/file.png" media-type="image/png" />
+    <item id="epub-237" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-238" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-239" href="_static/pygments.css" media-type="text/css" />
   </manifest>
   <spine toc="ncx" page-progression-direction="ltr">
-    <itemref idref="epub-214" />
-    <itemref idref="epub-220" />
+    <itemref idref="epub-218" />
     <itemref idref="epub-213" />
+    <itemref idref="epub-224" />
+    <itemref idref="epub-217" />
     <itemref idref="epub-0" />
-    <itemref idref="epub-210" />
-    <itemref idref="epub-215" />
+    <itemref idref="epub-214" />
+    <itemref idref="epub-219" />
     <itemref idref="epub-6" />
     <itemref idref="epub-2" />
     <itemref idref="epub-1" />
@@ -281,12 +286,12 @@
     <itemref idref="epub-42" />
     <itemref idref="epub-44" />
     <itemref idref="epub-144" />
-    <itemref idref="epub-194" />
-    <itemref idref="epub-195" />
-    <itemref idref="epub-196" />
-    <itemref idref="epub-200" />
-    <itemref idref="epub-199" />
+    <itemref idref="epub-197" />
     <itemref idref="epub-198" />
+    <itemref idref="epub-199" />
+    <itemref idref="epub-203" />
+    <itemref idref="epub-202" />
+    <itemref idref="epub-201" />
     <itemref idref="epub-3" />
     <itemref idref="epub-7" />
     <itemref idref="epub-8" />
@@ -406,8 +411,8 @@
     <itemref idref="epub-143" />
     <itemref idref="epub-29" />
     <itemref idref="epub-56" />
-    <itemref idref="epub-193" />
-    <itemref idref="epub-218" />
+    <itemref idref="epub-196" />
+    <itemref idref="epub-222" />
     <itemref idref="epub-23" />
     <itemref idref="epub-24" />
     <itemref idref="epub-25" />
@@ -456,7 +461,10 @@
     <itemref idref="epub-190" />
     <itemref idref="epub-191" />
     <itemref idref="epub-192" />
-    <itemref idref="epub-206" />
+    <itemref idref="epub-193" />
+    <itemref idref="epub-194" />
+    <itemref idref="epub-195" />
+    <itemref idref="epub-209" />
     <itemref idref="epub-5" />
     <itemref idref="epub-58" />
     <itemref idref="epub-172" />
@@ -466,25 +474,25 @@
     <itemref idref="epub-176" />
     <itemref idref="epub-177" />
     <itemref idref="epub-178" />
-    <itemref idref="epub-197" />
-    <itemref idref="epub-216" />
-    <itemref idref="epub-201" />
-    <itemref idref="epub-202" />
-    <itemref idref="epub-203" />
+    <itemref idref="epub-200" />
+    <itemref idref="epub-220" />
     <itemref idref="epub-204" />
     <itemref idref="epub-205" />
+    <itemref idref="epub-206" />
     <itemref idref="epub-207" />
     <itemref idref="epub-208" />
-    <itemref idref="epub-221" />
-    <itemref idref="epub-224" />
-    <itemref idref="epub-222" />
-    <itemref idref="epub-223" />
-    <itemref idref="epub-4" />
-    <itemref idref="epub-217" />
-    <itemref idref="epub-219" />
-    <itemref idref="epub-209" />
-    <itemref idref="epub-212" />
+    <itemref idref="epub-210" />
     <itemref idref="epub-211" />
+    <itemref idref="epub-225" />
+    <itemref idref="epub-228" />
+    <itemref idref="epub-226" />
+    <itemref idref="epub-227" />
+    <itemref idref="epub-4" />
+    <itemref idref="epub-223" />
+    <itemref idref="epub-212" />
+    <itemref idref="epub-221" />
+    <itemref idref="epub-216" />
+    <itemref idref="epub-215" />
   </spine>
   <guide>
     <reference type="toc" title="Table of Contents" href="index.xhtml" />

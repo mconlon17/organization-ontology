@@ -1,9 +1,6 @@
 # TO DOs
 
-1.  Write domain definition
-
-1.  VIVO overview, subsumption paper, domain paper, ontology paper, and org paper
-    as references to authors and notes and sources.
+1.  Improve the README
 
 1.  Add VIVO cross references to more terms
 

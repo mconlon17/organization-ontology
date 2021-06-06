@@ -5,911 +5,913 @@
 \let\spxextra \sphinxstyleindexextra
 
   \bigletter A
-  \item \spxentry{addresses}, \hyperpage{12}
+  \item \spxentry{addresses}, \hyperpage{14}
   \item \spxentry{affiliated with}
-    \subitem \spxentry{ORG\_2000011}, \hyperpage{148}
+    \subitem \spxentry{ORG\_2000011}, \hyperpage{150}
   \item \spxentry{airline disposition}
-    \subitem \spxentry{ORG\_0000079}, \hyperpage{124}
+    \subitem \spxentry{ORG\_0000079}, \hyperpage{126}
   \item \spxentry{alternative term}
-    \subitem \spxentry{IAO\_0000118}, \hyperpage{36}
+    \subitem \spxentry{IAO\_0000118}, \hyperpage{38}
   \item \spxentry{architectural structure}
-    \subitem \spxentry{ORG\_0000040}, \hyperpage{95}
+    \subitem \spxentry{ORG\_0000040}, \hyperpage{97}
   \item \spxentry{archive disposition}
-    \subitem \spxentry{ORG\_0000018}, \hyperpage{80}
+    \subitem \spxentry{ORG\_0000018}, \hyperpage{82}
   \item \spxentry{association disposition}
-    \subitem \spxentry{ORG\_0000008}, \hyperpage{72}
-  \item \spxentry{associations}, \hyperpage{21}
+    \subitem \spxentry{ORG\_0000008}, \hyperpage{74}
+  \item \spxentry{associations}, \hyperpage{23}
 
   \indexspace
   \bigletter B
   \item \spxentry{bearer of}
-    \subitem \spxentry{RO\_0000053}, \hyperpage{160}
-  \item \spxentry{BFO}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{RO\_0000053}, \hyperpage{162}
+  \item \spxentry{BFO}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{BFO\_0000001}
-    \subitem \spxentry{entity}, \hyperpage{47}
+    \subitem \spxentry{entity}, \hyperpage{49}
   \item \spxentry{BFO\_0000002}
-    \subitem \spxentry{continuant}, \hyperpage{47}
+    \subitem \spxentry{continuant}, \hyperpage{49}
   \item \spxentry{BFO\_0000003}
-    \subitem \spxentry{occurrent}, \hyperpage{48}
+    \subitem \spxentry{occurrent}, \hyperpage{50}
   \item \spxentry{BFO\_0000004}
-    \subitem \spxentry{independent continuant}, \hyperpage{48}
+    \subitem \spxentry{independent continuant}, \hyperpage{50}
   \item \spxentry{BFO\_0000008}
-    \subitem \spxentry{temporal region}, \hyperpage{49}
+    \subitem \spxentry{temporal region}, \hyperpage{51}
   \item \spxentry{BFO\_0000015}
-    \subitem \spxentry{process}, \hyperpage{49}
+    \subitem \spxentry{process}, \hyperpage{51}
   \item \spxentry{BFO\_0000016}
-    \subitem \spxentry{disposition}, \hyperpage{50}
+    \subitem \spxentry{disposition}, \hyperpage{52}
   \item \spxentry{BFO\_0000017}
-    \subitem \spxentry{realizable entity}, \hyperpage{50}
+    \subitem \spxentry{realizable entity}, \hyperpage{52}
   \item \spxentry{BFO\_0000019}
-    \subitem \spxentry{quality}, \hyperpage{51}
+    \subitem \spxentry{quality}, \hyperpage{53}
   \item \spxentry{BFO\_0000020}
-    \subitem \spxentry{specifically dependent continuant}, \hyperpage{52}
+    \subitem \spxentry{specifically dependent continuant}, \hyperpage{54}
   \item \spxentry{BFO\_0000023}
-    \subitem \spxentry{role}, \hyperpage{52}
+    \subitem \spxentry{role}, \hyperpage{54}
   \item \spxentry{BFO\_0000029}
-    \subitem \spxentry{site}, \hyperpage{53}
+    \subitem \spxentry{site}, \hyperpage{55}
   \item \spxentry{BFO\_0000031}
-    \subitem \spxentry{generically dependent continuant}, \hyperpage{54}
+    \subitem \spxentry{generically dependent continuant}, \hyperpage{56}
   \item \spxentry{BFO\_0000035}
-    \subitem \spxentry{process boundary}, \hyperpage{54}
+    \subitem \spxentry{process boundary}, \hyperpage{56}
   \item \spxentry{BFO\_0000038}
-    \subitem \spxentry{one\sphinxhyphen{}dimensional temporal region}, \hyperpage{55}
+    \subitem \spxentry{one\sphinxhyphen{}dimensional temporal region}, \hyperpage{57}
   \item \spxentry{BFO\_0000040}
-    \subitem \spxentry{material entity}, \hyperpage{55}
+    \subitem \spxentry{material entity}, \hyperpage{57}
   \item \spxentry{BFO\_0000050}
-    \subitem \spxentry{part of}, \hyperpage{135}
+    \subitem \spxentry{part of}, \hyperpage{137}
   \item \spxentry{BFO\_0000051}
-    \subitem \spxentry{has part}, \hyperpage{136}
+    \subitem \spxentry{has part}, \hyperpage{138}
   \item \spxentry{BFO\_0000054}
-    \subitem \spxentry{realized in}, \hyperpage{137}
+    \subitem \spxentry{realized in}, \hyperpage{139}
   \item \spxentry{BFO\_0000055}
-    \subitem \spxentry{realizes}, \hyperpage{138}
+    \subitem \spxentry{realizes}, \hyperpage{140}
   \item \spxentry{BFO\_0000141}
-    \subitem \spxentry{immaterial entity}, \hyperpage{57}
+    \subitem \spxentry{immaterial entity}, \hyperpage{59}
   \item \spxentry{BFO\_0000148}
-    \subitem \spxentry{zero\sphinxhyphen{}dimensional temporal region}, \hyperpage{57}
+    \subitem \spxentry{zero\sphinxhyphen{}dimensional temporal region}, \hyperpage{59}
   \item \spxentry{billing address quality}
-    \subitem \spxentry{ORG\_0000035}, \hyperpage{92}
+    \subitem \spxentry{ORG\_0000035}, \hyperpage{94}
   \item \spxentry{building}
-    \subitem \spxentry{ORG\_0000043}, \hyperpage{98}
+    \subitem \spxentry{ORG\_0000043}, \hyperpage{100}
 
   \indexspace
   \bigletter C
   \item \spxentry{campus}
-    \subitem \spxentry{ORG\_0000041}, \hyperpage{96}
-  \item \spxentry{CC0}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{ORG\_0000041}, \hyperpage{98}
+  \item \spxentry{CC0}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{centrally registered identifier}
-    \subitem \spxentry{IAO\_0000578}, \hyperpage{60}
+    \subitem \spxentry{IAO\_0000578}, \hyperpage{62}
   \item \spxentry{commerce disposition}
-    \subitem \spxentry{ORG\_0000027}, \hyperpage{86}
+    \subitem \spxentry{ORG\_0000027}, \hyperpage{88}
   \item \spxentry{company}
-    \subitem \spxentry{ORG\_0000003}, \hyperpage{68}
+    \subitem \spxentry{ORG\_0000003}, \hyperpage{70}
+  \item \spxentry{competency questions}, \hyperpage{3}
   \item \spxentry{Concept}
-    \subitem \spxentry{concept}\spxextra{skos}, \hyperpage{129}
+    \subitem \spxentry{concept}\spxextra{skos}, \hyperpage{131}
   \item \spxentry{concept}\spxextra{skos}
-    \subitem \spxentry{Concept}, \hyperpage{129}
+    \subitem \spxentry{Concept}, \hyperpage{131}
   \item \spxentry{consortium disposition}
-    \subitem \spxentry{ORG\_0000009}, \hyperpage{73}
+    \subitem \spxentry{ORG\_0000009}, \hyperpage{75}
   \item \spxentry{continent}
-    \subitem \spxentry{ORG\_0000047}, \hyperpage{101}
+    \subitem \spxentry{ORG\_0000047}, \hyperpage{103}
   \item \spxentry{continuant}
-    \subitem \spxentry{BFO\_0000002}, \hyperpage{47}
+    \subitem \spxentry{BFO\_0000002}, \hyperpage{49}
   \item \spxentry{country}
-    \subitem \spxentry{ORG\_0000048}, \hyperpage{102}
+    \subitem \spxentry{ORG\_0000048}, \hyperpage{104}
   \item \spxentry{created}
-    \subitem \spxentry{No label}, \hyperpage{39}
+    \subitem \spxentry{No label}, \hyperpage{41}
   \item \spxentry{creator}
-    \subitem \spxentry{No label}, \hyperpage{39}
+    \subitem \spxentry{No label}, \hyperpage{41}
   \item \spxentry{crossref funder identifier}
-    \subitem \spxentry{IAO\_0022003}, \hyperpage{61}
+    \subitem \spxentry{IAO\_0022003}, \hyperpage{63}
   \item \spxentry{curator note}
-    \subitem \spxentry{IAO\_0000232}, \hyperpage{37}
+    \subitem \spxentry{IAO\_0000232}, \hyperpage{39}
 
   \indexspace
   \bigletter D
-  \item \spxentry{Data}, \hyperpage{194}
-  \item \spxentry{Dates}, \hyperpage{18}, \hyperpage{194}
-  \item \spxentry{Datetimes}, \hyperpage{18}, \hyperpage{194}
+  \item \spxentry{Data}, \hyperpage{196}
+  \item \spxentry{Dates}, \hyperpage{20}, \hyperpage{196}
+  \item \spxentry{Datetimes}, \hyperpage{20}, \hyperpage{196}
   \item \spxentry{day}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitDay}, \hyperpage{179}
+    \subitem \spxentry{unitDay}, \hyperpage{181}
   \item \spxentry{dbpedia identifier}
-    \subitem \spxentry{IAO\_0022006}, \hyperpage{62}
+    \subitem \spxentry{IAO\_0022006}, \hyperpage{64}
   \item \spxentry{definition}
-    \subitem \spxentry{IAO\_0000115}, \hyperpage{33}
+    \subitem \spxentry{IAO\_0000115}, \hyperpage{35}
   \item \spxentry{definition source}
-    \subitem \spxentry{IAO\_0000119}, \hyperpage{36}
+    \subitem \spxentry{IAO\_0000119}, \hyperpage{38}
   \item \spxentry{denoted by}
-    \subitem \spxentry{IAO\_0000235}, \hyperpage{140}
+    \subitem \spxentry{IAO\_0000235}, \hyperpage{142}
   \item \spxentry{denotes}
-    \subitem \spxentry{IAO\_0000219}, \hyperpage{139}
+    \subitem \spxentry{IAO\_0000219}, \hyperpage{141}
   \item \spxentry{description}
-    \subitem \spxentry{No label}, \hyperpage{39}
+    \subitem \spxentry{No label}, \hyperpage{41}
   \item \spxentry{disposition}
-    \subitem \spxentry{BFO\_0000016}, \hyperpage{50}
+    \subitem \spxentry{BFO\_0000016}, \hyperpage{52}
   \item \spxentry{disposition of}
-    \subitem \spxentry{RO\_0000092}, \hyperpage{166}
+    \subitem \spxentry{RO\_0000092}, \hyperpage{168}
   \item \spxentry{dissolution process}
-    \subitem \spxentry{ORG\_0000053}, \hyperpage{106}
+    \subitem \spxentry{ORG\_0000053}, \hyperpage{108}
   \item \spxentry{dissolution process boundary}
-    \subitem \spxentry{ORG\_0000054}, \hyperpage{107}
-  \item \spxentry{Domain}, \hyperindexformat{\spxpagem}{203}
-  \item \spxentry{Dubbing Process}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{ORG\_0000054}, \hyperpage{109}
+  \item \spxentry{Domain}, \hyperindexformat{\spxpagem}{205}
+  \item \spxentry{domain definition}, \hyperpage{1}
+  \item \spxentry{Dubbing Process}, \hyperindexformat{\spxpagem}{205}
 
   \indexspace
   \bigletter E
   \item \spxentry{editor note}
-    \subitem \spxentry{IAO\_0000116}, \hyperpage{34}
+    \subitem \spxentry{IAO\_0000116}, \hyperpage{36}
   \item \spxentry{editor preferred label}
-    \subitem \spxentry{IAO\_0000111}, \hyperpage{32}
+    \subitem \spxentry{IAO\_0000111}, \hyperpage{34}
   \item \spxentry{education disposition}
-    \subitem \spxentry{ORG\_0000023}, \hyperpage{83}
+    \subitem \spxentry{ORG\_0000023}, \hyperpage{85}
   \item \spxentry{email address}
-    \subitem \spxentry{IAO\_0000429}, \hyperpage{59}
-  \item \spxentry{Entity}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{IAO\_0000429}, \hyperpage{61}
+  \item \spxentry{Entity}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{entity}
-    \subitem \spxentry{BFO\_0000001}, \hyperpage{47}
+    \subitem \spxentry{BFO\_0000001}, \hyperpage{49}
   \item \spxentry{example of usage}
-    \subitem \spxentry{IAO\_0000112}, \hyperpage{32}
+    \subitem \spxentry{IAO\_0000112}, \hyperpage{34}
   \item \spxentry{extension provider disposition}
-    \subitem \spxentry{ORG\_0000012}, \hyperpage{75}
+    \subitem \spxentry{ORG\_0000012}, \hyperpage{77}
 
   \indexspace
   \bigletter F
-  \item \spxentry{Facilities}, \hyperpage{14}
+  \item \spxentry{Facilities}, \hyperpage{16}
   \item \spxentry{facility}
-    \subitem \spxentry{ORG\_0000042}, \hyperpage{97}
+    \subitem \spxentry{ORG\_0000042}, \hyperpage{99}
   \item \spxentry{founding process}
-    \subitem \spxentry{ORG\_0000051}, \hyperpage{105}
+    \subitem \spxentry{ORG\_0000051}, \hyperpage{107}
   \item \spxentry{founding process boundary}
-    \subitem \spxentry{ORG\_0000052}, \hyperpage{105}
+    \subitem \spxentry{ORG\_0000052}, \hyperpage{107}
   \item \spxentry{funding disposition}
-    \subitem \spxentry{ORG\_0000015}, \hyperpage{78}
+    \subitem \spxentry{ORG\_0000015}, \hyperpage{80}
 
   \indexspace
   \bigletter G
   \item \spxentry{gallery disposition}
-    \subitem \spxentry{ORG\_0000020}, \hyperpage{81}
-  \item \spxentry{Generically dependent continuant}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{ORG\_0000020}, \hyperpage{83}
+  \item \spxentry{Generically dependent continuant}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{generically dependent continuant}
-    \subitem \spxentry{BFO\_0000031}, \hyperpage{54}
+    \subitem \spxentry{BFO\_0000031}, \hyperpage{56}
   \item \spxentry{geographic point}
-    \subitem \spxentry{ORG\_0000046}, \hyperpage{101}
+    \subitem \spxentry{ORG\_0000046}, \hyperpage{103}
   \item \spxentry{geographic region}
-    \subitem \spxentry{ORG\_0000045}, \hyperpage{100}
+    \subitem \spxentry{ORG\_0000045}, \hyperpage{102}
   \item \spxentry{global research organization identifier}
-    \subitem \spxentry{IAO\_0022010}, \hyperpage{63}
+    \subitem \spxentry{IAO\_0022010}, \hyperpage{65}
   \item \spxentry{governing disposition}
-    \subitem \spxentry{ORG\_0000030}, \hyperpage{88}
+    \subitem \spxentry{ORG\_0000030}, \hyperpage{90}
   \item \spxentry{government organization}
-    \subitem \spxentry{ORG\_0000002}, \hyperpage{67}
+    \subitem \spxentry{ORG\_0000002}, \hyperpage{69}
 
   \indexspace
   \bigletter H
   \item \spxentry{has curation status}
-    \subitem \spxentry{IAO\_0000114}, \hyperpage{33}
+    \subitem \spxentry{IAO\_0000114}, \hyperpage{35}
   \item \spxentry{has disposition}
-    \subitem \spxentry{RO\_0000091}, \hyperpage{165}
+    \subitem \spxentry{RO\_0000091}, \hyperpage{167}
   \item \spxentry{has email representation}
-    \subitem \spxentry{ORG\_3000002}, \hyperpage{173}
+    \subitem \spxentry{ORG\_3000002}, \hyperpage{175}
   \item \spxentry{has geolocation representation}
-    \subitem \spxentry{ORG\_3000004}, \hyperpage{175}
+    \subitem \spxentry{ORG\_3000004}, \hyperpage{177}
   \item \spxentry{has occurent part}
-    \subitem \spxentry{ORG\_2000002}, \hyperpage{141}
+    \subitem \spxentry{ORG\_2000002}, \hyperpage{143}
   \item \spxentry{has official organization name}
-    \subitem \spxentry{ORG\_3000006}, \hyperpage{176}
+    \subitem \spxentry{ORG\_3000006}, \hyperpage{178}
   \item \spxentry{has organization name}
-    \subitem \spxentry{ORG\_3000007}, \hyperpage{177}
+    \subitem \spxentry{ORG\_3000007}, \hyperpage{179}
   \item \spxentry{has organizational appointee}
-    \subitem \spxentry{ORG\_2000024}, \hyperpage{157}
+    \subitem \spxentry{ORG\_2000024}, \hyperpage{159}
   \item \spxentry{has organizational associate}
-    \subitem \spxentry{ORG\_2000018}, \hyperpage{153}
+    \subitem \spxentry{ORG\_2000018}, \hyperpage{155}
   \item \spxentry{has organizational employee}
-    \subitem \spxentry{ORG\_2000016}, \hyperpage{152}
+    \subitem \spxentry{ORG\_2000016}, \hyperpage{154}
   \item \spxentry{has organizational head}
-    \subitem \spxentry{ORG\_2000020}, \hyperpage{155}
+    \subitem \spxentry{ORG\_2000020}, \hyperpage{157}
   \item \spxentry{has organizational interest}
-    \subitem \spxentry{ORG\_2000004}, \hyperpage{143}
+    \subitem \spxentry{ORG\_2000004}, \hyperpage{145}
   \item \spxentry{has organizational member}
-    \subitem \spxentry{ORG\_2000014}, \hyperpage{150}
+    \subitem \spxentry{ORG\_2000014}, \hyperpage{152}
   \item \spxentry{has organizational part}
-    \subitem \spxentry{ORG\_2000009}, \hyperpage{146}
+    \subitem \spxentry{ORG\_2000009}, \hyperpage{148}
   \item \spxentry{has organizational volunteer}
-    \subitem \spxentry{ORG\_2000022}, \hyperpage{156}
+    \subitem \spxentry{ORG\_2000022}, \hyperpage{158}
   \item \spxentry{has output}
-    \subitem \spxentry{RO\_0002234}, \hyperpage{169}
+    \subitem \spxentry{RO\_0002234}, \hyperpage{171}
   \item \spxentry{has part}
-    \subitem \spxentry{BFO\_0000051}, \hyperpage{136}
+    \subitem \spxentry{BFO\_0000051}, \hyperpage{138}
   \item \spxentry{has participant}
-    \subitem \spxentry{RO\_0000057}, \hyperpage{162}
+    \subitem \spxentry{RO\_0000057}, \hyperpage{164}
   \item \spxentry{has person member}
-    \subitem \spxentry{ORG\_2000026}, \hyperpage{158}
+    \subitem \spxentry{ORG\_2000026}, \hyperpage{160}
   \item \spxentry{has postal address representation}
-    \subitem \spxentry{ORG\_3000003}, \hyperpage{174}
+    \subitem \spxentry{ORG\_3000003}, \hyperpage{176}
   \item \spxentry{has quality}
-    \subitem \spxentry{RO\_0000086}, \hyperpage{164}
+    \subitem \spxentry{RO\_0000086}, \hyperpage{166}
   \item \spxentry{has representation}
-    \subitem \spxentry{OBI\_0002815}, \hyperpage{171}
+    \subitem \spxentry{OBI\_0002815}, \hyperpage{173}
   \item \spxentry{has role}
-    \subitem \spxentry{RO\_0000087}, \hyperpage{165}
+    \subitem \spxentry{RO\_0000087}, \hyperpage{167}
   \item \spxentry{has spin\sphinxhyphen{}off organization}
-    \subitem \spxentry{ORG\_2000012}, \hyperpage{149}
+    \subitem \spxentry{ORG\_2000012}, \hyperpage{151}
   \item \spxentry{has successor organization}
-    \subitem \spxentry{ORG\_2000007}, \hyperpage{145}
+    \subitem \spxentry{ORG\_2000007}, \hyperpage{147}
   \item \spxentry{has time instant}
-    \subitem \spxentry{ORG\_2000003}, \hyperpage{142}
+    \subitem \spxentry{ORG\_2000003}, \hyperpage{144}
   \item \spxentry{has URL representation}
-    \subitem \spxentry{ORG\_3000005}, \hyperpage{175}
+    \subitem \spxentry{ORG\_3000005}, \hyperpage{177}
   \item \spxentry{has website}
-    \subitem \spxentry{ORG\_2000005}, \hyperpage{144}
+    \subitem \spxentry{ORG\_2000005}, \hyperpage{146}
   \item \spxentry{health care service provider disposition}
-    \subitem \spxentry{ORG\_0000016}, \hyperpage{78}
+    \subitem \spxentry{ORG\_0000016}, \hyperpage{80}
   \item \spxentry{homepage quality}
-    \subitem \spxentry{ORG\_0000038}, \hyperpage{94}
+    \subitem \spxentry{ORG\_0000038}, \hyperpage{96}
   \item \spxentry{Homo sapiens}
-    \subitem \spxentry{NCBITaxon\_9606}, \hyperpage{66}
+    \subitem \spxentry{NCBITaxon\_9606}, \hyperpage{68}
   \item \spxentry{hospital service provider disposition}
-    \subitem \spxentry{ORG\_0000017}, \hyperpage{79}
+    \subitem \spxentry{ORG\_0000017}, \hyperpage{81}
   \item \spxentry{hour}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitHour}, \hyperpage{179}
+    \subitem \spxentry{unitHour}, \hyperpage{181}
 
   \indexspace
   \bigletter I
-  \item \spxentry{IAO}, \hyperindexformat{\spxpagem}{203}
+  \item \spxentry{IAO}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{IAO\_0000030}
-    \subitem \spxentry{information content entity}, \hyperpage{58}
+    \subitem \spxentry{information content entity}, \hyperpage{60}
   \item \spxentry{IAO\_0000111}
-    \subitem \spxentry{editor preferred label}, \hyperpage{32}
+    \subitem \spxentry{editor preferred label}, \hyperpage{34}
   \item \spxentry{IAO\_0000112}
-    \subitem \spxentry{example of usage}, \hyperpage{32}
+    \subitem \spxentry{example of usage}, \hyperpage{34}
   \item \spxentry{IAO\_0000114}
-    \subitem \spxentry{has curation status}, \hyperpage{33}
+    \subitem \spxentry{has curation status}, \hyperpage{35}
   \item \spxentry{IAO\_0000115}
-    \subitem \spxentry{definition}, \hyperpage{33}
+    \subitem \spxentry{definition}, \hyperpage{35}
   \item \spxentry{IAO\_0000116}
-    \subitem \spxentry{editor note}, \hyperpage{34}
+    \subitem \spxentry{editor note}, \hyperpage{36}
   \item \spxentry{IAO\_0000117}
-    \subitem \spxentry{term editor}, \hyperpage{35}
+    \subitem \spxentry{term editor}, \hyperpage{37}
   \item \spxentry{IAO\_0000118}
-    \subitem \spxentry{alternative term}, \hyperpage{36}
+    \subitem \spxentry{alternative term}, \hyperpage{38}
   \item \spxentry{IAO\_0000119}
-    \subitem \spxentry{definition source}, \hyperpage{36}
+    \subitem \spxentry{definition source}, \hyperpage{38}
   \item \spxentry{IAO\_0000136}
-    \subitem \spxentry{is about}, \hyperpage{138}
+    \subitem \spxentry{is about}, \hyperpage{140}
   \item \spxentry{IAO\_0000219}
-    \subitem \spxentry{denotes}, \hyperpage{139}
+    \subitem \spxentry{denotes}, \hyperpage{141}
   \item \spxentry{IAO\_0000232}
-    \subitem \spxentry{curator note}, \hyperpage{37}
+    \subitem \spxentry{curator note}, \hyperpage{39}
   \item \spxentry{IAO\_0000233}
-    \subitem \spxentry{term tracker item}, \hyperpage{37}
+    \subitem \spxentry{term tracker item}, \hyperpage{39}
   \item \spxentry{IAO\_0000235}
-    \subitem \spxentry{denoted by}, \hyperpage{140}
+    \subitem \spxentry{denoted by}, \hyperpage{142}
   \item \spxentry{IAO\_0000412}
-    \subitem \spxentry{imported from}, \hyperpage{38}
+    \subitem \spxentry{imported from}, \hyperpage{40}
   \item \spxentry{IAO\_0000422}
-    \subitem \spxentry{postal address}, \hyperpage{59}
+    \subitem \spxentry{postal address}, \hyperpage{61}
   \item \spxentry{IAO\_0000429}
-    \subitem \spxentry{email address}, \hyperpage{59}
+    \subitem \spxentry{email address}, \hyperpage{61}
   \item \spxentry{IAO\_0000578}
-    \subitem \spxentry{centrally registered identifier}, \hyperpage{60}
+    \subitem \spxentry{centrally registered identifier}, \hyperpage{62}
   \item \spxentry{IAO\_0020000}
-    \subitem \spxentry{identifier}, \hyperpage{61}
+    \subitem \spxentry{identifier}, \hyperpage{63}
   \item \spxentry{IAO\_0022003}
-    \subitem \spxentry{crossref funder identifier}, \hyperpage{61}
+    \subitem \spxentry{crossref funder identifier}, \hyperpage{63}
   \item \spxentry{IAO\_0022006}
-    \subitem \spxentry{dbpedia identifier}, \hyperpage{62}
+    \subitem \spxentry{dbpedia identifier}, \hyperpage{64}
   \item \spxentry{IAO\_0022010}
-    \subitem \spxentry{global research organization identifier}, \hyperpage{63}
+    \subitem \spxentry{global research organization identifier}, \hyperpage{65}
   \item \spxentry{IAO\_0022014}
-    \subitem \spxentry{international standard name identifier}, \hyperpage{63}
+    \subitem \spxentry{international standard name identifier}, \hyperpage{65}
   \item \spxentry{IAO\_0022022}
-    \subitem \spxentry{research organization registry identifier}, \hyperpage{64}
+    \subitem \spxentry{research organization registry identifier}, \hyperpage{66}
   \item \spxentry{IAO\_0022027}
-    \subitem \spxentry{wikidata q number}, \hyperpage{65}
+    \subitem \spxentry{wikidata q number}, \hyperpage{67}
   \item \spxentry{IAO\_0022057}
-    \subitem \spxentry{ringgold identifier}, \hyperpage{65}
+    \subitem \spxentry{ringgold identifier}, \hyperpage{67}
   \item \spxentry{identifier}
-    \subitem \spxentry{IAO\_0020000}, \hyperpage{61}
-  \item \spxentry{identifiers}, \hyperpage{9}
+    \subitem \spxentry{IAO\_0020000}, \hyperpage{63}
+  \item \spxentry{identifiers}, \hyperpage{11}
   \item \spxentry{immaterial entity}
-    \subitem \spxentry{BFO\_0000141}, \hyperpage{57}
+    \subitem \spxentry{BFO\_0000141}, \hyperpage{59}
   \item \spxentry{imported from}
-    \subitem \spxentry{IAO\_0000412}, \hyperpage{38}
+    \subitem \spxentry{IAO\_0000412}, \hyperpage{40}
   \item \spxentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp}
-    \subitem \spxentry{inXSDDateTimeStamp}, \hyperpage{178}
+    \subitem \spxentry{inXSDDateTimeStamp}, \hyperpage{180}
   \item \spxentry{independent continuant}
-    \subitem \spxentry{BFO\_0000004}, \hyperpage{48}
+    \subitem \spxentry{BFO\_0000004}, \hyperpage{50}
   \item \spxentry{informal organization}
-    \subitem \spxentry{ORG\_0000005}, \hyperpage{70}
+    \subitem \spxentry{ORG\_0000005}, \hyperpage{72}
   \item \spxentry{information address quality}
-    \subitem \spxentry{ORG\_0000034}, \hyperpage{91}
-  \item \spxentry{Information artifacts}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{ORG\_0000034}, \hyperpage{93}
+  \item \spxentry{Information artifacts}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{information content entity}
-    \subitem \spxentry{IAO\_0000030}, \hyperpage{58}
+    \subitem \spxentry{IAO\_0000030}, \hyperpage{60}
   \item \spxentry{inheres in}
-    \subitem \spxentry{RO\_0000052}, \hyperpage{160}
+    \subitem \spxentry{RO\_0000052}, \hyperpage{162}
   \item \spxentry{Instant}
-    \subitem \spxentry{time instant}, \hyperpage{130}
+    \subitem \spxentry{time instant}, \hyperpage{132}
   \item \spxentry{international standard name identifier}
-    \subitem \spxentry{IAO\_0022014}, \hyperpage{63}
+    \subitem \spxentry{IAO\_0022014}, \hyperpage{65}
   \item \spxentry{inverseOf}
-    \subitem \spxentry{No label}, \hyperpage{40}
+    \subitem \spxentry{No label}, \hyperpage{42}
   \item \spxentry{inXSDDateTimeStamp}
-    \subitem \spxentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp}, \hyperpage{178}
+    \subitem \spxentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp}, \hyperpage{180}
   \item \spxentry{is about}
-    \subitem \spxentry{IAO\_0000136}, \hyperpage{138}
+    \subitem \spxentry{IAO\_0000136}, \hyperpage{140}
 
   \indexspace
   \bigletter L
   \item \spxentry{labor union disposition}
-    \subitem \spxentry{ORG\_0000082}, \hyperpage{126}
+    \subitem \spxentry{ORG\_0000082}, \hyperpage{128}
   \item \spxentry{laboratory service provider disposition}
-    \subitem \spxentry{ORG\_0000011}, \hyperpage{74}
+    \subitem \spxentry{ORG\_0000011}, \hyperpage{76}
   \item \spxentry{library disposition}
-    \subitem \spxentry{ORG\_0000026}, \hyperpage{85}
+    \subitem \spxentry{ORG\_0000026}, \hyperpage{87}
   \item \spxentry{license}
-    \subitem \spxentry{No label}, \hyperpage{39}
+    \subitem \spxentry{No label}, \hyperpage{41}
   \item \spxentry{located in}
-    \subitem \spxentry{RO\_0001025}, \hyperpage{167}
+    \subitem \spxentry{RO\_0001025}, \hyperpage{169}
   \item \spxentry{location of}
-    \subitem \spxentry{RO\_0001015}, \hyperpage{166}
-  \item \spxentry{Locations}, \hyperpage{16}
+    \subitem \spxentry{RO\_0001015}, \hyperpage{168}
+  \item \spxentry{Locations}, \hyperpage{18}
 
   \indexspace
   \bigletter M
   \item \spxentry{manufacturing disposition}
-    \subitem \spxentry{ORG\_0000031}, \hyperpage{89}
+    \subitem \spxentry{ORG\_0000031}, \hyperpage{91}
   \item \spxentry{material entity}
-    \subitem \spxentry{BFO\_0000040}, \hyperpage{55}
+    \subitem \spxentry{BFO\_0000040}, \hyperpage{57}
   \item \spxentry{media disposition}
-    \subitem \spxentry{ORG\_0000080}, \hyperpage{125}
+    \subitem \spxentry{ORG\_0000080}, \hyperpage{127}
   \item \spxentry{mereotopologically related to}
-    \subitem \spxentry{RO\_0002323}, \hyperpage{169}
+    \subitem \spxentry{RO\_0002323}, \hyperpage{171}
   \item \spxentry{military disposition}
-    \subitem \spxentry{ORG\_0000028}, \hyperpage{87}
+    \subitem \spxentry{ORG\_0000028}, \hyperpage{89}
   \item \spxentry{minority led organization quality}
-    \subitem \spxentry{ORG\_0000065}, \hyperpage{115}
+    \subitem \spxentry{ORG\_0000065}, \hyperpage{117}
   \item \spxentry{minute}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitMinute}, \hyperpage{180}
+    \subitem \spxentry{unitMinute}, \hyperpage{182}
   \item \spxentry{month}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitMonth}, \hyperpage{180}
+    \subitem \spxentry{unitMonth}, \hyperpage{182}
   \item \spxentry{museum disposition}
-    \subitem \spxentry{ORG\_0000019}, \hyperpage{80}
+    \subitem \spxentry{ORG\_0000019}, \hyperpage{82}
 
   \indexspace
   \bigletter N
   \item \spxentry{NCBITaxon\_9606}
-    \subitem \spxentry{Homo sapiens}, \hyperpage{66}
+    \subitem \spxentry{Homo sapiens}, \hyperpage{68}
   \item \spxentry{No label}
-    \subitem \spxentry{created}, \hyperpage{39}
-    \subitem \spxentry{creator}, \hyperpage{39}
-    \subitem \spxentry{description}, \hyperpage{39}
-    \subitem \spxentry{inverseOf}, \hyperpage{40}
-    \subitem \spxentry{license}, \hyperpage{39}
-    \subitem \spxentry{title}, \hyperpage{39}
+    \subitem \spxentry{created}, \hyperpage{41}
+    \subitem \spxentry{creator}, \hyperpage{41}
+    \subitem \spxentry{description}, \hyperpage{41}
+    \subitem \spxentry{inverseOf}, \hyperpage{42}
+    \subitem \spxentry{license}, \hyperpage{41}
+    \subitem \spxentry{title}, \hyperpage{41}
   \item \spxentry{nonprofit organization}
-    \subitem \spxentry{ORG\_0000004}, \hyperpage{69}
+    \subitem \spxentry{ORG\_0000004}, \hyperpage{71}
   \item \spxentry{number of employees}
-    \subitem \spxentry{ORG\_3000001}, \hyperpage{172}
+    \subitem \spxentry{ORG\_3000001}, \hyperpage{174}
 
   \indexspace
   \bigletter O
   \item \spxentry{OBI\_0002815}
-    \subitem \spxentry{has representation}, \hyperpage{171}
-  \item \spxentry{OBO}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{has representation}, \hyperpage{173}
+  \item \spxentry{OBO}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{occupies}
-    \subitem \spxentry{ORG\_2000001}, \hyperpage{141}
+    \subitem \spxentry{ORG\_2000001}, \hyperpage{143}
   \item \spxentry{occurent part of}
-    \subitem \spxentry{RO\_0002012}, \hyperpage{168}
+    \subitem \spxentry{RO\_0002012}, \hyperpage{170}
   \item \spxentry{occurrent}
-    \subitem \spxentry{BFO\_0000003}, \hyperpage{48}
+    \subitem \spxentry{BFO\_0000003}, \hyperpage{50}
   \item \spxentry{one\sphinxhyphen{}dimensional temporal region}
-    \subitem \spxentry{BFO\_0000038}, \hyperpage{55}
-  \item \spxentry{Ontology}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{BFO\_0000038}, \hyperpage{57}
+  \item \spxentry{Ontology}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{ORG\_0000001}
-    \subitem \spxentry{organization}, \hyperpage{67}
+    \subitem \spxentry{organization}, \hyperpage{69}
   \item \spxentry{ORG\_0000002}
-    \subitem \spxentry{government organization}, \hyperpage{67}
+    \subitem \spxentry{government organization}, \hyperpage{69}
   \item \spxentry{ORG\_0000003}
-    \subitem \spxentry{company}, \hyperpage{68}
+    \subitem \spxentry{company}, \hyperpage{70}
   \item \spxentry{ORG\_0000004}
-    \subitem \spxentry{nonprofit organization}, \hyperpage{69}
+    \subitem \spxentry{nonprofit organization}, \hyperpage{71}
   \item \spxentry{ORG\_0000005}
-    \subitem \spxentry{informal organization}, \hyperpage{70}
+    \subitem \spxentry{informal organization}, \hyperpage{72}
   \item \spxentry{ORG\_0000006}
-    \subitem \spxentry{organization part}, \hyperpage{71}
+    \subitem \spxentry{organization part}, \hyperpage{73}
   \item \spxentry{ORG\_0000007}
-    \subitem \spxentry{university disposition}, \hyperpage{71}
+    \subitem \spxentry{university disposition}, \hyperpage{73}
   \item \spxentry{ORG\_0000008}
-    \subitem \spxentry{association disposition}, \hyperpage{72}
+    \subitem \spxentry{association disposition}, \hyperpage{74}
   \item \spxentry{ORG\_0000009}
-    \subitem \spxentry{consortium disposition}, \hyperpage{73}
+    \subitem \spxentry{consortium disposition}, \hyperpage{75}
   \item \spxentry{ORG\_0000010}
-    \subitem \spxentry{service provider disposition}, \hyperpage{74}
+    \subitem \spxentry{service provider disposition}, \hyperpage{76}
   \item \spxentry{ORG\_0000011}
-    \subitem \spxentry{laboratory service provider disposition}, \hyperpage{74}
+    \subitem \spxentry{laboratory service provider disposition}, \hyperpage{76}
   \item \spxentry{ORG\_0000012}
-    \subitem \spxentry{extension provider disposition}, \hyperpage{75}
+    \subitem \spxentry{extension provider disposition}, \hyperpage{77}
   \item \spxentry{ORG\_0000013}
-    \subitem \spxentry{technology transfer disposition}, \hyperpage{76}
+    \subitem \spxentry{technology transfer disposition}, \hyperpage{78}
   \item \spxentry{ORG\_0000014}
-    \subitem \spxentry{philanthropy disposition}, \hyperpage{77}
+    \subitem \spxentry{philanthropy disposition}, \hyperpage{79}
   \item \spxentry{ORG\_0000015}
-    \subitem \spxentry{funding disposition}, \hyperpage{78}
+    \subitem \spxentry{funding disposition}, \hyperpage{80}
   \item \spxentry{ORG\_0000016}
-    \subitem \spxentry{health care service provider disposition}, \hyperpage{78}
+    \subitem \spxentry{health care service provider disposition}, \hyperpage{80}
   \item \spxentry{ORG\_0000017}
-    \subitem \spxentry{hospital service provider disposition}, \hyperpage{79}
+    \subitem \spxentry{hospital service provider disposition}, \hyperpage{81}
   \item \spxentry{ORG\_0000018}
-    \subitem \spxentry{archive disposition}, \hyperpage{80}
+    \subitem \spxentry{archive disposition}, \hyperpage{82}
   \item \spxentry{ORG\_0000019}
-    \subitem \spxentry{museum disposition}, \hyperpage{80}
+    \subitem \spxentry{museum disposition}, \hyperpage{82}
   \item \spxentry{ORG\_0000020}
-    \subitem \spxentry{gallery disposition}, \hyperpage{81}
+    \subitem \spxentry{gallery disposition}, \hyperpage{83}
   \item \spxentry{ORG\_0000021}
-    \subitem \spxentry{publishing disposition}, \hyperpage{82}
+    \subitem \spxentry{publishing disposition}, \hyperpage{84}
   \item \spxentry{ORG\_0000022}
-    \subitem \spxentry{research disposition}, \hyperpage{82}
+    \subitem \spxentry{research disposition}, \hyperpage{84}
   \item \spxentry{ORG\_0000023}
-    \subitem \spxentry{education disposition}, \hyperpage{83}
+    \subitem \spxentry{education disposition}, \hyperpage{85}
   \item \spxentry{ORG\_0000024}
-    \subitem \spxentry{training disposition}, \hyperpage{84}
+    \subitem \spxentry{training disposition}, \hyperpage{86}
   \item \spxentry{ORG\_0000025}
-    \subitem \spxentry{research administration disposition}, \hyperpage{85}
+    \subitem \spxentry{research administration disposition}, \hyperpage{87}
   \item \spxentry{ORG\_0000026}
-    \subitem \spxentry{library disposition}, \hyperpage{85}
+    \subitem \spxentry{library disposition}, \hyperpage{87}
   \item \spxentry{ORG\_0000027}
-    \subitem \spxentry{commerce disposition}, \hyperpage{86}
+    \subitem \spxentry{commerce disposition}, \hyperpage{88}
   \item \spxentry{ORG\_0000028}
-    \subitem \spxentry{military disposition}, \hyperpage{87}
+    \subitem \spxentry{military disposition}, \hyperpage{89}
   \item \spxentry{ORG\_0000029}
-    \subitem \spxentry{religious disposition}, \hyperpage{87}
+    \subitem \spxentry{religious disposition}, \hyperpage{89}
   \item \spxentry{ORG\_0000030}
-    \subitem \spxentry{governing disposition}, \hyperpage{88}
+    \subitem \spxentry{governing disposition}, \hyperpage{90}
   \item \spxentry{ORG\_0000031}
-    \subitem \spxentry{manufacturing disposition}, \hyperpage{89}
+    \subitem \spxentry{manufacturing disposition}, \hyperpage{91}
   \item \spxentry{ORG\_0000032}
-    \subitem \spxentry{project team disposition}, \hyperpage{90}
+    \subitem \spxentry{project team disposition}, \hyperpage{92}
   \item \spxentry{ORG\_0000033}
-    \subitem \spxentry{sports disposition}, \hyperpage{91}
+    \subitem \spxentry{sports disposition}, \hyperpage{93}
   \item \spxentry{ORG\_0000034}
-    \subitem \spxentry{information address quality}, \hyperpage{91}
+    \subitem \spxentry{information address quality}, \hyperpage{93}
   \item \spxentry{ORG\_0000035}
-    \subitem \spxentry{billing address quality}, \hyperpage{92}
+    \subitem \spxentry{billing address quality}, \hyperpage{94}
   \item \spxentry{ORG\_0000036}
-    \subitem \spxentry{shipping address quality}, \hyperpage{93}
+    \subitem \spxentry{shipping address quality}, \hyperpage{95}
   \item \spxentry{ORG\_0000037}
-    \subitem \spxentry{preferred address quality}, \hyperpage{93}
+    \subitem \spxentry{preferred address quality}, \hyperpage{95}
   \item \spxentry{ORG\_0000038}
-    \subitem \spxentry{homepage quality}, \hyperpage{94}
+    \subitem \spxentry{homepage quality}, \hyperpage{96}
   \item \spxentry{ORG\_0000039}
-    \subitem \spxentry{wikipedia quality}, \hyperpage{95}
+    \subitem \spxentry{wikipedia quality}, \hyperpage{97}
   \item \spxentry{ORG\_0000040}
-    \subitem \spxentry{architectural structure}, \hyperpage{95}
+    \subitem \spxentry{architectural structure}, \hyperpage{97}
   \item \spxentry{ORG\_0000041}
-    \subitem \spxentry{campus}, \hyperpage{96}
+    \subitem \spxentry{campus}, \hyperpage{98}
   \item \spxentry{ORG\_0000042}
-    \subitem \spxentry{facility}, \hyperpage{97}
+    \subitem \spxentry{facility}, \hyperpage{99}
   \item \spxentry{ORG\_0000043}
-    \subitem \spxentry{building}, \hyperpage{98}
+    \subitem \spxentry{building}, \hyperpage{100}
   \item \spxentry{ORG\_0000044}
-    \subitem \spxentry{room}, \hyperpage{99}
+    \subitem \spxentry{room}, \hyperpage{101}
   \item \spxentry{ORG\_0000045}
-    \subitem \spxentry{geographic region}, \hyperpage{100}
+    \subitem \spxentry{geographic region}, \hyperpage{102}
   \item \spxentry{ORG\_0000046}
-    \subitem \spxentry{geographic point}, \hyperpage{101}
+    \subitem \spxentry{geographic point}, \hyperpage{103}
   \item \spxentry{ORG\_0000047}
-    \subitem \spxentry{continent}, \hyperpage{101}
+    \subitem \spxentry{continent}, \hyperpage{103}
   \item \spxentry{ORG\_0000048}
-    \subitem \spxentry{country}, \hyperpage{102}
+    \subitem \spxentry{country}, \hyperpage{104}
   \item \spxentry{ORG\_0000049}
-    \subitem \spxentry{region}, \hyperpage{103}
+    \subitem \spxentry{region}, \hyperpage{105}
   \item \spxentry{ORG\_0000050}
-    \subitem \spxentry{populated place}, \hyperpage{104}
+    \subitem \spxentry{populated place}, \hyperpage{106}
   \item \spxentry{ORG\_0000051}
-    \subitem \spxentry{founding process}, \hyperpage{105}
+    \subitem \spxentry{founding process}, \hyperpage{107}
   \item \spxentry{ORG\_0000052}
-    \subitem \spxentry{founding process boundary}, \hyperpage{105}
+    \subitem \spxentry{founding process boundary}, \hyperpage{107}
   \item \spxentry{ORG\_0000053}
-    \subitem \spxentry{dissolution process}, \hyperpage{106}
+    \subitem \spxentry{dissolution process}, \hyperpage{108}
   \item \spxentry{ORG\_0000054}
-    \subitem \spxentry{dissolution process boundary}, \hyperpage{107}
+    \subitem \spxentry{dissolution process boundary}, \hyperpage{109}
   \item \spxentry{ORG\_0000055}
-    \subitem \spxentry{succession process}, \hyperpage{108}
+    \subitem \spxentry{succession process}, \hyperpage{110}
   \item \spxentry{ORG\_0000056}
-    \subitem \spxentry{succession process boundary}, \hyperpage{108}
+    \subitem \spxentry{succession process boundary}, \hyperpage{110}
   \item \spxentry{ORG\_0000057}
-    \subitem \spxentry{web site}, \hyperpage{109}
+    \subitem \spxentry{web site}, \hyperpage{111}
   \item \spxentry{ORG\_0000058}
-    \subitem \spxentry{spin\sphinxhyphen{}off process}, \hyperpage{110}
+    \subitem \spxentry{spin\sphinxhyphen{}off process}, \hyperpage{112}
   \item \spxentry{ORG\_0000059}
-    \subitem \spxentry{spin\sphinxhyphen{}off process boundary}, \hyperpage{110}
+    \subitem \spxentry{spin\sphinxhyphen{}off process boundary}, \hyperpage{112}
   \item \spxentry{ORG\_0000060}
-    \subitem \spxentry{organizational membership}, \hyperpage{111}
+    \subitem \spxentry{organizational membership}, \hyperpage{113}
   \item \spxentry{ORG\_0000061}
-    \subitem \spxentry{organizational member role}, \hyperpage{112}
+    \subitem \spxentry{organizational member role}, \hyperpage{114}
   \item \spxentry{ORG\_0000062}
-    \subitem \spxentry{organizational member grantor role}, \hyperpage{113}
+    \subitem \spxentry{organizational member grantor role}, \hyperpage{115}
   \item \spxentry{ORG\_0000063}
-    \subitem \spxentry{student led organization quality}, \hyperpage{113}
+    \subitem \spxentry{student led organization quality}, \hyperpage{115}
   \item \spxentry{ORG\_0000064}
-    \subitem \spxentry{woman led organization quality}, \hyperpage{114}
+    \subitem \spxentry{woman led organization quality}, \hyperpage{116}
   \item \spxentry{ORG\_0000065}
-    \subitem \spxentry{minority led organization quality}, \hyperpage{115}
+    \subitem \spxentry{minority led organization quality}, \hyperpage{117}
   \item \spxentry{ORG\_0000066}
-    \subitem \spxentry{registered address quality}, \hyperpage{115}
+    \subitem \spxentry{registered address quality}, \hyperpage{117}
   \item \spxentry{ORG\_0000067}
-    \subitem \spxentry{primary address quality}, \hyperpage{116}
+    \subitem \spxentry{primary address quality}, \hyperpage{118}
   \item \spxentry{ORG\_0000068}
-    \subitem \spxentry{organizational position}, \hyperpage{117}
+    \subitem \spxentry{organizational position}, \hyperpage{119}
   \item \spxentry{ORG\_0000069}
-    \subitem \spxentry{organizational employee role}, \hyperpage{118}
+    \subitem \spxentry{organizational employee role}, \hyperpage{120}
   \item \spxentry{ORG\_0000070}
-    \subitem \spxentry{organizational employor role}, \hyperpage{118}
+    \subitem \spxentry{organizational employor role}, \hyperpage{120}
   \item \spxentry{ORG\_0000071}
-    \subitem \spxentry{organizational associate role}, \hyperpage{119}
+    \subitem \spxentry{organizational associate role}, \hyperpage{121}
   \item \spxentry{ORG\_0000072}
-    \subitem \spxentry{organizational associate grantor role}, \hyperpage{119}
+    \subitem \spxentry{organizational associate grantor role}, \hyperpage{121}
   \item \spxentry{ORG\_0000073}
-    \subitem \spxentry{organizatonal head role}, \hyperpage{120}
+    \subitem \spxentry{organizatonal head role}, \hyperpage{122}
   \item \spxentry{ORG\_0000074}
-    \subitem \spxentry{organizational head grantor role}, \hyperpage{121}
+    \subitem \spxentry{organizational head grantor role}, \hyperpage{123}
   \item \spxentry{ORG\_0000075}
-    \subitem \spxentry{organizational appointee role}, \hyperpage{121}
+    \subitem \spxentry{organizational appointee role}, \hyperpage{123}
   \item \spxentry{ORG\_0000076}
-    \subitem \spxentry{organizational appointee grantor role}, \hyperpage{122}
+    \subitem \spxentry{organizational appointee grantor role}, \hyperpage{124}
   \item \spxentry{ORG\_0000077}
-    \subitem \spxentry{organizational volunteer role}, \hyperpage{123}
+    \subitem \spxentry{organizational volunteer role}, \hyperpage{125}
   \item \spxentry{ORG\_0000078}
-    \subitem \spxentry{organizational volunteer grantor role}, \hyperpage{123}
+    \subitem \spxentry{organizational volunteer grantor role}, \hyperpage{125}
   \item \spxentry{ORG\_0000079}
-    \subitem \spxentry{airline disposition}, \hyperpage{124}
+    \subitem \spxentry{airline disposition}, \hyperpage{126}
   \item \spxentry{ORG\_0000080}
-    \subitem \spxentry{media disposition}, \hyperpage{125}
+    \subitem \spxentry{media disposition}, \hyperpage{127}
   \item \spxentry{ORG\_0000081}
-    \subitem \spxentry{performing disposition}, \hyperpage{126}
+    \subitem \spxentry{performing disposition}, \hyperpage{128}
   \item \spxentry{ORG\_0000082}
-    \subitem \spxentry{labor union disposition}, \hyperpage{126}
+    \subitem \spxentry{labor union disposition}, \hyperpage{128}
   \item \spxentry{ORG\_0000083}
-    \subitem \spxentry{person membership}, \hyperpage{127}
+    \subitem \spxentry{person membership}, \hyperpage{129}
   \item \spxentry{ORG\_0000084}
-    \subitem \spxentry{person member role}, \hyperpage{128}
+    \subitem \spxentry{person member role}, \hyperpage{130}
   \item \spxentry{ORG\_0000085}
-    \subitem \spxentry{person member grantor role}, \hyperpage{129}
+    \subitem \spxentry{person member grantor role}, \hyperpage{131}
   \item \spxentry{ORG\_1000001}
-    \subitem \spxentry{vivo 1 ontology reference}, \hyperpage{38}
+    \subitem \spxentry{vivo 1 ontology reference}, \hyperpage{40}
   \item \spxentry{ORG\_2000001}
-    \subitem \spxentry{occupies}, \hyperpage{141}
+    \subitem \spxentry{occupies}, \hyperpage{143}
   \item \spxentry{ORG\_2000002}
-    \subitem \spxentry{has occurent part}, \hyperpage{141}
+    \subitem \spxentry{has occurent part}, \hyperpage{143}
   \item \spxentry{ORG\_2000003}
-    \subitem \spxentry{has time instant}, \hyperpage{142}
+    \subitem \spxentry{has time instant}, \hyperpage{144}
   \item \spxentry{ORG\_2000004}
-    \subitem \spxentry{has organizational interest}, \hyperpage{143}
+    \subitem \spxentry{has organizational interest}, \hyperpage{145}
   \item \spxentry{ORG\_2000005}
-    \subitem \spxentry{has website}, \hyperpage{144}
+    \subitem \spxentry{has website}, \hyperpage{146}
   \item \spxentry{ORG\_2000006}
-    \subitem \spxentry{website of}, \hyperpage{144}
+    \subitem \spxentry{website of}, \hyperpage{146}
   \item \spxentry{ORG\_2000007}
-    \subitem \spxentry{has successor organization}, \hyperpage{145}
+    \subitem \spxentry{has successor organization}, \hyperpage{147}
   \item \spxentry{ORG\_2000008}
-    \subitem \spxentry{successor organization of}, \hyperpage{146}
+    \subitem \spxentry{successor organization of}, \hyperpage{148}
   \item \spxentry{ORG\_2000009}
-    \subitem \spxentry{has organizational part}, \hyperpage{146}
+    \subitem \spxentry{has organizational part}, \hyperpage{148}
   \item \spxentry{ORG\_2000010}
-    \subitem \spxentry{organizational part of}, \hyperpage{147}
+    \subitem \spxentry{organizational part of}, \hyperpage{149}
   \item \spxentry{ORG\_2000011}
-    \subitem \spxentry{affiliated with}, \hyperpage{148}
+    \subitem \spxentry{affiliated with}, \hyperpage{150}
   \item \spxentry{ORG\_2000012}
-    \subitem \spxentry{has spin\sphinxhyphen{}off organization}, \hyperpage{149}
+    \subitem \spxentry{has spin\sphinxhyphen{}off organization}, \hyperpage{151}
   \item \spxentry{ORG\_2000013}
-    \subitem \spxentry{spin\sphinxhyphen{}off organization of}, \hyperpage{150}
+    \subitem \spxentry{spin\sphinxhyphen{}off organization of}, \hyperpage{152}
   \item \spxentry{ORG\_2000014}
-    \subitem \spxentry{has organizational member}, \hyperpage{150}
+    \subitem \spxentry{has organizational member}, \hyperpage{152}
   \item \spxentry{ORG\_2000015}
-    \subitem \spxentry{organizational member of}, \hyperpage{151}
+    \subitem \spxentry{organizational member of}, \hyperpage{153}
   \item \spxentry{ORG\_2000016}
-    \subitem \spxentry{has organizational employee}, \hyperpage{152}
+    \subitem \spxentry{has organizational employee}, \hyperpage{154}
   \item \spxentry{ORG\_2000017}
-    \subitem \spxentry{organizational employee of}, \hyperpage{152}
+    \subitem \spxentry{organizational employee of}, \hyperpage{154}
   \item \spxentry{ORG\_2000018}
-    \subitem \spxentry{has organizational associate}, \hyperpage{153}
+    \subitem \spxentry{has organizational associate}, \hyperpage{155}
   \item \spxentry{ORG\_2000019}
-    \subitem \spxentry{organizational associate of}, \hyperpage{154}
+    \subitem \spxentry{organizational associate of}, \hyperpage{156}
   \item \spxentry{ORG\_2000020}
-    \subitem \spxentry{has organizational head}, \hyperpage{155}
+    \subitem \spxentry{has organizational head}, \hyperpage{157}
   \item \spxentry{ORG\_2000021}
-    \subitem \spxentry{organizational head of}, \hyperpage{155}
+    \subitem \spxentry{organizational head of}, \hyperpage{157}
   \item \spxentry{ORG\_2000022}
-    \subitem \spxentry{has organizational volunteer}, \hyperpage{156}
+    \subitem \spxentry{has organizational volunteer}, \hyperpage{158}
   \item \spxentry{ORG\_2000023}
-    \subitem \spxentry{organizational volunteer of}, \hyperpage{156}
+    \subitem \spxentry{organizational volunteer of}, \hyperpage{158}
   \item \spxentry{ORG\_2000024}
-    \subitem \spxentry{has organizational appointee}, \hyperpage{157}
+    \subitem \spxentry{has organizational appointee}, \hyperpage{159}
   \item \spxentry{ORG\_2000025}
-    \subitem \spxentry{organizational appointee of}, \hyperpage{158}
+    \subitem \spxentry{organizational appointee of}, \hyperpage{160}
   \item \spxentry{ORG\_2000026}
-    \subitem \spxentry{has person member}, \hyperpage{158}
+    \subitem \spxentry{has person member}, \hyperpage{160}
   \item \spxentry{ORG\_2000027}
-    \subitem \spxentry{person member of}, \hyperpage{159}
+    \subitem \spxentry{person member of}, \hyperpage{161}
   \item \spxentry{ORG\_3000001}
-    \subitem \spxentry{number of employees}, \hyperpage{172}
+    \subitem \spxentry{number of employees}, \hyperpage{174}
   \item \spxentry{ORG\_3000002}
-    \subitem \spxentry{has email representation}, \hyperpage{173}
+    \subitem \spxentry{has email representation}, \hyperpage{175}
   \item \spxentry{ORG\_3000003}
-    \subitem \spxentry{has postal address representation}, \hyperpage{174}
+    \subitem \spxentry{has postal address representation}, \hyperpage{176}
   \item \spxentry{ORG\_3000004}
-    \subitem \spxentry{has geolocation representation}, \hyperpage{175}
+    \subitem \spxentry{has geolocation representation}, \hyperpage{177}
   \item \spxentry{ORG\_3000005}
-    \subitem \spxentry{has URL representation}, \hyperpage{175}
+    \subitem \spxentry{has URL representation}, \hyperpage{177}
   \item \spxentry{ORG\_3000006}
-    \subitem \spxentry{has official organization name}, \hyperpage{176}
+    \subitem \spxentry{has official organization name}, \hyperpage{178}
   \item \spxentry{ORG\_3000007}
-    \subitem \spxentry{has organization name}, \hyperpage{177}
+    \subitem \spxentry{has organization name}, \hyperpage{179}
   \item \spxentry{organization}
-    \subitem \spxentry{ORG\_0000001}, \hyperpage{67}
+    \subitem \spxentry{ORG\_0000001}, \hyperpage{69}
   \item \spxentry{organization part}
-    \subitem \spxentry{ORG\_0000006}, \hyperpage{71}
+    \subitem \spxentry{ORG\_0000006}, \hyperpage{73}
   \item \spxentry{organizational appointee grantor role}
-    \subitem \spxentry{ORG\_0000076}, \hyperpage{122}
+    \subitem \spxentry{ORG\_0000076}, \hyperpage{124}
   \item \spxentry{organizational appointee of}
-    \subitem \spxentry{ORG\_2000025}, \hyperpage{158}
+    \subitem \spxentry{ORG\_2000025}, \hyperpage{160}
   \item \spxentry{organizational appointee role}
-    \subitem \spxentry{ORG\_0000075}, \hyperpage{121}
+    \subitem \spxentry{ORG\_0000075}, \hyperpage{123}
   \item \spxentry{organizational associate grantor role}
-    \subitem \spxentry{ORG\_0000072}, \hyperpage{119}
+    \subitem \spxentry{ORG\_0000072}, \hyperpage{121}
   \item \spxentry{organizational associate of}
-    \subitem \spxentry{ORG\_2000019}, \hyperpage{154}
+    \subitem \spxentry{ORG\_2000019}, \hyperpage{156}
   \item \spxentry{organizational associate role}
-    \subitem \spxentry{ORG\_0000071}, \hyperpage{119}
+    \subitem \spxentry{ORG\_0000071}, \hyperpage{121}
   \item \spxentry{organizational employee of}
-    \subitem \spxentry{ORG\_2000017}, \hyperpage{152}
+    \subitem \spxentry{ORG\_2000017}, \hyperpage{154}
   \item \spxentry{organizational employee role}
-    \subitem \spxentry{ORG\_0000069}, \hyperpage{118}
+    \subitem \spxentry{ORG\_0000069}, \hyperpage{120}
   \item \spxentry{organizational employor role}
-    \subitem \spxentry{ORG\_0000070}, \hyperpage{118}
+    \subitem \spxentry{ORG\_0000070}, \hyperpage{120}
   \item \spxentry{organizational head grantor role}
-    \subitem \spxentry{ORG\_0000074}, \hyperpage{121}
+    \subitem \spxentry{ORG\_0000074}, \hyperpage{123}
   \item \spxentry{organizational head of}
-    \subitem \spxentry{ORG\_2000021}, \hyperpage{155}
+    \subitem \spxentry{ORG\_2000021}, \hyperpage{157}
   \item \spxentry{organizational member grantor role}
-    \subitem \spxentry{ORG\_0000062}, \hyperpage{113}
+    \subitem \spxentry{ORG\_0000062}, \hyperpage{115}
   \item \spxentry{organizational member of}
-    \subitem \spxentry{ORG\_2000015}, \hyperpage{151}
+    \subitem \spxentry{ORG\_2000015}, \hyperpage{153}
   \item \spxentry{organizational member role}
-    \subitem \spxentry{ORG\_0000061}, \hyperpage{112}
+    \subitem \spxentry{ORG\_0000061}, \hyperpage{114}
   \item \spxentry{organizational membership}
-    \subitem \spxentry{ORG\_0000060}, \hyperpage{111}
+    \subitem \spxentry{ORG\_0000060}, \hyperpage{113}
   \item \spxentry{organizational part of}
-    \subitem \spxentry{ORG\_2000010}, \hyperpage{147}
+    \subitem \spxentry{ORG\_2000010}, \hyperpage{149}
   \item \spxentry{organizational position}
-    \subitem \spxentry{ORG\_0000068}, \hyperpage{117}
+    \subitem \spxentry{ORG\_0000068}, \hyperpage{119}
   \item \spxentry{organizational volunteer grantor role}
-    \subitem \spxentry{ORG\_0000078}, \hyperpage{123}
+    \subitem \spxentry{ORG\_0000078}, \hyperpage{125}
   \item \spxentry{organizational volunteer of}
-    \subitem \spxentry{ORG\_2000023}, \hyperpage{156}
+    \subitem \spxentry{ORG\_2000023}, \hyperpage{158}
   \item \spxentry{organizational volunteer role}
-    \subitem \spxentry{ORG\_0000077}, \hyperpage{123}
+    \subitem \spxentry{ORG\_0000077}, \hyperpage{125}
   \item \spxentry{organizatonal head role}
-    \subitem \spxentry{ORG\_0000073}, \hyperpage{120}
+    \subitem \spxentry{ORG\_0000073}, \hyperpage{122}
   \item \spxentry{output of}
-    \subitem \spxentry{RO\_0002353}, \hyperpage{170}
+    \subitem \spxentry{RO\_0002353}, \hyperpage{172}
   \item \spxentry{overlaps}
-    \subitem \spxentry{RO\_0002131}, \hyperpage{168}
-  \item \spxentry{OWL}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{RO\_0002131}, \hyperpage{170}
+  \item \spxentry{OWL}, \hyperindexformat{\spxpagem}{205}
 
   \indexspace
   \bigletter P
   \item \spxentry{part of}
-    \subitem \spxentry{BFO\_0000050}, \hyperpage{135}
+    \subitem \spxentry{BFO\_0000050}, \hyperpage{137}
   \item \spxentry{participates in}
-    \subitem \spxentry{RO\_0000056}, \hyperpage{161}
+    \subitem \spxentry{RO\_0000056}, \hyperpage{163}
   \item \spxentry{performing disposition}
-    \subitem \spxentry{ORG\_0000081}, \hyperpage{126}
+    \subitem \spxentry{ORG\_0000081}, \hyperpage{128}
   \item \spxentry{person member grantor role}
-    \subitem \spxentry{ORG\_0000085}, \hyperpage{129}
+    \subitem \spxentry{ORG\_0000085}, \hyperpage{131}
   \item \spxentry{person member of}
-    \subitem \spxentry{ORG\_2000027}, \hyperpage{159}
+    \subitem \spxentry{ORG\_2000027}, \hyperpage{161}
   \item \spxentry{person member role}
-    \subitem \spxentry{ORG\_0000084}, \hyperpage{128}
+    \subitem \spxentry{ORG\_0000084}, \hyperpage{130}
   \item \spxentry{person membership}
-    \subitem \spxentry{ORG\_0000083}, \hyperpage{127}
+    \subitem \spxentry{ORG\_0000083}, \hyperpage{129}
   \item \spxentry{philanthropy disposition}
-    \subitem \spxentry{ORG\_0000014}, \hyperpage{77}
+    \subitem \spxentry{ORG\_0000014}, \hyperpage{79}
   \item \spxentry{populated place}
-    \subitem \spxentry{ORG\_0000050}, \hyperpage{104}
+    \subitem \spxentry{ORG\_0000050}, \hyperpage{106}
   \item \spxentry{postal address}
-    \subitem \spxentry{IAO\_0000422}, \hyperpage{59}
+    \subitem \spxentry{IAO\_0000422}, \hyperpage{61}
   \item \spxentry{preferred address quality}
-    \subitem \spxentry{ORG\_0000037}, \hyperpage{93}
+    \subitem \spxentry{ORG\_0000037}, \hyperpage{95}
   \item \spxentry{primary address quality}
-    \subitem \spxentry{ORG\_0000067}, \hyperpage{116}
+    \subitem \spxentry{ORG\_0000067}, \hyperpage{118}
   \item \spxentry{process}
-    \subitem \spxentry{BFO\_0000015}, \hyperpage{49}
+    \subitem \spxentry{BFO\_0000015}, \hyperpage{51}
   \item \spxentry{process boundary}
-    \subitem \spxentry{BFO\_0000035}, \hyperpage{54}
+    \subitem \spxentry{BFO\_0000035}, \hyperpage{56}
   \item \spxentry{project team disposition}
-    \subitem \spxentry{ORG\_0000032}, \hyperpage{90}
+    \subitem \spxentry{ORG\_0000032}, \hyperpage{92}
   \item \spxentry{publishing disposition}
-    \subitem \spxentry{ORG\_0000021}, \hyperpage{82}
+    \subitem \spxentry{ORG\_0000021}, \hyperpage{84}
 
   \indexspace
   \bigletter Q
   \item \spxentry{quality}
-    \subitem \spxentry{BFO\_0000019}, \hyperpage{51}
+    \subitem \spxentry{BFO\_0000019}, \hyperpage{53}
   \item \spxentry{quality of}
-    \subitem \spxentry{RO\_0000080}, \hyperpage{162}
+    \subitem \spxentry{RO\_0000080}, \hyperpage{164}
 
   \indexspace
   \bigletter R
   \item \spxentry{realizable entity}
-    \subitem \spxentry{BFO\_0000017}, \hyperpage{50}
+    \subitem \spxentry{BFO\_0000017}, \hyperpage{52}
   \item \spxentry{realized in}
-    \subitem \spxentry{BFO\_0000054}, \hyperpage{137}
+    \subitem \spxentry{BFO\_0000054}, \hyperpage{139}
   \item \spxentry{realizes}
-    \subitem \spxentry{BFO\_0000055}, \hyperpage{138}
+    \subitem \spxentry{BFO\_0000055}, \hyperpage{140}
   \item \spxentry{region}
-    \subitem \spxentry{ORG\_0000049}, \hyperpage{103}
+    \subitem \spxentry{ORG\_0000049}, \hyperpage{105}
   \item \spxentry{registered address quality}
-    \subitem \spxentry{ORG\_0000066}, \hyperpage{115}
+    \subitem \spxentry{ORG\_0000066}, \hyperpage{117}
   \item \spxentry{religious disposition}
-    \subitem \spxentry{ORG\_0000029}, \hyperpage{87}
+    \subitem \spxentry{ORG\_0000029}, \hyperpage{89}
   \item \spxentry{research administration disposition}
-    \subitem \spxentry{ORG\_0000025}, \hyperpage{85}
+    \subitem \spxentry{ORG\_0000025}, \hyperpage{87}
   \item \spxentry{research disposition}
-    \subitem \spxentry{ORG\_0000022}, \hyperpage{82}
+    \subitem \spxentry{ORG\_0000022}, \hyperpage{84}
   \item \spxentry{research organization registry identifier}
-    \subitem \spxentry{IAO\_0022022}, \hyperpage{64}
+    \subitem \spxentry{IAO\_0022022}, \hyperpage{66}
   \item \spxentry{ringgold identifier}
-    \subitem \spxentry{IAO\_0022057}, \hyperpage{65}
-  \item \spxentry{RO}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{IAO\_0022057}, \hyperpage{67}
+  \item \spxentry{RO}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{RO\_0000052}
-    \subitem \spxentry{inheres in}, \hyperpage{160}
+    \subitem \spxentry{inheres in}, \hyperpage{162}
   \item \spxentry{RO\_0000053}
-    \subitem \spxentry{bearer of}, \hyperpage{160}
+    \subitem \spxentry{bearer of}, \hyperpage{162}
   \item \spxentry{RO\_0000056}
-    \subitem \spxentry{participates in}, \hyperpage{161}
+    \subitem \spxentry{participates in}, \hyperpage{163}
   \item \spxentry{RO\_0000057}
-    \subitem \spxentry{has participant}, \hyperpage{162}
+    \subitem \spxentry{has participant}, \hyperpage{164}
   \item \spxentry{RO\_0000080}
-    \subitem \spxentry{quality of}, \hyperpage{162}
+    \subitem \spxentry{quality of}, \hyperpage{164}
   \item \spxentry{RO\_0000081}
-    \subitem \spxentry{role of}, \hyperpage{163}
+    \subitem \spxentry{role of}, \hyperpage{165}
   \item \spxentry{RO\_0000086}
-    \subitem \spxentry{has quality}, \hyperpage{164}
+    \subitem \spxentry{has quality}, \hyperpage{166}
   \item \spxentry{RO\_0000087}
-    \subitem \spxentry{has role}, \hyperpage{165}
+    \subitem \spxentry{has role}, \hyperpage{167}
   \item \spxentry{RO\_0000091}
-    \subitem \spxentry{has disposition}, \hyperpage{165}
+    \subitem \spxentry{has disposition}, \hyperpage{167}
   \item \spxentry{RO\_0000092}
-    \subitem \spxentry{disposition of}, \hyperpage{166}
+    \subitem \spxentry{disposition of}, \hyperpage{168}
   \item \spxentry{RO\_0001015}
-    \subitem \spxentry{location of}, \hyperpage{166}
+    \subitem \spxentry{location of}, \hyperpage{168}
   \item \spxentry{RO\_0001025}
-    \subitem \spxentry{located in}, \hyperpage{167}
+    \subitem \spxentry{located in}, \hyperpage{169}
   \item \spxentry{RO\_0002012}
-    \subitem \spxentry{occurent part of}, \hyperpage{168}
+    \subitem \spxentry{occurent part of}, \hyperpage{170}
   \item \spxentry{RO\_0002131}
-    \subitem \spxentry{overlaps}, \hyperpage{168}
+    \subitem \spxentry{overlaps}, \hyperpage{170}
   \item \spxentry{RO\_0002234}
-    \subitem \spxentry{has output}, \hyperpage{169}
+    \subitem \spxentry{has output}, \hyperpage{171}
   \item \spxentry{RO\_0002323}
-    \subitem \spxentry{mereotopologically related to}, \hyperpage{169}
+    \subitem \spxentry{mereotopologically related to}, \hyperpage{171}
   \item \spxentry{RO\_0002353}
-    \subitem \spxentry{output of}, \hyperpage{170}
+    \subitem \spxentry{output of}, \hyperpage{172}
   \item \spxentry{role}
-    \subitem \spxentry{BFO\_0000023}, \hyperpage{52}
+    \subitem \spxentry{BFO\_0000023}, \hyperpage{54}
   \item \spxentry{role of}
-    \subitem \spxentry{RO\_0000081}, \hyperpage{163}
+    \subitem \spxentry{RO\_0000081}, \hyperpage{165}
   \item \spxentry{room}
-    \subitem \spxentry{ORG\_0000044}, \hyperpage{99}
-  \item \spxentry{ROR}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{ORG\_0000044}, \hyperpage{101}
+  \item \spxentry{ROR}, \hyperindexformat{\spxpagem}{205}
 
   \indexspace
   \bigletter S
   \item \spxentry{second}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitSecond}, \hyperpage{180}
+    \subitem \spxentry{unitSecond}, \hyperpage{182}
   \item \spxentry{service provider disposition}
-    \subitem \spxentry{ORG\_0000010}, \hyperpage{74}
+    \subitem \spxentry{ORG\_0000010}, \hyperpage{76}
   \item \spxentry{shipping address quality}
-    \subitem \spxentry{ORG\_0000036}, \hyperpage{93}
+    \subitem \spxentry{ORG\_0000036}, \hyperpage{95}
   \item \spxentry{site}
-    \subitem \spxentry{BFO\_0000029}, \hyperpage{53}
+    \subitem \spxentry{BFO\_0000029}, \hyperpage{55}
   \item \spxentry{specifically dependent continuant}
-    \subitem \spxentry{BFO\_0000020}, \hyperpage{52}
+    \subitem \spxentry{BFO\_0000020}, \hyperpage{54}
   \item \spxentry{spin\sphinxhyphen{}off organization of}
-    \subitem \spxentry{ORG\_2000013}, \hyperpage{150}
+    \subitem \spxentry{ORG\_2000013}, \hyperpage{152}
   \item \spxentry{spin\sphinxhyphen{}off process}
-    \subitem \spxentry{ORG\_0000058}, \hyperpage{110}
+    \subitem \spxentry{ORG\_0000058}, \hyperpage{112}
   \item \spxentry{spin\sphinxhyphen{}off process boundary}
-    \subitem \spxentry{ORG\_0000059}, \hyperpage{110}
+    \subitem \spxentry{ORG\_0000059}, \hyperpage{112}
   \item \spxentry{sports disposition}
-    \subitem \spxentry{ORG\_0000033}, \hyperpage{91}
+    \subitem \spxentry{ORG\_0000033}, \hyperpage{93}
   \item \spxentry{student led organization quality}
-    \subitem \spxentry{ORG\_0000063}, \hyperpage{113}
+    \subitem \spxentry{ORG\_0000063}, \hyperpage{115}
   \item \spxentry{succession process}
-    \subitem \spxentry{ORG\_0000055}, \hyperpage{108}
+    \subitem \spxentry{ORG\_0000055}, \hyperpage{110}
   \item \spxentry{succession process boundary}
-    \subitem \spxentry{ORG\_0000056}, \hyperpage{108}
+    \subitem \spxentry{ORG\_0000056}, \hyperpage{110}
   \item \spxentry{successor organization of}
-    \subitem \spxentry{ORG\_2000008}, \hyperpage{146}
+    \subitem \spxentry{ORG\_2000008}, \hyperpage{148}
 
   \indexspace
   \bigletter T
   \item \spxentry{technology transfer disposition}
-    \subitem \spxentry{ORG\_0000013}, \hyperpage{76}
+    \subitem \spxentry{ORG\_0000013}, \hyperpage{78}
   \item \spxentry{temporal region}
-    \subitem \spxentry{BFO\_0000008}, \hyperpage{49}
+    \subitem \spxentry{BFO\_0000008}, \hyperpage{51}
   \item \spxentry{temporal unit}
-    \subitem \spxentry{TemporalUnit}, \hyperpage{130}
+    \subitem \spxentry{TemporalUnit}, \hyperpage{132}
   \item \spxentry{temporal unit type}
-    \subitem \spxentry{unitType}, \hyperpage{170}
+    \subitem \spxentry{unitType}, \hyperpage{172}
   \item \spxentry{TemporalUnit}
-    \subitem \spxentry{temporal unit}, \hyperpage{130}
-  \item \spxentry{Term}, \hyperindexformat{\spxpagem}{203}
+    \subitem \spxentry{temporal unit}, \hyperpage{132}
+  \item \spxentry{Term}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{term editor}
-    \subitem \spxentry{IAO\_0000117}, \hyperpage{35}
+    \subitem \spxentry{IAO\_0000117}, \hyperpage{37}
   \item \spxentry{term tracker item}
-    \subitem \spxentry{IAO\_0000233}, \hyperpage{37}
+    \subitem \spxentry{IAO\_0000233}, \hyperpage{39}
   \item \spxentry{time instant}
-    \subitem \spxentry{Instant}, \hyperpage{130}
-  \item \spxentry{Times}, \hyperpage{18}, \hyperpage{194}
+    \subitem \spxentry{Instant}, \hyperpage{132}
+  \item \spxentry{Times}, \hyperpage{20}, \hyperpage{196}
   \item \spxentry{title}
-    \subitem \spxentry{No label}, \hyperpage{39}
+    \subitem \spxentry{No label}, \hyperpage{41}
   \item \spxentry{training disposition}
-    \subitem \spxentry{ORG\_0000024}, \hyperpage{84}
+    \subitem \spxentry{ORG\_0000024}, \hyperpage{86}
 
   \indexspace
   \bigletter U
   \item \spxentry{unitDay}
-    \subitem \spxentry{day}\spxextra{unit of temporal duration}, \hyperpage{179}
+    \subitem \spxentry{day}\spxextra{unit of temporal duration}, \hyperpage{181}
   \item \spxentry{unitHour}
-    \subitem \spxentry{hour}\spxextra{unit of temporal duration}, \hyperpage{179}
+    \subitem \spxentry{hour}\spxextra{unit of temporal duration}, \hyperpage{181}
   \item \spxentry{unitMinute}
-    \subitem \spxentry{minute}\spxextra{unit of temporal duration}, \hyperpage{180}
+    \subitem \spxentry{minute}\spxextra{unit of temporal duration}, \hyperpage{182}
   \item \spxentry{unitMonth}
-    \subitem \spxentry{month}\spxextra{unit of temporal duration}, \hyperpage{180}
+    \subitem \spxentry{month}\spxextra{unit of temporal duration}, \hyperpage{182}
   \item \spxentry{unitSecond}
-    \subitem \spxentry{second}\spxextra{unit of temporal duration}, \hyperpage{180}
+    \subitem \spxentry{second}\spxextra{unit of temporal duration}, \hyperpage{182}
   \item \spxentry{unitType}
-    \subitem \spxentry{temporal unit type}, \hyperpage{170}
+    \subitem \spxentry{temporal unit type}, \hyperpage{172}
   \item \spxentry{unitWeek}
-    \subitem \spxentry{week}\spxextra{unit of temporal duration}, \hyperpage{180}
+    \subitem \spxentry{week}\spxextra{unit of temporal duration}, \hyperpage{182}
   \item \spxentry{unitYear}
-    \subitem \spxentry{year}\spxextra{unit of temporal duration}, \hyperpage{180}
+    \subitem \spxentry{year}\spxextra{unit of temporal duration}, \hyperpage{182}
   \item \spxentry{university disposition}
-    \subitem \spxentry{ORG\_0000007}, \hyperpage{71}
+    \subitem \spxentry{ORG\_0000007}, \hyperpage{73}
 
   \indexspace
   \bigletter V
-  \item \spxentry{VIVO}, \hyperindexformat{\spxpagem}{203}
-  \item \spxentry{VIVO 1}, \hyperindexformat{\spxpagem}{203}
+  \item \spxentry{VIVO}, \hyperindexformat{\spxpagem}{205}
+  \item \spxentry{VIVO 1}, \hyperindexformat{\spxpagem}{205}
   \item \spxentry{vivo 1 ontology reference}
-    \subitem \spxentry{ORG\_1000001}, \hyperpage{38}
+    \subitem \spxentry{ORG\_1000001}, \hyperpage{40}
 
   \indexspace
   \bigletter W
   \item \spxentry{web site}
-    \subitem \spxentry{ORG\_0000057}, \hyperpage{109}
+    \subitem \spxentry{ORG\_0000057}, \hyperpage{111}
   \item \spxentry{website of}
-    \subitem \spxentry{ORG\_2000006}, \hyperpage{144}
+    \subitem \spxentry{ORG\_2000006}, \hyperpage{146}
   \item \spxentry{week}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitWeek}, \hyperpage{180}
+    \subitem \spxentry{unitWeek}, \hyperpage{182}
   \item \spxentry{wikidata q number}
-    \subitem \spxentry{IAO\_0022027}, \hyperpage{65}
+    \subitem \spxentry{IAO\_0022027}, \hyperpage{67}
   \item \spxentry{wikipedia quality}
-    \subitem \spxentry{ORG\_0000039}, \hyperpage{95}
+    \subitem \spxentry{ORG\_0000039}, \hyperpage{97}
   \item \spxentry{woman led organization quality}
-    \subitem \spxentry{ORG\_0000064}, \hyperpage{114}
+    \subitem \spxentry{ORG\_0000064}, \hyperpage{116}
 
   \indexspace
   \bigletter Y
   \item \spxentry{year}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitYear}, \hyperpage{180}
+    \subitem \spxentry{unitYear}, \hyperpage{182}
 
   \indexspace
   \bigletter Z
   \item \spxentry{zero\sphinxhyphen{}dimensional temporal region}
-    \subitem \spxentry{BFO\_0000148}, \hyperpage{57}
+    \subitem \spxentry{BFO\_0000148}, \hyperpage{59}
 
 \end{sphinxtheindex}

@@ -1,0 +1,33 @@
+<h1>Organization Ontology</h1>
+<p><strong>Early DRAFT</strong></p>
+<p>This is draft work, and an effort to create an OBO-compliant, BFO-based,
+reusable, maintained ontology based on data regarding research organizations
+maintained by <a href="http://ror.org">ROR</a> and pioneered by <a href="http://grid.ac">GRID</a>.</p>
+<p>If successful, we hope to register the work as
+http://obofoundry.org/ontology/org</p>
+<p>For background regarding this work, see <a href="http://bit.ly/2EhMdPq">Early Thoughts on Representing
+Organizations in VIVO</a>.  The ontology here is intended to
+be useful to the <a href="http://vivoweb.org">VIVO Project</a> but does not depend in any
+way on VIVO, its ontologies, nor its software.</p>
+<h2>Development</h2>
+<p>We use a simple build script (<code>build.sh</code>) to build terms from templates (see
+templates folder), and merge these with a header file (see <code>org-header.ttl</code>).
+The resulting ontology is verified using <code>robot report</code> and various sparql
+queries are run on the ontology to provide reports and additional validation.</p>
+<p>Editors of this ontology should edit the templates in the templates folder.
+Imported terms are added to the <code>org-header.ttl</code> file using protege and the
+MIREOT plug-in.</p>
+<h2>Documentation</h2>
+<p>Documentation for the Organization Ontology is produced using ReadTheDocs,
+Sphinx, and RestructuredText.  The documentation is built using GitHub Actions
+and is available as <a href="https://mconlon17.github.io/organization-ontology">HTML</a>,
+<a href="https://github.com/mconlon17/organization-ontology/blob/master/docs/build/latex/theorganizationontology.pdf">PDF</a>, and
+<a href="https://github.com/mconlon17/organization-ontology/blob/master/docs/build/epub/TheOrganizationOntology.epub">ePub</a>.</p>
+<h2>Data</h2>
+<p>We will provide tools for converting ROR entries into ORG ontology assertions.
+See the data folder.</p>
+<h2>Contact</h2>
+<p>Please use this GitHub repository’s <a href="https://github.com/mconlon17/organization-ontology/issues">Issue
+tracker</a> to request
+new terms/classes or report errors or specific concerns related to the ontology.</p>
+<p>Requests for new organizations should be directed to <a href="https://ror.org">ROR</a>.</p>

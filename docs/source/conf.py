@@ -20,6 +20,7 @@
 project = 'The Organization Ontology'
 copyright = '2021, The VIVO Project'
 author = 'The VIVO Ontology Interest Group'
+version = 'v0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
