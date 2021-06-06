@@ -1,11 +1,4 @@
 # TO DOs
-   
-1. Add class expressions
-
-    dispoint organization types
-    informal organizations can not have employees
-
----
 
 1.  Write domain definition
 
@@ -18,5 +11,4 @@
 
 1.  Update VIVO-ETL script. Add to data folder
 
-    
     
