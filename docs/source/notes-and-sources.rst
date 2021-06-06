@@ -1,21 +1,26 @@
 Notes and Sources
 =================
 
-For early work on the Organization Ontology and thoughts behind what might be needed 
-and how things might be addressed, we relied on "Early Thoughts on Representing 
-Organizations in VIVO" by the VIVO Ontology Interest Group [VOIG2021]_.  While not 
-everything there 
-has been implemented here, and not everything here is implemented as described there, 
-the general outline of representing organizations using |BFO|_ according to |OBOP|_ was
-first described there. A good reference for BFO is [Arp2015]_.
+For early work on the Organization Ontology and thoughts behind what might be
+needed and how things might be addressed, we relied on "Early Thoughts on
+Representing Organizations in VIVO" by the VIVO Ontology Interest Group
+[VOIG2019a]_.  While not everything there has been implemented here, and not
+everything here is implemented as described there, the general outline of
+representing organizations using |BFO|_ according to |OBOP|_ was first described
+there. A good reference for BFO is [Arp2015]_.  The `VIVO Ontology Interest
+Group <https://wiki.lyrasis.org/display/VIVO/Ontology+Interest+Group>`_ has been
+considering BFO/OBO ontologies for scholarship and related domains for some
+time. The first white paper [VOIG2019]_ led to papers on subsumption [VOIG2019b]_,
+domains [VOIG2019c]_, and use of other ontologies [VOIG2019d]_.  Ideas from each of
+these papers is reflected in the Organization Ontology.
 
 We use [Wikipedia]_, [Wiktionary]_, and [Wikidata]_ often.  Term definitions, 
 references, fact-checking, and identifiers may come from these sources.
 
 We use Ontobee [Ong2017]_ for looking up terms in OBO Foundry ontologies.
 
-We use Protege [Musen2015]_ for modeling ``org-header.ttl`` and the MIREOT plug-in for 
-Protege [Hannah2012]_ for
+We use protege [Musen2015]_ for modeling ``org-header.ttl`` and the MIREOT plug-in for 
+protege [Hannah2012]_ for
 adding terms from other ontologies to ``org-header.ttl``  We use robot [Jackson2019]_ for
 processing templates of properties, merging them and ``org-header.ttl`` together to
 produce ``org.ttl`` and then to run reports against ``org.ttl`` for validation.
@@ -68,8 +73,24 @@ comments related to mapping.
 References
 ----------
 
+.. [VOIG2019a] VIVO Ontology Interest Group (2021) Early Thoughts on the representation
+   of organizations in VIVO.  on-line.  http://bit.ly/2EhMdPq
+
 .. [Arp2015] Arp, Smith, and Spear (2015) Building Ontologies with Basic Formal Ontology.
    MIT Press. ISBN 978-0262527811.  248 pages.
+   
+.. [VOIG2019] VIVO Ontology Interest Group (January 2019) VIVO Ontology Version 2.  
+   on-line.  
+   http://bit.ly/2R8gYuI
+   
+.. [VOIG2019b] VIVO Ontology Interest Group (February 2019) Early Thoughts on VIVO 
+   Subsumption Hierarchy.  on-line.  http://bit.ly/2Ekg7m6
+   
+.. [VOIG2019c] VIVO Ontology Interest Group (February 2019) Early Thoughts on VIVO 
+   Related Domains.  on-line.  http://bit.ly/2Jn3MTV
+   
+.. [VOIG2019d] VIVO Ontology Interest Group (March 2019) Early Thoughts on Ontologies 
+   Used in VIVO.  on-line.  https://bit.ly/3fWdL0K
 
 .. [Wikipedia] Wikipedia (2021) we site.  http://wikipedia.org
 
@@ -82,8 +103,6 @@ References
    dereferencing, linkage, query, and integration. Nucleic Acid Research. 2017 
    Jan 4;45(D1):D347-D352. PMID: 27733503. PMCID: PMC5210626.
 
-.. [VOIG2021] VIVO Ontology Interest Group (2021) Early Thoughts on the representation
-   of organizations in VIVO.  on-line.  http://bit.ly/2EhMdPq
    
 .. [Musen2015] Musen, M.A. The Protégé project: A look back and a look forward. AI 
    Matters. 
