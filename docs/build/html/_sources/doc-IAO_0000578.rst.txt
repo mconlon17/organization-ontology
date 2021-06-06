@@ -28,11 +28,11 @@ IAO_0000578 - centrally registered identifier
 
 .. topic:: Editor's note
 
-    2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records').
+    Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation.
 
     Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered.
 
-    Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation.
+    2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records').
 
 .. topic:: Imported From
 
@@ -40,11 +40,11 @@ IAO_0000578 - centrally registered identifier
 
 .. topic:: Term editor
 
-    PERSON: Bill Hogan
-
     PERSON: Melanie Courtot
+
+    PERSON: Alan Ruttenberg
 
     PERSON: Bjoern Peters
 
-    PERSON: Alan Ruttenberg
+    PERSON: Bill Hogan
 

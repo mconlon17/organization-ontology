@@ -12,7 +12,7 @@ ORG_0000034 - information address quality
 
 .. topic:: Definition
 
-    A quality of an information content entity denoted by an address which has the purpose of responding to information inquiries
+    A quality of an address to be used for information inquiries
 
 .. topic:: Definition source
 

@@ -1,14 +1,14 @@
 
   .. index:: 
-     single: ORG_0000067; primary location quality
-     single: primary location quality; ORG_0000067
+     single: ORG_0000067; primary address quality
+     single: primary address quality; ORG_0000067
 
-ORG_0000067 - primary location quality
+ORG_0000067 - primary address quality
 ====================================================================================
 
 .. topic:: Label
 
-    primary location quality
+    primary address quality
 
 .. topic:: Definition
 

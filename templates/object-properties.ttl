@@ -53,14 +53,6 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
 
 
 #################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#anyuri
-xsd:anyuri rdf:type rdfs:Datatype .
-
-
-#################################################################
 #    Object Properties
 #################################################################
 
@@ -74,7 +66,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000038> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -87,7 +79,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The project to put a man on the man achieved success on July 20, 1969"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an occurent which has an occurent part wholly contained within it"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be defined in RO.  Defined here for convenience since it is missing from RO."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -102,7 +94,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000035> ;
                                              rdfs:range <http://www.w3.org/2006/time#Instant> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Duraspace was dissolved (a process boundary) in 2019 (a time instant with an XSDdatetimestamp and a year precision)"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a process boundary with the time instant at which the process boundary occurs"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "This provides a bidge between BFO ontologies and the W3C time ontology"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -118,7 +110,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has interest"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has organizational interest open source software.  The New York Yankees Baseball Club has organizational interest baseball.  The Gettysburg Foundation has organizational interest The Battle of Gettysburg."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a concept that the organization manifests in its work"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Additional subproperties could provide insight regarding the nature of the interest such as research interest, commercial interest, and so on"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -134,7 +126,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000050> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has website https://lyrasis.org.  Moscow State University has website https://msu.ru"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with its website"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -148,7 +140,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000050> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The website https://vivoweb.org website of The VIVO Project"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a website with its organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -163,7 +155,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has successor"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The United Colonies has successor organization The United States of America"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -178,7 +170,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "successor of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The United Nations is the successor of the The League of Nations."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an on organization with the organization that preceeded it"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -192,7 +184,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000005> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Florida has organizational part College of Medicine; The College of Medicine has organizational part Department of Anesthesiology"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with one of its organizational parts"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "parent of"@en ;
@@ -207,7 +199,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000005> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The College of Medicine at UF organizational part of UF; Department of Anethesiology at UF organizational part of College of Medicine at UF"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization part with the organization of which it is a part"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "child of"@en ;
@@ -222,7 +214,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Theatre Library Association is an affiliate of the American Library Association"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with another organization that is not an organizational part associatiion"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Affiliate relationships exist in many different types of configurations across all sorts of industries.  This term has very broad semantics."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -238,7 +230,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Google is a spin-off company of Stanford University; AGTC is a spin-off company of the University of Florida"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a part that is now independent"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "To say that a is a spin-off of b implies there is a spin-off process and that a is the output of that spin-off process"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -254,7 +246,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Open Clinical is a spin-off of Oxford University. ToposNomos Ltd. is a spin-off company of the University of Magdeburg"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with an organization of which it was formerly a part"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "spinout of"@en ;
@@ -270,7 +262,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has member"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The EU has member Republic of Ireland"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with one of its members"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "To say that on organizaton is a member of another implies there is a membership and that the two organizations each have  roles that"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -286,7 +278,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "member of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of North Carolina is a member of the Southeast University Research Association"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a member organizaiton with the organization of which it is a member"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -301,7 +293,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has employee"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "For the season ending in 2021, the Los Angeles Lakers have employee LeBron James."@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that assocates an organization with an employee of the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -317,7 +309,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "employee of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The president of a university is typically an employee of the university"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with the organization of which that person is an employee"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -333,7 +325,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has associate"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "One might say that an organization has associates who are their former employees"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who is associated with the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Associate is intentionally loose.  A person can be associated with an organization in many ways.  Subsequent additional properties may be needed to clarify."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -349,7 +341,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "associate of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "One might say that people who have reviewed articles for a journal are associateds of that journal"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization with which they are associated"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -364,7 +356,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has head"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "As of this writing, Google has head Sundar Pichai"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organziation with the person who is the head of the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -380,7 +372,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "head of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "As of this writing, Elon Musk is head of Tesla"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization which they are they head of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -395,7 +387,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has volunteer"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Volunteer fire departments have firefighters who are volunteers of the fire department"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who volunteers for the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -410,7 +402,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "volunteer of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Many Americans have served as volunteers of the Peace Corps"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization for which they volunteer"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -425,7 +417,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has appointee"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "As of this writing, the government of the UK has appointed Amanda Milling Minister without Portfolio (unpaid)"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who is appointed by the organization to some post or position within the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Appointee typically includes a title, may or may not include a salary."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -441,7 +433,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "appointee of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The board of trustees of a university may appoint the university president"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with the organization which has appointed the person to some post or position within the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -455,7 +447,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "As of 2021, The Conservative Party of the UK has person member Boris Johnson"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who is  a member of the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
@@ -469,7 +461,7 @@ xsd:anyuri rdf:type rdfs:Datatype .
                                              rdfs:domain <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Florence Nightingale was a person member of the American Statistical Association"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyuri ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization of which the person is a member"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;

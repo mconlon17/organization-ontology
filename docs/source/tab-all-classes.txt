@@ -293,11 +293,9 @@ See `Table 5`_.
     :doc:`doc-ORG_0000033`         A disposition to engage in sports activites,
 
                                    typically competitive.
-    :doc:`doc-ORG_0000034`         A quality of an information content entity denoted
+    :doc:`doc-ORG_0000034`         A quality of an address to be used for information
 
-                                   by an address which has the purpose of responding
-
-                                   to information inquiries
+                                   inquiries
     :doc:`doc-ORG_0000035`         A quality of an address to be used to receive
 
                                    bills

@@ -1,7 +1,7 @@
-This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
+This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
 Scanning style file ./python.ist.......done (7 attributes redefined, 0 ignored).
-Scanning input file theorganizationontology.idx....done (432 entries accepted, 0 rejected).
-Sorting entries......done (3991 comparisons).
-Generating output file theorganizationontology.ind....done (903 lines written, 0 warnings).
+Scanning input file theorganizationontology.idx....done (438 entries accepted, 0 rejected).
+Sorting entries......done (4428 comparisons).
+Generating output file theorganizationontology.ind....done (915 lines written, 0 warnings).
 Output written in theorganizationontology.ind.
 Transcript written in theorganizationontology.ilg.

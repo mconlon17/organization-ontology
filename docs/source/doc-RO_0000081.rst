@@ -1,0 +1,34 @@
+
+  .. index:: 
+     single: RO_0000081; role of
+     single: role of; RO_0000081
+
+RO_0000081 - role of
+====================================================================================
+
+.. topic:: Label
+
+    role of
+
+.. topic:: Alternate name
+
+    role_of
+
+    is role of
+
+.. topic:: Definition
+
+    A relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence
+
+.. topic:: Example
+
+    This investigator role is a role of this person
+
+.. topic:: Editor's note
+
+    A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

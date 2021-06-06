@@ -135,8 +135,11 @@
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000056.html">RO_0000056 - participates in</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000057.html">RO_0000057 - has participant</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000080.html">RO_0000080 - quality of</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-RO_0000081.html">RO_0000081 - role of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000086.html">RO_0000086 - has quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-RO_0000087.html">RO_0000087 - has role</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0000091.html">RO_0000091 - has disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-RO_0000092.html">RO_0000092 - disposition of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0001015.html">RO_0001015 - location of</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0001025.html">RO_0001025 - located in</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc-RO_0002012.html">RO_0002012 - occurent part of</a></li>
@@ -154,9 +157,9 @@
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
 </ul>
 
@@ -571,11 +574,24 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <p>existence</p>
 </td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0000086.html"><span class="doc">RO_0000086 - has quality</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0000081.html"><span class="doc">RO_0000081 - role of</span></a></p></td>
+<td><p>A relation between a role and an independent</p>
+<p>continuant (the bearer), in which the role</p>
+<p>specifically depends on the bearer for its</p>
+<p>existence</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0000086.html"><span class="doc">RO_0000086 - has quality</span></a></p></td>
 <td><p>A relation between an independent continuant (the</p>
 <p>bearer) and a quality, in which the quality</p>
 <p>specifically depends on the bearer for its</p>
 <p>existence</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0000087.html"><span class="doc">RO_0000087 - has role</span></a></p></td>
+<td><p>A relation between an independent continuant (the</p>
+<p>bearer) and a role, in which the role specifically</p>
+<p>depends on the bearer for its existence</p>
 </td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0000091.html"><span class="doc">RO_0000091 - has disposition</span></a></p></td>
@@ -585,43 +601,46 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <p>its existence</p>
 </td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0001015.html"><span class="doc">RO_0001015 - location of</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0000092.html"><span class="doc">RO_0000092 - disposition of</span></a></p></td>
+<td><p>Inverse of has disposition</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0001015.html"><span class="doc">RO_0001015 - location of</span></a></p></td>
 <td><p>A relation between two independent continuants,</p>
 <p>the location and the target, in which the target</p>
 <p>is entirely within the location</p>
 </td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0001025.html"><span class="doc">RO_0001025 - located in</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0001025.html"><span class="doc">RO_0001025 - located in</span></a></p></td>
 <td><p>A relation between two independent continuants,</p>
 <p>the target and the location, in which the target</p>
 <p>is entirely within the location</p>
 </td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002012.html"><span class="doc">RO_0002012 - occurent part of</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0002012.html"><span class="doc">RO_0002012 - occurent part of</span></a></p></td>
 <td><p>A part of relation that applies only between</p>
 <p>occurents.</p>
 </td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0002131.html"><span class="doc">RO_0002131 - overlaps</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002131.html"><span class="doc">RO_0002131 - overlaps</span></a></p></td>
 <td><p>X overlaps y if and only if there exists some z</p>
 <p>such that x has part z and z part of y</p>
 </td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002234.html"><span class="doc">RO_0002234 - has output</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0002234.html"><span class="doc">RO_0002234 - has output</span></a></p></td>
 <td><p>P has output c iff c is a participant in p, c is</p>
 <p>present at the end of p, and c is not present at</p>
 <p>the beginning of p.</p>
 </td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0002323.html"><span class="doc">RO_0002323 - mereotopologically related to</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002323.html"><span class="doc">RO_0002323 - mereotopologically related to</span></a></p></td>
 <td><p>A mereological relationship or a topological</p>
 <p>relationship</p>
 </td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0002353.html"><span class="doc">RO_0002353 - output of</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0002353.html"><span class="doc">RO_0002353 - output of</span></a></p></td>
 <td><p>Inverse of has output</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="doc-unitType.html"><span class="doc">unitType - temporal unit type</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-unitType.html"><span class="doc">unitType - temporal unit type</span></a></p></td>
 <td><p>An indicator of the temporal precision of a time</p>
 <p>instant</p>
 </td>
@@ -670,8 +689,11 @@ equivalently, <em>entity2 output_of process; process realizes role; role inheres
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000056.html">RO_0000056 - participates in</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000057.html">RO_0000057 - has participant</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000080.html">RO_0000080 - quality of</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-RO_0000081.html">RO_0000081 - role of</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000086.html">RO_0000086 - has quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-RO_0000087.html">RO_0000087 - has role</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0000091.html">RO_0000091 - has disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-RO_0000092.html">RO_0000092 - disposition of</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0001015.html">RO_0001015 - location of</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0001025.html">RO_0001025 - located in</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doc-RO_0002012.html">RO_0002012 - occurent part of</a></li>

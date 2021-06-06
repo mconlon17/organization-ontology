@@ -42,8 +42,11 @@
    doc-RO_0000056
    doc-RO_0000057
    doc-RO_0000080
+   doc-RO_0000081
    doc-RO_0000086
+   doc-RO_0000087
    doc-RO_0000091
+   doc-RO_0000092
    doc-RO_0001015
    doc-RO_0001025
    doc-RO_0002012

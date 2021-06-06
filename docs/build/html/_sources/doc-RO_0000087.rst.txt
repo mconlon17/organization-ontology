@@ -1,0 +1,32 @@
+
+  .. index:: 
+     single: RO_0000087; has role
+     single: has role; RO_0000087
+
+RO_0000087 - has role
+====================================================================================
+
+.. topic:: Label
+
+    has role
+
+.. topic:: Alternate name
+
+    has_role
+
+.. topic:: Definition
+
+    A relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence
+
+.. topic:: Example
+
+    This person has role this investigator role (more colloquially: this person has this role of investigator)
+
+.. topic:: Editor's note
+
+    A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

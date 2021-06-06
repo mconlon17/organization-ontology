@@ -1,0 +1,20 @@
+
+  .. index:: 
+     single: RO_0000092; disposition of
+     single: disposition of; RO_0000092
+
+RO_0000092 - disposition of
+====================================================================================
+
+.. topic:: Label
+
+    disposition of
+
+.. topic:: Definition
+
+    Inverse of has disposition
+
+.. topic:: Imported From
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

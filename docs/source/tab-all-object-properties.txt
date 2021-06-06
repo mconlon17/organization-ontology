@@ -194,6 +194,13 @@ See `Table 7`_.
                                    specifically depends on the bearer for its
 
                                    existence
+    :doc:`doc-RO_0000081`          A relation between a role and an independent
+
+                                   continuant (the bearer), in which the role
+
+                                   specifically depends on the bearer for its
+
+                                   existence
     :doc:`doc-RO_0000086`          A relation between an independent continuant (the
 
                                    bearer) and a quality, in which the quality
@@ -201,6 +208,11 @@ See `Table 7`_.
                                    specifically depends on the bearer for its
 
                                    existence
+    :doc:`doc-RO_0000087`          A relation between an independent continuant (the
+
+                                   bearer) and a role, in which the role specifically
+
+                                   depends on the bearer for its existence
     :doc:`doc-RO_0000091`          A relation between an independent continuant (the
 
                                    bearer) and a disposition, in which the
@@ -208,6 +220,7 @@ See `Table 7`_.
                                    disposition specifically depends on the bearer for
 
                                    its existence
+    :doc:`doc-RO_0000092`          Inverse of has disposition
     :doc:`doc-RO_0001015`          A relation between two independent continuants,
 
                                    the location and the target, in which the target

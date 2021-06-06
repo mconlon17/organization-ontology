@@ -1,14 +1,14 @@
 
   .. index:: 
-     single: ORG_0000066; registered location quality
-     single: registered location quality; ORG_0000066
+     single: ORG_0000066; registered address quality
+     single: registered address quality; ORG_0000066
 
-ORG_0000066 - registered location quality
+ORG_0000066 - registered address quality
 ====================================================================================
 
 .. topic:: Label
 
-    registered location quality
+    registered address quality
 
 .. topic:: Definition
 

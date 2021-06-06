@@ -234,10 +234,10 @@
 \indexentry{woman led organization quality@\spxentry{woman led organization quality}!ORG\_0000064@\spxentry{ORG\_0000064}|hyperpage}{114}
 \indexentry{ORG\_0000065@\spxentry{ORG\_0000065}!minority led organization quality@\spxentry{minority led organization quality}|hyperpage}{115}
 \indexentry{minority led organization quality@\spxentry{minority led organization quality}!ORG\_0000065@\spxentry{ORG\_0000065}|hyperpage}{115}
-\indexentry{ORG\_0000066@\spxentry{ORG\_0000066}!registered location quality@\spxentry{registered location quality}|hyperpage}{115}
-\indexentry{registered location quality@\spxentry{registered location quality}!ORG\_0000066@\spxentry{ORG\_0000066}|hyperpage}{115}
-\indexentry{ORG\_0000067@\spxentry{ORG\_0000067}!primary location quality@\spxentry{primary location quality}|hyperpage}{116}
-\indexentry{primary location quality@\spxentry{primary location quality}!ORG\_0000067@\spxentry{ORG\_0000067}|hyperpage}{116}
+\indexentry{ORG\_0000066@\spxentry{ORG\_0000066}!registered address quality@\spxentry{registered address quality}|hyperpage}{115}
+\indexentry{registered address quality@\spxentry{registered address quality}!ORG\_0000066@\spxentry{ORG\_0000066}|hyperpage}{115}
+\indexentry{ORG\_0000067@\spxentry{ORG\_0000067}!primary address quality@\spxentry{primary address quality}|hyperpage}{116}
+\indexentry{primary address quality@\spxentry{primary address quality}!ORG\_0000067@\spxentry{ORG\_0000067}|hyperpage}{116}
 \indexentry{ORG\_0000068@\spxentry{ORG\_0000068}!organizational position@\spxentry{organizational position}|hyperpage}{117}
 \indexentry{organizational position@\spxentry{organizational position}!ORG\_0000068@\spxentry{ORG\_0000068}|hyperpage}{117}
 \indexentry{ORG\_0000069@\spxentry{ORG\_0000069}!organizational employee role@\spxentry{organizational employee role}|hyperpage}{118}
@@ -286,16 +286,16 @@
 \indexentry{has part@\spxentry{has part}!BFO\_0000051@\spxentry{BFO\_0000051}|hyperpage}{136}
 \indexentry{BFO\_0000054@\spxentry{BFO\_0000054}!realized in@\spxentry{realized in}|hyperpage}{137}
 \indexentry{realized in@\spxentry{realized in}!BFO\_0000054@\spxentry{BFO\_0000054}|hyperpage}{137}
-\indexentry{BFO\_0000055@\spxentry{BFO\_0000055}!realizes@\spxentry{realizes}|hyperpage}{137}
-\indexentry{realizes@\spxentry{realizes}!BFO\_0000055@\spxentry{BFO\_0000055}|hyperpage}{137}
+\indexentry{BFO\_0000055@\spxentry{BFO\_0000055}!realizes@\spxentry{realizes}|hyperpage}{138}
+\indexentry{realizes@\spxentry{realizes}!BFO\_0000055@\spxentry{BFO\_0000055}|hyperpage}{138}
 \indexentry{IAO\_0000136@\spxentry{IAO\_0000136}!is about@\spxentry{is about}|hyperpage}{138}
 \indexentry{is about@\spxentry{is about}!IAO\_0000136@\spxentry{IAO\_0000136}|hyperpage}{138}
 \indexentry{IAO\_0000219@\spxentry{IAO\_0000219}!denotes@\spxentry{denotes}|hyperpage}{139}
 \indexentry{denotes@\spxentry{denotes}!IAO\_0000219@\spxentry{IAO\_0000219}|hyperpage}{139}
 \indexentry{IAO\_0000235@\spxentry{IAO\_0000235}!denoted by@\spxentry{denoted by}|hyperpage}{140}
 \indexentry{denoted by@\spxentry{denoted by}!IAO\_0000235@\spxentry{IAO\_0000235}|hyperpage}{140}
-\indexentry{ORG\_2000001@\spxentry{ORG\_2000001}!occupies@\spxentry{occupies}|hyperpage}{140}
-\indexentry{occupies@\spxentry{occupies}!ORG\_2000001@\spxentry{ORG\_2000001}|hyperpage}{140}
+\indexentry{ORG\_2000001@\spxentry{ORG\_2000001}!occupies@\spxentry{occupies}|hyperpage}{141}
+\indexentry{occupies@\spxentry{occupies}!ORG\_2000001@\spxentry{ORG\_2000001}|hyperpage}{141}
 \indexentry{ORG\_2000002@\spxentry{ORG\_2000002}!has occurent part@\spxentry{has occurent part}|hyperpage}{141}
 \indexentry{has occurent part@\spxentry{has occurent part}!ORG\_2000002@\spxentry{ORG\_2000002}|hyperpage}{141}
 \indexentry{ORG\_2000003@\spxentry{ORG\_2000003}!has time instant@\spxentry{has time instant}|hyperpage}{142}
@@ -308,32 +308,32 @@
 \indexentry{website of@\spxentry{website of}!ORG\_2000006@\spxentry{ORG\_2000006}|hyperpage}{144}
 \indexentry{ORG\_2000007@\spxentry{ORG\_2000007}!has successor organization@\spxentry{has successor organization}|hyperpage}{145}
 \indexentry{has successor organization@\spxentry{has successor organization}!ORG\_2000007@\spxentry{ORG\_2000007}|hyperpage}{145}
-\indexentry{ORG\_2000008@\spxentry{ORG\_2000008}!successor organization of@\spxentry{successor organization of}|hyperpage}{145}
-\indexentry{successor organization of@\spxentry{successor organization of}!ORG\_2000008@\spxentry{ORG\_2000008}|hyperpage}{145}
+\indexentry{ORG\_2000008@\spxentry{ORG\_2000008}!successor organization of@\spxentry{successor organization of}|hyperpage}{146}
+\indexentry{successor organization of@\spxentry{successor organization of}!ORG\_2000008@\spxentry{ORG\_2000008}|hyperpage}{146}
 \indexentry{ORG\_2000009@\spxentry{ORG\_2000009}!has organizational part@\spxentry{has organizational part}|hyperpage}{146}
 \indexentry{has organizational part@\spxentry{has organizational part}!ORG\_2000009@\spxentry{ORG\_2000009}|hyperpage}{146}
 \indexentry{ORG\_2000010@\spxentry{ORG\_2000010}!organizational part of@\spxentry{organizational part of}|hyperpage}{147}
 \indexentry{organizational part of@\spxentry{organizational part of}!ORG\_2000010@\spxentry{ORG\_2000010}|hyperpage}{147}
 \indexentry{ORG\_2000011@\spxentry{ORG\_2000011}!affiliated with@\spxentry{affiliated with}|hyperpage}{148}
 \indexentry{affiliated with@\spxentry{affiliated with}!ORG\_2000011@\spxentry{ORG\_2000011}|hyperpage}{148}
-\indexentry{ORG\_2000012@\spxentry{ORG\_2000012}!has spin\sphinxhyphen{}off organization@\spxentry{has spin\sphinxhyphen{}off organization}|hyperpage}{148}
-\indexentry{has spin\sphinxhyphen{}off organization@\spxentry{has spin\sphinxhyphen{}off organization}!ORG\_2000012@\spxentry{ORG\_2000012}|hyperpage}{148}
-\indexentry{ORG\_2000013@\spxentry{ORG\_2000013}!spin\sphinxhyphen{}off organization of@\spxentry{spin\sphinxhyphen{}off organization of}|hyperpage}{149}
-\indexentry{spin\sphinxhyphen{}off organization of@\spxentry{spin\sphinxhyphen{}off organization of}!ORG\_2000013@\spxentry{ORG\_2000013}|hyperpage}{149}
+\indexentry{ORG\_2000012@\spxentry{ORG\_2000012}!has spin\sphinxhyphen{}off organization@\spxentry{has spin\sphinxhyphen{}off organization}|hyperpage}{149}
+\indexentry{has spin\sphinxhyphen{}off organization@\spxentry{has spin\sphinxhyphen{}off organization}!ORG\_2000012@\spxentry{ORG\_2000012}|hyperpage}{149}
+\indexentry{ORG\_2000013@\spxentry{ORG\_2000013}!spin\sphinxhyphen{}off organization of@\spxentry{spin\sphinxhyphen{}off organization of}|hyperpage}{150}
+\indexentry{spin\sphinxhyphen{}off organization of@\spxentry{spin\sphinxhyphen{}off organization of}!ORG\_2000013@\spxentry{ORG\_2000013}|hyperpage}{150}
 \indexentry{ORG\_2000014@\spxentry{ORG\_2000014}!has organizational member@\spxentry{has organizational member}|hyperpage}{150}
 \indexentry{has organizational member@\spxentry{has organizational member}!ORG\_2000014@\spxentry{ORG\_2000014}|hyperpage}{150}
 \indexentry{ORG\_2000015@\spxentry{ORG\_2000015}!organizational member of@\spxentry{organizational member of}|hyperpage}{151}
 \indexentry{organizational member of@\spxentry{organizational member of}!ORG\_2000015@\spxentry{ORG\_2000015}|hyperpage}{151}
-\indexentry{ORG\_2000016@\spxentry{ORG\_2000016}!has organizational employee@\spxentry{has organizational employee}|hyperpage}{151}
-\indexentry{has organizational employee@\spxentry{has organizational employee}!ORG\_2000016@\spxentry{ORG\_2000016}|hyperpage}{151}
+\indexentry{ORG\_2000016@\spxentry{ORG\_2000016}!has organizational employee@\spxentry{has organizational employee}|hyperpage}{152}
+\indexentry{has organizational employee@\spxentry{has organizational employee}!ORG\_2000016@\spxentry{ORG\_2000016}|hyperpage}{152}
 \indexentry{ORG\_2000017@\spxentry{ORG\_2000017}!organizational employee of@\spxentry{organizational employee of}|hyperpage}{152}
 \indexentry{organizational employee of@\spxentry{organizational employee of}!ORG\_2000017@\spxentry{ORG\_2000017}|hyperpage}{152}
 \indexentry{ORG\_2000018@\spxentry{ORG\_2000018}!has organizational associate@\spxentry{has organizational associate}|hyperpage}{153}
 \indexentry{has organizational associate@\spxentry{has organizational associate}!ORG\_2000018@\spxentry{ORG\_2000018}|hyperpage}{153}
 \indexentry{ORG\_2000019@\spxentry{ORG\_2000019}!organizational associate of@\spxentry{organizational associate of}|hyperpage}{154}
 \indexentry{organizational associate of@\spxentry{organizational associate of}!ORG\_2000019@\spxentry{ORG\_2000019}|hyperpage}{154}
-\indexentry{ORG\_2000020@\spxentry{ORG\_2000020}!has organizational head@\spxentry{has organizational head}|hyperpage}{154}
-\indexentry{has organizational head@\spxentry{has organizational head}!ORG\_2000020@\spxentry{ORG\_2000020}|hyperpage}{154}
+\indexentry{ORG\_2000020@\spxentry{ORG\_2000020}!has organizational head@\spxentry{has organizational head}|hyperpage}{155}
+\indexentry{has organizational head@\spxentry{has organizational head}!ORG\_2000020@\spxentry{ORG\_2000020}|hyperpage}{155}
 \indexentry{ORG\_2000021@\spxentry{ORG\_2000021}!organizational head of@\spxentry{organizational head of}|hyperpage}{155}
 \indexentry{organizational head of@\spxentry{organizational head of}!ORG\_2000021@\spxentry{ORG\_2000021}|hyperpage}{155}
 \indexentry{ORG\_2000022@\spxentry{ORG\_2000022}!has organizational volunteer@\spxentry{has organizational volunteer}|hyperpage}{156}
@@ -342,91 +342,97 @@
 \indexentry{organizational volunteer of@\spxentry{organizational volunteer of}!ORG\_2000023@\spxentry{ORG\_2000023}|hyperpage}{156}
 \indexentry{ORG\_2000024@\spxentry{ORG\_2000024}!has organizational appointee@\spxentry{has organizational appointee}|hyperpage}{157}
 \indexentry{has organizational appointee@\spxentry{has organizational appointee}!ORG\_2000024@\spxentry{ORG\_2000024}|hyperpage}{157}
-\indexentry{ORG\_2000025@\spxentry{ORG\_2000025}!organizational appointee of@\spxentry{organizational appointee of}|hyperpage}{157}
-\indexentry{organizational appointee of@\spxentry{organizational appointee of}!ORG\_2000025@\spxentry{ORG\_2000025}|hyperpage}{157}
+\indexentry{ORG\_2000025@\spxentry{ORG\_2000025}!organizational appointee of@\spxentry{organizational appointee of}|hyperpage}{158}
+\indexentry{organizational appointee of@\spxentry{organizational appointee of}!ORG\_2000025@\spxentry{ORG\_2000025}|hyperpage}{158}
 \indexentry{ORG\_2000026@\spxentry{ORG\_2000026}!has person member@\spxentry{has person member}|hyperpage}{158}
 \indexentry{has person member@\spxentry{has person member}!ORG\_2000026@\spxentry{ORG\_2000026}|hyperpage}{158}
 \indexentry{ORG\_2000027@\spxentry{ORG\_2000027}!person member of@\spxentry{person member of}|hyperpage}{159}
 \indexentry{person member of@\spxentry{person member of}!ORG\_2000027@\spxentry{ORG\_2000027}|hyperpage}{159}
-\indexentry{RO\_0000052@\spxentry{RO\_0000052}!inheres in@\spxentry{inheres in}|hyperpage}{159}
-\indexentry{inheres in@\spxentry{inheres in}!RO\_0000052@\spxentry{RO\_0000052}|hyperpage}{159}
+\indexentry{RO\_0000052@\spxentry{RO\_0000052}!inheres in@\spxentry{inheres in}|hyperpage}{160}
+\indexentry{inheres in@\spxentry{inheres in}!RO\_0000052@\spxentry{RO\_0000052}|hyperpage}{160}
 \indexentry{RO\_0000053@\spxentry{RO\_0000053}!bearer of@\spxentry{bearer of}|hyperpage}{160}
 \indexentry{bearer of@\spxentry{bearer of}!RO\_0000053@\spxentry{RO\_0000053}|hyperpage}{160}
 \indexentry{RO\_0000056@\spxentry{RO\_0000056}!participates in@\spxentry{participates in}|hyperpage}{161}
 \indexentry{participates in@\spxentry{participates in}!RO\_0000056@\spxentry{RO\_0000056}|hyperpage}{161}
-\indexentry{RO\_0000057@\spxentry{RO\_0000057}!has participant@\spxentry{has participant}|hyperpage}{161}
-\indexentry{has participant@\spxentry{has participant}!RO\_0000057@\spxentry{RO\_0000057}|hyperpage}{161}
+\indexentry{RO\_0000057@\spxentry{RO\_0000057}!has participant@\spxentry{has participant}|hyperpage}{162}
+\indexentry{has participant@\spxentry{has participant}!RO\_0000057@\spxentry{RO\_0000057}|hyperpage}{162}
 \indexentry{RO\_0000080@\spxentry{RO\_0000080}!quality of@\spxentry{quality of}|hyperpage}{162}
 \indexentry{quality of@\spxentry{quality of}!RO\_0000080@\spxentry{RO\_0000080}|hyperpage}{162}
-\indexentry{RO\_0000086@\spxentry{RO\_0000086}!has quality@\spxentry{has quality}|hyperpage}{163}
-\indexentry{has quality@\spxentry{has quality}!RO\_0000086@\spxentry{RO\_0000086}|hyperpage}{163}
-\indexentry{RO\_0000091@\spxentry{RO\_0000091}!has disposition@\spxentry{has disposition}|hyperpage}{164}
-\indexentry{has disposition@\spxentry{has disposition}!RO\_0000091@\spxentry{RO\_0000091}|hyperpage}{164}
-\indexentry{RO\_0001015@\spxentry{RO\_0001015}!location of@\spxentry{location of}|hyperpage}{164}
-\indexentry{location of@\spxentry{location of}!RO\_0001015@\spxentry{RO\_0001015}|hyperpage}{164}
-\indexentry{RO\_0001025@\spxentry{RO\_0001025}!located in@\spxentry{located in}|hyperpage}{165}
-\indexentry{located in@\spxentry{located in}!RO\_0001025@\spxentry{RO\_0001025}|hyperpage}{165}
-\indexentry{RO\_0002012@\spxentry{RO\_0002012}!occurent part of@\spxentry{occurent part of}|hyperpage}{166}
-\indexentry{occurent part of@\spxentry{occurent part of}!RO\_0002012@\spxentry{RO\_0002012}|hyperpage}{166}
-\indexentry{RO\_0002131@\spxentry{RO\_0002131}!overlaps@\spxentry{overlaps}|hyperpage}{166}
-\indexentry{overlaps@\spxentry{overlaps}!RO\_0002131@\spxentry{RO\_0002131}|hyperpage}{166}
-\indexentry{RO\_0002234@\spxentry{RO\_0002234}!has output@\spxentry{has output}|hyperpage}{166}
-\indexentry{has output@\spxentry{has output}!RO\_0002234@\spxentry{RO\_0002234}|hyperpage}{166}
-\indexentry{RO\_0002323@\spxentry{RO\_0002323}!mereotopologically related to@\spxentry{mereotopologically related to}|hyperpage}{167}
-\indexentry{mereotopologically related to@\spxentry{mereotopologically related to}!RO\_0002323@\spxentry{RO\_0002323}|hyperpage}{167}
-\indexentry{RO\_0002353@\spxentry{RO\_0002353}!output of@\spxentry{output of}|hyperpage}{167}
-\indexentry{output of@\spxentry{output of}!RO\_0002353@\spxentry{RO\_0002353}|hyperpage}{167}
-\indexentry{unitType@\spxentry{unitType}!temporal unit type@\spxentry{temporal unit type}|hyperpage}{168}
-\indexentry{temporal unit type@\spxentry{temporal unit type}!unitType@\spxentry{unitType}|hyperpage}{168}
-\indexentry{OBI\_0002815@\spxentry{OBI\_0002815}!has representation@\spxentry{has representation}|hyperpage}{169}
-\indexentry{has representation@\spxentry{has representation}!OBI\_0002815@\spxentry{OBI\_0002815}|hyperpage}{169}
-\indexentry{ORG\_3000001@\spxentry{ORG\_3000001}!number of employees@\spxentry{number of employees}|hyperpage}{170}
-\indexentry{number of employees@\spxentry{number of employees}!ORG\_3000001@\spxentry{ORG\_3000001}|hyperpage}{170}
-\indexentry{ORG\_3000002@\spxentry{ORG\_3000002}!has email representation@\spxentry{has email representation}|hyperpage}{171}
-\indexentry{has email representation@\spxentry{has email representation}!ORG\_3000002@\spxentry{ORG\_3000002}|hyperpage}{171}
-\indexentry{ORG\_3000003@\spxentry{ORG\_3000003}!has postal address representation@\spxentry{has postal address representation}|hyperpage}{172}
-\indexentry{has postal address representation@\spxentry{has postal address representation}!ORG\_3000003@\spxentry{ORG\_3000003}|hyperpage}{172}
-\indexentry{ORG\_3000004@\spxentry{ORG\_3000004}!has geolocation representation@\spxentry{has geolocation representation}|hyperpage}{173}
-\indexentry{has geolocation representation@\spxentry{has geolocation representation}!ORG\_3000004@\spxentry{ORG\_3000004}|hyperpage}{173}
-\indexentry{ORG\_3000005@\spxentry{ORG\_3000005}!has URL representation@\spxentry{has URL representation}|hyperpage}{173}
-\indexentry{has URL representation@\spxentry{has URL representation}!ORG\_3000005@\spxentry{ORG\_3000005}|hyperpage}{173}
-\indexentry{ORG\_3000006@\spxentry{ORG\_3000006}!has official organization name@\spxentry{has official organization name}|hyperpage}{174}
-\indexentry{has official organization name@\spxentry{has official organization name}!ORG\_3000006@\spxentry{ORG\_3000006}|hyperpage}{174}
-\indexentry{ORG\_3000007@\spxentry{ORG\_3000007}!has organization name@\spxentry{has organization name}|hyperpage}{175}
-\indexentry{has organization name@\spxentry{has organization name}!ORG\_3000007@\spxentry{ORG\_3000007}|hyperpage}{175}
-\indexentry{inXSDDateTimeStamp@\spxentry{inXSDDateTimeStamp}!in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp@\spxentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp}|hyperpage}{176}
-\indexentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp@\spxentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp}!inXSDDateTimeStamp@\spxentry{inXSDDateTimeStamp}|hyperpage}{176}
-\indexentry{unitDay@\spxentry{unitDay}!day (unit of temporal duration)@\spxentry{day}\spxextra{unit of temporal duration}|hyperpage}{177}
-\indexentry{day (unit of temporal duration)@\spxentry{day}\spxextra{unit of temporal duration}!unitDay@\spxentry{unitDay}|hyperpage}{177}
-\indexentry{unitHour@\spxentry{unitHour}!hour (unit of temporal duration)@\spxentry{hour}\spxextra{unit of temporal duration}|hyperpage}{177}
-\indexentry{hour (unit of temporal duration)@\spxentry{hour}\spxextra{unit of temporal duration}!unitHour@\spxentry{unitHour}|hyperpage}{177}
-\indexentry{unitMinute@\spxentry{unitMinute}!minute (unit of temporal duration)@\spxentry{minute}\spxextra{unit of temporal duration}|hyperpage}{178}
-\indexentry{minute (unit of temporal duration)@\spxentry{minute}\spxextra{unit of temporal duration}!unitMinute@\spxentry{unitMinute}|hyperpage}{178}
-\indexentry{unitMonth@\spxentry{unitMonth}!month (unit of temporal duration)@\spxentry{month}\spxextra{unit of temporal duration}|hyperpage}{178}
-\indexentry{month (unit of temporal duration)@\spxentry{month}\spxextra{unit of temporal duration}!unitMonth@\spxentry{unitMonth}|hyperpage}{178}
-\indexentry{unitSecond@\spxentry{unitSecond}!second (unit of temporal duration)@\spxentry{second}\spxextra{unit of temporal duration}|hyperpage}{178}
-\indexentry{second (unit of temporal duration)@\spxentry{second}\spxextra{unit of temporal duration}!unitSecond@\spxentry{unitSecond}|hyperpage}{178}
-\indexentry{unitWeek@\spxentry{unitWeek}!week (unit of temporal duration)@\spxentry{week}\spxextra{unit of temporal duration}|hyperpage}{178}
-\indexentry{week (unit of temporal duration)@\spxentry{week}\spxextra{unit of temporal duration}!unitWeek@\spxentry{unitWeek}|hyperpage}{178}
-\indexentry{unitYear@\spxentry{unitYear}!year (unit of temporal duration)@\spxentry{year}\spxextra{unit of temporal duration}|hyperpage}{178}
-\indexentry{year (unit of temporal duration)@\spxentry{year}\spxextra{unit of temporal duration}!unitYear@\spxentry{unitYear}|hyperpage}{178}
-\indexentry{Dates@\spxentry{Dates}|hyperpage}{192}
-\indexentry{Data@\spxentry{Data}|hyperpage}{192}
-\indexentry{Times@\spxentry{Times}|hyperpage}{192}
-\indexentry{Datetimes@\spxentry{Datetimes}|hyperpage}{192}
-\indexentry{BFO@\spxentry{BFO}|hyperindexformat{\spxpagem}}{201}
-\indexentry{CC0@\spxentry{CC0}|hyperindexformat{\spxpagem}}{201}
-\indexentry{Domain@\spxentry{Domain}|hyperindexformat{\spxpagem}}{201}
-\indexentry{Dubbing Process@\spxentry{Dubbing Process}|hyperindexformat{\spxpagem}}{201}
-\indexentry{Entity@\spxentry{Entity}|hyperindexformat{\spxpagem}}{201}
-\indexentry{Generically dependent continuant@\spxentry{Generically dependent continuant}|hyperindexformat{\spxpagem}}{201}
-\indexentry{IAO@\spxentry{IAO}|hyperindexformat{\spxpagem}}{201}
-\indexentry{Information artifacts@\spxentry{Information artifacts}|hyperindexformat{\spxpagem}}{201}
-\indexentry{OBO@\spxentry{OBO}|hyperindexformat{\spxpagem}}{201}
-\indexentry{OWL@\spxentry{OWL}|hyperindexformat{\spxpagem}}{201}
-\indexentry{Ontology@\spxentry{Ontology}|hyperindexformat{\spxpagem}}{201}
-\indexentry{RO@\spxentry{RO}|hyperindexformat{\spxpagem}}{201}
-\indexentry{ROR@\spxentry{ROR}|hyperindexformat{\spxpagem}}{201}
-\indexentry{Term@\spxentry{Term}|hyperindexformat{\spxpagem}}{201}
-\indexentry{VIVO@\spxentry{VIVO}|hyperindexformat{\spxpagem}}{201}
-\indexentry{VIVO 1@\spxentry{VIVO 1}|hyperindexformat{\spxpagem}}{201}
+\indexentry{RO\_0000081@\spxentry{RO\_0000081}!role of@\spxentry{role of}|hyperpage}{163}
+\indexentry{role of@\spxentry{role of}!RO\_0000081@\spxentry{RO\_0000081}|hyperpage}{163}
+\indexentry{RO\_0000086@\spxentry{RO\_0000086}!has quality@\spxentry{has quality}|hyperpage}{164}
+\indexentry{has quality@\spxentry{has quality}!RO\_0000086@\spxentry{RO\_0000086}|hyperpage}{164}
+\indexentry{RO\_0000087@\spxentry{RO\_0000087}!has role@\spxentry{has role}|hyperpage}{165}
+\indexentry{has role@\spxentry{has role}!RO\_0000087@\spxentry{RO\_0000087}|hyperpage}{165}
+\indexentry{RO\_0000091@\spxentry{RO\_0000091}!has disposition@\spxentry{has disposition}|hyperpage}{165}
+\indexentry{has disposition@\spxentry{has disposition}!RO\_0000091@\spxentry{RO\_0000091}|hyperpage}{165}
+\indexentry{RO\_0000092@\spxentry{RO\_0000092}!disposition of@\spxentry{disposition of}|hyperpage}{166}
+\indexentry{disposition of@\spxentry{disposition of}!RO\_0000092@\spxentry{RO\_0000092}|hyperpage}{166}
+\indexentry{RO\_0001015@\spxentry{RO\_0001015}!location of@\spxentry{location of}|hyperpage}{166}
+\indexentry{location of@\spxentry{location of}!RO\_0001015@\spxentry{RO\_0001015}|hyperpage}{166}
+\indexentry{RO\_0001025@\spxentry{RO\_0001025}!located in@\spxentry{located in}|hyperpage}{167}
+\indexentry{located in@\spxentry{located in}!RO\_0001025@\spxentry{RO\_0001025}|hyperpage}{167}
+\indexentry{RO\_0002012@\spxentry{RO\_0002012}!occurent part of@\spxentry{occurent part of}|hyperpage}{168}
+\indexentry{occurent part of@\spxentry{occurent part of}!RO\_0002012@\spxentry{RO\_0002012}|hyperpage}{168}
+\indexentry{RO\_0002131@\spxentry{RO\_0002131}!overlaps@\spxentry{overlaps}|hyperpage}{168}
+\indexentry{overlaps@\spxentry{overlaps}!RO\_0002131@\spxentry{RO\_0002131}|hyperpage}{168}
+\indexentry{RO\_0002234@\spxentry{RO\_0002234}!has output@\spxentry{has output}|hyperpage}{169}
+\indexentry{has output@\spxentry{has output}!RO\_0002234@\spxentry{RO\_0002234}|hyperpage}{169}
+\indexentry{RO\_0002323@\spxentry{RO\_0002323}!mereotopologically related to@\spxentry{mereotopologically related to}|hyperpage}{169}
+\indexentry{mereotopologically related to@\spxentry{mereotopologically related to}!RO\_0002323@\spxentry{RO\_0002323}|hyperpage}{169}
+\indexentry{RO\_0002353@\spxentry{RO\_0002353}!output of@\spxentry{output of}|hyperpage}{170}
+\indexentry{output of@\spxentry{output of}!RO\_0002353@\spxentry{RO\_0002353}|hyperpage}{170}
+\indexentry{unitType@\spxentry{unitType}!temporal unit type@\spxentry{temporal unit type}|hyperpage}{170}
+\indexentry{temporal unit type@\spxentry{temporal unit type}!unitType@\spxentry{unitType}|hyperpage}{170}
+\indexentry{OBI\_0002815@\spxentry{OBI\_0002815}!has representation@\spxentry{has representation}|hyperpage}{171}
+\indexentry{has representation@\spxentry{has representation}!OBI\_0002815@\spxentry{OBI\_0002815}|hyperpage}{171}
+\indexentry{ORG\_3000001@\spxentry{ORG\_3000001}!number of employees@\spxentry{number of employees}|hyperpage}{172}
+\indexentry{number of employees@\spxentry{number of employees}!ORG\_3000001@\spxentry{ORG\_3000001}|hyperpage}{172}
+\indexentry{ORG\_3000002@\spxentry{ORG\_3000002}!has email representation@\spxentry{has email representation}|hyperpage}{173}
+\indexentry{has email representation@\spxentry{has email representation}!ORG\_3000002@\spxentry{ORG\_3000002}|hyperpage}{173}
+\indexentry{ORG\_3000003@\spxentry{ORG\_3000003}!has postal address representation@\spxentry{has postal address representation}|hyperpage}{174}
+\indexentry{has postal address representation@\spxentry{has postal address representation}!ORG\_3000003@\spxentry{ORG\_3000003}|hyperpage}{174}
+\indexentry{ORG\_3000004@\spxentry{ORG\_3000004}!has geolocation representation@\spxentry{has geolocation representation}|hyperpage}{175}
+\indexentry{has geolocation representation@\spxentry{has geolocation representation}!ORG\_3000004@\spxentry{ORG\_3000004}|hyperpage}{175}
+\indexentry{ORG\_3000005@\spxentry{ORG\_3000005}!has URL representation@\spxentry{has URL representation}|hyperpage}{175}
+\indexentry{has URL representation@\spxentry{has URL representation}!ORG\_3000005@\spxentry{ORG\_3000005}|hyperpage}{175}
+\indexentry{ORG\_3000006@\spxentry{ORG\_3000006}!has official organization name@\spxentry{has official organization name}|hyperpage}{176}
+\indexentry{has official organization name@\spxentry{has official organization name}!ORG\_3000006@\spxentry{ORG\_3000006}|hyperpage}{176}
+\indexentry{ORG\_3000007@\spxentry{ORG\_3000007}!has organization name@\spxentry{has organization name}|hyperpage}{177}
+\indexentry{has organization name@\spxentry{has organization name}!ORG\_3000007@\spxentry{ORG\_3000007}|hyperpage}{177}
+\indexentry{inXSDDateTimeStamp@\spxentry{inXSDDateTimeStamp}!in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp@\spxentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp}|hyperpage}{178}
+\indexentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp@\spxentry{in XSD Date\sphinxhyphen{}Time\sphinxhyphen{}Stamp}!inXSDDateTimeStamp@\spxentry{inXSDDateTimeStamp}|hyperpage}{178}
+\indexentry{unitDay@\spxentry{unitDay}!day (unit of temporal duration)@\spxentry{day}\spxextra{unit of temporal duration}|hyperpage}{179}
+\indexentry{day (unit of temporal duration)@\spxentry{day}\spxextra{unit of temporal duration}!unitDay@\spxentry{unitDay}|hyperpage}{179}
+\indexentry{unitHour@\spxentry{unitHour}!hour (unit of temporal duration)@\spxentry{hour}\spxextra{unit of temporal duration}|hyperpage}{179}
+\indexentry{hour (unit of temporal duration)@\spxentry{hour}\spxextra{unit of temporal duration}!unitHour@\spxentry{unitHour}|hyperpage}{179}
+\indexentry{unitMinute@\spxentry{unitMinute}!minute (unit of temporal duration)@\spxentry{minute}\spxextra{unit of temporal duration}|hyperpage}{180}
+\indexentry{minute (unit of temporal duration)@\spxentry{minute}\spxextra{unit of temporal duration}!unitMinute@\spxentry{unitMinute}|hyperpage}{180}
+\indexentry{unitMonth@\spxentry{unitMonth}!month (unit of temporal duration)@\spxentry{month}\spxextra{unit of temporal duration}|hyperpage}{180}
+\indexentry{month (unit of temporal duration)@\spxentry{month}\spxextra{unit of temporal duration}!unitMonth@\spxentry{unitMonth}|hyperpage}{180}
+\indexentry{unitSecond@\spxentry{unitSecond}!second (unit of temporal duration)@\spxentry{second}\spxextra{unit of temporal duration}|hyperpage}{180}
+\indexentry{second (unit of temporal duration)@\spxentry{second}\spxextra{unit of temporal duration}!unitSecond@\spxentry{unitSecond}|hyperpage}{180}
+\indexentry{unitWeek@\spxentry{unitWeek}!week (unit of temporal duration)@\spxentry{week}\spxextra{unit of temporal duration}|hyperpage}{180}
+\indexentry{week (unit of temporal duration)@\spxentry{week}\spxextra{unit of temporal duration}!unitWeek@\spxentry{unitWeek}|hyperpage}{180}
+\indexentry{unitYear@\spxentry{unitYear}!year (unit of temporal duration)@\spxentry{year}\spxextra{unit of temporal duration}|hyperpage}{180}
+\indexentry{year (unit of temporal duration)@\spxentry{year}\spxextra{unit of temporal duration}!unitYear@\spxentry{unitYear}|hyperpage}{180}
+\indexentry{Dates@\spxentry{Dates}|hyperpage}{194}
+\indexentry{Data@\spxentry{Data}|hyperpage}{194}
+\indexentry{Times@\spxentry{Times}|hyperpage}{194}
+\indexentry{Datetimes@\spxentry{Datetimes}|hyperpage}{194}
+\indexentry{BFO@\spxentry{BFO}|hyperindexformat{\spxpagem}}{203}
+\indexentry{CC0@\spxentry{CC0}|hyperindexformat{\spxpagem}}{203}
+\indexentry{Domain@\spxentry{Domain}|hyperindexformat{\spxpagem}}{203}
+\indexentry{Dubbing Process@\spxentry{Dubbing Process}|hyperindexformat{\spxpagem}}{203}
+\indexentry{Entity@\spxentry{Entity}|hyperindexformat{\spxpagem}}{203}
+\indexentry{Generically dependent continuant@\spxentry{Generically dependent continuant}|hyperindexformat{\spxpagem}}{203}
+\indexentry{IAO@\spxentry{IAO}|hyperindexformat{\spxpagem}}{203}
+\indexentry{Information artifacts@\spxentry{Information artifacts}|hyperindexformat{\spxpagem}}{203}
+\indexentry{OBO@\spxentry{OBO}|hyperindexformat{\spxpagem}}{203}
+\indexentry{OWL@\spxentry{OWL}|hyperindexformat{\spxpagem}}{203}
+\indexentry{Ontology@\spxentry{Ontology}|hyperindexformat{\spxpagem}}{203}
+\indexentry{RO@\spxentry{RO}|hyperindexformat{\spxpagem}}{203}
+\indexentry{ROR@\spxentry{ROR}|hyperindexformat{\spxpagem}}{203}
+\indexentry{Term@\spxentry{Term}|hyperindexformat{\spxpagem}}{203}
+\indexentry{VIVO@\spxentry{VIVO}|hyperindexformat{\spxpagem}}{203}
+\indexentry{VIVO 1@\spxentry{VIVO 1}|hyperindexformat{\spxpagem}}{203}
