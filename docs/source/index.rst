@@ -34,6 +34,10 @@ collection of facts regarding over 97,000 research organizations in the world. T
 Organization Ontology can represent these facts for use in graph-based systems such
 as VIVO.
 
+See :ref:`the domain definition <domain-definition>` for an extended defintion with 
+competency questions, 
+and consequences.
+
 Tools are provided with the Organization Ontology for retrieving ROR data and
 creating individuals with assertions as RDF triples using the Organization Ontology.
 
@@ -43,6 +47,7 @@ creating individuals with assertions as RDF triples using the Organization Ontol
    :maxdepth: 1
    :caption: Contents
    
+   domain-definition
    organizations
    identifiers
    addresses
