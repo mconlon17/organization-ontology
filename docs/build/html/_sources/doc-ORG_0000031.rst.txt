@@ -14,6 +14,10 @@ ORG_0000031 - manufacturing disposition
 
     manufacturer
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     A dispositon to construct material entities

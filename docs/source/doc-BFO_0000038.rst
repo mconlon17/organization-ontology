@@ -10,6 +10,10 @@ BFO_0000038 - one-dimensional temporal region
 
     one-dimensional temporal region
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000008`
+
 .. topic:: Definition
 
     A one-dimensional temporal region is a temporal region that is extended. (axiom label in BFO2 Reference: [103-001])

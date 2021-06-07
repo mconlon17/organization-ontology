@@ -14,6 +14,10 @@ RO_0000052 - inheres in
 
     inheres_in
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     A relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence

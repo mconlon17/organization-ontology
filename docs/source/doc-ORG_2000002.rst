@@ -10,6 +10,10 @@ ORG_2000002 - has occurent part
 
     has occurent part
 
+.. topic:: Sub property of
+
+    :doc:`doc-BFO_0000051`
+
 .. topic:: Definition
 
     The property that associates an occurent which has an occurent part wholly contained within it
@@ -17,6 +21,18 @@ ORG_2000002 - has occurent part
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-BFO_0000003`
+
+.. topic:: Range
+
+    :doc:`doc-BFO_0000003`
+
+.. topic:: Inverse Of
+
+    :doc:`doc-RO_0002012`
 
 .. topic:: Example
 

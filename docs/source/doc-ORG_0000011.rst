@@ -10,6 +10,10 @@ ORG_0000011 - laboratory service provider disposition
 
     laboratory service provider disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000010`
+
 .. topic:: Definition
 
     A disposition to provide laboratory services.  In the US, organization parts in universities that have a disposition to provide laboratory services to others are called core laboratories

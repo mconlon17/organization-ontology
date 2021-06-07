@@ -10,6 +10,10 @@ ORG_0000003 - company
 
     company
 
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000001`
+
 .. topic:: Definition
 
     A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners.

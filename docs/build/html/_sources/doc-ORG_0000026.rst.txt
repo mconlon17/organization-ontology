@@ -10,6 +10,10 @@ ORG_0000026 - library disposition
 
     library disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     A disposition to provide library services
@@ -20,7 +24,7 @@ ORG_0000026 - library disposition
 
 .. topic:: Example
 
-    The Library of Congress, the local public library, a university library allhave dispositions of library
+    The Library of Congress, the local public library, a university library all have dispositions of library
 
 .. topic:: Editor's note
 

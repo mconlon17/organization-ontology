@@ -10,6 +10,10 @@ ORG_0000048 - country
 
     country
 
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000045`
+
 .. topic:: Definition
 
     The territory governed by a sovereign state.

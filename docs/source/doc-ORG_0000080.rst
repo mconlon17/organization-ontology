@@ -10,6 +10,10 @@ ORG_0000080 - media disposition
 
     media disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     The disposition of an organization that creates, transmits, and/or licenses live or recorded material for viewing by others

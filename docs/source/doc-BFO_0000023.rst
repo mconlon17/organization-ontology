@@ -10,25 +10,29 @@ BFO_0000023 - role
 
     role
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000017`
+
 .. topic:: Definition
 
     B is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed.
 
 .. topic:: Example
 
-    John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.
+    the student role
 
     the role of a stone in marking a property boundary
 
-    the role of a building in serving as a military target
-
     the role of subject in a clinical trial
 
-    the priest role
+    John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.
+
+    the role of a building in serving as a military target
 
     the role of a boundary to demarcate two neighboring administrative territories
 
-    the student role
+    the priest role
 
 .. topic:: Editor's note
 

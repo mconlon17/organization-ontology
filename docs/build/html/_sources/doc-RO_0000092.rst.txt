@@ -10,6 +10,10 @@ RO_0000092 - disposition of
 
     disposition of
 
+.. topic:: Sub property of
+
+    :doc:`doc-RO_0000052`
+
 .. topic:: Definition
 
     Inverse of has disposition

@@ -10,6 +10,10 @@ ORG_0000070 - organizational employor role
 
     organizational employor role
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000023`
+
 .. topic:: Definition
 
     The role of an organization to employ a person

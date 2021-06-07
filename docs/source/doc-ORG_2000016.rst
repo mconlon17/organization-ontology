@@ -10,6 +10,10 @@ ORG_2000016 - has organizational employee
 
     has organizational employee
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that assocates an organization with an employee of the organization
@@ -17,6 +21,18 @@ ORG_2000016 - has organizational employee
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-NCBITaxon_9606`
+
+.. topic:: Inverse Of
+
+    :doc:`doc-ORG_2000017`
 
 .. topic:: Example
 

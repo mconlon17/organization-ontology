@@ -10,6 +10,10 @@ BFO_0000040 - material entity
 
     material entity
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000004`
+
 .. topic:: Definition
 
     A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])
@@ -18,27 +22,27 @@ BFO_0000040 - material entity
 
     an energy wave
 
-    an aggregate of human beings.
+    a forest fire
 
-    a photon
+    the undetached arm of a human being
 
     a tornado
 
-    a flame
+    a sea wave
+
+    an aggregate of human beings.
+
+    a puff of smoke
+
+    an epidemic
 
     a human being
 
     a hurricane
 
-    the undetached arm of a human being
+    a flame
 
-    an epidemic
-
-    a sea wave
-
-    a puff of smoke
-
-    a forest fire
+    a photon
 
 .. topic:: Editor's note
 

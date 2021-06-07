@@ -10,6 +10,10 @@ BFO_0000001 - entity
 
     entity
 
+.. topic:: Sub class of
+
+    http://www.w3.org/2002/07/owl#Thing
+
 .. topic:: Definition
 
     The fundamental thing that has existence. All things that exist are entities.

@@ -10,6 +10,10 @@ BFO_0000002 - continuant
 
     continuant
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000001`
+
 .. topic:: Definition
 
     An entity which has existence in time

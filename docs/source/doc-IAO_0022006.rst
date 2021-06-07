@@ -10,6 +10,10 @@ IAO_0022006 - dbpedia identifier
 
     dbpedia identifier
 
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000578`
+
 .. topic:: Definition
 
     A URL used by DBpedia to identify an entity

@@ -10,31 +10,35 @@ BFO_0000004 - independent continuant
 
     independent continuant
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000002`
+
 .. topic:: Definition
 
     B is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])
 
 .. topic:: Example
 
-    a molecule
-
-    a heart
-
-    an organism
+    an orchestra.
 
     a chair
 
+    an organism
+
     a leg
 
-    the interior of your mouth
+    a spatial region
 
-    an orchestra.
+    a molecule
 
     an atom
 
     the bottom right portion of a human torso
 
-    a spatial region
+    the interior of your mouth
+
+    a heart
 
 .. topic:: Imported From
 

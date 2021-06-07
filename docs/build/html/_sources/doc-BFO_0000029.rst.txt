@@ -10,41 +10,45 @@ BFO_0000029 - site
 
     site
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000141`
+
 .. topic:: Definition
 
     B is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])
 
 .. topic:: Example
 
-    the interior of the trunk of your car
-
-    the interior of your refrigerator
-
-    a hole in the interior of a portion of cheese
-
-    the lumen of your gut
-
-    a rabbit hole
-
-    the Piazza San Marco
-
-    your left nostril (a fiat part – the opening – of your left nasal cavity)
-
-    the interior of your office
-
-    the interior of a kangaroo pouch
-
-    Manhattan Canyon)
-
-    the interior of your bedroom
+    the hold of a ship
 
     an air traffic control region defined in the airspace above an airport
 
+    the interior of your refrigerator
+
+    the lumen of your gut
+
+    a hole in the interior of a portion of cheese
+
+    the interior of a kangaroo pouch
+
     the Grand Canyon
+
+    the interior of your office
+
+    your left nostril (a fiat part – the opening – of your left nasal cavity)
+
+    the interior of your bedroom
+
+    a rabbit hole
+
+    Manhattan Canyon)
+
+    the interior of the trunk of your car
 
     the cockpit of an aircraft
 
-    the hold of a ship
+    the Piazza San Marco
 
 .. topic:: Imported From
 

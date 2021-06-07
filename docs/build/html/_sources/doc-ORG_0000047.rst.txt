@@ -10,6 +10,10 @@ ORG_0000047 - continent
 
     continent
 
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000045`
+
 .. topic:: Definition
 
     One of the main landmasses of the globe, usually reckoned as seven in number (Europe, Asia, Africa, North America, South America, Australia, and Antarctica).

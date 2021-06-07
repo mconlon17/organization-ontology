@@ -10,15 +10,19 @@ RO_0001025 - located in
 
     located in
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     A relation between two independent continuants, the target and the location, in which the target is entirely within the location
 
 .. topic:: Example
 
-    this rat is located in this cage
-
     my brain is located in my head
+
+    this rat is located in this cage
 
 .. topic:: Editor's note
 

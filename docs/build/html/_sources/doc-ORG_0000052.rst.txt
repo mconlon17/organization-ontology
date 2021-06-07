@@ -14,6 +14,10 @@ ORG_0000052 - founding process boundary
 
     founding
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000035`
+
 .. topic:: Definition
 
     The process boundary which defines the moment of creation of an orgnization.  Before the moment  the organization does not exist.  After the moment, the organization exists.

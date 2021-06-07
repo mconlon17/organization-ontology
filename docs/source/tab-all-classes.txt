@@ -180,7 +180,9 @@ See `Table 5`_.
                                    humans belong
     :doc:`doc-ORG_0000001`         A group of people recognized as such by people
 
-                                   outside the group.
+                                   outside the group that come together for a
+
+                                   purpose.
     :doc:`doc-ORG_0000002`         An organization which is the body of persons that
 
                                    constitutes the governing authority of a political

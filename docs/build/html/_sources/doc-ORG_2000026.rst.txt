@@ -10,6 +10,10 @@ ORG_2000026 - has person member
 
     has person member
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that associates an organization with a person who is  a member of the organization
@@ -17,6 +21,18 @@ ORG_2000026 - has person member
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-NCBITaxon_9606`
+
+.. topic:: Inverse Of
+
+    :doc:`doc-ORG_2000027`
 
 .. topic:: Example
 

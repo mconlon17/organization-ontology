@@ -10,6 +10,10 @@ IAO_0000219 - denotes
 
     denotes
 
+.. topic:: Sub property of
+
+    :doc:`doc-IAO_0000136`
+
 .. topic:: Definition
 
     A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically

@@ -10,6 +10,10 @@ ORG_2000003 - has time instant
 
     has time instant
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that associates a process boundary with the time instant at which the process boundary occurs
@@ -17,6 +21,14 @@ ORG_2000003 - has time instant
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-BFO_0000035`
+
+.. topic:: Range
+
+    http://www.w3.org/2006/time#Instant
 
 .. topic:: Example
 

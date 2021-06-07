@@ -10,6 +10,10 @@ IAO_0000235 - denoted by
 
     denoted by
 
+.. topic:: Sub property of
+
+    :doc:`doc-IAO_0000136`
+
 .. topic:: Definition
 
     Inverse of the relation 'denotes'

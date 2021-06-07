@@ -10,6 +10,10 @@ ORG_0000058 - spin-off process
 
     spin-off process
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000015`
+
 .. topic:: Definition
 
     The process by which one organization spins off of another

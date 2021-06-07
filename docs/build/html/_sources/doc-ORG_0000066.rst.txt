@@ -10,6 +10,10 @@ ORG_0000066 - registered address quality
 
     registered address quality
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000019`
+
 .. topic:: Definition
 
     The quality of a location that is the legal/registered location for the organization

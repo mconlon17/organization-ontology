@@ -10,6 +10,10 @@ ORG_2000001 - occupies
 
     occupies
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that associates an organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location
@@ -18,9 +22,17 @@ ORG_2000001 - occupies
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
 
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000045`
+
 .. topic:: Example
 
-    The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the
+    The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburgh occupies the Cathedral of Learning
 
 .. topic:: Term editor
 

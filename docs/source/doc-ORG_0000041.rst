@@ -10,6 +10,10 @@ ORG_0000041 - campus
 
     campus
 
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000040`
+
 .. topic:: Definition
 
     The geographic location consisting of the  grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.

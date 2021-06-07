@@ -10,6 +10,10 @@ ORG_2000007 - has successor organization
 
     has successor organization
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence
@@ -17,6 +21,18 @@ ORG_2000007 - has successor organization
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Inverse Of
+
+    :doc:`doc-ORG_2000008`
 
 .. topic:: Example
 

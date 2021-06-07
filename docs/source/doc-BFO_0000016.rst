@@ -10,6 +10,10 @@ BFO_0000016 - disposition
 
     disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000017`
+
 .. topic:: Definition
 
     A realizable entity that presents in a continuant

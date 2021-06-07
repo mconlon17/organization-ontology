@@ -14,6 +14,10 @@ ORG_3000001 - number of employees
 
     # of employees
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topDataProperty
+
 .. topic:: Definition
 
     Specifies the number of people (headcount) who receive paychecks from the organization for work performed
@@ -21,6 +25,14 @@ ORG_3000001 - number of employees
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#nonNegativeInteger
 
 .. topic:: Example
 

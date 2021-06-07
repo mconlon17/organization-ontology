@@ -14,13 +14,13 @@
            Table column width determined by contents
 """
 
-from rdflib import Graph, Literal, Namespace, URIRef
+from rdflib import Graph, Literal, Namespace, URIRef, BNode
 from rdflib.namespace import RDF, RDFS, XSD, SKOS, FOAF, DC, DCTERMS, TIME
 
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright (c) 2021 Michael Conlon"
 __license__ = "Apache-2"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 OBO = Namespace('http://purl.obolibrary.org/obo/')
 OWL = Namespace('http://www.w3.org/2002/07/owl#')
@@ -89,26 +89,40 @@ def write_term_page(term_uri):
 ====================================================================================\n""".format(term_name_str, label, label, term_name_str, term_name_str, label), file=f)
 		
 	terms = {
-		RDFS.label : "Label",
-		OBO.IAO_0000118 : "Alternate name",
-		SKOS.prefLabel  : "SKOS Preferred Label",
-		DC.identifier   : "DC identifier",
-		OBO.IAO_0000115 : "Definition",
-		SKOS.definition : "SKOS Definition",
-		OBO.IAO_0000119 : "Definition source",
-		OBO.IAO_0000112 : "Example",
-		SKOS.example    : "SKOS Example", 
-		OBO.IAO_0000116 : "Editor's note",
-		OBO.ORG_1000001 : "Similar term in VIVO 1 Ontology",
-		OBO.IAO_0000412 : "Imported From", 
-		OBO.IAO_0000117 : "Term editor",
-		RDFS.seeAlso    : "See also",
+		RDFS.label         : "Label",
+		OBO.IAO_0000118    : "Alternate name",
+		SKOS.prefLabel     : "SKOS Preferred Label",
+		RDFS.subPropertyOf : "Sub property of",
+		RDFS.subClassOf    : "Sub class of",
+		OBO.IAO_0000115    : "Definition",
+		SKOS.definition    : "SKOS Definition",
+		OBO.IAO_0000119    : "Definition source",
+		RDFS.domain        : "Domain",
+		RDFS.range         : "Range",
+		OWL.inverseOf      : "Inverse Of",
+		OBO.IAO_0000112    : "Example",
+		SKOS.example       : "SKOS Example", 
+		OBO.IAO_0000116    : "Editor's note",
+		OBO.ORG_1000001    : "Similar term in VIVO 1 Ontology",
+		OBO.IAO_0000412    : "Imported From", 
+		OBO.IAO_0000117    : "Term editor",
+		RDFS.seeAlso       : "See also",
 		}
 
 	for (term, term_name_data) in terms.items():
 		term_value_list = []
 		
 		for term_value in g.objects(term_uri, term):
+			if isinstance(term_value, BNode):
+				continue
+				
+			# If a URI is from OBO, convert it to a document reference within the
+			# documentation, as referenced terms are included in the docs
+			
+			if isinstance(term_value, URIRef):
+				if str(term_value).startswith("http://purl.obolibrary.org/obo/"):
+				    term_value = ':doc:`doc-' + term_value.removeprefix("http://purl.obolibrary.org/obo/") + '`'
+				    
 			term_value = term_value.replace("\n", "\n    ")  # new lines in RDF values must generate indented values in RestructuredText
 			term_value_list.append(term_value)
 			
@@ -117,11 +131,8 @@ def write_term_page(term_uri):
 				
 		print(".. topic:: {}\n".format(term_name_data), file=f)
 		
-		if len(term_value_list) == 0:
-			print("    No value\n", file = f)
-		else:
-			for term_value in term_value_list:
-				print("    {}\n".format(term_value), file = f)
+		for term_value in term_value_list:
+			print("    {}\n".format(term_value), file = f)
 	
 	f.close()
 	

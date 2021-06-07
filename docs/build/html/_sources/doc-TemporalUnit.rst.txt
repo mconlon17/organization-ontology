@@ -10,6 +10,10 @@ TemporalUnit - temporal unit
 
     temporal unit
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000038`
+
 .. topic:: Definition
 
     A specification of a time duration.  Used to specify precision of time instants

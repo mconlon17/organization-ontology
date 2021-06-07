@@ -10,6 +10,10 @@ Instant - time instant
 
     time instant
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000148`
+
 .. topic:: Definition
 
     A zero-dimensional part of time.  Precision may specify a range.  Represented by xsd datetime string

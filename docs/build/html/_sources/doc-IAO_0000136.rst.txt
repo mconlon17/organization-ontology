@@ -10,6 +10,10 @@ IAO_0000136 - is about
 
     is about
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     A (currently) primitive relation that relates an information artifact to an entity.

@@ -10,6 +10,10 @@ IAO_0022003 - crossref funder identifier
 
     crossref funder identifier
 
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000578`
+
 .. topic:: Definition
 
     An identifier assigned by CrossRef to an organization which has funded a project resulting in a published work

@@ -10,6 +10,10 @@ ORG_0000030 - governing disposition
 
     governing disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     A disposition to provide governance

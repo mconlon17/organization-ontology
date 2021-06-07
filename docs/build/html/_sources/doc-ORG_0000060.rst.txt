@@ -10,6 +10,10 @@ ORG_0000060 - organizational membership
 
     organizational membership
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000003`
+
 .. topic:: Definition
 
     The asymmetric relationship involving two organizations in which one is a member of the other

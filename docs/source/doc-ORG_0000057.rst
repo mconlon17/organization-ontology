@@ -10,6 +10,10 @@ ORG_0000057 - web site
 
     web site
 
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000030`
+
 .. topic:: Definition
 
     The information content entity consisting of a group of World Wide Web pages usually containing hyperlinks to each other and made available online by an individual, company, educational institution, government, or organization

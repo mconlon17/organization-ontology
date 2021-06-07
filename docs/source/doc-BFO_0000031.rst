@@ -10,6 +10,10 @@ BFO_0000031 - generically dependent continuant
 
     generically dependent continuant
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000002`
+
 .. topic:: Definition
 
     B is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/074-001]

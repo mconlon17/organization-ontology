@@ -81,10 +81,4 @@ See `Table 6`_.
     :doc:`doc-ORG_1000001`         The term in the original VIVO ontology that is
 
                                    most like the annotated term.
-    :doc:`doc-created`             None
-    :doc:`doc-creator`             None
-    :doc:`doc-description`         None
-    :doc:`doc-title`               None
-    :doc:`doc-license`             None
-    :doc:`doc-inverseOf`           None
     =============================  ==================================================

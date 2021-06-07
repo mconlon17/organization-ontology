@@ -10,6 +10,10 @@ RO_0002131 - overlaps
 
     overlaps
 
+.. topic:: Sub property of
+
+    :doc:`doc-RO_0002323`
+
 .. topic:: Definition
 
     X overlaps y if and only if there exists some z such that x has part z and z part of y

@@ -10,6 +10,10 @@ BFO_0000019 - quality
 
     quality
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000017`
+
 .. topic:: Definition
 
     A quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized.
@@ -20,13 +24,13 @@ BFO_0000019 - quality
 
     the color of a tomato
 
-    the mass of this piece of gold.
-
     the ambient temperature of this portion of air
 
-    the shape of your nose
-
     the length of the circumference of your waist
+
+    the mass of this piece of gold.
+
+    the shape of your nose
 
 .. topic:: Imported From
 

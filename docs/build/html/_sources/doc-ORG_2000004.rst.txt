@@ -14,6 +14,10 @@ ORG_2000004 - has organizational interest
 
     interested in
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that associates an organization with a concept that the organization manifests in its work
@@ -21,6 +25,14 @@ ORG_2000004 - has organizational interest
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    http://www.w3.org/2004/02/skos/core#Concept
 
 .. topic:: Example
 

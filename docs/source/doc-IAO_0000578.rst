@@ -14,6 +14,10 @@ IAO_0000578 - centrally registered identifier
 
     CRID
 
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0020000`
+
 .. topic:: Definition
 
     An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.
@@ -40,11 +44,11 @@ IAO_0000578 - centrally registered identifier
 
 .. topic:: Term editor
 
-    PERSON: Melanie Courtot
-
     PERSON: Alan Ruttenberg
 
-    PERSON: Bjoern Peters
-
     PERSON: Bill Hogan
+
+    PERSON: Melanie Courtot
+
+    PERSON: Bjoern Peters
 

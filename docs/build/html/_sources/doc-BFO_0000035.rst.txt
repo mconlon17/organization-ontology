@@ -10,6 +10,10 @@ BFO_0000035 - process boundary
 
     process boundary
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000003`
+
 .. topic:: Definition
 
     P is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/084-001]

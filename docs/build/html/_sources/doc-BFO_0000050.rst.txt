@@ -10,17 +10,21 @@ BFO_0000050 - part of
 
     part of
 
+.. topic:: Sub property of
+
+    :doc:`doc-RO_0002131`
+
 .. topic:: Definition
 
     A core relation that holds between a part and its whole
 
 .. topic:: Example
 
-    my brain is part of my body (continuant parthood, two material entities)
+    my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)
 
     this day is part of this year (occurrent parthood)
 
-    my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)
+    my brain is part of my body (continuant parthood, two material entities)
 
 .. topic:: Editor's note
 
@@ -38,9 +42,9 @@ BFO_0000050 - part of
 
 .. topic:: See also
 
-    http://ontologydesignpatterns.org/wiki/Submissions:PartOf
-
     http://www.obofoundry.org/ro/#OBO_REL:part_of
+
+    http://ontologydesignpatterns.org/wiki/Submissions:PartOf
 
     http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 

@@ -10,6 +10,10 @@ ORG_0000021 - publishing disposition
 
     publishing disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     A disposition to publish information content entities

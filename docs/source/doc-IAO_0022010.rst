@@ -10,6 +10,10 @@ IAO_0022010 - global research organization identifier
 
     global research organization identifier
 
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000578`
+
 .. topic:: Definition
 
     An identifier assigned and managed by Digital Science for the purpose of denoting research organizations

@@ -16,6 +16,10 @@ RO_0000081 - role of
 
     is role of
 
+.. topic:: Sub property of
+
+    :doc:`doc-RO_0000052`
+
 .. topic:: Definition
 
     A relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence

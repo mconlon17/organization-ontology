@@ -10,6 +10,10 @@ BFO_0000008 - temporal region
 
     temporal region
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000003`
+
 .. topic:: Definition
 
     An occurent which is some part of time

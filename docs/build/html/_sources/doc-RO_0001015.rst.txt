@@ -10,15 +10,19 @@ RO_0001015 - location of
 
     location of
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     A relation between two independent continuants, the location and the target, in which the target is entirely within the location
 
 .. topic:: Example
 
-    this cage is the location of this rat
-
     my head is the location of my brain
+
+    this cage is the location of this rat
 
 .. topic:: Editor's note
 

@@ -10,6 +10,10 @@ RO_0002353 - output of
 
     output of
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     Inverse of has output

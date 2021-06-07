@@ -10,6 +10,10 @@ BFO_0000003 - occurrent
 
     occurrent
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000001`
+
 .. topic:: Definition
 
     An entity which occurs in time

@@ -10,6 +10,10 @@ ORG_0000038 - homepage quality
 
     homepage quality
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000019`
+
 .. topic:: Definition
 
     A quality to be the primary website for an entity.

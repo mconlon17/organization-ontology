@@ -10,6 +10,10 @@ ORG_2000021 - organizational head of
 
     organizational head of
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that associates a person with an organization which they are they head of
@@ -17,6 +21,14 @@ ORG_2000021 - organizational head of
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-NCBITaxon_9606`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000001`
 
 .. topic:: Example
 

@@ -10,6 +10,10 @@ ORG_3000006 - has official organization name
 
     has official organization name
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topDataProperty
+
 .. topic:: Definition
 
     Specifies the value of a name of the organization which appears in the current documents authorizing its existence
@@ -17,6 +21,14 @@ ORG_3000006 - has official organization name
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#string
 
 .. topic:: Example
 

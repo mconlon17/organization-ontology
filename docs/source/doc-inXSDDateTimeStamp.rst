@@ -10,6 +10,10 @@ inXSDDateTimeStamp - in XSD Date-Time-Stamp
 
     in XSD Date-Time-Stamp
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topDataProperty
+
 .. topic:: Definition
 
     A datatype property to contain the representation of a time instant as an xsd datetimestamp

@@ -10,6 +10,10 @@ ORG_0000071 - organizational associate role
 
     organizational associate role
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000023`
+
 .. topic:: Definition
 
     The role of a person to be an associate of an organization

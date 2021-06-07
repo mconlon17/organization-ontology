@@ -10,6 +10,10 @@ ORG_0000056 - succession process boundary
 
     succession process boundary
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000035`
+
 .. topic:: Definition
 
     The process boundary within a succession process.  Complex succesion processes may have many boundaries.

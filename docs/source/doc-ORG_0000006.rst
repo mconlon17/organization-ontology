@@ -10,6 +10,10 @@ ORG_0000006 - organization part
 
     organization part
 
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000001`
+
 .. topic:: Definition
 
     An organization which exists as part of another organization.  Implies a part_of relationship to another organization

@@ -14,6 +14,10 @@ ORG_0000032 - project team disposition
 
     team
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     A disposition to execute and finish a project.

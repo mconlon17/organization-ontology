@@ -14,6 +14,10 @@ RO_0000086 - has quality
 
     has_quality
 
+.. topic:: Sub property of
+
+    :doc:`doc-RO_0000053`
+
 .. topic:: Definition
 
     A relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence

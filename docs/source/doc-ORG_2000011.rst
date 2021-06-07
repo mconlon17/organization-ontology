@@ -14,6 +14,10 @@ ORG_2000011 - affiliated with
 
     linked to
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     The property that associates an organization with another organization that is not an organizational part associatiion
@@ -21,6 +25,14 @@ ORG_2000011 - affiliated with
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000001`
 
 .. topic:: Example
 

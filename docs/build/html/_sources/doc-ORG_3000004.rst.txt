@@ -14,6 +14,10 @@ ORG_3000004 - has geolocation representation
 
     has geolocation
 
+.. topic:: Sub property of
+
+    :doc:`doc-OBI_0002815`
+
 .. topic:: Definition
 
     Specifies the geolocation string for a geolocation
@@ -21,6 +25,14 @@ ORG_3000004 - has geolocation representation
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000044`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#string
 
 .. topic:: Example
 

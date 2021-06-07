@@ -10,6 +10,10 @@ ORG_0000045 - geographic region
 
     geographic region
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000029`
+
 .. topic:: Definition
 
     A place on the earth.  Not necessarily contiguous

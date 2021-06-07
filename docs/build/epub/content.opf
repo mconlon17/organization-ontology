@@ -12,8 +12,8 @@
     <dc:publisher>The VIVO Ontology Interest Group</dc:publisher>
     <dc:rights>2021, The VIVO Project</dc:rights>
     <dc:identifier id="unknown">unknown</dc:identifier>
-    <dc:date>2021-06-06T15:57:37Z</dc:date>
-    <meta property="dcterms:modified">2021-06-06T15:57:37Z</meta>
+    <dc:date>2021-06-07T16:44:45Z</dc:date>
+    <meta property="dcterms:modified">2021-06-07T16:44:45Z</meta>
     <meta property="ibooks:version">v0.0.1</meta>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:binding">true</meta>
@@ -286,12 +286,6 @@
     <itemref idref="epub-42" />
     <itemref idref="epub-44" />
     <itemref idref="epub-144" />
-    <itemref idref="epub-197" />
-    <itemref idref="epub-198" />
-    <itemref idref="epub-199" />
-    <itemref idref="epub-203" />
-    <itemref idref="epub-202" />
-    <itemref idref="epub-201" />
     <itemref idref="epub-3" />
     <itemref idref="epub-7" />
     <itemref idref="epub-8" />
@@ -493,6 +487,12 @@
     <itemref idref="epub-221" />
     <itemref idref="epub-216" />
     <itemref idref="epub-215" />
+    <itemref idref="epub-197" linear="no" />
+    <itemref idref="epub-198" linear="no" />
+    <itemref idref="epub-199" linear="no" />
+    <itemref idref="epub-201" linear="no" />
+    <itemref idref="epub-202" linear="no" />
+    <itemref idref="epub-203" linear="no" />
   </spine>
   <guide>
     <reference type="toc" title="Table of Contents" href="index.xhtml" />

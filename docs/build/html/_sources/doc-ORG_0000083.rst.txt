@@ -10,6 +10,10 @@ ORG_0000083 - person membership
 
     person membership
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000003`
+
 .. topic:: Definition
 
     The asymmetric relationship representing a person's membership in an organization

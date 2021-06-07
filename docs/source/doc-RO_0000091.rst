@@ -10,6 +10,10 @@ RO_0000091 - has disposition
 
     has disposition
 
+.. topic:: Sub property of
+
+    :doc:`doc-RO_0000053`
+
 .. topic:: Definition
 
     A relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence

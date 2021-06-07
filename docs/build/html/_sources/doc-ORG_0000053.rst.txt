@@ -10,6 +10,10 @@ ORG_0000053 - dissolution process
 
     dissolution process
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000015`
+
 .. topic:: Definition
 
     The process by which an organization no longer exists.

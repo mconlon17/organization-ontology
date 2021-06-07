@@ -10,6 +10,10 @@ ORG_0000049 - region
 
     region
 
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000045`
+
 .. topic:: Definition
 
     A subdivision of the territory of a country

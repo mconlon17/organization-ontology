@@ -22,6 +22,10 @@ ORG_1000001 - vivo 1 ontology reference
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
 
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#anyURI
+
 .. topic:: Example
 
     The organization class in the original VIVO ontology is most like the organization class in the VIVO Organization Ontology.  They have different superclasses, so they are not the same.

@@ -16,6 +16,10 @@ ORG_0000082 - labor union disposition
 
     trade union
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     The disposition of an organization to organize workers for the purpose of negotiations with employers of the workers

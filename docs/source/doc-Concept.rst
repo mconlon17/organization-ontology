@@ -10,6 +10,10 @@ Concept - concept (skos)
 
     concept (skos)
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000031`
+
 .. topic:: Definition
 
     An idea or notion, a unit of thought

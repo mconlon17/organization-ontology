@@ -10,6 +10,10 @@ ORG_0000037 - preferred address quality
 
     preferred address quality
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000019`
+
 .. topic:: Definition
 
     A quality of an address to be displayed in most settings

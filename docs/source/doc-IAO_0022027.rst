@@ -10,6 +10,10 @@ IAO_0022027 - wikidata q number
 
     wikidata q number
 
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000578`
+
 .. topic:: Definition
 
     QID (or Q number) is the unique identifier of a data item on Wikidata, comprising the letter "Q" followed by one or more digits.

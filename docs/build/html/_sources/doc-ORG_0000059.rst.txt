@@ -10,6 +10,10 @@ ORG_0000059 - spin-off process boundary
 
     spin-off process boundary
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000035`
+
 .. topic:: Definition
 
     The boundary of a spin-off process

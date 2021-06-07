@@ -10,6 +10,10 @@ ORG_0000025 - research administration disposition
 
     research administration disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     A disposition to provide resources and oversight for those conducting research

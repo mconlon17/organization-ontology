@@ -10,6 +10,10 @@ ORG_0000062 - organizational member grantor role
 
     organizational member grantor role
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000023`
+
 .. topic:: Definition
 
     The role of an organization in granting a member role to another

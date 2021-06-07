@@ -10,6 +10,10 @@ ORG_0000079 - airline disposition
 
     airline disposition
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
 .. topic:: Definition
 
     The disposition of an organization that operates airplanes carrying frieght or passengers

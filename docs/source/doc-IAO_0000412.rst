@@ -20,7 +20,7 @@ IAO_0000412 - imported from
 
 .. topic:: Term editor
 
-    PERSON:Melanie Courtot
-
     PERSON:Alan Ruttenberg
+
+    PERSON:Melanie Courtot
 

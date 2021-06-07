@@ -10,6 +10,10 @@ unitType - temporal unit type
 
     temporal unit type
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     An indicator of the temporal precision of a time instant

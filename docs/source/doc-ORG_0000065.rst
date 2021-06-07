@@ -10,6 +10,10 @@ ORG_0000065 - minority led organization quality
 
     minority led organization quality
 
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000019`
+
 .. topic:: Definition
 
     The quality of an organiztion that is led by a designated minority

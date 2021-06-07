@@ -10,6 +10,10 @@ IAO_0000429 - email address
 
     email address
 
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000030`
+
 .. topic:: Definition
 
     A designation used to deliver email to a recipient.  Typically has an associated email representation

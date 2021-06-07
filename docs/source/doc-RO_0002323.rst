@@ -10,6 +10,10 @@ RO_0002323 - mereotopologically related to
 
     mereotopologically related to
 
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
 .. topic:: Definition
 
     A mereological relationship or a topological relationship

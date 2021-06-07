@@ -14,6 +14,10 @@ ORG_3000003 - has postal address representation
 
     has address value
 
+.. topic:: Sub property of
+
+    :doc:`doc-OBI_0002815`
+
 .. topic:: Definition
 
     Specifies the postal address string for a postal address
@@ -21,6 +25,14 @@ ORG_3000003 - has postal address representation
 .. topic:: Definition source
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-IAO_0000422`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#string
 
 .. topic:: Example
 
