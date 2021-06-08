@@ -407,7 +407,7 @@
       </navPoint>
       <navPoint id="navPoint67" playOrder="65">
         <navLabel>
-          <text>ORG_0000011 - laboratory service provider disposition</text>
+          <text>ORG_0000011 - laboratory disposition</text>
         </navLabel>
         <content src="doc-ORG_0000011.xhtml" />  
       </navPoint>
@@ -857,516 +857,558 @@
       </navPoint>
       <navPoint id="navPoint142" playOrder="140">
         <navLabel>
+          <text>ORG_0000086 - academic department disposition</text>
+        </navLabel>
+        <content src="doc-ORG_0000086.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint143" playOrder="141">
+        <navLabel>
+          <text>ORG_0000087 - academic college disposition</text>
+        </navLabel>
+        <content src="doc-ORG_0000087.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint144" playOrder="142">
+        <navLabel>
+          <text>ORG_0000088 - committee disposition</text>
+        </navLabel>
+        <content src="doc-ORG_0000088.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint145" playOrder="143">
+        <navLabel>
+          <text>ORG_0000089 - pre-school disposition</text>
+        </navLabel>
+        <content src="doc-ORG_0000089.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint146" playOrder="144">
+        <navLabel>
+          <text>ORG_0000090 - primary school disposition</text>
+        </navLabel>
+        <content src="doc-ORG_0000090.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint147" playOrder="145">
+        <navLabel>
+          <text>ORG_0000091 - middle school disposition</text>
+        </navLabel>
+        <content src="doc-ORG_0000091.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint148" playOrder="146">
+        <navLabel>
+          <text>ORG_0000092 - secondary school disposition</text>
+        </navLabel>
+        <content src="doc-ORG_0000092.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint149" playOrder="147">
+        <navLabel>
           <text>Concept - concept (skos)</text>
         </navLabel>
         <content src="doc-Concept.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint143" playOrder="141">
+      <navPoint id="navPoint150" playOrder="148">
         <navLabel>
           <text>Instant - time instant</text>
         </navLabel>
         <content src="doc-Instant.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint144" playOrder="142">
+      <navPoint id="navPoint151" playOrder="149">
         <navLabel>
           <text>TemporalUnit - temporal unit</text>
         </navLabel>
         <content src="doc-TemporalUnit.xhtml" />  
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint145" playOrder="143">
+    <navPoint id="navPoint152" playOrder="150">
       <navLabel>
         <text>Object Properties</text>
       </navLabel>
       <content src="object-properties.xhtml" />  
-      <navPoint id="navPoint146" playOrder="143">
+      <navPoint id="navPoint153" playOrder="150">
         <navLabel>
           <text>Object Properties</text>
         </navLabel>
         <content src="object-properties.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint147" playOrder="144">
+      <navPoint id="navPoint154" playOrder="151">
         <navLabel>
           <text>BFO_0000050 - part of</text>
         </navLabel>
         <content src="doc-BFO_0000050.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint148" playOrder="145">
+      <navPoint id="navPoint155" playOrder="152">
         <navLabel>
           <text>BFO_0000051 - has part</text>
         </navLabel>
         <content src="doc-BFO_0000051.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint149" playOrder="146">
+      <navPoint id="navPoint156" playOrder="153">
         <navLabel>
           <text>BFO_0000054 - realized in</text>
         </navLabel>
         <content src="doc-BFO_0000054.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint150" playOrder="147">
+      <navPoint id="navPoint157" playOrder="154">
         <navLabel>
           <text>BFO_0000055 - realizes</text>
         </navLabel>
         <content src="doc-BFO_0000055.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint151" playOrder="148">
+      <navPoint id="navPoint158" playOrder="155">
         <navLabel>
           <text>IAO_0000136 - is about</text>
         </navLabel>
         <content src="doc-IAO_0000136.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint152" playOrder="149">
+      <navPoint id="navPoint159" playOrder="156">
         <navLabel>
           <text>IAO_0000219 - denotes</text>
         </navLabel>
         <content src="doc-IAO_0000219.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint153" playOrder="150">
+      <navPoint id="navPoint160" playOrder="157">
         <navLabel>
           <text>IAO_0000235 - denoted by</text>
         </navLabel>
         <content src="doc-IAO_0000235.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint154" playOrder="151">
+      <navPoint id="navPoint161" playOrder="158">
         <navLabel>
           <text>ORG_2000001 - occupies</text>
         </navLabel>
         <content src="doc-ORG_2000001.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint155" playOrder="152">
+      <navPoint id="navPoint162" playOrder="159">
         <navLabel>
           <text>ORG_2000002 - has occurent part</text>
         </navLabel>
         <content src="doc-ORG_2000002.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint156" playOrder="153">
+      <navPoint id="navPoint163" playOrder="160">
         <navLabel>
           <text>ORG_2000003 - has time instant</text>
         </navLabel>
         <content src="doc-ORG_2000003.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint157" playOrder="154">
+      <navPoint id="navPoint164" playOrder="161">
         <navLabel>
           <text>ORG_2000004 - has organizational interest</text>
         </navLabel>
         <content src="doc-ORG_2000004.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint158" playOrder="155">
+      <navPoint id="navPoint165" playOrder="162">
         <navLabel>
           <text>ORG_2000005 - has website</text>
         </navLabel>
         <content src="doc-ORG_2000005.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint159" playOrder="156">
+      <navPoint id="navPoint166" playOrder="163">
         <navLabel>
           <text>ORG_2000006 - website of</text>
         </navLabel>
         <content src="doc-ORG_2000006.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint160" playOrder="157">
+      <navPoint id="navPoint167" playOrder="164">
         <navLabel>
           <text>ORG_2000007 - has successor organization</text>
         </navLabel>
         <content src="doc-ORG_2000007.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint161" playOrder="158">
+      <navPoint id="navPoint168" playOrder="165">
         <navLabel>
           <text>ORG_2000008 - successor organization of</text>
         </navLabel>
         <content src="doc-ORG_2000008.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint162" playOrder="159">
+      <navPoint id="navPoint169" playOrder="166">
         <navLabel>
           <text>ORG_2000009 - has organizational part</text>
         </navLabel>
         <content src="doc-ORG_2000009.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint163" playOrder="160">
+      <navPoint id="navPoint170" playOrder="167">
         <navLabel>
           <text>ORG_2000010 - organizational part of</text>
         </navLabel>
         <content src="doc-ORG_2000010.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint164" playOrder="161">
+      <navPoint id="navPoint171" playOrder="168">
         <navLabel>
           <text>ORG_2000011 - affiliated with</text>
         </navLabel>
         <content src="doc-ORG_2000011.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint165" playOrder="162">
+      <navPoint id="navPoint172" playOrder="169">
         <navLabel>
           <text>ORG_2000012 - has spin-off organization</text>
         </navLabel>
         <content src="doc-ORG_2000012.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint166" playOrder="163">
+      <navPoint id="navPoint173" playOrder="170">
         <navLabel>
           <text>ORG_2000013 - spin-off organization of</text>
         </navLabel>
         <content src="doc-ORG_2000013.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint167" playOrder="164">
+      <navPoint id="navPoint174" playOrder="171">
         <navLabel>
           <text>ORG_2000014 - has organizational member</text>
         </navLabel>
         <content src="doc-ORG_2000014.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint168" playOrder="165">
+      <navPoint id="navPoint175" playOrder="172">
         <navLabel>
           <text>ORG_2000015 - organizational member of</text>
         </navLabel>
         <content src="doc-ORG_2000015.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint169" playOrder="166">
+      <navPoint id="navPoint176" playOrder="173">
         <navLabel>
           <text>ORG_2000016 - has organizational employee</text>
         </navLabel>
         <content src="doc-ORG_2000016.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint170" playOrder="167">
+      <navPoint id="navPoint177" playOrder="174">
         <navLabel>
           <text>ORG_2000017 - organizational employee of</text>
         </navLabel>
         <content src="doc-ORG_2000017.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint171" playOrder="168">
+      <navPoint id="navPoint178" playOrder="175">
         <navLabel>
           <text>ORG_2000018 - has organizational associate</text>
         </navLabel>
         <content src="doc-ORG_2000018.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint172" playOrder="169">
+      <navPoint id="navPoint179" playOrder="176">
         <navLabel>
           <text>ORG_2000019 - organizational associate of</text>
         </navLabel>
         <content src="doc-ORG_2000019.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint173" playOrder="170">
+      <navPoint id="navPoint180" playOrder="177">
         <navLabel>
           <text>ORG_2000020 - has organizational head</text>
         </navLabel>
         <content src="doc-ORG_2000020.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint174" playOrder="171">
+      <navPoint id="navPoint181" playOrder="178">
         <navLabel>
           <text>ORG_2000021 - organizational head of</text>
         </navLabel>
         <content src="doc-ORG_2000021.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint175" playOrder="172">
+      <navPoint id="navPoint182" playOrder="179">
         <navLabel>
           <text>ORG_2000022 - has organizational volunteer</text>
         </navLabel>
         <content src="doc-ORG_2000022.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint176" playOrder="173">
+      <navPoint id="navPoint183" playOrder="180">
         <navLabel>
           <text>ORG_2000023 - organizational volunteer of</text>
         </navLabel>
         <content src="doc-ORG_2000023.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint177" playOrder="174">
+      <navPoint id="navPoint184" playOrder="181">
         <navLabel>
           <text>ORG_2000024 - has organizational appointee</text>
         </navLabel>
         <content src="doc-ORG_2000024.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint178" playOrder="175">
+      <navPoint id="navPoint185" playOrder="182">
         <navLabel>
           <text>ORG_2000025 - organizational appointee of</text>
         </navLabel>
         <content src="doc-ORG_2000025.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint179" playOrder="176">
+      <navPoint id="navPoint186" playOrder="183">
         <navLabel>
           <text>ORG_2000026 - has person member</text>
         </navLabel>
         <content src="doc-ORG_2000026.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint180" playOrder="177">
+      <navPoint id="navPoint187" playOrder="184">
         <navLabel>
           <text>ORG_2000027 - person member of</text>
         </navLabel>
         <content src="doc-ORG_2000027.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint181" playOrder="178">
+      <navPoint id="navPoint188" playOrder="185">
         <navLabel>
           <text>RO_0000052 - inheres in</text>
         </navLabel>
         <content src="doc-RO_0000052.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint182" playOrder="179">
+      <navPoint id="navPoint189" playOrder="186">
         <navLabel>
           <text>RO_0000053 - bearer of</text>
         </navLabel>
         <content src="doc-RO_0000053.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint183" playOrder="180">
+      <navPoint id="navPoint190" playOrder="187">
         <navLabel>
           <text>RO_0000056 - participates in</text>
         </navLabel>
         <content src="doc-RO_0000056.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint184" playOrder="181">
+      <navPoint id="navPoint191" playOrder="188">
         <navLabel>
           <text>RO_0000057 - has participant</text>
         </navLabel>
         <content src="doc-RO_0000057.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint185" playOrder="182">
+      <navPoint id="navPoint192" playOrder="189">
         <navLabel>
           <text>RO_0000080 - quality of</text>
         </navLabel>
         <content src="doc-RO_0000080.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint186" playOrder="183">
+      <navPoint id="navPoint193" playOrder="190">
         <navLabel>
           <text>RO_0000081 - role of</text>
         </navLabel>
         <content src="doc-RO_0000081.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint187" playOrder="184">
+      <navPoint id="navPoint194" playOrder="191">
         <navLabel>
           <text>RO_0000086 - has quality</text>
         </navLabel>
         <content src="doc-RO_0000086.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint188" playOrder="185">
+      <navPoint id="navPoint195" playOrder="192">
         <navLabel>
           <text>RO_0000087 - has role</text>
         </navLabel>
         <content src="doc-RO_0000087.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint189" playOrder="186">
+      <navPoint id="navPoint196" playOrder="193">
         <navLabel>
           <text>RO_0000091 - has disposition</text>
         </navLabel>
         <content src="doc-RO_0000091.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint190" playOrder="187">
+      <navPoint id="navPoint197" playOrder="194">
         <navLabel>
           <text>RO_0000092 - disposition of</text>
         </navLabel>
         <content src="doc-RO_0000092.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint191" playOrder="188">
+      <navPoint id="navPoint198" playOrder="195">
         <navLabel>
           <text>RO_0001015 - location of</text>
         </navLabel>
         <content src="doc-RO_0001015.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint192" playOrder="189">
+      <navPoint id="navPoint199" playOrder="196">
         <navLabel>
           <text>RO_0001025 - located in</text>
         </navLabel>
         <content src="doc-RO_0001025.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint193" playOrder="190">
+      <navPoint id="navPoint200" playOrder="197">
         <navLabel>
           <text>RO_0002012 - occurent part of</text>
         </navLabel>
         <content src="doc-RO_0002012.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint194" playOrder="191">
+      <navPoint id="navPoint201" playOrder="198">
         <navLabel>
           <text>RO_0002131 - overlaps</text>
         </navLabel>
         <content src="doc-RO_0002131.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint195" playOrder="192">
+      <navPoint id="navPoint202" playOrder="199">
         <navLabel>
           <text>RO_0002234 - has output</text>
         </navLabel>
         <content src="doc-RO_0002234.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint196" playOrder="193">
+      <navPoint id="navPoint203" playOrder="200">
         <navLabel>
           <text>RO_0002323 - mereotopologically related to</text>
         </navLabel>
         <content src="doc-RO_0002323.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint197" playOrder="194">
+      <navPoint id="navPoint204" playOrder="201">
         <navLabel>
           <text>RO_0002353 - output of</text>
         </navLabel>
         <content src="doc-RO_0002353.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint198" playOrder="195">
+      <navPoint id="navPoint205" playOrder="202">
         <navLabel>
           <text>unitType - temporal unit type</text>
         </navLabel>
         <content src="doc-unitType.xhtml" />  
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint199" playOrder="196">
+    <navPoint id="navPoint206" playOrder="203">
       <navLabel>
         <text>Datatype Properties</text>
       </navLabel>
       <content src="datatype-properties.xhtml" />  
-      <navPoint id="navPoint200" playOrder="196">
+      <navPoint id="navPoint207" playOrder="203">
         <navLabel>
           <text>Datatype Properties</text>
         </navLabel>
         <content src="datatype-properties.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint201" playOrder="197">
+      <navPoint id="navPoint208" playOrder="204">
         <navLabel>
           <text>OBI_0002815 - has representation</text>
         </navLabel>
         <content src="doc-OBI_0002815.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint202" playOrder="198">
+      <navPoint id="navPoint209" playOrder="205">
         <navLabel>
           <text>ORG_3000001 - number of employees</text>
         </navLabel>
         <content src="doc-ORG_3000001.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint203" playOrder="199">
+      <navPoint id="navPoint210" playOrder="206">
         <navLabel>
           <text>ORG_3000002 - has email representation</text>
         </navLabel>
         <content src="doc-ORG_3000002.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint204" playOrder="200">
+      <navPoint id="navPoint211" playOrder="207">
         <navLabel>
           <text>ORG_3000003 - has postal address representation</text>
         </navLabel>
         <content src="doc-ORG_3000003.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint205" playOrder="201">
+      <navPoint id="navPoint212" playOrder="208">
         <navLabel>
           <text>ORG_3000004 - has geolocation representation</text>
         </navLabel>
         <content src="doc-ORG_3000004.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint206" playOrder="202">
+      <navPoint id="navPoint213" playOrder="209">
         <navLabel>
           <text>ORG_3000005 - has URL representation</text>
         </navLabel>
         <content src="doc-ORG_3000005.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint207" playOrder="203">
+      <navPoint id="navPoint214" playOrder="210">
         <navLabel>
           <text>ORG_3000006 - has official organization name</text>
         </navLabel>
         <content src="doc-ORG_3000006.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint208" playOrder="204">
+      <navPoint id="navPoint215" playOrder="211">
         <navLabel>
           <text>ORG_3000007 - has organization name</text>
         </navLabel>
         <content src="doc-ORG_3000007.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint209" playOrder="205">
+      <navPoint id="navPoint216" playOrder="212">
         <navLabel>
           <text>inXSDDateTimeStamp - in XSD Date-Time-Stamp</text>
         </navLabel>
         <content src="doc-inXSDDateTimeStamp.xhtml" />  
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint210" playOrder="206">
+    <navPoint id="navPoint217" playOrder="213">
       <navLabel>
         <text>Named Individuals</text>
       </navLabel>
       <content src="named-individuals.xhtml" />  
-      <navPoint id="navPoint211" playOrder="206">
+      <navPoint id="navPoint218" playOrder="213">
         <navLabel>
           <text>Named Individuals</text>
         </navLabel>
         <content src="named-individuals.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint212" playOrder="207">
+      <navPoint id="navPoint219" playOrder="214">
         <navLabel>
           <text>unitDay - day (unit of temporal duration)</text>
         </navLabel>
         <content src="doc-unitDay.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint213" playOrder="208">
+      <navPoint id="navPoint220" playOrder="215">
         <navLabel>
           <text>unitHour - hour (unit of temporal duration)</text>
         </navLabel>
         <content src="doc-unitHour.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint214" playOrder="209">
+      <navPoint id="navPoint221" playOrder="216">
         <navLabel>
           <text>unitMinute - minute (unit of temporal duration)</text>
         </navLabel>
         <content src="doc-unitMinute.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint215" playOrder="210">
+      <navPoint id="navPoint222" playOrder="217">
         <navLabel>
           <text>unitMonth - month (unit of temporal duration)</text>
         </navLabel>
         <content src="doc-unitMonth.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint216" playOrder="211">
+      <navPoint id="navPoint223" playOrder="218">
         <navLabel>
           <text>unitSecond - second (unit of temporal duration)</text>
         </navLabel>
         <content src="doc-unitSecond.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint217" playOrder="212">
+      <navPoint id="navPoint224" playOrder="219">
         <navLabel>
           <text>unitWeek - week (unit of temporal duration)</text>
         </navLabel>
         <content src="doc-unitWeek.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint218" playOrder="213">
+      <navPoint id="navPoint225" playOrder="220">
         <navLabel>
           <text>unitYear - year (unit of temporal duration)</text>
         </navLabel>
         <content src="doc-unitYear.xhtml" />  
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint219" playOrder="214">
+    <navPoint id="navPoint226" playOrder="221">
       <navLabel>
         <text>Out of Scope Terms</text>
       </navLabel>
       <content src="out-of-scope.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint220" playOrder="215">
+    <navPoint id="navPoint227" playOrder="222">
       <navLabel>
         <text>Translating from VIVO to the Organization Ontology</text>
       </navLabel>
       <content src="vivo-to-org.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint221" playOrder="216">
+    <navPoint id="navPoint228" playOrder="223">
       <navLabel>
         <text>Translating from ROR to the Organization Ontology</text>
       </navLabel>
       <content src="ror-to-org.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint222" playOrder="217">
+    <navPoint id="navPoint229" playOrder="224">
       <navLabel>
         <text>Translating from schema.org to the Organization Ontology</text>
       </navLabel>
       <content src="schema-to-org.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint223" playOrder="218">
+    <navPoint id="navPoint230" playOrder="225">
       <navLabel>
         <text>Dates Data</text>
       </navLabel>
       <content src="data-dates.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint224" playOrder="219">
+    <navPoint id="navPoint231" playOrder="226">
       <navLabel>
         <text>For Ontology Authors</text>
       </navLabel>
       <content src="ontology-authors.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint225" playOrder="220">
+    <navPoint id="navPoint232" playOrder="227">
       <navLabel>
         <text>For Documentation Authors</text>
       </navLabel>
       <content src="documentation-authors.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint226" playOrder="221">
+    <navPoint id="navPoint233" playOrder="228">
       <navLabel>
         <text>Notes and Sources</text>
       </navLabel>
       <content src="notes-and-sources.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint227" playOrder="222">
+    <navPoint id="navPoint234" playOrder="229">
       <navLabel>
         <text>Glossary</text>
       </navLabel>

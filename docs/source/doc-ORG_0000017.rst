@@ -16,7 +16,7 @@ ORG_0000017 - hospital service provider disposition
 
 .. topic:: Sub class of
 
-    :doc:`doc-BFO_0000016`
+    :doc:`doc-ORG_0000010`
 
 .. topic:: Definition
 
@@ -29,6 +29,10 @@ ORG_0000017 - hospital service provider disposition
 .. topic:: Example
 
     Mt. Sinai Hospital in New York has a disposition to provide hospital services
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#ClinicalOrganization|http://vivoweb.org/ontology/core#Hospital
 
 .. topic:: Term editor
 

@@ -14,6 +14,8 @@ time. The first white paper [VOIG2019]_ led to papers on subsumption [VOIG2019b]
 domains [VOIG2019c]_, and use of other ontologies [VOIG2019d]_.  Ideas from each of
 these papers is reflected in the Organization Ontology.
 
+For class expressions, reasoning, and DL queries, [Horridge2017]_ was a valuable resource.
+
 We use [Wikipedia]_, [Wiktionary]_, and [Wikidata]_ often.  Term definitions, 
 references, fact-checking, and identifiers may come from these sources.
 
@@ -91,6 +93,9 @@ References
    
 .. [VOIG2019d] VIVO Ontology Interest Group (March 2019) Early Thoughts on Ontologies 
    Used in VIVO.  on-line.  https://bit.ly/3fWdL0K
+   
+.. [Horridge2017] Horridge, M (March, 2017) Hands-On OWL:  Language, Reasoning
+   and Querying.  Course notes, Stanford University.  126 pages.
 
 .. [Wikipedia] Wikipedia (2021) we site.  http://wikipedia.org
 

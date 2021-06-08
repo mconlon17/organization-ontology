@@ -30,6 +30,10 @@ ORG_0000016 - health care service provider disposition
 
     A nurse has a disposition to provide health care servces
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#ClinicalOrganization
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

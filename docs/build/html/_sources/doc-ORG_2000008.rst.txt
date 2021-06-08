@@ -34,6 +34,10 @@ ORG_2000008 - successor organization of
 
     The United Nations is the successor of the The League of Nations.
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#hasSuccessorOrganization
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448

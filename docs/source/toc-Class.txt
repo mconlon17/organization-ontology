@@ -119,6 +119,13 @@
    doc-ORG_0000083
    doc-ORG_0000084
    doc-ORG_0000085
+   doc-ORG_0000086
+   doc-ORG_0000087
+   doc-ORG_0000088
+   doc-ORG_0000089
+   doc-ORG_0000090
+   doc-ORG_0000091
+   doc-ORG_0000092
    doc-Concept
    doc-Instant
    doc-TemporalUnit

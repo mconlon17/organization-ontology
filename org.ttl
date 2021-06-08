@@ -10,7 +10,7 @@
                                           owl:versionIRI <https://purl.obolibrary.org/obo/org/releases/2021-01-30> ;
                                           <http://purl.org/dc/elements/1.1/created> "2021-01-30"^^xsd:date ;
                                           <http://purl.org/dc/elements/1.1/creator> <http://orcid.org/0000-0002-1304-8447> ;
-                                          <http://purl.org/dc/elements/1.1/description> "A BFO-based, OBO compliant ontology of research organizations."@en ;
+                                          <http://purl.org/dc/elements/1.1/description> "A BFO-based, OBO compliant ontology of organizations."@en ;
                                           <http://purl.org/dc/elements/1.1/title> "Organization Ontology"@en ;
                                           <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> ;
                                           rdfs:comment "This is very early work.  The ontology is intended to be sufficient to represent entities and properties in the domain of scholarship, and data for those organizations as collected and managed by GRiD and ROR"@en ;
@@ -177,46 +177,6 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              rdfs:range xsd:anyURI .
 
 
-###  http://purl.org/dc/elements/1.1/created
-<http://purl.org/dc/elements/1.1/created> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/creator
-<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/description
-<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/title
-<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/terms/license
-<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2000/01/rdf-schema#label
-rdfs:label rdfs:label "label" .
-
-
-###  http://www.w3.org/2002/07/owl#inverseOf
-owl:inverseOf rdf:type owl:AnnotationProperty .
-
-
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype .
-
-
-###  http://www.w3.org/2001/XMLSchema#langString
-xsd:langString rdf:type rdfs:Datatype .
-
-
 #################################################################
 #    Object Properties
 #################################################################
@@ -335,8 +295,8 @@ every c that is a concretization of g specifically denotes r"""@en ;
 <http://purl.obolibrary.org/obo/ORG_2000001> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000038> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the"@en ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000045> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburgh occupies the Cathedral of Learning"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -347,6 +307,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/ORG_2000002
 <http://purl.obolibrary.org/obo/ORG_2000002> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000051> ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/RO_0002012> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The project to put a man on the man achieved success on July 20, 1969"@en ;
@@ -355,8 +316,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be defined in RO.  Defined here for convenience since it is missing from RO."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "has occurent part"@en ;
-                                             owl:inverseOf "obo:RO_0002012"^^xsd:anyURI .
+                                             rdfs:label "has occurent part"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000003
@@ -394,6 +354,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/ORG_2000005
 <http://purl.obolibrary.org/obo/ORG_2000005> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000006> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000050> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has website https://lyrasis.org.  Moscow State University has website https://msu.ru"@en ;
@@ -401,8 +362,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with its website"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has website"@en ;
-                                             owl:inverseOf "org:2000006"^^xsd:anyURI .
+                                             rdfs:label "has website"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000006
@@ -415,13 +375,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a website with its organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "website of"@en ;
-                                             owl:inverseOf "org:2000005"^^xsd:anyURI .
+                                             rdfs:label "website of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000007
 <http://purl.obolibrary.org/obo/ORG_2000007> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000008> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has successor"@en ;
@@ -430,8 +390,8 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has successor organization"@en ;
-                                             owl:inverseOf "org:2000008"^^xsd:anyURI .
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#hasPredecessorOrganization"^^xsd:anyURI ;
+                                             rdfs:label "has successor organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000008
@@ -445,13 +405,14 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an on organization with the organization that preceeded it"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "successor organization of"@en ;
-                                             owl:inverseOf "org:2000007"^^xsd:anyURI .
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#hasSuccessorOrganization"^^xsd:anyURI ;
+                                             rdfs:label "successor organization of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000009
 <http://purl.obolibrary.org/obo/ORG_2000009> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000010> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000005> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Florida has organizational part College of Medicine; The College of Medicine has organizational part Department of Anesthesiology"@en ;
@@ -460,8 +421,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "parent of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational part"@en ;
-                                             owl:inverseOf "org:2000010"^^xsd:anyURI .
+                                             rdfs:label "has organizational part"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000010
@@ -475,8 +435,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "child of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational part of"@en ;
-                                             owl:inverseOf "org:2000009"^^xsd:anyURI .
+                                             rdfs:label "organizational part of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000011
@@ -498,6 +457,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 ###  http://purl.obolibrary.org/obo/ORG_2000012
 <http://purl.obolibrary.org/obo/ORG_2000012> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000013> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Google is a spin-off company of Stanford University; AGTC is a spin-off company of the University of Florida"@en ;
@@ -507,8 +467,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "has spinout"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has spin-off organization"@en ;
-                                             owl:inverseOf "org:2000013"^^xsd:anyURI .
+                                             rdfs:label "has spin-off organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000013
@@ -522,13 +481,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "spinout of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "spin-off organization of"@en ;
-                                             owl:inverseOf "org:2000012"^^xsd:anyURI .
+                                             rdfs:label "spin-off organization of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000014
 <http://purl.obolibrary.org/obo/ORG_2000014> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000015> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has member"@en ;
@@ -538,8 +497,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "To say that on organizaton is a member of another implies there is a membership and that the two organizations each have  roles that"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational member"@en ;
-                                             owl:inverseOf "org:2000015"^^xsd:anyURI .
+                                             rdfs:label "has organizational member"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000015
@@ -553,13 +511,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a member organizaiton with the organization of which it is a member"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational member of"@en ;
-                                             owl:inverseOf "org:2000014"^^xsd:anyURI .
+                                             rdfs:label "organizational member of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000016
 <http://purl.obolibrary.org/obo/ORG_2000016> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000017> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has employee"@en ;
@@ -569,8 +527,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000787"^^xsd:anyURI ;
-                                             rdfs:label "has organizational employee"@en ;
-                                             owl:inverseOf "org:2000017"^^xsd:anyURI .
+                                             rdfs:label "has organizational employee"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000017
@@ -585,13 +542,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000787"^^xsd:anyURI ;
-                                             rdfs:label "organizational employee of"@en ;
-                                             owl:inverseOf "org:2000016"^^xsd:anyURI .
+                                             rdfs:label "organizational employee of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000018
 <http://purl.obolibrary.org/obo/ORG_2000018> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000019> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has associate"@en ;
@@ -601,8 +558,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Associate is intentionally loose.  A person can be associated with an organization in many ways.  Subsequent additional properties may be needed to clarify."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational associate"@en ;
-                                             owl:inverseOf "org:2000019"^^xsd:anyURI .
+                                             rdfs:label "has organizational associate"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000019
@@ -616,13 +572,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization with which they are associated"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational associate of"@en ;
-                                             owl:inverseOf "org:2000018"^^xsd:anyURI .
+                                             rdfs:label "organizational associate of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000020
 <http://purl.obolibrary.org/obo/ORG_2000020> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000021> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has head"@en ;
@@ -632,8 +588,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#LeaderRole"^^xsd:anyURI ;
-                                             rdfs:label "has organizational head"@en ;
-                                             owl:inverseOf "org:2000021"^^xsd:anyURI .
+                                             rdfs:label "has organizational head"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000021
@@ -647,13 +602,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization which they are they head of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational head of"@en ;
-                                             owl:inverseOf "org:2000020"^^xsd:anyURI .
+                                             rdfs:label "organizational head of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000022
 <http://purl.obolibrary.org/obo/ORG_2000022> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000023> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has volunteer"@en ;
@@ -662,8 +617,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who volunteers for the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational volunteer"@en ;
-                                             owl:inverseOf "org:2000023"^^xsd:anyURI .
+                                             rdfs:label "has organizational volunteer"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000023
@@ -677,13 +631,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization for which they volunteer"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational volunteer of"@en ;
-                                             owl:inverseOf "org:2000022"^^xsd:anyURI .
+                                             rdfs:label "organizational volunteer of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000024
 <http://purl.obolibrary.org/obo/ORG_2000024> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000025> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has appointee"@en ;
@@ -693,8 +647,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Appointee typically includes a title, may or may not include a salary."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational appointee"@en ;
-                                             owl:inverseOf "org:2000025"^^xsd:anyURI .
+                                             rdfs:label "has organizational appointee"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000025
@@ -708,13 +661,13 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with the organization which has appointed the person to some post or position within the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational appointee of"@en ;
-                                             owl:inverseOf "org:2000024"^^xsd:anyURI .
+                                             rdfs:label "organizational appointee of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000026
 <http://purl.obolibrary.org/obo/ORG_2000026> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000027> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "As of 2021, The Conservative Party of the UK has person member Boris Johnson"@en ;
@@ -722,8 +675,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who is  a member of the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has person member"@en ;
-                                             owl:inverseOf "org:0000027"^^xsd:anyURI .
+                                             rdfs:label "has person member"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000027
@@ -736,8 +688,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization of which the person is a member"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "person member of"@en ;
-                                             owl:inverseOf "org:0000026"^^xsd:anyURI .
+                                             rdfs:label "person member of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000052
@@ -1034,7 +985,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 <http://purl.obolibrary.org/obo/ORG_3000006> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf owl:topDataProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range xsd:langString ;
+                                             rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has legal name"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The official name of the united states is The United States of America."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
@@ -1048,7 +999,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
 <http://purl.obolibrary.org/obo/ORG_3000007> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf owl:topDataProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range xsd:langString ;
+                                             rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has name"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Names of The United States of America incude: USA, US, United States, America."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
@@ -1056,6 +1007,7 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Abbreviations and acronyms are also names of organizations"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://www.w3.org/2006/vcard/ns#OrganizationName"^^xsd:anyURI ;
                                              rdfs:label "has organization name"@en .
 
 
@@ -1447,11 +1399,16 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "test"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "A political party, a homeowners association, a football team, a publisher, a government agency, an organized religion"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A group of people recognized as such by people outside the group that come together for a purpose."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://xmlns.com/foaf/0.1/Organization"^^xsd:anyURI ;
-                                             rdfs:label "organization"@en .
+                                             rdfs:label "organization"@en ;
+                                             rdfs:seeAlso "http://aims.fao.org/aos/geopolitical.owl#organization"^^xsd:anyURI ,
+                                                          "http://purl.obolibrary.org/obo/OBI_0000245"^^xsd:anyURI ,
+                                                          "http://www.w3.org/2006/vcard/ns#Organization"^^xsd:anyURI ,
+                                                          "http://xmlns.com/foaf/0.1/Organization"^^xsd:anyURI ,
+                                                          "www.w3.org/ns/org#organization"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000002
@@ -1490,7 +1447,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "See https://www.merriam-webster.com/dictionary/company"@en ;
-                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Company"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Company|http://vivoweb.org/ontology/core#PrivateCompany"^^xsd:anyURI ;
                                              rdfs:label "company"@en .
 
 
@@ -1564,6 +1521,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Some dispositions may well be functions -- the organization does not exist without it."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/University"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#University"^^xsd:anyURI ;
                                              rdfs:label "university disposition"@en .
 
 
@@ -1581,6 +1539,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "professional society"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Association"^^xsd:anyURI ;
                                              rdfs:label "association disposition"@en .
 
 
@@ -1591,13 +1550,14 @@ Previous. An information content entity is a non-realizable information entity t
                                                                owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
                                                              ] ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "conosrtium"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "consortium"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Association of Research Libraries; The NIH Common Fund Metabolomics Consortium"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to organize organizations along industry or academic lines"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The word \"association\" in english may mean many diffierent things.  Often consortiums have the word \"association\" in their title."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Consortium"^^xsd:anyURI ;
                                              rdfs:label "consortium disposition"@en .
 
 
@@ -1620,19 +1580,21 @@ Previous. An information content entity is a non-realizable information entity t
 
 ###  http://purl.obolibrary.org/obo/ORG_0000011
 <http://purl.obolibrary.org/obo/ORG_0000011> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000010> ,
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
                                                              [ rdf:type owl:Restriction ;
                                                                owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
                                                              ] ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000111> "laboratory service provider"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "laboratory"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The Interdisciplinary Center for Biotechnology Rsearch is a part of the university with a disposition to offer laboratory services to others"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide laboratory services.  In the US, organization parts in universities that have a disposition to provide laboratory services to others are called core laboratories"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The word \"core laboratory\" may indicate that an organization has a disposition of laboratory services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "lab"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "laboratory service provider disposition"@en .
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#CoreLaboratory|http://vivoweb.org/ontology/core#Laboratory|http://vivoweb.org/ontology/core#ServiceProvidingLaboratory"^^xsd:anyURI ;
+                                             rdfs:label "laboratory disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000012
@@ -1650,6 +1612,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "agricultural extension"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#ExtensionUnit"^^xsd:anyURI ;
                                              rdfs:label "extension provider disposition"@en .
 
 
@@ -1668,6 +1631,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "tech transfer"@en ,
                                                                                           "technology licensing"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000565"^^xsd:anyURI ;
                                              rdfs:label "technology transfer disposition"@en .
 
 
@@ -1685,6 +1649,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "philanthropic"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.dictionary.com/browse/philanthropy"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Foundation"^^xsd:anyURI ;
                                              rdfs:label "philanthropy disposition"@en .
 
 
@@ -1702,6 +1667,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "grantor"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#FundingOrganization"^^xsd:anyURI ;
                                              rdfs:label "funding disposition"@en .
 
 
@@ -1719,12 +1685,13 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "health care provider"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#ClinicalOrganization"^^xsd:anyURI ;
                                              rdfs:label "health care service provider disposition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000017
 <http://purl.obolibrary.org/obo/ORG_0000017> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/ORG_0000010> ,
                                                              [ rdf:type owl:Restriction ;
                                                                owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
@@ -1736,6 +1703,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "hospital"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#ClinicalOrganization|http://vivoweb.org/ontology/core#Hospital"^^xsd:anyURI ;
                                              rdfs:label "hospital service provider disposition"@en .
 
 
@@ -1803,6 +1771,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to publish information content entities"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Publisher"^^xsd:anyURI ;
                                              rdfs:label "publishing disposition"@en .
 
 
@@ -1819,6 +1788,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to conduct research"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#ResearchOrganization"^^xsd:anyURI ;
                                              rdfs:label "research disposition"@en .
 
 
@@ -1880,7 +1850,7 @@ Previous. An information content entity is a non-realizable information entity t
                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
                                                              ] ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "library"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Library of Congress, the local public library, a university library allhave dispositions of library"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Library of Congress, the local public library, a university library all have dispositions of library"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A disposition to provide library services"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Perhaps a function"@en ;
@@ -1992,6 +1962,7 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "team"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Team"^^xsd:anyURI ;
                                              rdfs:label "project team disposition"@en .
 
 
@@ -2428,7 +2399,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#StudentOrganization"^^xsd:anyURI ;
-                                             rdfs:label "student led organization quality"@en .
+                                             rdfs:label "student led organization quality"@en ;
+                                             rdfs:seeAlso "http://vivoweb.org/ontology/core#StudentOrganization"^^xsd:anyURI .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000064
@@ -2743,6 +2715,7 @@ Previous. An information content entity is a non-realizable information entity t
 ###  http://purl.obolibrary.org/obo/ORG_0000083
 <http://purl.obolibrary.org/obo/ORG_0000083> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000003> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "One might have a membership in Doctors Without Borders"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The asymmetric relationship representing a person's membership in an organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -2772,12 +2745,133 @@ Previous. An information content entity is a non-realizable information entity t
                                                                owl:onProperty <http://purl.obolibrary.org/obo/RO_0000081> ;
                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
                                                              ] ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Professional socieities have a grantor role with respect to their members"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Professional societies have a grantor role with respect to their members"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The role of an organization to grant membership to a person"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              rdfs:label "person member grantor role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000086
+<http://purl.obolibrary.org/obo/ORG_0000086> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000006>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "academic department"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Mathematics Department at Nanjing University, the Philosophy Department at Stanford have disposition academic department"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization part to serve as an academic department, with faculty, courses, programs, focused on an academic discipline"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Academic_department"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#AcademicDepartment"^^xsd:anyURI ;
+                                             rdfs:label "academic department disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000087
+<http://purl.obolibrary.org/obo/ORG_0000087> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000006>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "academic college"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The College of the Arts at the University of Florida has a disposition academic college"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization part to serve as an academic college, with academic departments organized within it as parts"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "university college"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#College"^^xsd:anyURI ;
+                                             rdfs:label "academic college disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000088
+<http://purl.obolibrary.org/obo/ORG_0000088> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000006>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "committee"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "A board of trustees may have a finance committee to review and approve budgets."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization part to serve as a a body of persons delegated to consider, investigate, take action on, or report on some matter"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Committees may be standing.  Project Teams are expected to finish their work."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/committee"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Committee"^^xsd:anyURI ;
+                                             rdfs:label "committee disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000089
+<http://purl.obolibrary.org/obo/ORG_0000089> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "preschool"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "La Petite Academy is a chain of commercial preschools operating in the United States"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to provide education for very young children, varying by jurisdiction, but often in the age range 2-5"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "nursery school"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/preschool"@en ;
+                                             rdfs:label "pre-school disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000090
+<http://purl.obolibrary.org/obo/ORG_0000090> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "elementary school"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Prince Charles attended Hill House, and elemntary school in West London"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to provide education for young children, varying by jurisdiction, but often in the age range 5-11"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/elementary%20school"@en ;
+                                             rdfs:label "primary school disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000091
+<http://purl.obolibrary.org/obo/ORG_0000091> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "middle school"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Community Day Charter School is a middle school in Lawrence, Massachusetts"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to provide education for children, varying by jurisdiction, but often in the age range 11-14"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000118> "intermediate school"@en ,
+                                                                                          "junior high school"@en ,
+                                                                                          "lower secondary school"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Middle_school"@en ;
+                                             rdfs:label "middle school disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000092
+<http://purl.obolibrary.org/obo/ORG_0000092> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000092> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "high school"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Institut Le Rosey in Switzerland is a famous secondary school having educated children of the Rothchilds, Hohenzollerns, and many monarchs"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to provide education for older children, varying by jurisdiction, but often in the age range 14-18"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/high%20school"@en ;
+                                             rdfs:label "secondary school disposition"@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

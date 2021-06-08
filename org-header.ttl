@@ -19,7 +19,7 @@
                                           owl:versionIRI <https://purl.obolibrary.org/obo/org/releases/2021-01-30> ;
                                           dc:created "2021-01-30"^^xsd:date ;
                                           dc:creator <http://orcid.org/0000-0002-1304-8447> ;
-                                          dc:description "A BFO-based, OBO compliant ontology of research organizations."@en ;
+                                          dc:description "A BFO-based, OBO compliant ontology of organizations."@en ;
                                           dc:title "Organization Ontology"@en ;
                                           terms:license <https://creativecommons.org/share-your-work/public-domain/cc0/> ;
                                           rdfs:comment "This is very early work.  The ontology is intended to be sufficient to represent entities and properties in the domain of scholarship, and data for those organizations as collected and managed by GRiD and ROR"@en ;
@@ -171,39 +171,6 @@ obo:IAO_0000412 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
                 rdfs:label "imported from"@en .
-
-
-###  http://purl.org/dc/elements/1.1/created
-dc:created rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/creator
-dc:creator rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/description
-dc:description rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/title
-dc:title rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/terms/license
-terms:license rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2000/01/rdf-schema#label
-rdfs:label rdfs:label "label" .
-
-
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype .
-
 
 #################################################################
 #    Object Properties

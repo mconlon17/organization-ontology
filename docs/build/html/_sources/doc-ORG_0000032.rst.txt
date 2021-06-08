@@ -34,6 +34,10 @@ ORG_0000032 - project team disposition
 
     Organization may be formal or informal.
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Team
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

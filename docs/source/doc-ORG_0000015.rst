@@ -30,6 +30,10 @@ ORG_0000015 - funding disposition
 
     The National Institutes of Health (NIH) and The National Science Foundation (NSF) have funder dispositions
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#FundingOrganization
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

@@ -38,6 +38,10 @@ ORG_3000007 - has organization name
 
     Abbreviations and acronyms are also names of organizations
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://www.w3.org/2006/vcard/ns#OrganizationName
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

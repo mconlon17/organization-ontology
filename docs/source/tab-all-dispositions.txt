@@ -23,6 +23,13 @@ See `Table 2`_.
     :doc:`doc-ORG_0000010`         A disposition to provide service with or without a
 
                                    fee
+    :doc:`doc-ORG_0000011`         A disposition to provide laboratory services.  In
+
+                                   the US, organization parts in universities that
+
+                                   have a disposition to provide laboratory services
+
+                                   to others are called core laboratories
     :doc:`doc-ORG_0000012`         A disposition to provide extension services,
 
                                    typically in agriculture.  Extension provides
@@ -45,9 +52,6 @@ See `Table 2`_.
                                    to a call for proposals by the entity with the
 
                                    funding disposition
-    :doc:`doc-ORG_0000017`         A disposition to provide hospital-based health
-
-                                   care services to humans
     :doc:`doc-ORG_0000018`         A disposition to collect, store, and provide
 
                                    access to inanimate material entities, and/or
@@ -102,4 +106,41 @@ See `Table 2`_.
                                    workers for the purpose of negotiations with
 
                                    employers of the workers
+    :doc:`doc-ORG_0000086`         The disposition of an organization part to serve
+
+                                   as an academic department, with faculty, courses,
+
+                                   programs, focused on an academic discipline
+    :doc:`doc-ORG_0000087`         The disposition of an organization part to serve
+
+                                   as an academic college, with academic departments
+
+                                   organized within it as parts
+    :doc:`doc-ORG_0000088`         The disposition of an organization part to serve
+
+                                   as a a body of persons delegated to consider,
+
+                                   investigate, take action on, or report on some
+
+                                   matter
+    :doc:`doc-ORG_0000089`         The disposition of an organization to provide
+
+                                   education for very young children, varying by
+
+                                   jurisdiction, but often in the age range 2-5
+    :doc:`doc-ORG_0000090`         The disposition of an organization to provide
+
+                                   education for young children, varying by
+
+                                   jurisdiction, but often in the age range 5-11
+    :doc:`doc-ORG_0000091`         The disposition of an organization to provide
+
+                                   education for children, varying by jurisdiction,
+
+                                   but often in the age range 11-14
+    :doc:`doc-ORG_0000092`         The disposition of an organization to provide
+
+                                   education for older children, varying by
+
+                                   jurisdiction, but often in the age range 14-18
     =============================  ==================================================

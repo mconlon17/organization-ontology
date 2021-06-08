@@ -12,9 +12,9 @@ RO_0000080 - quality of
 
 .. topic:: Alternate name
 
-    is quality of
-
     quality_of
+
+    is quality of
 
 .. topic:: Sub property of
 

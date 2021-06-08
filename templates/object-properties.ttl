@@ -48,10 +48,6 @@
 <http://purl.obolibrary.org/obo/ORG_1000001> rdf:type owl:AnnotationProperty .
 
 
-###  http://www.w3.org/2002/07/owl#inverseOf
-owl:inverseOf rdf:type owl:AnnotationProperty .
-
-
 #################################################################
 #    Object Properties
 #################################################################
@@ -64,8 +60,8 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
 <http://purl.obolibrary.org/obo/ORG_2000001> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000038> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburg occupies the"@en ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000045> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The Navaho Nation occupies the Navaho Nation reservation.  Microsoft occupies a campus in Redmond Washington.  The University of Pittsburgh occupies the Cathedral of Learning"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization occupies a geographical location is it has one of more people at the location, or has legal rights to the location"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
@@ -76,6 +72,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
 ###  http://purl.obolibrary.org/obo/ORG_2000002
 <http://purl.obolibrary.org/obo/ORG_2000002> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000051> ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/RO_0002012> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/BFO_0000003> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The project to put a man on the man achieved success on July 20, 1969"@en ;
@@ -84,8 +81,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "The inverse of RO_2012 and should be defined in RO.  Defined here for convenience since it is missing from RO."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             rdfs:label "has occurent part"@en ;
-                                             owl:inverseOf "obo:RO_0002012"^^xsd:anyURI .
+                                             rdfs:label "has occurent part"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000003
@@ -123,6 +119,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
 ###  http://purl.obolibrary.org/obo/ORG_2000005
 <http://purl.obolibrary.org/obo/ORG_2000005> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000006> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000050> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has website https://lyrasis.org.  Moscow State University has website https://msu.ru"@en ;
@@ -130,8 +127,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with its website"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has website"@en ;
-                                             owl:inverseOf "org:2000006"^^xsd:anyURI .
+                                             rdfs:label "has website"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000006
@@ -144,13 +140,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a website with its organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "website of"@en ;
-                                             owl:inverseOf "org:2000005"^^xsd:anyURI .
+                                             rdfs:label "website of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000007
 <http://purl.obolibrary.org/obo/ORG_2000007> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000008> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has successor"@en ;
@@ -159,8 +155,8 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has successor organization"@en ;
-                                             owl:inverseOf "org:2000008"^^xsd:anyURI .
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#hasPredecessorOrganization"^^xsd:anyURI ;
+                                             rdfs:label "has successor organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000008
@@ -174,13 +170,14 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an on organization with the organization that preceeded it"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "successor organization of"@en ;
-                                             owl:inverseOf "org:2000007"^^xsd:anyURI .
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#hasSuccessorOrganization"^^xsd:anyURI ;
+                                             rdfs:label "successor organization of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000009
 <http://purl.obolibrary.org/obo/ORG_2000009> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000010> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000005> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The University of Florida has organizational part College of Medicine; The College of Medicine has organizational part Department of Anesthesiology"@en ;
@@ -189,8 +186,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "parent of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational part"@en ;
-                                             owl:inverseOf "org:2000010"^^xsd:anyURI .
+                                             rdfs:label "has organizational part"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000010
@@ -204,8 +200,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "child of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational part of"@en ;
-                                             owl:inverseOf "org:2000009"^^xsd:anyURI .
+                                             rdfs:label "organizational part of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000011
@@ -227,6 +222,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
 ###  http://purl.obolibrary.org/obo/ORG_2000012
 <http://purl.obolibrary.org/obo/ORG_2000012> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000013> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Google is a spin-off company of Stanford University; AGTC is a spin-off company of the University of Florida"@en ;
@@ -236,8 +232,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "has spinout"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has spin-off organization"@en ;
-                                             owl:inverseOf "org:2000013"^^xsd:anyURI .
+                                             rdfs:label "has spin-off organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000013
@@ -251,13 +246,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "spinout of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "spin-off organization of"@en ;
-                                             owl:inverseOf "org:2000012"^^xsd:anyURI .
+                                             rdfs:label "spin-off organization of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000014
 <http://purl.obolibrary.org/obo/ORG_2000014> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000015> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has member"@en ;
@@ -267,8 +262,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "To say that on organizaton is a member of another implies there is a membership and that the two organizations each have  roles that"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational member"@en ;
-                                             owl:inverseOf "org:2000015"^^xsd:anyURI .
+                                             rdfs:label "has organizational member"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000015
@@ -282,13 +276,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a member organizaiton with the organization of which it is a member"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational member of"@en ;
-                                             owl:inverseOf "org:2000014"^^xsd:anyURI .
+                                             rdfs:label "organizational member of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000016
 <http://purl.obolibrary.org/obo/ORG_2000016> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000017> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has employee"@en ;
@@ -298,8 +292,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000787"^^xsd:anyURI ;
-                                             rdfs:label "has organizational employee"@en ;
-                                             owl:inverseOf "org:2000017"^^xsd:anyURI .
+                                             rdfs:label "has organizational employee"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000017
@@ -314,13 +307,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000787"^^xsd:anyURI ;
-                                             rdfs:label "organizational employee of"@en ;
-                                             owl:inverseOf "org:2000016"^^xsd:anyURI .
+                                             rdfs:label "organizational employee of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000018
 <http://purl.obolibrary.org/obo/ORG_2000018> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000019> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has associate"@en ;
@@ -330,8 +323,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Associate is intentionally loose.  A person can be associated with an organization in many ways.  Subsequent additional properties may be needed to clarify."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational associate"@en ;
-                                             owl:inverseOf "org:2000019"^^xsd:anyURI .
+                                             rdfs:label "has organizational associate"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000019
@@ -345,13 +337,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization with which they are associated"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational associate of"@en ;
-                                             owl:inverseOf "org:2000018"^^xsd:anyURI .
+                                             rdfs:label "organizational associate of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000020
 <http://purl.obolibrary.org/obo/ORG_2000020> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000021> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has head"@en ;
@@ -361,8 +353,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#LeaderRole"^^xsd:anyURI ;
-                                             rdfs:label "has organizational head"@en ;
-                                             owl:inverseOf "org:2000021"^^xsd:anyURI .
+                                             rdfs:label "has organizational head"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000021
@@ -376,13 +367,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization which they are they head of"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational head of"@en ;
-                                             owl:inverseOf "org:2000020"^^xsd:anyURI .
+                                             rdfs:label "organizational head of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000022
 <http://purl.obolibrary.org/obo/ORG_2000022> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000023> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has volunteer"@en ;
@@ -391,8 +382,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who volunteers for the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational volunteer"@en ;
-                                             owl:inverseOf "org:2000023"^^xsd:anyURI .
+                                             rdfs:label "has organizational volunteer"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000023
@@ -406,13 +396,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization for which they volunteer"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational volunteer of"@en ;
-                                             owl:inverseOf "org:2000022"^^xsd:anyURI .
+                                             rdfs:label "organizational volunteer of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000024
 <http://purl.obolibrary.org/obo/ORG_2000024> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000025> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has appointee"@en ;
@@ -422,8 +412,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Appointee typically includes a title, may or may not include a salary."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has organizational appointee"@en ;
-                                             owl:inverseOf "org:2000025"^^xsd:anyURI .
+                                             rdfs:label "has organizational appointee"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000025
@@ -437,13 +426,13 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with the organization which has appointed the person to some post or position within the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "organizational appointee of"@en ;
-                                             owl:inverseOf "org:2000024"^^xsd:anyURI .
+                                             rdfs:label "organizational appointee of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000026
 <http://purl.obolibrary.org/obo/ORG_2000026> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                             owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000027> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "As of 2021, The Conservative Party of the UK has person member Boris Johnson"@en ;
@@ -451,8 +440,7 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with a person who is  a member of the organization"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "has person member"@en ;
-                                             owl:inverseOf "org:0000027"^^xsd:anyURI .
+                                             rdfs:label "has person member"@en .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_2000027
@@ -465,8 +453,11 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with an organization of which the person is a member"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             rdfs:label "person member of"@en ;
-                                             owl:inverseOf "org:0000026"^^xsd:anyURI .
+                                             rdfs:label "person member of"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0002012
+<http://purl.obolibrary.org/obo/RO_0002012> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -493,8 +484,8 @@ owl:inverseOf rdf:type owl:AnnotationProperty .
 <http://purl.obolibrary.org/obo/ORG_0000005> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000038
-<http://purl.obolibrary.org/obo/ORG_0000038> rdf:type owl:Class .
+###  http://purl.obolibrary.org/obo/ORG_0000045
+<http://purl.obolibrary.org/obo/ORG_0000045> rdf:type owl:Class .
 
 
 ###  http://purl.obolibrary.org/obo/ORG_0000050

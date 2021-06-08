@@ -34,6 +34,10 @@ ORG_0000012 - extension provider disposition
 
     Extension is most commonly used to describe agircultural extension services.
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#ExtensionUnit
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

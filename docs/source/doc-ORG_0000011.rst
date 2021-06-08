@@ -1,18 +1,22 @@
 
   .. index:: 
-     single: ORG_0000011; laboratory service provider disposition
-     single: laboratory service provider disposition; ORG_0000011
+     single: ORG_0000011; laboratory disposition
+     single: laboratory disposition; ORG_0000011
 
-ORG_0000011 - laboratory service provider disposition
+ORG_0000011 - laboratory disposition
 ====================================================================================
 
 .. topic:: Label
 
-    laboratory service provider disposition
+    laboratory disposition
+
+.. topic:: Alternate name
+
+    lab
 
 .. topic:: Sub class of
 
-    :doc:`doc-ORG_0000010`
+    :doc:`doc-BFO_0000016`
 
 .. topic:: Definition
 
@@ -29,6 +33,10 @@ ORG_0000011 - laboratory service provider disposition
 .. topic:: Editor's note
 
     The word "core laboratory" may indicate that an organization has a disposition of laboratory services
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#CoreLaboratory|http://vivoweb.org/ontology/core#Laboratory|http://vivoweb.org/ontology/core#ServiceProvidingLaboratory
 
 .. topic:: Term editor
 

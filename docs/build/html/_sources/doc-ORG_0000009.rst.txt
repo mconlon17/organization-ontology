@@ -30,6 +30,10 @@ ORG_0000009 - consortium disposition
 
     The word "association" in english may mean many diffierent things.  Often consortiums have the word "association" in their title.
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Consortium
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

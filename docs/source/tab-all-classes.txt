@@ -461,6 +461,43 @@ See `Table 5`_.
     :doc:`doc-ORG_0000085`         The role of an organization to grant membership to
 
                                    a person
+    :doc:`doc-ORG_0000086`         The disposition of an organization part to serve
+
+                                   as an academic department, with faculty, courses,
+
+                                   programs, focused on an academic discipline
+    :doc:`doc-ORG_0000087`         The disposition of an organization part to serve
+
+                                   as an academic college, with academic departments
+
+                                   organized within it as parts
+    :doc:`doc-ORG_0000088`         The disposition of an organization part to serve
+
+                                   as a a body of persons delegated to consider,
+
+                                   investigate, take action on, or report on some
+
+                                   matter
+    :doc:`doc-ORG_0000089`         The disposition of an organization to provide
+
+                                   education for very young children, varying by
+
+                                   jurisdiction, but often in the age range 2-5
+    :doc:`doc-ORG_0000090`         The disposition of an organization to provide
+
+                                   education for young children, varying by
+
+                                   jurisdiction, but often in the age range 5-11
+    :doc:`doc-ORG_0000091`         The disposition of an organization to provide
+
+                                   education for children, varying by jurisdiction,
+
+                                   but often in the age range 11-14
+    :doc:`doc-ORG_0000092`         The disposition of an organization to provide
+
+                                   education for older children, varying by
+
+                                   jurisdiction, but often in the age range 14-18
     :doc:`doc-Concept`             An idea or notion, a unit of thought
     :doc:`doc-Instant`             A zero-dimensional part of time.  Precision may
 

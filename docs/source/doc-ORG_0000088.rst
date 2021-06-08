@@ -1,0 +1,40 @@
+
+  .. index:: 
+     single: ORG_0000088; committee disposition
+     single: committee disposition; ORG_0000088
+
+ORG_0000088 - committee disposition
+====================================================================================
+
+.. topic:: Label
+
+    committee disposition
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    The disposition of an organization part to serve as a a body of persons delegated to consider, investigate, take action on, or report on some matter
+
+.. topic:: Definition source
+
+    https://www.merriam-webster.com/dictionary/committee
+
+.. topic:: Example
+
+    A board of trustees may have a finance committee to review and approve budgets.
+
+.. topic:: Editor's note
+
+    Committees may be standing.  Project Teams are expected to finish their work.
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Committee
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

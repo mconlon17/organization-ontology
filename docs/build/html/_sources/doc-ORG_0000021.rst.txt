@@ -26,6 +26,10 @@ ORG_0000021 - publishing disposition
 
     Random House, Taylor and Francis, The American Pyschological Association, The University of California Berkeley has a disposition to publish
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Publisher
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

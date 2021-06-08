@@ -24,7 +24,7 @@ ORG_0000085 - person member grantor role
 
 .. topic:: Example
 
-    Professional socieities have a grantor role with respect to their members
+    Professional societies have a grantor role with respect to their members
 
 .. topic:: Term editor
 

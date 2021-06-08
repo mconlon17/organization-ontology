@@ -44,12 +44,8 @@
 <http://purl.obolibrary.org/obo/IAO_0000119> rdf:type owl:AnnotationProperty .
 
 
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#langString
-xsd:langString rdf:type rdfs:Datatype .
+###  http://purl.obolibrary.org/obo/ORG_1000001
+<http://purl.obolibrary.org/obo/ORG_1000001> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -141,7 +137,7 @@ xsd:langString rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_3000006> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf owl:topDataProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range xsd:langString ;
+                                             rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has legal name"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The official name of the united states is The United States of America."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
@@ -155,7 +151,7 @@ xsd:langString rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo/ORG_3000007> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf owl:topDataProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range xsd:langString ;
+                                             rdfs:range xsd:string ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "has name"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "Names of The United States of America incude: USA, US, United States, America."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000120"^^xsd:anyURI ;
@@ -163,6 +159,7 @@ xsd:langString rdf:type rdfs:Datatype .
                                              <http://purl.obolibrary.org/obo/IAO_0000116> "Abbreviations and acronyms are also names of organizations"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://www.w3.org/2006/vcard/ns#OrganizationName"^^xsd:anyURI ;
                                              rdfs:label "has organization name"@en .
 
 

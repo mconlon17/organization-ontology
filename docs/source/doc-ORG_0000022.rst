@@ -26,6 +26,10 @@ ORG_0000022 - research disposition
 
     The Max Plank Institute, Northwestern University, CERN (the European Organization for Nuclear Research) have have a disposition to conduct research
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#ResearchOrganization
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

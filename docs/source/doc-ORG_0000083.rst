@@ -22,6 +22,10 @@ ORG_0000083 - person membership
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
 
+.. topic:: Example
+
+    One might have a membership in Doctors Without Borders
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

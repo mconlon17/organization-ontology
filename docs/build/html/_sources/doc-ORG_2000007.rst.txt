@@ -38,6 +38,10 @@ ORG_2000007 - has successor organization
 
     The United Colonies has successor organization The United States of America
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#hasPredecessorOrganization
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8448

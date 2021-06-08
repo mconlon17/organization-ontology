@@ -30,6 +30,10 @@ ORG_0000007 - university disposition
 
     Some dispositions may well be functions -- the organization does not exist without it.
 
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#University
+
 .. topic:: Term editor
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447

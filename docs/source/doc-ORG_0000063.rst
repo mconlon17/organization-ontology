@@ -38,3 +38,7 @@ ORG_0000063 - student led organization quality
 
     Michael Conlon https://orcid.org/0000-0002-1304-8447
 
+.. topic:: See also
+
+    http://vivoweb.org/ontology/core#StudentOrganization
+
