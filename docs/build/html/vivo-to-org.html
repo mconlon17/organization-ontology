@@ -105,6 +105,7 @@
 <li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Translating from VIVO to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#a-cross-index">A Cross Index</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
@@ -186,7 +187,7 @@ we provide a guide for translating assertions in the VIVO Ontology to assertions
 in the Organization Ontology <a class="footnote-reference brackets" href="#id5" id="id1">1</a>.</p>
 <div class="section" id="translating-types">
 <h2>Translating Types<a class="headerlink" href="#translating-types" title="Permalink to this headline">¶</a></h2>
-<p>The VIVO Ontology organization types are presented in <a class="reference internal" href="#table-16">Table 16</a> with instructions
+<p>The VIVO Ontology organization types are presented in <a class="reference internal" href="#table-17">Table 17</a> with instructions
 for translating each.  The Organization Ontology separates the concept of
 what the organization “is” (company, organization part, etc) from what the
 organization “does” (hospital, library, etc).  In many cases, the VIVO Ontology
@@ -196,10 +197,10 @@ assertion of purpose.  The type of organization (organization part, nonprofit) i
 missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
 a specific type <a class="footnote-reference brackets" href="#id6" id="id2">2</a>.</p>
-<p><a class="reference internal" href="#table-16">Table 16</a> provides a guide for translating Organizational types to assertions
+<p><a class="reference internal" href="#table-17">Table 17</a> provides a guide for translating Organizational types to assertions
 in the Organization Ontology.</p>
-<span id="table-16"></span><table class="docutils align-default" id="id9">
-<caption><span class="caption-text">Table 16 Translating VIVO types to Organizational Ontology assertions</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<span id="table-17"></span><table class="docutils align-default" id="id9">
+<caption><span class="caption-text">Table 17 Translating VIVO types to Organizational Ontology assertions</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 32%" />
 <col style="width: 68%" />
@@ -354,10 +355,158 @@ research</p>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+<div class="section" id="a-cross-index">
+<h1>A Cross Index<a class="headerlink" href="#a-cross-index" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference internal" href="#table-10">Table 10</a> provides a complete cross-reference for all terms in the VIVO 1 Ontology to
+terms in the Organization Ontology.  This is <strong>not</strong> a translation table.  The cross
+indicates which terms in the Organization Ontology have been linked via annotation
+property
+<a class="reference internal" href="doc-ORG_1000001.html"><span class="doc">ORG_1000001 - vivo 1 ontology reference</span></a> with one or more terms in the VIVO 1 Ontology.  This “linking”
+indicates only that the terms are similar in their meaning and/or usage.</p>
+<p>Some VIVO 1 terms map to multiple Organization Ontology terms.  For example, a
+ServiceProvidingLaboratory in VIVO 1 is an organizaition with a service
+providing disposition and a laboratory disposition in the Organization Ontology.</p>
+<p>See <a class="reference internal" href="#table-10">Table 10</a>.</p>
+<span id="table-10"></span><table class="docutils align-default" id="id10">
+<caption><span class="caption-text">Table 10 VIVO 1 Cross Reference</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 55%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>VIVO 1 Term URI</p></th>
+<th class="head"><p>See ontology term</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="http://purl.obolibrary.org/obo/ERO_0000034">http://purl.obolibrary.org/obo/ERO_0000034</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000031.html"><span class="doc">ORG_0000031 - manufacturing disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://purl.obolibrary.org/obo/ERO_0000565">http://purl.obolibrary.org/obo/ERO_0000565</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000013.html"><span class="doc">ORG_0000013 - technology transfer disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://purl.obolibrary.org/obo/ERO_0000787">http://purl.obolibrary.org/obo/ERO_0000787</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_2000016.html"><span class="doc">ORG_2000016 - has organizational employee</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#AcademicDepartment">http://vivoweb.org/ontology/core#AcademicDepartment</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000086.html"><span class="doc">ORG_0000086 - academic department disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Association">http://vivoweb.org/ontology/core#Association</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000008.html"><span class="doc">ORG_0000008 - association disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Campus">http://vivoweb.org/ontology/core#Campus</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000041.html"><span class="doc">ORG_0000041 - campus</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#ClinicalOrganization">http://vivoweb.org/ontology/core#ClinicalOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000016.html"><span class="doc">ORG_0000016 - health care service provider disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#ClinicalOrganization">http://vivoweb.org/ontology/core#ClinicalOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000017.html"><span class="doc">ORG_0000017 - hospital service provider disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#College">http://vivoweb.org/ontology/core#College</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000087.html"><span class="doc">ORG_0000087 - academic college disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Committee">http://vivoweb.org/ontology/core#Committee</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000088.html"><span class="doc">ORG_0000088 - committee disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Company">http://vivoweb.org/ontology/core#Company</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000003.html"><span class="doc">ORG_0000003 - company</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Consortium">http://vivoweb.org/ontology/core#Consortium</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000009.html"><span class="doc">ORG_0000009 - consortium disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Continent">http://vivoweb.org/ontology/core#Continent</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000047.html"><span class="doc">ORG_0000047 - continent</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#CoreLaboratory">http://vivoweb.org/ontology/core#CoreLaboratory</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000011.html"><span class="doc">ORG_0000011 - laboratory disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#ExtensionUnit">http://vivoweb.org/ontology/core#ExtensionUnit</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000012.html"><span class="doc">ORG_0000012 - extension provider disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Foundation">http://vivoweb.org/ontology/core#Foundation</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000014.html"><span class="doc">ORG_0000014 - philanthropy disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#FundingOrganization">http://vivoweb.org/ontology/core#FundingOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000015.html"><span class="doc">ORG_0000015 - funding disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#GeographicRegion">http://vivoweb.org/ontology/core#GeographicRegion</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000045.html"><span class="doc">ORG_0000045 - geographic region</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#GovernmentAgency">http://vivoweb.org/ontology/core#GovernmentAgency</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000002.html"><span class="doc">ORG_0000002 - government organization</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Hospital">http://vivoweb.org/ontology/core#Hospital</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000017.html"><span class="doc">ORG_0000017 - hospital service provider disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Laboratory">http://vivoweb.org/ontology/core#Laboratory</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000011.html"><span class="doc">ORG_0000011 - laboratory disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#LeaderRole">http://vivoweb.org/ontology/core#LeaderRole</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_2000020.html"><span class="doc">ORG_2000020 - has organizational head</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#PopulatedPlace">http://vivoweb.org/ontology/core#PopulatedPlace</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000050.html"><span class="doc">ORG_0000050 - populated place</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Position">http://vivoweb.org/ontology/core#Position</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000068.html"><span class="doc">ORG_0000068 - organizational position</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#PrivateCompany">http://vivoweb.org/ontology/core#PrivateCompany</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000003.html"><span class="doc">ORG_0000003 - company</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Publisher">http://vivoweb.org/ontology/core#Publisher</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000021.html"><span class="doc">ORG_0000021 - publishing disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#ResearchOrganization">http://vivoweb.org/ontology/core#ResearchOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000022.html"><span class="doc">ORG_0000022 - research disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Room">http://vivoweb.org/ontology/core#Room</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000044.html"><span class="doc">ORG_0000044 - room</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#ServiceProvidingLaboratory">http://vivoweb.org/ontology/core#ServiceProvidingLaboratory</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000011.html"><span class="doc">ORG_0000011 - laboratory disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#StudentOrganization">http://vivoweb.org/ontology/core#StudentOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000063.html"><span class="doc">ORG_0000063 - student led organization quality</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#Team">http://vivoweb.org/ontology/core#Team</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000032.html"><span class="doc">ORG_0000032 - project team disposition</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#University">http://vivoweb.org/ontology/core#University</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000007.html"><span class="doc">ORG_0000007 - university disposition</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#affiliatedOrganization">http://vivoweb.org/ontology/core#affiliatedOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_2000011.html"><span class="doc">ORG_2000011 - affiliated with</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#dateTimeValue">http://vivoweb.org/ontology/core#dateTimeValue</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_2000003.html"><span class="doc">ORG_2000003 - has time instant</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#hasPredecessorOrganization">http://vivoweb.org/ontology/core#hasPredecessorOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_2000007.html"><span class="doc">ORG_2000007 - has successor organization</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#hasResearchArea">http://vivoweb.org/ontology/core#hasResearchArea</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_2000004.html"><span class="doc">ORG_2000004 - has organizational interest</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://vivoweb.org/ontology/core#hasSuccessorOrganization">http://vivoweb.org/ontology/core#hasSuccessorOrganization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_2000008.html"><span class="doc">ORG_2000008 - successor organization of</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://www.w3.org/2006/vcard/ns#OrganizationName">http://www.w3.org/2006/vcard/ns#OrganizationName</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_3000007.html"><span class="doc">ORG_3000007 - has organization name</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://www.w3.org/2006/vcard/ns#URL">http://www.w3.org/2006/vcard/ns#URL</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000057.html"><span class="doc">ORG_0000057 - web site</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://xmlns.com/foaf/0.1/Organization">http://xmlns.com/foaf/0.1/Organization</a></p></td>
+<td><p><a class="reference internal" href="doc-ORG_0000001.html"><span class="doc">ORG_0000001 - organization</span></a></p></td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
 <dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
-<dd><p>We in tend to provide SPARQL CONSTRUCT queries for automatica translation of
+<dd><p>We intend to provide SPARQL CONSTRUCT queries for automatica translation of
 VIVO Ontology organization assertions to Organization Ontology assertions
 in the future.  Consider this guide as advice to the adventurous, or to collaborators
 who would like to draft, test, and contribute such queries.</p>
@@ -381,7 +530,6 @@ bowling team.”  A project team may be considered part of an organization, or
 informally organized to move work forward.</p>
 </dd>
 </dl>
-</div>
 </div>
 
 

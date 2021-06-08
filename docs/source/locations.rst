@@ -59,11 +59,11 @@ located in the United States.
 :doc:`Organizations <organizations>` do not have locations.  Facilities, and buildings 
 have locations. Campuses have locations.
 
-:ref:`Table 14` lists terms used in the representation of locations
+:ref:`Table 15` lists terms used in the representation of locations
 
-.. _Table 14:
+.. _Table 15:
 
-.. table:: Table 14 Terms used to represent locations
+.. table:: Table 15 Terms used to represent locations
 
     ======================    ===========================================================
     Term                      Notes

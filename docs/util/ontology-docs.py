@@ -9,18 +9,18 @@
     1. table of contents for term types
     2. tables of term types and tables of dispositions
     3. pages for each term
-    
-    TODO:  Table entries link to pages
-           Table column width determined by contents
+    4. [Optional] A VIVO 1 cross ref table for ontologies that reference VIVO 1 terms
+
 """
 
 from rdflib import Graph, Literal, Namespace, URIRef, BNode
 from rdflib.namespace import RDF, RDFS, XSD, SKOS, FOAF, DC, DCTERMS, TIME
+import argparse
 
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright (c) 2021 Michael Conlon"
 __license__ = "Apache-2"
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 OBO = Namespace('http://purl.obolibrary.org/obo/')
 OWL = Namespace('http://www.w3.org/2002/07/owl#')
@@ -28,26 +28,9 @@ OWL = Namespace('http://www.w3.org/2002/07/owl#')
 table_number = 0
 
 g = Graph()
+output_directory = "."
 
-header = """
 
-See `Table {}`_.
-
-.. _Table {}:
-
-.. table:: Table {} {}
-
-    =============================  ==================================================
-    Term ID - Label                Definition
-    =============================  =================================================="""
-
-trailer = "    =============================  =================================================="
-
-toc_header ="""
-.. toctree::
-   :titlesonly:
-   :caption: All
-"""
 
 def term_name(term_uri):
 
@@ -78,7 +61,7 @@ def write_term_page(term_uri):
 	for rlabel in g.objects(term_uri, RDFS.label):
 		label = rlabel
 
-	f = open('../source/doc-'+term_name_str+'.rst', "w")
+	f = open(output_directory + '/doc-'+term_name_str+'.rst', "w")
 	
 	print("""
   .. index:: 
@@ -145,7 +128,22 @@ def term_table(file_name, term_label, predicate, object):
 	
 	global table_number
 	
-	f = open(file_name, "w")
+
+	header = """
+
+See `Table {}`_.
+
+.. _Table {}:
+
+.. table:: Table {} {}
+
+    =============================  ==================================================
+    Term ID - Label                Definition
+    =============================  =================================================="""
+
+	trailer = "    =============================  =================================================="
+	
+	f = open(output_directory + '/' + file_name, "w")
 	table_number += 1	
 	print(header.format(table_number, table_number, table_number, term_label), file=f)
 	
@@ -186,24 +184,104 @@ def term_table(file_name, term_label, predicate, object):
 	
 def toc_table(term_type):
 
-	# Given term type, write a toc file of all the terms of the given type
+	# Given term type, write a table of contents file of all the terms of the given type	
+	
+	toc_header ="""
+.. toctree::
+   :titlesonly:
+   :caption: All
+	"""
 	
 	term_name_str = term_name(term_type)[term_name(term_type).rfind(':')+1:]		
-	toc = open('../source/toc-' + term_name_str + '.txt', 'w')		
+	toc = open(output_directory + '/toc-' + term_name_str + '.txt', 'w')		
 	print(toc_header, file=toc)
 	
 	for term_uri in sorted(g.subjects(RDF.type, term_type)):
-		if str(term_uri)[0] != 'h':  # skip blank nodes
+		if isinstance(term_uri, BNode):
 			continue
 		term_name_str = term_name(term_uri)[term_name(term_uri).rfind(':')+1:]
 		print('   doc-' + term_name_str, file=toc)
 		       		
 	toc.close()
+	
+def vivo_xref_table():
+
+	# Look for annotations org:1000001 and make a table
+	
+	global table_number
+	
+
+	header = """
+
+See `Table {}`_.
+
+.. _Table {}:
+
+.. table:: Table {} VIVO 1 Cross Reference
+
+    ============================================================  ==================================================
+    VIVO 1 Term URI                                               See ontology term
+    ============================================================  =================================================="""
+
+	trailer = "    ============================================================  =================================================="
+	
+	f = open(output_directory + '/' + 'tab-vivoxref.txt', "w")
+	table_number += 1	
+	print(header.format(table_number, table_number, table_number), file=f)
+	
+	unique = []
+	
+	for vivo_uri in sorted(g.objects(None, OBO.ORG_1000001)):
+		
+		if isinstance(vivo_uri, BNode):
+			continue
+			
+		if vivo_uri not in unique:
+			unique.append(vivo_uri)
+			
+			for term_uri in sorted(g.subjects(OBO.ORG_1000001, vivo_uri)):
+		
+				if isinstance(term_uri, BNode):
+					continue
+				
+				term_name_str = term_name(term_uri)[term_name(term_uri).rfind(':')+1:]
+				print('    ' + str(vivo_uri).ljust(62) + ':doc:`doc-' + term_name_str + '`', file=f)
+		
+	print(trailer, file=f)
+	f.close()
+	return
 
 def main():
-	ontology_path = "../../org.ttl"
-	g.parse(ontology_path, format="ttl")
-	print(len(g), 'triples in', ontology_path)
+
+	global output_directory
+
+	#  Read command line arguments, read ontology into graph, then
+	#
+	#  1. For each term of each type, write a term page.
+	#
+	#  2. Write a table of contents for each type
+	#  
+	#  3. Write tables of interest
+
+	import argparse
+	parser = argparse.ArgumentParser(description="""
+	Read an ontology file and write documentation pages in RestructuredText for
+	each term, a table of contents page for each term type, and tables of term
+	types.
+	
+	The format of your ontology will be guessed from the file extension.  If you
+	would like to specify the format, use --format=fmt, where fmt is one of
+	ttl, xml, rdfa, grddl
+	""")
+	parser.add_argument("ontology_filespec", help="file spec of ontology to be read")
+	parser.add_argument("output_directory", help="path to output directory", default='.')
+	parser.add_argument("-f", "--format", help="ontology input format", default='ttl')
+	parser.add_argument("--vivoxref", help="table of VIVO 1 cross references", action="store_true")
+	args = parser.parse_args()
+	output_directory = args.output_directory
+	
+	g.parse(args.ontology_filespec, format=args.format)
+	print(len(g), 'triples in', args.ontology_filespec)
 	
 	# Write term pages
 
@@ -212,7 +290,7 @@ def main():
 	    
 		for term_uri in sorted(g.subjects(RDF.type, term_type)):
 			
-			if str(term_uri)[0] != 'h':  # skip blank nodes
+			if isinstance(term_uri, BNode):   # skip blank nodes
 				continue
 				
 			write_term_page(term_uri)
@@ -227,16 +305,20 @@ def main():
 	
 	# Write term tables
 		
-	term_table("../source/tab-all-types.txt", "Types of Organizations", RDFS.subClassOf, OBO.ORG_0000001)
-	term_table("../source/tab-all-dispositions.txt", "Dispositions", RDFS.subClassOf, OBO.BFO_0000016) # Dispositions
-	term_table("../source/tab-all-qualities.txt", "Qualities", RDFS.subClassOf, OBO.BFO_0000019) # Qualities
-	term_table("../source/tab-all-identifiers.txt", "Identifiers", RDFS.subClassOf, OBO.IAO_0000578) # Identifiers
-	term_table("../source/tab-all-classes.txt", "Classes", RDF.type, OWL.Class)
-	term_table("../source/tab-all-annotation-properties.txt", "Annotation Properties", RDF.type, OWL.AnnotationProperty)
-	term_table("../source/tab-all-object-properties.txt", "Object Properties", RDF.type, OWL.ObjectProperty)
-	term_table("../source/tab-all-datatype-properties.txt", "Datatype Properties", RDF.type, OWL.DatatypeProperty)
-	term_table("../source/tab-all-named-individuals.txt", "Named Individuals", RDF.type, OWL.NamedIndividual)
-	print(table_number, "tables written")
+	term_table("tab-all-types.txt", "Types of Organizations", RDFS.subClassOf, OBO.ORG_0000001)
+	term_table("tab-all-dispositions.txt", "Dispositions", RDFS.subClassOf, OBO.BFO_0000016) # Dispositions
+	term_table("tab-all-qualities.txt", "Qualities", RDFS.subClassOf, OBO.BFO_0000019) # Qualities
+	term_table("tab-all-identifiers.txt", "Identifiers", RDFS.subClassOf, OBO.IAO_0000578) # Identifiers
+	term_table("tab-all-classes.txt", "Classes", RDF.type, OWL.Class)
+	term_table("tab-all-annotation-properties.txt", "Annotation Properties", RDF.type, OWL.AnnotationProperty)
+	term_table("tab-all-object-properties.txt", "Object Properties", RDF.type, OWL.ObjectProperty)
+	term_table("tab-all-datatype-properties.txt", "Datatype Properties", RDF.type, OWL.DatatypeProperty)
+	term_table("tab-all-named-individuals.txt", "Named Individuals", RDF.type, OWL.NamedIndividual)
+	
+	if args.vivoxref:
+		vivo_xref_table()
+	
+	print(table_number, "tables written in", args.output_directory)
 	
 	return
 

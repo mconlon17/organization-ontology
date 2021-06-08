@@ -19,7 +19,7 @@
   \item \spxentry{architectural structure}
     \subitem \spxentry{ORG\_0000040}, \hyperpage{106}
   \item \spxentry{archive disposition}
-    \subitem \spxentry{ORG\_0000018}, \hyperpage{87}
+    \subitem \spxentry{ORG\_0000018}, \hyperpage{88}
   \item \spxentry{association disposition}
     \subitem \spxentry{ORG\_0000008}, \hyperpage{78}
   \item \spxentry{associations}, \hyperpage{23}
@@ -28,7 +28,7 @@
   \bigletter B
   \item \spxentry{bearer of}
     \subitem \spxentry{RO\_0000053}, \hyperpage{193}
-  \item \spxentry{BFO}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{BFO}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{BFO\_0000001}
     \subitem \spxentry{entity}, \hyperpage{49}
   \item \spxentry{BFO\_0000002}
@@ -82,7 +82,7 @@
   \bigletter C
   \item \spxentry{campus}
     \subitem \spxentry{ORG\_0000041}, \hyperpage{107}
-  \item \spxentry{CC0}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{CC0}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{centrally registered identifier}
     \subitem \spxentry{IAO\_0000578}, \hyperpage{64}
   \item \spxentry{commerce disposition}
@@ -111,9 +111,9 @@
 
   \indexspace
   \bigletter D
-  \item \spxentry{Data}, \hyperpage{232}
-  \item \spxentry{Dates}, \hyperpage{20}, \hyperpage{232}
-  \item \spxentry{Datetimes}, \hyperpage{20}, \hyperpage{232}
+  \item \spxentry{Data}, \hyperpage{234}
+  \item \spxentry{Dates}, \hyperpage{20}, \hyperpage{234}
+  \item \spxentry{Datetimes}, \hyperpage{20}, \hyperpage{234}
   \item \spxentry{day}\spxextra{unit of temporal duration}
     \subitem \spxentry{unitDay}, \hyperpage{217}
   \item \spxentry{dbpedia identifier}
@@ -134,9 +134,9 @@
     \subitem \spxentry{ORG\_0000053}, \hyperpage{118}
   \item \spxentry{dissolution process boundary}
     \subitem \spxentry{ORG\_0000054}, \hyperpage{119}
-  \item \spxentry{Domain}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{Domain}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{domain definition}, \hyperpage{1}
-  \item \spxentry{Dubbing Process}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{Dubbing Process}, \hyperindexformat{\spxpagem}{243}
 
   \indexspace
   \bigletter E
@@ -148,7 +148,7 @@
     \subitem \spxentry{ORG\_0000023}, \hyperpage{92}
   \item \spxentry{email address}
     \subitem \spxentry{IAO\_0000429}, \hyperpage{63}
-  \item \spxentry{Entity}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{Entity}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{entity}
     \subitem \spxentry{BFO\_0000001}, \hyperpage{49}
   \item \spxentry{example of usage}
@@ -172,7 +172,7 @@
   \bigletter G
   \item \spxentry{gallery disposition}
     \subitem \spxentry{ORG\_0000020}, \hyperpage{89}
-  \item \spxentry{Generically dependent continuant}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{Generically dependent continuant}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{generically dependent continuant}
     \subitem \spxentry{BFO\_0000031}, \hyperpage{58}
   \item \spxentry{geographic point}
@@ -257,7 +257,7 @@
 
   \indexspace
   \bigletter I
-  \item \spxentry{IAO}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{IAO}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{IAO\_0000030}
     \subitem \spxentry{information content entity}, \hyperpage{62}
   \item \spxentry{IAO\_0000111}
@@ -325,7 +325,7 @@
     \subitem \spxentry{ORG\_0000005}, \hyperpage{75}
   \item \spxentry{information address quality}
     \subitem \spxentry{ORG\_0000034}, \hyperpage{101}
-  \item \spxentry{Information artifacts}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{Information artifacts}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{information content entity}
     \subitem \spxentry{IAO\_0000030}, \hyperpage{62}
   \item \spxentry{inheres in}
@@ -389,7 +389,7 @@
   \bigletter O
   \item \spxentry{OBI\_0002815}
     \subitem \spxentry{has representation}, \hyperpage{207}
-  \item \spxentry{OBO}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{OBO}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{occupies}
     \subitem \spxentry{ORG\_2000001}, \hyperpage{163}
   \item \spxentry{occurent part of}
@@ -398,7 +398,7 @@
     \subitem \spxentry{BFO\_0000003}, \hyperpage{50}
   \item \spxentry{one\sphinxhyphen{}dimensional temporal region}
     \subitem \spxentry{BFO\_0000038}, \hyperpage{59}
-  \item \spxentry{Ontology}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{Ontology}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{ORG\_0000001}
     \subitem \spxentry{organization}, \hyperpage{72}
   \item \spxentry{ORG\_0000002}
@@ -434,7 +434,7 @@
   \item \spxentry{ORG\_0000017}
     \subitem \spxentry{hospital service provider disposition}, \hyperpage{87}
   \item \spxentry{ORG\_0000018}
-    \subitem \spxentry{archive disposition}, \hyperpage{87}
+    \subitem \spxentry{archive disposition}, \hyperpage{88}
   \item \spxentry{ORG\_0000019}
     \subitem \spxentry{museum disposition}, \hyperpage{88}
   \item \spxentry{ORG\_0000020}
@@ -703,14 +703,14 @@
     \subitem \spxentry{RO\_0002353}, \hyperpage{203}
   \item \spxentry{overlaps}
     \subitem \spxentry{RO\_0002131}, \hyperpage{202}
-  \item \spxentry{OWL}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{OWL}, \hyperindexformat{\spxpagem}{243}
 
   \indexspace
   \bigletter P
   \item \spxentry{part of}
     \subitem \spxentry{BFO\_0000050}, \hyperpage{157}
   \item \spxentry{participates in}
-    \subitem \spxentry{RO\_0000056}, \hyperpage{194}
+    \subitem \spxentry{RO\_0000056}, \hyperpage{193}
   \item \spxentry{performing disposition}
     \subitem \spxentry{ORG\_0000081}, \hyperpage{141}
   \item \spxentry{person member grantor role}
@@ -773,13 +773,13 @@
     \subitem \spxentry{IAO\_0022022}, \hyperpage{69}
   \item \spxentry{ringgold identifier}
     \subitem \spxentry{IAO\_0022057}, \hyperpage{71}
-  \item \spxentry{RO}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{RO}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{RO\_0000052}
     \subitem \spxentry{inheres in}, \hyperpage{192}
   \item \spxentry{RO\_0000053}
     \subitem \spxentry{bearer of}, \hyperpage{193}
   \item \spxentry{RO\_0000056}
-    \subitem \spxentry{participates in}, \hyperpage{194}
+    \subitem \spxentry{participates in}, \hyperpage{193}
   \item \spxentry{RO\_0000057}
     \subitem \spxentry{has participant}, \hyperpage{194}
   \item \spxentry{RO\_0000080}
@@ -814,7 +814,7 @@
     \subitem \spxentry{RO\_0000081}, \hyperpage{196}
   \item \spxentry{room}
     \subitem \spxentry{ORG\_0000044}, \hyperpage{110}
-  \item \spxentry{ROR}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{ROR}, \hyperindexformat{\spxpagem}{243}
 
   \indexspace
   \bigletter S
@@ -859,14 +859,14 @@
     \subitem \spxentry{unitType}, \hyperpage{204}
   \item \spxentry{TemporalUnit}
     \subitem \spxentry{temporal unit}, \hyperpage{152}
-  \item \spxentry{Term}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{Term}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{term editor}
     \subitem \spxentry{IAO\_0000117}, \hyperpage{37}
   \item \spxentry{term tracker item}
     \subitem \spxentry{IAO\_0000233}, \hyperpage{39}
   \item \spxentry{time instant}
     \subitem \spxentry{Instant}, \hyperpage{151}
-  \item \spxentry{Times}, \hyperpage{20}, \hyperpage{232}
+  \item \spxentry{Times}, \hyperpage{20}, \hyperpage{234}
   \item \spxentry{training disposition}
     \subitem \spxentry{ORG\_0000024}, \hyperpage{93}
 
@@ -893,8 +893,8 @@
 
   \indexspace
   \bigletter V
-  \item \spxentry{VIVO}, \hyperindexformat{\spxpagem}{241}
-  \item \spxentry{VIVO 1}, \hyperindexformat{\spxpagem}{241}
+  \item \spxentry{VIVO}, \hyperindexformat{\spxpagem}{243}
+  \item \spxentry{VIVO 1}, \hyperindexformat{\spxpagem}{243}
   \item \spxentry{vivo 1 ontology reference}
     \subitem \spxentry{ORG\_1000001}, \hyperpage{40}
 

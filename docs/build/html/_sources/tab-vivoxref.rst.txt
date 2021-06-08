@@ -1,0 +1,51 @@
+
+
+See `Table 10`_.
+
+.. _Table 10:
+
+.. table:: Table 10 VIVO 1 Cross Reference
+
+    ============================================================  ==================================================
+    VIVO 1 Term URI                                               See ontology term
+    ============================================================  ==================================================
+    http://purl.obolibrary.org/obo/ERO_0000034                  :doc:`doc-ORG_0000031`
+    http://purl.obolibrary.org/obo/ERO_0000565                  :doc:`doc-ORG_0000013`
+    http://purl.obolibrary.org/obo/ERO_0000787                  :doc:`doc-ORG_2000016`
+    http://purl.obolibrary.org/obo/ERO_0000787                  :doc:`doc-ORG_2000017`
+    http://purl.obolibrary.org/obo/ERO_0000787                  :doc:`doc-ORG_2000016`
+    http://purl.obolibrary.org/obo/ERO_0000787                  :doc:`doc-ORG_2000017`
+    http://vivoweb.org/ontology/core#AcademicDepartment         :doc:`doc-ORG_0000086`
+    http://vivoweb.org/ontology/core#Association                :doc:`doc-ORG_0000008`
+    http://vivoweb.org/ontology/core#Campus                     :doc:`doc-ORG_0000041`
+    http://vivoweb.org/ontology/core#ClinicalOrganization       :doc:`doc-ORG_0000016`
+    http://vivoweb.org/ontology/core#ClinicalOrganization|http://vivoweb.org/ontology/core#Hospital:doc:`doc-ORG_0000017`
+    http://vivoweb.org/ontology/core#College                    :doc:`doc-ORG_0000087`
+    http://vivoweb.org/ontology/core#Committee                  :doc:`doc-ORG_0000088`
+    http://vivoweb.org/ontology/core#Company|http://vivoweb.org/ontology/core#PrivateCompany:doc:`doc-ORG_0000003`
+    http://vivoweb.org/ontology/core#Consortium                 :doc:`doc-ORG_0000009`
+    http://vivoweb.org/ontology/core#Continent                  :doc:`doc-ORG_0000047`
+    http://vivoweb.org/ontology/core#CoreLaboratory|http://vivoweb.org/ontology/core#Laboratory|http://vivoweb.org/ontology/core#ServiceProvidingLaboratory:doc:`doc-ORG_0000011`
+    http://vivoweb.org/ontology/core#ExtensionUnit              :doc:`doc-ORG_0000012`
+    http://vivoweb.org/ontology/core#Foundation                 :doc:`doc-ORG_0000014`
+    http://vivoweb.org/ontology/core#FundingOrganization        :doc:`doc-ORG_0000015`
+    http://vivoweb.org/ontology/core#GeographicRegion           :doc:`doc-ORG_0000045`
+    http://vivoweb.org/ontology/core#GovernmentAgency           :doc:`doc-ORG_0000002`
+    http://vivoweb.org/ontology/core#LeaderRole                 :doc:`doc-ORG_2000020`
+    http://vivoweb.org/ontology/core#PopulatedPlace             :doc:`doc-ORG_0000050`
+    http://vivoweb.org/ontology/core#Position                   :doc:`doc-ORG_0000068`
+    http://vivoweb.org/ontology/core#Publisher                  :doc:`doc-ORG_0000021`
+    http://vivoweb.org/ontology/core#ResearchOrganization       :doc:`doc-ORG_0000022`
+    http://vivoweb.org/ontology/core#Room                       :doc:`doc-ORG_0000044`
+    http://vivoweb.org/ontology/core#StudentOrganization        :doc:`doc-ORG_0000063`
+    http://vivoweb.org/ontology/core#Team                       :doc:`doc-ORG_0000032`
+    http://vivoweb.org/ontology/core#University                 :doc:`doc-ORG_0000007`
+    http://vivoweb.org/ontology/core#affiliatedOrganization     :doc:`doc-ORG_2000011`
+    http://vivoweb.org/ontology/core#dateTimeValue              :doc:`doc-ORG_2000003`
+    http://vivoweb.org/ontology/core#hasPredecessorOrganization :doc:`doc-ORG_2000007`
+    http://vivoweb.org/ontology/core#hasResearchArea            :doc:`doc-ORG_2000004`
+    http://vivoweb.org/ontology/core#hasSuccessorOrganization   :doc:`doc-ORG_2000008`
+    http://www.w3.org/2006/vcard/ns#OrganizationName            :doc:`doc-ORG_3000007`
+    http://www.w3.org/2006/vcard/ns#URL                         :doc:`doc-ORG_0000057`
+    http://xmlns.com/foaf/0.1/Organization                      :doc:`doc-ORG_0000001`
+    ============================================================  ==================================================

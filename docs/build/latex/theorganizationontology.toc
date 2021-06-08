@@ -262,29 +262,30 @@
 \contentsline {section}{\numberline {14.3}Out of Scope and Not Included Here}{222}{section.14.3}%
 \contentsline {chapter}{\numberline {15}Translating from VIVO to the Organization Ontology}{225}{chapter.15}%
 \contentsline {section}{\numberline {15.1}Translating Types}{225}{section.15.1}%
-\contentsline {chapter}{\numberline {16}Translating from ROR to the Organization Ontology}{229}{chapter.16}%
-\contentsline {section}{\numberline {16.1}Translating Types}{229}{section.16.1}%
-\contentsline {chapter}{\numberline {17}Translating from schema.org to the Organization Ontology}{231}{chapter.17}%
+\contentsline {chapter}{\numberline {16}A Cross Index}{229}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Translating from ROR to the Organization Ontology}{231}{chapter.17}%
 \contentsline {section}{\numberline {17.1}Translating Types}{231}{section.17.1}%
-\contentsline {chapter}{\numberline {18}Dates Data}{233}{chapter.18}%
-\contentsline {chapter}{\numberline {19}For Ontology Authors}{235}{chapter.19}%
-\contentsline {section}{\numberline {19.1}Domain}{235}{section.19.1}%
-\contentsline {section}{\numberline {19.2}Reusing terms}{235}{section.19.2}%
-\contentsline {section}{\numberline {19.3}Use of templates}{236}{section.19.3}%
-\contentsline {section}{\numberline {19.4}Consistent build}{236}{section.19.4}%
-\contentsline {section}{\numberline {19.5}Validation}{236}{section.19.5}%
-\contentsline {section}{\numberline {19.6}Documentation}{236}{section.19.6}%
-\contentsline {chapter}{\numberline {20}For Documentation Authors}{237}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Manual Text Production}{237}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Manual Figure Production}{237}{section.20.2}%
-\contentsline {section}{\numberline {20.3}Automated Text Production}{237}{section.20.3}%
-\contentsline {section}{\numberline {20.4}Automated GitHub pages}{238}{section.20.4}%
-\contentsline {section}{\numberline {20.5}Resulting Documentation Features}{238}{section.20.5}%
-\contentsline {chapter}{\numberline {21}Notes and Sources}{239}{chapter.21}%
-\contentsline {section}{\numberline {21.1}Regarding the W3C Organization Ontology}{239}{section.21.1}%
-\contentsline {section}{\numberline {21.2}References}{240}{section.21.2}%
-\contentsline {chapter}{\numberline {22}Glossary}{241}{chapter.22}%
-\contentsline {chapter}{\numberline {23}List of Tables}{243}{chapter.23}%
-\contentsline {chapter}{\numberline {24}List of Figures}{245}{chapter.24}%
-\contentsline {chapter}{Bibliography}{247}{chapter*.51}%
-\contentsline {chapter}{Index}{249}{section*.52}%
+\contentsline {chapter}{\numberline {18}Translating from schema.org to the Organization Ontology}{233}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Translating Types}{233}{section.18.1}%
+\contentsline {chapter}{\numberline {19}Dates Data}{235}{chapter.19}%
+\contentsline {chapter}{\numberline {20}For Ontology Authors}{237}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Domain}{237}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Reusing terms}{237}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Use of templates}{238}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Consistent build}{238}{section.20.4}%
+\contentsline {section}{\numberline {20.5}Validation}{238}{section.20.5}%
+\contentsline {section}{\numberline {20.6}Documentation}{238}{section.20.6}%
+\contentsline {chapter}{\numberline {21}For Documentation Authors}{239}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Manual Text Production}{239}{section.21.1}%
+\contentsline {section}{\numberline {21.2}Manual Figure Production}{239}{section.21.2}%
+\contentsline {section}{\numberline {21.3}Automated Text Production}{239}{section.21.3}%
+\contentsline {section}{\numberline {21.4}Automated GitHub pages}{240}{section.21.4}%
+\contentsline {section}{\numberline {21.5}Resulting Documentation Features}{240}{section.21.5}%
+\contentsline {chapter}{\numberline {22}Notes and Sources}{241}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Regarding the W3C Organization Ontology}{241}{section.22.1}%
+\contentsline {section}{\numberline {22.2}References}{242}{section.22.2}%
+\contentsline {chapter}{\numberline {23}Glossary}{243}{chapter.23}%
+\contentsline {chapter}{\numberline {24}List of Tables}{245}{chapter.24}%
+\contentsline {chapter}{\numberline {25}List of Figures}{247}{chapter.25}%
+\contentsline {chapter}{Bibliography}{249}{chapter*.51}%
+\contentsline {chapter}{Index}{251}{section*.52}%

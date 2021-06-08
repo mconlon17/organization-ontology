@@ -12,9 +12,9 @@ ORG_0000013 - technology transfer disposition
 
 .. topic:: Alternate name
 
-    tech transfer
-
     technology licensing
+
+    tech transfer
 
 .. topic:: Sub class of
 

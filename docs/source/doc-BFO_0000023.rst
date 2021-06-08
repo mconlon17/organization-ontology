@@ -20,19 +20,19 @@ BFO_0000023 - role
 
 .. topic:: Example
 
-    the student role
-
     the role of subject in a clinical trial
 
-    the role of a building in serving as a military target
-
-    the role of a boundary to demarcate two neighboring administrative territories
-
-    the priest role
+    the role of a stone in marking a property boundary
 
     John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.
 
-    the role of a stone in marking a property boundary
+    the priest role
+
+    the role of a boundary to demarcate two neighboring administrative territories
+
+    the student role
+
+    the role of a building in serving as a military target
 
 .. topic:: Editor's note
 

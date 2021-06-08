@@ -1,5 +1,5 @@
 RDF Type	ID	Parent	Parent	Disjoint	Label	editor preferred term	Alternate name	seeAlso	see vivo 1	Definition	Example	Curation Status	Editors Note	term editor	Reference
-TYPE	ID	SC %	SC %	DC %	AL rdfs:label@en	AL iao:0000111@en	AL iao:0000118@en SPLIT=|	AT rdfs:seeAlso^^xsd:anyURI SPLIT=|	AT org:1000001^^xsd:anyURI	AL iao:0000115@en	AL iao:0000112@en	AT iao:0000114^^xsd:anyURI	AL iao:0000116@en	AL iao:0000117@en	AL iao:0000119@en
+TYPE	ID	SC %	SC %	DC %	AL rdfs:label@en	AL iao:0000111@en	AL iao:0000118@en SPLIT=|	AT rdfs:seeAlso^^xsd:anyURI SPLIT=|	AT org:1000001^^xsd:anyURI SPLIT=|	AL iao:0000115@en	AL iao:0000112@en	AT iao:0000114^^xsd:anyURI	AL iao:0000116@en	AL iao:0000117@en	AL iao:0000119@en
 owl:ObjectProperty	ro:0000092				disposition of										
 owl:ObjectProperty	ro:0000080				quality of										
 owl:ObjectProperty	ro:0000081				role of										

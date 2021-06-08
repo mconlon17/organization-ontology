@@ -12,9 +12,9 @@ ORG_0000082 - labor union disposition
 
 .. topic:: Alternate name
 
-    workers union
-
     trade union
+
+    workers union
 
 .. topic:: Sub class of
 

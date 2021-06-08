@@ -12,16 +12,16 @@ Ontology work [1]_
 Translating Types
 -----------------
 
-The schema.org organization types are listed in `Table 18`_  schema.org types are 
+The schema.org organization types are listed in `Table 19`_  schema.org types are 
 high-level and can
 be multi-valued, much as Organization Ontology dispositions are multi-valued.
 
-`Table 18`_ provides a guide for translating schema.org organizational types to assertions
+`Table 19`_ provides a guide for translating schema.org organizational types to assertions
 in the VIVO Organization Ontology. 
 
-.. _Table 18:
+.. _Table 19:
 
-.. table:: Table 18 Translating schema.org types to VIVO Organizational assertions
+.. table:: Table 19 Translating schema.org types to VIVO Organizational assertions
 
     ========================== ======================================
     schema.org Type            Organization Ontology Assertions

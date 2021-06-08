@@ -541,7 +541,6 @@ every c that is a concretization of g specifically denotes r"""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates a person with the organization of which that person is an employee"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8448"@en ;
-                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://purl.obolibrary.org/obo/ERO_0000787"^^xsd:anyURI ;
                                              rdfs:label "organizational employee of"@en .
 
 
@@ -1447,7 +1446,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "See https://www.merriam-webster.com/dictionary/company"@en ;
-                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Company|http://vivoweb.org/ontology/core#PrivateCompany"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#Company"^^xsd:anyURI ,
+                                                                                          "http://vivoweb.org/ontology/core#PrivateCompany"^^xsd:anyURI ;
                                              rdfs:label "company"@en .
 
 
@@ -1593,7 +1593,9 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "lab"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#CoreLaboratory|http://vivoweb.org/ontology/core#Laboratory|http://vivoweb.org/ontology/core#ServiceProvidingLaboratory"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#CoreLaboratory"^^xsd:anyURI ,
+                                                                                          "http://vivoweb.org/ontology/core#Laboratory"^^xsd:anyURI ,
+                                                                                          "http://vivoweb.org/ontology/core#ServiceProvidingLaboratory"^^xsd:anyURI ;
                                              rdfs:label "laboratory disposition"@en .
 
 
@@ -1703,7 +1705,8 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000118> "hospital"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
-                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#ClinicalOrganization|http://vivoweb.org/ontology/core#Hospital"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/ORG_1000001> "http://vivoweb.org/ontology/core#ClinicalOrganization"^^xsd:anyURI ,
+                                                                                          "http://vivoweb.org/ontology/core#Hospital"^^xsd:anyURI ;
                                              rdfs:label "hospital service provider disposition"@en .
 
 

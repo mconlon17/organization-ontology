@@ -36,7 +36,11 @@ ORG_0000011 - laboratory disposition
 
 .. topic:: Similar term in VIVO 1 Ontology
 
-    http://vivoweb.org/ontology/core#CoreLaboratory|http://vivoweb.org/ontology/core#Laboratory|http://vivoweb.org/ontology/core#ServiceProvidingLaboratory
+    http://vivoweb.org/ontology/core#ServiceProvidingLaboratory
+
+    http://vivoweb.org/ontology/core#Laboratory
+
+    http://vivoweb.org/ontology/core#CoreLaboratory
 
 .. topic:: Term editor
 

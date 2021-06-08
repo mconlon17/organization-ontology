@@ -24,9 +24,9 @@ RO_0000052 - inheres in
 
 .. topic:: Example
 
-    this fragility inheres in this vase
-
     this red color inheres in this apple
+
+    this fragility inheres in this vase
 
 .. topic:: Editor's note
 

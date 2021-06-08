@@ -38,16 +38,16 @@ We could write the above as::
     y a ORCID
     y denotes x
 
-See :ref:`Table 14`. The pattern *entity1 bearer_of role; role realized_in process; 
+See :ref:`Table 16`. The pattern *entity1 bearer_of role; role realized_in process; 
 process
 has_output entity2* is quite common and describes the role entity1 had through a process 
 in
 the creation of entity2. Each of these properties has an inverse, so we could assert
 equivalently, *entity2 output_of process; process realizes role; role inheres in entity1*. 
 
-.. _Table 15:
+.. _Table 16:
 
-.. table:: Table 15 Common Object Properties
+.. table:: Table 16 Common Object Properties
 
     ===============  =======================  ================================================
     Property         Label                    Notes

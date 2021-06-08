@@ -8,7 +8,7 @@ in the Organization Ontology [#]_.
 Translating Types
 -----------------
 
-The VIVO Ontology organization types are presented in `Table 16`_ with instructions
+The VIVO Ontology organization types are presented in `Table 17`_ with instructions
 for translating each.  The Organization Ontology separates the concept of
 what the organization "is" (company, organization part, etc) from what the 
 organization "does" (hospital, library, etc).  In many cases, the VIVO Ontology
@@ -20,12 +20,12 @@ missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
 a specific type [#]_.
 
-`Table 16`_ provides a guide for translating Organizational types to assertions
+`Table 17`_ provides a guide for translating Organizational types to assertions
 in the Organization Ontology. 
 
-.. _Table 16:
+.. _Table 17:
 
-.. table:: Table 16 Translating VIVO types to Organizational Ontology assertions
+.. table:: Table 17 Translating VIVO types to Organizational Ontology assertions
 
     ========================== ================================
     VIVO Type                  Organization Ontology Assertions
@@ -132,10 +132,27 @@ in the Organization Ontology.
     
                                Dispositions are typically education, research, service
     ========================== ================================
+    
+A Cross Index
+=============
+
+`Table 10`_ provides a complete cross-reference for all terms in the VIVO 1 Ontology to
+terms in the Organization Ontology.  This is **not** a translation table.  The cross
+indicates which terms in the Organization Ontology have been linked via annotation
+property 
+:doc:`doc-ORG_1000001` with one or more terms in the VIVO 1 Ontology.  This "linking" 
+indicates only that the terms are similar in their meaning and/or usage.
+
+Some VIVO 1 terms map to multiple Organization Ontology terms.  For example, a
+ServiceProvidingLaboratory in VIVO 1 is an organizaition with a service
+providing disposition and a laboratory disposition in the Organization Ontology.
+ 
+
+.. include:: tab-vivoxref.txt
 
 .. rubric:: Footnotes
 
-.. [#] We in tend to provide SPARQL CONSTRUCT queries for automatica translation of
+.. [#] We intend to provide SPARQL CONSTRUCT queries for automatica translation of
    VIVO Ontology organization assertions to Organization Ontology assertions
    in the future.  Consider this guide as advice to the adventurous, or to collaborators
    who would like to draft, test, and contribute such queries.

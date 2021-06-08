@@ -7,18 +7,18 @@ is available CC0, curated, and via an open API.
 Translating Types
 -----------------
 
-The ROR Organization types are listed in `Table 17`_  ROR types are high-level and can
+The ROR Organization types are listed in `Table 18`_  ROR types are high-level and can
 be multi-valued, much as Organization Ontology dispositions are multi-valued.
 
 Organizations without research disposition are out of scope for ROR.  All organizations in
 ROR can be asserted to have research disposition.
 
-`Table 17`_ provides a guide for translating ROR organizational types to assertions
+`Table 18`_ provides a guide for translating ROR organizational types to assertions
 in the VIVO Organization Ontology. 
 
-.. _Table 17:
+.. _Table 18:
 
-.. table:: Table 17 Translating ROR types to VIVO Organizational assertions
+.. table:: Table 18 Translating ROR types to VIVO Organizational assertions
 
     ========================== ======================================
     ROR Type                   VIVO Organization Ontology Assertions

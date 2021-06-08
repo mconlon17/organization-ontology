@@ -128,8 +128,8 @@
 \indexentry{health care service provider disposition@\spxentry{health care service provider disposition}!ORG\_0000016@\spxentry{ORG\_0000016}|hyperpage}{86}
 \indexentry{ORG\_0000017@\spxentry{ORG\_0000017}!hospital service provider disposition@\spxentry{hospital service provider disposition}|hyperpage}{87}
 \indexentry{hospital service provider disposition@\spxentry{hospital service provider disposition}!ORG\_0000017@\spxentry{ORG\_0000017}|hyperpage}{87}
-\indexentry{ORG\_0000018@\spxentry{ORG\_0000018}!archive disposition@\spxentry{archive disposition}|hyperpage}{87}
-\indexentry{archive disposition@\spxentry{archive disposition}!ORG\_0000018@\spxentry{ORG\_0000018}|hyperpage}{87}
+\indexentry{ORG\_0000018@\spxentry{ORG\_0000018}!archive disposition@\spxentry{archive disposition}|hyperpage}{88}
+\indexentry{archive disposition@\spxentry{archive disposition}!ORG\_0000018@\spxentry{ORG\_0000018}|hyperpage}{88}
 \indexentry{ORG\_0000019@\spxentry{ORG\_0000019}!museum disposition@\spxentry{museum disposition}|hyperpage}{88}
 \indexentry{museum disposition@\spxentry{museum disposition}!ORG\_0000019@\spxentry{ORG\_0000019}|hyperpage}{88}
 \indexentry{ORG\_0000020@\spxentry{ORG\_0000020}!gallery disposition@\spxentry{gallery disposition}|hyperpage}{89}
@@ -356,8 +356,8 @@
 \indexentry{inheres in@\spxentry{inheres in}!RO\_0000052@\spxentry{RO\_0000052}|hyperpage}{192}
 \indexentry{RO\_0000053@\spxentry{RO\_0000053}!bearer of@\spxentry{bearer of}|hyperpage}{193}
 \indexentry{bearer of@\spxentry{bearer of}!RO\_0000053@\spxentry{RO\_0000053}|hyperpage}{193}
-\indexentry{RO\_0000056@\spxentry{RO\_0000056}!participates in@\spxentry{participates in}|hyperpage}{194}
-\indexentry{participates in@\spxentry{participates in}!RO\_0000056@\spxentry{RO\_0000056}|hyperpage}{194}
+\indexentry{RO\_0000056@\spxentry{RO\_0000056}!participates in@\spxentry{participates in}|hyperpage}{193}
+\indexentry{participates in@\spxentry{participates in}!RO\_0000056@\spxentry{RO\_0000056}|hyperpage}{193}
 \indexentry{RO\_0000057@\spxentry{RO\_0000057}!has participant@\spxentry{has participant}|hyperpage}{194}
 \indexentry{has participant@\spxentry{has participant}!RO\_0000057@\spxentry{RO\_0000057}|hyperpage}{194}
 \indexentry{RO\_0000080@\spxentry{RO\_0000080}!quality of@\spxentry{quality of}|hyperpage}{195}
@@ -420,23 +420,23 @@
 \indexentry{week (unit of temporal duration)@\spxentry{week}\spxextra{unit of temporal duration}!unitWeek@\spxentry{unitWeek}|hyperpage}{218}
 \indexentry{unitYear@\spxentry{unitYear}!year (unit of temporal duration)@\spxentry{year}\spxextra{unit of temporal duration}|hyperpage}{218}
 \indexentry{year (unit of temporal duration)@\spxentry{year}\spxextra{unit of temporal duration}!unitYear@\spxentry{unitYear}|hyperpage}{218}
-\indexentry{Dates@\spxentry{Dates}|hyperpage}{232}
-\indexentry{Data@\spxentry{Data}|hyperpage}{232}
-\indexentry{Times@\spxentry{Times}|hyperpage}{232}
-\indexentry{Datetimes@\spxentry{Datetimes}|hyperpage}{232}
-\indexentry{BFO@\spxentry{BFO}|hyperindexformat{\spxpagem}}{241}
-\indexentry{CC0@\spxentry{CC0}|hyperindexformat{\spxpagem}}{241}
-\indexentry{Domain@\spxentry{Domain}|hyperindexformat{\spxpagem}}{241}
-\indexentry{Dubbing Process@\spxentry{Dubbing Process}|hyperindexformat{\spxpagem}}{241}
-\indexentry{Entity@\spxentry{Entity}|hyperindexformat{\spxpagem}}{241}
-\indexentry{Generically dependent continuant@\spxentry{Generically dependent continuant}|hyperindexformat{\spxpagem}}{241}
-\indexentry{IAO@\spxentry{IAO}|hyperindexformat{\spxpagem}}{241}
-\indexentry{Information artifacts@\spxentry{Information artifacts}|hyperindexformat{\spxpagem}}{241}
-\indexentry{OBO@\spxentry{OBO}|hyperindexformat{\spxpagem}}{241}
-\indexentry{OWL@\spxentry{OWL}|hyperindexformat{\spxpagem}}{241}
-\indexentry{Ontology@\spxentry{Ontology}|hyperindexformat{\spxpagem}}{241}
-\indexentry{RO@\spxentry{RO}|hyperindexformat{\spxpagem}}{241}
-\indexentry{ROR@\spxentry{ROR}|hyperindexformat{\spxpagem}}{241}
-\indexentry{Term@\spxentry{Term}|hyperindexformat{\spxpagem}}{241}
-\indexentry{VIVO@\spxentry{VIVO}|hyperindexformat{\spxpagem}}{241}
-\indexentry{VIVO 1@\spxentry{VIVO 1}|hyperindexformat{\spxpagem}}{241}
+\indexentry{Dates@\spxentry{Dates}|hyperpage}{234}
+\indexentry{Data@\spxentry{Data}|hyperpage}{234}
+\indexentry{Times@\spxentry{Times}|hyperpage}{234}
+\indexentry{Datetimes@\spxentry{Datetimes}|hyperpage}{234}
+\indexentry{BFO@\spxentry{BFO}|hyperindexformat{\spxpagem}}{243}
+\indexentry{CC0@\spxentry{CC0}|hyperindexformat{\spxpagem}}{243}
+\indexentry{Domain@\spxentry{Domain}|hyperindexformat{\spxpagem}}{243}
+\indexentry{Dubbing Process@\spxentry{Dubbing Process}|hyperindexformat{\spxpagem}}{243}
+\indexentry{Entity@\spxentry{Entity}|hyperindexformat{\spxpagem}}{243}
+\indexentry{Generically dependent continuant@\spxentry{Generically dependent continuant}|hyperindexformat{\spxpagem}}{243}
+\indexentry{IAO@\spxentry{IAO}|hyperindexformat{\spxpagem}}{243}
+\indexentry{Information artifacts@\spxentry{Information artifacts}|hyperindexformat{\spxpagem}}{243}
+\indexentry{OBO@\spxentry{OBO}|hyperindexformat{\spxpagem}}{243}
+\indexentry{OWL@\spxentry{OWL}|hyperindexformat{\spxpagem}}{243}
+\indexentry{Ontology@\spxentry{Ontology}|hyperindexformat{\spxpagem}}{243}
+\indexentry{RO@\spxentry{RO}|hyperindexformat{\spxpagem}}{243}
+\indexentry{ROR@\spxentry{ROR}|hyperindexformat{\spxpagem}}{243}
+\indexentry{Term@\spxentry{Term}|hyperindexformat{\spxpagem}}{243}
+\indexentry{VIVO@\spxentry{VIVO}|hyperindexformat{\spxpagem}}{243}
+\indexentry{VIVO 1@\spxentry{VIVO 1}|hyperindexformat{\spxpagem}}{243}
