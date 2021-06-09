@@ -10,6 +10,10 @@ IAO_0000233 - term tracker item
 
     term tracker item
 
+.. topic:: Editor preferred label
+
+    term tracker item
+
 .. topic:: Definition
 
     An IRI or similar locator for a request or discussion of an ontology term.

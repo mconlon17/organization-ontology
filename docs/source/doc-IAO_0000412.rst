@@ -10,6 +10,10 @@ IAO_0000412 - imported from
 
     imported from
 
+.. topic:: Editor preferred label
+
+    imported from
+
 .. topic:: Definition
 
     For external terms/classes, the ontology from which the term was imported
@@ -20,7 +24,7 @@ IAO_0000412 - imported from
 
 .. topic:: Term editor
 
-    PERSON:Alan Ruttenberg
-
     PERSON:Melanie Courtot
+
+    PERSON:Alan Ruttenberg
 

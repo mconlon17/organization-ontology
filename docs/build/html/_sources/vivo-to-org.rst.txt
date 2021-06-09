@@ -134,7 +134,7 @@ in the Organization Ontology.
     ========================== ================================
     
 A Cross Index
-=============
+-------------
 
 `Table 10`_ provides a complete cross-reference for all terms in the VIVO 1 Ontology to
 terms in the Organization Ontology.  This is **not** a translation table.  The cross

@@ -10,6 +10,10 @@ ORG_0000009 - consortium disposition
 
     consortium disposition
 
+.. topic:: Editor preferred label
+
+    consortium
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000016`

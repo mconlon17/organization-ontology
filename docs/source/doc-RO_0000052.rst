@@ -10,6 +10,10 @@ RO_0000052 - inheres in
 
     inheres in
 
+.. topic:: Editor preferred label
+
+    inheres in
+
 .. topic:: Alternate name
 
     inheres_in
@@ -24,15 +28,15 @@ RO_0000052 - inheres in
 
 .. topic:: Example
 
-    this red color inheres in this apple
-
     this fragility inheres in this vase
+
+    this red color inheres in this apple
 
 .. topic:: Editor's note
 
     A dependent inheres in its bearer at all times for which the dependent exists.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

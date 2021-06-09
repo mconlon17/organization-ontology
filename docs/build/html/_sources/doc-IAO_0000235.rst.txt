@@ -18,7 +18,7 @@ IAO_0000235 - denoted by
 
     Inverse of the relation 'denotes'
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
 

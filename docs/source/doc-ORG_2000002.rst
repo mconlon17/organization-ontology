@@ -30,7 +30,7 @@ ORG_2000002 - has occurent part
 
     :doc:`doc-BFO_0000003`
 
-.. topic:: Inverse Of
+.. topic:: Inverse of
 
     :doc:`doc-RO_0002012`
 

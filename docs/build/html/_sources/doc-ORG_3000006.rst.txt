@@ -10,6 +10,10 @@ ORG_3000006 - has official organization name
 
     has official organization name
 
+.. topic:: Editor preferred label
+
+    has legal name
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topDataProperty

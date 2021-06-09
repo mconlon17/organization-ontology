@@ -10,6 +10,10 @@ ORG_0000010 - service provider disposition
 
     service provider disposition
 
+.. topic:: Editor preferred label
+
+    service provider
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000016`

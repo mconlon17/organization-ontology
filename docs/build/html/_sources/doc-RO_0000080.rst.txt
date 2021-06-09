@@ -12,9 +12,9 @@ RO_0000080 - quality of
 
 .. topic:: Alternate name
 
-    is quality of
-
     quality_of
+
+    is quality of
 
 .. topic:: Sub property of
 
@@ -32,7 +32,7 @@ RO_0000080 - quality of
 
     A quality inheres in its bearer at all times for which the quality exists.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

@@ -22,7 +22,7 @@ BFO_0000141 - immaterial entity
 
     BFO 2 Reference: Immaterial entities are divided into two subgroups:boundaries and sites, which bound, or are demarcated in relation, to material entities, and which can thus change location, shape and size and as their material hosts move or change shape or size (for example: your nasal passage; the hold of a ship; the boundary of Wales (which moves with the rotation of the Earth) [38, 7, 10
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl
 

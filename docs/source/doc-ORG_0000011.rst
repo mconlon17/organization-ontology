@@ -10,6 +10,10 @@ ORG_0000011 - laboratory disposition
 
     laboratory disposition
 
+.. topic:: Editor preferred label
+
+    laboratory
+
 .. topic:: Alternate name
 
     lab
@@ -36,9 +40,9 @@ ORG_0000011 - laboratory disposition
 
 .. topic:: Similar term in VIVO 1 Ontology
 
-    http://vivoweb.org/ontology/core#ServiceProvidingLaboratory
-
     http://vivoweb.org/ontology/core#Laboratory
+
+    http://vivoweb.org/ontology/core#ServiceProvidingLaboratory
 
     http://vivoweb.org/ontology/core#CoreLaboratory
 

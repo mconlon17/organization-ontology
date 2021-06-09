@@ -10,6 +10,10 @@ ORG_0000089 - pre-school disposition
 
     pre-school disposition
 
+.. topic:: Editor preferred label
+
+    preschool
+
 .. topic:: Alternate name
 
     nursery school

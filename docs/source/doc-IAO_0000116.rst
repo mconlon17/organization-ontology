@@ -10,6 +10,10 @@ IAO_0000116 - editor note
 
     editor note
 
+.. topic:: Editor preferred label
+
+    editor note
+
 .. topic:: Definition
 
     An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.

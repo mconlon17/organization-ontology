@@ -10,6 +10,10 @@ IAO_0000114 - has curation status
 
     has curation status
 
+.. topic:: Editor preferred label
+
+    has curation status
+
 .. topic:: Definition
 
     A specification of the state of the metadata for a term
@@ -20,9 +24,9 @@ IAO_0000114 - has curation status
 
 .. topic:: Term editor
 
+    PERSON:Alan Ruttenberg
+
     PERSON:Bill Bug
 
     PERSON:Melanie Courtot
-
-    PERSON:Alan Ruttenberg
 

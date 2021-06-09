@@ -10,6 +10,10 @@ ORG_0000015 - funding disposition
 
     funding disposition
 
+.. topic:: Editor preferred label
+
+    funder
+
 .. topic:: Alternate name
 
     grantor
@@ -24,7 +28,7 @@ ORG_0000015 - funding disposition
 
 .. topic:: Definition source
 
-    Michael Conlon https://orcid.org/0000-0002-1304-8447
+    https://dictionary.cambridge.org/us/dictionary/english/funder
 
 .. topic:: Example
 

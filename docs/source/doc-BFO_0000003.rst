@@ -18,7 +18,7 @@ BFO_0000003 - occurrent
 
     An entity which occurs in time
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
 

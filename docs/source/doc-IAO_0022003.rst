@@ -10,6 +10,10 @@ IAO_0022003 - crossref funder identifier
 
     crossref funder identifier
 
+.. topic:: Editor preferred label
+
+    http://purl.obolibrary.org/obo/IAO_0000123
+
 .. topic:: Sub class of
 
     :doc:`doc-IAO_0000578`
@@ -22,7 +26,7 @@ IAO_0022003 - crossref funder identifier
 
     The CrossRef ID for the University of Florida is 100007698.  When authors cite the university as a funder of their work, CrossRef uses this number to identify the university
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl
 

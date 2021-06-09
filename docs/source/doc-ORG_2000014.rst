@@ -10,6 +10,10 @@ ORG_2000014 - has organizational member
 
     has organizational member
 
+.. topic:: Editor preferred label
+
+    has member
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty
@@ -30,7 +34,7 @@ ORG_2000014 - has organizational member
 
     :doc:`doc-ORG_0000001`
 
-.. topic:: Inverse Of
+.. topic:: Inverse of
 
     :doc:`doc-ORG_2000015`
 

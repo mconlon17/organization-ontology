@@ -10,6 +10,10 @@ ORG_0000090 - primary school disposition
 
     primary school disposition
 
+.. topic:: Editor preferred label
+
+    elementary school
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000016`

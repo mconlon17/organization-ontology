@@ -34,7 +34,7 @@ ORG_2000012 - has spin-off organization
 
     :doc:`doc-ORG_0000001`
 
-.. topic:: Inverse Of
+.. topic:: Inverse of
 
     :doc:`doc-ORG_2000013`
 

@@ -10,6 +10,10 @@ ORG_1000001 - vivo 1 ontology reference
 
     vivo 1 ontology reference
 
+.. topic:: Editor preferred label
+
+    see vivo 1
+
 .. topic:: Alternate name
 
     in vivo 1

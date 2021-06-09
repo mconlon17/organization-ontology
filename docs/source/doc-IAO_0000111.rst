@@ -10,6 +10,10 @@ IAO_0000111 - editor preferred label
 
     editor preferred label
 
+.. topic:: Editor preferred label
+
+    editor preferred term
+
 .. topic:: Definition
 
     The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)

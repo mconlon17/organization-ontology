@@ -10,6 +10,10 @@ OBI_0002815 - has representation
 
     has representation
 
+.. topic:: Editor preferred label
+
+    has representation
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topDataProperty
@@ -20,17 +24,17 @@ OBI_0002815 - has representation
 
 .. topic:: Example
 
-    12th arrondissement of Paris
+    I feel sick to my stomach every Tuesday
 
     20g
 
-    I feel sick to my stomach every Tuesday
+    12th arrondissement of Paris
 
 .. topic:: Editor's note
 
     Further processing may enable the value to be represented in a component data structure such as an OBI value specification.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/obi/2020-08-24/obi.owl
 

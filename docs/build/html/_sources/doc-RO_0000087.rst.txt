@@ -30,7 +30,7 @@ RO_0000087 - has role
 
     A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

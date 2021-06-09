@@ -10,6 +10,10 @@ ORG_0000087 - academic college disposition
 
     academic college disposition
 
+.. topic:: Editor preferred label
+
+    academic college
+
 .. topic:: Alternate name
 
     university college

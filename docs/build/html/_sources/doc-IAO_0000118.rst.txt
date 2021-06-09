@@ -10,6 +10,10 @@ IAO_0000118 - alternative term
 
     alternative term
 
+.. topic:: Editor preferred label
+
+    alternative term
+
 .. topic:: Definition
 
     An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)

@@ -28,9 +28,9 @@ ORG_2000005 - has website
 
 .. topic:: Range
 
-    :doc:`doc-ORG_0000050`
+    :doc:`doc-ORG_0000057`
 
-.. topic:: Inverse Of
+.. topic:: Inverse of
 
     :doc:`doc-ORG_2000006`
 

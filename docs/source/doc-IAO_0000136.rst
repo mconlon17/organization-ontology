@@ -34,7 +34,7 @@ IAO_0000136 - is about
     
     Some currently missing phenomena that should be considered "about" are predications - "The only person who knows the answer is sitting beside me" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
 

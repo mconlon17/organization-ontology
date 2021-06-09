@@ -10,6 +10,10 @@ ORG_0000060 - organizational membership
 
     organizational membership
 
+.. topic:: Editor preferred label
+
+    membership
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000003`

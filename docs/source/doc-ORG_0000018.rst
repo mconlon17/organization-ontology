@@ -10,6 +10,10 @@ ORG_0000018 - archive disposition
 
     archive disposition
 
+.. topic:: Editor preferred label
+
+    archive
+
 .. topic:: Alternate name
 
     archives

@@ -10,6 +10,10 @@ ORG_0000080 - media disposition
 
     media disposition
 
+.. topic:: Editor preferred label
+
+    media
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000016`

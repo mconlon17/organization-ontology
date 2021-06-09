@@ -30,7 +30,7 @@ RO_0000086 - has quality
 
     A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

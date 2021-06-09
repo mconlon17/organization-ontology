@@ -10,6 +10,10 @@ ORG_2000004 - has organizational interest
 
     has organizational interest
 
+.. topic:: Editor preferred label
+
+    has interest
+
 .. topic:: Alternate name
 
     interested in

@@ -10,6 +10,10 @@ IAO_0000232 - curator note
 
     curator note
 
+.. topic:: Editor preferred label
+
+    curator note
+
 .. topic:: Definition
 
     An administrative note of use for a curator but of no use for a user

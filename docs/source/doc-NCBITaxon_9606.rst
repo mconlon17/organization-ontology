@@ -10,11 +10,15 @@ NCBITaxon_9606 - Homo sapiens
 
     Homo sapiens
 
+.. topic:: Editor preferred label
+
+    Homo sapiens
+
 .. topic:: Alternate name
 
-    human being
-
     human
+
+    human being
 
 .. topic:: Sub class of
 
@@ -24,7 +28,7 @@ NCBITaxon_9606 - Homo sapiens
 
     The species of bipedal primates to which moden humans belong
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/obi/2021-04-06/obi.owl
 

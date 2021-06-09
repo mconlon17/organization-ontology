@@ -18,7 +18,7 @@ BFO_0000148 - zero-dimensional temporal region
 
     A temporal region of no duration.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
 

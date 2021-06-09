@@ -10,6 +10,10 @@ ORG_0000032 - project team disposition
 
     project team disposition
 
+.. topic:: Editor preferred label
+
+    project team
+
 .. topic:: Alternate name
 
     team

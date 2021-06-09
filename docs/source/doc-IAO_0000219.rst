@@ -34,7 +34,7 @@ IAO_0000219 - denotes
     there is some c that is a concretization of g 
     every c that is a concretization of g specifically denotes r
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
 

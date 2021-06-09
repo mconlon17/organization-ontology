@@ -10,6 +10,10 @@ ORG_0000014 - philanthropy disposition
 
     philanthropy disposition
 
+.. topic:: Editor preferred label
+
+    philanthropy
+
 .. topic:: Alternate name
 
     philanthropic

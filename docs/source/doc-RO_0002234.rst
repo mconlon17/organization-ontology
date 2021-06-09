@@ -18,7 +18,7 @@ RO_0002234 - has output
 
     P has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

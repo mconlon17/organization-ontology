@@ -10,6 +10,10 @@ ORG_0000082 - labor union disposition
 
     labor union disposition
 
+.. topic:: Editor preferred label
+
+    labor union
+
 .. topic:: Alternate name
 
     trade union

@@ -18,7 +18,15 @@ inXSDDateTimeStamp - in XSD Date-Time-Stamp
 
     A datatype property to contain the representation of a time instant as an xsd datetimestamp
 
-.. topic:: Imported From
+.. topic:: Domain
+
+    http://www.w3.org/2006/time#Instant
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#dateTimeStamp
+
+.. topic:: Imported from
 
     http://www.w3.org/2006/time#2016
 

@@ -10,6 +10,12 @@ IAO_0022057 - ringgold identifier
 
     ringgold identifier
 
+.. topic:: Editor preferred label
+
+    http://purl.obolibrary.org/obo/IAO_0000123
+
+    Ringgold ID
+
 .. topic:: Sub class of
 
     :doc:`doc-IAO_0000578`
@@ -22,7 +28,7 @@ IAO_0022057 - ringgold identifier
 
     https://www.ringgold.com/ringgold-identifier/
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl
 

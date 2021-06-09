@@ -10,6 +10,10 @@ ORG_0000012 - extension provider disposition
 
     extension provider disposition
 
+.. topic:: Editor preferred label
+
+    extension provider
+
 .. topic:: Alternate name
 
     agricultural extension

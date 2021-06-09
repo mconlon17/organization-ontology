@@ -12,9 +12,9 @@ RO_0000081 - role of
 
 .. topic:: Alternate name
 
-    is role of
-
     role_of
+
+    is role of
 
 .. topic:: Sub property of
 
@@ -32,7 +32,7 @@ RO_0000081 - role of
 
     A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

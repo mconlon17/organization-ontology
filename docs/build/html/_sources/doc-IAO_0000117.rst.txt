@@ -10,6 +10,10 @@ IAO_0000117 - term editor
 
     term editor
 
+.. topic:: Editor preferred label
+
+    term editor
+
 .. topic:: Definition
 
     Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people

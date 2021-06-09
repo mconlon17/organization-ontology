@@ -10,6 +10,10 @@ BFO_0000055 - realizes
 
     realizes
 
+.. topic:: Editor preferred label
+
+    realizes
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty
@@ -20,13 +24,13 @@ BFO_0000055 - realizes
 
 .. topic:: Example
 
+    this shattering realizes this fragility
+
     this disease course realizes this disease
 
     this investigation realizes this investigator role
 
-    this shattering realizes this fragility
-
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

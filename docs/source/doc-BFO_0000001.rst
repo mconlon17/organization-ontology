@@ -18,7 +18,7 @@ BFO_0000001 - entity
 
     The fundamental thing that has existence. All things that exist are entities.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
 

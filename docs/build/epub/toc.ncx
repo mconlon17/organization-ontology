@@ -1374,47 +1374,41 @@
     </navPoint>
     <navPoint id="navPoint228" playOrder="223">
       <navLabel>
-        <text>A Cross Index</text>
-      </navLabel>
-      <content src="vivo-to-org.xhtml#a-cross-index" />  
-    </navPoint>
-    <navPoint id="navPoint229" playOrder="224">
-      <navLabel>
         <text>Translating from ROR to the Organization Ontology</text>
       </navLabel>
       <content src="ror-to-org.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint230" playOrder="225">
+    <navPoint id="navPoint229" playOrder="224">
       <navLabel>
         <text>Translating from schema.org to the Organization Ontology</text>
       </navLabel>
       <content src="schema-to-org.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint231" playOrder="226">
+    <navPoint id="navPoint230" playOrder="225">
       <navLabel>
         <text>Dates Data</text>
       </navLabel>
       <content src="data-dates.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint232" playOrder="227">
+    <navPoint id="navPoint231" playOrder="226">
       <navLabel>
         <text>For Ontology Authors</text>
       </navLabel>
       <content src="ontology-authors.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint233" playOrder="228">
+    <navPoint id="navPoint232" playOrder="227">
       <navLabel>
         <text>For Documentation Authors</text>
       </navLabel>
       <content src="documentation-authors.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint234" playOrder="229">
+    <navPoint id="navPoint233" playOrder="228">
       <navLabel>
         <text>Notes and Sources</text>
       </navLabel>
       <content src="notes-and-sources.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint235" playOrder="230">
+    <navPoint id="navPoint234" playOrder="229">
       <navLabel>
         <text>Glossary</text>
       </navLabel>

@@ -10,6 +10,10 @@ ORG_0000091 - middle school disposition
 
     middle school disposition
 
+.. topic:: Editor preferred label
+
+    middle school
+
 .. topic:: Alternate name
 
     lower secondary school

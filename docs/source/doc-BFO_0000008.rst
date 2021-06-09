@@ -18,7 +18,7 @@ BFO_0000008 - temporal region
 
     An occurent which is some part of time
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
 

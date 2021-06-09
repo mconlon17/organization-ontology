@@ -28,9 +28,9 @@ ORG_0000003 - company
 
 .. topic:: Similar term in VIVO 1 Ontology
 
-    http://vivoweb.org/ontology/core#Company
-
     http://vivoweb.org/ontology/core#PrivateCompany
+
+    http://vivoweb.org/ontology/core#Company
 
 .. topic:: Term editor
 

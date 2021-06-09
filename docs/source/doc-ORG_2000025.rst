@@ -10,6 +10,10 @@ ORG_2000025 - organizational appointee of
 
     organizational appointee of
 
+.. topic:: Editor preferred label
+
+    appointee of
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty

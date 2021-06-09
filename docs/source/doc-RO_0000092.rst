@@ -18,7 +18,7 @@ RO_0000092 - disposition of
 
     Inverse of has disposition
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

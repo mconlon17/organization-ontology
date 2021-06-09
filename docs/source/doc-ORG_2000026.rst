@@ -30,7 +30,7 @@ ORG_2000026 - has person member
 
     :doc:`doc-NCBITaxon_9606`
 
-.. topic:: Inverse Of
+.. topic:: Inverse of
 
     :doc:`doc-ORG_2000027`
 

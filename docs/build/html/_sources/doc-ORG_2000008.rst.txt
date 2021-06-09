@@ -10,6 +10,10 @@ ORG_2000008 - successor organization of
 
     successor organization of
 
+.. topic:: Editor preferred label
+
+    successor of
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty

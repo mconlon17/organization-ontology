@@ -10,6 +10,10 @@ ORG_0000020 - gallery disposition
 
     gallery disposition
 
+.. topic:: Editor preferred label
+
+    gallery
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000016`

@@ -20,27 +20,27 @@ BFO_0000004 - independent continuant
 
 .. topic:: Example
 
-    a molecule
-
-    a leg
-
-    a chair
-
-    a spatial region
-
-    the interior of your mouth
+    the bottom right portion of a human torso
 
     an atom
 
-    an organism
+    a molecule
 
     a heart
 
+    a leg
+
+    a spatial region
+
+    an organism
+
+    the interior of your mouth
+
+    a chair
+
     an orchestra.
 
-    the bottom right portion of a human torso
-
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl
 

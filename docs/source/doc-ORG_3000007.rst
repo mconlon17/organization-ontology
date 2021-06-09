@@ -10,6 +10,10 @@ ORG_3000007 - has organization name
 
     has organization name
 
+.. topic:: Editor preferred label
+
+    has name
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topDataProperty

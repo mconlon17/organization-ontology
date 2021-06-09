@@ -10,6 +10,10 @@ ORG_3000005 - has URL representation
 
     has URL representation
 
+.. topic:: Editor preferred label
+
+    has URL
+
 .. topic:: Alternate name
 
     has uniform resource locator
@@ -28,7 +32,7 @@ ORG_3000005 - has URL representation
 
 .. topic:: Domain
 
-    :doc:`doc-ORG_0000053`
+    :doc:`doc-ORG_0000057`
 
 .. topic:: Range
 

@@ -18,7 +18,7 @@ Instant - time instant
 
     A zero-dimensional part of time.  Precision may specify a range.  Represented by xsd datetime string
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://www.w3.org/2006/time#2016
 

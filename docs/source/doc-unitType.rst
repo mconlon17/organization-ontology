@@ -18,7 +18,7 @@ unitType - temporal unit type
 
     An indicator of the temporal precision of a time instant
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://www.w3.org/2006/time#2016
 

@@ -10,6 +10,10 @@ ORG_0000022 - research disposition
 
     research disposition
 
+.. topic:: Editor preferred label
+
+    research
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000016`

@@ -10,6 +10,10 @@ ORG_0000002 - government organization
 
     government organization
 
+.. topic:: Editor preferred label
+
+    government
+
 .. topic:: Alternate name
 
     government

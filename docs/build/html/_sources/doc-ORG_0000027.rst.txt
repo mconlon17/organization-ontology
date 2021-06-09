@@ -10,6 +10,10 @@ ORG_0000027 - commerce disposition
 
     commerce disposition
 
+.. topic:: Editor preferred label
+
+    commerce
+
 .. topic:: Alternate name
 
     business

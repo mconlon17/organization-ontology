@@ -12,15 +12,15 @@ RO_0002012 - occurent part of
 
 .. topic:: Sub property of
 
-    http://www.w3.org/2002/07/owl#topObjectProperty
-
     :doc:`doc-BFO_0000050`
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
 
 .. topic:: Definition
 
     A part of relation that applies only between occurents.
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

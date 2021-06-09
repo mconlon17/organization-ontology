@@ -10,6 +10,10 @@ RO_0001015 - location of
 
     location of
 
+.. topic:: Editor preferred label
+
+    is location of
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty
@@ -20,15 +24,15 @@ RO_0001015 - location of
 
 .. topic:: Example
 
-    this cage is the location of this rat
-
     my head is the location of my brain
+
+    this cage is the location of this rat
 
 .. topic:: Editor's note
 
     Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

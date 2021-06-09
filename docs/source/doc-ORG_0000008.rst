@@ -10,6 +10,10 @@ ORG_0000008 - association disposition
 
     association disposition
 
+.. topic:: Editor preferred label
+
+    association
+
 .. topic:: Alternate name
 
     professional society

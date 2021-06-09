@@ -18,7 +18,7 @@ RO_0002131 - overlaps
 
     X overlaps y if and only if there exists some z such that x has part z and z part of y
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
 

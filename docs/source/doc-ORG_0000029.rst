@@ -10,6 +10,10 @@ ORG_0000029 - religious disposition
 
     religious disposition
 
+.. topic:: Editor preferred label
+
+    religious
+
 .. topic:: Alternate name
 
     church

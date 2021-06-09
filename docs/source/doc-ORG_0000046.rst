@@ -10,6 +10,10 @@ ORG_0000046 - geographic point
 
     geographic point
 
+.. topic:: Editor preferred label
+
+    zero-dimensional geographical location
+
 .. topic:: Alternate name
 
     latlong

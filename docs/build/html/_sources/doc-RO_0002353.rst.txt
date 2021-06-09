@@ -18,7 +18,7 @@ RO_0002353 - output of
 
     Inverse of has output
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
 

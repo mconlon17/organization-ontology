@@ -10,6 +10,10 @@ ORG_0000016 - health care service provider disposition
 
     health care service provider disposition
 
+.. topic:: Editor preferred label
+
+    health care service provider
+
 .. topic:: Alternate name
 
     health care provider

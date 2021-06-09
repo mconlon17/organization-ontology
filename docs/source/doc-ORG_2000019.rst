@@ -10,6 +10,10 @@ ORG_2000019 - organizational associate of
 
     organizational associate of
 
+.. topic:: Editor preferred label
+
+    associate of
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty

@@ -10,6 +10,10 @@ ORG_2000015 - organizational member of
 
     organizational member of
 
+.. topic:: Editor preferred label
+
+    member of
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty

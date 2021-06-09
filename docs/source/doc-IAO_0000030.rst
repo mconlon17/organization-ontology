@@ -10,6 +10,10 @@ IAO_0000030 - information content entity
 
     information content entity
 
+.. topic:: Editor preferred label
+
+    information content entity
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000031`
@@ -34,7 +38,7 @@ IAO_0000030 - information content entity
 
     2014-03-10: The use of "thing" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).
 
-.. topic:: Imported From
+.. topic:: Imported from
 
     http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
 

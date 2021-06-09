@@ -10,6 +10,10 @@ ORG_2000017 - organizational employee of
 
     organizational employee of
 
+.. topic:: Editor preferred label
+
+    employee of
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty

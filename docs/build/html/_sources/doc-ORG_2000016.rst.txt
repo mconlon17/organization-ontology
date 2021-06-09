@@ -10,6 +10,10 @@ ORG_2000016 - has organizational employee
 
     has organizational employee
 
+.. topic:: Editor preferred label
+
+    has employee
+
 .. topic:: Sub property of
 
     http://www.w3.org/2002/07/owl#topObjectProperty
@@ -30,7 +34,7 @@ ORG_2000016 - has organizational employee
 
     :doc:`doc-NCBITaxon_9606`
 
-.. topic:: Inverse Of
+.. topic:: Inverse of
 
     :doc:`doc-ORG_2000017`
 

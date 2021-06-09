@@ -10,6 +10,10 @@ ORG_0000036 - shipping address quality
 
     shipping address quality
 
+.. topic:: Editor preferred label
+
+    shipping address
+
 .. topic:: Alternate name
 
     delivery address

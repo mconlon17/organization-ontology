@@ -10,6 +10,10 @@ ORG_0000019 - museum disposition
 
     museum disposition
 
+.. topic:: Editor preferred label
+
+    museum
+
 .. topic:: Sub class of
 
     :doc:`doc-BFO_0000016`

@@ -10,6 +10,10 @@ ORG_3000004 - has geolocation representation
 
     has geolocation representation
 
+.. topic:: Editor preferred label
+
+    has latlong
+
 .. topic:: Alternate name
 
     has geolocation
@@ -28,7 +32,7 @@ ORG_3000004 - has geolocation representation
 
 .. topic:: Domain
 
-    :doc:`doc-ORG_0000044`
+    :doc:`doc-ORG_0000046`
 
 .. topic:: Range
 
