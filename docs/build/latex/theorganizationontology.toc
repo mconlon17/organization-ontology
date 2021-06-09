@@ -282,7 +282,7 @@
 \contentsline {section}{\numberline {21.4}Automated GitHub pages}{240}{section.21.4}%
 \contentsline {section}{\numberline {21.5}Resulting Documentation Features}{240}{section.21.5}%
 \contentsline {chapter}{\numberline {22}Notes and Sources}{241}{chapter.22}%
-\contentsline {section}{\numberline {22.1}Regarding the W3C Organization Ontology}{241}{section.22.1}%
+\contentsline {section}{\numberline {22.1}Regarding the W3C Organization Ontology}{242}{section.22.1}%
 \contentsline {section}{\numberline {22.2}References}{242}{section.22.2}%
 \contentsline {chapter}{\numberline {23}Glossary}{243}{chapter.23}%
 \contentsline {chapter}{\numberline {24}List of Tables}{245}{chapter.24}%

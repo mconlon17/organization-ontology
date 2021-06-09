@@ -122,7 +122,7 @@ in the Organization Ontology.
     
                                Disposition is unknown
                                
-                               Quality is student led [#]_. 
+                               Quality is student led.
     Team                       Type is unknown.  Assert organization only.
     
                                Disposition is unknown [#]_
@@ -164,8 +164,6 @@ providing disposition and a laboratory disposition in the Organization Ontology.
    Ontology, both would be asserted to be type vivo:Museum.  In the Organization
    Ontology, the first would be asserted to be nonprofit, the second organization
    part.  Both would be asserted to have disposition museum.
-   
-.. [#] To be determined.
 
 .. [#] Team may mean "sports team" or "project team" or other.  A sports team may
    be formal, such as Manchester United Football Club, or informal as in "my weekly

@@ -74,7 +74,7 @@
 
 
 \title{The Organization Ontology}
-\date{Jun 08, 2021}
+\date{Jun 09, 2021}
 \release{}
 \author{The VIVO Ontology Interest Group}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -16622,6 +16622,27 @@ administrative ontology.
 \end{sphinxShadowBox}
 
 \begin{sphinxShadowBox}
+\sphinxstyletopictitle{has attendee / attendee of}
+
+\sphinxAtStartPar
+We say a person attended a university.  Ontologically, we mean a person participated
+in an educational process at a university. Representation of teaching and learning
+is out of scope for the Organization Ontology.  Similarly has alum / alum of also
+belong in a teaching and learning ontology.
+\end{sphinxShadowBox}
+
+\begin{sphinxShadowBox}
+\sphinxstyletopictitle{relationship}
+
+\sphinxAtStartPar
+VIVO 1 had an entity, relationship, that is currently missing in the OBO ontologies.
+We have not added it to the Organization Ontology, as it is out of scope here.
+Several entities are defined in terms of relationships and should eventually have
+relationship as a super class.  For now, these are defined here as simply
+occurents.
+\end{sphinxShadowBox}
+
+\begin{sphinxShadowBox}
 \sphinxstyletopictitle{Additional detail regarding locations}
 
 \sphinxAtStartPar
@@ -16706,7 +16727,7 @@ in the Organization Ontology.
 \centering
 \sphinxcapstartof{table}
 \sphinxthecaptionisattop
-\sphinxcaption{Table 17 Translating VIVO types to Organizational Ontology assertions}\label{\detokenize{vivo-to-org:id9}}\label{\detokenize{vivo-to-org:table-17}}
+\sphinxcaption{Table 17 Translating VIVO types to Organizational Ontology assertions}\label{\detokenize{vivo-to-org:id7}}\label{\detokenize{vivo-to-org:table-17}}
 \sphinxaftertopcaption
 \begin{tabulary}{\linewidth}[t]{|T|T|}
 \hline
@@ -16986,11 +17007,7 @@ Type is organizational part
 Disposition is unknown
 
 \sphinxAtStartPar
-Quality is student led %
-\begin{footnote}[3]\sphinxAtStartFootnote
-To be determined.
-%
-\end{footnote}.
+Quality is student led.
 \\
 \hline
 \sphinxAtStartPar
@@ -17001,7 +17018,7 @@ Type is unknown.  Assert organization only.
 
 \sphinxAtStartPar
 Disposition is unknown %
-\begin{footnote}[4]\sphinxAtStartFootnote
+\begin{footnote}[3]\sphinxAtStartFootnote
 Team may mean “sports team” or “project team” or other.  A sports team may
 be formal, such as Manchester United Football Club, or informal as in “my weekly
 bowling team.”  A project team may be considered part of an organization, or
@@ -17049,7 +17066,7 @@ See {\hyperref[\detokenize{vivo-to-org:table-10}]{\sphinxcrossref{Table 10}}}.
 
 \begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|l|l|}
 \sphinxthelongtablecaptionisattop
-\caption{Table 10 VIVO 1 Cross Reference\strut}\label{\detokenize{vivo-to-org:id10}}\label{\detokenize{vivo-to-org:table-10}}\\*[\sphinxlongtablecapskipadjust]
+\caption{Table 10 VIVO 1 Cross Reference\strut}\label{\detokenize{vivo-to-org:id8}}\label{\detokenize{vivo-to-org:table-10}}\\*[\sphinxlongtablecapskipadjust]
 \hline
 \sphinxstyletheadfamily 
 \sphinxAtStartPar
@@ -18019,6 +18036,9 @@ processing templates of properties, merging them and \sphinxcode{\sphinxupquote{
 produce \sphinxcode{\sphinxupquote{org.ttl}} and then to run reports against \sphinxcode{\sphinxupquote{org.ttl}} for validation.
 
 \sphinxAtStartPar
+We use \sphinxhref{http://vowl.visualdataweb.org/webvowl.html}{WebVOWL} \sphinxcite{notes-and-sources:lohmann2016} to visualize ontologies.
+
+\sphinxAtStartPar
 We have tried to represent organizations in a manner that is inclusive of ideas
 regarding organizations that have been represented elsewhere.  The VIVO
 Ontology \sphinxcite{notes-and-sources:vivo2013}
@@ -18373,6 +18393,11 @@ MIREOT Protege Plugin. International Semantic Web Conference,
 Jackson, R.C., Balhoff, J.P., Douglass, E. et al. ROBOT: A Tool
 for Automating Ontology Workflows. BMC Bioinformatics 20, 407 (2019).
 \sphinxurl{https://doi.org/10.1186/s12859-019-3002-3}
+\bibitem[Lohmann2016]{notes-and-sources:lohmann2016}
+\sphinxAtStartPar
+Lohmann, S, Negru, S, Haag, F and Ertl, T (2016) Visualizing
+Ontologies with VOWL” Accessed June 9, 2021. DOI: 10.3233/SW\sphinxhyphen{}150200
+\sphinxurl{https://content.iospress.com/articles/semantic-web/sw200}.
 \bibitem[vivo2013]{notes-and-sources:vivo2013}
 \sphinxAtStartPar
 Conlon, M. Mitchell, S. (2018) VIVO Ontology for Researcher Discovery.

@@ -504,6 +504,8 @@ time:inXSDDateTimeStamp rdf:type owl:DatatypeProperty ;
                         rdfs:subPropertyOf owl:topDataProperty ;
                         obo:IAO_0000115 "A datatype property to contain the representation of a time instant as an xsd datetimestamp" ;
                         obo:IAO_0000412 "http://www.w3.org/2006/time#2016"^^xsd:string ;
+                        rdfs:domain time:Instant;
+                        rdfs:range xsd:dateTimeStamp ;
                         rdfs:label "in XSD Date-Time-Stamp"@en .
 
 

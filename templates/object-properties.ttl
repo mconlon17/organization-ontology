@@ -121,7 +121,7 @@
                                              rdfs:subPropertyOf owl:topObjectProperty ;
                                              owl:inverseOf <http://purl.obolibrary.org/obo/ORG_2000006> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000001> ;
-                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000050> ;
+                                             rdfs:range <http://purl.obolibrary.org/obo/ORG_0000057> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "LYRASIS has website https://lyrasis.org.  Moscow State University has website https://msu.ru"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyURI ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "The property that associates an organization with its website"@en ;
@@ -133,7 +133,7 @@
 ###  http://purl.obolibrary.org/obo/ORG_2000006
 <http://purl.obolibrary.org/obo/ORG_2000006> rdf:type owl:ObjectProperty ;
                                              rdfs:subPropertyOf owl:topObjectProperty ;
-                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000050> ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo/ORG_0000057> ;
                                              rdfs:range <http://purl.obolibrary.org/obo/ORG_0000001> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000112> "The website https://vivoweb.org website of The VIVO Project"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> "iao:0000423"^^xsd:anyURI ;
@@ -487,8 +487,8 @@
 <http://purl.obolibrary.org/obo/ORG_0000045> rdf:type owl:Class .
 
 
-###  http://purl.obolibrary.org/obo/ORG_0000050
-<http://purl.obolibrary.org/obo/ORG_0000050> rdf:type owl:Class .
+###  http://purl.obolibrary.org/obo/ORG_0000057
+<http://purl.obolibrary.org/obo/ORG_0000057> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept

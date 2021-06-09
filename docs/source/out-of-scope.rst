@@ -82,7 +82,22 @@ Out of Scope and Not Included Here
 	We believe these are out of scope for an organization ontology, and are best left to 
 	an
 	administrative ontology.
+	
+.. topic:: has attendee / attendee of
 
+    We say a person attended a university.  Ontologically, we mean a person participated
+    in an educational process at a university. Representation of teaching and learning
+    is out of scope for the Organization Ontology.  Similarly has alum / alum of also
+    belong in a teaching and learning ontology.
+    
+.. topic:: relationship
+
+    VIVO 1 had an entity, relationship, that is currently missing in the OBO ontologies.
+    We have not added it to the Organization Ontology, as it is out of scope here.
+    Several entities are defined in terms of relationships and should eventually have
+    relationship as a super class.  For now, these are defined here as simply
+    occurents.  
+    
 .. topic:: Additional detail regarding locations
 
   We have tried to include enough, but not too much.  This is not a locations 

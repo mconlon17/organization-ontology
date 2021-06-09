@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.4)  8 JUN 2021 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.4)  9 JUN 2021 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,27 +969,27 @@ Chapter 14.
 ]
 Chapter 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17026--17026
+Underfull \hbox (badness 10000) in paragraph at lines 17043--17043
 []\T1/ptm/m/n/10 Fundin-gOr-ga-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17026--17026
+Underfull \hbox (badness 10000) in paragraph at lines 17043--17043
 []\T1/ptm/m/n/10 Gov-ern-men-t-A-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17026--17026
+Underfull \hbox (badness 10000) in paragraph at lines 17043--17043
 []\T1/ptm/m/n/10 Re-searchOr-ga-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17026--17026
+Underfull \hbox (badness 10000) in paragraph at lines 17043--17043
 []\T1/ptm/m/n/10 Ser-vi-ce-Pro-vid-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17026--17026
+Underfull \hbox (badness 10000) in paragraph at lines 17043--17043
 []\T1/ptm/m/n/10 Stu-den-tOr-ga-ni-
  []
 
@@ -1004,37 +1004,37 @@ Overfull \vbox (159.76979pt too high) has occurred while \output is active []
 ]
 Chapter 16.
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17050--17062
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17067--17079
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17062--17075
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17079--17092
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17075--17079
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17092--17096
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17079--17081
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17096--17098
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17081--17222
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17098--17239
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17222--17362
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17239--17379
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17362--17363
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17379--17380
  [] [] 
  []
 
@@ -1047,24 +1047,24 @@ Chapter 17.
 ]
 Chapter 18.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17710--17710
+Underfull \hbox (badness 10000) in paragraph at lines 17727--17727
 []\T1/ptm/m/n/10 Ed-u-ca-tion-alOr-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17710--17710
+Underfull \hbox (badness 10000) in paragraph at lines 17727--17727
 []\T1/ptm/m/n/10 Gov-ern-men-tOr-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17710--17710
+Underfull \hbox (badness 10000) in paragraph at lines 17727--17727
 []\T1/ptm/m/n/10 News-Me-diaOr-ga-ni-za-
  []
 
 [233] [234]
 Chapter 19.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 17736.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 17753.
 
 [235
 
@@ -1195,10 +1195,10 @@ Package rerunfilecheck Info: File `theorganizationontology.out' has not changed
 (rerunfilecheck)             Checksum: 264199D1BDCCAFCE62A9CA1C42510527;3883.
  ) 
 Here is how much of TeX's memory you used:
- 15006 strings out of 478994
- 229449 string characters out of 5858185
- 641206 words of memory out of 5000000
- 31437 multiletter control sequences out of 15000+600000
+ 15007 strings out of 478994
+ 229501 string characters out of 5858185
+ 641266 words of memory out of 5000000
+ 31438 multiletter control sequences out of 15000+600000
  465413 words of font info for 109 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  83i,16n,88p,1350b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1212,10 +1212,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on theorganizationontology.pdf (263 pages, 722592 bytes).
+Output written on theorganizationontology.pdf (263 pages, 723473 bytes).
 PDF statistics:
- 3711 PDF objects out of 4296 (max. 8388607)
- 3291 compressed objects within 33 object streams
+ 3712 PDF objects out of 4296 (max. 8388607)
+ 3293 compressed objects within 33 object streams
  686 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

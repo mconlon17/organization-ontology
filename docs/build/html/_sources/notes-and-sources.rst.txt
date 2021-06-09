@@ -27,6 +27,8 @@ adding terms from other ontologies to ``org-header.ttl``  We use robot [Jackson2
 processing templates of properties, merging them and ``org-header.ttl`` together to
 produce ``org.ttl`` and then to run reports against ``org.ttl`` for validation.
 
+We use `WebVOWL <http://vowl.visualdataweb.org/webvowl.html>`_ [Lohmann2016]_ to visualize ontologies.
+
 We have tried to represent organizations in a manner that is inclusive of ideas
 regarding organizations that have been represented elsewhere.  The VIVO 
 Ontology [vivo2013]_
@@ -121,6 +123,11 @@ References
 .. [Jackson2019] Jackson, R.C., Balhoff, J.P., Douglass, E. et al. ROBOT: A Tool 
    for Automating Ontology Workflows. BMC Bioinformatics 20, 407 (2019). 
    https://doi.org/10.1186/s12859-019-3002-3
+   
+.. [Lohmann2016] Lohmann, S, Negru, S, Haag, F and Ertl, T (2016) Visualizing
+   Ontologies with VOWL” Accessed June 9, 2021. DOI: 10.3233/SW-150200
+   https://content.iospress.com/articles/semantic-web/sw200.
+
 
 .. [vivo2013] Conlon, M. Mitchell, S. (2018) VIVO Ontology for Researcher Discovery.
    Ontology. 

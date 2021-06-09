@@ -184,7 +184,7 @@
 <h1>Translating from VIVO to the Organization Ontology<a class="headerlink" href="#translating-from-vivo-to-the-organization-ontology" title="Permalink to this headline">¶</a></h1>
 <p>For those familiar with representing organizations using the VIVO Ontology,
 we provide a guide for translating assertions in the VIVO Ontology to assertions
-in the Organization Ontology <a class="footnote-reference brackets" href="#id5" id="id1">1</a>.</p>
+in the Organization Ontology <a class="footnote-reference brackets" href="#id4" id="id1">1</a>.</p>
 <div class="section" id="translating-types">
 <h2>Translating Types<a class="headerlink" href="#translating-types" title="Permalink to this headline">¶</a></h2>
 <p>The VIVO Ontology organization types are presented in <a class="reference internal" href="#table-17">Table 17</a> with instructions
@@ -196,11 +196,11 @@ combined these and information about one or the other (“is”, “does”) is 
 assertion of purpose.  The type of organization (organization part, nonprofit) is
 missing.  We can assert the museum is an organization, and has a disposition of
 museum.  We may be able to bring additional information to bear and assert a
-a specific type <a class="footnote-reference brackets" href="#id6" id="id2">2</a>.</p>
+a specific type <a class="footnote-reference brackets" href="#id5" id="id2">2</a>.</p>
 <p><a class="reference internal" href="#table-17">Table 17</a> provides a guide for translating Organizational types to assertions
 in the Organization Ontology.</p>
-<span id="table-17"></span><table class="docutils align-default" id="id9">
-<caption><span class="caption-text">Table 17 Translating VIVO types to Organizational Ontology assertions</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<span id="table-17"></span><table class="docutils align-default" id="id7">
+<caption><span class="caption-text">Table 17 Translating VIVO types to Organizational Ontology assertions</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 32%" />
 <col style="width: 68%" />
@@ -339,12 +339,12 @@ research</p>
 <tr class="row-odd"><td><p>StudentOrganization</p></td>
 <td><p>Type is organizational part</p>
 <p>Disposition is unknown</p>
-<p>Quality is student led <a class="footnote-reference brackets" href="#id7" id="id3">3</a>.</p>
+<p>Quality is student led.</p>
 </td>
 </tr>
 <tr class="row-even"><td><p>Team</p></td>
 <td><p>Type is unknown.  Assert organization only.</p>
-<p>Disposition is unknown <a class="footnote-reference brackets" href="#id8" id="id4">4</a></p>
+<p>Disposition is unknown <a class="footnote-reference brackets" href="#id6" id="id3">3</a></p>
 </td>
 </tr>
 <tr class="row-odd"><td><p>University</p></td>
@@ -369,8 +369,8 @@ indicates only that the terms are similar in their meaning and/or usage.</p>
 ServiceProvidingLaboratory in VIVO 1 is an organizaition with a service
 providing disposition and a laboratory disposition in the Organization Ontology.</p>
 <p>See <a class="reference internal" href="#table-10">Table 10</a>.</p>
-<span id="table-10"></span><table class="docutils align-default" id="id10">
-<caption><span class="caption-text">Table 10 VIVO 1 Cross Reference</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<span id="table-10"></span><table class="docutils align-default" id="id8">
+<caption><span class="caption-text">Table 10 VIVO 1 Cross Reference</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 55%" />
 <col style="width: 45%" />
@@ -505,13 +505,13 @@ providing disposition and a laboratory disposition in the Organization Ontology.
 </table>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dt class="label" id="id4"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
 <dd><p>We intend to provide SPARQL CONSTRUCT queries for automatica translation of
 VIVO Ontology organization assertions to Organization Ontology assertions
 in the future.  Consider this guide as advice to the adventurous, or to collaborators
 who would like to draft, test, and contribute such queries.</p>
 </dd>
-<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
 <dd><p>Note that additional information is needed.  The Metropolitan Museum of Art
 in New York City is a nonprofit organization.  The Florida Museum of Natural
 History in Gainesville, Florida, is an organizational part of the University of
@@ -520,10 +520,7 @@ Ontology, both would be asserted to be type vivo:Museum.  In the Organization
 Ontology, the first would be asserted to be nonprofit, the second organization
 part.  Both would be asserted to have disposition museum.</p>
 </dd>
-<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
-<dd><p>To be determined.</p>
-</dd>
-<dt class="label" id="id8"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
 <dd><p>Team may mean “sports team” or “project team” or other.  A sports team may
 be formal, such as Manchester United Football Club, or informal as in “my weekly
 bowling team.”  A project team may be considered part of an organization, or
