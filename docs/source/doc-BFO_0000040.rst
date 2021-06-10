@@ -20,29 +20,29 @@ BFO_0000040 - material entity
 
 .. topic:: Example
 
-    an aggregate of human beings.
-
-    a flame
-
-    a human being
-
-    a photon
-
-    a puff of smoke
-
-    an energy wave
-
-    a tornado
-
-    a hurricane
-
-    a forest fire
+    an epidemic
 
     a sea wave
 
+    an energy wave
+
+    a flame
+
+    a puff of smoke
+
+    a tornado
+
+    a photon
+
     the undetached arm of a human being
 
-    an epidemic
+    a hurricane
+
+    an aggregate of human beings.
+
+    a human being
+
+    a forest fire
 
 .. topic:: Editor's note
 

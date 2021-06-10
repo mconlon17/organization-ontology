@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.4)  9 JUN 2021 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.4)  9 JUN 2021 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,27 +969,27 @@ Chapter 14.
 ]
 Chapter 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17789--17789
+Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
 []\T1/ptm/m/n/10 Fundin-gOr-ga-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17789--17789
+Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
 []\T1/ptm/m/n/10 Gov-ern-men-t-A-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17789--17789
+Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
 []\T1/ptm/m/n/10 Re-searchOr-ga-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17789--17789
+Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
 []\T1/ptm/m/n/10 Ser-vi-ce-Pro-vid-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17789--17789
+Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
 []\T1/ptm/m/n/10 Stu-den-tOr-ga-ni-
  []
 
@@ -998,37 +998,37 @@ Overfull \vbox (159.76979pt too high) has occurred while \output is active []
 
 
 [238]
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17813--17825
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17862--17874
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17825--17838
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17874--17887
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17838--17842
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17887--17891
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17842--17844
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17891--17893
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17844--17985
+Overfull \hbox (32.77065pt too wide) in alignment at lines 17893--18034
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17985--18125
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18034--18174
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 18125--18126
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18174--18175
  [] [] 
  []
 
@@ -1041,24 +1041,24 @@ Chapter 16.
 ]
 Chapter 17.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18473--18473
+Underfull \hbox (badness 10000) in paragraph at lines 18522--18522
 []\T1/ptm/m/n/10 Ed-u-ca-tion-alOr-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18473--18473
+Underfull \hbox (badness 10000) in paragraph at lines 18522--18522
 []\T1/ptm/m/n/10 Gov-ern-men-tOr-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18473--18473
+Underfull \hbox (badness 10000) in paragraph at lines 18522--18522
 []\T1/ptm/m/n/10 News-Me-diaOr-ga-ni-za-
  []
 
 [243] [244]
 Chapter 18.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 18499.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 18548.
 
 [245
 
@@ -1206,10 +1206,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on theorganizationontology.pdf (273 pages, 737186 bytes).
+Output written on theorganizationontology.pdf (273 pages, 738273 bytes).
 PDF statistics:
- 3761 PDF objects out of 4296 (max. 8388607)
- 3331 compressed objects within 34 object streams
+ 3768 PDF objects out of 4296 (max. 8388607)
+ 3338 compressed objects within 34 object streams
  696 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

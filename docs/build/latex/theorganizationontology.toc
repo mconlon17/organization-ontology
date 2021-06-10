@@ -253,8 +253,8 @@
 \contentsline {subsection}{\numberline {13.1.2}unitHour \sphinxhyphen {} hour (unit of temporal duration)}{230}{subsection.13.1.2}%
 \contentsline {subsection}{\numberline {13.1.3}unitMinute \sphinxhyphen {} minute (unit of temporal duration)}{230}{subsection.13.1.3}%
 \contentsline {subsection}{\numberline {13.1.4}unitMonth \sphinxhyphen {} month (unit of temporal duration)}{230}{subsection.13.1.4}%
-\contentsline {subsection}{\numberline {13.1.5}unitSecond \sphinxhyphen {} second (unit of temporal duration)}{230}{subsection.13.1.5}%
-\contentsline {subsection}{\numberline {13.1.6}unitWeek \sphinxhyphen {} week (unit of temporal duration)}{230}{subsection.13.1.6}%
+\contentsline {subsection}{\numberline {13.1.5}unitSecond \sphinxhyphen {} second (unit of temporal duration)}{231}{subsection.13.1.5}%
+\contentsline {subsection}{\numberline {13.1.6}unitWeek \sphinxhyphen {} week (unit of temporal duration)}{231}{subsection.13.1.6}%
 \contentsline {subsection}{\numberline {13.1.7}unitYear \sphinxhyphen {} year (unit of temporal duration)}{231}{subsection.13.1.7}%
 \contentsline {chapter}{\numberline {14}Out of Scope Terms}{233}{chapter.14}%
 \contentsline {section}{\numberline {14.1}Out of Scope but Defined Here}{233}{section.14.1}%

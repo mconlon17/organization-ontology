@@ -51,6 +51,7 @@
                                                                                           "PERSON:Bill Bug"@en ,
                                                                                           "PERSON:Melanie Courtot"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000281"@en ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
                                              rdfs:label "has curation status"@en .
 
 
@@ -149,6 +150,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An IRI or similar locator for a request or discussion of an ontology term."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
+                                             rdfs:isDefinedBy <http://purl.obolibrary.org/obo/iao.owl> ;
                                              rdfs:label "term tracker item"@en .
 
 
@@ -2913,42 +2915,49 @@ We also edited the label addding (skos) to insure unique labels as required by t
 ###  http://www.w3.org/2006/time#unitDay
 <http://www.w3.org/2006/time#unitDay> rdf:type owl:NamedIndividual ,
                                                <http://www.w3.org/2006/time#TemporalUnit> ;
+                                      <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                       rdfs:label "day (unit of temporal duration)"@en .
 
 
 ###  http://www.w3.org/2006/time#unitHour
 <http://www.w3.org/2006/time#unitHour> rdf:type owl:NamedIndividual ,
                                                 <http://www.w3.org/2006/time#TemporalUnit> ;
+                                       <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                        rdfs:label "hour (unit of temporal duration)"@en .
 
 
 ###  http://www.w3.org/2006/time#unitMinute
 <http://www.w3.org/2006/time#unitMinute> rdf:type owl:NamedIndividual ,
                                                   <http://www.w3.org/2006/time#TemporalUnit> ;
+                                         <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                          rdfs:label "minute (unit of temporal duration)"@en .
 
 
 ###  http://www.w3.org/2006/time#unitMonth
 <http://www.w3.org/2006/time#unitMonth> rdf:type owl:NamedIndividual ,
                                                  <http://www.w3.org/2006/time#TemporalUnit> ;
+                                        <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                         rdfs:label "month (unit of temporal duration)"@en .
 
 
 ###  http://www.w3.org/2006/time#unitSecond
 <http://www.w3.org/2006/time#unitSecond> rdf:type owl:NamedIndividual ,
                                                   <http://www.w3.org/2006/time#TemporalUnit> ;
+                                         <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                          rdfs:label "second (unit of temporal duration)"@en .
 
 
 ###  http://www.w3.org/2006/time#unitWeek
 <http://www.w3.org/2006/time#unitWeek> rdf:type owl:NamedIndividual ,
                                                 <http://www.w3.org/2006/time#TemporalUnit> ;
+                                       <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                        rdfs:label "week (unit of temporal duration)"@en .
 
 
 ###  http://www.w3.org/2006/time#unitYear
 <http://www.w3.org/2006/time#unitYear> rdf:type owl:NamedIndividual ,
                                                 <http://www.w3.org/2006/time#TemporalUnit> ;
+                                       <http://purl.obolibrary.org/obo/IAO_0000412> "http://www.w3.org/2006/time#2016"^^xsd:string ;
                                        rdfs:label "year (unit of temporal duration)"@en .
 
 

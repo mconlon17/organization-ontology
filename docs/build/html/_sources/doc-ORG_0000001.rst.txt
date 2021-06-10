@@ -40,13 +40,13 @@ ORG_0000001 - organization
 
 .. topic:: See also
 
+    http://aims.fao.org/aos/geopolitical.owl#organization
+
+    http://purl.obolibrary.org/obo/OBI_0000245
+
     http://xmlns.com/foaf/0.1/Organization
 
     www.w3.org/ns/org#organization
 
     http://www.w3.org/2006/vcard/ns#Organization
-
-    http://purl.obolibrary.org/obo/OBI_0000245
-
-    http://aims.fao.org/aos/geopolitical.owl#organization
 

@@ -20,25 +20,25 @@ BFO_0000004 - independent continuant
 
 .. topic:: Example
 
+    an organism
+
+    a leg
+
     the bottom right portion of a human torso
 
     an atom
 
-    a molecule
+    a spatial region
+
+    an orchestra.
 
     a heart
 
-    a leg
-
-    a spatial region
-
-    an organism
-
-    the interior of your mouth
+    a molecule
 
     a chair
 
-    an orchestra.
+    the interior of your mouth
 
 .. topic:: Imported from
 

@@ -885,9 +885,9 @@
   \item \spxentry{unitType}
     \subitem \spxentry{temporal unit type}, \hyperpage{215}
   \item \spxentry{unitWeek}
-    \subitem \spxentry{week}\spxextra{unit of temporal duration}, \hyperpage{230}
+    \subitem \spxentry{week}\spxextra{unit of temporal duration}, \hyperpage{231}
   \item \spxentry{unitYear}
-    \subitem \spxentry{year}\spxextra{unit of temporal duration}, \hyperpage{230}
+    \subitem \spxentry{year}\spxextra{unit of temporal duration}, \hyperpage{231}
   \item \spxentry{university disposition}
     \subitem \spxentry{ORG\_0000007}, \hyperpage{80}
 
@@ -905,7 +905,7 @@
   \item \spxentry{website of}
     \subitem \spxentry{ORG\_2000006}, \hyperpage{178}
   \item \spxentry{week}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitWeek}, \hyperpage{230}
+    \subitem \spxentry{unitWeek}, \hyperpage{231}
   \item \spxentry{wikidata q number}
     \subitem \spxentry{IAO\_0022027}, \hyperpage{71}
   \item \spxentry{wikipedia quality}
@@ -916,7 +916,7 @@
   \indexspace
   \bigletter Y
   \item \spxentry{year}\spxextra{unit of temporal duration}
-    \subitem \spxentry{unitYear}, \hyperpage{230}
+    \subitem \spxentry{unitYear}, \hyperpage{231}
 
   \indexspace
   \bigletter Z
