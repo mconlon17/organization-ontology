@@ -33,7 +33,7 @@ WHERE {
     # ID and loc_uri
     
     ?s my:name ?name .
-    BIND(IRI(CONCAT("http://vivoweb.org/data/location/",?name)) AS ?loc_uri)
+    BIND(IRI(REPLACE(CONCAT("http://vivoweb.org/data/location/",?name), " ", "%20", "i")) AS ?loc_uri)
     
     # Type of Location
     
@@ -50,7 +50,7 @@ WHERE {
     
     OPTIONAL {
     ?s my:located_in ?bigger
-    BIND(IRI(CONCAT("http://vivoweb.org/data/location/",?bigger)) AS ?bigger_uri)
+    BIND(IRI(REPLACE(CONCAT("http://vivoweb.org/data/location/",?bigger), " ", "%20", "i")) AS ?bigger_uri)
     }  
     
     # Geolocation

@@ -53,7 +53,7 @@ WHERE {
     # org_uri and ROR id
     
     ?s my:id ?ror .
-    BIND(IRI(CONCAT("http://vivoweb.org/org/ror",strafter(str(?ror), "https://ror.org/"))) AS ?org_uri)
+    BIND(IRI(replace(CONCAT("http://vivoweb.org/org/ror",strafter(str(?ror), "https://ror.org/")), " ", "%20", "i")) AS ?org_uri)
     BIND(IRI(CONCAT(str(?org_uri),"rorid")) AS ?ror_uri)
 
     ?s my:name ?name .

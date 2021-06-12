@@ -6,16 +6,6 @@
 @prefix my:    <http://my.org#> .
 @prefix ro:    <http://purl.obolibrary.org/obo/ro.org#RO_> .
 
-<http://vivoweb.org/data/location/San Marino>
-        a           org:0000048 ;
-        rdfs:label  "San Marino" ;
-        ro:0001025  <http://vivoweb.org/data/location/Europe> .
-
-<http://vivoweb.org/data/location/Saint Lucia>
-        a           org:0000048 ;
-        rdfs:label  "Saint Lucia" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
-
 <http://vivoweb.org/data/location/Palau>
         a           org:0000048 ;
         rdfs:label  "Palau" ;
@@ -25,30 +15,25 @@
         a           org:0000047 , org:0000045 ;
         rdfs:label  "Europe" .
 
-<http://vivoweb.org/data/location/Ivory Coast>
-        a           org:0000048 ;
-        rdfs:label  "Ivory Coast" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
-
 <http://vivoweb.org/data/location/Peru>
         a           org:0000048 ;
         rdfs:label  "Peru" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
-
-<http://vivoweb.org/data/location/Timor-Leste>
-        a           org:0000048 ;
-        rdfs:label  "Timor-Leste" ;
-        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Suriname>
         a           org:0000048 ;
         rdfs:label  "Suriname" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Singapore>
         a           org:0000048 ;
         rdfs:label  "Singapore" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/Timor-Leste>
+        a           org:0000048 ;
+        rdfs:label  "Timor-Leste" ;
+        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
 
 <http://vivoweb.org/data/location/Taiwan>
         a           org:0000048 ;
@@ -63,22 +48,22 @@
 <http://vivoweb.org/data/location/Florida>
         a           org:0000049 , org:0000045 ;
         rdfs:label  "Florida" ;
-        ro:0001025  <http://vivoweb.org/data/location/United States> .
+        ro:0001025  <http://vivoweb.org/data/location/United%20States> .
 
 <http://vivoweb.org/data/location/Myanmar>
         a           org:0000048 ;
         rdfs:label  "Myanmar" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
-<http://vivoweb.org/data/location/Saudi Arabia>
-        a           org:0000048 ;
-        rdfs:label  "Saudi Arabia" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
 <http://vivoweb.org/data/location/Bolivia>
         a           org:0000048 ;
         rdfs:label  "Bolivia" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
+
+<http://vivoweb.org/data/location/Sao%20Tome%20and%20Principe>
+        a           org:0000048 ;
+        rdfs:label  "Sao Tome and Principe" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Serbia>
         a           org:0000048 ;
@@ -95,15 +80,10 @@
         rdfs:label  "Croatia" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/United Arab Emirates>
-        a           org:0000048 ;
-        rdfs:label  "United Arab Emirates" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
 <http://vivoweb.org/data/location/Nicaragua>
         a           org:0000048 ;
         rdfs:label  "Nicaragua" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Syria>
         a           org:0000048 ;
@@ -123,7 +103,7 @@
 <http://vivoweb.org/data/location/Barbados>
         a           org:0000048 ;
         rdfs:label  "Barbados" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Austria>
         a           org:0000048 ;
@@ -135,53 +115,50 @@
         rdfs:label  "Mongolia" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
+<http://vivoweb.org/data/location/University%20of%20Florida%20Main%20Campus>
+        a           org:0000041 ;
+        rdfs:label  "University of Florida Main Campus" ;
+        ro:0001025  <http://vivoweb.org/data/location/Gainesville> .
+
 <http://vivoweb.org/data/location/Guyana>
         a           org:0000048 ;
         rdfs:label  "Guyana" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Egypt>
         a           org:0000048 ;
         rdfs:label  "Egypt" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
+<http://vivoweb.org/data/location/Andorra>
+        a           org:0000048 ;
+        rdfs:label  "Andorra" ;
+        ro:0001025  <http://vivoweb.org/data/location/Europe> .
+
 <http://vivoweb.org/data/location/Niue>
         a           org:0000048 ;
         rdfs:label  "Niue" ;
         ro:0001025  <http://vivoweb.org/data/location/Oceania> .
 
-<http://vivoweb.org/data/location/Andorra>
+<http://vivoweb.org/data/location/Saint%20Lucia>
         a           org:0000048 ;
-        rdfs:label  "Andorra" ;
-        ro:0001025  <http://vivoweb.org/data/location/Europe> .
+        rdfs:label  "Saint Lucia" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Togo>
         a           org:0000048 ;
         rdfs:label  "Togo" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/North America>
-        a           org:0000047 , org:0000045 ;
-        rdfs:label  "North America" .
-
-<http://vivoweb.org/data/location/South America>
-        a           org:0000047 , org:0000045 ;
-        rdfs:label  "South America" .
-
-<http://vivoweb.org/data/location/Laos>
-        a           org:0000048 ;
-        rdfs:label  "Laos" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
 <http://vivoweb.org/data/location/Russia>
         a           org:0000048 ;
         rdfs:label  "Russia" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Sierra Leone>
+<http://vivoweb.org/data/location/Laos>
         a           org:0000048 ;
-        rdfs:label  "Sierra Leone" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+        rdfs:label  "Laos" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Oman>
         a           org:0000048 ;
@@ -191,41 +168,51 @@
 <http://vivoweb.org/data/location/Canada>
         a           org:0000048 ;
         rdfs:label  "Canada" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
-
-<http://vivoweb.org/data/location/Burkina Faso>
-        a           org:0000048 ;
-        rdfs:label  "Burkina Faso" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Eritrea>
         a           org:0000048 ;
         rdfs:label  "Eritrea" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/Yemen>
-        a           org:0000048 ;
-        rdfs:label  "Yemen" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
-<http://vivoweb.org/data/location/Brazil>
-        a           org:0000048 ;
-        rdfs:label  "Brazil" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
-
-<http://vivoweb.org/data/location/Venezuela>
-        a           org:0000048 ;
-        rdfs:label  "Venezuela" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
-
 <http://vivoweb.org/data/location/Bahrain>
         a           org:0000048 ;
         rdfs:label  "Bahrain" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
+<http://vivoweb.org/data/location/Brazil>
+        a           org:0000048 ;
+        rdfs:label  "Brazil" ;
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
+
+<http://vivoweb.org/data/location/Saint%20Kitts%20and%20Nevis>
+        a           org:0000048 ;
+        rdfs:label  "Saint Kitts and Nevis" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
+
+<http://vivoweb.org/data/location/Yemen>
+        a           org:0000048 ;
+        rdfs:label  "Yemen" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/Venezuela>
+        a           org:0000048 ;
+        rdfs:label  "Venezuela" ;
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
+
+<http://vivoweb.org/data/location/Central%20African%20Republic>
+        a           org:0000048 ;
+        rdfs:label  "Central African Republic" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+
 <http://vivoweb.org/data/location/Belgium>
         a           org:0000048 ;
         rdfs:label  "Belgium" ;
+        ro:0001025  <http://vivoweb.org/data/location/Europe> .
+
+<http://vivoweb.org/data/location/Bosnia%20and%20Herzegovina>
+        a           org:0000048 ;
+        rdfs:label  "Bosnia and Herzegovina" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
 <http://vivoweb.org/data/location/Iceland>
@@ -247,15 +234,10 @@
         a           org:0000047 , org:0000045 ;
         rdfs:label  "Asia" .
 
-<http://vivoweb.org/data/location/Costa Rica>
-        a           org:0000048 ;
-        rdfs:label  "Costa Rica" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
-
 <http://vivoweb.org/data/location/Jamaica>
         a           org:0000048 ;
         rdfs:label  "Jamaica" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Georgia>
         a           org:0000048 ;
@@ -265,7 +247,7 @@
 <http://vivoweb.org/data/location/Chile>
         a           org:0000048 ;
         rdfs:label  "Chile" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Benin>
         a           org:0000048 ;
@@ -276,6 +258,11 @@
         a           org:0000048 ;
         rdfs:label  "Vietnam" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/Democratic%20Republic%20of%20the%20Congo>
+        a           org:0000048 ;
+        rdfs:label  "Democratic Republic of the Congo" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Mauritania>
         a           org:0000048 ;
@@ -290,7 +277,12 @@
 <http://vivoweb.org/data/location/Argentina>
         a           org:0000048 ;
         rdfs:label  "Argentina" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
+
+<http://vivoweb.org/data/location/Marshall%20Islands>
+        a           org:0000048 ;
+        rdfs:label  "Marshall Islands" ;
+        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
 
 <http://vivoweb.org/data/location/Armenia>
         a           org:0000048 ;
@@ -307,25 +299,25 @@
         rdfs:label  "Norway" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Marshall Islands>
+<http://vivoweb.org/data/location/Vatican%20City>
         a           org:0000048 ;
-        rdfs:label  "Marshall Islands" ;
-        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+        rdfs:label  "Vatican City" ;
+        ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
 <http://vivoweb.org/data/location/Ghana>
         a           org:0000048 ;
         rdfs:label  "Ghana" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
+<http://vivoweb.org/data/location/United%20Kingdom>
+        a           org:0000048 ;
+        rdfs:label  "United Kingdom" ;
+        ro:0001025  <http://vivoweb.org/data/location/Europe> .
+
 <http://vivoweb.org/data/location/Algiers>
         a           org:0000050 ;
         rdfs:label  "Algiers" ;
         ro:0001025  <http://vivoweb.org/data/location/Algeria> .
-
-<http://vivoweb.org/data/location/North Korea>
-        a           org:0000048 ;
-        rdfs:label  "North Korea" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Tuvalu>
         a           org:0000048 ;
@@ -337,19 +329,19 @@
         rdfs:label  "Sweden" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Cape Verde>
+<http://vivoweb.org/data/location/North%20Korea>
         a           org:0000048 ;
-        rdfs:label  "Cape Verde" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
-
-<http://vivoweb.org/data/location/Western Sahara>
-        a           org:0000048 ;
-        rdfs:label  "Western Sahara" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+        rdfs:label  "North Korea" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Cambodia>
         a           org:0000048 ;
         rdfs:label  "Cambodia" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/South%20Korea>
+        a           org:0000048 ;
+        rdfs:label  "South Korea" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/China>
@@ -357,15 +349,34 @@
         rdfs:label  "China" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
+<http://vivoweb.org/data/location/Reoublic%20of%20the%20Congo>
+        a           org:0000048 ;
+        rdfs:label  "Reoublic of the Congo" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+
 <http://vivoweb.org/data/location/Guinea-Bissau>
         a           org:0000048 ;
         rdfs:label  "Guinea-Bissau" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
+<http://vivoweb.org/data/location/El%20Salvadore>
+        a           org:0000048 ;
+        rdfs:label  "El Salvadore" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
+
 <http://vivoweb.org/data/location/Bahamas>
         a           org:0000048 ;
         rdfs:label  "Bahamas" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
+
+<http://vivoweb.org/data/location/Cape%20Verde>
+        a           org:0000048 ;
+        rdfs:label  "Cape Verde" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+
+<http://vivoweb.org/data/location/South%20America>
+        a           org:0000045 , org:0000047 ;
+        rdfs:label  "South America" .
 
 <http://vivoweb.org/data/location/Iran>
         a           org:0000048 ;
@@ -375,7 +386,7 @@
 <http://vivoweb.org/data/location/Cuba>
         a           org:0000048 ;
         rdfs:label  "Cuba" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Estonia>
         a           org:0000048 ;
@@ -407,20 +418,15 @@
         rdfs:label  "Kazakhstan" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
-<http://vivoweb.org/data/location/South Korea>
-        a           org:0000048 ;
-        rdfs:label  "South Korea" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
-<http://vivoweb.org/data/location/North Macedonia>
-        a           org:0000048 ;
-        rdfs:label  "North Macedonia" ;
-        ro:0001025  <http://vivoweb.org/data/location/Europe> .
-
 <http://vivoweb.org/data/location/Mozambique>
         a           org:0000048 ;
         rdfs:label  "Mozambique" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
+
+<http://vivoweb.org/data/location/Papua%20New%20Guinea>
+        a           org:0000048 ;
+        rdfs:label  "Papua New Guinea" ;
+        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
 
 <http://vivoweb.org/data/location/Tanzania>
         a           org:0000048 ;
@@ -432,20 +438,30 @@
         rdfs:label  "Chad" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/Sao Tome and Principe>
+<http://vivoweb.org/data/location/United%20Arab%20Emirates>
         a           org:0000048 ;
-        rdfs:label  "Sao Tome and Principe" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+        rdfs:label  "United Arab Emirates" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Belize>
         a           org:0000048 ;
         rdfs:label  "Belize" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
+
+<http://vivoweb.org/data/location/San%20Marino>
+        a           org:0000048 ;
+        rdfs:label  "San Marino" ;
+        ro:0001025  <http://vivoweb.org/data/location/Europe> .
+
+<http://vivoweb.org/data/location/Sierra%20Leone>
+        a           org:0000048 ;
+        rdfs:label  "Sierra Leone" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Grenada>
         a           org:0000048 ;
         rdfs:label  "Grenada" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Poland>
         a           org:0000048 ;
@@ -455,7 +471,7 @@
 <http://vivoweb.org/data/location/Paraguay>
         a           org:0000048 ;
         rdfs:label  "Paraguay" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Antarctica>
         a           org:0000047 ;
@@ -479,31 +495,46 @@
 <http://vivoweb.org/data/location/Haiti>
         a           org:0000048 ;
         rdfs:label  "Haiti" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
-<http://vivoweb.org/data/location/Bangladesh>
+<http://vivoweb.org/data/location/Costa%20Rica>
         a           org:0000048 ;
-        rdfs:label  "Bangladesh" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
-<http://vivoweb.org/data/location/University of Florida Main Campus>
-        a           org:0000041 ;
-        rdfs:label  "University of Florida Main Campus" ;
-        ro:0001025  <http://vivoweb.org/data/location/Gainesville> .
-
-<http://vivoweb.org/data/location/Azerbaijan>
-        a           org:0000048 ;
-        rdfs:label  "Azerbaijan" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+        rdfs:label  "Costa Rica" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Japan>
         a           org:0000048 ;
         rdfs:label  "Japan" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
+<http://vivoweb.org/data/location/Bangladesh>
+        a           org:0000048 ;
+        rdfs:label  "Bangladesh" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/Azerbaijan>
+        a           org:0000048 ;
+        rdfs:label  "Azerbaijan" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/Ivory%20Coast>
+        a           org:0000048 ;
+        rdfs:label  "Ivory Coast" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+
+<http://vivoweb.org/data/location/Brunei%20Darussalam>
+        a           org:0000048 ;
+        rdfs:label  "Brunei Darussalam" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
 <http://vivoweb.org/data/location/Djibouti>
         a           org:0000048 ;
         rdfs:label  "Djibouti" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+
+<http://vivoweb.org/data/location/The%20Gambia>
+        a           org:0000048 ;
+        rdfs:label  "The Gambia" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Philippines>
@@ -546,20 +577,10 @@
         rdfs:label  "India" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
-<http://vivoweb.org/data/location/South Africa>
-        a           org:0000048 ;
-        rdfs:label  "South Africa" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
-
-<http://vivoweb.org/data/location/Democratic Republic of the Congo>
-        a           org:0000048 ;
-        rdfs:label  "Democratic Republic of the Congo" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
-
-<http://vivoweb.org/data/location/Bosnia and Herzegovina>
-        a           org:0000048 ;
-        rdfs:label  "Bosnia and Herzegovina" ;
-        ro:0001025  <http://vivoweb.org/data/location/Europe> .
+<http://vivoweb.org/data/location/United%20States>
+        a           org:0000045 , org:0000048 ;
+        rdfs:label  "United States" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Denmark>
         a           org:0000048 ;
@@ -569,7 +590,7 @@
 <http://vivoweb.org/data/location/Honduras>
         a           org:0000048 ;
         rdfs:label  "Honduras" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Namibia>
         a           org:0000048 ;
@@ -577,28 +598,38 @@
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Oceania>
-        a           org:0000047 , org:0000045 ;
+        a           org:0000045 , org:0000047 ;
         rdfs:label  "Oceania" .
 
 <http://vivoweb.org/data/location/Mexico>
         a           org:0000048 ;
         rdfs:label  "Mexico" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
+
+<http://vivoweb.org/data/location/North%20Macedonia>
+        a           org:0000048 ;
+        rdfs:label  "North Macedonia" ;
+        ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
 <http://vivoweb.org/data/location/Uganda>
         a           org:0000048 ;
         rdfs:label  "Uganda" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/New Zealand>
-        a           org:0000048 ;
-        rdfs:label  "New Zealand" ;
-        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
-
 <http://vivoweb.org/data/location/Fiji>
         a           org:0000048 ;
         rdfs:label  "Fiji" ;
         ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+
+<http://vivoweb.org/data/location/New%20Zealand>
+        a           org:0000048 ;
+        rdfs:label  "New Zealand" ;
+        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+
+<http://vivoweb.org/data/location/Equatorial%20Guinea>
+        a           org:0000048 ;
+        rdfs:label  "Equatorial Guinea" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Tonga>
         a           org:0000048 ;
@@ -615,16 +646,6 @@
         rdfs:label  "Mali" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/Reoublic of the Congo>
-        a           org:0000048 ;
-        rdfs:label  "Reoublic of the Congo" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
-
-<http://vivoweb.org/data/location/Solomon Islands>
-        a           org:0000048 ;
-        rdfs:label  "Solomon Islands" ;
-        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
-
 <http://vivoweb.org/data/location/Ukraine>
         a           org:0000048 ;
         rdfs:label  "Ukraine" ;
@@ -634,16 +655,6 @@
         a           org:0000048 ;
         rdfs:label  "Luxembourg" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
-
-<http://vivoweb.org/data/location/The Gambia>
-        a           org:0000048 ;
-        rdfs:label  "The Gambia" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
-
-<http://vivoweb.org/data/location/United States>
-        a           org:0000045 , org:0000048 ;
-        rdfs:label  "United States" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
 
 <http://vivoweb.org/data/location/Liechtenstein>
         a           org:0000048 ;
@@ -660,11 +671,6 @@
         rdfs:label  "Tunisia" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/Saint Vincent and the Grenadines>
-        a           org:0000048 ;
-        rdfs:label  "Saint Vincent and the Grenadines" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
-
 <http://vivoweb.org/data/location/Senegal>
         a           org:0000048 ;
         rdfs:label  "Senegal" ;
@@ -673,17 +679,17 @@
 <http://vivoweb.org/data/location/Dominica>
         a           org:0000048 ;
         rdfs:label  "Dominica" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
-
-<http://vivoweb.org/data/location/Lebanon>
-        a           org:0000048 ;
-        rdfs:label  "Lebanon" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Nauru>
         a           org:0000048 ;
         rdfs:label  "Nauru" ;
         ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+
+<http://vivoweb.org/data/location/Lebanon>
+        a           org:0000048 ;
+        rdfs:label  "Lebanon" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Jordan>
         a           org:0000048 ;
@@ -700,25 +706,35 @@
         rdfs:label  "Rwanda" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/Central African Republic>
-        a           org:0000048 ;
-        rdfs:label  "Central African Republic" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
-
 <http://vivoweb.org/data/location/Portugal>
         a           org:0000048 ;
         rdfs:label  "Portugal" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
+
+<http://vivoweb.org/data/location/Solomon%20Islands>
+        a           org:0000048 ;
+        rdfs:label  "Solomon Islands" ;
+        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
 
 <http://vivoweb.org/data/location/Bulgaria>
         a           org:0000048 ;
         rdfs:label  "Bulgaria" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
+<http://vivoweb.org/data/location/Burkina%20Faso>
+        a           org:0000048 ;
+        rdfs:label  "Burkina Faso" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
+
 <http://vivoweb.org/data/location/Switzerland>
         a           org:0000048 ;
         rdfs:label  "Switzerland" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
+
+<http://vivoweb.org/data/location/Western%20Sahara>
+        a           org:0000048 ;
+        rdfs:label  "Western Sahara" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Slovenia>
         a           org:0000048 ;
@@ -735,9 +751,9 @@
         rdfs:label  "Sudan" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/Sri Lanka>
+<http://vivoweb.org/data/location/Israel>
         a           org:0000048 ;
-        rdfs:label  "Sri Lanka" ;
+        rdfs:label  "Israel" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Romnia>
@@ -745,25 +761,10 @@
         rdfs:label  "Romnia" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Israel>
-        a           org:0000048 ;
-        rdfs:label  "Israel" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
-<http://vivoweb.org/data/location/Saint Kitts and Nevis>
-        a           org:0000048 ;
-        rdfs:label  "Saint Kitts and Nevis" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
-
 <http://vivoweb.org/data/location/Samoa>
         a           org:0000048 ;
         rdfs:label  "Samoa" ;
         ro:0001025  <http://vivoweb.org/data/location/Oceania> .
-
-<http://vivoweb.org/data/location/El Salvadore>
-        a           org:0000048 ;
-        rdfs:label  "El Salvadore" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
 
 <http://vivoweb.org/data/location/Cameroon>
         a           org:0000048 ;
@@ -790,25 +791,25 @@
         rdfs:label  "Moldova" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Micronesia>
-        a           org:0000048 ;
-        rdfs:label  "Micronesia" ;
-        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
-
-<http://vivoweb.org/data/location/United Kingdom>
-        a           org:0000048 ;
-        rdfs:label  "United Kingdom" ;
-        ro:0001025  <http://vivoweb.org/data/location/Europe> .
-
 <http://vivoweb.org/data/location/Botswana>
         a           org:0000048 ;
         rdfs:label  "Botswana" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
+<http://vivoweb.org/data/location/Micronesia>
+        a           org:0000048 ;
+        rdfs:label  "Micronesia" ;
+        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+
 <http://vivoweb.org/data/location/Belarus>
         a           org:0000048 ;
         rdfs:label  "Belarus" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
+
+<http://vivoweb.org/data/location/South%20Africa>
+        a           org:0000048 ;
+        rdfs:label  "South Africa" ;
+        ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Malta>
         a           org:0000048 ;
@@ -825,14 +826,14 @@
         rdfs:label  "Bhutan" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
-<http://vivoweb.org/data/location/Thailand>
-        a           org:0000048 ;
-        rdfs:label  "Thailand" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
 <http://vivoweb.org/data/location/Pakistan>
         a           org:0000048 ;
         rdfs:label  "Pakistan" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/Thailand>
+        a           org:0000048 ;
+        rdfs:label  "Thailand" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Cyprus>
@@ -840,10 +841,14 @@
         rdfs:label  "Cyprus" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Dominican Republic>
+<http://vivoweb.org/data/location/Cook%20Islands>
         a           org:0000048 ;
-        rdfs:label  "Dominican Republic" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        rdfs:label  "Cook Islands" ;
+        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+
+<http://vivoweb.org/data/location/North%20America>
+        a           org:0000047 , org:0000045 ;
+        rdfs:label  "North America" .
 
 <http://vivoweb.org/data/location/Zimbabwe>
         a           org:0000048 ;
@@ -868,7 +873,7 @@
 <http://vivoweb.org/data/location/Colombia>
         a           org:0000048 ;
         rdfs:label  "Colombia" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Algeria>
         a           org:0000048 , org:0000045 ;
@@ -900,15 +905,25 @@
         rdfs:label  "Lithuania" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Antigua and Barbuda>
+<http://vivoweb.org/data/location/Saint%20Vincent%20and%20the%20Grenadines>
         a           org:0000048 ;
-        rdfs:label  "Antigua and Barbuda" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        rdfs:label  "Saint Vincent and the Grenadines" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Tajikistan>
         a           org:0000048 ;
         rdfs:label  "Tajikistan" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
+<http://vivoweb.org/data/location/Trinidad%20and%20Tobago>
+        a           org:0000048 ;
+        rdfs:label  "Trinidad and Tobago" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
+
+<http://vivoweb.org/data/location/Dominican%20Republic>
+        a           org:0000048 ;
+        rdfs:label  "Dominican Republic" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Lesotho>
         a           org:0000048 ;
@@ -923,22 +938,22 @@
 <http://vivoweb.org/data/location/Uruguay>
         a           org:0000048 ;
         rdfs:label  "Uruguay" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Kosovo>
         a           org:0000048 ;
         rdfs:label  "Kosovo" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Cook Islands>
+<http://vivoweb.org/data/location/Antigua%20and%20Barbuda>
         a           org:0000048 ;
-        rdfs:label  "Cook Islands" ;
-        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
+        rdfs:label  "Antigua and Barbuda" ;
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Ecuador>
         a           org:0000048 ;
         rdfs:label  "Ecuador" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Netherlands>
         a           org:0000048 ;
@@ -949,9 +964,9 @@
         a           org:0000047 , org:0000045 ;
         rdfs:label  "Africa" .
 
-<http://vivoweb.org/data/location/Equatorial Guinea>
+<http://vivoweb.org/data/location/South%20Sudan>
         a           org:0000048 ;
-        rdfs:label  "Equatorial Guinea" ;
+        rdfs:label  "South Sudan" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Australia>
@@ -964,11 +979,6 @@
         rdfs:label  "Italy" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
-<http://vivoweb.org/data/location/Brunei Darussalam>
-        a           org:0000048 ;
-        rdfs:label  "Brunei Darussalam" ;
-        ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
 <http://vivoweb.org/data/location/Angola>
         a           org:0000048 ;
         rdfs:label  "Angola" ;
@@ -977,12 +987,7 @@
 <http://vivoweb.org/data/location/Guatemala>
         a           org:0000048 ;
         rdfs:label  "Guatemala" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
-
-<http://vivoweb.org/data/location/Trinidad and Tobago>
-        a           org:0000048 ;
-        rdfs:label  "Trinidad and Tobago" ;
-        ro:0001025  <http://vivoweb.org/data/location/North America> .
+        ro:0001025  <http://vivoweb.org/data/location/North%20America> .
 
 <http://vivoweb.org/data/location/Malaysia>
         a           org:0000048 ;
@@ -994,14 +999,19 @@
         rdfs:label  "Kyrgyzstan" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
+<http://vivoweb.org/data/location/Sri%20Lanka>
+        a           org:0000048 ;
+        rdfs:label  "Sri Lanka" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
+
 <http://vivoweb.org/data/location/Madagascar>
         a           org:0000048 ;
         rdfs:label  "Madagascar" ;
         ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
-<http://vivoweb.org/data/location/Vatican City>
-        a           org:0000048 ;
-        rdfs:label  "Vatican City" ;
+<http://vivoweb.org/data/location/Germany>
+        a           org:0000048 , org:0000045 ;
+        rdfs:label  "Germany" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
 
 <http://vivoweb.org/data/location/Indonesia>
@@ -1009,10 +1019,10 @@
         rdfs:label  "Indonesia" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
-<http://vivoweb.org/data/location/Germany>
-        a           org:0000045 , org:0000048 ;
-        rdfs:label  "Germany" ;
-        ro:0001025  <http://vivoweb.org/data/location/Europe> .
+<http://vivoweb.org/data/location/Saudi%20Arabia>
+        a           org:0000048 ;
+        rdfs:label  "Saudi Arabia" ;
+        ro:0001025  <http://vivoweb.org/data/location/Asia> .
 
 <http://vivoweb.org/data/location/Eswatini>
         a           org:0000048 ;
@@ -1022,17 +1032,12 @@
 <http://vivoweb.org/data/location/Panama>
         a           org:0000048 ;
         rdfs:label  "Panama" ;
-        ro:0001025  <http://vivoweb.org/data/location/South America> .
+        ro:0001025  <http://vivoweb.org/data/location/South%20America> .
 
 <http://vivoweb.org/data/location/Turkmenistan>
         a           org:0000048 ;
         rdfs:label  "Turkmenistan" ;
         ro:0001025  <http://vivoweb.org/data/location/Asia> .
-
-<http://vivoweb.org/data/location/Papua New Guinea>
-        a           org:0000048 ;
-        rdfs:label  "Papua New Guinea" ;
-        ro:0001025  <http://vivoweb.org/data/location/Oceania> .
 
 <http://vivoweb.org/data/location/Hungary>
         a           org:0000048 ;
@@ -1043,11 +1048,6 @@
         a           org:0000048 ;
         rdfs:label  "Slovakia" ;
         ro:0001025  <http://vivoweb.org/data/location/Europe> .
-
-<http://vivoweb.org/data/location/South Sudan>
-        a           org:0000048 ;
-        rdfs:label  "South Sudan" ;
-        ro:0001025  <http://vivoweb.org/data/location/Africa> .
 
 <http://vivoweb.org/data/location/Afghanistan>
         a           org:0000048 ;
