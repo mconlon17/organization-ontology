@@ -40,4 +40,10 @@ See `Table 3`_.
     :doc:`doc-ORG_0000067`         The quality of a location that is the
 
                                    primary/preferred location for the organization
+    :doc:`doc-ORG_0000093`         The disposition of an organization to be in
+
+                                   current existence and currently operational
+    :doc:`doc-ORG_0000094`         The disposition of an organization to no longer
+
+                                   exist, or to be currently devoid of operations
     =============================  ==================================================

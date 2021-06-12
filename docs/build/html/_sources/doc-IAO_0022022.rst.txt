@@ -12,9 +12,9 @@ IAO_0022022 - research organization registry identifier
 
 .. topic:: Editor preferred label
 
-    ROR ID
-
     http://purl.obolibrary.org/obo/IAO_0000123
+
+    ROR ID
 
 .. topic:: Sub class of
 

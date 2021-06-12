@@ -2881,6 +2881,38 @@ Previous. An information content entity is a non-realizable information entity t
                                              rdfs:label "secondary school disposition"@en .
 
 
+###  http://purl.obolibrary.org/obo/ORG_0000093
+<http://purl.obolibrary.org/obo/ORG_0000093> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000080> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "active"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "Microsoft is active"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to be in current existence and currently operational"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://ror.org"@en ;
+                                             rdfs:label "ror active status"@en .
+
+
+###  http://purl.obolibrary.org/obo/ORG_0000094
+<http://purl.obolibrary.org/obo/ORG_0000094> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000080> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/ORG_0000001>
+                                                             ] ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000111> "inactive"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "The League of Nations is inactive"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000114> "obo:0000120"^^xsd:anyURI ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The disposition of an organization to no longer exist, or to be currently devoid of operations"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000117> "Michael Conlon https://orcid.org/0000-0002-1304-8447"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000119> "https://ror.org"@en ;
+                                             rdfs:label "ror inactive status"@en .
+
+
 ###  http://www.w3.org/2004/02/skos/core#Concept
 <http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;

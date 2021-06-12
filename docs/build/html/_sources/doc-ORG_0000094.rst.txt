@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: ORG_0000094; ror inactive status
+     single: ror inactive status; ORG_0000094
+
+ORG_0000094 - ror inactive status
+====================================================================================
+
+.. topic:: Label
+
+    ror inactive status
+
+.. topic:: Editor preferred label
+
+    inactive
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000019`
+
+.. topic:: Definition
+
+    The disposition of an organization to no longer exist, or to be currently devoid of operations
+
+.. topic:: Definition source
+
+    https://ror.org
+
+.. topic:: Example
+
+    The League of Nations is inactive
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

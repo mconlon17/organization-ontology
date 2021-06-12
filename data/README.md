@@ -2,26 +2,19 @@
 
 ## Dates
 
-See `template\dates.tsv` for a template for creating dates data.  The build script 
-`build.sh` uses this template to create data in `data\dates.ttl`
+The build script 
+`./build.sh` uses a template and `robot` to create data in `data\dates.ttl`
   
 ## Locations
 
-We plan a template to create continents and countries of the world.  The template should 
-be easily
-extensible to create populated places for countries.
+See `./build.sh` for a script to convert a TSV file of locations (`source\locations.tsv`)
+into a ttl file of locations represented using the Organization Ontology.
 
 ## Organizations
 
-Here we will have scripts for making organizational data (assertions about individuals) 
-from ROR
-data.  The goal is to have a command line script that can:
-
-1. Take a ROR identifier
-1. Get ROR JSON for the organization using the ROR API 
-1. Convert to ORG ontology RDF resulting in a TTL file of assertions
-    1. Convert the ROR JSON to RDF using `json2rdf`
-    1. Convert the ROR RDF to ORG RDF using SPARQL CONSTRUCTS using `robot`
-
-Eventually we hope to implement this command line script as an API written in JavaScript.
-
+The build script `./build.sh` also produces organization data from information
+provided by ROR, the Research Organization Registry.  As delivered, the
+script provides a demo, fetching data for the University of Florida and 
+representing it using the Organization Ontology as RDF data in the build 
+directory.  You can modify the script to change the ROR ID and the filename to 
+fetch and build any of the nearly 100,000 organizations in ROR.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.4)  9 JUN 2021 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.4)  11 JUN 2021 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,8 +772,13 @@ File: org-types.png Graphic file (type png)
 Package pdftex.def Info: org-types.png  used on input line 438.
 (pdftex.def)             Requested size: 469.76138pt x 182.4273pt.
  [7] [8 <./org-types.png>] [9]
-Underfull \hbox (badness 8019) in paragraph at lines 1062--1062
-[][][]\T1/ptm/m/it/10 ORG_0000034 - in-for-ma-tion ad-dress
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
+[][][]\T1/ptm/m/it/10 ORG_0000036 - ship-ping ad-dress
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 1082--1082
+[][][]\T1/ptm/m/it/10 ORG_0000037 - pre-ferred ad-dress
  []
 
 [10] [11] [12
@@ -781,7 +786,7 @@ Underfull \hbox (badness 8019) in paragraph at lines 1062--1062
 ]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1196--1196
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1216
 [][][]\T1/ptm/m/it/10 IAO_0022014 - in-ter-na-tional
  []
 
@@ -799,15 +804,15 @@ Chapter 6.
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 1
-553.
+573.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 ) [20]
 Chapter 7.
-<general-time-pattern.png, id=573, 733.74126pt x 256.96pt>
+<general-time-pattern.png, id=582, 733.74126pt x 256.96pt>
 File: general-time-pattern.png Graphic file (type png)
 <use general-time-pattern.png>
-Package pdftex.def Info: general-time-pattern.png  used on input line 1747.
+Package pdftex.def Info: general-time-pattern.png  used on input line 1767.
 (pdftex.def)             Requested size: 469.76074pt x 164.51265pt.
 [21
 
@@ -816,16 +821,16 @@ Package pdftex.def Info: general-time-pattern.png  used on input line 1747.
 ]
 Chapter 8.
 [25]
-<membership-pattern.png, id=679, 944.52875pt x 256.96pt>
+<membership-pattern.png, id=688, 944.52875pt x 256.96pt>
 File: membership-pattern.png Graphic file (type png)
 <use membership-pattern.png>
-Package pdftex.def Info: membership-pattern.png  used on input line 2130.
+Package pdftex.def Info: membership-pattern.png  used on input line 2150.
 (pdftex.def)             Requested size: 469.75546pt x 127.79744pt.
  [26]
-<employee-pattern.png, id=691, 944.52875pt x 256.96pt>
+<employee-pattern.png, id=700, 944.52875pt x 256.96pt>
 File: employee-pattern.png Graphic file (type png)
 <use employee-pattern.png>
-Package pdftex.def Info: employee-pattern.png  used on input line 2210.
+Package pdftex.def Info: employee-pattern.png  used on input line 2230.
 (pdftex.def)             Requested size: 469.75546pt x 127.79744pt.
  [27 <./membership-pattern.png>] [28 <./employee-pattern.png>]
 [29] [30
@@ -833,87 +838,87 @@ Package pdftex.def Info: employee-pattern.png  used on input line 2210.
 ]
 Chapter 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000111
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 2512--2512
+Underfull \hbox (badness 7273) in paragraph at lines 2532--2532
 \T1/ptm/m/it/10 - ed-i-tor pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000112
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 2512--2512
+Underfull \hbox (badness 6094) in paragraph at lines 2532--2532
 \T1/ptm/m/it/10 - ex-am-ple of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000114
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000115
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000116
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000117
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000118
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 \T1/ptm/m/it/10 - al-ter-na-tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000119
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 \T1/ptm/m/it/10 - def-i-ni-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000232
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000233
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 IAO_0000412
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 \T1/ptm/m/it/10 - im-ported
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2532
 [][][]\T1/ptm/m/it/10 ORG_1000001
  []
 
@@ -929,173 +934,174 @@ Chapter 10.
 [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
 [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
 [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
-[150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
+[150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161]
+[162]
 Chapter 11.
-[161
+[163
 
-] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172]
-[173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184]
-[185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196]
-[197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
-[209] [210] [211] [212] [213] [214] [215] [216]
+] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174]
+[175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198]
+[199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210]
+[211] [212] [213] [214] [215] [216] [217] [218]
 Chapter 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16411--16411
+Underfull \hbox (badness 10000) in paragraph at lines 16561--16561
 [][][]\T1/ptm/m/it/10 ORG_3000002 - has
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16411--16411
+Underfull \hbox (badness 10000) in paragraph at lines 16561--16561
 [][][]\T1/ptm/m/it/10 ORG_3000003 - has
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16411--16411
+Underfull \hbox (badness 10000) in paragraph at lines 16561--16561
 [][][]\T1/ptm/m/it/10 in-XS-D-Date-TimeS-tamp -
  []
 
-[217
+[219
 
-] [218] [219] [220] [221] [222] [223] [224] [225] [226] [227] [228
+] [220] [221] [222] [223] [224] [225] [226] [227] [228] [229] [230
 
 ]
 Chapter 13.
-[229] [230] [231] [232
+[231] [232] [233] [234
 
 ]
 Chapter 14.
-[233] [234] [235] [236
+[235] [236] [237] [238
 
 ]
 Chapter 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
+Underfull \hbox (badness 10000) in paragraph at lines 17988--17988
 []\T1/ptm/m/n/10 Fundin-gOr-ga-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
+Underfull \hbox (badness 10000) in paragraph at lines 17988--17988
 []\T1/ptm/m/n/10 Gov-ern-men-t-A-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
+Underfull \hbox (badness 10000) in paragraph at lines 17988--17988
 []\T1/ptm/m/n/10 Re-searchOr-ga-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
+Underfull \hbox (badness 10000) in paragraph at lines 17988--17988
 []\T1/ptm/m/n/10 Ser-vi-ce-Pro-vid-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17838--17838
+Underfull \hbox (badness 10000) in paragraph at lines 17988--17988
 []\T1/ptm/m/n/10 Stu-den-tOr-ga-ni-
  []
 
-[237]
+[239]
 Overfull \vbox (159.76979pt too high) has occurred while \output is active []
 
 
-[238]
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17862--17874
+[240]
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18012--18024
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17874--17887
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18024--18037
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17887--17891
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18037--18041
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17891--17893
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18041--18043
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 17893--18034
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18043--18184
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 18034--18174
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18184--18324
  [] [] 
  []
 
 
-Overfull \hbox (32.77065pt too wide) in alignment at lines 18174--18175
+Overfull \hbox (32.77065pt too wide) in alignment at lines 18324--18325
  [] [] 
  []
 
-[239] [240]
+[241] [242]
 Chapter 16.
-[241
+[243
 
-] [242
+] [244
 
 ]
 Chapter 17.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18522--18522
+Underfull \hbox (badness 10000) in paragraph at lines 18672--18672
 []\T1/ptm/m/n/10 Ed-u-ca-tion-alOr-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18522--18522
+Underfull \hbox (badness 10000) in paragraph at lines 18672--18672
 []\T1/ptm/m/n/10 Gov-ern-men-tOr-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18522--18522
+Underfull \hbox (badness 10000) in paragraph at lines 18672--18672
 []\T1/ptm/m/n/10 News-Me-diaOr-ga-ni-za-
  []
 
-[243] [244]
+[245] [246]
 Chapter 18.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 18548.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 18698.
 
-[245
+[247
 
-] [246
+] [248
 
 ]
 Chapter 19.
-[247] [248]
+[249] [250]
 Chapter 20.
-[249
-
-] [250]
-Chapter 21.
 [251
 
 ] [252]
-Chapter 22.
+Chapter 21.
 [253
 
-] [254
+] [254]
+Chapter 22.
+[255
+
+] [256
 
 ]
 Chapter 23.
-[255] [256
+[257] [258
 
 ]
 Chapter 24.
-[257] [258
+[259] [260
 
-] [259
+] [261
 
-] (./theorganizationontology.ind [260]
+] (./theorganizationontology.ind [262]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 []| \T1/pcr/m/n/10 specifically dependent continuant\T1/ptm/m/n/10 ,
  []
 
-[261
+[263
 
 
 ]
@@ -1103,7 +1109,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 []\T1/pcr/m/n/10 global research organization
  []
 
-[262]
+[264]
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
 []\T1/pcr/m/n/10 health care service provider
  []
@@ -1123,7 +1129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--309
 []| \T1/pcr/m/n/10 research organization registry
  []
 
-[263] [264]
+[265] [266]
 Underfull \hbox (badness 10000) in paragraph at lines 433--434
 []| \T1/pcr/m/n/10 health care service provider
  []
@@ -1143,7 +1149,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--526
 []| \T1/pcr/m/n/10 organizational member grantor role\T1/ptm/m/n/10 ,
  []
 
-[265]
+[267]
 Underfull \hbox (badness 10000) in paragraph at lines 527--528
 []| \T1/pcr/m/n/10 student led organization quality\T1/ptm/m/n/10 ,
  []
@@ -1173,26 +1179,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--558
 []| \T1/pcr/m/n/10 organizational volunteer grantor
  []
 
-[266]
-Underfull \hbox (badness 10000) in paragraph at lines 647--648
+[268]
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
 []| \T1/pcr/m/n/10 has postal address representation\T1/ptm/m/n/10 ,
  []
 
-[267]
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
+[269]
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
 []\T1/pcr/m/n/10 research organization registry
  []
 
-[268] [269]) (./theorganizationontology.aux)
+[270] [271]) (./theorganizationontology.aux)
 Package rerunfilecheck Info: File `theorganizationontology.out' has not changed
 .
 (rerunfilecheck)             Checksum: B84D072420D015785A7CE5F7D0310701;3767.
  ) 
 Here is how much of TeX's memory you used:
- 15016 strings out of 478994
- 229571 string characters out of 5858185
- 642684 words of memory out of 5000000
- 31437 multiletter control sequences out of 15000+600000
+ 15026 strings out of 478994
+ 229815 string characters out of 5858185
+ 643360 words of memory out of 5000000
+ 31443 multiletter control sequences out of 15000+600000
  465413 words of font info for 109 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  83i,16n,88p,1350b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1206,10 +1212,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on theorganizationontology.pdf (273 pages, 738273 bytes).
+Output written on theorganizationontology.pdf (275 pages, 740997 bytes).
 PDF statistics:
- 3768 PDF objects out of 4296 (max. 8388607)
- 3338 compressed objects within 34 object streams
- 696 named destinations out of 1000 (max. 500000)
+ 3798 PDF objects out of 4296 (max. 8388607)
+ 3364 compressed objects within 34 object streams
+ 700 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -44,11 +44,11 @@ IAO_0000578 - centrally registered identifier
 
 .. topic:: Term editor
 
-    PERSON: Melanie Courtot
-
-    PERSON: Bjoern Peters
+    PERSON: Alan Ruttenberg
 
     PERSON: Bill Hogan
 
-    PERSON: Alan Ruttenberg
+    PERSON: Bjoern Peters
+
+    PERSON: Melanie Courtot
 

@@ -1,0 +1,47 @@
+@prefix org:   <http://purl.obolibrary.org/obo/org.owl#ORG_> .
+@prefix iao:   <http://purl.obolibrary.org/obo/iao.owl#IAO_> .
+@prefix obi:   <http://purl.obolibrary.org/obo/iao.owl#OBI_> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix my:    <http://my.org#> .
+@prefix ro:    <http://purl.obolibrary.org/obo/ro.org#RO_> .
+
+<http://vivoweb.org/org/ror02y3ad647disposition>
+        a       org:0000023 .
+
+<http://vivoweb.org/org/ror02y3ad647orgrefid>
+        a            iao:0022003 ;
+        obi:0002815  "18702934" , "60611" .
+
+<http://vivoweb.org/org/ror02y3ad647wikidataqid>
+        a            iao:0022027 ;
+        obi:0002815  "Q501758" .
+
+<http://vivoweb.org/org/ror02y3ad647>
+        a            org:0000001 ;
+        rdfs:label   "University of Florida" ;
+        iao:0000235  <http://vivoweb.org/org/ror02y3ad647gridid> , <http://vivoweb.org/org/ror02y3ad647rorid> , <http://vivoweb.org/org/ror02y3ad647isniid> , <http://vivoweb.org/org/ror02y3ad647orgrefid> , <http://vivoweb.org/org/ror02y3ad647wikidataqid> ;
+        org:2000001  <http://vivoweb.org/org/countryUS> ;
+        org:2000005  <http://vivoweb.org/org/ror02y3ad647website> ;
+        org:3000007  "UF" ;
+        ro:0000086   <http://vivoweb.org/org/ror02y3ad647status> ;
+        ro:0000091   <http://vivoweb.org/org/ror02y3ad647disposition> .
+
+<http://vivoweb.org/org/ror02y3ad647gridid>
+        a            iao:0022010 ;
+        obi:0002815  "grid.15276.37" .
+
+<http://vivoweb.org/org/ror02y3ad647website>
+        a            org:0000057 ;
+        org:3000005  "http://www.ufl.edu/" .
+
+<http://vivoweb.org/org/ror02y3ad647isniid>
+        a            iao:0022014 ;
+        obi:0002815  "0000 0004 1936 8091" .
+
+<http://vivoweb.org/org/ror02y3ad647rorid>
+        a            iao:0022022 ;
+        obi:0002815  "https://ror.org/02y3ad647" .
+
+<http://vivoweb.org/org/ror02y3ad647status>
+        a       org:0000093 .

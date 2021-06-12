@@ -36,9 +36,9 @@ ORG_0000017 - hospital service provider disposition
 
 .. topic:: Similar term in VIVO 1 Ontology
 
-    http://vivoweb.org/ontology/core#ClinicalOrganization
-
     http://vivoweb.org/ontology/core#Hospital
+
+    http://vivoweb.org/ontology/core#ClinicalOrganization
 
 .. topic:: Term editor
 

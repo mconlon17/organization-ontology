@@ -498,6 +498,12 @@ See `Table 5`_.
                                    education for older children, varying by
 
                                    jurisdiction, but often in the age range 14-18
+    :doc:`doc-ORG_0000093`         The disposition of an organization to be in
+
+                                   current existence and currently operational
+    :doc:`doc-ORG_0000094`         The disposition of an organization to no longer
+
+                                   exist, or to be currently devoid of operations
     :doc:`doc-Concept`             An idea or notion, a unit of thought
     :doc:`doc-Instant`             A zero-dimensional part of time.  Precision may
 

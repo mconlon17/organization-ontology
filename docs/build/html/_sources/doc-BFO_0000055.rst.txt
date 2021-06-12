@@ -26,9 +26,9 @@ BFO_0000055 - realizes
 
     this investigation realizes this investigator role
 
-    this shattering realizes this fragility
-
     this disease course realizes this disease
+
+    this shattering realizes this fragility
 
 .. topic:: Imported from
 

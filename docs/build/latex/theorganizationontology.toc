@@ -179,113 +179,115 @@
 \contentsline {subsection}{\numberline {10.1.121}ORG\_0000090 \sphinxhyphen {} primary school disposition}{156}{subsection.10.1.121}%
 \contentsline {subsection}{\numberline {10.1.122}ORG\_0000091 \sphinxhyphen {} middle school disposition}{157}{subsection.10.1.122}%
 \contentsline {subsection}{\numberline {10.1.123}ORG\_0000092 \sphinxhyphen {} secondary school disposition}{158}{subsection.10.1.123}%
-\contentsline {subsection}{\numberline {10.1.124}Concept \sphinxhyphen {} concept (skos)}{159}{subsection.10.1.124}%
-\contentsline {subsection}{\numberline {10.1.125}Instant \sphinxhyphen {} time instant}{159}{subsection.10.1.125}%
-\contentsline {subsection}{\numberline {10.1.126}TemporalUnit \sphinxhyphen {} temporal unit}{160}{subsection.10.1.126}%
-\contentsline {chapter}{\numberline {11}Object Properties}{161}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Common Object Properties}{161}{section.11.1}%
-\contentsline {section}{\numberline {11.2}All Object Properties}{162}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}BFO\_0000050 \sphinxhyphen {} part of}{165}{subsection.11.2.1}%
-\contentsline {subsection}{\numberline {11.2.2}BFO\_0000051 \sphinxhyphen {} has part}{166}{subsection.11.2.2}%
-\contentsline {subsection}{\numberline {11.2.3}BFO\_0000054 \sphinxhyphen {} realized in}{168}{subsection.11.2.3}%
-\contentsline {subsection}{\numberline {11.2.4}BFO\_0000055 \sphinxhyphen {} realizes}{169}{subsection.11.2.4}%
-\contentsline {subsection}{\numberline {11.2.5}IAO\_0000136 \sphinxhyphen {} is about}{169}{subsection.11.2.5}%
-\contentsline {subsection}{\numberline {11.2.6}IAO\_0000219 \sphinxhyphen {} denotes}{171}{subsection.11.2.6}%
-\contentsline {subsection}{\numberline {11.2.7}IAO\_0000235 \sphinxhyphen {} denoted by}{172}{subsection.11.2.7}%
-\contentsline {subsection}{\numberline {11.2.8}ORG\_2000001 \sphinxhyphen {} occupies}{172}{subsection.11.2.8}%
-\contentsline {subsection}{\numberline {11.2.9}ORG\_2000002 \sphinxhyphen {} has occurent part}{173}{subsection.11.2.9}%
-\contentsline {subsection}{\numberline {11.2.10}ORG\_2000003 \sphinxhyphen {} has time instant}{174}{subsection.11.2.10}%
-\contentsline {subsection}{\numberline {11.2.11}ORG\_2000004 \sphinxhyphen {} has organizational interest}{176}{subsection.11.2.11}%
-\contentsline {subsection}{\numberline {11.2.12}ORG\_2000005 \sphinxhyphen {} has website}{177}{subsection.11.2.12}%
-\contentsline {subsection}{\numberline {11.2.13}ORG\_2000006 \sphinxhyphen {} website of}{178}{subsection.11.2.13}%
-\contentsline {subsection}{\numberline {11.2.14}ORG\_2000007 \sphinxhyphen {} has successor organization}{179}{subsection.11.2.14}%
-\contentsline {subsection}{\numberline {11.2.15}ORG\_2000008 \sphinxhyphen {} successor organization of}{180}{subsection.11.2.15}%
-\contentsline {subsection}{\numberline {11.2.16}ORG\_2000009 \sphinxhyphen {} has organizational part}{181}{subsection.11.2.16}%
-\contentsline {subsection}{\numberline {11.2.17}ORG\_2000010 \sphinxhyphen {} organizational part of}{182}{subsection.11.2.17}%
-\contentsline {subsection}{\numberline {11.2.18}ORG\_2000011 \sphinxhyphen {} affiliated with}{183}{subsection.11.2.18}%
-\contentsline {subsection}{\numberline {11.2.19}ORG\_2000012 \sphinxhyphen {} has spin\sphinxhyphen {}off organization}{185}{subsection.11.2.19}%
-\contentsline {subsection}{\numberline {11.2.20}ORG\_2000013 \sphinxhyphen {} spin\sphinxhyphen {}off organization of}{186}{subsection.11.2.20}%
-\contentsline {subsection}{\numberline {11.2.21}ORG\_2000014 \sphinxhyphen {} has organizational member}{187}{subsection.11.2.21}%
-\contentsline {subsection}{\numberline {11.2.22}ORG\_2000015 \sphinxhyphen {} organizational member of}{188}{subsection.11.2.22}%
-\contentsline {subsection}{\numberline {11.2.23}ORG\_2000016 \sphinxhyphen {} has organizational employee}{189}{subsection.11.2.23}%
-\contentsline {subsection}{\numberline {11.2.24}ORG\_2000017 \sphinxhyphen {} organizational employee of}{190}{subsection.11.2.24}%
-\contentsline {subsection}{\numberline {11.2.25}ORG\_2000018 \sphinxhyphen {} has organizational associate}{191}{subsection.11.2.25}%
-\contentsline {subsection}{\numberline {11.2.26}ORG\_2000019 \sphinxhyphen {} organizational associate of}{193}{subsection.11.2.26}%
-\contentsline {subsection}{\numberline {11.2.27}ORG\_2000020 \sphinxhyphen {} has organizational head}{194}{subsection.11.2.27}%
-\contentsline {subsection}{\numberline {11.2.28}ORG\_2000021 \sphinxhyphen {} organizational head of}{195}{subsection.11.2.28}%
-\contentsline {subsection}{\numberline {11.2.29}ORG\_2000022 \sphinxhyphen {} has organizational volunteer}{196}{subsection.11.2.29}%
-\contentsline {subsection}{\numberline {11.2.30}ORG\_2000023 \sphinxhyphen {} organizational volunteer of}{197}{subsection.11.2.30}%
-\contentsline {subsection}{\numberline {11.2.31}ORG\_2000024 \sphinxhyphen {} has organizational appointee}{198}{subsection.11.2.31}%
-\contentsline {subsection}{\numberline {11.2.32}ORG\_2000025 \sphinxhyphen {} organizational appointee of}{199}{subsection.11.2.32}%
-\contentsline {subsection}{\numberline {11.2.33}ORG\_2000026 \sphinxhyphen {} has person member}{200}{subsection.11.2.33}%
-\contentsline {subsection}{\numberline {11.2.34}ORG\_2000027 \sphinxhyphen {} person member of}{201}{subsection.11.2.34}%
-\contentsline {subsection}{\numberline {11.2.35}RO\_0000052 \sphinxhyphen {} inheres in}{202}{subsection.11.2.35}%
-\contentsline {subsection}{\numberline {11.2.36}RO\_0000053 \sphinxhyphen {} bearer of}{203}{subsection.11.2.36}%
-\contentsline {subsection}{\numberline {11.2.37}RO\_0000056 \sphinxhyphen {} participates in}{204}{subsection.11.2.37}%
-\contentsline {subsection}{\numberline {11.2.38}RO\_0000057 \sphinxhyphen {} has participant}{205}{subsection.11.2.38}%
-\contentsline {subsection}{\numberline {11.2.39}RO\_0000080 \sphinxhyphen {} quality of}{206}{subsection.11.2.39}%
-\contentsline {subsection}{\numberline {11.2.40}RO\_0000081 \sphinxhyphen {} role of}{207}{subsection.11.2.40}%
-\contentsline {subsection}{\numberline {11.2.41}RO\_0000086 \sphinxhyphen {} has quality}{208}{subsection.11.2.41}%
-\contentsline {subsection}{\numberline {11.2.42}RO\_0000087 \sphinxhyphen {} has role}{209}{subsection.11.2.42}%
-\contentsline {subsection}{\numberline {11.2.43}RO\_0000091 \sphinxhyphen {} has disposition}{210}{subsection.11.2.43}%
-\contentsline {subsection}{\numberline {11.2.44}RO\_0000092 \sphinxhyphen {} disposition of}{210}{subsection.11.2.44}%
-\contentsline {subsection}{\numberline {11.2.45}RO\_0001015 \sphinxhyphen {} location of}{211}{subsection.11.2.45}%
-\contentsline {subsection}{\numberline {11.2.46}RO\_0001025 \sphinxhyphen {} located in}{212}{subsection.11.2.46}%
-\contentsline {subsection}{\numberline {11.2.47}RO\_0002012 \sphinxhyphen {} occurent part of}{213}{subsection.11.2.47}%
-\contentsline {subsection}{\numberline {11.2.48}RO\_0002131 \sphinxhyphen {} overlaps}{213}{subsection.11.2.48}%
-\contentsline {subsection}{\numberline {11.2.49}RO\_0002234 \sphinxhyphen {} has output}{214}{subsection.11.2.49}%
-\contentsline {subsection}{\numberline {11.2.50}RO\_0002323 \sphinxhyphen {} mereotopologically related to}{214}{subsection.11.2.50}%
-\contentsline {subsection}{\numberline {11.2.51}RO\_0002353 \sphinxhyphen {} output of}{215}{subsection.11.2.51}%
-\contentsline {subsection}{\numberline {11.2.52}unitType \sphinxhyphen {} temporal unit type}{216}{subsection.11.2.52}%
-\contentsline {chapter}{\numberline {12}Datatype Properties}{217}{chapter.12}%
-\contentsline {section}{\numberline {12.1}OBI\_0002815 \sphinxhyphen {} has representation}{217}{section.12.1}%
-\contentsline {section}{\numberline {12.2}ORG\_3000001 \sphinxhyphen {} number of employees}{219}{section.12.2}%
-\contentsline {section}{\numberline {12.3}ORG\_3000002 \sphinxhyphen {} has email representation}{220}{section.12.3}%
-\contentsline {section}{\numberline {12.4}ORG\_3000003 \sphinxhyphen {} has postal address representation}{221}{section.12.4}%
-\contentsline {section}{\numberline {12.5}ORG\_3000004 \sphinxhyphen {} has geolocation representation}{222}{section.12.5}%
-\contentsline {section}{\numberline {12.6}ORG\_3000005 \sphinxhyphen {} has URL representation}{223}{section.12.6}%
-\contentsline {section}{\numberline {12.7}ORG\_3000006 \sphinxhyphen {} has official organization name}{224}{section.12.7}%
-\contentsline {section}{\numberline {12.8}ORG\_3000007 \sphinxhyphen {} has organization name}{225}{section.12.8}%
-\contentsline {section}{\numberline {12.9}inXSDDateTimeStamp \sphinxhyphen {} in XSD Date\sphinxhyphen {}Time\sphinxhyphen {}Stamp}{227}{section.12.9}%
-\contentsline {chapter}{\numberline {13}Named Individuals}{229}{chapter.13}%
-\contentsline {section}{\numberline {13.1}All Named Individuals}{229}{section.13.1}%
-\contentsline {subsection}{\numberline {13.1.1}unitDay \sphinxhyphen {} day (unit of temporal duration)}{229}{subsection.13.1.1}%
-\contentsline {subsection}{\numberline {13.1.2}unitHour \sphinxhyphen {} hour (unit of temporal duration)}{230}{subsection.13.1.2}%
-\contentsline {subsection}{\numberline {13.1.3}unitMinute \sphinxhyphen {} minute (unit of temporal duration)}{230}{subsection.13.1.3}%
-\contentsline {subsection}{\numberline {13.1.4}unitMonth \sphinxhyphen {} month (unit of temporal duration)}{230}{subsection.13.1.4}%
-\contentsline {subsection}{\numberline {13.1.5}unitSecond \sphinxhyphen {} second (unit of temporal duration)}{231}{subsection.13.1.5}%
-\contentsline {subsection}{\numberline {13.1.6}unitWeek \sphinxhyphen {} week (unit of temporal duration)}{231}{subsection.13.1.6}%
-\contentsline {subsection}{\numberline {13.1.7}unitYear \sphinxhyphen {} year (unit of temporal duration)}{231}{subsection.13.1.7}%
-\contentsline {chapter}{\numberline {14}Out of Scope Terms}{233}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Out of Scope but Defined Here}{233}{section.14.1}%
-\contentsline {section}{\numberline {14.2}Out of Scope and Included Here}{233}{section.14.2}%
-\contentsline {section}{\numberline {14.3}Out of Scope and Not Included Here}{234}{section.14.3}%
-\contentsline {chapter}{\numberline {15}Translating from VIVO to the Organization Ontology}{237}{chapter.15}%
-\contentsline {section}{\numberline {15.1}Translating Types}{237}{section.15.1}%
-\contentsline {section}{\numberline {15.2}A Cross Index}{239}{section.15.2}%
-\contentsline {chapter}{\numberline {16}Translating from ROR to the Organization Ontology}{241}{chapter.16}%
-\contentsline {section}{\numberline {16.1}Translating Types}{241}{section.16.1}%
-\contentsline {chapter}{\numberline {17}Translating from schema.org to the Organization Ontology}{243}{chapter.17}%
-\contentsline {section}{\numberline {17.1}Translating Types}{243}{section.17.1}%
-\contentsline {chapter}{\numberline {18}Dates Data}{245}{chapter.18}%
-\contentsline {chapter}{\numberline {19}For Ontology Authors}{247}{chapter.19}%
-\contentsline {section}{\numberline {19.1}Domain}{247}{section.19.1}%
-\contentsline {section}{\numberline {19.2}Reusing terms}{247}{section.19.2}%
-\contentsline {section}{\numberline {19.3}Use of templates}{248}{section.19.3}%
-\contentsline {section}{\numberline {19.4}Consistent build}{248}{section.19.4}%
-\contentsline {section}{\numberline {19.5}Validation}{248}{section.19.5}%
-\contentsline {section}{\numberline {19.6}Documentation}{248}{section.19.6}%
-\contentsline {chapter}{\numberline {20}For Documentation Authors}{249}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Manual Text Production}{249}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Manual Figure Production}{249}{section.20.2}%
-\contentsline {section}{\numberline {20.3}Automated Text Production}{249}{section.20.3}%
-\contentsline {section}{\numberline {20.4}Automated GitHub pages}{250}{section.20.4}%
-\contentsline {section}{\numberline {20.5}Resulting Documentation Features}{250}{section.20.5}%
-\contentsline {chapter}{\numberline {21}Notes and Sources}{251}{chapter.21}%
-\contentsline {section}{\numberline {21.1}Regarding the W3C Organization Ontology}{252}{section.21.1}%
-\contentsline {section}{\numberline {21.2}References}{252}{section.21.2}%
-\contentsline {chapter}{\numberline {22}Glossary}{253}{chapter.22}%
-\contentsline {chapter}{\numberline {23}List of Tables}{255}{chapter.23}%
-\contentsline {chapter}{\numberline {24}List of Figures}{257}{chapter.24}%
-\contentsline {chapter}{Bibliography}{259}{chapter*.51}%
-\contentsline {chapter}{Index}{261}{section*.52}%
+\contentsline {subsection}{\numberline {10.1.124}ORG\_0000093 \sphinxhyphen {} ror active status}{159}{subsection.10.1.124}%
+\contentsline {subsection}{\numberline {10.1.125}ORG\_0000094 \sphinxhyphen {} ror inactive status}{159}{subsection.10.1.125}%
+\contentsline {subsection}{\numberline {10.1.126}Concept \sphinxhyphen {} concept (skos)}{160}{subsection.10.1.126}%
+\contentsline {subsection}{\numberline {10.1.127}Instant \sphinxhyphen {} time instant}{161}{subsection.10.1.127}%
+\contentsline {subsection}{\numberline {10.1.128}TemporalUnit \sphinxhyphen {} temporal unit}{161}{subsection.10.1.128}%
+\contentsline {chapter}{\numberline {11}Object Properties}{163}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Common Object Properties}{163}{section.11.1}%
+\contentsline {section}{\numberline {11.2}All Object Properties}{164}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}BFO\_0000050 \sphinxhyphen {} part of}{167}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}BFO\_0000051 \sphinxhyphen {} has part}{168}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}BFO\_0000054 \sphinxhyphen {} realized in}{170}{subsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.2.4}BFO\_0000055 \sphinxhyphen {} realizes}{171}{subsection.11.2.4}%
+\contentsline {subsection}{\numberline {11.2.5}IAO\_0000136 \sphinxhyphen {} is about}{171}{subsection.11.2.5}%
+\contentsline {subsection}{\numberline {11.2.6}IAO\_0000219 \sphinxhyphen {} denotes}{173}{subsection.11.2.6}%
+\contentsline {subsection}{\numberline {11.2.7}IAO\_0000235 \sphinxhyphen {} denoted by}{174}{subsection.11.2.7}%
+\contentsline {subsection}{\numberline {11.2.8}ORG\_2000001 \sphinxhyphen {} occupies}{174}{subsection.11.2.8}%
+\contentsline {subsection}{\numberline {11.2.9}ORG\_2000002 \sphinxhyphen {} has occurent part}{175}{subsection.11.2.9}%
+\contentsline {subsection}{\numberline {11.2.10}ORG\_2000003 \sphinxhyphen {} has time instant}{176}{subsection.11.2.10}%
+\contentsline {subsection}{\numberline {11.2.11}ORG\_2000004 \sphinxhyphen {} has organizational interest}{178}{subsection.11.2.11}%
+\contentsline {subsection}{\numberline {11.2.12}ORG\_2000005 \sphinxhyphen {} has website}{179}{subsection.11.2.12}%
+\contentsline {subsection}{\numberline {11.2.13}ORG\_2000006 \sphinxhyphen {} website of}{180}{subsection.11.2.13}%
+\contentsline {subsection}{\numberline {11.2.14}ORG\_2000007 \sphinxhyphen {} has successor organization}{181}{subsection.11.2.14}%
+\contentsline {subsection}{\numberline {11.2.15}ORG\_2000008 \sphinxhyphen {} successor organization of}{182}{subsection.11.2.15}%
+\contentsline {subsection}{\numberline {11.2.16}ORG\_2000009 \sphinxhyphen {} has organizational part}{183}{subsection.11.2.16}%
+\contentsline {subsection}{\numberline {11.2.17}ORG\_2000010 \sphinxhyphen {} organizational part of}{184}{subsection.11.2.17}%
+\contentsline {subsection}{\numberline {11.2.18}ORG\_2000011 \sphinxhyphen {} affiliated with}{185}{subsection.11.2.18}%
+\contentsline {subsection}{\numberline {11.2.19}ORG\_2000012 \sphinxhyphen {} has spin\sphinxhyphen {}off organization}{187}{subsection.11.2.19}%
+\contentsline {subsection}{\numberline {11.2.20}ORG\_2000013 \sphinxhyphen {} spin\sphinxhyphen {}off organization of}{188}{subsection.11.2.20}%
+\contentsline {subsection}{\numberline {11.2.21}ORG\_2000014 \sphinxhyphen {} has organizational member}{189}{subsection.11.2.21}%
+\contentsline {subsection}{\numberline {11.2.22}ORG\_2000015 \sphinxhyphen {} organizational member of}{190}{subsection.11.2.22}%
+\contentsline {subsection}{\numberline {11.2.23}ORG\_2000016 \sphinxhyphen {} has organizational employee}{191}{subsection.11.2.23}%
+\contentsline {subsection}{\numberline {11.2.24}ORG\_2000017 \sphinxhyphen {} organizational employee of}{192}{subsection.11.2.24}%
+\contentsline {subsection}{\numberline {11.2.25}ORG\_2000018 \sphinxhyphen {} has organizational associate}{193}{subsection.11.2.25}%
+\contentsline {subsection}{\numberline {11.2.26}ORG\_2000019 \sphinxhyphen {} organizational associate of}{195}{subsection.11.2.26}%
+\contentsline {subsection}{\numberline {11.2.27}ORG\_2000020 \sphinxhyphen {} has organizational head}{196}{subsection.11.2.27}%
+\contentsline {subsection}{\numberline {11.2.28}ORG\_2000021 \sphinxhyphen {} organizational head of}{197}{subsection.11.2.28}%
+\contentsline {subsection}{\numberline {11.2.29}ORG\_2000022 \sphinxhyphen {} has organizational volunteer}{198}{subsection.11.2.29}%
+\contentsline {subsection}{\numberline {11.2.30}ORG\_2000023 \sphinxhyphen {} organizational volunteer of}{199}{subsection.11.2.30}%
+\contentsline {subsection}{\numberline {11.2.31}ORG\_2000024 \sphinxhyphen {} has organizational appointee}{200}{subsection.11.2.31}%
+\contentsline {subsection}{\numberline {11.2.32}ORG\_2000025 \sphinxhyphen {} organizational appointee of}{201}{subsection.11.2.32}%
+\contentsline {subsection}{\numberline {11.2.33}ORG\_2000026 \sphinxhyphen {} has person member}{202}{subsection.11.2.33}%
+\contentsline {subsection}{\numberline {11.2.34}ORG\_2000027 \sphinxhyphen {} person member of}{203}{subsection.11.2.34}%
+\contentsline {subsection}{\numberline {11.2.35}RO\_0000052 \sphinxhyphen {} inheres in}{204}{subsection.11.2.35}%
+\contentsline {subsection}{\numberline {11.2.36}RO\_0000053 \sphinxhyphen {} bearer of}{205}{subsection.11.2.36}%
+\contentsline {subsection}{\numberline {11.2.37}RO\_0000056 \sphinxhyphen {} participates in}{206}{subsection.11.2.37}%
+\contentsline {subsection}{\numberline {11.2.38}RO\_0000057 \sphinxhyphen {} has participant}{207}{subsection.11.2.38}%
+\contentsline {subsection}{\numberline {11.2.39}RO\_0000080 \sphinxhyphen {} quality of}{208}{subsection.11.2.39}%
+\contentsline {subsection}{\numberline {11.2.40}RO\_0000081 \sphinxhyphen {} role of}{209}{subsection.11.2.40}%
+\contentsline {subsection}{\numberline {11.2.41}RO\_0000086 \sphinxhyphen {} has quality}{210}{subsection.11.2.41}%
+\contentsline {subsection}{\numberline {11.2.42}RO\_0000087 \sphinxhyphen {} has role}{211}{subsection.11.2.42}%
+\contentsline {subsection}{\numberline {11.2.43}RO\_0000091 \sphinxhyphen {} has disposition}{212}{subsection.11.2.43}%
+\contentsline {subsection}{\numberline {11.2.44}RO\_0000092 \sphinxhyphen {} disposition of}{212}{subsection.11.2.44}%
+\contentsline {subsection}{\numberline {11.2.45}RO\_0001015 \sphinxhyphen {} location of}{213}{subsection.11.2.45}%
+\contentsline {subsection}{\numberline {11.2.46}RO\_0001025 \sphinxhyphen {} located in}{214}{subsection.11.2.46}%
+\contentsline {subsection}{\numberline {11.2.47}RO\_0002012 \sphinxhyphen {} occurent part of}{215}{subsection.11.2.47}%
+\contentsline {subsection}{\numberline {11.2.48}RO\_0002131 \sphinxhyphen {} overlaps}{215}{subsection.11.2.48}%
+\contentsline {subsection}{\numberline {11.2.49}RO\_0002234 \sphinxhyphen {} has output}{216}{subsection.11.2.49}%
+\contentsline {subsection}{\numberline {11.2.50}RO\_0002323 \sphinxhyphen {} mereotopologically related to}{216}{subsection.11.2.50}%
+\contentsline {subsection}{\numberline {11.2.51}RO\_0002353 \sphinxhyphen {} output of}{217}{subsection.11.2.51}%
+\contentsline {subsection}{\numberline {11.2.52}unitType \sphinxhyphen {} temporal unit type}{218}{subsection.11.2.52}%
+\contentsline {chapter}{\numberline {12}Datatype Properties}{219}{chapter.12}%
+\contentsline {section}{\numberline {12.1}OBI\_0002815 \sphinxhyphen {} has representation}{219}{section.12.1}%
+\contentsline {section}{\numberline {12.2}ORG\_3000001 \sphinxhyphen {} number of employees}{221}{section.12.2}%
+\contentsline {section}{\numberline {12.3}ORG\_3000002 \sphinxhyphen {} has email representation}{222}{section.12.3}%
+\contentsline {section}{\numberline {12.4}ORG\_3000003 \sphinxhyphen {} has postal address representation}{223}{section.12.4}%
+\contentsline {section}{\numberline {12.5}ORG\_3000004 \sphinxhyphen {} has geolocation representation}{224}{section.12.5}%
+\contentsline {section}{\numberline {12.6}ORG\_3000005 \sphinxhyphen {} has URL representation}{225}{section.12.6}%
+\contentsline {section}{\numberline {12.7}ORG\_3000006 \sphinxhyphen {} has official organization name}{226}{section.12.7}%
+\contentsline {section}{\numberline {12.8}ORG\_3000007 \sphinxhyphen {} has organization name}{227}{section.12.8}%
+\contentsline {section}{\numberline {12.9}inXSDDateTimeStamp \sphinxhyphen {} in XSD Date\sphinxhyphen {}Time\sphinxhyphen {}Stamp}{229}{section.12.9}%
+\contentsline {chapter}{\numberline {13}Named Individuals}{231}{chapter.13}%
+\contentsline {section}{\numberline {13.1}All Named Individuals}{231}{section.13.1}%
+\contentsline {subsection}{\numberline {13.1.1}unitDay \sphinxhyphen {} day (unit of temporal duration)}{231}{subsection.13.1.1}%
+\contentsline {subsection}{\numberline {13.1.2}unitHour \sphinxhyphen {} hour (unit of temporal duration)}{232}{subsection.13.1.2}%
+\contentsline {subsection}{\numberline {13.1.3}unitMinute \sphinxhyphen {} minute (unit of temporal duration)}{232}{subsection.13.1.3}%
+\contentsline {subsection}{\numberline {13.1.4}unitMonth \sphinxhyphen {} month (unit of temporal duration)}{232}{subsection.13.1.4}%
+\contentsline {subsection}{\numberline {13.1.5}unitSecond \sphinxhyphen {} second (unit of temporal duration)}{233}{subsection.13.1.5}%
+\contentsline {subsection}{\numberline {13.1.6}unitWeek \sphinxhyphen {} week (unit of temporal duration)}{233}{subsection.13.1.6}%
+\contentsline {subsection}{\numberline {13.1.7}unitYear \sphinxhyphen {} year (unit of temporal duration)}{233}{subsection.13.1.7}%
+\contentsline {chapter}{\numberline {14}Out of Scope Terms}{235}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Out of Scope but Defined Here}{235}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Out of Scope and Included Here}{235}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Out of Scope and Not Included Here}{236}{section.14.3}%
+\contentsline {chapter}{\numberline {15}Translating from VIVO to the Organization Ontology}{239}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Translating Types}{239}{section.15.1}%
+\contentsline {section}{\numberline {15.2}A Cross Index}{241}{section.15.2}%
+\contentsline {chapter}{\numberline {16}Translating from ROR to the Organization Ontology}{243}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Translating Types}{243}{section.16.1}%
+\contentsline {chapter}{\numberline {17}Translating from schema.org to the Organization Ontology}{245}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Translating Types}{245}{section.17.1}%
+\contentsline {chapter}{\numberline {18}Dates Data}{247}{chapter.18}%
+\contentsline {chapter}{\numberline {19}For Ontology Authors}{249}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Domain}{249}{section.19.1}%
+\contentsline {section}{\numberline {19.2}Reusing terms}{249}{section.19.2}%
+\contentsline {section}{\numberline {19.3}Use of templates}{250}{section.19.3}%
+\contentsline {section}{\numberline {19.4}Consistent build}{250}{section.19.4}%
+\contentsline {section}{\numberline {19.5}Validation}{250}{section.19.5}%
+\contentsline {section}{\numberline {19.6}Documentation}{250}{section.19.6}%
+\contentsline {chapter}{\numberline {20}For Documentation Authors}{251}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Manual Text Production}{251}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Manual Figure Production}{251}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Automated Text Production}{251}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Automated GitHub pages}{252}{section.20.4}%
+\contentsline {section}{\numberline {20.5}Resulting Documentation Features}{252}{section.20.5}%
+\contentsline {chapter}{\numberline {21}Notes and Sources}{253}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Regarding the W3C Organization Ontology}{254}{section.21.1}%
+\contentsline {section}{\numberline {21.2}References}{254}{section.21.2}%
+\contentsline {chapter}{\numberline {22}Glossary}{255}{chapter.22}%
+\contentsline {chapter}{\numberline {23}List of Tables}{257}{chapter.23}%
+\contentsline {chapter}{\numberline {24}List of Figures}{259}{chapter.24}%
+\contentsline {chapter}{Bibliography}{261}{chapter*.51}%
+\contentsline {chapter}{Index}{263}{section*.52}%

@@ -1,0 +1,69 @@
+PREFIX my:   <http://my.org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX ro:   <http://purl.obolibrary.org/obo/ro.org#RO_>
+PREFIX iao:  <http://purl.obolibrary.org/obo/iao.owl#IAO_>
+PREFIX obi:  <http://purl.obolibrary.org/obo/obi.owl#OBI_>
+PREFIX org:  <http://purl.obolibrary.org/obo/org.owl#ORG_>
+
+
+
+CONSTRUCT {
+    ?loc_uri a ?type_uri .                  # create a location of a specified type   
+    ?loc_uri rdfs:label ?name .             # name the location
+        
+    ?loc_uri ro:0001025 ?bigger_uri .       # the location is located in something
+    ?bigger_uri a org:0000045 .             # something is a another location
+    ?bigger_uri rdfs:label ?bigger .        # another location has a name
+    
+    ?loc_uri ro:00001015 ?geo_uri .         # the location contains something
+    ?geo_uri a org:0000046 .                # something is a geo point is a geo point
+    ?geo_uri org:3000004 ?geo_point .       # geo point has a lat long
+    
+    ?loc_uri iao:0000235 ?q_uri .           # the location denotedBy something
+    ?q_uri a iao:0022027 .                  # something is a wikidata q number
+    ?q_uri obi:0002815 ?q_number .          # the wikidata q number has a value
+
+
+
+    }
+
+WHERE {	
+    
+    # ID and loc_uri
+    
+    ?s my:name ?name .
+    BIND(IRI(CONCAT("http://vivoweb.org/data/location/",?name)) AS ?loc_uri)
+    
+    # Type of Location
+    
+    ?s my:type ?type .
+    BIND( IF(?type = "continent", 	org:0000047, 
+          IF(?type = "country", 	org:0000048,
+          IF(?type = "state", 		org:0000049,
+          IF(?type = "city", 	    org:0000050,
+          IF(?type = "campus", 	    org:0000041,
+          org:0000045)
+    )))) AS ?type_uri)
+    
+    # Located In
+    
+    OPTIONAL {
+    ?s my:located_in ?bigger
+    BIND(IRI(CONCAT("http://vivoweb.org/data/location/",?bigger)) AS ?bigger_uri)
+    }  
+    
+    # Geolocation
+    
+    OPTIONAL {
+    ?s my:lat_long ?geo_data .
+    BIND(IRI(CONCAT(str(?loc_uri),"geo_point")) AS ?geo_uri)
+    } 
+    
+    # Q Number
+    
+    OPTIONAL {
+    ?s my:q_number ?q_number .
+    BIND(IRI(CONCAT(str(?loc_uri),"q_number")) AS ?q_uri) 
+    }
+}

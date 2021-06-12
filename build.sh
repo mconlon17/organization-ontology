@@ -1,10 +1,3 @@
-
-	echo Processing data templates    
-	robot template \
-  	    --template templates/dates.tsv \
-  	    --prefix "time: http://www.w3.org/2006/time#" \
-  	    convert --output data/dates.ttl	
-  	    
 	echo Processing ontology templates    
 	robot template \
   	    --template templates/annotation-properties.tsv \

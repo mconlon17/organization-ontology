@@ -1,0 +1,212 @@
+type	name	located_in	q_number	lat_long
+campus	University of Florida Main Campus	Gainesville		"29.6436371,-82.3571242"
+city	Algiers	Algeria	Q3561	"36.753889,3.058889"
+city	Gainesville	Florida	Q487999	"29.651997,-82.324992"
+city	Hanover	Germany	Q1715	"52.366667,9.716667"
+continent	Africa		Q15	"2.1939041,5.1809943"
+continent	Antarctica		Q51	"-59.1301414,0"
+continent	Asia		Q48	"23.8423658,62.5806419"
+continent	Europe		Q46	"48.1283886,4.1481067"
+continent	North America		Q49	"36.1487631,-128.0504975"
+continent	Oceania		Q538	"-8.6132766,91.4864474"
+continent	South America		Q18	"-18.7970146,-80.2891285"
+country	Algeria	Africa	Q262	"28.0310969,-2.8357021"
+country	Angola	Africa		
+country	Benin	Africa		
+country	Botswana	Africa		
+country	Burkina Faso	Africa		
+country	Burundi	Africa		
+country	Cameroon	Africa		
+country	Cape Verde	Africa		
+country	Central African Republic	Africa		
+country	Chad	Africa		
+country	Comoros	Africa		
+country	Democratic Republic of the Congo	Africa		
+country	Djibouti	Africa		
+country	Egypt	Africa		
+country	Equatorial Guinea	Africa		
+country	Eritrea	Africa		
+country	Eswatini	Africa		
+country	Ethiopia	Africa		
+country	Gabon	Africa		
+country	Ghana	Africa		
+country	Guinea	Africa		
+country	Guinea-Bissau	Africa		
+country	Ivory Coast	Africa		
+country	Kenya	Africa		
+country	Lesotho	Africa		
+country	Liberia	Africa		
+country	Libya	Africa		
+country	Madagascar	Africa		
+country	Malawi	Africa		
+country	Mali	Africa		
+country	Mauritania	Africa		
+country	Mauritius	Africa		
+country	Morocco	Africa		
+country	Mozambique	Africa		
+country	Namibia	Africa		
+country	Niger	Africa		
+country	Nigeria	Africa		
+country	Reoublic of the Congo	Africa		
+country	Rwanda	Africa		
+country	Sao Tome and Principe	Africa		
+country	Senegal	Africa		
+country	Seychelles	Africa		
+country	Sierra Leone	Africa		
+country	Somalia	Africa		
+country	South Africa	Africa		
+country	South Sudan	Africa		
+country	Sudan	Africa		
+country	Tanzania	Africa		
+country	The Gambia	Africa		
+country	Togo	Africa		
+country	Tonga	Africa		
+country	Tunisia	Africa		
+country	Uganda	Africa		
+country	Western Sahara	Africa		
+country	Zambia	Africa		
+country	Zimbabwe	Africa		
+country	Afghanistan	Asia		"33.9181653,65.4550382"
+country	Armenia	Asia		
+country	Azerbaijan	Asia		
+country	Bahrain	Asia		
+country	Bangladesh	Asia		
+country	Bhutan	Asia		
+country	Brunei Darussalam	Asia		
+country	Cambodia	Asia		
+country	China	Asia		
+country	Georgia	Asia		
+country	India	Asia		
+country	Indonesia	Asia		
+country	Iran	Asia		
+country	Iraq	Asia		
+country	Israel	Asia		
+country	Japan	Asia		
+country	Jordan	Asia		
+country	Kazakhstan	Asia		
+country	Kuwait	Asia		
+country	Kyrgyzstan	Asia		
+country	Laos	Asia		
+country	Lebanon	Asia		
+country	Malaysia	Asia		
+country	Maldives	Asia		
+country	Mongolia	Asia		
+country	Myanmar	Asia		
+country	Nepal	Asia		
+country	North Korea	Asia		
+country	Oman	Asia		
+country	Pakistan	Asia		
+country	Philippines	Asia		
+country	Qatar	Asia		
+country	Saudi Arabia	Asia		
+country	Singapore	Asia		
+country	South Korea	Asia		
+country	Sri Lanka	Asia		
+country	Syria	Asia		
+country	Taiwan	Asia		
+country	Tajikistan	Asia		
+country	Thailand	Asia		
+country	Turkey	Asia		
+country	Turkmenistan	Asia		
+country	United Arab Emirates	Asia		
+country	Uzbekistan	Asia		
+country	Vietnam	Asia		
+country	Yemen	Asia		
+country	Albania	Europe		
+country	Andorra	Europe		
+country	Austria	Europe		
+country	Belarus	Europe		
+country	Belgium	Europe		
+country	Bosnia and Herzegovina	Europe		
+country	Bulgaria	Europe		
+country	Croatia	Europe		
+country	Cyprus	Europe		
+country	Czechia	Europe		
+country	Denmark	Europe		
+country	Estonia	Europe		
+country	Finland	Europe		
+country	France	Europe		
+country	Germany	Europe		"51.096479,5.9591914"
+country	Greece	Europe		
+country	Hungary	Europe		
+country	Iceland	Europe		
+country	Ireland	Europe		
+country	Italy	Europe		
+country	Kosovo	Europe		
+country	Latvia	Europe		
+country	Liechtenstein	Europe		
+country	Lithuania	Europe		
+country	Luxembourg	Europe		
+country	Malta	Europe		
+country	Moldova	Europe		
+country	Monaco	Europe		
+country	Montenegro	Europe		
+country	Netherlands	Europe		
+country	North Macedonia	Europe		
+country	Norway	Europe		
+country	Poland	Europe		
+country	Portugal	Europe		
+country	Romnia	Europe		
+country	Russia	Europe		
+country	San Marino	Europe		
+country	Serbia	Europe		
+country	Slovakia	Europe		
+country	Slovenia	Europe		
+country	Spain	Europe		
+country	Sweden	Europe		
+country	Switzerland	Europe		
+country	Ukraine	Europe		
+country	United Kingdom	Europe		
+country	Vatican City	Europe		
+country	Antigua and Barbuda	North America		
+country	Bahamas	North America		
+country	Barbados	North America		
+country	Belize	North America		
+country	Canada	North America		
+country	Costa Rica	North America		
+country	Cuba	North America		
+country	Dominica	North America		
+country	Dominican Republic	North America		
+country	El Salvadore	North America		
+country	Grenada	North America		
+country	Guatemala	North America		
+country	Haiti	North America		
+country	Honduras	North America		
+country	Jamaica	North America		
+country	Mexico	North America		
+country	Nicaragua	North America		
+country	Saint Kitts and Nevis	North America		
+country	Saint Lucia	North America		
+country	Saint Vincent and the Grenadines	North America		
+country	Trinidad and Tobago	North America		
+country	United States	North America		"37.2743313,-104.6733254"
+country	Australia	Oceania		"-24.9901595,115.2075396"
+country	Cook Islands	Oceania		
+country	Fiji	Oceania		
+country	Kiribati	Oceania		
+country	Marshall Islands	Oceania		
+country	Micronesia	Oceania		
+country	Nauru	Oceania		
+country	New Zealand	Oceania		
+country	Niue	Oceania		
+country	Palau	Oceania		
+country	Papua New Guinea	Oceania		
+country	Samoa	Oceania		
+country	Solomon Islands	Oceania		
+country	Timor-Leste	Oceania		
+country	Tuvalu	Oceania		
+country	Vanuatu	Oceania		
+country	Argentina	South America		"-38.0903578,-72.6011344"
+country	Bolivia	South America		
+country	Brazil	South America		
+country	Chile	South America		
+country	Colombia	South America		
+country	Ecuador	South America		
+country	Guyana	South America		
+country	Panama	South America		
+country	Paraguay	South America		
+country	Peru	South America		
+country	Suriname	South America		
+country	Uruguay	South America		
+country	Venezuela	South America		
+state	Florida	United States		"27.5814374,-86.0532462"

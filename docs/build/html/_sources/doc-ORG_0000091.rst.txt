@@ -16,9 +16,9 @@ ORG_0000091 - middle school disposition
 
 .. topic:: Alternate name
 
-    intermediate school
-
     junior high school
+
+    intermediate school
 
     lower secondary school
 

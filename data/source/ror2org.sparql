@@ -1,0 +1,129 @@
+PREFIX my: <http://my.org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX iao: <http://purl.obolibrary.org/obo/iao.owl#IAO_>
+PREFIX obi: <http://purl.obolibrary.org/obo/iao.owl#OBI_>
+PREFIX org: <http://purl.obolibrary.org/obo/org.owl#ORG_>
+PREFIX ro: <http://purl.obolibrary.org/obo/ro.org#RO_>
+
+
+CONSTRUCT {
+    ?org_uri a ?rdf_type .                  # create an org       
+    ?org_uri rdfs:label ?name .             # name the org
+    
+    ?org_uri org:3000007 ?acronym .         # acronyms are names
+    
+    ?org_uri ro:0000086 ?status_uri .       # org has quality something
+    ?status_uri a ?status_class .           # something is a ror status 
+    
+    ?org_uri ro:0000091 ?disposition_uri .  # org has disposition something
+    ?disposition_uri a ?disposition .       # something is a ror disposition
+    
+    ?org_uri org:2000001 ?country_uri .     # org occupies a country  
+        
+    ?org_uri org:2000005 ?link_uri .        # org has website something
+    ?link_uri a org:0000057 .               # something is a website
+    ?link_uri org:3000005 ?link .           # website has URL
+    
+    ?org_uri iao:0000235 ?ror_uri .         # the org denotedBy an id
+    ?ror_uri a iao:0022022 .                # the id is a ror (ido)
+    ?ror_uri obi:0002815 ?ror .             # the ror has a value
+    
+    ?org_uri iao:0000235 ?grid_uri .        # the org denotedBy an id
+    ?grid_uri a iao:0022010 .               # the id is a grid (ido)
+    ?grid_uri obi:0002815 ?grid .           # the grid has a value
+    
+    ?org_uri iao:0000235 ?isni_uri .        # the org denotedBy an id
+    ?isni_uri a iao:0022014 .               # the id is an isni (ido)
+    ?isni_uri obi:0002815 ?isni .           # the isni has a value
+            
+    ?org_uri iao:0000235 ?wikidata_uri .    # the org denotedBy an id
+    ?wikidata_uri a iao:0022027 .           # the id is an wikidata qid (ido)
+    ?wikidata_uri obi:0002815 ?wikidata .   # the wikidata q number has a value
+    
+    ?org_uri iao:0000235 ?orgref_uri .      # the org denotedBy an id
+    ?orgref_uri a iao:0022003 .             # the id is an orgref (ido)
+    ?orgref_uri obi:0002815 ?orgref .       # the orgref q number has a value
+
+
+    }
+
+WHERE {	
+    
+    # org_uri and ROR id
+    
+    ?s my:id ?ror .
+    BIND(IRI(CONCAT("http://vivoweb.org/org/ror",strafter(str(?ror), "https://ror.org/"))) AS ?org_uri)
+    BIND(IRI(CONCAT(str(?org_uri),"rorid")) AS ?ror_uri)
+
+    ?s my:name ?name .
+           
+    # Acronyms (abbreviation)
+    
+    ?s my:acronyms ?acronym .
+    
+    # Status
+    
+    ?s my:status ?status .
+    BIND(IRI(CONCAT(str(?org_uri),"status")) AS ?status_uri)
+    BIND(IF(?status = "active", org:0000093, org:0000094) AS ?status_class)
+    
+    # Disposition and rdf_type
+    
+    ?s my:types ?type .
+    BIND(IRI(CONCAT(str(?org_uri),"disposition")) AS ?disposition_uri)
+    BIND( IF(?type = "Healthcare", 	org:0000016, 
+          IF(?type = "Education", 	org:0000023,
+          IF(?type = "Other", 		org:0000095,
+          IF(?type = "Company", 	org:0000027,
+          IF(?type = "Archive", 	org:0000018,
+          org:0000095)
+    )))) AS ?disposition)
+    
+    BIND(         
+          IF(?type = "Company", 	org:0000003,
+          IF(?type = "Nonprofit", 	org:0000004,
+          IF(?type = "Government", 	org:0000002,
+          org:0000001)
+    )) AS ?rdf_type)
+          
+    # Country
+    
+    ?s my:country ?c .
+    ?c my:country_code ?c_code .
+    BIND(IRI(CONCAT("http://vivoweb.org/org/country",?c_code)) AS ?country_uri)
+    
+    # Links (home page)
+    
+    ?s my:links ?link .
+    BIND(IRI(CONCAT(str(?org_uri),"website")) AS ?link_uri) 
+    
+    # Grid ID
+    
+    ?s my:external_ids ?eids .
+    ?eids my:GRID ?grid_id .
+    ?grid_id my:all ?grid .
+    BIND(IRI(CONCAT(str(?org_uri),"gridid")) AS ?grid_uri)
+    
+    # ISNI
+    
+    ?s my:external_ids ?eids .
+    ?eids my:ISNI ?isni_id .
+    ?isni_id my:all ?isni .
+    BIND(IRI(CONCAT(str(?org_uri),"isniid")) AS ?isni_uri)
+    
+    # Wikidata Q number
+    
+    ?s my:external_ids ?eids .
+    ?eids my:Wikidata ?wikidata_id .
+    ?wikidata_id my:all ?wikidata .
+    BIND(IRI(CONCAT(str(?org_uri),"wikidataqid")) AS ?wikidata_uri)
+    
+    # OrgRef number
+    
+    ?s my:external_ids ?eids .
+    ?eids my:OrgRef ?orgref_id .
+    ?orgref_id my:all ?orgref .
+    BIND(IRI(CONCAT(str(?org_uri),"orgrefid")) AS ?orgref_uri)
+
+}
