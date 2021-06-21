@@ -1,0 +1,48 @@
+
+  .. index:: 
+     single: ORG_2000009; has organizational part
+     single: has organizational part; ORG_2000009
+
+ORG_2000009 - has organizational part
+====================================================================================
+
+.. topic:: Label
+
+    has organizational part
+
+.. topic:: Alternate name
+
+    parent of
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates an organization with one of its organizational parts
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000005`
+
+.. topic:: Inverse of
+
+    :doc:`doc-ORG_2000010`
+
+.. topic:: Example
+
+    The University of Florida has organizational part College of Medicine; The College of Medicine has organizational part Department of Anesthesiology
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

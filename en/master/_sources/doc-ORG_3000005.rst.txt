@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_3000005; has URL representation
+     single: has URL representation; ORG_3000005
+
+ORG_3000005 - has URL representation
+====================================================================================
+
+.. topic:: Label
+
+    has URL representation
+
+.. topic:: Editor preferred label
+
+    has URL
+
+.. topic:: Alternate name
+
+    has uniform resource locator
+
+.. topic:: Sub property of
+
+    :doc:`doc-OBI_0002815`
+
+.. topic:: Definition
+
+    Specifies the value of a URL that represents the address of a web site on the world wide web
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000057`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#anyURI
+
+.. topic:: Example
+
+    The URL of the United Nations home page is http://un.org
+
+.. topic:: Editor's note
+
+    Replace with terms from IDO?
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

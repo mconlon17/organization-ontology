@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_2000020; has organizational head
+     single: has organizational head; ORG_2000020
+
+ORG_2000020 - has organizational head
+====================================================================================
+
+.. topic:: Label
+
+    has organizational head
+
+.. topic:: Editor preferred label
+
+    has head
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates an organziation with the person who is the head of the organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-NCBITaxon_9606`
+
+.. topic:: Inverse of
+
+    :doc:`doc-ORG_2000021`
+
+.. topic:: Example
+
+    As of this writing, Google has head Sundar Pichai
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#LeaderRole
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

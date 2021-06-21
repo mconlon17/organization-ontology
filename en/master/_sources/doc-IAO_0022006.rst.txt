@@ -1,0 +1,46 @@
+
+  .. index:: 
+     single: IAO_0022006; dbpedia identifier
+     single: dbpedia identifier; IAO_0022006
+
+IAO_0022006 - dbpedia identifier
+====================================================================================
+
+.. topic:: Label
+
+    dbpedia identifier
+
+.. topic:: Editor preferred label
+
+    DBpedia URL
+
+    http://purl.obolibrary.org/obo/IAO_0000123
+
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000578`
+
+.. topic:: Definition
+
+    A URL used by DBpedia to identify an entity
+
+.. topic:: Definition source
+
+    https://dbpedia.org
+
+.. topic:: Example
+
+    The DBpedia URL for the football player Cristiano Ronaldo is http://dbpedia.org/resource/Cristiano_Ronaldo
+
+.. topic:: Editor's note
+
+    clarify
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl
+
+.. topic:: Term editor
+
+    PERSON: Michael Conlon
+

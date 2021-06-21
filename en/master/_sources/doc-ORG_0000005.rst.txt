@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: ORG_0000005; informal organization
+     single: informal organization; ORG_0000005
+
+ORG_0000005 - informal organization
+====================================================================================
+
+.. topic:: Label
+
+    informal organization
+
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Definition
+
+    A group of people recognized as such by people outside the group. Without legal standing.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A student club, a university committee, the VIVO Ontology Interest Group
+
+.. topic:: Editor's note
+
+    There are many names associated with informal organizations including club, group, party, team, cell, task force, work group, interest group, meeting, and roundtable.  These could potentially be differentiated with class expressions involving dispositions and/or qualities in the future.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

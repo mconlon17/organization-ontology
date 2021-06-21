@@ -1,0 +1,42 @@
+
+  .. index:: 
+     single: RO_0000052; inheres in
+     single: inheres in; RO_0000052
+
+RO_0000052 - inheres in
+====================================================================================
+
+.. topic:: Label
+
+    inheres in
+
+.. topic:: Editor preferred label
+
+    inheres in
+
+.. topic:: Alternate name
+
+    inheres_in
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    A relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence
+
+.. topic:: Example
+
+    this red color inheres in this apple
+
+    this fragility inheres in this vase
+
+.. topic:: Editor's note
+
+    A dependent inheres in its bearer at all times for which the dependent exists.
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

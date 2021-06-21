@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: RO_0000056; participates in
+     single: participates in; RO_0000056
+
+RO_0000056 - participates in
+====================================================================================
+
+.. topic:: Label
+
+    participates in
+
+.. topic:: Editor preferred label
+
+    participates in
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    A relation between a continuant and a process, in which the continuant is somehow involved in the process
+
+.. topic:: Example
+
+    this investigator participates in this investigation
+
+    this input material (or this output material) participates in this process
+
+    this blood clot participates in this blood coagulation
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+

@@ -1,0 +1,38 @@
+
+  .. index:: 
+     single: ORG_0000003; company
+     single: company; ORG_0000003
+
+ORG_0000003 - company
+====================================================================================
+
+.. topic:: Label
+
+    company
+
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Definition
+
+    A legal entity of associated persons created for a specific purpose, typically commercial, in which excess revenue may be distributed to the company's owners.
+
+.. topic:: Definition source
+
+    See https://www.merriam-webster.com/dictionary/company
+
+.. topic:: Example
+
+    BASF, The University of Phoenix, Facebook, Elsevier, Apple, Google, Amazon
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#PrivateCompany
+
+    http://vivoweb.org/ontology/core#Company
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

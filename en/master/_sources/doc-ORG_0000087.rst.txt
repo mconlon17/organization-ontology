@@ -1,0 +1,44 @@
+
+  .. index:: 
+     single: ORG_0000087; academic college disposition
+     single: academic college disposition; ORG_0000087
+
+ORG_0000087 - academic college disposition
+====================================================================================
+
+.. topic:: Label
+
+    academic college disposition
+
+.. topic:: Editor preferred label
+
+    academic college
+
+.. topic:: Alternate name
+
+    university college
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    The disposition of an organization part to serve as an academic college, with academic departments organized within it as parts
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The College of the Arts at the University of Florida has a disposition academic college
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#College
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

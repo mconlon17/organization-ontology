@@ -1,0 +1,24 @@
+
+  .. index:: 
+     single: BFO_0000015; process
+     single: process; BFO_0000015
+
+BFO_0000015 - process
+====================================================================================
+
+.. topic:: Label
+
+    process
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000003`
+
+.. topic:: Definition
+
+    P is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) [has axiom label: http://purl.obolibrary.org/obo/bfo/axiom/083-003]
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+

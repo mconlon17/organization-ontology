@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: ORG_0000090; primary school disposition
+     single: primary school disposition; ORG_0000090
+
+ORG_0000090 - primary school disposition
+====================================================================================
+
+.. topic:: Label
+
+    primary school disposition
+
+.. topic:: Editor preferred label
+
+    elementary school
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    The disposition of an organization to provide education for young children, varying by jurisdiction, but often in the age range 5-11
+
+.. topic:: Definition source
+
+    https://www.merriam-webster.com/dictionary/elementary%20school
+
+.. topic:: Example
+
+    Prince Charles attended Hill House, and elemntary school in West London
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

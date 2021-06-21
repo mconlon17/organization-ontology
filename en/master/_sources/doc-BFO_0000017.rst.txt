@@ -1,0 +1,24 @@
+
+  .. index:: 
+     single: BFO_0000017; realizable entity
+     single: realizable entity; BFO_0000017
+
+BFO_0000017 - realizable entity
+====================================================================================
+
+.. topic:: Label
+
+    realizable entity
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000020`
+
+.. topic:: Definition
+
+    To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+

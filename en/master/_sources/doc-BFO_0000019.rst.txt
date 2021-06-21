@@ -1,0 +1,38 @@
+
+  .. index:: 
+     single: BFO_0000019; quality
+     single: quality; BFO_0000019
+
+BFO_0000019 - quality
+====================================================================================
+
+.. topic:: Label
+
+    quality
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000017`
+
+.. topic:: Definition
+
+    A quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized.
+
+.. topic:: Example
+
+    the shape of your nostril
+
+    the length of the circumference of your waist
+
+    the color of a tomato
+
+    the mass of this piece of gold.
+
+    the ambient temperature of this portion of air
+
+    the shape of your nose
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl
+

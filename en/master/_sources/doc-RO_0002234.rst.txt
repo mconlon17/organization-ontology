@@ -1,0 +1,28 @@
+
+  .. index:: 
+     single: RO_0002234; has output
+     single: has output; RO_0002234
+
+RO_0002234 - has output
+====================================================================================
+
+.. topic:: Label
+
+    has output
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    P has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+
+.. topic:: Term editor
+
+    Chris Mungall
+

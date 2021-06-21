@@ -1,0 +1,44 @@
+
+  .. index:: 
+     single: ORG_2000023; organizational volunteer of
+     single: organizational volunteer of; ORG_2000023
+
+ORG_2000023 - organizational volunteer of
+====================================================================================
+
+.. topic:: Label
+
+    organizational volunteer of
+
+.. topic:: Editor preferred label
+
+    volunteer of
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates a person with an organization for which they volunteer
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-NCBITaxon_9606`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Example
+
+    Many Americans have served as volunteers of the Peace Corps
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

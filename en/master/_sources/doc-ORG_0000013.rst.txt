@@ -1,0 +1,46 @@
+
+  .. index:: 
+     single: ORG_0000013; technology transfer disposition
+     single: technology transfer disposition; ORG_0000013
+
+ORG_0000013 - technology transfer disposition
+====================================================================================
+
+.. topic:: Label
+
+    technology transfer disposition
+
+.. topic:: Editor preferred label
+
+    technology transfer
+
+.. topic:: Alternate name
+
+    tech transfer
+
+    technology licensing
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    A disposition to create licenses for intellectual property for use by these beyond the creators
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Duke Office of Licensing and Ventures has a technology transfer disposition
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://purl.obolibrary.org/obo/ERO_0000565
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

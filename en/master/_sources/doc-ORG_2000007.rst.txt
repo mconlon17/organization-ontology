@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_2000007; has successor organization
+     single: has successor organization; ORG_2000007
+
+ORG_2000007 - has successor organization
+====================================================================================
+
+.. topic:: Label
+
+    has successor organization
+
+.. topic:: Editor preferred label
+
+    has successor
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates an organization with the organization that succeeds it.  The preceeding organization ceases to exist, the successor is brought into existence
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Inverse of
+
+    :doc:`doc-ORG_2000008`
+
+.. topic:: Example
+
+    The United Colonies has successor organization The United States of America
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#hasPredecessorOrganization
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

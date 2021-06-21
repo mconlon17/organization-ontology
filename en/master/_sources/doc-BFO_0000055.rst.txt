@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: BFO_0000055; realizes
+     single: realizes; BFO_0000055
+
+BFO_0000055 - realizes
+====================================================================================
+
+.. topic:: Label
+
+    realizes
+
+.. topic:: Editor preferred label
+
+    realizes
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    A relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process
+
+.. topic:: Example
+
+    this investigation realizes this investigator role
+
+    this disease course realizes this disease
+
+    this shattering realizes this fragility
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: ORG_0000030; governing disposition
+     single: governing disposition; ORG_0000030
+
+ORG_0000030 - governing disposition
+====================================================================================
+
+.. topic:: Label
+
+    governing disposition
+
+.. topic:: Editor preferred label
+
+    governing
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    A disposition to provide governance
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A Board of Trustees, A Board of Directors, the Senate of the United States all have governing dispositions
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

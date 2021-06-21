@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: ORG_0000004; nonprofit organization
+     single: nonprofit organization; ORG_0000004
+
+ORG_0000004 - nonprofit organization
+====================================================================================
+
+.. topic:: Label
+
+    nonprofit organization
+
+.. topic:: Alternate name
+
+    not for profit
+
+.. topic:: Sub class of
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Definition
+
+    A legal entity of associated persons created for a specific purpose, typically a mission, in which excess revenue is reinvested to serve the entity's mission
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    Doctors Without Borders, Duke University, The American Medical Association
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

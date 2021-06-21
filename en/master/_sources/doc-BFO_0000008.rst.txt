@@ -1,0 +1,24 @@
+
+  .. index:: 
+     single: BFO_0000008; temporal region
+     single: temporal region; BFO_0000008
+
+BFO_0000008 - temporal region
+====================================================================================
+
+.. topic:: Label
+
+    temporal region
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000003`
+
+.. topic:: Definition
+
+    An occurent which is some part of time
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+

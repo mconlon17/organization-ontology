@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_2000018; has organizational associate
+     single: has organizational associate; ORG_2000018
+
+ORG_2000018 - has organizational associate
+====================================================================================
+
+.. topic:: Label
+
+    has organizational associate
+
+.. topic:: Editor preferred label
+
+    has associate
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates an organization with a person who is associated with the organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-NCBITaxon_9606`
+
+.. topic:: Inverse of
+
+    :doc:`doc-ORG_2000019`
+
+.. topic:: Example
+
+    One might say that an organization has associates who are their former employees
+
+.. topic:: Editor's note
+
+    Associate is intentionally loose.  A person can be associated with an organization in many ways.  Subsequent additional properties may be needed to clarify.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

@@ -1,0 +1,24 @@
+
+  .. index:: 
+     single: BFO_0000003; occurrent
+     single: occurrent; BFO_0000003
+
+BFO_0000003 - occurrent
+====================================================================================
+
+.. topic:: Label
+
+    occurrent
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000001`
+
+.. topic:: Definition
+
+    An entity which occurs in time
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+

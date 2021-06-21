@@ -1,0 +1,40 @@
+
+  .. index:: 
+     single: ORG_2000006; website of
+     single: website of; ORG_2000006
+
+ORG_2000006 - website of
+====================================================================================
+
+.. topic:: Label
+
+    website of
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates a website with its organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000057`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Example
+
+    The website https://vivoweb.org website of The VIVO Project
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

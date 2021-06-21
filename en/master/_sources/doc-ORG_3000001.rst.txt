@@ -1,0 +1,48 @@
+
+  .. index:: 
+     single: ORG_3000001; number of employees
+     single: number of employees; ORG_3000001
+
+ORG_3000001 - number of employees
+====================================================================================
+
+.. topic:: Label
+
+    number of employees
+
+.. topic:: Alternate name
+
+    # of employees
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topDataProperty
+
+.. topic:: Definition
+
+    Specifies the number of people (headcount) who receive paychecks from the organization for work performed
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+
+.. topic:: Example
+
+    Amazon.com number_of_employees 1300000
+
+.. topic:: Editor's note
+
+    Informal organizations do not have employees.  Create a class restriction as a domain.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

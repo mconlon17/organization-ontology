@@ -1,0 +1,32 @@
+
+  .. index:: 
+     single: IAO_0000114; has curation status
+     single: has curation status; IAO_0000114
+
+IAO_0000114 - has curation status
+====================================================================================
+
+.. topic:: Label
+
+    has curation status
+
+.. topic:: Editor preferred label
+
+    has curation status
+
+.. topic:: Definition
+
+    A specification of the state of the metadata for a term
+
+.. topic:: Definition source
+
+    OBI_0000281
+
+.. topic:: Term editor
+
+    PERSON:Bill Bug
+
+    PERSON:Melanie Courtot
+
+    PERSON:Alan Ruttenberg
+

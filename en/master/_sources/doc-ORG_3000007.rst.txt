@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_3000007; has organization name
+     single: has organization name; ORG_3000007
+
+ORG_3000007 - has organization name
+====================================================================================
+
+.. topic:: Label
+
+    has organization name
+
+.. topic:: Editor preferred label
+
+    has name
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topDataProperty
+
+.. topic:: Definition
+
+    Specifies the value of a name of an organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#string
+
+.. topic:: Example
+
+    Names of The United States of America incude: USA, US, United States, America.
+
+.. topic:: Editor's note
+
+    Abbreviations and acronyms are also names of organizations
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://www.w3.org/2006/vcard/ns#OrganizationName
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

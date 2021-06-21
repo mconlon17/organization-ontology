@@ -1,0 +1,1199 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Classes &mdash; The Organization Ontology  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="BFO_0000001 - entity" href="doc-BFO_0000001.html" />
+    <link rel="prev" title="ORG_1000001 - vivo 1 ontology reference" href="doc-ORG_1000001.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> The Organization Ontology
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                v0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="domain-definition.html">Organization Ontology Domain Definition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="identifiers.html">Identifiers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addresses.html">Addresses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="facilities.html">Facilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetimes.html">Dates and Times</a></li>
+<li class="toctree-l1"><a class="reference internal" href="associations.html">Associations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Classes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000001.html">BFO_0000001 - entity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000002.html">BFO_0000002 - continuant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000003.html">BFO_0000003 - occurrent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000004.html">BFO_0000004 - independent continuant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000008.html">BFO_0000008 - temporal region</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000015.html">BFO_0000015 - process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000016.html">BFO_0000016 - disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000017.html">BFO_0000017 - realizable entity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000019.html">BFO_0000019 - quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000020.html">BFO_0000020 - specifically dependent continuant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000023.html">BFO_0000023 - role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000029.html">BFO_0000029 - site</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000031.html">BFO_0000031 - generically dependent continuant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000035.html">BFO_0000035 - process boundary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000038.html">BFO_0000038 - one-dimensional temporal region</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000040.html">BFO_0000040 - material entity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000141.html">BFO_0000141 - immaterial entity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-BFO_0000148.html">BFO_0000148 - zero-dimensional temporal region</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000030.html">IAO_0000030 - information content entity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000422.html">IAO_0000422 - postal address</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000429.html">IAO_0000429 - email address</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0000578.html">IAO_0000578 - centrally registered identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0020000.html">IAO_0020000 - identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0022003.html">IAO_0022003 - crossref funder identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0022006.html">IAO_0022006 - dbpedia identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0022010.html">IAO_0022010 - global research organization identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0022014.html">IAO_0022014 - international standard name identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0022022.html">IAO_0022022 - research organization registry identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0022027.html">IAO_0022027 - wikidata q number</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-IAO_0022057.html">IAO_0022057 - ringgold identifier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-NCBITaxon_9606.html">NCBITaxon_9606 - Homo sapiens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000001.html">ORG_0000001 - organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000002.html">ORG_0000002 - government organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000003.html">ORG_0000003 - company</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000004.html">ORG_0000004 - nonprofit organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000005.html">ORG_0000005 - informal organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000006.html">ORG_0000006 - organization part</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000007.html">ORG_0000007 - university disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000008.html">ORG_0000008 - association disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000009.html">ORG_0000009 - consortium disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000010.html">ORG_0000010 - service provider disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000011.html">ORG_0000011 - laboratory disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000012.html">ORG_0000012 - extension provider disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000013.html">ORG_0000013 - technology transfer disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000014.html">ORG_0000014 - philanthropy disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000015.html">ORG_0000015 - funding disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000016.html">ORG_0000016 - health care service provider disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000017.html">ORG_0000017 - hospital service provider disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000018.html">ORG_0000018 - archive disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000019.html">ORG_0000019 - museum disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000020.html">ORG_0000020 - gallery disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000021.html">ORG_0000021 - publishing disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000022.html">ORG_0000022 - research disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000023.html">ORG_0000023 - education disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000024.html">ORG_0000024 - training disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000025.html">ORG_0000025 - research administration disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000026.html">ORG_0000026 - library disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000027.html">ORG_0000027 - commerce disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000028.html">ORG_0000028 - military disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000029.html">ORG_0000029 - religious disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000030.html">ORG_0000030 - governing disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000031.html">ORG_0000031 - manufacturing disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000032.html">ORG_0000032 - project team disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000033.html">ORG_0000033 - sports disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000034.html">ORG_0000034 - information address quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000035.html">ORG_0000035 - billing address quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000036.html">ORG_0000036 - shipping address quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000037.html">ORG_0000037 - preferred address quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000038.html">ORG_0000038 - homepage quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000039.html">ORG_0000039 - wikipedia quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000040.html">ORG_0000040 - architectural structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000041.html">ORG_0000041 - campus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000042.html">ORG_0000042 - facility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000043.html">ORG_0000043 - building</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000044.html">ORG_0000044 - room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000045.html">ORG_0000045 - geographic region</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000046.html">ORG_0000046 - geographic point</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000047.html">ORG_0000047 - continent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000048.html">ORG_0000048 - country</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000049.html">ORG_0000049 - region</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000050.html">ORG_0000050 - populated place</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000051.html">ORG_0000051 - founding process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000052.html">ORG_0000052 - founding process boundary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000053.html">ORG_0000053 - dissolution process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000054.html">ORG_0000054 - dissolution process boundary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000055.html">ORG_0000055 - succession process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000056.html">ORG_0000056 - succession process boundary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000057.html">ORG_0000057 - web site</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000058.html">ORG_0000058 - spin-off process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000059.html">ORG_0000059 - spin-off process boundary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000060.html">ORG_0000060 - organizational membership</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000061.html">ORG_0000061 - organizational member role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000062.html">ORG_0000062 - organizational member grantor role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000063.html">ORG_0000063 - student led organization quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000064.html">ORG_0000064 - woman led organization quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000065.html">ORG_0000065 - minority led organization quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000066.html">ORG_0000066 - registered address quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000067.html">ORG_0000067 - primary address quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000068.html">ORG_0000068 - organizational position</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000069.html">ORG_0000069 - organizational employee role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000070.html">ORG_0000070 - organizational employor role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000071.html">ORG_0000071 - organizational associate role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000072.html">ORG_0000072 - organizational associate grantor role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000073.html">ORG_0000073 - organizatonal head role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000074.html">ORG_0000074 - organizational head grantor role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000075.html">ORG_0000075 - organizational appointee role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000076.html">ORG_0000076 - organizational appointee grantor role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000077.html">ORG_0000077 - organizational volunteer role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000078.html">ORG_0000078 - organizational volunteer grantor role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000079.html">ORG_0000079 - airline disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000080.html">ORG_0000080 - media disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000081.html">ORG_0000081 - performing disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000082.html">ORG_0000082 - labor union disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000083.html">ORG_0000083 - person membership</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000084.html">ORG_0000084 - person member role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000085.html">ORG_0000085 - person member grantor role</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000086.html">ORG_0000086 - academic department disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000087.html">ORG_0000087 - academic college disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000088.html">ORG_0000088 - committee disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000089.html">ORG_0000089 - pre-school disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000090.html">ORG_0000090 - primary school disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000091.html">ORG_0000091 - middle school disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000092.html">ORG_0000092 - secondary school disposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000093.html">ORG_0000093 - ror active status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-ORG_0000094.html">ORG_0000094 - ror inactive status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-Concept.html">Concept - concept (skos)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-Instant.html">Instant - time instant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc-TemporalUnit.html">TemporalUnit - temporal unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">The Organization Ontology</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Classes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/classes.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="classes">
+<h1>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h1>
+<p><strong>Classes</strong> are collections of <strong>individuals</strong>.  A university, a nonprofit, building,
+and a role in a project are
+all individuals.  Classes of individuals are defined by specifying members
+(extension) or more frequently
+in scholarship, by specifying conditions (intension).</p>
+<p>In ontologies, and using <a class="reference internal" href="glossary.html#glossary"><span class="std std-ref">OWL</span></a>, individuals
+instances of classes. Classes are arranged
+in subsumption hierarchies, indicating that individuals in one class are members of some
+higher class.  For example, a cat is a mammal.  Your cat is an instance of the
+class cat.  All cats are mammals.  We say cat is a subclass of mammal.  We can infer
+that all individuals that are
+cats are mammals.  Your cat is a cat, so we can infer your cat is a mammal.</p>
+<section id="all-classes">
+<h2>All Classes<a class="headerlink" href="#all-classes" title="Permalink to this headline">¶</a></h2>
+<p>See <a class="reference internal" href="#table-5">Table 5</a>.</p>
+<span id="table-5"></span><table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Table 5 Classes</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Term ID - Label</p></th>
+<th class="head"><p>Definition</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000001.html"><span class="doc">BFO_0000001 - entity</span></a></p></td>
+<td><p>The fundamental thing that has existence. All</p>
+<p>things that exist are entities.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000002.html"><span class="doc">BFO_0000002 - continuant</span></a></p></td>
+<td><p>An entity which has existence in time</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000003.html"><span class="doc">BFO_0000003 - occurrent</span></a></p></td>
+<td><p>An entity which occurs in time</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000004.html"><span class="doc">BFO_0000004 - independent continuant</span></a></p></td>
+<td><p>B is an independent continuant = Def. b is a</p>
+<p>continuant which is such that there is no c and no</p>
+<p>t such that b s-depends_on c at t. (axiom label in</p>
+<p>BFO2 Reference: [017-002])</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000008.html"><span class="doc">BFO_0000008 - temporal region</span></a></p></td>
+<td><p>An occurent which is some part of time</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000015.html"><span class="doc">BFO_0000015 - process</span></a></p></td>
+<td><p>P is a process = Def. p is an occurrent that has</p>
+<p>temporal proper parts and for some time t, p</p>
+<p>s-depends_on some material entity at t. (axiom</p>
+<p>label in BFO2 Reference: [083-003]) [has axiom</p>
+<p>label:</p>
+<p><a class="reference external" href="http://purl.obolibrary.org/obo/bfo/axiom/083-003">http://purl.obolibrary.org/obo/bfo/axiom/083-003</a>]</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000016.html"><span class="doc">BFO_0000016 - disposition</span></a></p></td>
+<td><p>A realizable entity that presents in a continuant</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000017.html"><span class="doc">BFO_0000017 - realizable entity</span></a></p></td>
+<td><p>To say that b is a realizable entity is to say</p>
+<p>that b is a specifically dependent continuant that</p>
+<p>inheres in some independent continuant which is</p>
+<p>not a spatial region and is of a type instances of</p>
+<p>which are realized in processes of a correlated</p>
+<p>type. (axiom label in BFO2 Reference: [058-002])</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000019.html"><span class="doc">BFO_0000019 - quality</span></a></p></td>
+<td><p>A quality is a specifically dependent continuant</p>
+<p>that, in contrast to roles and dispositions, does</p>
+<p>not require any further process in order to be</p>
+<p>realized.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000020.html"><span class="doc">BFO_0000020 - specifically dependent continuant</span></a></p></td>
+<td><p>B is a specifically dependent continuant = Def. b</p>
+<p>is a continuant &amp; there is some independent</p>
+<p>continuant c which is not a spatial region and</p>
+<p>which is such that b s-depends_on c at every time</p>
+<p>t during the course of b’s existence. (axiom label</p>
+<p>in BFO2 Reference: [050-003]) [has axiom label:</p>
+<p><a class="reference external" href="http://purl.obolibrary.org/obo/bfo/axiom/050-003">http://purl.obolibrary.org/obo/bfo/axiom/050-003</a>]</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000023.html"><span class="doc">BFO_0000023 - role</span></a></p></td>
+<td><p>B is a role means: b is a realizable entity &amp; b</p>
+<p>exists because there is some single bearer that is</p>
+<p>in some special physical, social, or institutional</p>
+<p>set of circumstances in which this bearer does not</p>
+<p>have to be&amp; b is not such that, if it ceases to</p>
+<p>exist, then the physical make-up of the bearer is</p>
+<p>thereby changed.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000029.html"><span class="doc">BFO_0000029 - site</span></a></p></td>
+<td><p>B is a site means: b is a three-dimensional</p>
+<p>immaterial entity that is (partially or wholly)</p>
+<p>bounded by a material entity or it is a</p>
+<p>three-dimensional immaterial part thereof. (axiom</p>
+<p>label in BFO2 Reference: [034-002])</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000031.html"><span class="doc">BFO_0000031 - generically dependent continuant</span></a></p></td>
+<td><p>B is a generically dependent continuant = Def. b</p>
+<p>is a continuant that g-depends_on one or more</p>
+<p>other entities. (axiom label in BFO2 Reference:</p>
+<p>[074-001]) [has axiom label:</p>
+<p><a class="reference external" href="http://purl.obolibrary.org/obo/bfo/axiom/074-001">http://purl.obolibrary.org/obo/bfo/axiom/074-001</a>]</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000035.html"><span class="doc">BFO_0000035 - process boundary</span></a></p></td>
+<td><p>P is a process boundary =Def. p is a temporal part</p>
+<p>of a process &amp; p has no proper temporal parts.</p>
+<p>(axiom label in BFO2 Reference: [084-001]) [has</p>
+<p>axiom label:</p>
+<p><a class="reference external" href="http://purl.obolibrary.org/obo/bfo/axiom/084-001">http://purl.obolibrary.org/obo/bfo/axiom/084-001</a>]</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000038.html"><span class="doc">BFO_0000038 - one-dimensional temporal region</span></a></p></td>
+<td><p>A one-dimensional temporal region is a temporal</p>
+<p>region that is extended. (axiom label in BFO2</p>
+<p>Reference: [103-001])</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000040.html"><span class="doc">BFO_0000040 - material entity</span></a></p></td>
+<td><p>A material entity is an independent continuant</p>
+<p>that has some portion of matter as proper or</p>
+<p>improper continuant part. (axiom label in BFO2</p>
+<p>Reference: [019-002])</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-BFO_0000141.html"><span class="doc">BFO_0000141 - immaterial entity</span></a></p></td>
+<td><p>An immaterial entity is the boundary or interior</p>
+<p>of a material entity</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-BFO_0000148.html"><span class="doc">BFO_0000148 - zero-dimensional temporal region</span></a></p></td>
+<td><p>A temporal region of no duration.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-IAO_0000030.html"><span class="doc">IAO_0000030 - information content entity</span></a></p></td>
+<td><p>A generically dependent continuant that is about</p>
+<p>some thing.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-IAO_0000422.html"><span class="doc">IAO_0000422 - postal address</span></a></p></td>
+<td><p>A textual entity that is used as directive to</p>
+<p>deliver something to a person, or organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-IAO_0000429.html"><span class="doc">IAO_0000429 - email address</span></a></p></td>
+<td><p>A designation used to deliver email to a</p>
+<p>recipient.  Typically has an associated email</p>
+<p>representation</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-IAO_0000578.html"><span class="doc">IAO_0000578 - centrally registered identifier</span></a></p></td>
+<td><p>An information content entity that consists of a</p>
+<p>CRID symbol and additional information about the</p>
+<p>CRID registry to which it belongs.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-IAO_0020000.html"><span class="doc">IAO_0020000 - identifier</span></a></p></td>
+<td><p>An identifier is an information content entity</p>
+<p>that is the outcome of a dubbing process and is</p>
+<p>used to refer to one instance of entity shared by</p>
+<p>a group of people to refer to that individual</p>
+<p>entity.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-IAO_0022003.html"><span class="doc">IAO_0022003 - crossref funder identifier</span></a></p></td>
+<td><p>An identifier assigned by CrossRef to an</p>
+<p>organization which has funded a project resulting</p>
+<p>in a published work</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-IAO_0022006.html"><span class="doc">IAO_0022006 - dbpedia identifier</span></a></p></td>
+<td><p>A URL used by DBpedia to identify an entity</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-IAO_0022010.html"><span class="doc">IAO_0022010 - global research organization identifier</span></a></p></td>
+<td><p>An identifier assigned and managed by Digital</p>
+<p>Science for the purpose of denoting research</p>
+<p>organizations</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-IAO_0022014.html"><span class="doc">IAO_0022014 - international standard name identifier</span></a></p></td>
+<td><p>An identifier for persons and organizations which</p>
+<p>may be assigned by matching algorithms based on</p>
+<p>records provided by publishers</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-IAO_0022022.html"><span class="doc">IAO_0022022 - research organization registry identifier</span></a></p></td>
+<td><p>An identifier assigned by ROR to research</p>
+<p>organizations in the world</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-IAO_0022027.html"><span class="doc">IAO_0022027 - wikidata q number</span></a></p></td>
+<td><p>QID (or Q number) is the unique identifier of a</p>
+<p>data item on Wikidata, comprising the letter “Q”</p>
+<p>followed by one or more digits.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-IAO_0022057.html"><span class="doc">IAO_0022057 - ringgold identifier</span></a></p></td>
+<td><p>The Ringgold Identifier is a unique numerical</p>
+<p>identifier applied to organizations in the</p>
+<p>scholarly supply chain</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-NCBITaxon_9606.html"><span class="doc">NCBITaxon_9606 - Homo sapiens</span></a></p></td>
+<td><p>The species of bipedal primates to which moden</p>
+<p>humans belong</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000001.html"><span class="doc">ORG_0000001 - organization</span></a></p></td>
+<td><p>A group of people recognized as such by people</p>
+<p>outside the group that come together for a</p>
+<p>purpose.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000002.html"><span class="doc">ORG_0000002 - government organization</span></a></p></td>
+<td><p>An organization which is the body of persons that</p>
+<p>constitutes the governing authority of a political</p>
+<p>unit</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000003.html"><span class="doc">ORG_0000003 - company</span></a></p></td>
+<td><p>A legal entity of associated persons created for a</p>
+<p>specific purpose, typically commercial, in which</p>
+<p>excess revenue may be distributed to the company’s</p>
+<p>owners.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000004.html"><span class="doc">ORG_0000004 - nonprofit organization</span></a></p></td>
+<td><p>A legal entity of associated persons created for a</p>
+<p>specific purpose, typically a mission, in which</p>
+<p>excess revenue is reinvested to serve the entity’s</p>
+<p>mission</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000005.html"><span class="doc">ORG_0000005 - informal organization</span></a></p></td>
+<td><p>A group of people recognized as such by people</p>
+<p>outside the group. Without legal standing.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000006.html"><span class="doc">ORG_0000006 - organization part</span></a></p></td>
+<td><p>An organization which exists as part of another</p>
+<p>organization.  Implies a part_of relationship to</p>
+<p>another organization</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000007.html"><span class="doc">ORG_0000007 - university disposition</span></a></p></td>
+<td><p>A disposition to award academic degrees and</p>
+<p>conduct research in a variety of academic</p>
+<p>disciplines</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000008.html"><span class="doc">ORG_0000008 - association disposition</span></a></p></td>
+<td><p>A disposition to organize organizations or</p>
+<p>individuals along and industry or academic lines</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000009.html"><span class="doc">ORG_0000009 - consortium disposition</span></a></p></td>
+<td><p>A disposition to organize organizations along</p>
+<p>industry or academic lines</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000010.html"><span class="doc">ORG_0000010 - service provider disposition</span></a></p></td>
+<td><p>A disposition to provide service with or without a</p>
+<p>fee</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000011.html"><span class="doc">ORG_0000011 - laboratory disposition</span></a></p></td>
+<td><p>A disposition to provide laboratory services.  In</p>
+<p>the US, organization parts in universities that</p>
+<p>have a disposition to provide laboratory services</p>
+<p>to others are called core laboratories</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000012.html"><span class="doc">ORG_0000012 - extension provider disposition</span></a></p></td>
+<td><p>A disposition to provide extension services,</p>
+<p>typically in agriculture.  Extension provides</p>
+<p>access to university research findings and advice</p>
+<p>to agriculturalists.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000013.html"><span class="doc">ORG_0000013 - technology transfer disposition</span></a></p></td>
+<td><p>A disposition to create licenses for intellectual</p>
+<p>property for use by these beyond the creators</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000014.html"><span class="doc">ORG_0000014 - philanthropy disposition</span></a></p></td>
+<td><p>A disposition to donate charitable causes,</p>
+<p>sometimes in the form of grants involving</p>
+<p>contracts regarding the use of the donated funds</p>
+<p>or effort.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000015.html"><span class="doc">ORG_0000015 - funding disposition</span></a></p></td>
+<td><p>A disposition to fund proposals, often is response</p>
+<p>to a call for proposals by the entity with the</p>
+<p>funding disposition</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000016.html"><span class="doc">ORG_0000016 - health care service provider disposition</span></a></p></td>
+<td><p>A disposition to provider health care to humans</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000017.html"><span class="doc">ORG_0000017 - hospital service provider disposition</span></a></p></td>
+<td><p>A disposition to provide hospital-based health</p>
+<p>care services to humans</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000018.html"><span class="doc">ORG_0000018 - archive disposition</span></a></p></td>
+<td><p>A disposition to collect, store, and provide</p>
+<p>access to inanimate material entities, and/or</p>
+<p>information content entitites</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000019.html"><span class="doc">ORG_0000019 - museum disposition</span></a></p></td>
+<td><p>A disposition to collect, store, and provide</p>
+<p>access to inanimate material entities in a</p>
+<p>facility</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000020.html"><span class="doc">ORG_0000020 - gallery disposition</span></a></p></td>
+<td><p>A disposition to display collected works from an</p>
+<p>archive</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000021.html"><span class="doc">ORG_0000021 - publishing disposition</span></a></p></td>
+<td><p>A disposition to publish information content</p>
+<p>entities</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000022.html"><span class="doc">ORG_0000022 - research disposition</span></a></p></td>
+<td><p>A disposition to conduct research</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000023.html"><span class="doc">ORG_0000023 - education disposition</span></a></p></td>
+<td><p>A disposition to teach, and provide experiential</p>
+<p>opprtunities for students</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000024.html"><span class="doc">ORG_0000024 - training disposition</span></a></p></td>
+<td><p>A disposition to train, and provide experiential</p>
+<p>opportunities for trainees</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000025.html"><span class="doc">ORG_0000025 - research administration disposition</span></a></p></td>
+<td><p>A disposition to provide resources and oversight</p>
+<p>for those conducting research</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000026.html"><span class="doc">ORG_0000026 - library disposition</span></a></p></td>
+<td><p>A disposition to provide library services</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000027.html"><span class="doc">ORG_0000027 - commerce disposition</span></a></p></td>
+<td><p>A disposition to sell things</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000028.html"><span class="doc">ORG_0000028 - military disposition</span></a></p></td>
+<td><p>A disposition to engage in warfare</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000029.html"><span class="doc">ORG_0000029 - religious disposition</span></a></p></td>
+<td><p>A disposition to engage in matters of spirtuality</p>
+<p>and faith</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000030.html"><span class="doc">ORG_0000030 - governing disposition</span></a></p></td>
+<td><p>A disposition to provide governance</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000031.html"><span class="doc">ORG_0000031 - manufacturing disposition</span></a></p></td>
+<td><p>A dispositon to construct material entities</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000032.html"><span class="doc">ORG_0000032 - project team disposition</span></a></p></td>
+<td><p>A disposition to execute and finish a project.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000033.html"><span class="doc">ORG_0000033 - sports disposition</span></a></p></td>
+<td><p>A disposition to engage in sports activites,</p>
+<p>typically competitive.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000034.html"><span class="doc">ORG_0000034 - information address quality</span></a></p></td>
+<td><p>A quality of an address to be used for information</p>
+<p>inquiries</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000035.html"><span class="doc">ORG_0000035 - billing address quality</span></a></p></td>
+<td><p>A quality of an address to be used to receive</p>
+<p>bills</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000036.html"><span class="doc">ORG_0000036 - shipping address quality</span></a></p></td>
+<td><p>A quality of an address to be used to receive</p>
+<p>shipped goods</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000037.html"><span class="doc">ORG_0000037 - preferred address quality</span></a></p></td>
+<td><p>A quality of an address to be displayed in most</p>
+<p>settings</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000038.html"><span class="doc">ORG_0000038 - homepage quality</span></a></p></td>
+<td><p>A quality to be the primary website for an entity.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000039.html"><span class="doc">ORG_0000039 - wikipedia quality</span></a></p></td>
+<td><p>A quality to be the webpage within WikiPedia</p>
+<p>regarding the entity</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000040.html"><span class="doc">ORG_0000040 - architectural structure</span></a></p></td>
+<td><p>A material entity that is a human made strcuture</p>
+<p>with firm connection between its foundation and</p>
+<p>the ground.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000041.html"><span class="doc">ORG_0000041 - campus</span></a></p></td>
+<td><p>The geographic location consisting of the  grounds</p>
+<p>or property of a school, college, university,</p>
+<p>business, church, or hospital, often understood to</p>
+<p>include buildings and other structures.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000042.html"><span class="doc">ORG_0000042 - facility</span></a></p></td>
+<td><p>An architectural structure that bears some</p>
+<p>function.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000043.html"><span class="doc">ORG_0000043 - building</span></a></p></td>
+<td><p>A permanent walled and roofed construction</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000044.html"><span class="doc">ORG_0000044 - room</span></a></p></td>
+<td><p>A space contained by a partitioned part of the</p>
+<p>inside of a building.  Often has an identifier.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000045.html"><span class="doc">ORG_0000045 - geographic region</span></a></p></td>
+<td><p>A place on the earth.  Not necessarily contiguous</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000046.html"><span class="doc">ORG_0000046 - geographic point</span></a></p></td>
+<td><p>A point located on the earth</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000047.html"><span class="doc">ORG_0000047 - continent</span></a></p></td>
+<td><p>One of the main landmasses of the globe, usually</p>
+<p>reckoned as seven in number (Europe, Asia, Africa,</p>
+<p>North America, South America, Australia, and</p>
+<p>Antarctica).</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000048.html"><span class="doc">ORG_0000048 - country</span></a></p></td>
+<td><p>The territory governed by a sovereign state.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000049.html"><span class="doc">ORG_0000049 - region</span></a></p></td>
+<td><p>A subdivision of the territory of a country</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000050.html"><span class="doc">ORG_0000050 - populated place</span></a></p></td>
+<td><p>A named place on the earth occupied by people</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000051.html"><span class="doc">ORG_0000051 - founding process</span></a></p></td>
+<td><p>The process by which the organization was founded</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000052.html"><span class="doc">ORG_0000052 - founding process boundary</span></a></p></td>
+<td><p>The process boundary which defines the moment of</p>
+<p>creation of an orgnization.  Before the moment</p>
+<p>the organization does not exist.  After the</p>
+<p>moment, the organization exists.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000053.html"><span class="doc">ORG_0000053 - dissolution process</span></a></p></td>
+<td><p>The process by which an organization no longer</p>
+<p>exists.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000054.html"><span class="doc">ORG_0000054 - dissolution process boundary</span></a></p></td>
+<td><p>The process boundary which marks the moment at</p>
+<p>which the organization no longer exists</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000055.html"><span class="doc">ORG_0000055 - succession process</span></a></p></td>
+<td><p>The process by which one organization gores out of</p>
+<p>existence and is succeeded by a new organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000056.html"><span class="doc">ORG_0000056 - succession process boundary</span></a></p></td>
+<td><p>The process boundary within a succession process.</p>
+<p>Complex succesion processes may have many</p>
+<p>boundaries.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000057.html"><span class="doc">ORG_0000057 - web site</span></a></p></td>
+<td><p>The information content entity consisting of a</p>
+<p>group of World Wide Web pages usually containing</p>
+<p>hyperlinks to each other and made available online</p>
+<p>by an individual, company, educational</p>
+<p>institution, government, or organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000058.html"><span class="doc">ORG_0000058 - spin-off process</span></a></p></td>
+<td><p>The process by which one organization spins off of</p>
+<p>another</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000059.html"><span class="doc">ORG_0000059 - spin-off process boundary</span></a></p></td>
+<td><p>The boundary of a spin-off process</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000060.html"><span class="doc">ORG_0000060 - organizational membership</span></a></p></td>
+<td><p>The asymmetric relationship involving two</p>
+<p>organizations in which one is a member of the</p>
+<p>other</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000061.html"><span class="doc">ORG_0000061 - organizational member role</span></a></p></td>
+<td><p>The role of an organization in being a member of</p>
+<p>another</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000062.html"><span class="doc">ORG_0000062 - organizational member grantor role</span></a></p></td>
+<td><p>The role of an organization in granting a member</p>
+<p>role to another</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000063.html"><span class="doc">ORG_0000063 - student led organization quality</span></a></p></td>
+<td><p>The quality of an organization that is led by a</p>
+<p>student</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000064.html"><span class="doc">ORG_0000064 - woman led organization quality</span></a></p></td>
+<td><p>The quality of an organization that is led by a</p>
+<p>woman</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000065.html"><span class="doc">ORG_0000065 - minority led organization quality</span></a></p></td>
+<td><p>The quality of an organiztion that is led by a</p>
+<p>designated minority</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000066.html"><span class="doc">ORG_0000066 - registered address quality</span></a></p></td>
+<td><p>The quality of a location that is the</p>
+<p>legal/registered location for the organization</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000067.html"><span class="doc">ORG_0000067 - primary address quality</span></a></p></td>
+<td><p>The quality of a location that is the</p>
+<p>primary/preferred location for the organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000068.html"><span class="doc">ORG_0000068 - organizational position</span></a></p></td>
+<td><p>The asymmetric relationship between an</p>
+<p>organization and a person in which a person has a</p>
+<p>role in the positon, as does the organization.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000069.html"><span class="doc">ORG_0000069 - organizational employee role</span></a></p></td>
+<td><p>The role of a person to be an employee of an</p>
+<p>organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000070.html"><span class="doc">ORG_0000070 - organizational employor role</span></a></p></td>
+<td><p>The role of an organization to employ a person</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000071.html"><span class="doc">ORG_0000071 - organizational associate role</span></a></p></td>
+<td><p>The role of a person to be an associate of an</p>
+<p>organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000072.html"><span class="doc">ORG_0000072 - organizational associate grantor role</span></a></p></td>
+<td><p>The role of an organization to grant associate</p>
+<p>status to a person</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000073.html"><span class="doc">ORG_0000073 - organizatonal head role</span></a></p></td>
+<td><p>The role of a person to be the head of an</p>
+<p>organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000074.html"><span class="doc">ORG_0000074 - organizational head grantor role</span></a></p></td>
+<td><p>The role of an organization to grant head status</p>
+<p>to a person</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000075.html"><span class="doc">ORG_0000075 - organizational appointee role</span></a></p></td>
+<td><p>The role of a person to be an appointee of an</p>
+<p>organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000076.html"><span class="doc">ORG_0000076 - organizational appointee grantor role</span></a></p></td>
+<td><p>The role of an organization to grant appointee</p>
+<p>status to a person</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000077.html"><span class="doc">ORG_0000077 - organizational volunteer role</span></a></p></td>
+<td><p>The role of a person to be a volunteer of an</p>
+<p>organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000078.html"><span class="doc">ORG_0000078 - organizational volunteer grantor role</span></a></p></td>
+<td><p>The role of an organization to grant volunteer</p>
+<p>status to a person</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000079.html"><span class="doc">ORG_0000079 - airline disposition</span></a></p></td>
+<td><p>The disposition of an organization that operates</p>
+<p>airplanes carrying frieght or passengers</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000080.html"><span class="doc">ORG_0000080 - media disposition</span></a></p></td>
+<td><p>The disposition of an organization that creates,</p>
+<p>transmits, and/or licenses live or recorded</p>
+<p>material for viewing by others</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000081.html"><span class="doc">ORG_0000081 - performing disposition</span></a></p></td>
+<td><p>The disposition of an organization to perform live</p>
+<p>or recorded music, theatre, or dance</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000082.html"><span class="doc">ORG_0000082 - labor union disposition</span></a></p></td>
+<td><p>The disposition of an organization to organize</p>
+<p>workers for the purpose of negotiations with</p>
+<p>employers of the workers</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000083.html"><span class="doc">ORG_0000083 - person membership</span></a></p></td>
+<td><p>The asymmetric relationship representing a</p>
+<p>person’s membership in an organization</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000084.html"><span class="doc">ORG_0000084 - person member role</span></a></p></td>
+<td><p>The role of a person to be a member of an</p>
+<p>organization</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000085.html"><span class="doc">ORG_0000085 - person member grantor role</span></a></p></td>
+<td><p>The role of an organization to grant membership to</p>
+<p>a person</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000086.html"><span class="doc">ORG_0000086 - academic department disposition</span></a></p></td>
+<td><p>The disposition of an organization part to serve</p>
+<p>as an academic department, with faculty, courses,</p>
+<p>programs, focused on an academic discipline</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000087.html"><span class="doc">ORG_0000087 - academic college disposition</span></a></p></td>
+<td><p>The disposition of an organization part to serve</p>
+<p>as an academic college, with academic departments</p>
+<p>organized within it as parts</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000088.html"><span class="doc">ORG_0000088 - committee disposition</span></a></p></td>
+<td><p>The disposition of an organization part to serve</p>
+<p>as a a body of persons delegated to consider,</p>
+<p>investigate, take action on, or report on some</p>
+<p>matter</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000089.html"><span class="doc">ORG_0000089 - pre-school disposition</span></a></p></td>
+<td><p>The disposition of an organization to provide</p>
+<p>education for very young children, varying by</p>
+<p>jurisdiction, but often in the age range 2-5</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000090.html"><span class="doc">ORG_0000090 - primary school disposition</span></a></p></td>
+<td><p>The disposition of an organization to provide</p>
+<p>education for young children, varying by</p>
+<p>jurisdiction, but often in the age range 5-11</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000091.html"><span class="doc">ORG_0000091 - middle school disposition</span></a></p></td>
+<td><p>The disposition of an organization to provide</p>
+<p>education for children, varying by jurisdiction,</p>
+<p>but often in the age range 11-14</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000092.html"><span class="doc">ORG_0000092 - secondary school disposition</span></a></p></td>
+<td><p>The disposition of an organization to provide</p>
+<p>education for older children, varying by</p>
+<p>jurisdiction, but often in the age range 14-18</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000093.html"><span class="doc">ORG_0000093 - ror active status</span></a></p></td>
+<td><p>The disposition of an organization to be in</p>
+<p>current existence and currently operational</p>
+</td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000094.html"><span class="doc">ORG_0000094 - ror inactive status</span></a></p></td>
+<td><p>The disposition of an organization to no longer</p>
+<p>exist, or to be currently devoid of operations</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-Concept.html"><span class="doc">Concept - concept (skos)</span></a></p></td>
+<td><p>An idea or notion, a unit of thought</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-Instant.html"><span class="doc">Instant - time instant</span></a></p></td>
+<td><p>A zero-dimensional part of time.  Precision may</p>
+<p>specify a range.  Represented by xsd datetime</p>
+<p>string</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-TemporalUnit.html"><span class="doc">TemporalUnit - temporal unit</span></a></p></td>
+<td><p>A specification of a time duration.  Used to</p>
+<p>specify precision of time instants</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">All</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000001.html">BFO_0000001 - entity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000002.html">BFO_0000002 - continuant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000003.html">BFO_0000003 - occurrent</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000004.html">BFO_0000004 - independent continuant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000008.html">BFO_0000008 - temporal region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000015.html">BFO_0000015 - process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000016.html">BFO_0000016 - disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000017.html">BFO_0000017 - realizable entity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000019.html">BFO_0000019 - quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000020.html">BFO_0000020 - specifically dependent continuant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000023.html">BFO_0000023 - role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000029.html">BFO_0000029 - site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000031.html">BFO_0000031 - generically dependent continuant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000035.html">BFO_0000035 - process boundary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000038.html">BFO_0000038 - one-dimensional temporal region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000040.html">BFO_0000040 - material entity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000141.html">BFO_0000141 - immaterial entity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-BFO_0000148.html">BFO_0000148 - zero-dimensional temporal region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000030.html">IAO_0000030 - information content entity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000422.html">IAO_0000422 - postal address</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000429.html">IAO_0000429 - email address</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0000578.html">IAO_0000578 - centrally registered identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0020000.html">IAO_0020000 - identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0022003.html">IAO_0022003 - crossref funder identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0022006.html">IAO_0022006 - dbpedia identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0022010.html">IAO_0022010 - global research organization identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0022014.html">IAO_0022014 - international standard name identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0022022.html">IAO_0022022 - research organization registry identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0022027.html">IAO_0022027 - wikidata q number</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-IAO_0022057.html">IAO_0022057 - ringgold identifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-NCBITaxon_9606.html">NCBITaxon_9606 - Homo sapiens</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000001.html">ORG_0000001 - organization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000002.html">ORG_0000002 - government organization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000003.html">ORG_0000003 - company</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000004.html">ORG_0000004 - nonprofit organization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000005.html">ORG_0000005 - informal organization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000006.html">ORG_0000006 - organization part</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000007.html">ORG_0000007 - university disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000008.html">ORG_0000008 - association disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000009.html">ORG_0000009 - consortium disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000010.html">ORG_0000010 - service provider disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000011.html">ORG_0000011 - laboratory disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000012.html">ORG_0000012 - extension provider disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000013.html">ORG_0000013 - technology transfer disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000014.html">ORG_0000014 - philanthropy disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000015.html">ORG_0000015 - funding disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000016.html">ORG_0000016 - health care service provider disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000017.html">ORG_0000017 - hospital service provider disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000018.html">ORG_0000018 - archive disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000019.html">ORG_0000019 - museum disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000020.html">ORG_0000020 - gallery disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000021.html">ORG_0000021 - publishing disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000022.html">ORG_0000022 - research disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000023.html">ORG_0000023 - education disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000024.html">ORG_0000024 - training disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000025.html">ORG_0000025 - research administration disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000026.html">ORG_0000026 - library disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000027.html">ORG_0000027 - commerce disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000028.html">ORG_0000028 - military disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000029.html">ORG_0000029 - religious disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000030.html">ORG_0000030 - governing disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000031.html">ORG_0000031 - manufacturing disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000032.html">ORG_0000032 - project team disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000033.html">ORG_0000033 - sports disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000034.html">ORG_0000034 - information address quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000035.html">ORG_0000035 - billing address quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000036.html">ORG_0000036 - shipping address quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000037.html">ORG_0000037 - preferred address quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000038.html">ORG_0000038 - homepage quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000039.html">ORG_0000039 - wikipedia quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000040.html">ORG_0000040 - architectural structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000041.html">ORG_0000041 - campus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000042.html">ORG_0000042 - facility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000043.html">ORG_0000043 - building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000044.html">ORG_0000044 - room</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000045.html">ORG_0000045 - geographic region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000046.html">ORG_0000046 - geographic point</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000047.html">ORG_0000047 - continent</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000048.html">ORG_0000048 - country</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000049.html">ORG_0000049 - region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000050.html">ORG_0000050 - populated place</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000051.html">ORG_0000051 - founding process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000052.html">ORG_0000052 - founding process boundary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000053.html">ORG_0000053 - dissolution process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000054.html">ORG_0000054 - dissolution process boundary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000055.html">ORG_0000055 - succession process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000056.html">ORG_0000056 - succession process boundary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000057.html">ORG_0000057 - web site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000058.html">ORG_0000058 - spin-off process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000059.html">ORG_0000059 - spin-off process boundary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000060.html">ORG_0000060 - organizational membership</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000061.html">ORG_0000061 - organizational member role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000062.html">ORG_0000062 - organizational member grantor role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000063.html">ORG_0000063 - student led organization quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000064.html">ORG_0000064 - woman led organization quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000065.html">ORG_0000065 - minority led organization quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000066.html">ORG_0000066 - registered address quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000067.html">ORG_0000067 - primary address quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000068.html">ORG_0000068 - organizational position</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000069.html">ORG_0000069 - organizational employee role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000070.html">ORG_0000070 - organizational employor role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000071.html">ORG_0000071 - organizational associate role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000072.html">ORG_0000072 - organizational associate grantor role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000073.html">ORG_0000073 - organizatonal head role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000074.html">ORG_0000074 - organizational head grantor role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000075.html">ORG_0000075 - organizational appointee role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000076.html">ORG_0000076 - organizational appointee grantor role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000077.html">ORG_0000077 - organizational volunteer role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000078.html">ORG_0000078 - organizational volunteer grantor role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000079.html">ORG_0000079 - airline disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000080.html">ORG_0000080 - media disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000081.html">ORG_0000081 - performing disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000082.html">ORG_0000082 - labor union disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000083.html">ORG_0000083 - person membership</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000084.html">ORG_0000084 - person member role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000085.html">ORG_0000085 - person member grantor role</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000086.html">ORG_0000086 - academic department disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000087.html">ORG_0000087 - academic college disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000088.html">ORG_0000088 - committee disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000089.html">ORG_0000089 - pre-school disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000090.html">ORG_0000090 - primary school disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000091.html">ORG_0000091 - middle school disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000092.html">ORG_0000092 - secondary school disposition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000093.html">ORG_0000093 - ror active status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-ORG_0000094.html">ORG_0000094 - ror inactive status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-Concept.html">Concept - concept (skos)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-Instant.html">Instant - time instant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doc-TemporalUnit.html">TemporalUnit - temporal unit</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="doc-BFO_0000001.html" class="btn btn-neutral float-right" title="BFO_0000001 - entity" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="doc-ORG_1000001.html" class="btn btn-neutral float-left" title="ORG_1000001 - vivo 1 ontology reference" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, The VIVO Project
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

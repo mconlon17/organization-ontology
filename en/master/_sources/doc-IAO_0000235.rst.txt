@@ -1,0 +1,28 @@
+
+  .. index:: 
+     single: IAO_0000235; denoted by
+     single: denoted by; IAO_0000235
+
+IAO_0000235 - denoted by
+====================================================================================
+
+.. topic:: Label
+
+    denoted by
+
+.. topic:: Sub property of
+
+    :doc:`doc-IAO_0000136`
+
+.. topic:: Definition
+
+    Inverse of the relation 'denotes'
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl
+
+.. topic:: Term editor
+
+    Person: Jie Zheng, Chris Stoeckert, Mike Conlon
+

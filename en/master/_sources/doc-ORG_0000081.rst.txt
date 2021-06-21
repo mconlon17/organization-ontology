@@ -1,0 +1,40 @@
+
+  .. index:: 
+     single: ORG_0000081; performing disposition
+     single: performing disposition; ORG_0000081
+
+ORG_0000081 - performing disposition
+====================================================================================
+
+.. topic:: Label
+
+    performing disposition
+
+.. topic:: Editor preferred label
+
+    performing
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    The disposition of an organization to perform live or recorded music, theatre, or dance
+
+.. topic:: Definition source
+
+    https://en.wikipedia.org/wiki/Performing_arts
+
+.. topic:: Example
+
+    The Bolshoi Ballet, the Royal Shakespeare Company, the local community theater, the Metropolitan Opera are all organizations with performing disposition
+
+.. topic:: Editor's note
+
+    Added for completeness with schema.org
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

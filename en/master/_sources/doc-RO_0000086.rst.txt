@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: RO_0000086; has quality
+     single: has quality; RO_0000086
+
+RO_0000086 - has quality
+====================================================================================
+
+.. topic:: Label
+
+    has quality
+
+.. topic:: Alternate name
+
+    has_quality
+
+.. topic:: Sub property of
+
+    :doc:`doc-RO_0000053`
+
+.. topic:: Definition
+
+    A relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence
+
+.. topic:: Example
+
+    this apple has quality this red color
+
+.. topic:: Editor's note
+
+    A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/ro/releases/2021-03-08/ro.owl
+

@@ -1,0 +1,44 @@
+
+  .. index:: 
+     single: ORG_0000091; middle school disposition
+     single: middle school disposition; ORG_0000091
+
+ORG_0000091 - middle school disposition
+====================================================================================
+
+.. topic:: Label
+
+    middle school disposition
+
+.. topic:: Editor preferred label
+
+    middle school
+
+.. topic:: Alternate name
+
+    junior high school
+
+    intermediate school
+
+    lower secondary school
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    The disposition of an organization to provide education for children, varying by jurisdiction, but often in the age range 11-14
+
+.. topic:: Definition source
+
+    https://en.wikipedia.org/wiki/Middle_school
+
+.. topic:: Example
+
+    Community Day Charter School is a middle school in Lawrence, Massachusetts
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

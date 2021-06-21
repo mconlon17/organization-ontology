@@ -1,0 +1,36 @@
+
+  .. index:: 
+     single: ORG_0000055; succession process
+     single: succession process; ORG_0000055
+
+ORG_0000055 - succession process
+====================================================================================
+
+.. topic:: Label
+
+    succession process
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000015`
+
+.. topic:: Definition
+
+    The process by which one organization gores out of existence and is succeeded by a new organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Central People's Government of the People's Republic of China was proclaimed by Mao Zedong on October 1, 1949 at 3PM replacing the government of the Republic of China.
+
+.. topic:: Editor's note
+
+    The succession process typically has founding and dissolution processes as occurent parts
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

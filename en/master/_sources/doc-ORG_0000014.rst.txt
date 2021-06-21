@@ -1,0 +1,44 @@
+
+  .. index:: 
+     single: ORG_0000014; philanthropy disposition
+     single: philanthropy disposition; ORG_0000014
+
+ORG_0000014 - philanthropy disposition
+====================================================================================
+
+.. topic:: Label
+
+    philanthropy disposition
+
+.. topic:: Editor preferred label
+
+    philanthropy
+
+.. topic:: Alternate name
+
+    philanthropic
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    A disposition to donate charitable causes, sometimes in the form of grants involving contracts regarding the use of the donated funds or effort.
+
+.. topic:: Definition source
+
+    https://www.dictionary.com/browse/philanthropy
+
+.. topic:: Example
+
+    The Wellcome Trust, The Bill and Melinda Gates Foundation, The Sierra Club have dispositions of philanthropy
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Foundation
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

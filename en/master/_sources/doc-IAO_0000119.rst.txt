@@ -1,0 +1,30 @@
+
+  .. index:: 
+     single: IAO_0000119; definition source
+     single: definition source; IAO_0000119
+
+IAO_0000119 - definition source
+====================================================================================
+
+.. topic:: Label
+
+    definition source
+
+.. topic:: Editor preferred label
+
+    definition source
+
+.. topic:: Definition
+
+    Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007
+
+.. topic:: Definition source
+
+    Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w
+
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
+
+.. topic:: Term editor
+
+    PERSON:Daniel Schober
+

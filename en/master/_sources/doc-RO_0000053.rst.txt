@@ -1,0 +1,38 @@
+
+  .. index:: 
+     single: RO_0000053; bearer of
+     single: bearer of; RO_0000053
+
+RO_0000053 - bearer of
+====================================================================================
+
+.. topic:: Label
+
+    bearer of
+
+.. topic:: Editor preferred label
+
+    bearer of
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    A relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence
+
+.. topic:: Example
+
+    this apple is bearer of this red color
+
+    this vase is bearer of this fragility
+
+.. topic:: Editor's note
+
+    A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+

@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_2000011; affiliated with
+     single: affiliated with; ORG_2000011
+
+ORG_2000011 - affiliated with
+====================================================================================
+
+.. topic:: Label
+
+    affiliated with
+
+.. topic:: Alternate name
+
+    linked to
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates an organization with another organization that is not an organizational part associatiion
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Example
+
+    The Theatre Library Association is an affiliate of the American Library Association
+
+.. topic:: Editor's note
+
+    Affiliate relationships exist in many different types of configurations across all sorts of industries.  This term has very broad semantics.
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#affiliatedOrganization
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

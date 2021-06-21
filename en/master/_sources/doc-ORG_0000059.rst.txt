@@ -1,0 +1,32 @@
+
+  .. index:: 
+     single: ORG_0000059; spin-off process boundary
+     single: spin-off process boundary; ORG_0000059
+
+ORG_0000059 - spin-off process boundary
+====================================================================================
+
+.. topic:: Label
+
+    spin-off process boundary
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000035`
+
+.. topic:: Definition
+
+    The boundary of a spin-off process
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    Spin-off process boundaries include moments such as incorporation, board formation, funding ac quisition, and patent licensing
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

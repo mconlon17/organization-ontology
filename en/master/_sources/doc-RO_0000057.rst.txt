@@ -1,0 +1,40 @@
+
+  .. index:: 
+     single: RO_0000057; has participant
+     single: has participant; RO_0000057
+
+RO_0000057 - has participant
+====================================================================================
+
+.. topic:: Label
+
+    has participant
+
+.. topic:: Editor preferred label
+
+    has participant
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    A relation between a process and a continuant, in which the continuant is somehow involved in the process
+
+.. topic:: Example
+
+    this investigation has participant this investigator
+
+    this blood coagulation has participant this blood clot
+
+    this process has participant this input material (or this output material)
+
+.. topic:: Editor's note
+
+    Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl
+

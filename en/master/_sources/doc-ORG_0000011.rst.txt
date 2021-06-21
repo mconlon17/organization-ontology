@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_0000011; laboratory disposition
+     single: laboratory disposition; ORG_0000011
+
+ORG_0000011 - laboratory disposition
+====================================================================================
+
+.. topic:: Label
+
+    laboratory disposition
+
+.. topic:: Editor preferred label
+
+    laboratory
+
+.. topic:: Alternate name
+
+    lab
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    A disposition to provide laboratory services.  In the US, organization parts in universities that have a disposition to provide laboratory services to others are called core laboratories
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    The Interdisciplinary Center for Biotechnology Rsearch is a part of the university with a disposition to offer laboratory services to others
+
+.. topic:: Editor's note
+
+    The word "core laboratory" may indicate that an organization has a disposition of laboratory services
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://vivoweb.org/ontology/core#Laboratory
+
+    http://vivoweb.org/ontology/core#ServiceProvidingLaboratory
+
+    http://vivoweb.org/ontology/core#CoreLaboratory
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

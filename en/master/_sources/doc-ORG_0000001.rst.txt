@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_0000001; organization
+     single: organization; ORG_0000001
+
+ORG_0000001 - organization
+====================================================================================
+
+.. topic:: Label
+
+    organization
+
+.. topic:: Editor preferred label
+
+    test
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000031`
+
+.. topic:: Definition
+
+    A group of people recognized as such by people outside the group that come together for a purpose.
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Example
+
+    A political party, a homeowners association, a football team, a publisher, a government agency, an organized religion
+
+.. topic:: Similar term in VIVO 1 Ontology
+
+    http://xmlns.com/foaf/0.1/Organization
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: See also
+
+    http://aims.fao.org/aos/geopolitical.owl#organization
+
+    www.w3.org/ns/org#organization
+
+    http://purl.obolibrary.org/obo/OBI_0000245
+
+    http://xmlns.com/foaf/0.1/Organization
+
+    http://www.w3.org/2006/vcard/ns#Organization
+

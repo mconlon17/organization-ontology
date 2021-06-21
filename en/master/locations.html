@@ -1,0 +1,353 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Locations &mdash; The Organization Ontology  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Dates and Times" href="datetimes.html" />
+    <link rel="prev" title="Facilities" href="facilities.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> The Organization Ontology
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                v0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="domain-definition.html">Organization Ontology Domain Definition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="identifiers.html">Identifiers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addresses.html">Addresses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="facilities.html">Facilities</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetimes.html">Dates and Times</a></li>
+<li class="toctree-l1"><a class="reference internal" href="associations.html">Associations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annotation-properties.html">Annotation properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classes.html">Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="object-properties.html">Object Properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datatype-properties.html">Datatype Properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="named-individuals.html">Named Individuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="out-of-scope.html">Out of Scope Terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vivo-to-org.html">Translating from VIVO to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ror-to-org.html">Translating from ROR to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema-to-org.html">Translating from schema.org to the Organization Ontology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-dates.html">Dates Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ontology-authors.html">For Ontology Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation-authors.html">For Documentation Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes-and-sources.html">Notes and Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">The Organization Ontology</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Locations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/locations.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <span class="target" id="locations"></span><section id="index-0">
+<span id="id1"></span><h1>Locations<a class="headerlink" href="#index-0" title="Permalink to this headline">¶</a></h1>
+<p>The Organization Ontology represents locations as places on the earth.  The following
+entities have locations:</p>
+<ul class="simple">
+<li><p>continents</p></li>
+<li><p>countries.  Including disputed countries <a class="footnote-reference brackets" href="#id4" id="id2">1</a>.</p></li>
+<li><p>regions of countries.  These may have many different names based on the local
+jurisdiction, such as territory, state, region, province, or even “kingdom” in the
+case of the United Kingdom.</p></li>
+<li><p>populated places, which may be cities <a class="footnote-reference brackets" href="#id5" id="id3">2</a>.  These need not be legally recognized,
+merely recognized by people outside the populated place.</p></li>
+<li><p><a class="reference internal" href="facilities.html"><span class="doc">facilities</span></a></p></li>
+</ul>
+<section id="properties-of-locations">
+<h2>Properties of Locations<a class="headerlink" href="#properties-of-locations" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>located in.  The Louvre is located in Paris.  Paris is located in France.  Metropolitan
+France is located in Europe.</p></li>
+<li><p>has geographic representation – a text string of latitude and longitude of (hopefully)
+the centroid of the location.  For example, Paris has geographical representation
+“48.864716,2.349014”  Note there are no compass designations (E, W, N. S) in the
+representation. A negative latitude is south of the equator, a positive latitude is
+north of the equator.  A negative longitude is east of the prime meridian,a positive
+longitude is west of the prime meridian.</p></li>
+</ul>
+</section>
+<section id="relations-of-locations-to-organizations-and-facilities">
+<h2>Relations of Locations to Organizations and Facilities<a class="headerlink" href="#relations-of-locations-to-organizations-and-facilities" title="Permalink to this headline">¶</a></h2>
+<p>Organizations occupy locations.  They are not “located in” locations for two reasons:</p>
+<ol class="arabic simple">
+<li><p>Organizations are not material.  Only material things have locations.  An Organization
+such as a chess club may meet in a variety of locations, but they are not located
+in a location.  An organization such as Amazon has a presence in many locations.</p></li>
+<li><p>“located in” means all of something located wholly within something else.</p></li>
+</ol>
+<p>Organizations occupy locations.  This means they have some legal right to the location
+(own, lease, title, other) or they have one or more persons affiliated with the
+organization who is at the location (all or some of the time). While
+occupation may involve disputes, most do not.</p>
+<p>We can then say</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="s1">&#39;occupies&#39;</span> <span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="n">Gainesville</span> <span class="n">campus</span>
+<span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="n">Gainesville</span> <span class="n">campus</span> <span class="s1">&#39;is located in&#39;</span> <span class="n">Gainesville</span>
+<span class="n">The</span> <span class="n">University</span> <span class="n">of</span> <span class="n">Florida</span> <span class="n">Gainesville</span> <span class="n">campus</span> <span class="s1">&#39;has geolocation representation&#39;</span> <span class="s2">&quot;29.6436325,-82.3571242&quot;</span>
+</pre></div>
+</div>
+<p>Note that ‘located in’ is transitive.  Gainesville is located in Florida.  Florida is
+located in the United States.  We can infer that the University of Florida campus is
+located in the United States.</p>
+<p><a class="reference internal" href="organizations.html"><span class="doc">Organizations</span></a> do not have locations.  Facilities, and buildings
+have locations. Campuses have locations.</p>
+<p><a class="reference internal" href="#table-15"><span class="std std-ref">Table 15 Terms used to represent locations</span></a> lists terms used in the representation of locations</p>
+<span id="table-15"></span><table class="docutils align-default" id="id6">
+<caption><span class="caption-text">Table 15 Terms used to represent locations</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 73%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Term</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000040.html"><span class="doc">ORG_0000040 - architectural structure</span></a></p></td>
+<td><p>A man-made construction attached to the ground, a bauwerk</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000041.html"><span class="doc">ORG_0000041 - campus</span></a></p></td>
+<td><p>The grounds of a business, university, or other</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000042.html"><span class="doc">ORG_0000042 - facility</span></a></p></td>
+<td><p>An architectural structure with a function</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000043.html"><span class="doc">ORG_0000043 - building</span></a></p></td>
+<td><p>A permanent walled and roofed construction</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000044.html"><span class="doc">ORG_0000044 - room</span></a></p></td>
+<td><p>A space delineated by partitions in a building</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000047.html"><span class="doc">ORG_0000047 - continent</span></a></p></td>
+<td><p>One of the seven major land masses of the earth</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000048.html"><span class="doc">ORG_0000048 - country</span></a></p></td>
+<td><p>The territory occupied by a sovereign state</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000049.html"><span class="doc">ORG_0000049 - region</span></a></p></td>
+<td><p>Any subdivision of the territory of a country</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000050.html"><span class="doc">ORG_0000050 - populated place</span></a></p></td>
+<td><p>Any named place on the earth occupied by people</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_2000002.html"><span class="doc">ORG_2000002 - has occurent part</span></a></p></td>
+<td><p>The relation indicating an organization occupies a location</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-RO_0001015.html"><span class="doc">RO_0001015 - location of</span></a></p></td>
+<td><p>Location of</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-RO_0001025.html"><span class="doc">RO_0001025 - located in</span></a></p></td>
+<td><p>Located in</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_0000045.html"><span class="doc">ORG_0000045 - geographic region</span></a></p></td>
+<td><p>A geographical location on the earth</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="doc-ORG_0000046.html"><span class="doc">ORG_0000046 - geographic point</span></a></p></td>
+<td><p>A point on the earth</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="doc-ORG_3000004.html"><span class="doc">ORG_3000004 - has geolocation representation</span></a></p></td>
+<td><p>A geolocation representation as lat,long</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id4"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p>definition of “countries” is a matter of dispute and controversy.  Any list of
+countries is subject to dispute.</p>
+</dd>
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
+<dd><p>A city often means a governed place, or the government of the place, “The City
+of New York”  For our purposes we do not distinguish between city, town, village or
+other possibly formal, legal designations.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="datetimes.html" class="btn btn-neutral float-right" title="Dates and Times" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="facilities.html" class="btn btn-neutral float-left" title="Facilities" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, The VIVO Project
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

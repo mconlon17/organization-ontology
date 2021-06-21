@@ -1,0 +1,38 @@
+
+  .. index:: 
+     single: IAO_0022027; wikidata q number
+     single: wikidata q number; IAO_0022027
+
+IAO_0022027 - wikidata q number
+====================================================================================
+
+.. topic:: Label
+
+    wikidata q number
+
+.. topic:: Editor preferred label
+
+    QID
+
+    http://purl.obolibrary.org/obo/IAO_0000123
+
+.. topic:: Sub class of
+
+    :doc:`doc-IAO_0000578`
+
+.. topic:: Definition
+
+    QID (or Q number) is the unique identifier of a data item on Wikidata, comprising the letter "Q" followed by one or more digits.
+
+.. topic:: Definition source
+
+    https://www.wikidata.org/wiki/Q43649390
+
+.. topic:: Imported from
+
+    http://purl.obolibrary.org/obo/iao/ido/release/2021-02-19/ido.owl
+
+.. topic:: Term editor
+
+    PERSON: Michael Conlon
+

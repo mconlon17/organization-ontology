@@ -1,0 +1,28 @@
+
+  .. index:: 
+     single: IAO_0000111; editor preferred label
+     single: editor preferred label; IAO_0000111
+
+IAO_0000111 - editor preferred label
+====================================================================================
+
+.. topic:: Label
+
+    editor preferred label
+
+.. topic:: Editor preferred label
+
+    editor preferred term
+
+.. topic:: Definition
+
+    The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)
+
+.. topic:: Definition source
+
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
+
+.. topic:: Term editor
+
+    PERSON:Daniel Schober
+

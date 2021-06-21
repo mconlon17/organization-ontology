@@ -1,0 +1,48 @@
+
+  .. index:: 
+     single: ORG_3000002; has email representation
+     single: has email representation; ORG_3000002
+
+ORG_3000002 - has email representation
+====================================================================================
+
+.. topic:: Label
+
+    has email representation
+
+.. topic:: Alternate name
+
+    has email value
+
+.. topic:: Sub property of
+
+    :doc:`doc-OBI_0002815`
+
+.. topic:: Definition
+
+    Specifies the email address string for an email address
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+
+.. topic:: Domain
+
+    :doc:`doc-IAO_0000429`
+
+.. topic:: Range
+
+    http://www.w3.org/2001/XMLSchema#string
+
+.. topic:: Example
+
+    info@metabolomics.info
+
+.. topic:: Editor's note
+
+    Regex pattern restriction for RFC ??? Email addresses
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

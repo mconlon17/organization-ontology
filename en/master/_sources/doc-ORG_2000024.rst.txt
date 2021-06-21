@@ -1,0 +1,52 @@
+
+  .. index:: 
+     single: ORG_2000024; has organizational appointee
+     single: has organizational appointee; ORG_2000024
+
+ORG_2000024 - has organizational appointee
+====================================================================================
+
+.. topic:: Label
+
+    has organizational appointee
+
+.. topic:: Editor preferred label
+
+    has appointee
+
+.. topic:: Sub property of
+
+    http://www.w3.org/2002/07/owl#topObjectProperty
+
+.. topic:: Definition
+
+    The property that associates an organization with a person who is appointed by the organization to some post or position within the organization
+
+.. topic:: Definition source
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+
+.. topic:: Domain
+
+    :doc:`doc-ORG_0000001`
+
+.. topic:: Range
+
+    :doc:`doc-NCBITaxon_9606`
+
+.. topic:: Inverse of
+
+    :doc:`doc-ORG_2000025`
+
+.. topic:: Example
+
+    As of this writing, the government of the UK has appointed Amanda Milling Minister without Portfolio (unpaid)
+
+.. topic:: Editor's note
+
+    Appointee typically includes a title, may or may not include a salary.
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8448
+

@@ -1,0 +1,40 @@
+
+  .. index:: 
+     single: ORG_0000080; media disposition
+     single: media disposition; ORG_0000080
+
+ORG_0000080 - media disposition
+====================================================================================
+
+.. topic:: Label
+
+    media disposition
+
+.. topic:: Editor preferred label
+
+    media
+
+.. topic:: Sub class of
+
+    :doc:`doc-BFO_0000016`
+
+.. topic:: Definition
+
+    The disposition of an organization that creates, transmits, and/or licenses live or recorded material for viewing by others
+
+.. topic:: Definition source
+
+    https://www.macmillandictionary.com/dictionary/british/media-organization
+
+.. topic:: Example
+
+    NBC, BBC, CNN, EFE News Agency and the Japan Times all have media dispositions
+
+.. topic:: Editor's note
+
+    Added for completeness with schema.org
+
+.. topic:: Term editor
+
+    Michael Conlon https://orcid.org/0000-0002-1304-8447
+

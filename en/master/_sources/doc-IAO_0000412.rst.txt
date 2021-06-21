@@ -1,0 +1,30 @@
+
+  .. index:: 
+     single: IAO_0000412; imported from
+     single: imported from; IAO_0000412
+
+IAO_0000412 - imported from
+====================================================================================
+
+.. topic:: Label
+
+    imported from
+
+.. topic:: Editor preferred label
+
+    imported from
+
+.. topic:: Definition
+
+    For external terms/classes, the ontology from which the term was imported
+
+.. topic:: Definition source
+
+    GROUP:OBI:<http://purl.obolibrary.org/obo/obi>
+
+.. topic:: Term editor
+
+    PERSON:Melanie Courtot
+
+    PERSON:Alan Ruttenberg
+
